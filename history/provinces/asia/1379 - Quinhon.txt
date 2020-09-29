@@ -1,0 +1,6 @@
+owner = DAN
+controller = DAN
+add_core = DAN
+add_core = CHA
+trade_goods = silk
+life_rating = 34

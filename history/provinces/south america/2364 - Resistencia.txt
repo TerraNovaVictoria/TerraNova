@@ -1,0 +1,4 @@
+add_core = CHR
+trade_goods = timber
+terrain = savanna
+life_rating = 15

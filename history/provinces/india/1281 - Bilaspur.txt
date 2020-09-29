@@ -1,0 +1,12 @@
+owner = MAR
+controller = MAR
+add_core = MAR
+add_core = NAG
+add_core = HND
+trade_goods = grain
+life_rating = 32
+1861.1.1 = {
+	owner = CYM
+	controller = CYM
+	colonial = 2
+}

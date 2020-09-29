@@ -1,0 +1,23 @@
+# Colombia-Qutio
+vassal = {
+	first = GCO
+	second = QUI
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+
+# Colombia-Kapuy
+vassal = {
+	first = GCO
+	second = KAP
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+
+# Colombia-Charrua
+vassal = {
+	first = GCO
+	second = CHR
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}

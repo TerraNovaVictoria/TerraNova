@@ -1,0 +1,7 @@
+owner = FDL
+controller = FDL
+add_core = FDL
+add_core = MHR
+trade_goods = fish
+life_rating = 32
+terrain = semidesert

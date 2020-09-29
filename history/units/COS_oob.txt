@@ -1,0 +1,20 @@
+GUA = {
+	value = -200		#relation
+}
+
+army = {
+	name = "Ejército de Rivas"
+	location = 2198
+	
+	regiment = {
+		name = "1. Brigada Infantería"
+		type = infantry
+		home = 2193
+	}
+	
+	regiment = {
+		name = "2. Brigada Infantería"
+		type = infantry
+		home = 2197
+	}
+}

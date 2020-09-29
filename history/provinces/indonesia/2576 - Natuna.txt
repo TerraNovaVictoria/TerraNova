@@ -1,0 +1,8 @@
+owner = CYM
+controller = CYM
+add_core = MLC
+add_core = SAK
+trade_goods = fish
+terrain = small_island
+life_rating = 31
+colonial = 2

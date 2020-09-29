@@ -1,0 +1,28 @@
+name = "Ionian Uprising"
+
+1835.12.12 = {
+	add_attacker = ANA
+	add_defender = ANT
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = conquest
+		actor = ANA
+		receiver = ANT
+	}
+	war_goal = {
+		casus_belli = cut_down_to_size
+		actor = ANT
+		receiver = ANA
+	}
+
+}
+
+1836.4.21 = {
+	rem_attacker = ANA
+	rem_defender = ANT
+}

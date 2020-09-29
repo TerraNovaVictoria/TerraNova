@@ -1,0 +1,8 @@
+owner = SPC
+controller = SPC
+add_core = SPC
+add_core = SPA
+#terrain = urban
+trade_goods = fish
+life_rating = 35
+terrain = gibraltar

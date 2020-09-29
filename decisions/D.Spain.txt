@@ -1,0 +1,165 @@
+political_decisions = {
+
+	###SPANISH CIVIL WAR ENDING DECISIONS###
+
+	republican_victory = {
+		picture = "civil_war_in_spain"
+		potential = {
+			tag = SPC
+			489 = {
+				owned_by = SPC
+				owner = { 
+					war = yes
+				}	
+			}
+			NOT = { has_global_flag = end_of_spanish_civil_war }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					SPA = {
+						war_exhaustion = 55
+					}
+					487 = { controlled_by = THIS }
+				}
+				AND = {
+					477 = { controlled_by = THIS }
+					487 = { controlled_by = THIS }
+					498 = { controlled_by = THIS }
+					495 = { controlled_by = THIS }
+				}
+			}
+		}
+		
+		effect = {
+			set_global_flag = end_of_spanish_civil_war
+			prestige = 25
+			SPA = {
+				all_core = {
+					remove_core = SPA
+				}
+			}
+			SPC = { inherit = SPA }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	royalist_victory = {
+		picture = "civil_war_in_spain"
+		potential = {
+			tag = SPA
+			487 = {
+				owned_by = SPA
+				owner = { 
+					war = yes
+				}	
+			}
+			NOT = { has_global_flag = end_of_spanish_civil_war }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					SPC = {
+						war_exhaustion = 55
+					}
+					489 = { controlled_by = THIS }
+				}
+				AND = {
+					489 = { controlled_by = THIS }
+					503 = { controlled_by = THIS }
+					512 = { controlled_by = THIS }
+					516 = { controlled_by = THIS }
+				}
+			}
+		}
+		
+		effect = {
+			set_global_flag = end_of_spanish_civil_war
+			prestige = 35
+			SPC = {
+				all_core = {
+					remove_core = SPC
+				}
+			}
+			SPA = { inherit = SPC }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	###GALICIAN MATTER DECISION###
+	
+	deal_with_galicia_spc = {
+		picture = "civil_war_in_spain"
+		potential = {
+			tag = SPC
+			exists = GLC
+			NOT = { has_country_flag = spanish_galician_negotiations }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_country_flag = spanish_galician_negotiations
+			prestige = 5
+			THIS = { country_event = 777707 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	deal_with_galicia_spa = {
+		picture = "civil_war_in_spain"
+		potential = {
+			tag = SPA
+			exists = GLC
+			NOT = { has_country_flag = spanish_galician_negotiations }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_country_flag = spanish_galician_negotiations
+			prestige = 5
+			THIS = { country_event = 777708 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	occupy_andorra = {
+		picture = "civil_war_in_spain"
+		potential = {
+			tag = SPC
+			exists = ADO
+			has_country_flag = galician_affairs_completed
+			NOT = { has_country_flag = spanish_occupation_of_andorra }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_country_flag = spanish_occupation_of_andorra
+			prestige = 5
+			badboy = 2.5
+			ADO = { country_event = 777713 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

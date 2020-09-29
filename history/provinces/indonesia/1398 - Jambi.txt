@@ -1,0 +1,7 @@
+owner = DJA
+controller = DJA
+add_core = MLC
+add_core = DJA
+trade_goods = grain
+life_rating = 31
+colonial = 2

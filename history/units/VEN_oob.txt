@@ -1,0 +1,199 @@
+#Army
+
+army = {
+	name = "Armata di Terraferma"
+	location = 729
+	regiment = {
+		name= "1a Divisione di fanteria"
+		type = infantry
+		home = 729
+	}
+	
+	regiment = {
+		name= "2a Divisione di fanteria"
+		type = infantry
+		home = 731
+	}
+	
+	regiment = {
+		name= "3a Divisione di fanteria"
+		type = infantry
+		home = 730
+	}
+
+	regiment = {
+		name= "1a Divisione di cavalleria"
+		type = cuirassier
+		home = 727
+	}
+	
+	regiment = {
+		name= "2a Divisione di cavalleria"
+		type = cuirassier
+		home = 728
+	}
+
+}
+
+army = {
+	name = "Armata del Peloponneso"
+	location = 841
+	regiment = {
+		name= "1a Divisione di fanteria"
+		type = infantry
+		home = 842
+	}
+	
+	regiment = {
+		name= "2a Divisione di fanteria"
+		type = infantry
+		home = 824
+	}
+	
+	regiment = {
+		name= "3a Divisione di fanteria"
+		type = infantry
+		home = 824
+	}
+
+}
+
+army = {
+	name = "Armata delle Indie Orientali"
+	location = 1413
+	regiment = {
+		name= "1a Divisione di fanteria"
+		type = infantry
+		home = 1413
+	}
+	
+	regiment = {
+		name= "2a Divisione di fanteria"
+		type = infantry
+		home = 1413
+	}
+	
+	regiment = {
+		name= "3a Divisione di fanteria"
+		type = infantry
+		home = 1429
+	}
+	
+	regiment = {
+		name= "4a Divisione di fanteria"
+		type = infantry
+		home = 826
+	}
+	
+	regiment = {
+		name= "5a Divisione di fanteria"
+		type = infantry
+		home = 824
+	}
+
+}
+
+#Indonesian Minors
+BNJ = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+PAG = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+SLW = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+JAV = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+#Afro-European
+
+EGY = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+MRE = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+RMD = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+DLM = {	
+	value = 150
+	level = 5
+	influence_value = 0
+}
+
+CYP = {	
+	value = 200
+	level = 5
+	influence_value = 0
+}
+
+HER = {	
+	value = 200
+	level = 5
+	influence_value = 0
+}
+
+ATH = {	
+	value = 150
+	level = 5
+	influence_value = 0
+}
+
+LAR = {	
+	value = 50
+	level = 4
+	influence_value = 0
+}
+
+MCD = {	
+	value = 50
+	level = 4
+	influence_value = 0
+}
+
+BAL = {	
+	value = 200
+	level = 5
+	influence_value = 0
+}
+
+ALB = {	
+	value = 200
+	level = 5
+	influence_value = 0
+}
+
+FER = {	
+	value = 50
+	level = 4
+	influence_value = 0
+}
+
+SIC = {	
+	value = 50
+	level = 3
+	influence_value = 0
+}

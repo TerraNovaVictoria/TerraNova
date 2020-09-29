@@ -1,0 +1,7 @@
+owner = CYM
+controller = CYM
+add_core = BNG
+add_core = HND
+trade_goods = dye
+life_rating = 35
+colonial = 2

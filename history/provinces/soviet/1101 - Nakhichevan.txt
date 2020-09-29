@@ -1,0 +1,7 @@
+owner = TRY
+controller = TRY
+add_core = ROM
+add_core = ALA
+add_core = TRY
+trade_goods = iron
+life_rating = 35

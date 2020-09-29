@@ -1,0 +1,7 @@
+owner = GCO
+controller = GCO
+add_core = GCO
+trade_goods = cotton
+life_rating = 35
+colonial = 2
+terrain = new_world_small_island

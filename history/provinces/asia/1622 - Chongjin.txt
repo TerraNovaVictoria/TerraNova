@@ -1,0 +1,7 @@
+owner = JIA
+controller = JIA
+add_core = JIA
+add_core = MCK
+add_core = CHI
+trade_goods = coal
+life_rating = 31

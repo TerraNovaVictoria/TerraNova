@@ -1,0 +1,40 @@
+TRS = {
+	value = -200		#relation
+}
+
+leader = {
+	name = "Francisco Morazán"
+	type = land
+	date = 1836.1.1
+	personality = stout
+	background = generals_aide
+}
+
+army = {
+	name = "Ejército de Chiapas"
+	location = 2181
+	
+	regiment = {
+		name = "1. Brigada Infantería"
+		type = infantry
+		home = 2181
+	}
+	
+	regiment = {
+		name = "2. Brigada Infantería"
+		type = irregular
+		home = 2181
+	}
+	
+	regiment = {
+		name = "3. Brigada Infantería"
+		type = irregular
+		home = 2165
+	}
+	
+	regiment = {
+		name = "3. Brigada Infantería"
+		type = irregular
+		home = 2165
+	}
+}

@@ -1,0 +1,6 @@
+owner = BID
+controller = BID
+add_core = BID
+add_core = SOK
+trade_goods = grain
+life_rating = 35

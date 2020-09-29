@@ -1,0 +1,253 @@
+#####THE IONIAN REVOLUTION#####
+
+country_event = {
+	id = 015566
+	title = "EVTNAME015566" #The Revolution hits Morea
+	desc = "EVTDESC015566"
+	picture = "greek_revolution"
+	
+	trigger = {
+		tag = MRE
+		OR = {
+			NOT = { has_country_flag = embraced_ionian_revolution }
+			NOT = { has_country_flag = accepted_ionian_revolution }
+			NOT = { has_country_flag = crushed_ionian_revolution }
+		}
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT015566A"
+		prestige = 5
+		any_pop = { militancy = 4 }
+		set_country_flag = crushed_ionian_revolution
+		ai_chance = { factor = 5 }
+	}
+	
+	option = {
+		name = "EVTOPT015566B"
+		prestige = 2.5
+		government = prussian_constitutionalism
+		political_reform = landed_voting
+		political_reform = censored_press
+		political_reform = confederalism
+		political_reform = gerrymandering
+		any_pop = { militancy = 2 }
+		set_country_flag = accepted_ionian_revolution
+		ai_chance = { factor = 25 }
+	}
+	
+	option = {
+		name = "EVTOPT015566C"
+		prestige = -2.5
+		government = democracy
+		political_reform = universal_weighted_voting
+		political_reform = free_press
+		political_reform = federalism
+		political_reform = gerrymandering
+		set_country_flag = embraced_ionian_revolution
+		ai_chance = { factor = 70 }
+	}
+}
+
+country_event = {
+	id = 025566
+	title = "EVTNAME025566" #Morea becomes Greece
+	desc = "EVTDESC025566"
+	picture = "greek_parliament"
+	
+	trigger = {
+		tag = MRE
+		OR = {
+			has_country_flag = embraced_ionian_revolution
+			has_country_flag = accepted_ionian_revolution
+		}
+	}
+	
+	mean_time_to_happen = { months = 1 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT025566A"
+		any_pop = { militancy = -2 }
+		relation = { who = SPC value = 100 }
+		relation = { who = RUM value = 200 }
+		relation = { who = ANT value = 200 }
+		change_tag = GRE
+		set_global_flag = end_of_rome
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 035566
+	title = "EVTNAME035566" #Morea restored order
+	desc = "EVTDESC035566"
+	picture = "greek_parliament"
+	
+	trigger = {
+		tag = MRE
+		has_country_flag = crushed_ionian_revolution
+	}
+	
+	mean_time_to_happen = { months = 1 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT035566A"
+		MCD = {
+			any_owned = {
+				add_core = MRE
+			}
+		}
+		LAR = {
+			any_owned = {
+				add_core = MRE
+			}
+		}
+		ATH = {
+			any_owned = {
+				add_core = MRE
+			}
+		}
+		GRE = {
+			any_owned = {
+				add_core = MRE
+			}
+		}
+		BUL = {
+			any_owned = {
+				limit = {
+					is_core = MCD
+				}
+				add_core = MRE
+			}
+		}
+		ALB = {
+			any_owned = {
+				limit = {
+					is_core = LAR
+				}
+				add_core = MRE
+			}
+		}
+		SAM = {
+			any_owned = {
+				limit = {
+					is_core = ATH
+				}
+				add_core = MRE
+			}
+		}
+		prestige = 5
+		set_global_flag = rome_has_prevailed
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 045566
+	title = "EVTNAME045566" #Rejoin Greece? 
+	desc = "EVTDESC045566"
+	picture = "greek_parliament"
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPT045566A"
+		GRE = { inherit = THIS }
+		ai_chance = { factor = 95 }
+	}
+	
+	option = {
+		name = "EVTOPT045566B"
+		GRE = {
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = establish_protectorate_casus_belli }
+			}
+		}
+		prestige = 5
+		ai_chance = { factor = 5 }
+	}
+	
+}
+
+country_event = {
+	id = 055566
+	title = "EVTNAME055566" #Rejoin Morea? 
+	desc = "EVTDESC055566"
+	picture = "greek_parliament"
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPT055566A"
+		MRE = { inherit = THIS }
+		ai_chance = { factor = 95 }
+	}
+	
+	option = {
+		name = "EVTOPT055566B"
+		MRE = {
+			war = {
+				target = THIS
+				attacker_goal = { casus_belli = establish_protectorate_casus_belli }
+			}
+		}
+		prestige = 5
+		ai_chance = { factor = 5 }
+	}
+	
+}
+
+#####ATHENIAN FLAVOR#####
+
+country_event = {
+	id = 065566
+	title = "EVTNAME065566" #The Cult of Athena
+	desc = "EVTDESC065566"
+	picture = "cult_of_athena"
+	
+	trigger = {
+		tag = ATH
+		NOT = { has_country_flag = the_cult_of_athena }
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	fire_only_once = yes
+	
+	immediate = { 
+		consciousness = -1
+		set_country_flag = the_cult_of_athena
+	}
+		
+	option = {
+		name = "EVTOPT065566A"
+		any_pop = { militancy = 1 }
+		add_country_modifier = {
+			name = athenian_cult
+			duration = -1
+		}
+		set_country_flag = denouncing_athena
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPT065566B"
+		any_pop = { militancy = 1 }
+		add_country_modifier = {
+			name = athenian_cult_extreme
+			duration = -1
+		}
+		set_country_flag = supporting_athena
+		ai_chance = { factor = 50 }
+	}
+
+}

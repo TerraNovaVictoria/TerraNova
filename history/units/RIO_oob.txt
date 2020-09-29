@@ -1,0 +1,29 @@
+CHR = {
+	value = -200		#relation
+}
+SPA = {
+	value = -200		#relation
+}
+
+army = {
+	name = "Ejército de Rioja"
+	location = 2385
+	
+	regiment = {
+		name = "1. Brigada Infantería"
+		type = infantry
+		home = 2385
+	}
+	
+	regiment = {
+		name = "2. Brigada Infantería"
+		type = infantry
+		home = 2385
+	}
+	
+	regiment = {
+		name = "3. Brigada Infantería"
+		type = infantry
+		home = 2385
+	}
+}

@@ -1,0 +1,7 @@
+owner = KOS
+controller = KOS
+add_core = KOS
+add_core = KMK
+trade_goods = grain
+life_rating = 35
+colonial = 2

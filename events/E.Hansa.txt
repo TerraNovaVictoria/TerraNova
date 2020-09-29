@@ -1,0 +1,21 @@
+country_event = {
+	id = 140001
+	title = "EVTNAME140001" #Hanseatic Factionalism
+	desc = "EVTDESC140001"
+	picture = "chinese_palace"
+	
+	trigger = {
+		tag = HNL
+		year = 1836
+		NOT = { has_country_flag = hanseatic_factionalism }
+	}
+	
+	mean_time_to_happen = { days = 90 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT140001A"
+		set_country_flag = hanseatic_factionalism
+		ai_chance = { factor = 100 }
+	}
+}

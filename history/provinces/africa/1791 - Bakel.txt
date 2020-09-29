@@ -1,0 +1,8 @@
+owner = FUT
+controller = FUT
+add_core = FUT
+add_core = GBU
+add_core = TOO
+trade_goods = cattle
+terrain = semidesert
+life_rating = 31

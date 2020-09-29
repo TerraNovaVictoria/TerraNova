@@ -1,0 +1,18 @@
+owner = DUI
+controller = DUI
+add_core = DUI
+add_core = RHI
+add_core = GER
+trade_goods = iron
+life_rating = 40
+terrain = essen
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}

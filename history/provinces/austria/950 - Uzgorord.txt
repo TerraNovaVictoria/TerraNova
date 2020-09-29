@@ -1,0 +1,6 @@
+owner = AVR
+controller = AVR
+add_core = AVR
+add_core = RUT
+trade_goods = coal
+life_rating = 35

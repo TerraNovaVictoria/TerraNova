@@ -1,0 +1,8 @@
+owner = RUS
+controller = RUS
+add_core = TRS
+add_core = CAL
+add_core = COL
+trade_goods = fish
+life_rating = 20
+colonial = 2

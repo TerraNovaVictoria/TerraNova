@@ -1,0 +1,6 @@
+owner = MIA
+controller = MIA
+add_core = MIA
+colonial = 2
+trade_goods = grain
+life_rating = 20

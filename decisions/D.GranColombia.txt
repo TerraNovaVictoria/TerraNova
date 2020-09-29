@@ -1,0 +1,316 @@
+political_decisions = {
+
+
+
+	constitutional_assembly_gco = { 
+		picture = buenos_aires_capital
+		potential = {
+			tag = GCO
+			NOT = { has_country_flag = gco_constitution }
+		}
+		
+		allow = {
+			government = colonial_company
+		}
+		
+		effect = {
+			GCO = { country_event = 90010900 }
+			set_country_flag = gco_constitution
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	smol_capital_of_gco = { 
+		picture = restore_richmond_capital
+		potential = {
+			tag = GCO
+			PIK = { exists = yes }
+			KAP = { exists = no }
+			QUI = { exists = no }
+			NOT = { has_country_flag = gco_picked_capital }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			GCO = { country_event = 90030900 }
+			set_country_flag = gco_picked_capital
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	big_capital_of_gco = { 
+		picture = restore_richmond_capital
+		potential = {
+			tag = GCO
+			PIK = { exists = no }
+			CHR = { exists = no }
+			QUI = { exists = no }
+			TRS = { exists = no }
+			has_country_flag = colombia_has_prevailed
+			NOT = { has_country_flag = gco_picked_capital }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			GCO = { country_event = 90040900 }
+			set_country_flag = gco_picked_capital
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	integration_of_quito = { 
+		picture = quito_map
+		potential = {
+			tag = GCO
+			exists = QUI
+		}
+		
+		allow = {
+			war = no
+			QUI = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			QUI = {
+				all_core = {
+					remove_core = QUI
+					add_core = GCO
+				}
+			}
+			GCO = { inherit = QUI }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	conquest_of_borba = {
+		picture = the_jungle
+		potential = {
+			
+			OR = {
+				2418 = { empty = yes }
+				2417 = { empty = yes }
+				2550 = { empty = yes }
+				2405 = { empty = yes }
+			}
+			owns = 2422 #Aganja
+			NOT = { has_country_flag = conquest_of_borba }
+		}
+		
+		allow = {
+			war = no
+		}
+		effect = {
+			set_country_flag = conquest_of_borba
+			prestige = 5
+			random_owned = {
+				limit = {
+					2418 = { empty = yes }
+					2422 = { empty = no }
+				}
+				2418 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					2417 = { empty = yes }
+					2422 = { empty = no }
+				}
+				2417 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					2550 = { empty = yes }
+					2422 = { empty = no }
+				}
+				2550 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					2405 = { empty = yes }
+					2422 = { empty = no }
+				}
+				2405 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	conquest_of_trans_borba = {
+		picture = the_jungle
+		potential = {
+			
+			OR = {
+				2402 = { empty = yes }
+				2403 = { empty = yes }
+				2404 = { empty = yes }
+				2407 = { empty = yes }
+				2549 = { empty = yes }
+			}
+			owns = 2405 #Borba
+			NOT = { has_country_flag = conquest_of_trans_borba }
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				is_greater_power = yes
+				medicine = 1
+			}
+		}
+		effect = {
+			set_country_flag = conquest_of_trans_borba
+			prestige = 5
+			random_owned = {
+				limit = {
+					2549 = { empty = yes }
+					2405 = { empty = no }
+				}
+				2549 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					2402 = { empty = yes }
+					2405 = { empty = no }
+				}
+				2402 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					2403 = { empty = yes }
+					2405 = { empty = no }
+				}
+				2403 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					2404 = { empty = yes }
+					2405 = { empty = no }
+				}
+				2404 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					2407 = { empty = yes }
+					2405 = { empty = no }
+				}
+				2407 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	integrate_kapuy = {
+		picture = "become_guatemala"
+		potential = {
+			tag = GCO
+			2295 = {
+				owned_by = KAP
+			}
+			2316 = {
+				owned_by = KAP
+			}
+			NOT = { has_global_flag = avalonia_begins_to_form }
+			NOT = { exists = QUI }
+			NOT = { exists = PIK }
+			CHR = { government = presidential_dictatorship }
+		}
+		
+		allow = {
+			KAP = { vassal_of = THIS }
+			ideological_thought = 1
+		}
+		
+		effect = {
+			set_global_flag = avalonia_begins_to_form
+			KAP = {
+				all_core = {
+					add_core = AVA
+				}
+			}
+			AVA = { inherit = KAP }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

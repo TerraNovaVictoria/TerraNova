@@ -1,0 +1,10 @@
+owner = MOM
+controller = MOM
+add_core = MOM
+trade_goods = fish
+terrain = savanna
+life_rating = 35
+1861.1.1 = {
+	owner = ZAN
+	controller = ZAN
+}

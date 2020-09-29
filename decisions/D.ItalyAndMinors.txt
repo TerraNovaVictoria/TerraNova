@@ -1,0 +1,73 @@
+political_decisions = {
+
+	aosta_joins_savoy = { 
+		picture = establish_panfrenchism
+		potential = {
+			tag = AOS
+			year = 1837
+			SVY = { exists = yes }
+			NOT = { has_country_flag = aosta_wants_to_join_savoy }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			SVY = { country_event = 10010103 }
+			set_country_flag = aosta_wants_to_join_savoy
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	invite_sardinia_into_sicily = { 
+		picture = establish_panfrenchism
+		potential = {
+			tag = SIC
+			SRD = { exists = yes }
+			SRD = { government = provisional_state }
+			has_country_flag = fate_of_naples_republic
+			NOT = { has_country_flag = invited_sardinia }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			prestige = 2.5
+			SRD = { country_event = 10010104 }
+			set_country_flag = invited_sardinia
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	proclaim_the_sicilian_republic = { 
+		picture = establish_panfrenchism
+		potential = {
+			tag = SIC
+			government = provisional_state 
+			has_country_flag = invited_sardinia 
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			prestige = 2.5
+			government = democracy
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

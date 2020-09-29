@@ -1,0 +1,14 @@
+owner = LHJ
+controller = LHJ
+add_core = LHJ
+add_core = NYE
+add_core = MHR
+add_core = FDL
+trade_goods = fish
+life_rating = 35
+terrain = aden
+1861.1.1 = { 
+	owner = CYM
+	controller = CYM
+	naval_base = 1 
+}

@@ -1,0 +1,107 @@
+political_decisions = {
+
+	integration_of_lanna = { 
+		picture = lanna_flag
+		potential = {
+			tag = SIA
+			exists = LNN
+			NOT = { has_country_flag = integrated_lanna }
+		}
+		
+		allow = {
+			civilized = yes
+			LNN = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			set_country_flag = integrated_lanna
+			LNN = {
+				all_core = {
+					remove_core = LNN
+				}
+			}
+			SIA = { inherit = LNN }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	claim_laos = { 
+		picture = thai_map
+		potential = {
+			tag = SIA
+			owns = 1359
+			NOT = { has_country_flag = claimed_laos }
+		}
+		
+		allow = {
+			war = no
+			NOT = { KHM = { civilized = yes } }
+			NOT = { CHK = { civilized = yes } }
+		}
+		
+		effect = {
+			badboy = 10
+			CHK = {
+				all_core = {
+					add_core = SIA
+				}
+			}
+			KHM = {
+				all_core = {
+					add_core = SIA
+				}
+			}
+			set_country_flag = claimed_laos
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	claim_cambodia = { 
+		picture = thai_map
+		potential = {
+			tag = SIA
+			exists = CAM
+			NOT = { has_country_flag = claimed_cambodia }
+		}
+		
+		allow = {
+			war = no
+			civilized = yes
+			SIA = { all_core = { owned_by = THIS } }
+		}
+		
+		effect = {
+			badboy = 5
+			CAM = {
+				all_core = {
+					add_core = SIA
+				}
+			}
+			set_country_flag = claimed_cambodia
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

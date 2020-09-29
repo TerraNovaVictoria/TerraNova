@@ -1,0 +1,8 @@
+owner = LIG
+controller = LIG
+add_core = BEL
+add_core = BGY
+add_core = LIG
+trade_goods = iron
+terrain = namur
+life_rating = 35

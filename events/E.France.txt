@@ -1,0 +1,375 @@
+###SPANISH RELATED EVENTS###
+
+country_event = {
+	id = 777714
+	title = "EVTNAME777714" #The Spanish Occupy Andorra
+	desc = "EVTDESC777714"
+	picture = "battle_at_zorndorf"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT777714A" #To war with the Republicans!
+		war = {
+			target = SPC
+			attacker_goal = { 
+				casus_belli = make_puppet
+			}
+			defender_goal = {
+				casus_belli = make_puppet
+			}
+			call_ally = no
+		}
+		SPC = { country_event = 777716 }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT777714B" #We cannot afford a war
+		prestige = -20
+		ai_chance = { factor = 0 }
+	}
+	
+}
+
+###FRENCH CIVIL WAR EVENTS###
+
+country_event = {
+	id = 222200
+	title = "EVTNAME222200" #The Paris Riots
+	desc = "EVTDESC222200"
+	picture = "parisian_riots"
+	
+	trigger = {
+		tag = FRA
+	}
+	
+	mean_time_to_happen = { days = 60 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT222200A" 
+		set_country_flag = the_parisian_riots
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 222202
+	title = "EVTNAME222202" #Anarchy in Paris
+	desc = "EVTDESC222202"
+	picture = "fall_of_paris"
+	
+	trigger = {
+		tag = FRA
+		has_global_flag = the_european_age_of_revolution
+		has_country_flag = the_parisian_riots
+	}
+	
+	mean_time_to_happen = { days = 30 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT222202A" 
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "EVTOPT222202B" 
+		set_country_flag = war_in_paris
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 222201
+	title = "EVTNAME222201" #The Storming of the Bastile
+	desc = "EVTDESC222201"
+	picture = "burning_bastille"
+	
+	trigger = {
+		tag = FRA
+		has_global_flag = the_european_age_of_revolution
+		has_country_flag = war_in_paris
+	}
+	
+	mean_time_to_happen = { days = 30 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT222201A" 
+		set_country_flag = the_french_revolution
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 222203
+	title = "EVTNAME222203" #Proclamation of the French Republic
+	desc = "EVTDESC222203"
+	picture = "french_republican_proclamation"
+	
+	trigger = {
+		tag = FRA
+		has_country_flag = the_french_revolution
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	fire_only_once = yes
+	
+	immediate = {
+		any_country = {
+			limit = {
+				war_with = FRA
+			}
+			end_war = THIS
+		}
+		any_owned = {
+			limit = { is_core = AUV }
+			secede_province = AUV
+		}
+	}
+	
+	option = {
+		name = "EVTOPT222203A" #Embrace the Revolution
+		prestige = 12.5
+		political_reform = universal_weighted_voting
+		political_reform = censored_press
+		political_reform = unitary
+		political_reform = harassment
+		government = democracy
+		AUV = { country_event = 222204 }
+		BGY = { country_event = 222207 }
+		LOR = { country_event = 222206 }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT222203B" #Loyal to the King
+		prestige = -5
+		badboy = 5
+		political_reform = unitary
+		any_pop = { militancy = 4 }
+		AUV = { country_event = 222205 }
+		ai_chance = { factor = 0 }
+	}
+	
+}
+
+country_event = {
+	id = 222204
+	title = "EVTNAME222204" #The French Civil War - Become BOR Monarchy
+	desc = "EVTDESC222204"
+	picture = "french_republican_proclamation"
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		FRA = {
+			release_vassal = BRT
+			release_vassal = AUV
+			release_vassal = NRM
+			release_vassal = GSC
+			release_vassal = PRO
+		}
+		prestige = 25
+	}
+	
+	option = {
+		name = "EVTOPT222204A" 
+		government = absolute_monarchy
+		435 = { 
+			secede_province = THIS
+			remove_core = PRO 
+		}
+		436 = { 
+			secede_province = THIS
+			remove_core = PRO 
+		}
+		437 = { 
+			secede_province = THIS
+		}
+		AUV = {
+			all_core = {
+				remove_core = AUV
+			}
+		}
+		FRA = {
+			all_core = {
+				add_core = BOR
+			}
+		}
+		change_tag = BOR
+		war = {
+			target = FRA
+			attacker_goal = { 
+				casus_belli = conquest
+			}
+			defender_goal = {
+				casus_belli = conquest
+			}
+			call_ally = no
+		}
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 222205
+	title = "EVTNAME222205" #The French Civil War - Become BOR Republic
+	desc = "EVTDESC222205"
+	picture = "french_republican_proclamation"
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		FRA = {
+			release_vassal = BRT
+			release_vassal = AUV
+			release_vassal = NRM
+			release_vassal = GSC
+			release_vassal = PRO
+		}
+		BAV = {
+			release_vassal = BGY
+			release_vassal = LOR
+		}
+	}
+	
+	option = {
+		name = "EVTOPT222205A" 
+		prestige = 25
+		political_reform = universal_weighted_voting
+		political_reform = censored_press
+		political_reform = unitary
+		political_reform = harassment
+		government = democracy
+		425 = { 
+			secede_province = THIS
+		}
+		426 = { 
+			secede_province = THIS 
+		}
+		427 = { 
+			secede_province = THIS
+		}
+		427 = { 
+			secede_province = THIS
+		}
+		435 = { 
+			secede_province = THIS
+			remove_core = PRO 
+		}
+		436 = { 
+			secede_province = THIS
+			remove_core = PRO 
+		}
+		438 = { 
+			secede_province = THIS
+		}
+		453 = { 
+			secede_province = THIS
+		}
+		454 = { 
+			secede_province = THIS
+		}
+		AUV = {
+			all_core = {
+				remove_core = AUV
+			}
+		}
+		FRA = {
+			all_core = {
+				add_core = BOR
+			}
+		}
+		BGY = { country_event = 222207 }
+		LOR = { country_event = 222206 }
+		change_tag = BOR
+		war = {
+			target = FRA
+			attacker_goal = { 
+				casus_belli = conquest
+			}
+			defender_goal = {
+				casus_belli = conquest
+			}
+			call_ally = no
+		}
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 222206
+	title = "EVTNAME222206" #Join the French Revolution
+	desc = "EVTDESC222206"
+	picture = "revolutionary_insurrection"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT222206A" 
+		prestige = 5
+		political_reform = universal_weighted_voting
+		political_reform = censored_press
+		political_reform = unitary
+		political_reform = harassment
+		government = democracy
+		THIS = { 
+			all_core = { 
+				add_core = BOR 
+				add_core = FRA 
+			}
+		}
+		FROM = { inherit = THIS }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT222206A" 
+		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 222207
+	title = "EVTNAME222207" #Join the French Revolution - BGY
+	desc = "EVTDESC222207"
+	picture = "revolutionary_insurrection"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT222206A" 
+		prestige = 5
+		political_reform = universal_weighted_voting
+		political_reform = censored_press
+		political_reform = unitary
+		political_reform = harassment
+		government = democracy
+		BGY = { all_core = { remove_core = BGY } }
+		FROM = { inherit = THIS }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT222206A" 
+		prestige = 15
+		ai_chance = { factor = 100 }
+	}
+	
+}

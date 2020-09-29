@@ -1,0 +1,8 @@
+owner = POL
+controller = POL
+add_core = POL
+add_core = DON
+add_core = RUS
+trade_goods = grain
+life_rating = 45
+terrain = kiev

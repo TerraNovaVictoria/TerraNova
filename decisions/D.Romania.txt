@@ -1,0 +1,29 @@
+political_decisions = {
+
+	aromanian_schools = { 
+		picture = southern_balkans_map
+		potential = {
+			tag = ROM
+			nationalism_n_imperialism = 1
+			NOT = { has_country_flag = funded_aromanian_schools }
+		}
+		
+		allow = {
+			war = no
+			literacy = 0.5
+			money = 25000
+		}
+		
+		effect = {
+			money = -25000
+			833 = {
+				province_owner = { country_event = 131140 }
+			}
+			set_country_flag = funded_aromanian_schools
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

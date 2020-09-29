@@ -1,0 +1,133 @@
+#criollo Guiana (20000)
+#Ruled by France 1836
+#Cayenne (17000/4250 POPS)
+2241 = {
+	aristocrats = {
+		culture = welsh
+		religion = protestant
+		size = 150
+	}
+
+	bureaucrats = {
+		culture = welsh
+		religion = protestant
+		size = 10
+	}
+
+	clergymen = {
+		culture = welsh
+		religion = protestant
+		size = 10
+	}
+
+	artisans = {
+		culture = welsh
+		religion = protestant
+		size = 100
+	}
+
+	soldiers = {
+		culture = welsh
+		religion = protestant
+		size = 50
+	}
+
+	farmers = {
+		culture = welsh
+		religion = protestant
+		size = 80
+	}
+
+	artisans = {
+		culture = afro_celtic
+		religion = protestant
+		size = 150
+	}
+
+	clergymen = {
+		culture = afro_celtic
+		religion = protestant
+		size = 25
+	}
+
+	soldiers = {
+		culture = afro_celtic
+		religion = protestant
+		size = 50
+	}
+
+	farmers = {
+		culture = afro_celtic
+		religion = protestant
+		size = 425
+	}
+
+	slaves = {
+		culture = afro_celtic
+		religion = protestant
+		size = 2950
+	}
+
+	aristocrats = {
+		culture = carib
+		religion = animist
+		size = 2
+	}
+
+	clergymen = {
+		culture = carib
+		religion = animist
+		size = 3
+	}
+
+	artisans = {
+		culture = carib
+		religion = animist
+		size = 10
+	}
+
+	soldiers = {
+		culture = carib
+		religion = animist
+		size = 5
+	}
+
+	farmers = {
+		culture = carib
+		religion = animist
+		size = 230
+	}
+}
+#Maripasoula (3000/750 POPS)
+2246 = {
+	aristocrats = {
+		culture = carib
+		religion = animist
+		size = 10
+	}
+
+	clergymen = {
+		culture = carib
+		religion = animist
+		size = 15
+	}
+
+	artisans = {
+		culture = carib
+		religion = animist
+		size = 35
+	}
+
+	soldiers = {
+		culture = carib
+		religion = animist
+		size = 10
+	}
+
+	farmers = {
+		culture = carib
+		religion = animist
+		size = 2680
+	}
+
+}

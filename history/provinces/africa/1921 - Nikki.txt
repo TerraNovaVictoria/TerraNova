@@ -1,0 +1,5 @@
+add_core = BID
+add_core = DAH
+add_core = SOK
+trade_goods = grain
+life_rating = 15

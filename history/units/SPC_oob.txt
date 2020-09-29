@@ -1,0 +1,286 @@
+#America
+GUA = {
+	value = -50		#relation
+}
+COS = {
+	value = -50		#relation
+}
+BLZ = {
+	value = 50		#relation
+}
+YUC = {
+	value = 50		#relation
+}
+BRC = {
+	value = -200		#relation
+}
+TRS = {
+	value = -200		#relation
+}
+CHR = {
+	value = -200		#relation
+}
+PIK = {
+	value = 150		    #relation
+}
+QUI = {
+	value = -200		#relation
+}
+PTG = {
+	value = -200		#relation
+}
+
+
+#Africa
+MOR = {
+	value = 100		#relation
+}
+EGY = {
+	value = 0		#relation
+}
+ASH = {
+	value = 50
+}
+BEN = {
+	value = 50
+}
+DAH = {
+	value = 30
+}
+OYO = {
+	value = 30
+}
+ARO = {
+	value = 40
+}
+CLA = {
+	value = 50
+}
+WRI = {
+	value = 30
+}
+KON = {
+	value = 40
+}
+LOA = {
+	value = 30
+}
+GBU = {
+	value = 50
+}
+TOO = {
+	value = 50
+}
+WOL = {
+	value = 50
+}
+
+#Asia
+QNG ={
+	value = -10
+}
+SUL = {
+	value = 100		#relation
+}
+
+#Other GP's
+ENG = { value = -75 }
+FRA = { value = 125 }
+AUS = { value = 0 }
+USA = { value = -25 }
+PRU = { value = 0 }
+TUR = { value = 25 }
+RUS = { value = 0 }
+
+#Army
+army = {
+	name = "1. Ejército de la República"
+	location = 489
+	regiment = {
+		name= "1. Granaderos del Rey"
+		type = infantry
+		home = 489
+	}
+
+	regiment = {
+		name= "2. Granaderos del Rey"
+		type = infantry
+		home = 489
+	}
+
+	regiment = {
+		name= "3. Granaderos Real"
+		type = infantry
+		home = 503
+	}
+
+	regiment = {
+		name= "1. Brigada de Infantería"
+		type = infantry
+		home = 516
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantería"
+		type = infantry
+		home = 513
+	}
+	
+	regiment = {
+		name= "3. Brigada de Infantería"
+		type = infantry
+		home = 513
+	}
+	
+	regiment = {
+		name= "4. Brigada de Infantería"
+		type = infantry
+		home = 513
+	}
+	
+	regiment = {
+		name= "5. Brigada de Infantería"
+		type = infantry
+		home = 513
+	}
+}
+
+army = {
+	name = "2. Ejército de la República"
+	location = 503
+	regiment = {
+		name= "1. Brigada de Infantería"
+		type = infantry
+		home = 513
+	}
+
+	regiment = {
+		name= "2. Brigada de Infantería"
+		type = infantry
+		home = 513
+	}
+
+	regiment = {
+		name= "3. Brigada de Infantería"
+		type = infantry
+		home = 513
+	}
+
+}
+
+navy = {
+	name = "2. Marina de Guerra de la República Española"
+	location = 503
+	
+	ship = {
+		name = "Alerta"
+		type = manowar
+	}
+	
+	ship = {
+		name = "San Fernando"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Legazpi"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Victoria"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Nuestra Señora del Patrocinio"
+		type = frigate
+	}
+	
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "2. Marina de Guerra de la República Española"
+	location = 512
+	
+	ship = {
+		name = "Republica"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Mindara"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Pinzero"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Victoria"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Nuestra Señora del Patrocinio"
+		type = frigate
+	}
+	
+	ship = {
+		name= "4a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "5a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "6a Flotilla de Transporte"
+		type = clipper_transport
+	}
+}
+
+leader = {
+	name = "Gerónimo Valdés"
+	date = 1836.1.1
+	type = land
+	personality = competent
+	background = generals_aide
+	prestige = 0.0
+}
+
+leader = {
+	name = "Van Halen"
+	date = 1823.1.1
+	type = land
+	personality = merciless
+	background = adventurer
+	prestige = 0.1
+}
+
+leader = {
+	name = "José Ramón Rodil"
+	date = 1824.1.1
+	type = land
+	personality = merciless
+	background = adventurer
+	prestige = 0.1
+}

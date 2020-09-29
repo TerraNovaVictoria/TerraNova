@@ -1,0 +1,8 @@
+owner = VEN
+controller = VEN
+add_core = MAR
+add_core = HND
+trade_goods = fish
+life_rating = 32
+terrain = goa
+colonial = 2

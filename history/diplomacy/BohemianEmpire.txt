@@ -1,0 +1,24 @@
+substate = {
+	first = BOH
+	second = AVR
+	start_date = 1415.1.1
+	end_date = 1850.1.1
+}
+substate = {
+	first = BOH
+	second = TRY
+	start_date = 1415.1.1
+	end_date = 1950.1.1
+}
+substate = {
+	first = BOH
+	second = PAN
+	start_date = 1415.1.1
+	end_date = 1950.1.1
+}
+substate = {
+	first = BOH
+	second = SLV
+	start_date = 1415.1.1
+	end_date = 1950.1.1
+}

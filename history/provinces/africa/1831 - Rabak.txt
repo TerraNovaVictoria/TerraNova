@@ -1,0 +1,7 @@
+owner = FNJ
+controller = FNJ
+add_core = FNJ
+add_core = SHK
+add_core = SUD
+trade_goods = grain
+life_rating = 34

@@ -1,0 +1,6 @@
+owner = NST
+controller = NST
+add_core = NST
+add_core = SIA
+trade_goods = timber
+life_rating = 35

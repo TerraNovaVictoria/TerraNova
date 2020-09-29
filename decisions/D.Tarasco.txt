@@ -1,0 +1,103 @@
+political_decisions = {
+
+		claim_the_phoenix = {
+		picture = the_phoenix
+		potential = {
+			
+			OR = {
+				87 = { empty = yes }
+				88 = { empty = yes }
+				100 = { empty = yes }
+				101 = { empty = yes }
+				105 = { empty = yes }
+				2148 = { empty = yes }
+			}
+			owns = 136 #El Paso
+			owns = 102 #Tusco
+			NOT = { has_country_flag = conquest_of_phoenix }
+		}
+		
+		allow = {
+			war = no
+		}
+		effect = {
+			set_country_flag = conquest_of_phoenix
+			prestige = 5
+			random_owned = {
+				limit = {
+					87 = { empty = yes }
+					136 = { empty = no }
+				}
+				87 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					88 = { empty = yes }
+					136 = { empty = no }
+				}
+				88 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					100 = { empty = yes }
+					136 = { empty = no }
+				}
+				100 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					101 = { empty = yes }
+					136 = { empty = no }
+				}
+				101 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					105 = { empty = yes }
+					136 = { empty = no }
+				}
+				105 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					2148 = { empty = yes }
+					136 = { empty = no }
+				}
+				2148 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

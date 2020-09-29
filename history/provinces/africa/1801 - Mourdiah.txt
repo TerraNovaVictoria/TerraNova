@@ -1,0 +1,8 @@
+owner = KAN
+controller = KAN
+add_core = KAN
+add_core = SEG
+add_core = MAS
+trade_goods = grain
+terrain = semidesert
+life_rating = 20

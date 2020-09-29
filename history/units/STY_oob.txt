@@ -1,0 +1,28 @@
+army = {
+	name = "I. Korps"
+	location = 616
+	regiment = {
+		name= "1. Steiermark Infanteriebrigade"
+		type = infantry
+		home = 616
+	}
+
+	regiment = {
+		name= "2. Steiermark Infanteriebrigade"
+		type = infantry
+		home = 617
+	}
+
+	regiment = {
+		name= "3. Steiermark Infanteriebrigade"
+		type = infantry
+		home = 617
+	}
+
+	regiment = {
+		name= "4. Steiermark Infanteriebrigade"
+		type = artillery
+		home = 618
+	}
+
+}

@@ -1,0 +1,6 @@
+owner = PAG
+controller = PAG
+add_core = PAG
+add_core = ATJ
+trade_goods = tobacco
+life_rating = 32

@@ -1,0 +1,31 @@
+political_decisions = {
+	claim_great_champa = {
+			picture = magha_puja
+			potential = {
+				tag = CHA
+				owns = 1379
+				1378 = { NOT = { is_core = CHA } }
+				1381 = { NOT = { is_core = CHA } }
+				1368 = { NOT = { is_core = CHA } }
+				1377 = { NOT = { is_core = CHA } }
+				1362 = { NOT = { is_core = CHA } }
+				1375 = { NOT = { is_core = CHA } }
+			}
+		
+			allow = {
+				war = no
+				civilized = yes
+			}
+		
+			effect = {
+				1378 = { add_core = CHA } 
+				1381 = { add_core = CHA } 
+				1368 = { add_core = CHA } 
+				1377 = { add_core = CHA } 
+				1362 = { add_core = CHA } 
+				1375 = { add_core = CHA } 
+				badboy = 1
+			}
+			ai_will_do = { factor = 1 }
+	}
+}

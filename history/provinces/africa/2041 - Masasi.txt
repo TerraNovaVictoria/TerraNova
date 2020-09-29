@@ -1,0 +1,5 @@
+owner = KIL
+controller = KIL
+add_core = KIL
+trade_goods = cattle
+life_rating = 35

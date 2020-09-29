@@ -1,0 +1,6 @@
+owner = CYM
+controller = CYM
+add_core = AVK
+trade_goods = grain
+life_rating = 35
+colonial = 2

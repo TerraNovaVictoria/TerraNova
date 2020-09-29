@@ -1,0 +1,139 @@
+political_decisions = {
+
+	laos_claims_mekong = {
+		picture = thai_map
+		potential = {
+			tag = LXA
+			NOT = { has_country_flag = claimed_mekong }
+			NOT = { has_country_flag = post_colonial_nation }
+			CAM = { civilized = no }
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			LXA = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		
+		effect = {
+			badboy = 10
+			CAM = { all_core = { add_core = LXA } }
+			set_country_flag = claimed_mekong
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	khmur_unites_laos = {
+		picture = thai_map
+		potential = {
+			tag = KHM
+			NOT = { primary_culture = lao }
+			primary_culture = khmu
+			NOT = { has_country_flag = khmurian_empire }
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			LUA = {
+				OR = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							owner = { vassal_of = THIS }
+						}
+					}
+					1356 = { owned_by = THIS }
+				}
+			}
+			KHM = {
+				OR = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							owner = { vassal_of = THIS }
+						}
+					}
+					1357 = { owned_by = THIS }
+				}
+			}
+			CHK = {
+				OR = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							owner = { vassal_of = THIS }
+						}
+					}
+					1362 = { owned_by = THIS }
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			LUA = { all_core = { remove_core = LUA } }
+			CHK = { all_core = { remove_core = CHK } }
+			any_country = {
+				limit = {
+					tag = LUA
+					OR = { 
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				inherit = LUA
+			}
+			any_country = {
+				limit = {
+					tag = CHK
+					OR = { 
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				inherit = CHK
+			}
+			set_country_flag = khmurian_empire
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	khmur_claims_mekong = {
+		picture = thai_map
+		potential = {
+			tag = KHM
+			NOT = { has_country_flag = claimed_mekong }
+			NOT = { has_country_flag = post_colonial_nation }
+			CAM = { civilized = no }
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			KHM = {
+				all_core = {
+					owned_by = THIS
+				}
+			}
+		}
+		
+		effect = {
+			badboy = 10
+			CAM = { all_core = { add_core = KHM } }
+			set_country_flag = claimed_mekong
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+
+}

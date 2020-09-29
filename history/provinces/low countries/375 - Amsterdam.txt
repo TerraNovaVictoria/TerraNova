@@ -1,0 +1,22 @@
+owner = HNL
+controller = HNL
+add_core = HNL
+add_core = HLL
+add_core = NET
+add_core = BGY
+add_core = GER
+trade_goods = cattle
+life_rating = 35
+terrain = amsterdam
+fort = 1
+naval_base = 2
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = ammunition_factory
+	upgrade = yes
+}

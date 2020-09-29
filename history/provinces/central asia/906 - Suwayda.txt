@@ -1,0 +1,12 @@
+owner = EGY
+controller = EGY
+add_core = EGY
+add_core = SYR
+add_core = DRU
+trade_goods = grain
+life_rating = 10
+
+1861.1.1 = {
+	controller = ANA 
+	owner = ANA
+}

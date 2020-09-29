@@ -1,0 +1,81 @@
+#####PUNJAB DECISIONS#####
+
+political_decisions = {
+
+	#Punjab invades peshawar
+	pnj_invades_peshawar = {
+		picture = guangxi
+		potential = {
+				tag = PNJ
+				NOT = { has_country_flag = intervened_in_afg }
+				has_global_flag = pashtun_revolt
+				NOT = { 1218 = { owned_by = THIS } }
+			}
+		
+			allow = {
+				war = no
+			}
+		
+			effect = {
+				1218 = { secede_province = THIS }  
+				AFG = { country_event = 2031836 }
+				set_country_flag = intervened_in_afg
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	#Punjab Occupies Ladakh
+	pnj_occupies_ladakh = {
+		picture = guangxi
+		potential = {
+				tag = PNJ
+				NOT = { has_country_flag = took_ladakh }
+				has_global_flag = trouble_in_china
+				1226 = { owned_by = TIB }
+			}
+		
+			allow = {
+				war = no
+			}
+		
+			effect = {
+				1226 = { secede_province = THIS add_core = THIS add_core = HND add_core = LAD remove_core = TIB remove_core = CHI }  
+				920 = { secede_province = THIS add_core = THIS add_core = HND add_core = LAD add_core = KML remove_core = TIB remove_core = CHI }
+				set_country_flag = took_ladakh
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Save the burning world
+	pnj_save_the_burning_world = {
+		picture = sikh_symbol
+		potential = {
+				tag = PNJ
+				NOT = { has_country_flag = save_the_burning_world }
+			}
+		
+			allow = {
+				war = no
+				subject = no
+				PNJ = { all_core = { owned_by = THIS } }
+			}
+		
+			effect = {
+				prestige = 5
+				SIN = { all_core = { add_core = THIS } }  
+				JAS = { all_core = { add_core = THIS } }  
+				MUG = { all_core = { add_core = THIS } }  
+				BNG = { all_core = { add_core = THIS } }  
+				NEP = { all_core = { add_core = THIS } }  
+				SIK = { all_core = { add_core = THIS } }  
+				1267 = { add_core = THIS }
+				add_accepted_culture = hindi
+				set_country_flag = save_the_burning_world
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+
+}

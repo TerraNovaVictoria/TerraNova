@@ -1,0 +1,5 @@
+owner = AVK
+controller = AVK
+add_core = AVK
+trade_goods = opium
+life_rating = 35

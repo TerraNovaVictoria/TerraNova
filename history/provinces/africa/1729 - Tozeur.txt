@@ -1,0 +1,12 @@
+owner = TRI
+controller = TRI
+add_core = TUA
+add_core = TRI
+add_core = TUN
+trade_goods = wool
+life_rating = 10
+1861.1.1 = {
+	owner = ANA
+	controller = ANA
+	colonial = 2
+}

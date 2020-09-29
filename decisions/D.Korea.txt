@@ -1,0 +1,31 @@
+political_decisions = {
+
+	#Korea declares independence
+	korea_declares_independence = {
+		picture = guangxi
+		potential = {
+				tag = KOR
+				NOT = { has_country_flag = kor_declared_independence }
+			}
+		
+			allow = {
+				has_global_flag = trouble_in_china
+				capital_scope = { controlled_by = THIS }
+			}
+		
+			effect = {
+				KOR = { primary_culture = korean }
+				government = absolute_monarchy
+				1619 = { secede_province = THIS remove_core = MCK } 
+				1627 = { secede_province = THIS remove_core = MCK } 
+				1626 = { secede_province = THIS remove_core = MCK } 
+				1622 = { add_core = KOR }
+				ZHO = { release_vassal = KOR }
+				ZHO = { country_event = 3141840 }
+				set_country_flag = kor_declared_independence
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+}

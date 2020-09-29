@@ -1,0 +1,17 @@
+owner = SVY
+controller = SVY
+add_core = SVY
+add_core = ITA
+trade_goods = fruit
+life_rating = 40
+terrain = turin
+state_building = {
+	level = 1
+	building = luxury_clothes_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}

@@ -1,0 +1,6 @@
+owner = DAN
+controller = DAN
+add_core = DAN
+add_core = CHA
+trade_goods = tobacco
+life_rating = 35

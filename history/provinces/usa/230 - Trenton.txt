@@ -1,0 +1,5 @@
+owner = NYS
+controller = NYS
+add_core = NYS
+trade_goods = fish
+life_rating = 35

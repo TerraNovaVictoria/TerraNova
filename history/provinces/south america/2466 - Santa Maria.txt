@@ -1,0 +1,10 @@
+owner = SPA
+controller = SPA
+add_core = BRZ
+add_core = CHR
+trade_goods = timber
+life_rating = 35
+1860.1.1 = {
+	owner = SPA
+	controller = SPA
+}

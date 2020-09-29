@@ -1,0 +1,8 @@
+owner = MAR
+controller = MAR
+add_core = HND
+add_core = BER
+add_core = MAR
+trade_goods = grain
+life_rating = 32
+colonial = 2

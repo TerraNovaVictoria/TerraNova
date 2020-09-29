@@ -1,0 +1,196 @@
+country_event = {
+	id = 191822
+	title = "EVTNAME191822" #Baltic Rebellion
+	desc = "EVTDESC191822"
+	picture = "baltic_flags"
+	
+	trigger = {
+		tag = UBD
+		has_global_flag = springtime_of_nations
+		NOT = {
+			has_global_flag = the_baltic_uprising
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT191822A"
+		set_global_flag = the_baltic_uprising
+		357 = { add_core = LAT }
+		358 = { add_core = LAT }
+		697 = { add_core = LIT }
+		707 = { secede_province = POL }
+		694 = { secede_province = POL }
+		UBD = {
+			any_owned = {
+				limit = {
+					is_core = LAT
+				}
+				secede_province = LAT
+			}
+		}
+		UBD = {
+			any_owned = {
+				limit = {
+					is_core = LIT
+				}
+				secede_province = LIT
+			}
+		}
+		359 = { add_core = LAT }
+		war = {
+			target = LAT
+			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
+		}
+		war = {
+			target = LIT
+			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
+		}
+		ai_chance = { factor = 100 }
+	}
+		
+	option = {
+		name = "EVTOPT191822B"
+		set_global_flag = the_baltic_uprising
+		357 = { add_core = LAT }
+		358 = { add_core = LAT }
+		697 = { add_core = LIT }
+		707 = { secede_province = POL }
+		694 = { secede_province = POL }
+		UBD = {
+			any_owned = {
+				limit = {
+					is_core = LAT
+				}
+				secede_province = LAT
+			}
+		}
+		UBD = {
+			any_owned = {
+				limit = {
+					is_core = LIT
+				}
+				secede_province = LIT
+			}
+		}
+		359 = { add_core = LAT }
+		war = {
+			target = LAT
+			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
+		}
+		war = {
+			target = LIT
+			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
+		}
+		change_tag_no_core_switch = LAT
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "EVTOPT191822C"
+		set_global_flag = the_baltic_uprising
+		357 = { add_core = LAT }
+		358 = { add_core = LAT }
+		697 = { add_core = LIT }
+		707 = { secede_province = POL }
+		694 = { secede_province = POL }
+		UBD = {
+			any_owned = {
+				limit = {
+					is_core = LAT
+				}
+				secede_province = LAT
+			}
+		}
+		UBD = {
+			any_owned = {
+				limit = {
+					is_core = LIT
+				}
+				secede_province = LIT
+			}
+		}
+		359 = { add_core = LAT }
+		war = {
+			target = LAT
+			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
+		}
+		war = {
+			target = LIT
+			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
+		}
+		change_tag_no_core_switch = LIT
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 191833
+	title = "EVTNAME191833" #Estonian Secession
+	desc = "EVTDESC191833"
+	picture = "nationalists_alt"
+	
+	trigger = {
+		tag = UBD
+		has_global_flag = the_baltic_uprising
+		OR = {
+			AND = {
+				war = no
+				NOT = { owns = 355 }
+				NOT = { owns = 364 }
+			}
+			AND = {
+				NOT = { owns = 349 }
+				NOT = { owns = 355 }
+				NOT = { owns = 364 }
+			}
+		}
+		NOT = {
+			has_global_flag = the_estonian_uprising
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 7
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT191833A"
+		set_global_flag = the_estonian_uprising
+		359 = { secede_province = LAT }
+		UBD = {
+			any_owned = {
+				limit = {
+					is_core = EST
+				}
+				secede_province = EST
+			}
+		}
+		change_tag = PRU
+		ai_chance = { factor = 100 }
+	}
+		
+	option = {
+		name = "EVTOPT191833B"
+		set_global_flag = the_estonian_uprising
+		359 = { secede_province = LAT }
+		UBD = {
+			any_owned = {
+				limit = {
+					is_core = EST
+				}
+				secede_province = EST
+			}
+		}
+		change_tag = PRU
+		change_tag_no_core_switch = EST
+		ai_chance = { factor = 0 }
+	}
+}

@@ -1,0 +1,6 @@
+owner = TDY
+controller = TDY
+add_core = TDY
+trade_goods = coffee
+naval_base = 1
+life_rating = 35

@@ -1,0 +1,7 @@
+owner = SPA
+controller = SPA
+add_core = SPA
+trade_goods = grain
+terrain = semidesert
+life_rating = 20
+colonial = 2

@@ -1,0 +1,8 @@
+owner = ELS
+controller = ELS
+add_core = ELS
+add_core = COS
+trade_goods = wool
+life_rating = 31
+
+

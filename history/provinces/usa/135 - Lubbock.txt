@@ -1,0 +1,6 @@
+add_core = IOU
+add_core = TRS
+trade_goods = sulphur
+life_rating = 20
+colonial = 2
+

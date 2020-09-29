@@ -1,0 +1,7 @@
+owner = HNL
+controller = HNL
+add_core = NHL
+trade_goods = grain
+terrain = savanna
+life_rating = 30
+colonial = 2

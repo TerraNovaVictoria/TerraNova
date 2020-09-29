@@ -1,0 +1,1 @@
+add_core = CHRtrade_goods = woollife_rating = 15

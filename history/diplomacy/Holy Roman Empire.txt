@@ -1,0 +1,417 @@
+#All HRE states are vassals of Bavaria at the start of the game/ HRE is a formable tag for the Bavarian Empire, cosmetically changed to the HRE
+
+#Palatinate
+substate = {
+	first = BAV
+	second = PLT
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Cologne
+vassal = {
+	first = BAV
+	second = CLG
+	start_date = 1715.1.1
+	end_date = 1936.1.1
+}
+
+#Mecklenburg
+vassal = {
+	first = BAV
+	second = MEC
+	start_date = 1715.1.1
+	end_date = 1936.1.1
+}
+
+#Oldenburg
+vassal = {
+	first = BAV
+	second = OLD
+	start_date = 1801.1.1
+	end_date = 1881.1.1
+}
+
+#Hainaut
+vassal = {
+	first = BAV
+	second = WLL
+	start_date = 1801.1.1
+	end_date = 1881.1.1
+}
+
+#Anhalt-Magdeburg
+vassal = {
+	first = BAV
+	second = ANH
+	start_date = 1801.1.1
+	end_date = 1881.1.1
+}
+
+#Aachen
+vassal = {
+	first = BAV
+	second = AAC
+	start_date = 1715.1.1
+	end_date = 1936.1.1
+}
+
+#Bavarian Netherlands/Belgium
+substate = {
+	first = BAV
+	second = BEL
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Ulm
+vassal = {
+	first = BAV
+	second = ULM
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Brandenburg
+vassal = {
+	first = BAV
+	second = BRN
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Thuringia
+vassal = {
+	first = BAV
+	second = THU
+	start_date = 1801.1.1
+	end_date = 1881.1.1
+}
+
+#Styria
+vassal = {
+	first = BAV
+	second = STY
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Austria
+vassal = {
+	first = BAV
+	second = AUS
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Salzburg
+vassal = {
+	first = BAV
+	second = SLZ
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Wurttemberg
+vassal = {
+	first = BAV
+	second = WUR
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Baden
+vassal = {
+	first = BAV
+	second = BAD
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Switzerland
+vassal = {
+	first = BAV
+	second = SWI
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Milan
+vassal = {
+	first = BAV
+	second = MLO
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Savoy
+vassal = {
+	first = BAV
+	second = SVY
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Franken
+substate = {
+	first = BAV
+	second = FRK
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Hanseatic League
+vassal = {
+	first = BAV
+	second = HNL
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Duisburg
+vassal = {
+	first = BAV
+	second = DUI
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Brabant
+vassal = {
+	first = BAV
+	second = BRB
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Limburg
+vassal = {
+	first = BAV
+	second = LBG
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Nassau
+vassal = {
+	first = BAV
+	second = NAS
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Mainz
+vassal = {
+	first = BAV
+	second = MAI
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Trier
+vassal = {
+	first = BAV
+	second = TRR
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Frankfurt
+vassal = {
+	first = BAV
+	second = FRM
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Hesse
+vassal = {
+	first = BAV
+	second = HES
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Waldeck
+vassal = {
+	first = BAV
+	second = WLD
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Westphalia
+vassal = {
+	first = BAV
+	second = WES
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Dortmund
+vassal = {
+	first = BAV
+	second = DOR
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Munster
+vassal = {
+	first = BAV
+	second = MUN
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Liege
+vassal = {
+	first = BAV
+	second = LIG
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Aosta
+vassal = {
+	first = BAV
+	second = AOS
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Lippe
+vassal = {
+	first = BAV
+	second = LIP
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Saxony
+vassal = {
+	first = BAV
+	second = SAX
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Braunschweig
+vassal = {
+	first = BAV
+	second = BRA
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Straßburg/Elsaß
+vassal = {
+	first = BAV
+	second = ALS
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Lorraine
+vassal = {
+	first = BAV
+	second = LOR
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Metz
+vassal = {
+	first = BAV
+	second = MET
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Luxemburg
+vassal = {
+	first = BAV
+	second = LUX
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Parma
+vassal = {
+	first = BAV
+	second = PAR
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Modena
+vassal = {
+	first = BAV
+	second = MOD
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Ferrara
+vassal = {
+	first = BAV
+	second = FER
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Tuscany
+vassal = {
+	first = BAV
+	second = TUS
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Lucca
+vassal = {
+	first = BAV
+	second = LUC
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Genoa
+vassal = {
+	first = BAV
+	second = GEN
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Saluzza
+vassal = {
+	first = BAV
+	second = SAL
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Montferrat
+vassal = {
+	first = BAV
+	second = MTF
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Burgundy
+vassal = {
+	first = BAV
+	second = BGY
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Bohemia
+vassal = {
+	first = BAV
+	second = BOH
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}

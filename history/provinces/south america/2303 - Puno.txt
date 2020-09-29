@@ -1,0 +1,11 @@
+owner = PIK
+controller = PIK
+add_core = PIK
+add_core = KAP
+trade_goods = iron
+life_rating = 35
+1860.1.1 = {
+	owner = PIK
+	controller = PIK
+	remove_core = SPU
+}

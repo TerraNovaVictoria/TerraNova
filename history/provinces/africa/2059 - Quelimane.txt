@@ -1,0 +1,7 @@
+owner = HNL
+controller = HNL
+add_core = MLW
+add_core = AGC
+trade_goods = grain
+life_rating = 35
+colonial = 2

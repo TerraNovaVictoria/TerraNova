@@ -1,0 +1,8 @@
+owner = VEN
+controller = VEN
+add_core = VEN
+trade_goods = precious_goods
+life_rating = 35
+terrain = suez
+set_province_flag = suez_canal
+railroad = 1 

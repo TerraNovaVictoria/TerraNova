@@ -1,0 +1,87 @@
+CYM = {
+	value = 200
+}
+BAV = {
+	value = 125
+}
+
+army = {
+	name = "1e Infanterie Divisie"
+	location = 387 #Brussels
+	regiment = {
+		name= "1e Infanterie Brigade"
+		type = infantry
+		home = 387 #Brussels
+	}
+
+	regiment = {
+		name= "2e Infanterie Brigade"
+		type = infantry
+		home = 388 #Bruges
+	}
+
+	regiment = {
+		name= "3e Infanterie Brigade"
+		type = infantry
+		home = 389 #Ghent
+	}
+
+
+}
+
+navy = {
+	name = "Belgische Koninklijk Marine"
+	location = 388
+	ship = {
+		name= "1e Transport Flottille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2e Transport Flotille"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3e Transport Flotille"
+		type = clipper_transport
+	}
+
+}
+	
+leader = {
+	name = "Lambert Nypels"
+	date = 1830.1.1
+	type = land
+	personality = soldierly
+	background = diplomat
+	prestige = 0.1
+}
+
+leader = {
+	name = "Louis Evain"
+	date = 1831.1.1
+	type = land
+	personality = able
+	background = artillerist
+	prestige = 0.1
+}
+
+leader = {
+	name = "Goblet"
+	date = 1831.1.1
+	type = land
+	personality = diplomatic
+	background = engineer
+	prestige = 0.1
+}
+
+leader = {
+	name = "Albert Prisse"
+	date = 1834.1.1
+	type = land
+	personality = smart_p
+	background = diplomat
+	prestige = 0.1
+}
+

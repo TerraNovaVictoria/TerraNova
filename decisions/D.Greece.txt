@@ -1,0 +1,94 @@
+political_decisions = {
+
+	integrate_themes_mre = { 
+		picture = map_of_greece
+		potential = {
+			tag = MRE
+			has_global_flag = rome_has_prevailed
+			NOT = { has_country_flag = greek_centralized_authority }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			ATH = { country_event = 555566 }
+			LAR = { country_event = 555566 }
+			MCD = { country_event = 555566 }
+			set_country_flag = greek_centralized_authority
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	integrate_themes_gre = { 
+		picture = map_of_greece
+		potential = {
+			tag = GRE
+			has_global_flag = end_of_rome
+			NOT = { has_country_flag = greek_centralized_authority }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			ATH = { country_event = 445566 }
+			LAR = { country_event = 445566 }
+			MCD = { country_event = 445566 }
+			set_country_flag = greek_centralized_authority
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	restore_jerusalem = { 
+		picture = map_palestine
+		potential = {
+			OR = {
+				tag = MLT	
+				tag = CYP
+			}
+			primary_culture = french
+			NOT = { has_global_flag = restored_jerusalem }
+		}
+		
+		allow = {
+			war = no
+			THIS = { all_core = { owned_by = THIS } }
+			917 = { owned_by = THIS }
+		}
+		
+		effect = {
+			prestige = 20
+			913 = { add_core = JER }
+			916 = { add_core = JER }
+			917 = { add_core = JER }
+			919 = { add_core = JER }
+			921 = { add_core = JER }
+			909 = { add_core = JER }
+			922 = { add_core = JER }
+			911 = { add_core = JER }
+			1756 = { add_core = JER }
+			1757 = { add_core = JER }
+			remove_accepted_culture = north_german
+			remove_accepted_culture = pan_italian
+			remove_accepted_culture = maltese
+			add_accepted_culture = greek
+			add_accepted_culture = assyrian
+			change_tag = JER
+			set_global_flag = restored_jerusalem
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

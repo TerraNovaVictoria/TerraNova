@@ -1,0 +1,150 @@
+#####BELGIAN DECISIONS#####
+
+political_decisions = {
+
+	#Proclaim the United States of the Netherlands
+	form_the_usn = {
+		picture = united_netherlands
+		potential = {
+				tag = BEL
+				has_country_flag = the_belgian_revolution
+				NOT = { has_country_flag = formed_the_usn }
+			}
+		
+			allow = {
+				government = provisional_state
+			}
+		
+			effect = {
+				FLA = { country_event = 6666102 }
+				LUX = { country_event = 6666102 }
+				WLL = { country_event = 6666102 }
+				government = democracy
+				set_country_flag = formed_the_usn
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	invite_liege_into_usn = {
+		picture = mapnl_liege
+		potential = {
+				tag = BEL
+				exists = LIG
+				has_country_flag = formed_the_usn
+				NOT = { has_country_flag = we_invited_lig }
+			}
+		
+			allow = {
+				OR = {
+					government = democracy
+					government = hms_government
+				}
+				LIG = {
+					OR = {
+						government = democracy
+						government = presidential_dictatorship
+						government = hms_government
+					}
+				}
+			}
+		
+			effect = {
+				LIG = { country_event = 6666102 }
+				set_country_flag = we_invited_lig
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	invite_brabant_into_usn = {
+		picture = mapnl_brabant
+		potential = {
+				tag = BEL
+				exists = BRB
+				has_country_flag = formed_the_usn
+				NOT = { has_country_flag = we_invited_brb }
+			}
+		
+			allow = {
+				OR = {
+					government = democracy
+					government = hms_government
+				}
+				BRB = {
+					OR = {
+						government = democracy
+						government = hms_government
+					}
+				}
+			}
+		
+			effect = {
+				BRB = { country_event = 6666102 }
+				set_country_flag = we_invited_brb
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	invite_holland_into_usn = {
+		picture = mapnl_holland
+		potential = {
+				tag = BEL
+				exists = HLL
+				has_country_flag = formed_the_usn
+				NOT = { has_country_flag = we_invited_hll }
+			}
+		
+			allow = {
+				OR = {
+					government = democracy
+					government = hms_government
+				}
+				HLL = {
+					OR = {
+						government = democracy
+						government = hms_government
+					}
+				}
+			}
+		
+			effect = {
+				HLL = { country_event = 6666102 }
+				set_country_flag = we_invited_hll
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	invite_utrecht_into_usn = {
+		picture = mapnl_utrecht
+		potential = {
+				tag = BEL
+				exists = UTR
+				has_country_flag = formed_the_usn
+				NOT = { has_country_flag = we_invited_utr }
+			}
+		
+			allow = {
+				OR = {
+					government = democracy
+					government = hms_government
+				}
+				UTR = {
+					OR = {
+						government = democracy
+						government = hms_government
+					}
+				}
+			}
+		
+			effect = {
+				UTR = { country_event = 6666102 }
+				set_country_flag = we_invited_utr
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+}

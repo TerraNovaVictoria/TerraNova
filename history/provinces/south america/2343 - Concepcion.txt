@@ -1,0 +1,1 @@
+add_core = AZUadd_core = CHRtrade_goods = fruitlife_rating = 31

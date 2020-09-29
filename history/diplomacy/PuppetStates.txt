@@ -1,0 +1,457 @@
+#Savoy-Nizza
+vassal = {
+	first = SVY
+	second = NIZ
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Sweden-Midgardy
+vassal = {
+	first = SWE
+	second = NYS
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Malacca
+vassal = {
+	first = MLC
+	second = DJA
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Poland
+substate = {
+	first = POL
+	second = MAZ
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+substate = {
+	first = POL
+	second = PZN
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Mamluks
+vassal = {
+	first = EGY
+	second = HAL
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = EGY
+	second = PAL
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Illyria
+#Bosnia
+substate = {
+	first = CRO
+	second = BOS
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Spanish Empire
+#Sicily
+substate = {
+	first = SPA
+	second = SIC
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Cossacks
+vassal = {
+	first = DON
+	second = CRI
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = RUS
+	second = DON
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+
+#Brunei
+#Brunei-Lanfang
+vassal = {
+	first = BRU
+	second = LAN
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Brunei-Hokoan
+vassal = {
+	first = BRU
+	second = HOK
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Brunei-Heshun
+vassal = {
+	first = BRU
+	second = HSH
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+
+#Greek Confederacy
+#Athens
+substate = {
+	first = MRE
+	second = ATH
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+#Larissa
+substate = {
+	first = MRE
+	second = LAR
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+#Macedonia
+substate = {
+	first = MRE
+	second = MCD
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#POLAND
+#Moldovia
+vassal = {
+	first = POL
+	second = MOL
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+
+#Anatolian Empire
+#Mosul/Hatay
+
+#Wallachia
+vassal = {
+	first = ANA
+	second = WAL
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Hercegovina
+vassal = {
+	first = ANA
+	second = HER
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Serbia
+vassal = {
+	first = ANA
+	second = SER
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Iraq/Baghdad
+vassal = {
+	first = ANA
+	second = IRQ
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#AOG
+substate = {
+	first = GER
+	second = AOG
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Mittelafrika
+substate = {
+	first = GER
+	second = MIT
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#CAN / NZL / AST / MRU / NEW / RHO
+substate = {
+	first = CYM
+	second = CAN
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+substate = {
+	first = CYM
+	second = AST
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+substate = {
+	first = CYM
+	second = NZL
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+substate = {
+	first = CYM
+	second = MRU
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+substate = {
+	first = CYM
+	second = NEW
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+substate = {
+	first = CYM
+	second = RHO
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+substate = {
+	first = CYM
+	second = AVA
+	start_date = 1825.1.1
+	end_date = 1936.1.1
+}
+
+substate = {
+	first = CYM
+	second = MIA
+	start_date = 1825.1.1
+	end_date = 1936.1.1
+}
+
+
+#Bahrain - Qatar
+vassal = {
+	first = BHR
+	second = QAT
+	start_date = 1815.1.1
+	end_date = 1868.1.1
+}
+
+#Persia - Khorosand /Eastern Kurdistan now
+substate = {
+	first = PER
+	second = KHR
+	start_date = 1774.1.1
+	end_date = 1936.1.1
+}
+
+#Persia - Baluchistan
+vassal = {
+	first = PER
+	second = BLC
+	start_date = 1774.1.1
+	end_date = 1936.1.1
+}
+
+#Persia - Herat
+vassal = {
+	first = PER
+	second = HRT
+	start_date = 1774.1.1
+	end_date = 1936.1.1
+}
+
+#Persia - Kedah
+vassal = {
+	first = PER
+	second = KDH
+	start_date = 1774.1.1
+	end_date = 1936.1.1
+}
+
+#Persia - Luristan
+vassal = {
+	first = PER
+	second = LUR
+	start_date = 1774.1.1
+	end_date = 1936.1.1
+}
+
+#Persia - Ardalan
+vassal = {
+	first = PER
+	second = RDL
+	start_date = 1774.1.1
+	end_date = 1936.1.1
+}
+
+#Persia - Pashtunistan
+vassal = {
+	first = PER
+	second = AFG
+	start_date = 1774.1.1
+	end_date = 1936.1.1
+}
+
+#Persia - Hazarjat
+vassal = {
+	first = PER
+	second = HZJ
+	start_date = 1774.1.1
+	end_date = 1936.1.1
+}
+
+#Hudson Bay Company
+substate = {
+	first = CYM
+	second = RPL
+	start_date = 1805.1.1
+	end_date = 1936.1.1
+}
+
+# Denmark-Norway
+vassal = {
+	first = DNN
+	second = NOR
+	start_date = 1815.11.9
+	end_date = 1905.1.1
+}
+
+#######################
+#        INDIA        #
+#######################
+
+# Maratha - Hyderbad
+substate = {
+	first = MAR
+	second = HYD
+	start_date = 1807.1.1
+	end_date = 1863.1.1
+}
+
+# Maratha - Mughals/Delhi
+vassal = {
+	first = MAR
+	second = MUG
+	start_date = 1807.1.1
+	end_date = 1863.1.1
+}
+
+# Hansa - Ceylon
+vassal = {
+	first = HNL
+	second = SRI
+	start_date = 1807.1.1
+	end_date = 1863.1.1
+}
+
+# France - Travancore
+vassal = {
+	first = FRA
+	second = TRA
+	start_date = 1807.1.1
+	end_date = 1863.1.1
+}
+
+##########################Colonies - Substates - France
+vassal = {
+	first = FRA
+	second = IOU
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = FRA
+	second = AUV
+	start_date = 1636.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = FRA
+	second = NRM
+	start_date = 1636.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = FRA
+	second = BRT
+	start_date = 1636.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = FRA
+	second = PRO
+	start_date = 1636.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = FRA
+	second = GSC
+	start_date = 1636.1.1
+	end_date = 1937.1.1
+}
+
+#########1861
+
+# Siam - Lan Na
+vassal = {
+	first = SIA
+	second = LNN
+	start_date = 1815.1.1
+	end_date = 1975.1.1
+}
+
+# Siam - NST
+vassal = {
+	first = SIA
+	second = NST
+	start_date = 1815.1.1
+	end_date = 1975.1.1
+}
+
+# UK - KAS
+vassal = {
+	first = CYM
+	second = KAS
+	start_date = 1861.1.1
+	end_date = 1936.1.1
+}
+
+# OE - Romania 
+vassal = {
+	first = TUR
+	second = ROM
+	start_date = 1861.1.1
+	end_date = 1936.1.1
+}
+
+# OE - Hejaz 
+vassal = {
+	first = TUR
+	second = HDJ
+	start_date = 1861.1.1
+	end_date = 1936.1.1
+}

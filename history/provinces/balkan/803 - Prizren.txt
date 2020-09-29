@@ -1,0 +1,7 @@
+owner = ANA
+controller = ANA
+add_core = ANA
+add_core = SER
+add_core = KSV
+trade_goods = timber
+life_rating = 35

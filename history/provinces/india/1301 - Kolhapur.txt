@@ -1,0 +1,6 @@
+owner = MAR
+controller = MAR
+add_core = HND
+add_core = MAR
+trade_goods = fish
+life_rating = 32

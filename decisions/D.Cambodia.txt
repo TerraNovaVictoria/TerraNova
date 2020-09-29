@@ -1,0 +1,35 @@
+political_decisions = {
+
+	#End the Dark Ages
+	cam_end_of_dark_age = {
+		picture = khmer_empire
+		potential = {
+				tag = CAM
+				NOT = { has_country_flag = khmer_reborn }
+				NOT = { has_country_flag = post_colonial_nation }
+			}
+		
+			allow = {
+				war = no
+				civilized = yes
+				CAM = {
+					all_core = {
+						owned_by = THIS
+					}
+				}
+			}
+		
+			effect = {
+				1365 = { add_core = CAM } 
+				1363 = { add_core = CAM } 
+				1362 = { add_core = CAM } 
+				1359 = { add_core = CAM } 
+				1380 = { add_core = CAM } 
+				CAM = { country_event = 22112299 }
+				set_country_flag = khmer_reborn
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+}

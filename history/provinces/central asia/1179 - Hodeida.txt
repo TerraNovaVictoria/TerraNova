@@ -1,0 +1,7 @@
+owner = EGY
+controller = EGY
+add_core = ASI
+add_core = NYE
+add_core = HDJ
+trade_goods = grain
+life_rating = 35

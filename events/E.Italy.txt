@@ -1,0 +1,162 @@
+#####SECOND AMBROSIAN REPUBLIC#####
+
+country_event = {
+	id = 10010100
+	title = "EVTNAME10010100" #Second Republic Proclaimed
+	desc = "EVTDESC10010100"
+	picture = "streetriot"
+	major = yes
+	
+	trigger = {
+		tag = MLO
+		NOT = { has_country_flag = the_second_ambrosian_republic }
+	}
+	
+	mean_time_to_happen = { days = 90 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT10010100A"
+		government = democracy
+		political_reform = landed_voting
+		political_reform = censored_press
+		political_reform = unitary
+		political_reform = gerrymandering
+		set_country_flag = the_second_ambrosian_republic
+		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+		
+}
+
+country_event = {
+	id = 10010101
+	title = "EVTNAME10010101" #Montferrat Occupation
+	desc = "EVTDESC10010101"
+	picture = "nationalists"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT10010101A"
+		MTF = { 
+			all_core = { 
+				add_core = MLO 
+				remove_core = MTF
+			} 
+		}
+		MLO = { inherit = THIS }
+		any_pop = {
+			limit = { has_pop_culture = south_italian }
+			militancy = 1
+			consciousness = 1
+		}
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT10010101B"
+		MTF = { 
+			all_core = { 
+				add_core = MLO 
+			} 
+		}
+		MLO = { country_event = 10010102 }
+		any_pop = {
+			limit = { has_pop_culture = south_italian }
+			militancy = 4
+			consciousness = 4
+		}
+		prestige = 5
+		ai_chance = { factor = 0 }
+	}
+		
+}
+
+country_event = {
+	id = 10010102
+	title = "EVTNAME10010102" #Montferrat Refused
+	desc = "EVTDESC10010102"
+	picture = "nationalists"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT10010102A"
+		MTF = { 
+			all_core = { 
+				remove_core = MLO
+			} 
+		}
+		prestige = -5
+		badboy = -2.5
+		ai_chance = { factor = 10 }
+	}
+	
+	option = {
+		name = "EVTOPT10010102B"
+		war = {
+			target = MTF
+			attacker_goal = { casus_belli = conquest }
+		}
+		badboy = 2.5
+		ai_chance = { factor = 90 }
+	}
+		
+}
+
+country_event = {
+	id = 10010103
+	title = "EVTNAME10010103" #Aosta joins Savoy
+	desc = "EVTDESC10010103"
+	picture = "nationalists"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT10010103A"
+		AOS = { 
+			all_core = { 
+				add_core = SVY
+				remove_core = AOS
+			} 
+		}
+		SVY = { inherit = AOS }
+		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT10010103B"
+		relation = { who = SWI value = 25 }
+		prestige = -5
+		ai_chance = { factor = 0 }
+	}
+		
+}
+
+country_event = {
+	id = 10010104
+	title = "EVTNAME10010104" #Sicily Invites Sardinia
+	desc = "EVTDESC10010104"
+	picture = "nationalists"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT10010104A" #Accept
+		relation = { who = SIC value = 400 }
+		SRD = { all_core = { add_core = SIC } }
+		SIC = { inherit = THIS }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT10010104B" #Decline
+		relation = { who = SIC value = -25 }
+		SIC = { country_event = 10010105 }
+		government = democracy
+		ai_chance = { factor = 0 }
+	}
+		
+}

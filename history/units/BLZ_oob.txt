@@ -1,0 +1,28 @@
+YUC = {
+	value = -200		#relation
+}
+
+leader = {
+	name = "Staufen von Gutenberg"
+	type = land
+	date = 1836.1.1
+	personality = stout
+	background = generals_aide
+}
+
+army = {
+	name = "Ejército de Belize"
+	location = 2190
+	
+	regiment = {
+		name = "1. Brigada Infantería"
+		type = irregular
+		home = 2190
+	}
+	
+	regiment = {
+		name = "2. Brigada Infantería"
+		type = irregular
+		home = 2190
+	}
+}

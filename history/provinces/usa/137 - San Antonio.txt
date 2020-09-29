@@ -1,0 +1,6 @@
+owner = IOU
+controller = IOU
+add_core = IOU
+trade_goods = cattle
+life_rating = 35
+fort = 1 #Remember the Alamo! #No

@@ -1,0 +1,5 @@
+owner = IOU
+controller = IOU
+add_core = IOU
+trade_goods = cotton
+life_rating = 35

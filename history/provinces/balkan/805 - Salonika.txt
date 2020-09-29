@@ -1,0 +1,8 @@
+owner = ANA
+controller = ANA
+add_core = ANA
+add_core = MCD
+add_core = GRE
+add_core = BUL
+trade_goods = cattle
+life_rating = 35

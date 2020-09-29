@@ -1,0 +1,38 @@
+#Hansa-Tidore Sultanate
+vassal = {
+	first = HNL
+	second = MAL
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+#Midgard/Aesyris
+vassal = {
+	first = HNL
+	second = MID
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Prussia
+vassal = {
+	first = HNL
+	second = PRU
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Hansa - Baltic Governorate
+substate = {
+	first = HNL
+	second = UBD
+	start_date = 1801.1.1
+	end_date = 1881.1.1
+}
+
+#Frisia
+vassal = {
+	first = HNL
+	second = FRI
+	start_date = 1801.1.1
+	end_date = 1881.1.1
+}

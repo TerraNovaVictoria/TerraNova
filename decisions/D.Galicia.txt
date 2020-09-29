@@ -1,0 +1,39 @@
+political_decisions = {
+
+	occupy_beja = {
+		picture = "civil_war_in_spain"
+		potential = {
+			tag = GLC
+			NOT = { has_global_flag = end_of_spanish_civil_war }
+			NOT = { has_country_flag = beja_uprising }
+		}
+		
+		allow = {
+			SPC = { war = yes }
+			SPC = { war_exhaustion = 15 }
+			518 = {
+				owned_by = GLC
+				controlled_by = GLC
+			}
+			521 = {
+				owned_by = GLC
+				controlled_by = GLC
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			badboy = 2.5
+			525 = { secede_province = GLC }
+			494 = { secede_province = GLC }
+			526 = { secede_province = GLC }
+			527 = { secede_province = GLC }
+			SPC = { country_event = 777704 }
+			set_country_flag = beja_uprising
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

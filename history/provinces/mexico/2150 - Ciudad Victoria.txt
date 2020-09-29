@@ -1,0 +1,5 @@
+owner = TRS
+controller = SPA
+add_core = TRS
+trade_goods = cattle
+life_rating = 35

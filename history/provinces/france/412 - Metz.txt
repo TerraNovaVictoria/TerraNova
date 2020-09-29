@@ -1,0 +1,13 @@
+owner = MET
+controller = MET
+add_core = MET
+add_core = LOR
+add_core = BGY
+add_core = GER
+trade_goods = cattle
+life_rating = 31
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}

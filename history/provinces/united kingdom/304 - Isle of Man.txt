@@ -1,0 +1,6 @@
+owner = CYM
+controller = CYM
+add_core = CYM
+trade_goods = fish
+life_rating = 35
+terrain = small_island

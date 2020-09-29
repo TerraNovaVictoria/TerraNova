@@ -1,0 +1,49 @@
+#Army
+
+army = {
+	name = "I. Armee-Korps"
+	location = 625
+
+	regiment = {
+		name= "I. Linieninfanteriebrigade"
+		type = infantry
+		home = 625
+	}
+	
+	regiment = {
+		name= "II. Linieninfanteriebrigade"
+		type = infantry
+		home = 625
+	}
+	
+	regiment = {
+		name= "III. Linieninfanteriebrigade"
+		type = infantry
+		home = 626
+	}
+
+	regiment = {
+		name= "I. Pionierbrigade"
+		type = engineer
+		home = 628
+	}
+
+	regiment = {
+		name= "I. Artilleriebrigade"
+		type = artillery
+		home = 627
+	}
+	
+	regiment = {
+		name= "I. Kavalleriebrigade"
+		type = cuirassier
+		home = 629
+	}
+	
+	regiment = {
+		name= "II. Kavalleriebrigade"
+		type = cuirassier
+		home = 630
+	}
+
+}

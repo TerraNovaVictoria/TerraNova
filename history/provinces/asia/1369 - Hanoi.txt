@@ -1,0 +1,6 @@
+owner = ANN
+controller = ANN
+add_core = ANN
+trade_goods = grain
+life_rating = 40
+terrain = hanoi

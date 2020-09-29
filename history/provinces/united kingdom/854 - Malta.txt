@@ -1,0 +1,13 @@
+owner = MLT
+controller = MLT
+add_core = MLT
+trade_goods = fish
+life_rating = 35
+naval_base = 2
+fort = 1
+terrain = malta
+state_building = {
+	level = 1
+	building = small_arms_factory
+	upgrade = yes
+}

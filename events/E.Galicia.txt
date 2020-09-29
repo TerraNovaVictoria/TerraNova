@@ -1,0 +1,76 @@
+###SPANISH-GALICIAN RELATIONS###
+
+country_event = {
+	id = 777709
+	title = "EVTNAME777709" #The Republican Border Treaty
+	desc = "EVTDESC777709"
+	picture = "portuguese_secession"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT777709A" #Accept
+		GLC = { all_core = { remove_core = SPC } }
+		3251 = { secede_province = SPC remove_core = GLC add_core = SPC }
+		494 = { secede_province = SPC remove_core = GLC add_core = SPC }
+		relations = { who = SPC value = 400 }
+		prestige = 5
+		SPC = { set_country_flag = galician_affairs_completed }
+		ai_chance = { factor = 95 }
+	}
+	
+	option = {
+		name = "EVTOPT777709B" #Decline
+		SPC = { country_event = 777712 }
+		relations = { who = SPC value = -400 }
+		badboy = 2.5
+		prestige = 15
+		ai_chance = { factor = 5 }
+	}
+
+}
+
+country_event = {
+	id = 777711
+	title = "EVTNAME777711" #The Royalist Border Treaty
+	desc = "EVTDESC777711"
+	picture = "portuguese_secession"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT777711A" #Accept
+		GLC = { all_core = { remove_core = SPA } }
+		3251 = { secede_province = SPC remove_core = GLC add_core = SPC }
+		494 = { secede_province = SPC remove_core = GLC add_core = SPC }
+		relations = { who = SPA value = 400 }
+		prestige = 5
+		SPA = { set_country_flag = galician_affairs_completed }
+		ai_chance = { factor = 20 }
+	}
+	
+	option = {
+		name = "EVTOPT777711B" #Decline
+		SPA = { country_event = 777712 }
+		relations = { who = SPA value = -400 }
+		badboy = 2.5
+		prestige = 15
+		ai_chance = { factor = 80 }
+	}
+
+}
+
+country_event = {
+	id = 777710
+	title = "EVTNAME777710" #Spain declares war
+	desc = "EVTDESC777710"
+	picture = "portuguese_secession"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT777710A" 
+		ai_chance = { factor = 100 }
+	}
+
+}

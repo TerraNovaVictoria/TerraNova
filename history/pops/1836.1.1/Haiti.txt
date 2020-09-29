@@ -1,0 +1,109 @@
+#Hispanola Region (516000) #see Dominican Republic.txt for balance of region
+#Ruled by Haiti 1836
+#Port au Prince (312000/78000 POPS)
+2213 = {
+	aristocrats = {
+		culture = anglander
+		religion = catholic
+		size = 825
+	}
+	
+	officers = {
+		culture = anglander
+		religion = catholic
+		size = 150
+	}
+
+	clergymen = {
+		culture = anglander
+		religion = catholic
+		size = 175
+	}
+
+	artisans = {
+		culture = anglander
+		religion = catholic
+		size = 4050
+	}
+
+	soldiers = {
+		culture = anglander
+		religion = catholic
+		size = 100
+	}
+	
+	farmers = {
+		culture = welsh
+		religion = catholic
+		size = 5300
+	}
+	
+	slaves = {
+		culture = afro_celtic
+		religion = protestant
+		size = 8300
+	}
+	
+	farmers = {
+		culture = anglander
+		religion = catholic
+		size = 8800
+	}
+	
+	farmers = {
+		culture = gaelic
+		religion = protestant
+		size = 15300
+	}
+
+	farmers = {
+		culture = british
+		religion = catholic
+		size = 35000
+	}
+}
+#Cap Haitien (204000/51000 POPS)
+2215 = {
+	aristocrats = {
+		culture = anglander
+		religion = catholic
+		size = 550
+	}
+
+	clergymen = {
+		culture = anglander
+		religion = catholic
+		size = 75
+	}
+
+	artisans = {
+		culture = anglander
+		religion = catholic
+		size = 2550
+	}
+
+	soldiers = {
+		culture = anglander
+		religion = catholic
+		size = 200
+	}
+	
+	slaves = {
+		culture = afro_celtic
+		religion = protestant
+		size = 24825
+	}
+	
+	farmers = {
+		culture = welsh
+		religion = protestant
+		size = 6000
+	}
+
+	farmers = {
+		culture = british
+		religion = catholic
+		size = 16000
+	}
+
+}

@@ -1,0 +1,1 @@
+add_core = TRSadd_core = IOUterrain = new_world_semideserttrade_goods = cottonlife_rating = 20colonial = 2

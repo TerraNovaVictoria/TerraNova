@@ -1,0 +1,4 @@
+add_core = KHI
+add_core = KAZ
+trade_goods = opium
+life_rating = 35

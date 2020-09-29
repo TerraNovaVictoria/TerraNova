@@ -1,0 +1,5 @@
+add_core = ZBW
+add_core = SHO
+terrain = savanna
+trade_goods = tobacco
+life_rating = 10

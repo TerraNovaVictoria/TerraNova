@@ -1,0 +1,145 @@
+political_decisions = {
+
+	jamtland_treaty = {
+		picture = jemtland
+		potential = {
+			tag = SWE
+			owns = 319
+			OR = {
+				319 = { is_core = DNN }
+				319 = { is_core = NOR }
+			}
+			NOT = { has_country_flag = jamtland_border_treaty }
+		}
+		
+		allow = {
+			war = no
+			positivism = 1
+		}
+		
+		effect = {
+			set_country_flag = jamtland_border_treaty
+			305 = { owner = { country_event = 110011 } }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	independence_referendum_nor = {
+		picture = norway_referendum
+		potential = {
+			tag = NOR
+			OR = {
+				is_vassal = yes
+				is_substate = yes
+			}
+			NOT = { has_country_flag = nor_holds_referendum }
+		}
+		
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			romanticism = 1
+		}
+		
+		effect = {
+			set_country_flag = nor_holds_referendum
+			DNN = { country_event = 113311 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	independence_declaration_nor = {
+		picture = map_of_norway
+		potential = {
+			tag = NOR
+			is_vassal = yes
+			is_substate = no
+			military_score = 30
+			prestige = 30
+			NOT = { has_country_flag = nor_declared_independence }
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				ruling_party_ideology = reactionary
+				ruling_party_ideology = fascist
+				ruling_party_ideology = communist
+				ruling_party_ideology = socialist
+			}
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			set_country_flag = nor_declared_independence
+			DNN = { country_event = 116611 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	become_denmark = {
+		picture = map_of_denmark
+		potential = {
+			tag = DNN
+			NOR = { is_vassal = no }
+			NOR = { is_substate = no }
+			has_global_flag = denmark_norway_dissolved
+			NOT = { has_country_flag = end_of_denmark_norway }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_country_flag = end_of_denmark_norway
+			remove_accepted_culture = norwegian
+			prestige = 5
+			change_tag = DEN
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	norway_government_change = {
+		picture = maritime_customs_service
+		potential = {
+			tag = NOR
+			NOR = { is_vassal = no }
+			NOR = { is_substate = no }
+			OR = {
+				has_global_flag = denmark_norway_dissolved
+				has_country_flag = nor_voted_for_independence
+			}
+		}
+		
+		allow = {
+			OR = {
+				government = dominion
+				government = subject
+				government = colonial_company
+			}
+		}
+		
+		effect = {
+			NOR = { country_event = 11018 }
+			prestige = 5
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

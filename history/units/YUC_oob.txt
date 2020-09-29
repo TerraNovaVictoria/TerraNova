@@ -1,0 +1,14 @@
+BLZ = {
+	value = -200		#relation
+}
+
+army = {
+	name = "Mayahapan Army"
+	location = 2183
+	
+	regiment = {
+		name = "1. Infantry Brigade"
+		type = infantry
+		home = 2183
+	}
+}

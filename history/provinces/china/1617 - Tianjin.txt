@@ -1,0 +1,10 @@
+owner = ZHO
+controller = ZHO
+add_core = CHI 
+add_core = ZHO
+trade_goods = silk
+life_rating = 32
+
+1861.1.1 = {
+	fort = 1
+}

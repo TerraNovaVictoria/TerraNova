@@ -1,0 +1,10 @@
+owner = PRM
+controller = PRM
+add_core = PRM
+add_core = AVK
+trade_goods = grain
+life_rating = 35
+1861.1.1 = {
+	owner = CYM
+	controller = CYM
+}

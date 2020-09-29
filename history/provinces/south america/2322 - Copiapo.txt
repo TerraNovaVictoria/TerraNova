@@ -1,0 +1,8 @@
+owner = RIO
+controller = RIO
+add_core = RIO
+add_core = CHR
+trade_goods = iron
+terrain = dryhills
+life_rating = 35
+1861.1.1 = { railroad = 1 }

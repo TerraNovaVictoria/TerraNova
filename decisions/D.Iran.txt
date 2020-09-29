@@ -1,0 +1,98 @@
+political_decisions = {
+
+	afg_launch_revolt = { 
+		picture = greater_iran
+		potential = {
+			tag = AFG
+			NOT = { has_global_flag = pashtun_revolt }
+			AND = {
+				NOT = { has_country_flag = won_over_persia }
+				NOT = { has_country_flag = lost_to_persia }
+			}
+		}
+		
+		allow = {
+			prestige = 5
+		}
+		
+		effect = {
+			prestige = 10
+			1208 = { add_core = AFG }
+			1211 = { add_core = AFG }
+			1212 = { add_core = AFG }
+			government = primitive_absolute_monarchy
+			PER = { country_event = 2011836 }
+			HRT = { country_event = 2041836 }
+			HZJ = { country_event = 2041836 }
+			KDH = { country_event = 2041836 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	per_end_revolt = { 
+		picture = greater_iran
+		potential = {
+			tag = PER
+			has_global_flag = pashtun_revolt 
+			AND = {
+				NOT = { AFG = { has_country_flag = won_over_persia } }
+				NOT = { AFG = { has_country_flag = lost_to_persia } }
+			}
+		}
+		
+		allow = {
+			war = no
+			AFG = { vassal_of = THIS }
+		}
+		
+		effect = {
+			prestige = 15
+			1208 = { remove_core = AFG }
+			1211 = { remove_core = AFG }
+			1212 = { remove_core = AFG }
+			HRT = { government = subject }
+			PER = { create_vassal = HRT }
+			KDH = { government = subject }
+			PER = { create_vassal = KDH }
+			HZJ = { government = subject }
+			PER = { create_vassal = HZJ }
+			AFG = { country_event = 2021836 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	claim_iraq = { 
+		picture = greater_iran
+		potential = {
+			tag = PER
+			NOT = { has_country_flag = PER_claimed_iraq }
+			has_country_flag = ana_per_border_treaty_broken
+		}
+		
+		allow = {
+			war = no
+			prestige = 25
+			civilized = yes
+		}
+		
+		effect = {
+			prestige = 5
+			IRQ = {
+				all_core = {
+					add_core = PER
+				}
+			}
+			set_country_flag = PER_claimed_iraq
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

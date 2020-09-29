@@ -1,0 +1,252 @@
+political_decisions = {
+
+	dissolve_illyria = {
+		picture = illyria_map
+		potential = {
+			tag = ILL
+			OR = {
+				NOT = { owns = 783 }
+				exists = BOS
+			}
+			NOT = { has_global_flag = illyria_dissolved }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			prestige = 5
+			badboy = -2
+			ILL = {
+				all_core = { remove_core = ILL }
+			}
+			change_tag = CRO
+			set_global_flag = illyria_dissolved	
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	spread_illyrian_movement = {
+		picture = national_value
+		potential = {
+			tag = ILL
+			NOT = { has_country_flag = spread_illyrian_movement }
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			state_n_government = 1
+			OR = {
+				AND = { 
+					SER = { is_vassal = no }
+					794 = { owned_by = SER }
+				}
+				AND = {
+					SER = { all_core = { NOT = { owned_by = SER } } }
+					794 = { owned_by = THIS }
+				}
+			}
+		}
+		
+		effect = {
+			SER = { country_event = 194500 }
+			set_country_flag = spread_illyrian_movement
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+	claim_serbocroatia_ill = {
+		picture = map_balkans
+		potential = {
+			tag = ILL
+			OR = {
+				AND = {
+					has_country_flag = spread_illyrian_movement
+					SER = { has_country_flag = accepted_illyrian_movement }
+				}
+				SER = { has_country_flag = illyrian_coup }
+			}
+			NOT = { has_global_flag = illyria_dissolved }
+			NOT = { has_global_flag = serbocroatia_is_claimed }
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			OR = {
+				771 = { owned_by = THIS }
+				783 = { owned_by = THIS }
+			}
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			prestige = 5
+			SER = {
+				all_core = { add_core = ILL }
+			}
+			SER = { country_event = 194502 }
+			set_global_flag = serbocroatia_is_claimed		
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	claim_serbocroatia_ser = {
+		picture = map_balkans
+		potential = {
+			tag = SER
+			has_global_flag = illyria_dissolved 
+			NOT = { has_country_flag = claimed_greater_serbia }
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			NOT = { exists = ILL }
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			prestige = 15
+			CRO = {
+				all_core = { add_core = ILL }
+			}
+			BOS = {
+				all_core = { add_core = ILL }
+			}
+			SER = {
+				all_core = { add_core = ILL }
+			}
+			change_tag = ILL
+			set_global_flag = serbocroatia_is_claimed		
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+
+	form_yugoslavia = {
+		potential = {
+			OR = {
+				tag = ILL
+				tag = SLO
+				tag = BUL
+			}
+			NOT = { exists = YUG }
+			NOT = { has_global_flag = yugoslavia_formed }
+			NOT = { has_country_flag = post_colonial_country }
+		}
+
+		allow = {
+			war = no
+			is_vassal = no
+			prestige = 30
+			nationalism_n_imperialism = 1
+			794 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+					OR = {
+						is_vassal = no
+						vassal_of = THIS
+					}
+					NOT = { truce_with = THIS }
+					war = no
+				}
+			}
+			783 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+					OR = {
+						is_vassal = no
+						vassal_of = THIS
+					}
+					NOT = { truce_with = THIS }
+					war = no
+				}
+			}			
+			771 = {
+				owner = {
+					OR = {
+						tag = THIS
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+					OR = {
+						is_vassal = no
+						vassal_of = THIS
+					}
+					NOT = { truce_with = THIS }
+					war = no
+				}
+			}
+		}
+
+		effect = {
+			set_global_flag = yugoslavia_formed
+			prestige = 20
+			all_core = { add_core = YUG }
+			SER = { all_core = { add_core = YUG } }
+			MON = { all_core = { add_core = YUG } }
+			CRO = { all_core = { add_core = YUG } }
+			BOS = { all_core = { add_core = YUG } }
+			SLO = { all_core = { add_core = YUG } }
+			random_owned = {
+				limit = { owner = { accepted_culture = north_italian } }
+				owner = { remove_accepted_culture = north_italian }
+			}
+			random_owned = {
+				limit = { owner = { NOT = { government = theocracy } } }
+				owner = {
+					add_accepted_culture = serb
+					add_accepted_culture = croat
+					add_accepted_culture = slovene
+					add_accepted_culture = montenegrin
+				}
+			}
+			change_tag = YUG
+			any_country = {
+				limit = {
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+					NOT = { is_culture_group = south_slavic }
+				}
+				any_owned = {
+					limit = { is_core = YUG }
+					secede_province = THIS
+				}
+			}
+			any_country = {
+				limit = {
+					war = no
+					is_culture_group = south_slavic
+					NOT = {
+						tag = ALB
+						has_country_flag = post_colonial_country
+					}
+					OR = {
+						in_sphere = THIS
+						sphere_owner = { is_sphere_leader_of = THIS }
+						relation = { who = THIS value = 100 }
+					}
+				}
+				country_event = 11120
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

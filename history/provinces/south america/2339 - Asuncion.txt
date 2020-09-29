@@ -1,0 +1,7 @@
+owner = AZU
+controller = AZU
+add_core = AZU
+add_core = CHR
+trade_goods = cattle
+life_rating = 35
+

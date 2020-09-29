@@ -1,0 +1,7 @@
+owner = IOU
+controller = IOU
+add_core = IOU
+trade_goods = sulphur
+life_rating = 35
+
+

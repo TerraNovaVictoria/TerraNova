@@ -1,0 +1,6 @@
+owner = EMI
+controller = EMI
+add_core = EMI
+add_core = JAP
+trade_goods = silk
+life_rating = 35

@@ -1,0 +1,6 @@
+owner = MLC
+controller = MLC
+add_core = MLC
+add_core = SAK
+trade_goods = grain
+life_rating = 35

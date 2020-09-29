@@ -1,0 +1,8 @@
+owner = URM
+controller = URM
+add_core = URM
+add_core = TAL
+add_core = PER
+add_core = ARM
+trade_goods = cotton
+life_rating = 35

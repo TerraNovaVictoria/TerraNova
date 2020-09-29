@@ -1,0 +1,6 @@
+owner = VEN
+controller = VEN
+add_core = MLC
+add_core = DJA
+trade_goods = timber
+life_rating = 32

@@ -1,0 +1,6 @@
+owner = QUI
+controller = QUI
+add_core = QUI
+trade_goods = fruit
+life_rating = 35
+terrain = quito

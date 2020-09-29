@@ -1,0 +1,5 @@
+owner = DUI
+controller = DUI
+add_core = KLE
+trade_goods = cotton
+life_rating = 35

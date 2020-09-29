@@ -1,0 +1,133 @@
+political_decisions = {
+
+	free_brazil = {
+		picture = "free_brazil"
+		potential = {
+			tag = GCO
+			2447 = {
+				owned_by = SPA
+				owner = { 
+					war = yes
+				}	
+			}
+			NOT = { exists = BRZ }
+			NOT = { has_global_flag = brazil_is_free }
+		}
+		
+		allow = {
+			OR = {
+				SPA = {
+					war_exhaustion = 10
+				}
+				2447 = { controlled_by = THIS }
+			}
+		}
+		
+		effect = {
+			set_global_flag = brazil_is_free
+			random_owned = {
+				limit = {
+					owner = { civilized = no }
+				}
+				owner = {
+					military_reform = yes_foreign_officers
+				}
+			}
+			prestige = 15
+			random_country = {
+				limit = { 
+					tag = SPA 
+				}
+				country_event = 777702
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	kapuyan_war = {
+		picture = "preacher"
+		potential = {
+			tag = GCO
+			2247 = {
+				owned_by = GCO
+				owner = { 
+					war = yes
+				}	
+			}
+			NOT = { has_global_flag = kapuyan_victory }
+		}
+		
+		allow = {
+			AND = {
+				2295 = { controlled_by = THIS }
+				2291 = { controlled_by = THIS }
+				2310 = { controlled_by = THIS }
+				2316 = { controlled_by = THIS }
+			}
+		}
+		
+		effect = {
+			set_global_flag = kapuyan_victory
+			prestige = 15
+			KAP = {
+				all_core = {
+					remove_core = PIK
+				}
+			}
+			GCO = {
+				all_core = {
+					remove_core = PIK
+				}
+			}
+			KAP = { inherit = PIK }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	treaty_of_lima = {
+		picture = "preacher"
+		potential = {
+			tag = PIK
+			2295 = {
+				owned_by = PIK
+			}
+			KAP = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = {
+							OR = {
+								in_sphere = THIS
+								vassal_of = THIS
+							}
+						}
+					}
+				}
+			}
+			NOT = { has_global_flag = treaty_of_lima }
+		}
+		
+		allow = {
+			war = no
+			year = 1840
+		}
+		
+		effect = {
+			set_global_flag = treaty_of_lima
+			prestige = 15
+			PIK = {
+				all_core = {
+					remove_core = KAP
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

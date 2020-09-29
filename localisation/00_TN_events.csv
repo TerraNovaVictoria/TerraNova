@@ -1,0 +1,376 @@
+;;;;;;;;;;;;;;x,,,
+EVTNAME6666100;The Belgian Revolution;;;;;;;;;;;;;x
+EVTDESC6666100;My Emperor! Our subjects in the Low Countries have revolted against our rule and proclaimed the United States of the Netherlands in Brussels! We have effectively lost control over our holdings in the area and now face another serious issue within the Empire. If we fail to restore order to the Netherlands soon, this might lead to only more trouble in the future.;;;;;;;;;;;;;x
+EVTOPT6666100A;We will prepare a response;;;;;;;;;;;;;x
+EVTNAME6666101;The Belgian Revolution;;;;;;;;;;;;;x
+EVTDESC6666101;The Revolution has come! The Holy Roman Empire has become weak and the Emperor has lost his authority. The preceding Republic of Liége has shown the people of the Low Countries that the Emperor is unable to keep his realm together and that he holds no authority in the Netherlands. The entire Empire is rotten to the core and a symbol of the ancient regime, a federation of autocratic and feudal states, ruled by selfish nobles without any morals or remorse. However, this day marks the beginning of the end for this failure of a state. The Black, Red and Golden banner will fly above the whole of Germany and the Feudal states will be dissolved once and for all.;;;;;;;;;;;;;x
+EVTOPT6666101A;Für Einigkeit und Recht und Freiheit;;;;;;;;;;;;;x
+EVTNAME6666102;Join the Netherlandish States?;;;;;;;;;;;;;x
+EVTDESC6666102;The government in Brussels has invited us to join a federation of equals to better resist any foreign attempts at dissolving our government. How should we respond?;;;;;;;;;;;;;x
+EVTOPT6666102A;United we stand;;;;;;;;;;;;;x
+EVTOPT6666102B;We are better off on our own!;;;;;;;;;;;;;x
+EVTNAME6666103;$FROMCOUNTRY$ joins the Republic!;;;;;;;;;;;;;x
+EVTDESC6666103;$FROMCOUNTRY$ has accepted our offer to join our Republic. This will certainly strengthen our position.;;;;;;;;;;;;;x
+EVTOPT6666103A;Hurrah!;;;;;;;;;;;;;x
+EVTNAME6666104;$FROMCOUNTRY$ has refused!;;;;;;;;;;;;;x
+EVTDESC6666104;$FROMCOUNTRY$ has decided to maintain their full independence. We will see how long they will last on their own..;;;;;;;;;;;;;x
+EVTOPT6666104A;Such a shame.;;;;;;;;;;;;;x
+EVTNAME777713;The Occupation of Andorra;;;;;;;;;;;;;x
+EVTDESC777713;The Spaniards have sent us an ultimatum to submit to their government. What should we do?;;;;;;;;;;;;;x
+EVTOPT777713A;We have no chance of winning against them ...;;;;;;;;;;;;;x
+EVTOPT777713B;We shall defend our independence!;;;;;;;;;;;;;x
+EVTNAME777714;The Occupation of Andorra;;;;;;;;;;;;;x
+EVTDESC777714;Your Highness, we have been informed that the Spanish have sent an ultimatum to Andorra, demanding their complete annexation. Already have Republican troops occupied the small country and for all we know, they are probably preparing a full blown invasion of our kingdom! We must strike first and put an end to this revolutionary madness, restore the Spanish Kingdom and strike this tumour at its core before it's too late.;;;;;;;;;;;;;x
+EVTOPT777714A;Let's put an end to this republican chaos!;;;;;;;;;;;;;x
+EVTOPT777714B;Andorra is not worth a war with Spain;;;;;;;;;;;;;x
+EVTNAME777715;The Occupation of Andorra;;;;;;;;;;;;;x
+EVTDESC777715;The Andorrans have refused to submit to our authority. What should we do?;;;;;;;;;;;;;x
+EVTOPT777715A;Let's put an end to this feudal autocracy!;;;;;;;;;;;;;x
+EVTOPT777715B;Andorra is not worth a war;;;;;;;;;;;;;x
+EVTNAME222200;The Parisian Riots;;;;;;;;;;;;;x
+EVTDESC222200;The Age of Absolutism is coming to an end. Feudalism is becoming obsolete as the Industrial Revolution spreads across Europe. However, many regimes are unable to adapt, fail to reform themselves to fit into this new age. While France managed to remain relatively stable, this seems to become increasingly difficult as liberal and nationalist agitation leads to widespread unrest in our kingdom. The fall of the Spanish Empire has shown to all of Europe that if not kept in check, this sentiment will lead to anarchy and chaos. We are now facing an immediate danger in our very own capital, Paris, as enraged peasants and craftsman parade through the streets and harass priests and nobles alike. Reports of violence have become more common, and if we fail to contain this soon, we might face a serious crisis not just in Spain, but at home as well..;;;;;;;;;;;;;x
+EVTOPT222200A;Noted;;;;;;;;;;;;;x
+EVTNAME222201;The Fall of the Bastille!;;;;;;;;;;;;;x
+EVTDESC222201;My King! We have received terrible news - Our final stronghold in central Paris, the Bastille, has fallen to the revolutionary crowds. At this point, most of our troops have already been withdrawn from the central districts of the city, instead taking up position at strategic locations around Paris. The troops left behind have either been killed or deserted to the rioters. While we have secured the immediate area around Paris and increased our presence at Versaille, with the fall of the prison the revolutionaries are now armed and more dangerous than before, ready to advance against our troops. We must put down this revolt or otherwise our beloved kingdom will fall to the same republican chaos that has already engulfed Spain..;;;;;;;;;;;;;x
+EVTOPT222201A;A Civil War seems all but inevitable now..;;;;;;;;;;;;;x
+EVTNAME222202;Anarchy in Paris;;;;;;;;;;;;;x
+EVTDESC222202;The situation in Paris continues to deteriorate. The outbreak of violence against our troops and officials has left much of the city in disarray and anarchy as our men are being driven out of Paris. We have managed to secure all important locations across the city, reaching from armories to prisons, however, it remains to be seen how long our troops can withstand a prolonged siege. Furthermore it has come to our attention that members of the third estate have formed a so-called "National Assembly", effectively establishing their rule over the city and laying the outrageous claim to speak in the name of all our subjects. They have managed to organize the rioters under their rule and have now put forth a series of demands reaching from a free press to recognition of the assembly as the new national parliament. How should we respond to these recent events?;;;;;;;;;;;;;x
+EVTOPT222202A;We shall negotiate with the rioters.;;;;;;;;;;;;;x
+EVTOPT222202B;We shall answer their demands with gunpowder and bullets.;;;;;;;;;;;;;x
+EVTNAME222203;The French Revolution of $YEAR$;;;;;;;;;;;;;x
+EVTDESC222203;"What need do we have of discussion when everyone is in agreement? Kings are as much monsters in the moral order as in the physical order. The Courts are a workshop for crime, the foyer for corruption and the den of tyrants. The history of kings is the martyrology of nations!" - The National Assembly has passed the proclamation of the abolition of the monarchy, officially proclaiming the French Republic. The country is deeply divided and on the brink of civil war ...;;;;;;;;;;;;;x
+EVTOPT222203A;Vive la révolution!;;;;;;;;;;;;;x
+EVTOPT222203B;Pour le roi et le pays!;;;;;;;;;;;;;x
+EVTNAME222204;The French Civil War;;;;;;;;;;;;;x
+EVTDESC222204;Paris has fallen. The National Assembly has declared the Republic and is now rallying troops to advance against the monarchists who have fled the city. The nobility and clergy have sided with the royalists, mobilizing their own forces in an attempt to contain the republican uprising. Meanwhile all of europe is watching in shock as the second continental great power has fallen to the revolutionary chaos that began in Spain. What the future holds for France remains to be seen ...;;;;;;;;;;;;;x
+EVTOPT222204A;Pour le roi et le pays!;;;;;;;;;;;;;x
+EVTNAME222205;The French Civil War;;;;;;;;;;;;;x
+EVTDESC222205;Paris has fallen. The National Assembly has declared the Republic and is now rallying troops to advance against the monarchists who have fled the city. The nobility and clergy have sided with the royalists, mobilizing their own forces in an attempt to contain the republican uprising. Meanwhile all of europe is watching in shock as the second continental great power has fallen to the revolutionary chaos that began in Spain. What the future holds for France remains to be seen ...;;;;;;;;;;;;;x
+EVTOPT222205A;Vive la révolution!;;;;;;;;;;;;;x
+EVTNAME222206;Join the Revolution?;;;;;;;;;;;;;x
+EVTDESC222206;Civil War in France - Monarchists and Republicans have now gone to war as it becomes clear that no agreement could be reached. The Revolutionaries within our realm have armed themselved and support the French Republic, rallying against our forces..;;;;;;;;;;;;;x
+EVTOPT222206A;The Republicans overwhelm the nobility!;;;;;;;;;;;;;x
+EVTOPT222206B;The Revolt is put down!;;;;;;;;;;;;;x
+EVTNAME222207;Join the Revolution?;;;;;;;;;;;;;x
+EVTDESC222207;Civil War in France - Monarchists and Republicans have now gone to war as it becomes clear that no agreement could be reached. The Revolutionaries within our realm have armed themselved and support the French Republic, rallying against our forces..;;;;;;;;;;;;;x
+EVTOPT222207A;The Republicans overwhelm the nobility!;;;;;;;;;;;;;x
+EVTOPT222207B;The Revolt is put down!;;;;;;;;;;;;;x
+EVTNAME10010104;The Future of Sardinia;;;;;;;;;;;;;x
+EVTDESC10010104;The newly established Neapolitan Republic has invited us to join the Sicilian Federation. As a sister republic of Naples, many feel that we should accept this offer and align ourselves with the rest of Italy. However, we can just as well safeguard our independence and find our own destiny in this world.;;;;;;;;;;;;;x
+EVTOPT10010104A;We value our ideals;;;;;;;;;;;;;x
+EVTOPT10010104B;We value our independence;;;;;;;;;;;;;x
+EVTNAME3021840;The Crisis of the Zhou;;;;;;;;;;;;;x
+EVTDESC3021840;The Chinese Empire under the ruling Zhou Dynasty has enjoyed great prosperity for the past 167 years. But as time moves on, old agreements and power structures have led to widespread corruption and an extremely decentralized state. Wu Sangui's victory over the Qing was only possible with the aid of the Yue, Hui and Oirats, leaving them many freedoms and privileges that undermine the imperial administration for decades now. Furthermore, the continued existence of the Tungning state in Taiwan keeps delegitimizing the Zhou Mandate and might act as a catalyst for a greater crisis. If not taken care of, the mighty Zhou might face their downfall soon...;;;;;;;;;;;;;x
+EVTOPT3021840A;The Mandate is ours.;;;;;;;;;;;;;x
+EVTNAME9141503;The Fall of Malacca!;;;;;;;;;;;;;x
+EVTDESC9141503;The City of Mallaca has fallen. With the central authority in shambles, regional war lords and sultans have taken up the responsibility of restoring order to the sultanate. While Cymric dominance over the area fades as quickly as it has emerged, the division and instability that follows the break up will have a profound impact upon the trade and prosperity of the region. What the future holds for Malaysia, remains unknown...;;;;;;;;;;;;;x
+EVTOPT9141503A;Johor will restore order!;;;;;;;;;;;;;x
+EVTNAME130001;The Khmu Uprising!;;;;;;;;;;;;;x
+EVTDESC130001;Vientiane has been a troubled kingdom ever since the division of Lan Xang. Following the initial separation in 1707, Champassak seceded from the kingdom in 1713 after a successful revolt. Bureaucratic stagnation, high taxation of the natives, warfare with its neighbours and an ever growing Siamese threat, combined with the laotian push to assimilate the various tribal groups have finally led to a peasant uprising in the countryside. If not dealt with, this might very well mean the end of the Kingdom of Vientiane.;;;;;;;;;;;;;x
+EVTOPT130001A;Vientiane falls to the rebels!;;;;;;;;;;;;;x
+EVTOPT130001B;The Rebellion is crushed!;;;;;;;;;;;;;x
+EVTNAME10010101;The Ambrosian invasion of Montferrat;;;;;;;;;;;;;x
+EVTDESC10010101;After the Ambrosian Revolution, the captains of the new republic sought to incorporate the Duchy of Montferrat. This has however sparked a massive wave of nationalist sentiment across the small nation, with people openly calling for resistance to the invader. While war seems to be the only way to retain independence, the unequal balance of strength makes it look like a pointless wast of human lives, which could be avoided with a painful but necessary capitulation.;;;;;;;;;;;;;x
+EVTOPT10010101A;There is no way we can prevail.;;;;;;;;;;;;;x
+EVTOPT10010101B;War it is, then!;;;;;;;;;;;;;x
+EVTNAME121220;The Sofian Council;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC121220;These are dire times for the Ancyran Empire. As nationalist and liberal agitation divides europe, our empire too suffers from internal divisions. The recently ignited Ionian Revolution ravages through our coastal lands, effectively leaving our european possession in anarchy. This led to a provisional government being proclaimed in Sofia - while still unorganized, if we don't crush the Ionian Revolt soon, this may very well escalate into yet another conflict and a possible civil war within our realm.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPTA121220;Ji bo împaratorî!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME121221;The Bulgarian Secession;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC121221;As anarchy reigns supreme in the balkans, the bulgars have now managed to gain full control of our european possessions. With our administration gone, the only way to regain control is through military means. Already are the bulgars assembling an army, preparing to fiercly resist and defend their newly won independence!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPTA121221;The Empire is indivisable!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPTB121221;Towards the glory of Bulgaria!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME191802;Kaiserlich und Königlich;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC191802;Now that we have firmly established ourselves over our various crown territories we can properly integrate them into a single political entity. By uniting the Crown of Bohemia and the Crown of Avaria we would strengthen our position in Central and Eastern Europe and maybe even win over the Avarian nobility which would certainly give us an easier time assimilating the Pannonian basin. This marks the birth of the Bohemian Empire!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVT191802OPTA;Ein König, ein Kaiser, ein Reich!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME191803;Kaiserlich und Königlich;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC191803;The administration in Prague has proclaimed the Bohemian Empire, demanding us to submit to the newly formed central authority. Doing so would end the autonomy we've enjoyed so far, but declining it could very well lead to war.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVT191803OPTA;Für Reich und Vaterland!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVT191803OPTB;Für Freiheit!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME131140;Aromanian Schooling Proposal;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC131140;The Romanian government came forth with a proposal to establish schools in our territory for the local Aromanian minority. While accepting the proposal would give us the chance to increase the literacy of our subjects, this could just as well lead to the development of a sense of nationality that could have unforeseen consequences on our national integrity. Refusing the proposal however would severely hurt our relations with Romania.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT131140A;Give it a go.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT131140B;They are better off learning Greek instead!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME131141;Aromanian Schooling Proposal Refused!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC131141;The proposal we've sent fell upon deaf ears. They refused us to educate the Aromanians, probably with the intention of further marginalizing and oppressing them!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT131140A;Damnit;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME194500;The Illyrian Movement;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC194500;The Illyrian Movement is a pan-South-Slavist cultural and political campaign that aims to unite all South Slavs under a common "Illyrian" identity. This movement undeniably had a large impact in Bosnia and Croatia, but the Serbian people managed to resist this idea for the longest time. Now however, this movement has re-emerged in our country and begun assembling a large following in our intelligentsia and influenced them to such a degree that they identify as Illyrians, rather than Serbs. If this continues, this could very well lead to an Illyrian hegemony in the balkans.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT194500A;We should support this movement openly.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT194500B;While we are one people, Illyrian hegemony seems unlikely.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT194500C;Hegemony? Of course, under the Serbian State!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME194501;The Illyrian Revolution;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC194501;My lord, a group of Illyrian nationalist has taken over strategic points in Belgrade and proclaimed the Republic of Serbia, effectively claiming that the monarchy is no more. Their first and  foremost goal is the immediate unification with Illyria - after our recent loss of Northern Albania, the people seem to widely support this move, having erected barricades in belgrade in favor of the coup.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT194501A;An offensive by the army reoccupies Belgrade!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT194501B;The King flees the country!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME194502;The Unification of Illyria;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC194502;The Illyrian government has sent us a proposal that would merge Serbia and Illyria into a single Illyrian Kingdom. While this country would be a federation of Croatia, Bosnia and Serbia, we would effectively give up our national sovereignty.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT194502A;At last we are one!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT194502B;To hell with the king, Serbija leads the way!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME194503;The Serbian Revolt!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC194503;The Serbian government has refused our general proposal of unification, claiming that Illyria cannot be free under a king. While they are clearly wrong, bringing them into the fold by force could lead a brutal war of unification where even our subjects might defect to the enemy. Letting them go however might end the Illyrian and thus the Yugoslav dream immediately.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT194503A;Let them be. Croatia and Bosnia is good enough.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT194503B;We will not back down now!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME194504;The Yugoslav War;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC194504;The Illyrian Kingdom has declared war upon us, claiming to act in the interest of the Illyrian people and ideal. This aggression puts us in a precarious situation: If we lose this might very well mean the end up the Serbian nation. Luckily for us, the Serbs in Bosnia support us in this war and have defected to us - we might be able to even convince the Croats to join our cause if we fight for a united Yugoslavia under a republican government against the Illyrian Monarchy.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT194504A;For Serbia!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT194504B;For Yugoslavia!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME191800;The Rise of Slavenian Nationalism;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC191800;As the wave of Liberalism keeps spreading across europe, many ethnicities that were formerly rather complient have now started to develop a sense of nationality, leading to unrest and even revolutions across europe. While the monarchs and nobility try to quell the widespread unrest, it becomes clear that the age of absolutism is coming to an end. Our Empire is considered to be amongst the strongest and most influential in Europe, but a deep ethnic divide slowly starts to emerge as our people start to identify as Slavenian or German, rather than Bohemian. If we  don't adress these issues soon, our empire might merely live on history.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVT191800OPTA;Bohemia is one and indivisible!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME191801;The Linguistic Issue;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC191801;If we want to keep our empire it becomes clear that the widespread linguistic diversity is more than just harmful. Having a single language be prominent in the empire would greatly add to our stability. Avaro-Czecho-Slovak, also known as Slavenian, is by far the most widespread language of the empire, being spoken by 67% of our population. However, German is also being spoken across our lands, but merely as a language of the educated and upper classes as well as the artisans and craftsmen of the Sudetes, adding up to roughly 20% of our population. Making either language the sole official language would severely anger the other side - furthermore abandoning German might severely hurt our relations with the Empire and could lead to us being excluded from it as a result.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVT191801OPTA;German will naturally be the language of the state.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVT191801OPTB;We should encourage bi-lingualism throughout the empire.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVT191801OPTC;Bohemia was a Slavic nation and it will be once more!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME192201;The Gaelic Revolution;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC192201;'Brothers and sisters of the Gaelic nation, no longer shall we be subjects of a foreign crown! In the name of God and of the dead generations from which they receive their old tradition of nationhood, Gaeldom, through us, summons her children to her flag and strikes for her freedom.' - Following the Belfast Declaration, the Gaels of Ireland and Western Scotland have taken up arms against our rule. We must act quickly and put down this revolt!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT192201A;God is with the Britons!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT192201B;God is with the Gaels!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME191822;The Baltic Uprising;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC191822;As the spirit of nationalism and liberalism keeps on spreading throughout europe, it seems to now have finally reached the Baltics as well. Having been pacified in 1295 following the final Prussian uprising, the Hansa gradually expanded North East, culminating in the 1411 partition of Lithuania between the League, Poland and Ruthenia. However, the native Baltic populace has taken up arms against German rule once more, this time under the leadership of the Latgale and Lithuanians. Though Curonia and Estonia remain loyal to the League, this war may very well determine the future of the Baltics as a whole.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT191822A;It's time for another Baltic crusade!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT191822B;For the freedom of Latgale and Latvija!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT191822C;For the glory of the Grand Duchy of Lithuania!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME191833;The Estonian Secession;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC191833;Taking advantage of the chaos in the Baltics, a group of Estonian nationalists, supported by Finnish volunteers, have successfuly seized Tallinn and proclaimed the Estonian Republic! Although this new state doesn't have popular support amongst the peasantry, the Estonian nobility and clergy have given their support for this new state. This seems like the end of the Baltic Federation.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT191833A;Prussia will restore order to these lands!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT191833B;For the freedom of Estonia!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME101917;The Comintern;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC101917;Workers of the world! The proletariat has seized the Russian state and has now fully dedicated itself towards the liberation of our fellow workers abroad. No longer shall the working class be subject to the terror and exploitation of the Ancien Régime and Bourgeoisie! The Comintern will lead the communist movement from now on and guide us towards the kingdom of liberty!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT101917A;Russia will show you the way!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME101918;Comintern Influence;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC101918;The communists in Russia have declared that they will do anything in their power to overthrow our government. The free nations of the world must stand together and fight against the communist outbreak that tries to undermine us. We must not allow for this bolshevik chaos to spread abroad.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT101918A;Our people surely won't fall for this nonsense;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME101919;Join the USSR?;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC101919;We have been offered a membership in the USSR by the supreme soviet of the union. Joining would certainly strengthen the international cause of the proletarian, however, our nation would fully give up its independence and submit to the new central authority of a foreign nation.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT101919A;We would prefer to remain independent;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT101919B;Workers of the world, unite!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME015566;Ionian Revolution reaches Morea!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC015566;As the civil war in anatolia rages on, the ideals of the Ionian Revolution seem to have taken roots within our nation now as well. Dissatisfied with the autocratic government many of our peasants have begun to rise up in the country side, refusing to pay taxes which in turn only worsens our already disfunctional economy. Following the widespread unrest, a group of liberals has taken it upon themselves to "restore order" to the nation, promising reforms and the unification of all greeks into a single country. If we don't act quickly, this revolution could very well lead to the final collapse of the roman empire.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT015566A;Dissolve their government and execute the traitors!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT015566B;We must accept their legitimacy. Long live Greece!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT015566C;The Imperium is no more - Long live the Republic!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME025566;The Hellenic Constitution;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC025566;Following the collapse of the empire, the new parliament has effectively taken control over most of hellas. The themes, while still largely independent, acknowledge the recent events and recognize our government as legitimate, showing their dedication towards the cause of unifying all of greece. The constitution that parliament has put forth is clearly inspired by the Spanish Declaration of the Republic, having a distinct Liberal character. Once accepted the Roman Empire would cease to exist - instead a new Greek Federation would rise in its place.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT025566A;This is a new beginning for Greece.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME035566;Order Restored;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC035566;It took many weeks but the final pockets under Ionian control have finally been recaptured. The themes have reported that they are once again in full control of their respective territories, bringing an end to the off-spring of the Ionian revolution that has plagued our empire. With parliament crushed and imperial authority restored, we have now once again a legitimate claim to all our territories.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT035566A;Long may the empire live.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME045566;Rejoin Greece?;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC045566;The greek authorities have proposed a reform of the theme system. Said proposal would put all themes under direct control of the government and officials would from now on be elected to represent the interests of each theme in the newly formed parliament. We would effectively give up our authority and be fully integrated into Greece.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT045566A;For Democracy and Hellas, we accept.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT045566B;We are better off on our own!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME055566;Reform the Themes?;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC055566;The morean authorities has proposed a reform of the theme system. Said proposal would put all themes under direct control of the government and officials would from now on be appointed directly by the emperor, effectively removing us from governing ourselves.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT055566A;For the Empire and Hellas, we accept.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT055566B;We are better off on our own!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME065566;The Cult of Athena;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC065566;These are hard times for Greece. The once great empire is no more, reduced to a decentralized rump state centered in Nafplio. Poverty, war and revolutionary unrest left many people disillusioned. In these harsh times people abandon God or even worse: adopt heretical beliefs. Many think that our current situation is a punishment by the old Gods for following a false faith. While just a minor cult as of right now, it has found widespread support amongst the aristocrats and higher ups of our theme. If we don't act soon, this blatant heresy could spread across the entirety of greece...;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT065566A;There is only one God!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT065566B;Maybe the old Gods will help us...;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME21123333;Fate of the Andes;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC21123333;With the Kingdom of Spain being no more, the authority of the empire has effectively ceased to exist. While we do not recognize the authority of the new Spanish Republic, the absence of a king seriously undermines our legitimacy as a nation. Monarchist have proposed to crown the current viceroy to reign as emperor over the andes. Alternatively, republicans within our nation urged us to recognize the Spanish Republic and to embrace the Pan-Colombian ideals in hope of ending the current war.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT21123333A;Proclaim the Picchunic Empire!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT21123333B;Proclaim the Peruvian Republic!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME22112299;Rise of Khmeria;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC22112299;For too long has our mighty nation been subject to foreign empires. The time has come to reform our pity kingdom and to re-establish the old empire. We must bring all Khmer outside of our lands back into the fold and establish ourselves as a permanent nation in Indochina. Only then can we begin to take the first steps towards reuniting the old empire.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVT22112299OPTA;Very well;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME10010100;The Second Ambrosian Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC10010100;Following the Spanish Revolution many republicans of Milan, joined by a large crowd of unhappy peasants, took it to the streets to protest against the autocratic government despite the ban on public meetings. When the police forces tried to dissolve the gathering, the violence escalated and the angry crowd stormed the duke's palace, publicly hanging the royal family and many of their loyalists. Following these events a provisional government of twelve "Captains and Defenders of Liberty" was elected, proclaiming the Second Ambrosian Republic. Although just a minor republic in northern Italy, many patriots and republicans see this as the first step towards a unified Italian state.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT10010100A;Lunga Vita alla Rivoluzione;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME90010900;Ratify the Declaration of Independence;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC90010900;Although many initially doubted that Colombia could survive as an independent nation, we have now managed to push the Spanish out of Venezuela and Central Colombia, even occupying Quito and Panama. Our brave army now marches into the Andes and Brazil, fighting for the liberty of our brothers. Let us ratify our declaration of independence by the new congress and show the world that we are a true and free nation in this world!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT90010900A;¡Por el triunfo de la Unión!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME90020900;The Colombian Constitution;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC90020900;It took many months but the Congress of Caracas finally proposed the final draft of the constitution. This constitution would guarantee a free press, freedom of assembly, universal voting rights and equality between all states of the union. This constitution would certainly boost the morale of our people, however, many high ranking officials and conservatives fear that accepting the constitution during times of war could lead to unwanted internal unrest and instead propose to delay the ratification post-war.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT90020900A;Colombia must be free!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT90020900B;Colombia must be glorious!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME466466;Death of a Dream;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC466466;The Revolution has failed. With North and South Colombia unable to connect, both territories become separate nations and the people of the Andes remain under the Feudal institutions the revolution tried to abolish. As the Kapuyan Republic loses its legitimacy, so do people begin to question to the legitimacy of Colombia. Reactionary forces are advocating for rejoining the Spanish Motherland while more Liberal factions try to promote a North Andean Federation. While regional differences grow and the future remains uncertain, one thing becomes clear: The Dream of a Pan-American nation in the New World is dead.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT466466A;This marks the birth of a new nation.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME466566;Ecuador secedes from the Union!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC466566;After the secession of Panama, Separatist crowds have gathered in Qutio, demanding for the restoration of the independent Republic of Quito. When our armed forces intervened, the violence escalated and our troops were overwhelmed. With the province in anarchy, a group of conservatives formed a provisional government and proclaimed the Republic of Ecuador!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT466566A;Let them go.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT466666B;The Union must live on!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME466666;Civil War in Colombia!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC466666;With both Ecuador and Panama seceding from the Union, militias in Bogota have now taken it upon themselves to free our central provinces from the government in Caracas. With our armed forces occupied elsewhere, we were unable to keep order and thus the officials in Bogota now proclaimed the Republic Cauca. This seems like the end of the Union.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT466666A;Death to the traitors!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME466766;The Republic of Platinea;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC466766;As the revolution failed it becomes clear that we can no longer rely on the North for support. We must go our own path and find prosperity by our own means. Long live the Platinean Republic!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT466766A;We are on our own.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME90030900;The Capital of Colombia;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC90030900;Although our nation failed to unite all Hispanics of America, we still managed to liberate the Northern Andes and Charrua. Now that we are at peace, the time has come to deal with our internal matters. The question of what city should be the Colombian capital was delayed until the war was over since it was never certain if Morelia and Montevideo would join the union. Since we are limited to the Northern Andes now, we have 4 options for our future capital:;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT90030900A;Caracas, the birthplace of the Colombian nation!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT90030900B;Bogota, our most populous city!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT90030900C;Quito, the most fortified city!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT90030900D;Colombus, a new city for all Colombians!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME90040900;The Capital of Colombia;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC90040900;The revolution was successful and the Spanish yoke is finally overthrown. Colombians across the new world celebrate the foundation of our new nation. However, the capital question remains open since the initial constitution never specified a city since it was never guaranteed that Morelia and Montevideo would join the union. Since we united all of Gran Colombia, we have 5 options for our future capital:;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT90040900A;Caracas, the birthplace of the Colombian nation!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT90040900B;Morelia, the capital of the old Purepecha Empire!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT90040900C;Montevideo, the city of wealth and prosperity!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT90040900D;Guatemala, the birthplace of the American revolution!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT90040900E;Colombus, a new city for all Colombians!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME110011;The Swedish-Danish Border Treaty;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC110011;We received a proposal from the Swedish ambassador early this morning. Apparently the Swedish government is open to negotiate the border between the United Kingdom and Sweden. For the most part it the current border would remain in effect with only a few towns and villages being exchanged. Furthermore the Swedish embassy proposed that if we drop our claim on Øst-Trøndelag, the Swedish government in return would ratify our ownership over Göteborg. This would greatly boost our diplomatic relations in the future and open up further negotiations concerning Scandinavia, however, many in the world might see this as a weakness since we would give up a large chunk of land to the swedes.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT110011A;Let's sign the treaty;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT110011B;They can have Øst-Trøndelag over my dead body;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME111111;Border treaty signed!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC111111;The Dano-Norwegian ambassador informed us that the border treaty has been signed by a Danish-Norwegian delegation. This means the border is now finalized and that neither side claims the territory of the other anymore.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT111111A;Wonderful;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME112211;Border treaty declined!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC112211;The Dano-Norwegian ambassador informed us that the border treaty has been declined. Apparently the Norwegians are not willing to give up Øst-Trøndelag by any means. This is a clear sign that the Dano-Norwegians will indeed attack us at some point in order to take our rightful land. However, this might be beneficial for us since we now have a valid reason to claim the entirety of Trøndelag as rightful Swedish land.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT112211A;Let's not try to escalate this;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT112211B;Trøndelag shall be Swedish once more;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME113311;Norwegian Independence Referendum;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC113311;A Norwegian delegation has approached us and asked for the permission to hold a plebiscite within the Norwegian territories. Demands for independence have increased within Norway over the past few decades and holding this plebiscite can either firmly confirm our authority over Norway or lead to their actual independence. Either way, the referendum is also being called for by a large chunk of the Norwegian populace so refusing it could lead rebellious thought spreading across our northern territories.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT113311A;We support the plebiscite;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT113311B;How can anyone say Norway isn't Danish?;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME114411;Denmark has agreed!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC114411;The Danish parliament and king have both agreed to our request. We can now initiate the preperations for the referendum.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT114411A;Go ahead;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME115511;Denmark has refused!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC115511;The Danish parliament and king have both refused our request. They are not willing to grant us independence under any circumstances. We can submit to this dictate, however, we can just as well go on and hold the referendum anyway. Should it turn out in favour of independence we can legitimize our government and declare independence without Danish approval.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT115511A;Being preperations for the referendum;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT115511B;We should submit to the king's authority;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME116611;Norway declares independence!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC116611;The new regime in Norway has gathered in Trøndelag and decided to declare its independence from the our country! Should we acknowledge and recognize their independence or should we intervene military and reinstate our authority over the country?;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT116611A;Let them go;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT116611B;Restore order in Norway!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME11000;The Referendum;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC11000;The preperations for the upcoming referendum are complete. We are now ready to hold the vote.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11000A;Let the voting begin!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME11001;Ja, vi elsker dette landet;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC11001;Cheerings crowds have gathered all over Norway to celebrate the referendum. Nationalist sentiment seems to truly manifest within our populace and many seem to support independence from Denmark. Already pro-independence groups started advocating for voting "Ja" while pro-unionist groups started advocating for their side as well in an attempt to preserve the union. Either way, many consider this to be the birth of the Norwegian Nation. ;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11001A;Encourage this sentiment!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11001B;Acknowledged;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME11002;Unionists march in Christiania;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC11002;Despite the initial nationalist surge, the unionists now seem to have gained the edge. Using the slogan "Hjemland og Stabilitet", a large crowd of pro-unionist demonstraters moved through Christiania only to be interrupted by pro-nationalist groups. The intervention turned violent and it took over half an hour before the police was able to restore order on the streets.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11002A;The nationalists are at fault;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11002B;The unionists are at fault;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME11003;Police clashed with Nationalists;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC11003;Earlier today, a protest in Christiania by the nationalist movement "Hjemland" turned violent as a pro-unionist group blocked their way, causing the nationalists to attack the unionists. The police intervened in favor of the unionists, arresting many of the nationalists. Though most have been released by now, both sides blame each other for the incident.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11003A;The nationalists are at fault;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11003B;The unionists are at fault;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME11004;Parliamentary Speeches;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC11004;Although the parliament has no direct influence in the referendum, many politicians within parliament support either the unionist or nationalist cause. Nationalists hold speeches about the history of Norway as an independent kingdom, about it ability to prosper as an independent country and about the undemocratic process within the kingdom that leads to a one-sides Danish dominated union. Unionists on the other hand argue for the economic stability and prosperity the union provides as well as the economic and military benefits that grant our nation safety. Either way, these speeches lead to ...;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11004A;... the nationalists winning over the majority.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11004B;... nothing. Parliament remains a place of debate.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME11005;Nationalist Agitation;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC11005;Nationalists all over the country become more and more organized, agitating for independence in all major cities and even in the countryside. They hand out flyers and organize protests in favour of the nationalist cause, winning over large chunks of the populace.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11005A;Acknowledged;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME11006;Unionist Agitation;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC11006;The referendum is nearing its end, leading to the unionists increasing their efforts at spreading their message across the country. Many former nationalists seem to have become insecure about the actual ability of Norway to survive as an independent country, slowly but surely favoring the unionist cause that promises them stability and security.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11006A;Interesting;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME11007;Unionists lead;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC11007;The current situation seems to indicate that a slight majority votes in favour of the unionist cause. Too many seem to prefer the current situation over the independence. We can try to rig the election in favour of the nationalists however and attempt to ensure our independence from Denmark. If it's exposed however, the following scandal will surely lead to a unionist victory in the election.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11007A;We must ensure our independence;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11007B;We will let the people decide;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME11008;Vote rigging successful!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC11008;We managed to increase the number of nationalist votes post-election and managed to keep it a secret. The final vote count will lead to a nationalist victory with a chance.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11008A;Well done!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME11009;Vote rigging exposed!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC11009;We tried to manipulate the number of votes in the election in favour of the nationalists, however, we have been exposed by a local newspaper who's discovery quickly spread across the entire country! The populace is enraged and a unionist victory seems certain now.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11009A;Damnit;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME11010;Vote rigging failed!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC11010;We were unable to rig the vote. The risk of being discovered was simply too high.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11010A;Damnit;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME11011;Nationalist Victory!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC11011;The final vote counts are coming in but already the final results are clear. Over 80% of the people voted in favour of independence. Celebrations across the nation have already begun, although many unionists demand a recount, even accusing us of electorial fraud. Either way, the independence of Norway is now truly legitimate.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11011A;We did it;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME11012;Unionist Victory!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC11012;The exposure of the attempted fraud has left the Norwegian government in a bad light. Many do not trust our government to act in their best interest and thus 77% voted to remain with the union. Nationalists have protested against the results, claiming not to be involved in the fraud and calling for a second and fair referendum. Either way, it seems that the union has prevailed for now.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11012A;Damnit;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME11013;Nationalist Victory!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC11013;Although it seemed that the unionists are leading, the final vote turned out be vastly in favour of the nationalist cause. 63% of the people voted "Ja", showing their support for an independent Norwegian state. Nationalists across the country celebrate the result, to the distaste of the unionists. However, many unionists have come to accept the results and even voiced their support for the future Norwegian state.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11013A;Ja, vi elsker dette landet;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME11014;Unionist Victory!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC11014;The final votes have been counted with the result being clear: Only 47% voted "Ja" while 53% voted to remain with Denmark. The polarization in the past few months led to many desiring stability of independence thus it seems that the union has prevailed for now. Though many nationalists protest these results, the situation seems to largely remain calm.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11014A;The people have spoken;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME11015;Tied election!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC11015;The most unlikely event has happened: the final vote is inconclusive. Neither nationalists or unionists managed to win a majority of the people over to their cause. A second election is being organized and the final vote will go to the parliament.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11015A;Let's hope for the best;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME110151;Parliament votes for independence!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC110151;The Parliament has voted and the majority of senators has voted in favour of independence. The government has confirmed the result. Norway will become an independent nation!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT110151A;Hurrah;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME110152;Parliament votes for preservation!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC110152;The Parliament has voted and the majority of senators has voted in favour of preservation. The government has confirmed the result. Norway will remain part of the union!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT110152A;The people have spoken;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME11016;Nationalists win the referendum!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC11016;The results of the Norwegian referendum have come in. The final vote led to a nationalist victory. Already the new Norwegian government has proclaimed independence from the union and declared the union to be dissolved.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11016A;Thus end 300 years of history;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11016B;The union is dissolved when we declare it to be!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME11017;Unionists win the referendum!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC11017;The referendum in Norway is over - the final result leaves the unionists victorious over the nationalists. This confirmes our authority over Norway as well as the preservation of the union.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT11017A;How could anyone say Norway isn't Danish?;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME990099;The Stagnation of Egypt;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC990099;Egypt has been ruled by the Mamluk Sultanate for almost 600 years now. With the recent developments in Spain and the New World, many Egyptians have come to realize the injustice of the Feudal System under which our Empire functions. The Rise and Expansion of the new Anatolian Empire to our North only intensified our interior struggles as various factions try to win over the Monarch in an attempt to fix the various issues Egypt is facing. With unrest spreading in the countryside and various Kingdoms on all sides desiring our land, the future of Egypt looks troublesome and difficult.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT990099A;We will overcome these issues.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME991199;The Egyptian Revolution;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC991199;Early this morning we received reports of angry crowds storming government buildings in Alexandria and Cairo. The anger is directed towards the Mamluk Elite and Feudal System with many demanding radical reform which would completely reshape our Empire as we know it. Royal Guards have taken up positions in the streets and are ready to put down the revolt.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT99119A;Crush this revolt at all costs!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT99119B;The People are victorious!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME992299;The End of the Mamluk Elite;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC992299;The recent reforms within our realm have led to the Feudal structures becoming obsolete, leading to an end of the Mamluk Elite that ruled our land for 6 centuries. Egypt has become a modern nation in the world, joining the International Community as an equal rather than a minor.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT992299A;Long may Egypt last!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME993399;Unrest amongst the Copts;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC993399;With the Revolt put down, many of our national minorities, especially the Copts, have become increasingly unhappy and unsatisfied with the current order. Despite many attempt to convert and assimilate the Coptic populace, a sizable part of our people remain true to their faith and as of recently, have started to develop their own identity as well, demanding us to grant them special protective rights as a way to preserve their way of life.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT993399A;It's not like we can get much out of them anyway;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT993399B;Enslave the dissidents and force the rest back to work;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME994499;Further Coptic Demands;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC994499;Despite our recent grants to the local Copts, many remain unsatisfied. Not only do they demand protection but also equal rights to the Muslim populace, demanding that all taxes put upon them due to their faith is injustice and should thus be abolished. How shall we respond?;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT994499A;We can abolish the tax, but won't make them equals.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT994499B;Insulting! Reverse our recent reforms.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT994499C;Give in to their demands.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME995599;The Coptic Coup;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC995599;A group of liberal Copts has stormed the royal palace in Cairo and forced our government to retreat to Alexandria. We underestimated the willingness and organization of the Copts and they have now begun to make strategic advances across the country with many Arabs even joining their cause as they promise radical liberal reforms and even the establishment of an Egyptian Republic. If we don't act quickly, this might turn into a second Egyptian Revolution!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT995599A;The Rebels overthrow the Government!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT995599B;The Army puts down the Rebellion!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME996699;Copts in support of Egypt;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC996699;Although Copts aren't treated as full equals within the Egyptian State, our society has accepted them unofficially and many Copts have begun integrating as a result. Though they will remain a separate people in the future, the chance of them ever revolting remains low.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT996699A;Stability at last.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME114477;Emishi Ultimatum;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC114477;Feeling threatened by our recent expansion, the administration of the Emishi sent us an ultimatum to either submit to their authority or to face their army. The tribes are divided: many see it as simply a bluff. The Emishi don't have a strong army on their own and it's doubtful that the Shogun nor Emperor is ready to start another war with the Confederacy. However, should it come to a war, then our troops are very likely to be crushed withour mercy. How should we respond?;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPTA114477;Very well, we submit to the Emishi.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPTB114477;The Ainu shall remain free!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME114488;The Ainu Refuse!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC114488;The Ainu refused to accept our ultimatum. We can mobilize our forces and call upon the Shogun for help, however, this might hurt our reputation and lead to unforseen consequences. We might also just leave the Ainu independent for now and conquer the island of Ezo in the future at the cost of them growing further in strength. How shall we respond?;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPTA114488;This means war!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPTB114488;They are not worth the trouble.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME114499;The Province of Ezo;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC114499;We have conquered the Ainu, however, we are in no position to rule their land directly, neither can we integrate it properly on our own. The newly gained land will be transfered to the Emishi for now.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPTA114499;Our Empire only grows in size.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME777700;The Spanish Civil War;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC777700;Spain is in chaos! In 1831 the Central American Partisans have declared rebellion against the Spanish Crown. While initially a small uprising, this quickly escalated into a full blown secessionist war between the Viceroyalties in America and the Crown of Leon in Hispania. As the situation deteriorated, liberals at home have abused the widespread unrest and started occupying cities in the south, declaring the Spanish Republic centered at Toledo. While Royalists managed to hold the northern half of Hispania, the rest of the country has fallen into Republican hands. Difficult times are ahead of Spain and if we fail to restore order soon, Iberia might become the cradle from which anarchy and chaos will spread across Europe!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT777700A;Por el rey y el país!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME777701;The Spanish Revolution;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC777701;The Revolution has begun! In 1831 our fellow comrades in Guatemala have declared rebellion against the Spanish Empire and called for an end to the feudal structures that oppress the people! While initially a minor conflict, this quickly escalated into a war of secession as Caracas, Morelia and Buenos Aires joined the revolutionaries in solidarity. Inspired by them, we have managed to secure the south of Hispania itself, establishing a provisional government in Toledo from which we will spread the revolution across all of Europe. We will put an end to feudalism and absolutism once and for all!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT777701A;Viva la revolución!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME777702;Brazilian Declaration of Independence!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC777702;With our Empire collapsing around us a group of Brazilian Patriots have taken it to the streets of Rio de Janeiro, claiming that we are an occupying force and that our government is one of terror and injustice. Furthermore they claim that Brazil is an independent nation and has the right to self-determination just as any other country. Thus these rebels have established a provisional government and declared independence from the Crown. With that, our largest stronghold in the new world has fallen. If this was truly an act of the locals or one staged by foreigners remains unknown. However, if we don't act quickly, this new government might get the time to legitimize itself on the international stage.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT777702A;We have more important matters to deal with.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT777702B;Prepare the Fleet - We are visiting the Amazon!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME777703;The Galician Uprising!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC777703;Message has reached us that the garrison in Lisbon was overwhelmed by Galician Nationalists. Unable to reinforce our troops, the rebels have taken over the city and assembled their own militia. With most of our army occupied in the south, Portucale and Galicia proper have fallen into the rebel's hands. While this act of defiance towards the Crown is unacceptable, establishing another front in this war would mean our downfall. However, pulling out of the coastal counties would demoralize our troops and leave us humiliated in the eyes of the world...;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT777703A;We will deal with them later..;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT777703B;Spain is indivisable! Down with the traitors!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT777703C;God is with Galicia!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME777704;The fall of Alentejo;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC777704;Message has reached us that the Galicians have launched an uprising against our rule. The Royalists were unable to hold the western provinces and allowed for the separatists to take over. Occupied with the enemy in the North, the Rebels have successfully taken Alentejo and Algarve. Invading would mean opening up another front which would certainly weaken our military capacity - However, these rebels are fellow Republicans. We could recognize their government for now and deal with them after the war as well.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT777704A;We shall show solidarity with our Galician allies!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT777704B;Spain is indivisable!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME777705;The Italian Secession!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC777705;As the war in Hispania carries on, many of our overseas possessions fall into the hands of secessionists. Message has reached us now that the Neapolitans have declared independence from the Crown, quickly followed by a similar act of defiance on the island of Sardinia. If we don't put down these revolts anytime soon we might permanently lose our claims in Italy and set off a chain reaction that could mean the end of the Empire..;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT777705A;We cannot afford yet another enemy..;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT777705B;To hell with the rebels!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME777706;The Neapolitan Revolution!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC777706;The Spanish Empire has fallen. Its colonies are in open revolt, the Galicians have seceded and now a group of brave Italian patriots have seized the oppertunity and declared the Neapolitan Republic, effectively taking control of most of the Spanish holdings in Italy. It is unlikely that the Spaniards can allocate the resources to intervene and as a result, our independence is all but certain. However, there are still many within our young republic who do not embrace the ideas of liberalism and republicanism, thus many in the provisional government have voiced their concerns to fully liberalize our society if it means risking a reactionary takeover.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT777706A;The Republic must be free!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT777706B;We should focus on stability first;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME99660;Civil War in Central America!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC99660;The Grand Republic of Central America was always a troubled nation. Since the initial declaration of independence in 1833 the country saw a sharp divide between the Liberals of Guatemala and the Conservatives of Rivas. United in their struggle against the Spanish, the common enemy quickly faded out of view as Tarascania and Avalon revolted in late '35. Unable to agree on how the provisional government should transition, the stalemate between both factions deepened before eventually both sides formed their own militias and began occupying cities in the North and South respectively, thus marking the beginning the Central American Civil War. With the further formation of Jacobine Rebels in the countryside, the nation is now truly in anarchy.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVT99660PTA;For the Unity of Central America!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME99661;Civil War in Central America!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC99661;The Grand Republic of Central America was always a troubled nation. Since the initial declaration of independence in 1833 the country saw a sharp divide between the Liberals of Guatemala and the Conservatives of Rivas. United in their struggle against the Spanish, the common enemy quickly faded out of view as Tarascania and Avalon revolted in late '35. Unable to agree on how the provisional government should transition, the stalemate between both factions deepened before eventually both sides formed their own militias and began occupying cities in the North and South respectively, thus marking the beginning the Central American Civil War. With the further formation of Jacobine Rebels in the countryside, the nation is now truly in anarchy.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVT99661PTA;For the Unity of Central America!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;

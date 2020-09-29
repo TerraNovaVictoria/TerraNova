@@ -1,0 +1,375 @@
+#German Minors
+PLT = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+DUI = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+BEL = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+SWI = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+BNE = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+FRK = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+KNS = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+ULM = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+LIE = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+TIC = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+BSL = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+ZUR = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+THR = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+BRG = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+CLG = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+BAD = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+TRR = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+AUS = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+SLZ = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+AAC = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+WES = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+STY = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+ALS = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+WUR = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+ANH = {
+	value = 125
+	military_access = yes
+}
+BRA = {
+	value = 125
+	military_access = yes
+}
+WLD = {
+	value = 225
+	level = 5
+	influence_value = 100
+	military_access = yes
+}
+HES = {	
+	value = 125
+	level = 5
+	influence_value = 50
+}
+FRM = {
+	value = 125
+	level = 4
+	military_access = yes
+}
+HES = {
+	value = 125
+	level = 5
+	influence_value = 100
+	military_access = yes
+}
+REU = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+LIP = {
+	value = 125
+	military_access = yes
+}
+SCL = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+BOH = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+HNL = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+BRN = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+PLT = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+FRK = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+MAI = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+CLG = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+SLZ = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+AUS = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+PAN = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+SAX = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+BRG = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+NAS = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+WLL = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+LIG = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+LUB = {
+	value = 125
+	military_access = yes
+}
+MEC = {
+	value = 125
+	military_access = yes
+}
+MEI = {
+	value = 125
+	military_access = yes
+}
+NAS = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+OLD = {
+	value = 125
+	military_access = yes
+}
+WEI = {
+	value = 125
+	military_access = yes
+}
+LIE = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+LIG = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
+leader = {
+	name = "Pappenheim"
+	date = 1815.1.1
+	type = land
+	personality = careful
+	background = elderly
+	prestige = 0.3
+}
+
+leader = {
+	name = "von Washington"
+	date = 1825.1.1
+	type = land
+	personality = gallant
+	background = powerful_friends
+	prestige = 0.1
+}
+
+leader = {
+	name = "Karl von Heideck"
+	date = 1832.1.1
+	type = land
+	personality = polite
+	background = poet
+	prestige = 0.1
+}
+
+leader = {
+	name = "Prinz Karl"
+	date = 1825.1.1
+	type = land
+	personality = mediocre
+	background = aristocrat
+	prestige = 0.1
+}
+
+army = {
+	name = "I. Korps"
+	location = 599
+	regiment = {
+		name= "1. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 599
+	}
+
+	regiment = {
+		name= "2. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 592
+	}
+
+	regiment = {
+		name= "3. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 602
+	}
+
+	regiment = {
+		name= "4. Kgl. Bayer. Infanteriebrigade"
+		type = artillery
+		home = 601
+	}
+
+}
+
+army = {
+	name = "II. Korps"
+	location = 595
+	regiment = {
+		name= "5. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 595
+	}
+
+	regiment = {
+		name= "6. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 595
+	}
+
+	regiment = {
+		name= "7. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 597
+	}
+
+}
+
+army = {
+	name = "III. Korps"
+	location = 571
+	
+	regiment = {
+		name = "8. Kgl. Bayer. Infanteriebrigade"
+		type = infantry
+		home = 571
+	}
+}
+

@@ -1,0 +1,93 @@
+##Manchu States
+#ZHO-Yeren
+vassal = {
+	first = ZHO
+	second = YER
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+#ZHO-Jianzhou
+vassal = {
+	first = ZHO
+	second = JIA
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+#ZHO-Jurchen
+substate = {
+	first = ZHO
+	second = MCK
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+#ZHO-Evenkia
+vassal = {
+	first = ZHO
+	second = EVE
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+
+##Western Provinces
+#ZHO-Kamul/Dzungar
+vassal = {
+	first = ZHO
+	second = KML
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+#ZHO-Tibet
+vassal = {
+	first = ZHO
+	second = TIB
+	start_date = 1815.11.9
+	end_date = 1912.1.1
+}
+#ZHO-Qinghai
+substate = {
+	first = ZHO
+	second = XBI
+	start_date = 1815.11.9
+	end_date = 1912.1.1
+}
+
+##Northern Provinces
+#ZHO-Mongolia
+vassal = {
+	first = ZHO
+	second = MGL
+	start_date = 1691.1.1
+	end_date = 1937.1.1
+}
+
+##Southern Provinces
+#ZHO-Annan
+substate = {
+	first = ZHO
+	second = ANN
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+#ZHO-YUE
+substate = {
+	first = ZHO
+	second = YUE
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+#ZHO-Yunnan
+substate = {
+	first = ZHO
+	second = YNN
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+#ZHO-Korea
+vassal = {
+	first = ZHO
+	second = KOR
+	start_date = 1636.1.1
+	end_date = 1876.1.1
+}

@@ -1,0 +1,9 @@
+owner = LUS
+controller = LUS
+add_core = LUS
+trade_goods = coffee
+life_rating = 40
+terrain = manila
+colonial = 2
+fort = 1
+naval_base = 1

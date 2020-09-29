@@ -1,0 +1,6 @@
+add_core = MOM
+add_core = KIL
+trade_goods = fruit
+terrain = dryhills
+life_rating = 10
+colonial = 1

@@ -1,0 +1,6 @@
+owner = SSC
+controller = SSC
+add_core = SSC
+add_core = ANN
+trade_goods = tropical_wood
+life_rating = 33

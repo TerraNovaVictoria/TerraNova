@@ -1,0 +1,13 @@
+owner = AFG
+controller = AFG
+add_core = AFG
+add_core = PER
+add_core = PNJ
+add_core = HND
+trade_goods = grain
+life_rating = 35
+1861.1.1 = {
+	owner = CYM
+	controller = CYM
+	colonial = 2
+}

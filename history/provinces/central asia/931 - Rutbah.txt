@@ -1,0 +1,5 @@
+owner = PAL
+controller = PAL
+add_core = PAL
+trade_goods = sulphur
+life_rating = 10

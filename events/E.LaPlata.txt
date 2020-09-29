@@ -1,0 +1,229 @@
+country_event = {
+	id = 466766
+	title = "EVTNAME466766" #South Colombia becomes Charrua
+	desc = "EVTDESC466766"
+	picture = "spanish_glorious_revolution"
+
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPT466766A"
+		government = democracy
+		political_reform = wealth_voting
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = gerrymandering
+		set_country_flag = the_charruan_federation
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 566166
+	title = "EVTNAME566166" #Rioja joined Charrua
+	desc = "EVTDESC566166"
+	picture = "spanish_glorious_revolution"
+
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPT566166A"
+		inherit = RIO
+		RIO = {
+				all_core = {
+					remove_core = RIO
+				}
+			}
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT566166B"
+		RIO = {
+			any_owned = {
+				limit = {
+					is_core = CHR
+				}
+				remove_core = CHR
+			}
+		}
+		prestige = -10
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 566266
+	title = "EVTNAME566266" #Patagonian Question
+	desc = "EVTDESC566266"
+	picture = "spanish_glorious_revolution"
+
+	trigger = {
+		tag = CHR
+		government = democracy
+		NOT = { is_subject = yes }
+		has_country_flag = the_charruan_federation
+	}
+	
+	mean_time_to_happen = { months = 1 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT566266A"
+		badboy = 5
+		any_pop = { militancy = 2 }
+		PTG = {
+			all_core = {
+				add_core = CHR
+			}
+		}
+		set_country_flag = charruan_nationalist_fever
+		ai_chance = { factor = 95 }
+	}
+	
+	option = {
+		name = "EVTOPT566266B"
+		relation = { who = PTG value = 5 }
+		any_pop = { militancy = -1 }
+		ai_chance = { factor = 5 }
+	}
+
+}
+
+country_event = {
+	id = 566366
+	title = "EVTNAME566366" #President seizes Power
+	desc = "EVTDESC566366"
+	picture = "spanish_glorious_revolution"
+
+	trigger = {
+		tag = CHR
+		has_country_flag = charruan_nationalist_fever
+	}
+	
+	mean_time_to_happen = { months = 2 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT566366A"
+		reform = censored_press
+		any_pop = { militancy = 2 }
+		set_country_flag = charruan_president_seized_power
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 566466
+	title = "EVTNAME566466" #Status of the constitution
+	desc = "EVTDESC566466"
+	picture = "spanish_glorious_revolution"
+
+	trigger = {
+		tag = CHR
+		has_country_flag = charruan_president_seized_power
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT566466A"
+		reform = no_voting
+		reform = underground_parties
+		government = absolute_monarchy
+		relation = { who = PTG value = -400 }
+		relation = { who = AZU value = -400 }
+		relation = { who = BRZ value = -400 }
+		any_pop = { militancy = -4 }
+		2356 = { secede_province = THIS }
+		2357 = { secede_province = THIS }
+		2358 = { secede_province = THIS }
+		2554 = { secede_province = THIS }
+		prestige = 15
+		set_country_flag = charruan_dictatorship
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT566466B"
+		any_pop = { militancy = -2 }
+		ai_chance = { factor = 0 }
+	}
+
+}
+
+country_event = {
+	id = 566566
+	title = "EVTNAME566566" #Provinces declare independence
+	desc = "EVTDESC566566"
+	picture = "spanish_glorious_revolution"
+
+	trigger = {
+		tag = CHR
+		has_country_flag = charruan_dictatorship
+	}
+	
+	mean_time_to_happen = { months = 6 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT566566A"
+		2305 = { secede_province = PIK }
+		2315 = { secede_province = PIK }
+		2324 = { add_core = CHL }
+		2324 = { secede_province = CHL }
+		2326 = { add_core = CHL }
+		2326 = { secede_province = CHL }
+		2323 = { add_core = CHL }
+		2323 = { secede_province = CHL }
+		2322 = { add_core = CHL }
+		2322 = { secede_province = CHL }
+		2356 = { add_core = CRT }
+		2356 = { secede_province = CRT }
+		2357 = { add_core = CRT }
+		2357 = { secede_province = CRT }
+		2358 = { add_core = CRT }
+		2358 = { secede_province = CRT }
+		2554 = { add_core = CRT }
+		2554 = { secede_province = CRT }
+		prestige = -5
+		set_global_flag = collapse_of_charrua
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 566666
+	title = "EVTNAME566666" #Platinean Civil War
+	desc = "EVTDESC566666"
+	picture = "spanish_glorious_revolution"
+
+	trigger = {
+		tag = CHR
+		has_global_flag = collapse_of_charrua
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT566666A"
+		2305 = { secede_province = PIK }
+		2315 = { secede_province = PIK }
+		2324 = { add_core = CHL }
+		2324 = { secede_province = CHL }
+		2326 = { add_core = CHL }
+		2326 = { secede_province = CHL }
+		2323 = { add_core = CHL }
+		2323 = { secede_province = CHL }
+		2322 = { add_core = CHL }
+		2322 = { secede_province = CHL }
+		prestige = -5
+		set_global_flag = collapse_of_charrua
+		ai_chance = { factor = 100 }
+	}
+
+}

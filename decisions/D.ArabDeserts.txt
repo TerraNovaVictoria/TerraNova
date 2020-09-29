@@ -1,0 +1,63 @@
+political_decisions = {
+	
+	claim_yemeni_desert = {
+			picture = form_the_ikhwan
+			potential = {
+				owns = 1176
+				owns = 1173
+				owns = 1175
+				1161 = { empty = yes }
+			}
+		
+			allow = {
+				war = no
+				civilized = yes
+			}
+		
+			effect = {
+				1161 = { secede_province = THIS } 
+			}
+			ai_will_do = { factor = 1 }
+	}
+	
+	claim_omani_desert = {
+			picture = form_the_ikhwan
+			potential = {
+				owns = 1170
+				owns = 1171
+				owns = 1174
+				1172 = { empty = yes }
+				1161 = { empty = no }
+			}
+		
+			allow = {
+				war = no
+			}
+		
+			effect = {
+				1172 = { secede_province = THIS } 
+			}
+			ai_will_do = { factor = 1 }
+	}
+	
+	claim_ahsa = {
+			picture = form_the_ikhwan
+			potential = {
+				owns = 1157
+				owns = 1159
+				1172 = { empty = no }
+				2586 = { empty = yes }
+				invention = the_dark_continent
+			}
+		
+			allow = {
+				war = no
+			}
+		
+			effect = {
+				2586 = { secede_province = THIS } 
+			}
+			ai_will_do = { factor = 1 }
+	}
+	
+}

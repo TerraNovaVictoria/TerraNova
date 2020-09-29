@@ -1,0 +1,7 @@
+owner = AUV
+controller = AUV
+add_core = AUV
+add_core = FRA
+trade_goods = grain
+life_rating = 30
+1861.1.1 = { railroad = 3 }

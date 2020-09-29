@@ -1,0 +1,27 @@
+political_decisions = {
+
+	#Reclaim Singapore
+	mlc_invades_singapore = {
+		picture = guangxi
+		potential = {
+				tag = MLC
+				NOT = { has_country_flag = war_for_singapore }
+				NOT = { 1384 = { owned_by = THIS } }
+			}
+		
+			allow = {
+				war = no
+				subject = no
+				1405 = { owned_by = THIS }
+			}
+		
+			effect = {
+				prestige = 5
+				CYM = { country_event = 192202 }
+				set_country_flag = war_for_singapore
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+}

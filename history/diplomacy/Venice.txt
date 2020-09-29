@@ -1,0 +1,28 @@
+#Samos/Aegea
+substate = {
+	first = VEN
+	second = SAM
+	start_date = 1815.1.1
+	end_date = 1938.1.1
+}
+#Cyprus
+vassal = {
+	first = VEN
+	second = CYP
+	start_date = 1815.1.1
+	end_date = 1938.1.1
+}
+#Banjar
+vassal = {
+	first = VEN
+	second = BNJ
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+#Bali
+vassal = {
+	first = VEN
+	second = BAL
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}

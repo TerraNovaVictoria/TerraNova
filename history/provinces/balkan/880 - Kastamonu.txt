@@ -1,0 +1,6 @@
+owner = ANA
+controller = ANA
+add_core = ANT
+add_core = ANA
+trade_goods = coal
+life_rating = 35

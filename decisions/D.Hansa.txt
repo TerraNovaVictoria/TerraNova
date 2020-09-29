@@ -1,0 +1,26 @@
+political_decisions = {
+
+	#Invite Hannover
+	invite_brandenburg = {
+		picture = czech_autonomy
+		potential = {
+				tag = HNL
+				NOT = { has_country_flag = brn_joined_the_league }
+				NOT = { has_country_flag = hanseatic_factionalism }
+				BRN = { exists = yes }
+			}
+		
+			allow = {
+				state_and_government = 1
+				BRN = { in_sphere = THIS neighbour = THIS }
+			}
+		
+			effect = {
+				set_country_flag = brn_joined_the_league
+				BRN = { country_event = 130001 }
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+}

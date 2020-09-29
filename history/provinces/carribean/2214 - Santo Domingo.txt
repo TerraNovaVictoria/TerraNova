@@ -1,0 +1,6 @@
+owner = TDY
+controller = TDY
+add_core = TDY
+trade_goods = tobacco
+life_rating = 35
+

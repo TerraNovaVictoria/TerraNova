@@ -1,0 +1,133 @@
+political_decisions = {
+
+	#The Mon Homeland
+	mon_claims_burma = {
+		picture = map_of_burma
+		potential = {
+				tag = PRM
+				owns = 1333
+				NOT = { has_country_flag = post_colonial_nation }
+				NOT = { has_country_flag = mon_picked_direction }
+			}
+		
+			allow = {
+				war = no
+				subject = no
+				OR = {
+					ruling_party_ideology = reactionary
+					ruling_party_ideology = fascist
+				}
+				prestige = 10
+			}
+		
+			effect = {
+				AVK = { all_core = { add_core = PRM } }
+				badboy = 2.5
+				set_country_flag = mon_picked_direction
+				set_country_flag = monic_burma
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	mon_claims_thailand = {
+		picture = thai_map
+		potential = {
+				tag = PRM
+				NOT = { owns = 1333 }
+				NOT = { has_country_flag = post_colonial_nation }
+				NOT = { has_country_flag = mon_picked_direction }
+			}
+		
+			allow = {
+				war = no
+				subject = no
+				OR = {
+					ruling_party_ideology = reactionary
+					ruling_party_ideology = fascist
+				}
+				prestige = 10
+			}
+		
+			effect = {
+				SIA = { all_core = { add_core = PRM } }
+				badboy = 5
+				set_country_flag = mon_picked_direction
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Ava claims Delta
+	claim_irrawady_delta = {
+		picture = irrawaddy_delta_map
+		potential = {
+				tag = AVK
+				NOT = { has_country_flag = post_colonial_nation }
+				NOT = { has_country_flag = claimed_irrawady_delta }
+			}
+		
+			allow = {
+				war = no
+				subject = no
+				1333 = { owned_by = THIS }
+				1337 = { owned_by = THIS }
+				prestige = 5
+			}
+		
+			effect = {
+				1331 = { add_core = THIS }
+				1330 = { add_core = THIS }
+				1332 = { add_core = THIS }
+				1343 = { add_core = THIS }
+				1344 = { add_core = THIS }
+				badboy = 5
+				set_country_flag = claimed_irrawady_delta
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Form Burma
+	form_burma = {
+		picture = map_of_burma
+		potential = {
+				OR = {
+					tag = AVK
+					AND = {
+						tag = PRM
+						has_country_flag = monic_burma
+					}
+				}
+			}
+		
+			allow = {
+				war = no
+				subject = no
+				OR = {
+					AND = {
+						1332 = { owned_by = THIS }
+						PRM = { exists = no }
+					}
+					AND = {
+						1334 = { owned_by = THIS }
+						AVK = { exists = no }
+					}
+				}
+			}
+		
+			effect = {
+				change_tag = BUR
+				1331 = { add_core = BUR }
+				1330 = { add_core = BUR }
+				1332 = { add_core = BUR }
+				1343 = { add_core = BUR }
+				1344 = { add_core = BUR }
+				AVK = { all_core = { remove_core = AVK add_core = BUR } }
+				prestige = 25
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+
+}

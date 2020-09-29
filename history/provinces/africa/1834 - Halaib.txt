@@ -1,0 +1,6 @@
+owner = EGY
+controller = EGY
+add_core = FNJ
+add_core = SUD
+trade_goods = fruit
+life_rating = 30

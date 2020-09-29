@@ -1,0 +1,16 @@
+army = {
+	name = "1e Infanterie Divisie"
+	location = 390 #Antwerp
+	regiment = {
+		name= "1e Infanterie Brigade"
+		type = infantry
+		home = 390 #Antwerp
+	}
+
+	regiment = {
+		name= "2e Infanterie Brigade"
+		type = infantry
+		home = 380 #Breda
+	}
+
+}

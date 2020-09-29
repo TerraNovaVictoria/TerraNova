@@ -1,0 +1,11 @@
+owner = VEN
+controller = VEN
+add_core = SAM
+add_core = GRE
+trade_goods = fruit
+life_rating = 35
+
+1861.1.1 = {
+	controller = BYZ 
+	owner = BYZ
+}

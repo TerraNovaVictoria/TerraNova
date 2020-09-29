@@ -1,0 +1,6 @@
+owner = MLW
+controller = MLW
+add_core = MLW
+add_core = KZB
+trade_goods = grain
+life_rating = 35

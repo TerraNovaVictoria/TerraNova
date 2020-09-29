@@ -1,0 +1,7 @@
+owner = RIO
+controller = RIO
+add_core = RIO
+add_core = CHR
+trade_goods = grain
+life_rating = 35
+terrain = santiago

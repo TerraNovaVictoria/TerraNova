@@ -1,0 +1,132 @@
+#Circassia and Caucasiam Imamate
+alliance = {
+		first = CIR 
+		second = DAG 
+		start_date =  1820.1.1
+		end_date = 1838.1.1
+}
+	
+#Morrocan-Tlemcen
+alliance = {
+		first = MOR 
+		second = CHN
+		start_date =  1820.1.1
+		end_date = 1838.1.1
+	}
+#########UK and Puppets
+alliance = {
+		first = CYM 
+		second = OMA
+		start_date =  1820.1.1
+		end_date = 1936.1.1
+}
+
+alliance = {
+		first = CYM 
+		second = RPL 
+		start_date =  1820.1.1
+		end_date = 1936.1.1
+}
+
+alliance = {
+		first = CYM 
+		second = CAN 
+		start_date =  1820.1.1
+		end_date = 1936.1.1
+	}
+alliance = {
+		first = CYM 
+		second = AVA
+		start_date =  1820.1.1
+		end_date = 1936.1.1
+	}
+alliance = {
+		first = CYM 
+		second = MIA
+		start_date =  1820.1.1
+		end_date = 1936.1.1
+	}
+#########Hansa and their allies
+alliance = {
+		first = HNL 
+		second = ANH 
+		start_date =  1835.1.1
+		end_date = 1867.1.1
+	}
+alliance = {
+		first = HNL 
+		second = BRA 
+		start_date =  1835.1.1
+		end_date = 1867.1.1
+	}
+alliance = {
+		first = BAV
+		second = HES 
+		start_date =  1835.1.1
+		end_date = 1867.1.1
+	}
+alliance = {
+		first = BAV
+		second = NAS 
+		start_date =  1835.1.1
+		end_date = 1867.1.1
+	}
+#Bohemian Allies
+alliance = {
+		first = BOH
+		second = SLS
+		start_date =  1835.1.1
+		end_date = 1867.1.1
+}
+alliance = {
+		first = BOH
+		second = SIE
+		start_date =  1835.1.1
+		end_date = 1867.1.1
+}	
+#Bavaria/Sphereling
+alliance = {
+		first = BAV
+		second = ALS
+		start_date =  1835.1.1
+		end_date = 1867.1.1
+}
+alliance = {
+		first = BAV
+		second = STY
+		start_date =  1820.1.1
+		end_date = 1867.1.1
+}
+alliance = {
+		first = BAV
+		second = MOD 
+		start_date =  1820.1.1
+		end_date = 1867.1.1
+}
+alliance = {
+		first = BAV
+		second = PAR 
+		start_date =  1820.1.1
+		end_date = 1867.1.1
+}
+alliance = {
+		first = BAV
+		second = TUS 
+		start_date =  1820.1.1
+		end_date = 1867.1.1
+}
+
+#Russia/Transcaucasia
+alliance = {
+	first = RUS
+	second = TCA
+	start_date = 1820.1.1
+	end_date = 1881.1.1
+}
+#France/Papal States
+alliance = {
+	first = FRA
+	second = PAP
+	start_date = 1820.1.1
+	end_date = 1861.1.1
+}

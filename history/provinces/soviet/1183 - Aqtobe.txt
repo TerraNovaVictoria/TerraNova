@@ -1,0 +1,7 @@
+owner = KZM
+controller = KZM
+add_core = KZM
+add_core = KAZ
+trade_goods = wool
+life_rating = 35
+colonial = 2 

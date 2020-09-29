@@ -1,0 +1,9 @@
+owner = BIE
+controller = BIE
+add_core = BIE
+add_core = BSL
+add_core = SWI
+trade_goods = grain
+life_rating = 32
+
+1861.1.1 = { railroad = 1 }

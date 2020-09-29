@@ -1,0 +1,81 @@
+country_event = {
+	id = 9141501
+	title = "EVTNAME9141501" #British declare War
+	desc = "EVTDESC9141501"
+	picture = "graveyard_of_empires"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT9141501A"
+		any_pop = { militancy = 1 }
+		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 9141502
+	title = "EVTNAME9141502" #British give in
+	desc = "EVTDESC9141502"
+	picture = "graveyard_of_empires"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT9141502A"
+		any_pop = { militancy = -2 }
+		prestige = 25
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 9141503
+	title = "EVTNAME9141503" #Collapse of Malacca
+	desc = "EVTDESC9141503"
+	picture = "malacca"
+	major = yes
+	
+	trigger = {
+		tag = MLC
+		has_country_flag = war_for_singapore
+		NOT = { 1386 = { owned_by = THIS } }
+	}
+	
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT9141503A"
+		MLC = { all_core = { remove_core = MLC } }
+		1409 = { secede_province = PAG }
+		1406 = { secede_province = ATJ }
+		1405 = { secede_province = ATJ }
+		1407 = { secede_province = ATJ }
+		1401 = { secede_province = SAK }
+		1400 = { secede_province = SAK }
+		1387 = { add_core = SLG secede_province = SLG }
+		2575 = { add_core = SLG }
+		1388 = { add_core = SLG }
+		1389 = { add_core = SLG }
+		1390 = { add_core = PHG secede_province = PHG }
+		1391 = { add_core = PHG secede_province = PHG }
+		1392 = { add_core = PHG secede_province = NST }
+		1386 = { add_core = JOH }
+		1385 = { add_core = JOH }
+		1384 = { add_core = JOH }
+		any_pop = { militancy = 4 }
+		CYM = { release_vassal = MLC }
+		MLC = { change_tag = JOH }
+		ai_chance = { factor = 100 }
+	}
+	
+}

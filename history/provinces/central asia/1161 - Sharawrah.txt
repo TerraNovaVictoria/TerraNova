@@ -1,0 +1,4 @@
+add_core = MHR
+add_core = FDL
+trade_goods = wool
+life_rating = 10

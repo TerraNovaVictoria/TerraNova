@@ -1,0 +1,73 @@
+#Army
+
+army = {
+	name = "I. Hanse-Armee-Korps"
+	location = 385
+
+	regiment = {
+		name= "I. Linieninfanteriebrigade"
+		type = infantry
+		home = 385
+	}
+	
+	regiment = {
+		name= "II. Linieninfanteriebrigade"
+		type = infantry
+		home = 383
+	}
+	
+	regiment = {
+		name= "III. Linieninfanteriebrigade"
+		type = infantry
+		home = 383
+	}
+	
+	regiment = {
+		name= "I. Kavalleriebrigade"
+		type = cuirassier
+		home = 386
+	}
+	
+	regiment = {
+		name= "II. Kavalleriebrigade"
+		type = cuirassier
+		home = 369
+	}
+
+}
+
+army = {
+	name = "II. Hanse-Armee-Korps"
+	location = 548
+
+	regiment = {
+		name= "I. Linieninfanteriebrigade"
+		type = infantry
+		home = 369
+	}
+	
+	regiment = {
+		name= "II. Linieninfanteriebrigade"
+		type = infantry
+		home = 383
+	}
+	
+	regiment = {
+		name= "III. Linieninfanteriebrigade"
+		type = infantry
+		home = 528
+	}
+	
+	regiment = {
+		name= "I. Artilleriebrigade"
+		type = artillery
+		home = 529
+	}
+	
+	regiment = {
+		name= "II. Artilleriebrigade"
+		type = artillery
+		home = 548
+	}
+
+}

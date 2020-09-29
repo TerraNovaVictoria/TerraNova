@@ -1,0 +1,340 @@
+political_decisions = {
+
+	form_the_alpenland = {
+		picture = the_alps
+		potential = {
+			OR = {
+				tag = AUS
+				tag = TYR
+				tag = STY
+				tag = SLZ
+			}
+			NOT = { exists = ALP }
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			nationalism_n_imperialism = 1
+			SLZ = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+						owner = { vassal_of = THIS }
+					}
+				}
+			}
+			STY = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+						owner = { vassal_of = THIS }
+					}
+				}
+			}
+			AUS = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+						owner = { vassal_of = THIS }
+					}
+				}
+			}
+			615 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
+			612 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
+			735 = {
+				OR = {
+					owned_by = THIS
+					owner = { in_sphere = THIS }
+					owner = { vassal_of = THIS }
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			AUS = { all_core = { add_core = ALP } }
+			SLZ = { all_core = { add_core = ALP } }
+			TYR = { all_core = { add_core = ALP } }
+			STY = { all_core = { add_core = ALP } }
+			change_tag = ALP
+			inherit = AUS
+			inherit = SLZ
+			inherit = STY
+			inherit = TYR
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	form_the_kongsi_federation = {
+		picture = vassalize_lanfang
+		potential = {
+			OR = {
+				tag = HOK
+				tag = HSH
+				tag = LAN
+			}
+			NOT = { exists = KGS }
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			HOK = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+						owner = { vassal_of = THIS }
+					}
+				}
+			}
+			HSH = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+						owner = { vassal_of = THIS }
+					}
+				}
+			}
+			LAN = {
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { in_sphere = THIS }
+						owner = { vassal_of = THIS }
+					}
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			HOK = { all_core = { add_core = KGS remove_core = HOK } }
+			HSH = { all_core = { add_core = KGS remove_core = HSH } }
+			LAN = { all_core = { add_core = KGS remove_core = LAN } }
+			change_tag = KGS
+			inherit = HOK
+			inherit = HSH
+			inherit = LAN
+			1394 = { add_core = KGS }
+			1428 = { add_core = KGS }
+			1427 = { add_core = KGS }
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	form_the_swahili_federation = {
+		picture = vassalize_lanfang
+		potential = {
+			primary_culture = swahili
+			NOT = { exists = SWA }
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			MOM = {
+				OR = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							owner = { vassal_of = THIS }
+						}
+					}
+					vassal_of = THIS 
+					THIS = { tag = MOM }
+				}
+			}
+			KIL = {
+				OR = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							owner = { vassal_of = THIS }
+						}
+					}
+					vassal_of = THIS 
+					THIS = { tag = KIL }
+				}
+			}
+			AGC = {
+				OR = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							owner = { vassal_of = THIS }
+						}
+					}
+					vassal_of = THIS 
+					THIS = { tag = AGC }
+				}
+			}
+			SOF = {
+				OR = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							owner = { vassal_of = THIS }
+						}
+					}
+					vassal_of = THIS 
+					THIS = { tag = SOF }
+				}
+			}
+			ZAN = {
+				OR = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							owner = { vassal_of = THIS }
+						}
+					}
+					vassal_of = THIS 
+					THIS = { tag = ZAN }
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			MOM = { all_core = { add_core = SWA remove_core = MOM } }
+			ZAN = { all_core = { add_core = SWA remove_core = ZAN } }
+			AGC = { all_core = { add_core = SWA remove_core = AGC } }
+			SOF = { all_core = { add_core = SWA remove_core = SOF } }
+			KIL = { all_core = { add_core = SWA remove_core = KIL } }
+			inherit = MOM
+			inherit = ZAN
+			inherit = AGC
+			inherit = SOF
+			inherit = KIL
+			change_tag = SWA
+			2047 = { add_core = SWA }
+			2027 = { add_core = SWA }
+			2032 = { add_core = SWA }
+			2024 = { add_core = SWA }
+			set_country_flag = delay_unciv_annexation
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	reform_lan_xang = {
+		picture = thai_map
+		potential = {
+			OR = {
+				tag = LUA
+				tag = KHM
+				tag = CHK				
+			}
+			NOT = { primary_culture = khmu }
+			primary_culture = lao
+			NOT = { exists = LXA }
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			LUA = {
+				OR = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							owner = { vassal_of = THIS }
+						}
+					}
+					1356 = { owned_by = THIS }
+				}
+			}
+			KHM = {
+				OR = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							owner = { vassal_of = THIS }
+						}
+					}
+					1357 = { owned_by = THIS }
+				}
+			}
+			CHK = {
+				OR = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							owner = { vassal_of = THIS }
+						}
+					}
+					1362 = { owned_by = THIS }
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			LUA = { all_core = { add_core = LXA remove_core = LUA } }
+			KHM = { all_core = { add_core = LXA remove_core = KHM } }
+			CHK = { all_core = { add_core = LXA remove_core = CHK } }
+			any_country = {
+				limit = {
+					tag = LUA
+					OR = { 
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				inherit = LUA
+			}
+			any_country = {
+				limit = {
+					tag = KHM
+					OR = { 
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				inherit = KHM
+			}
+			any_country = {
+				limit = {
+					tag = CHK
+					OR = { 
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+				}
+				inherit = CHK
+			}
+			change_tag = LXA
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+}

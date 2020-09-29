@@ -1,0 +1,65 @@
+political_decisions = {
+	
+	claim_iguatemi = {
+			picture = form_the_ikhwan
+			potential = {
+				year = 1838
+				owns = 2342
+				2343 = { empty = yes }
+			}
+		
+			allow = {
+				war = no
+				civilized = yes
+			}
+		
+			effect = {
+				2343 = { secede_province = THIS } 
+				2420 = { secede_province = THIS } 
+				2416 = { secede_province = THIS } 
+			}
+			ai_will_do = { factor = 1 }
+	}
+	
+	rio_join_charrua = {
+			picture = platinean_congress
+			potential = {
+				tag = RIO
+				exists = CHR
+				CHR = { government = democracy }
+				NOT = { has_country_flag = rio_joined_charrua }
+			}
+		
+			allow = {
+				war = no
+				CHR = { war = no }
+			}
+		
+			effect = {
+				CHR = { country_event = 566166 }
+				set_country_flag = rio_joined_charrua
+			}
+			ai_will_do = { factor = 1 }
+	}
+	
+	status_of_charrua_constitution = {
+			picture = platinean_congress
+			potential = {
+				tag = CHR
+				has_country_flag = charruan_president_seized_power
+				NOT = { has_country_flag = status_of_charrua_constitution_set }
+			}
+		
+			allow = {
+				war = no
+				CHR = { war = no }
+			}
+		
+			effect = {
+				CHR = { country_event = 566466 }
+				set_country_flag = status_of_charrua_constitution_set
+			}
+			ai_will_do = { factor = 1 }
+	}
+	
+}

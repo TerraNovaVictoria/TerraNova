@@ -1,0 +1,5 @@
+add_core = PIK
+add_core = KAP
+trade_goods = wool
+terrain = jungle
+life_rating = 31

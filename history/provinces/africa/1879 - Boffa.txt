@@ -1,0 +1,5 @@
+owner = DUI
+controller = DUI
+add_core = GBU
+trade_goods = fruit
+life_rating = 35

@@ -1,0 +1,6 @@
+owner = ANA
+controller = ANA
+add_core = ANA
+add_core = SER
+trade_goods = grain
+life_rating = 35

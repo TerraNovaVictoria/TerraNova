@@ -1,0 +1,146 @@
+###NETHERLANDS###
+
+country_event = {
+	id = 6666100
+	title = "EVTNAME6666100" #Collapse of the Bavarian Netherlands
+	desc = "EVTDESC6666100"
+	picture = "belgian_revolution"
+	major = yes
+	
+	trigger = {
+		tag = BAV
+		year = 1836
+		has_global_flag = end_of_spanish_civil_war
+	}
+	
+	mean_time_to_happen = { days = 30 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT6666100A"
+		BAV = {
+			release_vassal = BEL
+			release_vassal = LIG
+		}
+		LIG = { all_core = { remove_core = BEL } }
+		BEL = { country_event = 6666101 }
+		prestige = -5
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 6666101
+	title = "EVTNAME6666101" #The Belgian Revolution
+	desc = "EVTDESC6666101"
+	picture = "belgian_revolution"
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT6666101A"
+		FLA = { country_event = 6666105 }
+		any_owned = {
+			limit = { is_core = LUX }
+			secede_province = LUX
+		}
+		LUX = { government = federal_democracy }
+		any_owned = {
+			limit = { is_core = WLL }
+			secede_province = WLL
+		}
+		WLL = { government = federal_democracy }
+		government = provisional_state
+		political_reform = landed_voting
+		political_reform = censored_press
+		political_reform = unitary
+		political_reform = gerrymandering
+		set_country_flag = the_belgian_revolution
+		FLA = { all_core = { remove_core = BEL } }
+		WLL = { all_core = { remove_core = BEL } }
+		LUX = { all_core = { remove_core = BEL } }
+		401 = { remove_core = BEL }
+		prestige = 15
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 6666102
+	title = "EVTNAME6666102" #Join Belgium?
+	desc = "EVTDESC6666102"
+	picture = "belgian_revolution_parade"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT6666102A" #Accept
+		THIS = { all_core = { add_core = BEL } }
+		BEL = { inherit = THIS }
+		BEL = { country_event = 6666103 }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT6666102B" #Decline
+		BEL = { country_event = 6666104 }
+		set_country_flag = declined_to_join_usn
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 6666103
+	title = "EVTNAME6666103" #Country has joined the USN
+	desc = "EVTDESC6666103"
+	picture = "belgian_revolution_parade"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT6666103A" 
+		prestige = 15
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 6666104
+	title = "EVTNAME6666104" #Country has refused to join the USN
+	desc = "EVTDESC6666104"
+	picture = "prussian_constitution"
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT6666104A" #Accept
+		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 6666105
+	title = "EVTNAME6666105" #Flemish Revolution
+	desc = "EVTDESC6666105"
+	picture = "prussian_constitution"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT6666105A" #The Revolution is here
+		government = federal_democracy
+		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+	
+}

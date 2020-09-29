@@ -1,0 +1,6 @@
+owner = QUI
+controller = QUI
+add_core = QUI
+add_core = PIK
+trade_goods = timber
+life_rating = 20

@@ -1,0 +1,5 @@
+owner = BRC
+controller = BRC
+add_core = BRC
+trade_goods = coffee
+life_rating = 31

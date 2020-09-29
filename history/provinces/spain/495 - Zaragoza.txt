@@ -1,0 +1,8 @@
+owner = SPA
+controller = SPA
+add_core = SPC
+add_core = SPA
+add_core = AGN
+trade_goods = grain
+life_rating = 35
+1861.1.1 = { railroad = 2 }

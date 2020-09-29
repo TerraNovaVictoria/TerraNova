@@ -1,0 +1,11 @@
+owner = CHN
+controller = CHN
+add_core = CHN
+add_core = ALD
+trade_goods = iron
+life_rating = 35
+1861.1.1 = {
+	owner = FRA
+	controller = FRA
+	colonial = 2
+}

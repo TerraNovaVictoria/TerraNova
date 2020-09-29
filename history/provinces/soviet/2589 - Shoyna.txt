@@ -1,0 +1,7 @@
+owner = HNL
+controller = HNL
+add_core = SAT
+add_core = JAP
+trade_goods = fish
+terrain = small_island
+life_rating = 30

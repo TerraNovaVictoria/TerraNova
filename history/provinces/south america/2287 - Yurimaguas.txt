@@ -1,0 +1,7 @@
+owner = PIK
+controller = PIK
+add_core = PIK
+add_core = KAP
+trade_goods = timber
+terrain = montane_forest
+life_rating = 31

@@ -1,0 +1,7 @@
+owner = QUI
+controller = QUI
+add_core = QUI
+add_core = PIK
+trade_goods = wool
+terrain = montane_forest
+life_rating = 32

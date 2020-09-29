@@ -1,0 +1,830 @@
+#Luzon Region (2176000)
+#Ruled by Spain in 1836
+#Manila (780000/195000 POPS)
+1455 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 200
+	}
+
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 400
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 250
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 1050
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 100
+	}
+
+	aristocrats = {
+		culture = filipino
+		religion = mahayana
+		size = 1250
+	}
+
+	bureaucrats = {
+		culture = filipino
+		religion = mahayana
+		size = 450
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = mahayana
+		size = 750
+	}
+
+	artisans = {
+		culture = tagalog
+		religion = mahayana
+		size = 10000
+	}
+	
+	artisans = {
+		culture = tagalog
+		religion = mahayana
+		size = 10000
+	}
+	
+	artisans = {
+		culture = tagalog
+		religion = mahayana
+		size = 9000
+	}
+
+	soldiers = {
+		culture = tagalog
+		religion = mahayana
+		size = 3000
+	}
+
+	soldiers = {
+		culture = tagalog
+		religion = mahayana
+		size = 1000
+	}
+
+	farmers = {
+		culture = tagalog
+		religion = mahayana
+		size = 93550
+	}
+	
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 26550
+	}
+	
+	slaves = {
+		culture = tagalog
+		religion = mahayana
+		size = 20000
+	}
+
+	artisans = {
+		culture = beifaren
+		religion = mahayana
+		size = 1200
+	}
+
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 800
+	}
+
+	clergymen = {
+		culture = malay
+		religion = mahayana
+		size = 75
+	}
+
+	artisans = {
+		culture = malay
+		religion = mahayana
+		size = 1100
+	}
+
+	soldiers = {
+		culture = malay
+		religion = mahayana
+		size = 200
+	}
+
+	farmers = {
+		culture = malay
+		religion = mahayana
+		size = 17725
+	}
+}
+#Vigan (608000/152000 POPS)
+1456 = {
+	aristocrats = {
+		culture = filipino
+		religion = mahayana
+		size = 1100
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = mahayana
+		size = 625
+	}
+
+	artisans = {
+		culture = ilocano
+		religion = mahayana
+		size = 7350
+	}
+
+	soldiers = {
+		culture = ilocano
+		religion = mahayana
+		size = 1500
+	}
+
+	farmers = {
+		culture = ilocano
+		religion = mahayana
+		size = 90525
+	}
+	
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 24228
+	}
+	
+	slaves = {
+		culture = ilocano
+		religion = mahayana
+		size = 20000
+	}
+
+	clergymen = {
+		culture = tagalog
+		religion = mahayana
+		size = 50
+	}
+
+	artisans = {
+		culture = tagalog
+		religion = mahayana
+		size = 250
+	}
+
+	soldiers = {
+		culture = tagalog
+		religion = mahayana
+		size = 50
+	}
+
+	farmers = {
+		culture = tagalog
+		religion = mahayana
+		size = 6650
+	}
+}
+#Legazpi (564000/141000 POPS)
+1457 = {
+	aristocrats = {
+		culture = filipino
+		religion = mahayana
+		size = 1100
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = mahayana
+		size = 625
+	}
+
+	artisans = {
+		culture = bikolano
+		religion = mahayana
+		size = 6500
+	}
+
+	soldiers = {
+		culture = bikolano
+		religion = mahayana
+		size = 1350
+	}
+
+	farmers = {
+		culture = bikolano
+		religion = mahayana
+		size = 122525
+	}
+	
+
+	clergymen = {
+		culture = malay
+		religion = mahayana
+		size = 50
+	}
+
+	artisans = {
+		culture = malay
+		religion = mahayana
+		size = 500
+	}
+
+	soldiers = {
+		culture = malay
+		religion = mahayana
+		size = 100
+	}
+
+	slaves = {
+		culture = malay
+		religion = mahayana
+		size = 10350
+	}
+}
+#Mindoro (224000/56000 POPS)
+1458 = {
+	aristocrats = {
+		culture = filipino
+		religion = mahayana
+		size = 400
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = mahayana
+		size = 175
+	}
+
+	artisans = {
+		culture = tagalog
+		religion = mahayana
+		size = 2100
+	}
+
+	soldiers = {
+		culture = tagalog
+		religion = mahayana
+		size = 450
+	}
+
+	farmers = {
+		culture = tagalog
+		religion = mahayana
+		size = 38875
+	}
+
+	clergymen = {
+		culture = tagalog
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = tagalog
+		religion = sunni
+		size = 750
+	}
+
+	soldiers = {
+		culture = tagalog
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = tagalog
+		religion = sunni
+		size = 11025
+	}
+
+}
+#Visayas Region (1044000 POPS)
+#under rule of Spain 1836
+#Palawan (80000/20000 POPS)
+1459 = {
+	aristocrats = {
+		culture = filipino
+		religion = mahayana
+		size = 25
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = mahayana
+		size = 25
+	}
+
+	artisans = {
+		culture = tagalog
+		religion = mahayana
+		size = 200
+	}
+
+	soldiers = {
+		culture = tagalog
+		religion = mahayana
+		size = 50
+	}
+
+	farmers = {
+		culture = tagalog
+		religion = mahayana
+		size = 3700
+	}
+
+	aristocrats = {
+		culture = tagalog
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = tagalog
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = tagalog
+		religion = sunni
+		size = 300
+	}
+
+	soldiers = {
+		culture = tagalog
+		religion = sunni
+		size = 75
+	}
+
+	farmers = {
+		culture = tagalog
+		religion = sunni
+		size = 6500
+	}
+
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 75
+	}
+
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 450
+	}
+
+	soldiers = {
+		culture = malay
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = malay
+		religion = sunni
+		size = 8375
+	}
+}
+#Iloilo (312000/78000 POPS)
+1460 = {
+	aristocrats = {
+		culture = filipino
+		religion = mahayana
+		size = 650
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = mahayana
+		size = 350
+	}
+
+	artisans = {
+		culture = ilonggo
+		religion = mahayana
+		size = 3500
+	}
+
+	soldiers = {
+		culture = ilonggo
+		religion = mahayana
+		size = 750
+	}
+
+	farmers = {
+		culture = ilonggo
+		religion = mahayana
+		size = 64750
+	}
+
+	clergymen = {
+		culture = cebuano
+		religion = sunni
+		size = 75
+	}
+
+	artisans = {
+		culture = cebuano
+		religion = sunni
+		size = 500
+	}
+
+	soldiers = {
+		culture = cebuano
+		religion = sunni
+		size = 100
+	}
+
+	slaves = {
+		culture = cebuano
+		religion = sunni
+		size = 9325
+	}
+}
+#Tacloban (348000/87000 POPS)
+1461 = {
+	aristocrats = {
+		culture = filipino
+		religion = mahayana
+		size = 750
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = mahayana
+		size = 625
+	}
+
+	artisans = {
+		culture = waray
+		religion = mahayana
+		size = 4250
+	}
+
+	soldiers = {
+		culture = waray
+		religion = mahayana
+		size = 850
+	}
+
+	farmers = {
+		culture = waray
+		religion = mahayana
+		size = 70125
+	}
+	
+	slaves = {
+		culture = waray
+		religion = mahayana
+		size = 10000
+	}
+}
+#Cebu (304000/76000 POPS)
+2565 = {
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 125
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 50
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 25
+	}
+
+	aristocrats = {
+		culture = filipino
+		religion = mahayana
+		size = 675
+	}
+
+	bureaucrats = {
+		culture = filipino
+		religion = mahayana
+		size = 375
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = mahayana
+		size = 450
+	}
+
+	artisans = {
+		culture = cebuano
+		religion = mahayana
+		size = 3500
+	}
+
+	soldiers = {
+		culture = cebuano
+		religion = mahayana
+		size = 750
+	}
+
+	farmers = {
+		culture = cebuano
+		religion = mahayana
+		size = 64050
+	}
+
+	clergymen = {
+		culture = cebuano
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = cebuano
+		religion = sunni
+		size = 500
+	}
+
+	slaves = {
+		culture = cebuano
+		religion = sunni
+		size = 7375
+	}
+
+}
+#Mindanao Region (496000)
+#Under north_german "Rule" 1836
+#Davao (152000/38000 POPS)
+1463 = {
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 75
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 50
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 25
+	}
+
+	aristocrats = {
+		culture = filipino
+		religion = mahayana
+		size = 100
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = mahayana
+		size = 100
+	}
+
+	artisans = {
+		culture = cebuano
+		religion = mahayana
+		size = 850
+	}
+
+	soldiers = {
+		culture = cebuano
+		religion = mahayana
+		size = 1100
+	}
+
+	farmers = {
+		culture = cebuano
+		religion = mahayana
+		size = 14800
+	}
+
+	aristocrats = {
+		culture = cebuano
+		religion = sunni
+		size = 100
+	}
+
+	clergymen = {
+		culture = cebuano
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = cebuano
+		religion = sunni
+		size = 600
+	}
+
+	soldiers = {
+		culture = cebuano
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = cebuano
+		religion = sunni
+		size = 11100
+	}
+
+	farmers = {
+		culture = malay
+		religion = mahayana
+		size = 1100
+	}
+
+	aristocrats = {
+		culture = ilonggo
+		religion = animist
+		size = 100
+	}
+
+	clergymen = {
+		culture = ilonggo
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = ilonggo
+		religion = animist
+		size = 350
+	}
+
+	soldiers = {
+		culture = ilonggo
+		religion = animist
+		size = 100
+	}
+
+	farmers = {
+		culture = ilonggo
+		religion = animist
+		size = 7375
+	}
+}
+#Under rule of Spain in 1836
+#Zamboanga (300000/75000 POPS)
+1462 = {
+	aristocrats = {
+		culture = filipino
+		religion = sunni
+		size = 600
+	}
+
+	clergymen = {
+		culture = filipino
+		religion = sunni
+		size = 500
+	}
+
+	artisans = {
+		culture = bisaya
+		religion = sunni
+		size = 2500
+	}
+
+	soldiers = {
+		culture = bisaya
+		religion = sunni
+		size = 500
+	}
+
+	farmers = {
+		culture = bisaya
+		religion = sunni
+		size = 44900
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 50
+	}
+
+	artisans = {
+		culture = cebuano
+		religion = mahayana
+		size = 750
+	}
+
+	farmers = {
+		culture = cebuano
+		religion = mahayana
+		size = 12200
+	}
+
+	slaves = {
+		culture = cebuano
+		religion = mahayana
+		size = 4000
+	}
+
+	aristocrats = {
+		culture = ilonggo
+		religion = animist
+		size = 100
+	}
+
+	clergymen = {
+		culture = ilonggo
+		religion = animist
+		size = 75
+	}
+
+	artisans = {
+		culture = ilonggo
+		religion = animist
+		size = 300
+	}
+
+	soldiers = {
+		culture = ilonggo
+		religion = animist
+		size = 100
+	}
+	
+	slaves = {
+		culture = ilonggo
+		religion = animist
+		size = 8525
+	}
+}
+#Jolo (44000/11000 POPS)
+1464 = {
+	aristocrats = {
+		culture = malay
+		religion = sunni
+		size = 100
+	}
+
+	bureaucrats = {
+		culture = malay
+		religion = sunni
+		size = 75
+	}
+
+	officers = {
+		culture = malay
+		religion = sunni
+		size = 75
+	}
+
+	clergymen = {
+		culture = malay
+		religion = sunni
+		size = 100
+	}
+
+	artisans = {
+		culture = malay
+		religion = sunni
+		size = 600
+	}
+
+	soldiers = {
+		culture = malay
+		religion = sunni
+		size = 1000
+	}
+
+	farmers = {
+		culture = malay
+		religion = sunni
+		size = 12825
+	}
+	
+	slaves = {
+		culture = malay
+		religion = sunni
+		size = 2000
+	}
+}

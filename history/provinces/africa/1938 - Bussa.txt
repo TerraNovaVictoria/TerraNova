@@ -1,0 +1,4 @@
+add_core = BID
+add_core = SOK
+trade_goods = fruit
+life_rating = 15

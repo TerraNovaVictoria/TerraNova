@@ -1,0 +1,7 @@
+owner = KML
+controller = KML
+add_core = KML
+add_core = TNT
+add_core = CHI
+trade_goods = coal
+life_rating = 35

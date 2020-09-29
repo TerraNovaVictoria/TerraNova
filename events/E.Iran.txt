@@ -1,0 +1,139 @@
+country_event = {
+	id = 2001836
+	title = "EVTNAME2001836" #The Decline of Persia
+	desc = "EVTDESC2001836"
+	picture = "graveyard_of_empires"
+	
+	trigger = {
+		tag = AFG
+		NOT = {
+			has_global_flag = the_decline_of_persia
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT2001836A"
+		prestige = 10
+		set_global_flag = the_decline_of_persia 
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 2011836
+	title = "EVTNAME2011836" #Pashtun Revolt
+	desc = "EVTDESC2011836"
+	picture = "graveyard_of_empires"
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		PER = {
+			release_vassal = AFG
+		}
+	}
+	
+	option = {
+		name = "EVTOPT2011836A"
+		any_pop = { militancy = 2 }
+		prestige = -5
+		AFG = { set_country_flag = won_over_persia }
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "EVTOPT2011836B"
+		any_pop = { militancy = 4 }
+		prestige = -2.5
+		war = {
+			target = AFG
+			attacker_goal = { 
+				casus_belli = make_puppet
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = no
+		}
+		set_global_flag = pashtun_revolt
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 2021836
+	title = "EVTNAME2021836" #Pashtun Revolt Put Down
+	desc = "EVTDESC2021836"
+	picture = "graveyard_of_empires"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT2021836A"
+		any_pop = { militancy = -2 }
+		prestige = -15
+		government = subject 
+		set_country_flag = lost_to_persia 
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 2031836
+	title = "EVTNAME2031836" #Sikhs occupied Peshawar
+	desc = "EVTDESC2031836"
+	picture = "graveyard_of_empires"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT2031836A"
+		any_pop = { militancy = 2 }
+		prestige = -2.5
+		ai_chance = { factor = 98 }
+	}
+	
+	option = {
+		name = "EVTOPT2031836A"
+		war = {
+			target = PNJ
+			attacker_goal = {
+				casus_belli = acquire_all_cores
+			}
+		}
+		ai_chance = { factor = 2 }
+	}
+
+}
+
+country_event = {
+	id = 2041836
+	title = "EVTNAME2041836" #Minor Afghan State joins the Revolt
+	desc = "EVTDESC2041836"
+	picture = "graveyard_of_empires"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT2041836A"
+		AFG = { create_vassal = THIS }
+		government = primitive_absolute_monarchy
+		prestige = 2.5
+		ai_chance = { factor = 100 }
+	}
+	
+
+
+}

@@ -1,0 +1,1161 @@
+#Friuli-Istria Region (188000) #see Italy.txt for balance of region
+#under the rule of Austria in 1836
+#Pola (188000/47000 POPS) #now part of shtokaviania 
+770 = {
+	aristocrats = {
+		culture = pan_italian
+		religion = catholic
+		size = 750
+	}
+
+	clergymen = {
+		culture = pan_italian
+		religion = catholic
+		size = 200
+	}
+
+	artisans = {
+		culture = pan_italian
+		religion = catholic
+		size = 1450
+	}
+
+	soldiers = {
+		culture = pan_italian
+		religion = catholic
+		size = 225
+	}
+
+	farmers = {
+		culture = pan_italian
+		religion = catholic
+		size = 9000
+	}
+	
+	farmers = {
+		culture = venetic
+		religion = catholic
+		size = 9000
+	}
+
+	clergymen = {
+		culture = slovene
+		religion = catholic
+		size = 225
+	}
+
+	artisans = {
+		culture = slovene
+		religion = catholic
+		size = 900
+	}
+
+	soldiers = {
+		culture = slovene
+		religion = catholic
+		size = 250
+	}
+
+	farmers = {
+		culture = slovene
+		religion = catholic
+		size = 9625
+	}
+	
+	clergymen = {
+		culture = shtokavian
+		religion = catholic
+		size = 125
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = catholic
+		size = 400
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = catholic
+		size = 150
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 12625
+	}
+	
+	farmers = {
+		culture = north_german
+		religion = catholic
+		size = 300
+	}
+}
+#shtokaviania Region (870000)
+#under the rule of Austria in 1836
+#Zagreb (224000/56000 POPS)
+771 = {
+	aristocrats = {
+		culture = shtokavian
+		religion = catholic
+		size = 450
+	}
+
+	bureaucrats = {
+		culture = shtokavian
+		religion = catholic
+		size = 250
+	}
+	
+	bureaucrats = {
+		culture = north_german
+		religion = catholic
+		size = 500
+	}
+
+	officers = {
+		culture = shtokavian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = catholic
+		size = 450
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = catholic
+		size = 2500
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 26050
+	}
+	
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 300
+	}
+	
+	serfs = {
+		culture = gypsy
+		religion = catholic
+		size = 2000
+	}
+	
+	serfs = {
+		culture = shtokavian
+		religion = catholic
+		size = 4000
+	}
+
+	aristocrats = {
+		culture = slovene
+		religion = catholic
+		size = 700
+	}
+
+	bureaucrats = {
+		culture = slovene
+		religion = catholic
+		size = 100
+	}
+
+	officers = {
+		culture = slovene
+		religion = catholic
+		size = 150
+	}
+
+	clergymen = {
+		culture = slovene
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = slovene
+		religion = catholic
+		size = 700
+	}
+
+	soldiers = {
+		culture = slovene
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = slovene
+		religion = catholic
+		size = 4250
+	}
+
+	bureaucrats = {
+		culture = avari
+		religion = protestant
+		size = 50
+	}
+
+	clergymen = {
+		culture = avari
+		religion = protestant
+		size = 75
+	}
+
+	artisans = {
+		culture = avari
+		religion = protestant
+		size = 300
+	}
+
+	soldiers = {
+		culture = avari
+		religion = protestant
+		size = 75
+	}
+
+	farmers = {
+		culture = avari
+		religion = protestant
+		size = 2500
+	}
+}
+#Sisak (116000/29000 POPS)
+772 = {
+	aristocrats = {
+		culture = shtokavian
+		religion = catholic
+		size = 350
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = catholic
+		size = 175
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = catholic
+		size = 900
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = catholic
+		size = 175
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 10300
+	}
+	
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 100
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = orthodox
+		size = 550
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 125
+	}
+
+	serfs = {
+		culture = shtokavian
+		religion = orthodox
+		size = 16225
+	}
+}
+#Karlovac (184000/46000 POPS)
+773 = {
+	aristocrats = {
+		culture = shtokavian
+		religion = catholic
+		size = 550
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = catholic
+		size = 350
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = catholic
+		size = 1700
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = catholic
+		size = 1100
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 30400
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = orthodox
+		size = 125
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = orthodox
+		size = 600
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 150
+	}
+
+	serfs = {
+		culture = shtokavian
+		religion = orthodox
+		size = 11125
+	}
+}
+#Senj (96000/24000 POPS)
+774 = {
+	aristocrats = {
+		culture = shtokavian
+		religion = catholic
+		size = 275
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = catholic
+		size = 125
+	}
+	
+	bureaucrats = {
+		culture = shtokavian
+		religion = catholic
+		size = 200
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = catholic
+		size = 650
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = catholic
+		size = 125
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 13325
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = orthodox
+		size = 100
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = orthodox
+		size = 550
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 125
+	}
+
+	serfs = {
+		culture = shtokavian
+		religion = orthodox
+		size = 8225
+	}
+}
+#Varadzin (68000/17000 POPS)
+775 = {
+	aristocrats = {
+		culture = avari
+		religion = protestant
+		size = 200
+	}
+
+	clergymen = {
+		culture = avari
+		religion = protestant
+		size = 175
+	}
+
+	artisans = {
+		culture = avari
+		religion = protestant
+		size = 850
+	}
+
+	soldiers = {
+		culture = avari
+		religion = protestant
+		size = 175
+	}
+
+	farmers = {
+		culture = avari
+		religion = protestant
+		size = 1900
+	}
+	
+	farmers = {
+		culture = slovene
+		religion = catholic
+		size = 700
+	}
+	
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 4000
+	}
+	
+	serfs = {
+		culture = shtokavian
+		religion = catholic
+		size = 7000
+	}
+}
+#Bjelovar (52000/13000 POPS)
+776 = {
+	clergymen = {
+		culture = shtokavian
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = catholic
+		size = 150
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 2675
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = orthodox
+		size = 250
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 75
+	}
+
+	serfs = {
+		culture = shtokavian
+		religion = catholic
+		size = 7625
+	}
+
+	clergymen = {
+		culture = avari
+		religion = protestant
+		size = 50
+	}
+
+	artisans = {
+		culture = avari
+		religion = protestant
+		size = 250
+	}
+
+	soldiers = {
+		culture = avari
+		religion = protestant
+		size = 50
+	}
+
+	farmers = {
+		culture = avari
+		religion = protestant
+		size = 1650
+	}
+}
+#Pozega (80000/20000 POPS)
+777 = {
+	aristocrats = {
+		culture = shtokavian
+		religion = catholic
+		size = 225
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = catholic
+		size = 200
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = catholic
+		size = 1100
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = catholic
+		size = 200
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 10275
+	}
+	
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 100
+	}
+	
+	serfs = {
+		culture = shtokavian
+		religion = catholic
+		size = 8000
+	}
+}
+#Fiume (52000/13000 POPS)
+778 = {
+	clergymen = {
+		culture = slovene
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = slovene
+		religion = catholic
+		size = 1200
+	}
+
+	soldiers = {
+		culture = slovene
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = slovene
+		religion = catholic
+		size = 700
+	}
+
+	aristocrats = {
+		culture = pan_italian
+		religion = catholic
+		size = 150
+	}
+
+	clergymen = {
+		culture = pan_italian
+		religion = catholic
+		size = 50
+	}
+
+	artisans = {
+		culture = pan_italian
+		religion = catholic
+		size = 2300
+	}
+
+	soldiers = {
+		culture = pan_italian
+		religion = catholic
+		size = 75
+	}
+
+	farmers = {
+		culture = pan_italian
+		religion = catholic
+		size = 4425
+	}
+	
+	farmers = {
+		culture = venetic
+		religion = catholic
+		size = 3000
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = catholic
+		size = 250
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 700
+	}
+}
+#Baranya Region (180000) #see Hungary.txt for balance of Region
+#under the rule of Austria in 1836  
+#Osijek (180000/45000 POPS) 
+779 = {
+	clergymen = {
+		culture = shtokavian
+		religion = catholic
+		size = 250 
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = catholic
+		size = 1300  
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = catholic
+		size = 275
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 23775   
+	}
+	
+	serfs = {
+		culture = gypsy
+		religion = catholic
+		size = 400   
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = orthodox
+		size = 50  
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = orthodox
+		size = 350 
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 100
+	}
+
+	serfs = {
+		culture = shtokavian
+		religion = orthodox
+		size = 6500   
+	}
+
+	aristocrats = {
+		culture = avari
+		religion = protestant
+		size = 550 
+	}
+
+	clergymen = {
+		culture = avari
+		religion = protestant
+		size = 50
+	}
+
+	artisans = {
+		culture = avari
+		religion = protestant
+		size = 300
+	}
+
+	soldiers = {
+		culture = avari
+		religion = protestant
+		size = 75
+	}
+
+	farmers = {
+		culture = avari
+		religion = protestant
+		size = 5025
+	}
+
+	aristocrats = {
+		culture = north_german
+		religion = catholic
+		size = 350  
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = catholic
+		size = 50 
+	}
+
+	artisans = {
+		culture = north_german
+		religion = catholic
+		size = 350 
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = catholic
+		size = 50
+	}
+
+	farmers = {
+		culture = north_german
+		religion = catholic
+		size = 5300 
+	}
+}
+#Dalmatia Region (320000) #see Montenegro.txt for balance of region 
+#under the rule of Austria in 1836
+#Split (140000/35000 POPS)
+780 = {
+	aristocrats = {
+		culture = shtokavian
+		religion = catholic
+		size = 400
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = catholic
+		size = 350
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = catholic
+		size = 2000
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = catholic
+		size = 350
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 29250
+	}
+	
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 100
+	}
+	
+	serfs = {
+		culture = gypsy
+		religion = catholic
+		size = 1000
+	}
+
+	clergymen = {
+		culture = venetic
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = venetic
+		religion = catholic
+		size = 500
+	}
+
+	soldiers = {
+		culture = venetic
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = venetic
+		religion = catholic
+		size = 450
+	}
+}
+#Zadar (128000/32000 POPS)
+781 = {
+	aristocrats = {
+		culture = shtokavian
+		religion = catholic
+		size = 250
+	}
+
+	bureaucrats = {
+		culture = shtokavian
+		religion = catholic
+		size = 100
+	}
+
+	officers = {
+		culture = shtokavian
+		religion = catholic
+		size = 75
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = catholic
+		size = 225
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = catholic
+		size = 600
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = catholic
+		size = 225
+	}
+	
+	farmers = {
+		culture = pan_italian
+		religion = catholic
+		size = 8000
+	}
+	
+	farmers = {
+		culture = venetic
+		religion = catholic
+		size = 1000
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 11525
+	}
+
+	bureaucrats = {
+		culture = venetic
+		religion = catholic
+		size = 75
+	}
+
+	clergymen = {
+		culture = venetic
+		religion = catholic
+		size = 75
+	}
+
+	artisans = {
+		culture = venetic
+		religion = catholic
+		size = 700
+	}
+
+	soldiers = {
+		culture = venetic
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = venetic
+		religion = catholic
+		size = 2125
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = orthodox
+		size = 75
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = orthodox
+		size = 300
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 75
+	}
+
+	serfs = {
+		culture = shtokavian
+		religion = orthodox
+		size = 6550
+	}
+}
+#Dubrovnik (52000/13000 POPS)
+782 = {
+	aristocrats = {
+		culture = shtokavian
+		religion = catholic
+		size = 75
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = catholic
+		size = 100
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = catholic
+		size = 500
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = catholic
+		size = 100
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 7125
+	}
+	
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 100
+	}
+
+	aristocrats = {
+		culture = pan_italian
+		religion = catholic
+		size = 50
+	}
+
+	clergymen = {
+		culture = pan_italian
+		religion = catholic
+		size = 25
+	}
+
+	artisans = {
+		culture = pan_italian
+		religion = catholic
+		size = 500
+	}
+
+	soldiers = {
+		culture = pan_italian
+		religion = catholic
+		size = 125
+	}
+
+	farmers = {
+		culture = pan_italian
+		religion = catholic
+		size = 100
+	}
+	
+	farmers = {
+		culture = venetic
+		religion = catholic
+		size = 2300
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = orthodox
+		size = 50
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = orthodox
+		size = 100
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 25
+	}
+
+	serfs = {
+		culture = shtokavian
+		religion = orthodox
+		size = 1825
+	}
+
+}
+#Banat-Bacska Region (104000) #See shtokaviania.txt and Romania.txt for balance of region 
+#under the rule of Austria in 1836  
+#Vukovar (104000/26000 POPS) #part of shtokaviania today
+793 = {
+	clergymen = {
+		culture = shtokavian
+		religion = catholic
+		size = 150
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = catholic
+		size = 800 
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = catholic
+		size = 175
+	}
+	
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 10775  
+	}
+
+	serfs = {
+		culture = shtokavian
+		religion = catholic
+		size = 4000  
+	}
+	
+	farmers = {
+		culture = shtokavian
+		religion = catholic
+		size = 100  
+	}
+
+	clergymen = {
+		culture = shtokavian
+		religion = orthodox
+		size = 75  
+	}
+
+	artisans = {
+		culture = shtokavian
+		religion = orthodox
+		size = 350
+	}
+
+	soldiers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 100
+	}
+
+	farmers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 7475 
+	}
+
+	aristocrats = {
+		culture = north_german
+		religion = catholic
+		size = 50  
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = catholic
+		size = 40   
+	}
+
+	artisans = {
+		culture = north_german
+		religion = catholic
+		size = 100   
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = catholic
+		size = 25
+	}
+
+	farmers = {
+		culture = north_german
+		religion = catholic
+		size = 1785 
+	}
+}

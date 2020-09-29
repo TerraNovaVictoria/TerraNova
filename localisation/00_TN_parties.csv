@@ -1,0 +1,69 @@
+;;;;;;;;;;;;;;x,,,
+CLA_conservative;Duke Town Faction;Faction de Duke Town;Duke Town Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+CLA_liberal;Creek Town Faction;Faction de Creek Town;Creek Town Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+CLA_reactionary;Empire Faction;Faction d'empire;Reich Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+CLA_anarcho_liberal;Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+CLA_socialist;Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+CLA_communist;Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+CLA_fascist;Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+SLS_liberal;Liberaldem. Partei;Liberaldem. Partei;Liberaldem. Partei;;Liberaldem. Partei;;;;;;;;;x;;;;;;;;;;;;;;
+SLS_conservative;Zentrumspartei;Zentrumspartei;Zentrumspartei;;Zentrumspartei;;;;;;;;;x;;;;;;;;;;;;;;
+SLS_liberal_2;Nationalliberale ;Nationalliberale ;Nationalliberale ;;Nationalliberale ;;;;;;;;;x;;;;;;;;;;;;;;
+SLS_socialist;Deutscher Arbeiterverein;Deutscher Arbeiterverein;Deutscher Arbeiterverein;;Deutscher Arbeiterverein;;;;;;;;;x;;;;;;;;;;;;;;
+SLS_reactionary;Nationale Partei;Nationale Partei;Nationale Partei;;Nationale Partei;;;;;;;;;x;;;;;;;;;;;;;;
+SLS_conservative_2;Konservative Partei;Konservative Partei;Konservative Partei;;Konservative Partei;;;;;;;;;x;;;;;;;;;;;;;;
+SLS_anarcho_liberal;Radical Arbeiterpartei;Arbeiterpartei radical;Radikale Arbeiterpartei;;Radical Arbeiterpartei;;;;;;;;;x;;;;;;;;;;;;;;
+SLS_communist;Communist Arbeiterpartei;Arbeiterpartei communiste;Kommunistische Arbeiterpartei;;Communist Arbeiterpartei;;;;;;;;;x;;;;;;;;;;;;;;
+SLS_fascist;Fascists;;;;;;;;;;;;;x
+DLM_conservative;The Conservative Senators;;Die konservativen Senatoren;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DLM_liberal;The Reformist Senators;;Die reformierenden Senatoren;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DLM_reactionary;The Ragusan Council;;Der ragusische Rat;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DLM_anarcho_liberal;The Radical Senators;;Die radikalen Senatoren;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DLM_socialist;The Socialist Coalition;;Die sozialistische Koalition;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DLM_communist;The Adriatic Workers;;Die adriatischen Arbeiter;;;;;;;;;;;;x;;;;;;;;;;;;;;
+DLM_fascist;The Dalmatian League;;Der dalmatische Bund;;;;;;;;;;;;x;;;;;;;;;;;;;;
+BUR_conservative;Imperials;;;;;;;;;;;;;x,
+KRN_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KRN_liberal;The Liberal Faction;Faction libérale;Die liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KRN_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KRN_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KRN_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KRN_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KRN_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+FSW_reactionary;Catholiques Conservateur;;;;;;;;;;;;;x
+FSW_conservative;Ligue de Conservateurs;;;;;;;;;;;;;x
+FSW_liberal;Parti Democratique des Pensees Libre;;;;;;;;;;;;;x
+FSW_anarcho_liberal;Parti Democratique Radical;;;;;;;;;;;;;x
+FSW_socialist;Parti Socialiste de Suisse;;;;;;;;;;;;;x
+FSW_communist;Party Communiste de Romandy;;;;;;;;;;;;;;x
+FSW_fascist;Ligue Fasciste Francais;;;;;;;;;;;;;x
+ISW_reactionary;Fazione Conservatrice;;;;;;;;;;;;;x
+ISW_conservative;Conservatori Cattolici;;;;;;;;;;;;;x
+ISW_liberal;Partito Democratico Liberale;;;;;;;;;;;;;x
+ISW_anarcho_liberal;Partito Democratico Radicale;;;;;;;;;;;;;x
+ISW_socialist;Partito Socialista Svizzero;;;;;;;;;;;;;x
+ISW_communist;Partito Comunista Romando;;;;;;;;;;;;;;x
+ISW_fascist;Lega Fascista Italiana;;;;;;;;;;;;;x
+ANA_reactionary;Imperial Faction;;;;;;;;;;;;;x
+ANA_conservative;Restoriationist Faction;;;;;;;;;;;;;x
+ANA_conservative_2;Kirmanjki League;;;;;;;;;;;;;x
+ANA_liberal;Constitutionalist Faction;;;;;;;;;;;;;x
+ANA_liberal_2;Anatolian People's Party;;;;;;;;;;;;;x
+ANA_anarcho_liberal;All-Iranian Union;;;;;;;;;;;;;x
+ANA_socialist;Anatolian Labour Party;;;;;;;;;;;;;x
+ANA_communist;Pan-Anatolian Communist Party;;;;;;;;;;;;;;x
+ANA_fascist;Ilkhan's Party;;;;;;;;;;;;;x
+SHK_conservative;Shilluk Podh Faction;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+SHK_liberal;Reformist Faction;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+SHK_reactionary;Royal Holiness Faction;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+SHK_anarcho_liberal;Shilluk Libertarian Front;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+SHK_socialist;Shilluk Socialist Front;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+SHK_communist;Shilluk People's Front;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+SHK_fascist;Shilluk National Front;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+FNJ_conservative;Royal Blues;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+FNJ_liberal;Liberal Faction;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+FNJ_reactionary;Funj Mamluks;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+FNJ_anarcho_liberal;New Sennari Liberals;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+FNJ_socialist;Sudani Liberation Front;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+FNJ_communist;Sudani Communist Party;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+FNJ_fascist;Blue Party;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,

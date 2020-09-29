@@ -1,0 +1,27 @@
+political_decisions = {
+
+	occupy_montferrat = { 
+		picture = marching_soldiers
+		potential = {
+			tag = MLO
+			MTF = { exists = yes }
+			has_country_flag = the_second_ambrosian_republic
+			NOT = { has_country_flag = montferrate_ultimatum }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			badboy = 2.5
+			MTF = { country_event = 10010101 }
+			set_country_flag = montferrate_ultimatum
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

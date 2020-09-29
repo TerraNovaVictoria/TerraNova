@@ -1,0 +1,6 @@
+owner = MIA
+controller = MIA
+add_core = MIA
+add_core = IOU
+trade_goods = grain
+life_rating = 35

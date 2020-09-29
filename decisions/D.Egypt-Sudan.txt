@@ -1,0 +1,38 @@
+political_decisions = {
+
+	conquer_sudd = { 
+		picture = military_aid
+		potential = {
+			OR = {
+				tag = FNJ
+				tag = EGY
+				tag = SUD
+				AND = {
+					tag = SHK
+					SHK = { all_core = { owned_by = THIS } }
+				}
+			}
+			owns = 1832
+			1844 = { empty = yes }
+		}
+		
+		allow = {
+			war = no
+			owns = 1832
+			owns = 1840
+		}
+		
+		effect = {
+			prestige = 5
+			1843 = { secede_province = FUR add_core = SUD }
+			1844 = { secede_province = THIS add_core = SUD add_core = FNJ }
+			1846 = { secede_province = THIS add_core = SUD add_core = FNJ }
+			1847 = { secede_province = THIS add_core = SUD add_core = FNJ }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

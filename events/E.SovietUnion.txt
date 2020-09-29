@@ -1,0 +1,73 @@
+#####FORMATION OF THE USSR#####
+
+country_event = {
+	id = 101917
+	title = "EVTNAME101917" #USSR Proclaimed
+	desc = "EVTDESC101917"
+	picture = "streetriot"
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT101917A"
+		any_country = {
+			limit = { NOT = { government = proletarian_dictatorship } }
+			country_event = 101918
+		}
+		badboy = 2.5
+		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+		
+}
+
+country_event = {
+	id = 101918
+	title = "EVTNAME101918" #Comintern Influence
+	desc = "EVTDESC101918"
+	picture = "streetriot"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT101918A"
+		add_country_modifier = the_comintern
+		relation = { who = SOV value = -100 }
+		ai_chance = { factor = 100 }
+	}
+		
+}
+
+country_event = {
+	id = 101919
+	title = "EVTNAME101919" #USSR Membership
+	desc = "EVTDESC101919"
+	picture = "streetriot"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT101919A"
+		THIS = {
+			all_core = {
+				remove_core = SOV
+				remove_core = RUS
+			}
+		}
+		relation = { who = SOV value = -100 }
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "EVTOPT101919B"
+		THIS = {
+			all_core = {
+				add_core = SOV
+			}
+		}
+		SOV = { inherit = THIS }
+		ai_chance = { factor = 100 }
+	}
+		
+}

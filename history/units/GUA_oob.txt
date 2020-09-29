@@ -1,0 +1,20 @@
+COS = {
+	value = -200		#relation
+}
+
+army = {
+	name = "Ejército de Guatemala"
+	location = 2193
+	
+	regiment = {
+		name = "1. Brigada Infantería"
+		type = infantry
+		home = 2191
+	}
+	
+	regiment = {
+		name = "2. Brigada Infantería"
+		type = infantry
+		home = 2187
+	}
+}

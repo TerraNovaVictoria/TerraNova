@@ -1,0 +1,6 @@
+owner = RIO
+controller = RIO
+add_core = RIO
+add_core = CHR
+trade_goods = cattle
+life_rating = 35

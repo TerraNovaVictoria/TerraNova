@@ -1,0 +1,115 @@
+country_event = {
+	id = 192201
+	title = "EVTNAME192201" #Gaelic Rebellion
+	desc = "EVTDESC192201"
+	picture = "irish_flag"
+	
+	trigger = {
+		tag = CYM
+		has_country_modifier = springtime_of_nations
+		NOT = {
+			has_global_flag = the_first_gaelic_uprising
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT192201A"
+		set_global_flag = the_first_gaelic_uprising
+		any_owned = {
+			limit = {
+				is_core = IRE
+			}
+			add_core = GAE
+			secede_province = GAE
+		}
+		any_owned = {
+			limit = {
+				is_core = SCO
+			}
+			add_core = GAE
+		}
+		267 = { secede_province = GAE } 
+		270 = { secede_province = GAE } 
+		271 = { secede_province = GAE } 
+		war = {
+			target = GAE
+			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
+		}
+		ai_chance = { factor = 100 }
+	}
+		
+	option = {
+		name = "EVTOPT192201B"
+		set_global_flag = the_first_gaelic_uprising
+		any_owned = {
+			limit = {
+				is_core = IRE
+			}
+			add_core = GAE
+			secede_province = GAE
+		}
+		any_owned = {
+			limit = {
+				is_core = SCO
+			}
+			add_core = GAE
+		}
+		267 = { secede_province = GAE } 
+		270 = { secede_province = GAE } 
+		271 = { secede_province = GAE } 
+		war = {
+			target = GAE
+			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
+		}
+		change_tag_no_core_switch = GAE
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 192202
+	title = "EVTNAME192202" #Singapore Crisis
+	desc = "EVTDESC192202"
+	picture = "irish_flag"
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		CYM = {
+			1384 = { secede_province = MLC }
+		}
+	}
+	
+	option = {
+		name = "EVTOPT192202A"
+		war = {
+			target = MLC
+			attacker_goal = {
+				casus_belli = make_puppet
+			}
+		}
+		MLC = { country_event = 9141501 }
+		ai_chance = { factor = 100 }
+	}
+		
+	option = {
+		name = "EVTOPT192202B"
+		any_owned = {
+			limit = {
+				is_core = MLC
+			}
+			secede_province = MLC
+		}
+		prestige = -25
+		MLC = { country_event = 9141502 }
+		ai_chance = { factor = 0 }
+	}
+}

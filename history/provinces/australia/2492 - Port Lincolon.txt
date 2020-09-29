@@ -1,0 +1,7 @@
+owner = FRA
+controller = FRA
+add_core = FAS
+trade_goods = wool
+terrain = savanna
+life_rating = 30
+colonial = 2

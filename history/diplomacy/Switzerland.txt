@@ -1,0 +1,100 @@
+#Zurich
+vassal = {
+	first = SWI
+	second = ZUR
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+#Konstanz
+vassal = {
+	first = SWI
+	second = KNS
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+#Fribourg
+vassal = {
+	first = SWI
+	second = FRB
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+#Basel
+vassal = {
+	first = SWI
+	second = BSL
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+#Bern
+vassal = {
+	first = SWI
+	second = BNE
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+#Biel-Jura
+vassal = {
+	first = SWI
+	second = BIE
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+#Neuchatel
+vassal = {
+	first = SWI
+	second = NCT
+	start_date = 1815.1.1
+	end_date = 1857.1.1
+}
+
+
+#Liechstenstein
+vassal = {
+	first = SWI
+	second = LIE
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+#Geneva
+vassal = {
+	first = SWI
+	second = GNV
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+#Ticino
+vassal = {
+	first = SWI
+	second = TIC
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+#Three Leagues
+vassal = {
+	first = SWI
+	second = THR
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+#Wallis
+vassal = {
+	first = SWI
+	second = WLS
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+#Romandy
+vassal = {
+	first = SWI
+	second = RMD
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}
+#Bregenz
+vassal = {
+	first = SWI
+	second = BRG
+	start_date = 1836.1.1
+	end_date = 1938.1.1
+}

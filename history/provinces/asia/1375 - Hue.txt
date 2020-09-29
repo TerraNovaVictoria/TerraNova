@@ -1,0 +1,6 @@
+owner = DAN
+controller = DAN
+add_core = DAN
+trade_goods = grain
+life_rating = 34
+terrain = hue

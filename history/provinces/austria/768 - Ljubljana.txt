@@ -1,0 +1,9 @@
+owner = STY
+controller = STY
+add_core = STY
+add_core = GER
+add_core = SLO
+trade_goods = cotton
+life_rating = 35
+terrain = ljubljana
+1861.1.1 = { railroad = 2 }

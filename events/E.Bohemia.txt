@@ -1,0 +1,612 @@
+#Bohemian Flavor events
+country_event = {
+	id = 191800
+	title = "EVTNAME191800" #Czechs demand equality
+	desc = "EVTDESC191800"
+	picture = "hre_bohemia_map"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BOH
+		year = 1837
+		primary_culture = north_german
+		NOT = { has_country_flag = bohemia_picked_language }
+		NOT = { has_country_flag = boh_language_issue }
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		set_country_flag = boh_language_issue
+	}
+	
+	option = {
+		name = "EVT191800OPTA"
+		prestige = -5
+		any_pop = {
+			limit = { has_pop_culture = czech }
+			militancy = 2
+			consciousness = 2
+		}
+		any_pop = {
+			limit = { has_pop_culture = avari }
+			militancy = 4
+			consciousness = 4
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+}
+
+country_event = {
+	id = 191801
+	title = "EVTNAME191801" #Bohemia - Language Policy
+	desc = "EVTDESC191801"
+	picture = "bohemia_map"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT191801OPTA"
+		prestige = 15
+		badboy = 2
+		any_pop = {
+			limit = { has_pop_culture = czech }
+			militancy = 4
+			consciousness = 4
+		}
+		any_pop = {
+			limit = { has_pop_culture = north_german }
+			militancy = -2
+			consciousness = -2
+		}
+		relation = { who = BAV value = 25 }
+		ai_chance = {
+			factor = 5
+		}
+	}
+
+	option = {
+		name = "EVT191801OPTB"
+		prestige = -5
+		badboy = -2.5
+		any_pop = {
+			limit = { has_pop_culture = north_german }
+			militancy = 1
+			consciousness = 1
+		}
+		any_pop = {
+			limit = { has_pop_culture = czech }
+			militancy = -2
+			consciousness = -2
+		}
+		add_accepted_culture = czech
+		ai_chance = {
+			factor = 10
+		}
+	}
+	
+	option = {
+		name = "EVT191801OPTC"
+		prestige = 15
+		BOH = { primary_culture = czech }
+		any_pop = {
+			limit = { has_pop_culture = north_german }
+			militancy = 4
+			consciousness = 4
+		}
+		SLV = {
+			all_core = {
+				remove_core = SLV
+				add_core = BOH
+			}
+		}
+		relation = { who = BAV value = -25 }
+		ai_chance = {
+			factor = 85
+		}
+	}
+}
+
+country_event = {
+	id = 191802
+	title = "EVTNAME191802" #Kaiserlich und Königklich
+	desc = "EVTDESC191802"
+	picture = "dual_monarchy"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT191802OPTA"
+		BOH = {
+			all_core = { add_core = KUK }
+		}
+		prestige = 15
+		any_pop = {
+			limit = { has_pop_culture = avari }
+			militancy = 1
+			consciousness = 1
+		}
+		any_pop = {
+			limit = { has_pop_culture = romanian }
+			militancy = 1
+			consciousness = 1
+		}
+		any_pop = {
+			limit = { has_pop_culture = czech }
+			militancy = 1
+			consciousness = 1
+		}
+		any_pop = {
+			limit = { has_pop_culture = north_german }
+			militancy = -2
+			consciousness = -2
+		}
+		limit = {
+			SLS = { exists = no }
+			SLS = { all_core = { add_core = KUK } }
+		}
+		limit = {
+			SIE = { exists = no }
+			SIE = { all_core = { add_core = KUK } }
+		}
+		limit = {
+			AVR = { exists = no }
+			AVR = { all_core = { add_core = KUK } }
+		}
+		limit = {
+			SLV = { exists = no }
+			SLV = { all_core = { add_core = KUK } }
+		}
+		limit = {
+			BAN = { exists = no }
+			BAN = { all_core = { add_core = KUK } }
+		}
+		SLS = {
+			limit = { 
+				exists = yes 
+				OR = {
+					is_vassal_of = THIS 
+					part_of_sphere = yes
+				}
+			}
+			country_event = 191803
+		}
+		SIE = {
+			limit = { 
+				exists = yes 
+				OR = {
+					is_vassal_of = THIS 
+					part_of_sphere = yes
+				}
+			}
+			country_event = 191803
+		}
+		AVR = {
+			limit = { 
+				exists = yes 
+				OR = {
+					is_vassal_of = THIS 
+					part_of_sphere = yes
+				}
+			}
+			country_event = 191803
+		}
+		BAN = {
+			limit = { 
+				exists = yes 
+				OR = {
+					is_vassal_of = THIS 
+					part_of_sphere = yes
+				}
+			}
+			country_event = 191803
+		}
+		SLV = {
+			limit = { 
+				exists = yes 
+				OR = {
+					is_vassal_of = THIS 
+					part_of_sphere = yes
+				}
+			}
+			country_event = 191803
+		}	
+		change_tag = KUK
+		BOH = { primary_culture = czech }
+		BOH = { government = presidential_dictatorship }
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = 191803
+	title = "EVTNAME191803" #KUK integration
+	desc = "EVTDESC191803"
+	picture = "dual_monarchy"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVT191803OPTA"
+		THIS = {
+			all_core = { add_core = KUK }
+		}
+		KUK = { inherit = THIS }
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+	option = {
+		name = "EVT191803OPTB"
+		THIS = {
+			all_core = { add_core = KUK }
+		}
+		KUK = {
+			release = THIS
+		}
+		relation = { who = KUK value = -400 }
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+# Avarian Revolution events
+country_event = {
+	id = 11234
+	title = "EVTNAME11234" #Avarian Revolution of $YEAR$
+	desc = "EVTDESC11234"
+	news = yes
+	news_desc_long = "EVTDESC11234_NEWS_LONG"
+	news_desc_medium = "EVTDESC11234_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC11234_NEWS_SHORT"
+	picture = "hungarian_revolution_1848"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = BOH
+		owns = 641
+		OR = {
+			641 = { controlled_by = BOH }
+			641 = { controlled_by = REB }
+		}
+		OR = {
+			has_country_modifier = springtime_of_nations
+			AND = {
+				641 = { controlled_by = REB }
+				has_country_flag = liberal_revolution_in_progress
+			}
+		}
+		NOT = {
+			AVR = { involved_in_crisis = yes }
+			exists = AVR
+			has_global_flag = avarian_revolution_occurred
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 36
+	}
+
+	immediate = {
+		set_global_flag = avarian_revolution_occurred
+	}
+
+	option = {
+		name = "EVT11234OPTA"
+		any_owned = {
+			limit = {
+				is_core = AVR
+				NOT = { is_core = SLV }
+			}
+			secede_province = AVR
+		}
+		relation = { who = AVR value = -100 }
+		any_owned = {
+			limit = { is_core = BOH }
+			remove_province_modifier = liberal_agitation
+		}
+		any_pop = {
+			limit = { is_primary_culture = yes }
+			militancy = -6
+		}
+		add_country_modifier = {
+			name = no_more_war
+			duration = 7
+		}
+		AVR = {
+			capital = 641
+			political_reform = mandatory_service 
+			government = hms_government
+			political_reform = non_secret_ballots
+			political_reform = universal_weighted_voting
+			political_reform = population_equal_weight
+			political_reform = free_press
+			political_reform = yes_meeting
+			clr_country_flag = communist_gov
+			clr_country_flag = absolute_monarchy_gov
+			clr_country_flag = semi_constitutional_monarchy_gov
+			set_country_flag = constitutional_monarchy_gov
+			clr_country_flag = democracy_gov
+			clr_country_flag = presidential_dictatorship_gov
+			clr_country_flag = fascist_gov
+			clr_country_flag = anarcho_liberal_gov
+			add_country_modifier = {
+				name = no_more_war
+				duration = 7
+			}
+			relation = {
+				who = ILL
+				value = -200
+			}
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+
+	option = {
+		name = "EVT11234OPTB"
+		set_country_flag = bohemia_lets_avaria_go
+		any_owned = {
+			limit = {
+				is_core = AVR
+			}
+			secede_province = AVR
+		}
+		relation = { who = AVR value = -100 }
+		prestige = -25
+		casus_belli = {
+			target = AVR
+			type = acquire_state
+			months = 60
+		}
+		casus_belli = {
+			target = AVR
+			type = cut_down_to_size
+			months = 60
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = romanian
+				location = { is_core = ROM }
+			}
+			militancy = 8
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = polish
+				location = { is_core = POL }
+			}
+			militancy = 8
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = north_italian
+				location = { is_core = ITA }
+			}
+			militancy = 8
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = POL
+					is_core = ROM
+					is_core = ITA
+				}
+			}
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 1095
+			}
+		}
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 2
+				any_greater_power = { war_with = THIS }
+			}
+			modifier = {
+				factor = 2
+				national_provinces_occupied = 0.25
+			}
+			modifier = {
+				factor = 0
+				war = no
+				NOT = { revolt_percentage = 0.25 }
+			}
+		}
+	}
+
+	option = {
+		name = "EVT11234OPTC"
+		any_owned = {
+			limit = {
+				is_core = AVR
+			}
+			secede_province = AVR
+		}
+		relation = { who = AVR value = -100 }
+		any_owned = {
+			limit = { is_core = BOH }
+			remove_province_modifier = liberal_agitation
+		}
+		any_pop = {
+			limit = { is_primary_culture = yes }
+			militancy = -6
+		}
+		add_country_modifier = {
+				name = no_more_war
+				duration = 14
+		}
+		casus_belli = {
+			target = AVR
+			type = annex_core_country
+			months = 60
+		}
+		AVR = {
+			political_reform = mandatory_service 
+			capital = 641
+			add_country_modifier = {
+				name = no_more_war
+				duration = 14
+			}
+		}
+		change_tag_no_core_switch = AVR
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#####The Liberal Coup in Bohemia
+country_event = {
+	id = 22234
+	title = "EVTNAME22234" #Bohemian Revolution of $YEAR$
+	desc = "EVTDESC22234"
+	picture = "hungarian_revolution_1848"
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = BOH
+		NOT = { has_global_flag = prague_coup }
+		has_global_flag = avarian_revolution_occurred
+		NOT = { owns = 641 }
+		OR = {
+			625 = { controlled_by = BOH }
+			625 = { controlled_by = REB }
+		}
+		OR = {
+			has_country_modifier = springtime_of_nations
+			AND = {
+				625 = { controlled_by = REB }
+				has_country_flag = liberal_revolution_in_progress
+			}
+		}
+		exists = AVR
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	immediate = {
+		set_global_flag = prague_coup
+	}
+
+	option = {
+		name = "EVT22234OPTA"
+		any_owned = {
+			limit = {
+				is_core = BOH
+			}
+			add_core = CZH
+			remove_core = BOH
+		}
+		any_owned = {
+			limit = {
+				is_core = SLV
+			}
+			add_core = CZH
+			remove_core = SLV
+		}
+		relation = { who = AVR value = 200 }
+		any_pop = {
+			limit = { is_primary_culture = yes }
+			militancy = -6
+		}
+		change_tag = CZH
+		CZH = {
+			capital = 625
+			political_reform = mandatory_service 
+			government = hms_government
+			political_reform = non_secret_ballots
+			political_reform = universal_weighted_voting
+			political_reform = population_equal_weight
+			political_reform = free_press
+			political_reform = yes_meeting
+			clr_country_flag = communist_gov
+			clr_country_flag = absolute_monarchy_gov
+			clr_country_flag = semi_constitutional_monarchy_gov
+			set_country_flag = constitutional_monarchy_gov
+			clr_country_flag = democracy_gov
+			clr_country_flag = presidential_dictatorship_gov
+			clr_country_flag = fascist_gov
+			clr_country_flag = anarcho_liberal_gov
+		}
+		any_country = {
+			limit = {
+				war_with = THIS
+				tag = AVR
+			}
+			end_war = THIS
+		}
+		set_global_flag = end_of_bohemia
+		ai_chance = {
+			factor = 2
+		}
+	}
+	
+	option = {
+		name = "EVT22234OPTB"
+		any_owned = {
+			limit = {
+				is_core = BOH
+			}
+			add_core = CZH
+		}
+		any_owned = {
+			limit = {
+				is_core = SLV
+			}
+			add_core = CZH
+		}
+		any_pop = {
+			limit = { is_primary_culture = yes }
+			militancy = -6
+		}
+		change_tag = CZH
+		CZH = {
+			capital = 625
+			political_reform = mandatory_service 
+			government = prussian_constitutionalism
+			political_reform = gerrymandering
+			political_reform = only_landed
+			political_reform = censored_press
+			political_reform = yes_meeting
+			clr_country_flag = communist_gov
+			clr_country_flag = absolute_monarchy_gov
+			clr_country_flag = semi_constitutional_monarchy_gov
+			set_country_flag = constitutional_monarchy_gov
+			clr_country_flag = democracy_gov
+			clr_country_flag = presidential_dictatorship_gov
+			clr_country_flag = fascist_gov
+			clr_country_flag = anarcho_liberal_gov
+		}
+		ai_chance = {
+			factor = 54
+		}
+	}
+	
+	option = {
+		name = "EVT22234OPTC"
+		any_pop = {
+			limit = { is_primary_culture = yes }
+			militancy = 2
+		}
+		ai_chance = {
+			factor = 44
+		}
+	}
+}

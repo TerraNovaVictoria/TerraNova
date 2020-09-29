@@ -1,0 +1,7 @@
+owner = SPA
+controller = SPA
+add_core = SAF
+terrain = steppe
+life_rating = 15
+trade_goods = grain
+colonial = 1

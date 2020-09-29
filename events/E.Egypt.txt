@@ -1,0 +1,318 @@
+country_event = {
+	id = 990099
+	title = "EVTNAME990099" #Feudal Unrest
+	desc = "EVTDESC990099"
+	picture = "arab_revolt"
+	
+	trigger = {
+		year = 1836
+		tag = EGY
+	}
+	
+	mean_time_to_happen = { days = 3 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT990099A"
+		any_pop = {
+			militancy = 2
+			consciousness = 2
+		}
+		set_country_flag = revolutionary_egyptian_populace
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 991199
+	title = "EVTNAME991199" #The Egyptian Revolution
+	desc = "EVTDESC991199"
+	picture = "arab_revolt"
+	
+	trigger = {
+		tag = EGY
+		has_country_flag = revolutionary_egyptian_populace
+	}
+	
+	mean_time_to_happen = { months = 24 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT991199A"
+		prestige = 10
+		set_country_flag = mamluks_win
+		remove_country_flag = revolutionary_egyptian_populace
+		1745 = { any_pop = { reduce_pop = 0.95 } }
+		1751 = { any_pop = { reduce_pop = 0.95 } }
+		any_pop = {
+			militancy = 2
+			consciousness = 2
+		}
+		ai_chance = { factor = 20 }
+	}
+	
+	option = {
+		name = "EVTOPT991199B"
+		government = prussian_constitutionalism
+		political_reform = landed_voting
+		political_reform = harassment
+		remove_country_flag = revolutionary_egyptian_populace
+		set_country_flag = mamluks_lost
+		any_pop = {
+			militancy = -1
+			consciousness = -1
+		}
+		ai_chance = { factor = 80 }
+	}
+}
+
+country_event = {
+	id = 992299
+	title = "EVTNAME992299" #Alt Event for Mamluk Abolishment
+	desc = "EVTDESC991199"
+	picture = "conquest_of_the_desert"
+	
+	trigger = {
+		tag = EGY
+		NOT = { government = absolute_monarchy }
+		NOT = { has_country_flag = mamluks_lost }
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT992299A"
+		prestige = 10
+		any_pop = {
+			militancy = -1
+			consciousness = -1
+		}
+		ai_chance = { factor = 20 }
+	}
+	
+}
+
+country_event = {
+	id = 993399
+	title = "EVTNAME993399" #Unrest Amongst the Copts
+	desc = "EVTDESC993399"
+	picture = "conquest_of_the_desert"
+	
+	trigger = {
+		tag = EGY
+		has_country_flag = mamluks_win
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		months = 24
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1841
+		}
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1842
+		}
+	}
+		
+	option = {
+		name = "EVTOPT993399A"
+		any_pop = {
+			limit = { has_pop_culture = copt }
+			militancy = -1
+			consciousness = -1
+		}
+		set_country_flag = mamluks_make_concessions
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPT993399B"
+		any_pop = {
+			limit = { has_pop_culture = copt }
+			militancy = 4
+			consciousness = 4
+		}
+		slaves = {
+			limit = { has_pop_culture = copt }
+			militancy = -6
+			consciousness = 6
+		}
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = 994499
+	title = "EVTNAME994499" #Consciousness amongst Copts/More Demands
+	desc = "EVTDESC994499"
+	picture = "conquest_of_the_desert"
+	
+	trigger = {
+		tag = EGY
+		has_country_flag = mamluks_make_concessions
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		months = 60
+
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1844
+		}
+		
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1845
+		}
+		
+		modifier = {
+			factor = 1.95 #increase likelihood to happen
+			year = 1850
+		}
+	}
+		
+	option = {
+		name = "EVTOPT994499A"
+		prestige = -5
+		any_pop = {
+			limit = { has_pop_culture = misri }
+			militancy = 1
+			consciousness = 1
+		}
+		any_pop = {
+			limit = { has_pop_culture = copt }
+			militancy = -1
+			consciousness = -1
+		}
+		remove_country_flag = mamluks_make_concessions
+		set_country_flag = mamluks_made_concessions
+		ai_chance = { factor = 30 }
+	}
+	
+	option = {
+		name = "EVTOPT994499B"
+		prestige = 10
+		any_pop = {
+			limit = { has_pop_culture = misri }
+			militancy = -3
+			consciousness = -3
+		}
+		any_pop = {
+			limit = { has_pop_culture = copt }
+			militancy = 3
+			consciousness = 3
+		}
+		set_country_flag = copts_will_rise
+		remove_country_flag = mamluks_make_concessions
+		ai_chance = { factor = 30 }
+	}
+	
+	option = {
+		name = "EVTOPT994499C"
+		any_pop = {
+			limit = { has_pop_culture = copt }
+			militancy = -2
+			consciousness = -2
+		}
+		any_pop = {
+			limit = { has_pop_culture = misri }
+			militancy = 4
+			consciousness = 4
+		}
+		add_accepted_culture = copt
+		remove_country_flag = mamluks_make_concessions
+		ai_chance = { factor = 40 }
+	}
+}
+
+country_event = {
+	id = 995599
+	title = "EVTNAME995599" #Coptic Revolution
+	desc = "EVTDESC995599"
+	picture = "arab_revolt"
+	
+	trigger = {
+		tag = EGY
+		has_country_flag = copts_will_rise
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		months = 60
+	}
+		
+	option = {
+		name = "EVTOPT995599A"
+		prestige = -5
+		change_tag = COP
+		COP = { primary_culture = copt }
+		any_pop = {
+			limit = { has_pop_culture = misri }
+			militancy = 4
+			consciousness = 4
+		}
+		any_pop = {
+			limit = { has_pop_culture = copt }
+			militancy = -4
+			consciousness = -4
+		}
+		ai_chance = { factor = 35 }
+	}
+	
+	option = {
+		name = "EVTOPT995599B"
+		prestige = 15
+		any_pop = {
+			limit = { has_pop_culture = misri }
+			militancy = -4
+			consciousness = -4
+		}
+		any_pop = {
+			limit = { has_pop_culture = copt }
+			militancy = 6
+			consciousness = 6
+		}
+		remove_country_flag = copts_will_rise
+		remove_country_flag = mamluks_make_concessions
+		ai_chance = { factor = 65 }
+	}
+}
+
+country_event = {
+	id = 996699
+	title = "EVTNAME996699" #Copts are satisfied
+	desc = "EVTDESC996699"
+	picture = "arab_revolt"
+	
+	trigger = {
+		tag = EGY
+		has_country_flag = mamluks_made_concessions
+	}
+	
+	fire_only_once = yes
+	mean_time_to_happen =  {
+		months = 12
+	}
+		
+	option = {
+		name = "EVTOPT996699A"
+		prestige = -10
+		any_pop = {
+			limit = { has_pop_culture = copt }
+			militancy = -1
+			consciousness = -1
+		}
+		remove_country_flag = mamluks_made_concessions
+		ai_chance = { factor = 100 }
+	}
+
+}

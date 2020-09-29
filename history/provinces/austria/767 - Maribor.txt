@@ -1,0 +1,8 @@
+owner = STY
+controller = STY
+add_core = STY
+add_core = GER
+add_core = SLO
+trade_goods = timber
+life_rating = 35
+1861.1.1 = { railroad = 2 }

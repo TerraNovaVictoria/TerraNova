@@ -1,0 +1,351 @@
+#####CONSTITUTIONAL ASSEMBLY#####
+
+country_event = {
+	id = 90010900
+	title = "EVTNAME90010900" #Ratify Independence Declaration
+	desc = "EVTDESC90010900"
+	picture = "national_congress"
+	
+	trigger = {
+		tag = GCO
+		has_country_flag = gco_constitution
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT90010900A"
+		prestige = 10
+		set_country_flag = the_assembly_is_ready
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 90020900
+	title = "EVTNAME90020900" #Republic or Dictatorship
+	desc = "EVTDESC90020900"
+	picture = "streetriot"
+	
+	trigger = {
+		tag = GCO
+		has_country_flag = the_assembly_is_ready
+	}
+	
+	mean_time_to_happen = { days = 3 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT90020900A"
+		government = democracy
+		political_reform = universal_weighted_voting
+		political_reform = free_press
+		political_reform = federalism
+		political_reform = gerrymandering
+		remove_country_flag = the_assembly_is_ready
+		war_exhaustion = -5
+		ai_chance = { factor = 10 }
+	}
+		
+	option = {
+		name = "EVTOPT90020900B"
+		government = presidential_dictatorship
+		political_reform = none_voting
+		political_reform = no_meeting
+		political_reform = state_press
+		political_reform = unitary
+		remove_country_flag = the_assembly_is_ready
+		set_country_flag = colombian_dictatorship
+		prestige = 12
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 90030900
+	title = "EVTNAME90030900" #Capital City
+	desc = "EVTDESC90030900"
+	picture = "map_of_colombia"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT90030900A" #Don't change
+		2264 = { any_pop = { militancy = -1 } }
+		ai_chance = { factor = 25 }
+	}
+	
+	option = {
+		name = "EVTOPT90030900B" #Bogota
+		2247 = { any_pop = { militancy = -1 } }
+		capital = 2247
+		ai_chance = { factor = 25 }
+	}
+	
+	option = {
+		name = "EVTOPT90030900C" #Quito
+		2279 = { any_pop = { militancy = -1 } }
+		capital = 2279
+		ai_chance = { factor = 25 }
+	}
+	
+	option = {
+		name = "EVTOPT90030900D" #Colombus
+		2271 = { any_pop = { militancy = -1 } change_province_name = "Colombus" }
+		capital = 2271
+		ai_chance = { factor = 25 }
+	}
+	
+}
+
+country_event = {
+	id = 90040900
+	title = "EVTNAME90040900" #Capital City
+	desc = "EVTDESC90040900"
+	picture = "map_of_colombia"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT90040900A" #Don't change
+		2264 = { any_pop = { militancy = -1 } }
+		ai_chance = { factor = 12.5 }
+	}
+	
+	option = {
+		name = "EVTOPT90040900B" #Morelia
+		2170 = { any_pop = { militancy = -1 } }
+		capital = 2170
+		ai_chance = { factor = 12.5 }
+	}
+	
+	option = {
+		name = "EVTOPT90040900C" #Montevideo
+		2344 = { any_pop = { militancy = -1 } }
+		capital = 2344
+		ai_chance = { factor = 12.5 }
+	}
+	
+	option = {
+		name = "EVTOPT90040900D" #Guatemala
+		2186 = { any_pop = { militancy = -1 } }
+		capital = 2186
+		ai_chance = { factor = 12.5 }
+	}
+	
+	option = {
+		name = "EVTOPT90040900E" #Colombus
+		2271 = { any_pop = { militancy = -1 } change_province_name = "Colombus" }
+		capital = 2271
+		ai_chance = { factor = 25 }
+	}
+	
+}
+
+
+#####COLOMBIAN BREAKUP#####
+
+country_event = {
+	id = 466466
+	title = "EVTNAME466466" #Death of a Dream
+	desc = "EVTDESC466466"
+	picture = "streetriot"
+	major = yes
+	
+	trigger = {
+		tag = GCO
+		NOT = { has_country_flag = colombia_has_failed }
+		NOT = { has_country_flag = colombia_has_prevailed }
+		has_country_flag = colombian_dictatorship
+		year = 1840
+		war = no
+		PIK = { exists = yes }
+		KAP = { exists = no }
+		QUI = { exists = no }
+		OR = {
+			AND = {
+				GCO = { has_recently_lost_war = yes }
+			}
+			AND = {
+				GCO = { has_recently_lost_war = no }
+				NOT = { prestige = 50 }
+			}
+		}
+	}
+	
+	mean_time_to_happen = { days = 10 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT466466A"
+		GCO = {
+			any_owned = {
+				limit = { is_core = PNM } 
+				secede_province = PNM
+			}
+		}
+		release_vassal = CHR
+		random_country = {
+			limit = { tag = CHR }
+			country_event = 466766
+		}
+		set_country_flag = colombia_has_failed
+		relation = { who = PNM value = -100 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 466566
+	title = "EVTNAME466566" #Ecuador secedes
+	desc = "EVTDESC466566"
+	picture = "storming_palace_communists"
+
+	trigger = {
+		has_country_flag = colombia_has_failed 
+		tag = GCO
+	}
+	
+	mean_time_to_happen = { days = 30 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT466566A"
+		GCO = {
+			any_owned = {
+				limit = {
+					OR = {
+						province_id = 2285
+						province_id = 2281
+						province_id = 2280
+						province_id = 2279
+						province_id = 2282
+						province_id = 2283
+						province_id = 2284
+						province_id = 2288
+					}
+				}
+				add_core = ECU
+			}
+		}
+		any_owned = {
+			limit = { is_core = ECU }
+			secede_province = ECU
+			remove_core = GCO
+		}
+		any_owned = {
+			limit = { is_core = PNM }
+			remove_core = GCO
+		}
+		any_owned = {
+			limit = { is_core = PNM }
+			remove_core = PNM
+		}
+		BRC = { inherit = PNM }
+		ai_chance = { factor = 10 }
+	}
+	
+	option = {
+		name = "EVTOPT466566B"
+		set_country_flag = colombian_civil_war
+		GCO = {
+			any_owned = {
+				limit = {
+					OR = {
+						province_id = 2285
+						province_id = 2281
+						province_id = 2280
+						province_id = 2279
+						province_id = 2282
+						province_id = 2283
+						province_id = 2284
+						province_id = 2288
+					}
+				}
+				add_core = ECU
+			}
+		}
+		any_owned = {
+			limit = { is_core = ECU }
+			secede_province = ECU
+		}
+		war = {
+			target = ECU
+			attacker_goal = {
+				casus_belli = conquest
+			}
+		}
+		any_owned = {
+			limit = { is_core = PNM }
+			remove_core = PNM
+		}
+		BRC = { inherit = PNM }
+		war = {
+			target = BRC
+			attacker_goal = {
+				casus_belli = conquest
+			}
+		}
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 466666
+	title = "EVTNAME466666" #Bogota secedes
+	desc = "EVTDESC466666"
+	picture = "map_of_colombia"
+
+	trigger = {
+		has_country_flag = colombian_civil_war
+		tag = GCO
+	}
+	
+	mean_time_to_happen = { days = 30 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT466666A"
+		GCO = {
+			any_owned = {
+				limit = {
+					OR = {
+						province_id = 2263
+						province_id = 2401
+						province_id = 2261
+						province_id = 2260
+						province_id = 2259
+						province_id = 2258
+						province_id = 2257
+						province_id = 2262
+						province_id = 2278
+						province_id = 2248
+						province_id = 2247
+						province_id = 2249
+						province_id = 2250
+						province_id = 2253
+						province_id = 2252
+						province_id = 2251
+						province_id = 2254
+						province_id = 2255
+						province_id = 2256
+						province_id = 2289
+					}
+				}
+				add_core = CLM
+			}
+		}
+		any_owned = {
+			limit = { is_core = CLM }
+			secede_province = CLM
+		}
+		war = {
+			target = CLM
+			attacker_goal = {
+				casus_belli = conquest
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+}

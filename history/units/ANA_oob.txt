@@ -1,0 +1,303 @@
+#Sphere of Influence
+
+WAL = {
+	value = 50
+	level = 5
+	influence_value = 0
+}
+
+MOL = {
+	value = 50
+	level = 5
+	influence_value = 0
+}
+
+CRI = {
+	value = 200
+	level = 5
+	influence_value = 0
+}
+
+IRQ = {
+	value = 200
+	level = 5
+	influence_value = 0
+}
+
+#ARM
+
+army = {
+	name = "1st Imperial Anatolian Army"
+	location = 876
+	regiment = {
+		name= "1. Sevom Regiment"
+		type = infantry
+		home = 876
+	}
+	regiment = {
+		name= "2. Sevom Regiment"
+		type = infantry
+		home = 873
+	}
+	regiment = {
+		name= "3. Sevom Regiment"
+		type = infantry
+		home = 894
+	}
+	regiment = {
+		name= "1. Aswari Regiment "
+		type = cuirassier
+		home = 883
+	}
+	regiment = {
+		name= "2. Aswari Regiment "
+		type = cuirassier
+		home = 883
+	}
+	regiment = {
+		name= "1. Artillery Regiment"
+		type = artillery
+		home = 879
+	}
+}
+
+army = {
+	name = "2nd Imperial Anatolian Army"
+	location = 900
+	regiment = {
+		name= "1. Sevom Regiment"
+		type = infantry
+		home = 896
+	}
+	regiment = {
+		name= "2. Sevom Regiment"
+		type = infantry
+		home = 898
+	}
+	regiment = {
+		name= "1. Aswari Regiment"
+		type = cuirassier
+		home = 898
+	}
+	regiment = {
+		name= "2. Aswari Regiment "
+		type = cuirassier
+		home = 888
+	}
+	regiment = {
+		name= "1. Artillery Regiment "
+		type = artillery
+		home = 882
+	}
+}
+
+navy = {
+	name = "Anatolian Navy"
+	location = 900
+	ship = {
+		name= "Masudiya"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sadd al Bahri"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ankay i Barhi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Taus i Barhi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Tevfik Nyuma"
+		type = manowar
+	}
+
+	ship = {
+		name= "Bisharet Nyuma"
+		type = manowar
+	}
+
+	ship = {
+		name= "Killid i Barhi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Heybetendaz"
+		type = manowar
+	}
+
+	ship = {
+		name= "Melek i Barhi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Sayyad i Barhi"
+		type = manowar
+	}
+
+	ship = {
+		name= "Gulbang i Nusret"
+		type = manowar
+	}
+
+	ship = {
+		name= "Jebel Andaz"
+		type = manowar
+	}
+
+	ship = {
+		name= "Iskenderiya"
+		type = frigate
+	}
+
+	ship = {
+		name= "Badere i Zaffar"
+		type = frigate
+	}
+
+	ship = {
+		name= "Mahubey Subham"
+		type = frigate
+	}
+
+	ship = {
+		name= "Metelin"
+		type = frigate
+	}
+
+	ship = {
+		name= "Denyuvet"
+		type = frigate
+	}
+
+	ship = {
+		name= "Rahbar i Alam"
+		type = frigate
+	}
+
+	ship = {
+		name= "Malbaik Nesuret"
+		type = frigate
+	}
+
+	ship = {
+		name= "Bedr i Zafar"
+		type = frigate
+	}
+
+	ship = {
+		name= "Meskeni Ghazi"
+		type = frigate
+	}
+
+	ship = {
+		name= "Fakim i Zafar"
+		type = frigate
+	}
+
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+
+}
+
+leader = {
+	name = "Omer Vrioni"
+	type = land
+	date = 1820.1.1
+	background = rising_star
+	personality = skilled
+	prestige = 0.1
+	}
+
+leader = {
+	name = "Husrev Pasha"
+	type = sea
+	date = 1820.1.1
+	background = politician
+	personality = smart_p
+	prestige = 0.15
+	}
+
+leader = {
+	name = "Resid Mehmed Pasha"
+	date = 1809.1.1
+	type = land
+	personality = inefficient
+	background = elderly
+	prestige = 0.2
+}
+
+leader = {
+	name = "Wojciech Chrzanowski"
+	date = 1836.1.1
+	type = land
+	personality = romantic
+	background = cartographer
+	prestige = 0.1
+}
+
+leader = {
+	name = "Abdi Pasha"
+	date = 1836.1.1
+	type = land
+	personality = merciless
+	background = old_school
+	prestige = 0.0
+}
+
+leader = {
+	name = "Hafiz Osman Pasha"
+	date = 1836.1.1
+	type = land
+	personality = inept
+	background = yesman
+	prestige = 0.0
+}
+
+leader = {
+	name = "Namik Pasha"
+	date = 1836.1.1
+	type = land
+	personality = expert
+	background = diplomat
+	prestige = 0.0
+}
+
+leader = {
+	name = "Abdülkerim Pasha"
+	date = 1836.1.1
+	type = land
+	personality = active_p
+	background = war_college
+	prestige = 0.0
+}
+
+leader = {
+	name = "Yaver Pasha"
+	date = 1836.1.1
+	type = sea
+	personality = diplomatic
+	background = gifted_administrator
+	prestige = 0.1
+}

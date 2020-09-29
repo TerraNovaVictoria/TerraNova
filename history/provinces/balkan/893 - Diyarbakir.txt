@@ -1,0 +1,10 @@
+owner = IRQ
+controller = IRQ
+add_core = IRQ
+add_core = ANA
+add_core = SYR
+add_core = ASY
+add_core = KDS
+add_core = PER
+trade_goods = iron
+life_rating = 35

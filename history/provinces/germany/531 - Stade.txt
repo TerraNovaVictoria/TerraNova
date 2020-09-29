@@ -1,0 +1,7 @@
+owner = HNL
+controller = HNL
+add_core = HNL
+add_core = HAN
+add_core = GER
+trade_goods = cattle
+life_rating = 40

@@ -1,0 +1,6 @@
+owner = VEN
+controller = VEN
+add_core = EPI
+add_core = GRE
+trade_goods = wool
+life_rating = 35

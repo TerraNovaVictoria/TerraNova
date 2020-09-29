@@ -1,0 +1,36 @@
+country_event = {
+	id = 21123333
+	title = "EVTNAME21123333" #Republic or Monarchy
+	desc = "EVTDESC21123333"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT21123333A"
+		government = absolute_monarchy
+		political_reform = underground_parties
+		political_reform = unitary
+		prestige = 10
+		set_country_flag = unstable_nation
+		ai_chance = { factor = 90 }
+	}
+		
+	option = {
+		name = "EVTOPT21123333B"
+		government = presidential_dictatorship
+		political_reform = landed_voting
+		political_reform = yes_meeting
+		political_reform = censored_press
+		political_reform = confederalism
+		PIK = {
+				all_core = {
+					add_core = PBC
+					remove_core = PIK
+				}
+			}
+		change_tag = PBC
+		prestige = 10
+		ai_chance = { factor = 10 }
+	}
+}

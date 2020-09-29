@@ -1,0 +1,5 @@
+owner = HER
+controller = HER
+add_core = HER
+trade_goods = grain
+life_rating = 35

@@ -1,0 +1,174 @@
+political_decisions = {
+
+####ASIA RELATED####
+
+	#Russia Occupies Altaj
+	rus_occupies_altaj = {
+		picture = guangxi
+		potential = {
+				tag = RUS
+				NOT = { has_country_flag = russia_occupied_altaj }
+				has_global_flag = trouble_in_china
+				2671 = { owned_by = MGL }
+				1068 = { owned_by = KML }
+			}
+		
+			allow = {
+				war = no
+			}
+		
+			effect = {
+				1068 = { secede_province = THIS add_core = THIS remove_core = KML remove_core = CHI } 
+				2671 = { secede_province = THIS add_core = THIS remove_core = MGL remove_core = CHI } 
+				set_country_flag = russia_occupied_altaj
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Russia Occupies Transbaikal
+	rus_occupies_baikal = {
+		picture = guangxi
+		potential = {
+				tag = RUS
+				NOT = { has_country_flag = russia_occupied_baikal }
+				KHA = { war_with = MGL }
+				2670 = { owned_by = KHA }
+			}
+		
+			allow = {
+				war = no
+			}
+		
+			effect = {  
+				2670 = { secede_province = THIS add_core = THIS remove_core = KHA remove_core = CHI }
+				1078 = { secede_province = THIS add_core = THIS remove_core = KHA remove_core = CHI }
+				1079 = { secede_province = THIS add_core = THIS remove_core = KHA remove_core = CHI }
+				set_country_flag = russia_occupied_baikal
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+
+####EUROPE RELATED####
+
+	king_of_ruthenia = { 
+		picture = quito_map
+		potential = {
+			tag = RUS
+			NOT = { has_country_flag = claimed_ruthenia }
+		}
+		
+		allow = {
+			NOT = { exists = RUT }
+			prestige = 40
+			944 = { owned_by = THIS }
+		}
+		
+		effect = {
+			prestige = 5
+			RUT = {
+				all_core = {
+					remove_core = RUT
+					add_core = RUS
+				}
+			}
+			set_country_flag = claimed_ruthenia
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	the_ussr = { 
+		picture = form_the_soviet_union
+		potential = {
+			tag = RUS
+			government = proletarian_dictatorship
+			NOT = { has_global_flag = the_call_to_revolution }
+		}
+		
+		allow = {
+			war = no
+			1008 = {
+				owned_by = THIS
+			}
+			994 = {
+				owned_by = THIS
+			}
+			any_neighbor_country = {
+				OR = {
+					in_sphere = THIS
+					vassal_of = THIS
+				}
+				government = proletarian_dictatorship
+				ai = yes
+			}
+		}
+		
+		effect = {
+			set_global_flag = the_call_to_revolution
+			RUS = {
+				all_core = {
+					add_core = SOV
+				}
+			}
+			UKR = {
+				all_core = {
+					remove_core = RUS
+					add_core = SOV
+				}
+			}
+			KAZ = {
+				all_core = {
+					remove_core = RUS
+					add_core = SOV
+				}
+			}
+			MOL = {
+				all_core = {
+					remove_core = RUS
+					add_core = SOV
+				}
+			}
+			EST = {
+				all_core = {
+					remove_core = RUS
+					add_core = SOV
+				}
+			}
+			SEL = {
+				all_core = {
+					remove_core = RUS
+					add_core = SOV
+				}
+			}
+			LIT = {
+				all_core = {
+					remove_core = RUS
+					add_core = SOV
+				}
+			}
+			any_neighbor_country = {
+				limit = { 
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+					government = proletarian_dictatorship
+					ai = yes
+				}
+				country_event = 101919
+			}
+			prestige = 25
+			change_tag = SOV
+			country_event = 101917
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

@@ -1,0 +1,6 @@
+owner = BNJ
+controller = BNJ
+add_core = BNJ
+trade_goods = sulphur
+life_rating = 38
+colonial = 2

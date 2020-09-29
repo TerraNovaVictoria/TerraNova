@@ -1,0 +1,23 @@
+country_event = {
+	id = 130001
+	title = "EVTNAME130001" #Hansa invites Hannover
+	desc = "EVTDESC130001"
+	picture = "chinese_palace"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT140002A"
+		HAN = { all_core = { add_core = HNL } }
+		HNL = { inherit = THIS }		
+		HNL = { country_event = 140002 }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT140003B"
+		HNL = { country_event = 140003 }
+		prestige = 5
+		ai_chance = { factor = 0 }
+	}
+}

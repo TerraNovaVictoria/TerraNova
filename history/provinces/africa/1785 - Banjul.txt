@@ -1,0 +1,9 @@
+owner = DNN
+controller = DNN
+add_core = GBU
+add_core = WOL
+add_core = TOO
+add_core = FUT
+trade_goods = fruit
+life_rating = 32
+colonial = 2

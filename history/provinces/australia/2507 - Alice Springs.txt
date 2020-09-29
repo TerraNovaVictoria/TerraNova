@@ -1,0 +1,4 @@
+add_core = FAS
+trade_goods = cattle
+terrain = semidesert
+life_rating = 15

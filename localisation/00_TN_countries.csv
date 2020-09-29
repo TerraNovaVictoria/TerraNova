@@ -1,0 +1,1052 @@
+;;;;;;;;;;;;;;x,,,
+PER_primitive_absolute_monarchy;The Afsharid Empire;;;;;;;;;;;;;x
+PER_primitive_absolute_monarchy_ADJ;Afsharid;;;;;;;;;;;;;x
+TAL_primitive_absolute_monarchy;Tabriz;;;;;;;;;;;;;x
+TAL_primitive_absolute_monarchy_ADJ;Tabrizid;;;;;;;;;;;;;x
+AZB_primitive_absolute_monarchy;Baku;;;;;;;;;;;;;x
+AZB_primitive_absolute_monarchy_ADJ;Bakunid;;;;;;;;;;;;;x
+BEL_subject;The Bavarian Netherlands;;;;;;;;;;;;;x
+BEL_subject_ADJ;Bavarian;;;;;;;;;;;;;x
+FRA_democracy;The French Republic;;;;;;;;;;;;;x
+NYS;Midgardy;;;;;;;;;;;;;x
+NYS_ADJ;Midgardic;;;;;;;;;;;;;x
+NYS_subject;New Sweden;;;;;;;;;;;;;x
+NYS_dominion;New Sweden;;;;;;;;;;;;;x
+NYS_dominion_ADJ;Swedish;;;;;;;;;;;;;x
+NYS_colonial_company;New Sweden;;;;;;;;;;;;;x
+NYS_colonial_company_ADJ;Swedish;;;;;;;;;;;;;x
+ULM;Ulm;;;;;;;;;;;;;x
+ULM_ADJ;Ulmer;;;;;;;;;;;;;x
+FRB;Fribourg;;;;;;;;;;;;;x
+FRB_ADJ;Fribourger;;;;;;;;;;;;;x
+UTR;Utrecht;;;;;;;;;;;;;x
+UTR_ADJ;Utrechter;;;;;;;;;;;;;x
+THU;Thuringia;;;;;;;;;;;;;x
+THU_ADJ;Thuringian;;;;;;;;;;;;;x
+ANH;Anhalt-Magdeburg;;;;;;;;;;;;;x
+ANH_ADJ;Anhalt-Magdeburger;;;;;;;;;;;;;x
+BNE;Bern;;;;;;;;;;;;;x
+BNE_ADJ;Berner;;;;;;;;;;;;;x
+BSL;Basel;;;;;;;;;;;;;x
+BSL_ADJ;Baseler;;;;;;;;;;;;;x
+BIE;Biel;;;;;;;;;;;;;x
+BIE_ADJ;Bieler;;;;;;;;;;;;;x
+BEL_provisional_state;The Belgian States;;;;;;;;;;;;;x
+BEL_democracy;The Netherlandish States;;;;;;;;;;;;;x
+BAV_elective_monarchy;The Holy Roman Empire;;;;;;;;;;;;;x
+BAV_elective_monarchy_ADJ;Imperial;;;;;;;;;;;;;x
+SIC;Sicily;;;;;;;;;;;;;x
+SIC_ADJ;Sicilian;;;;;;;;;;;;;x
+SIC_subject;The Council of Italy;;;;;;;;;;;;;x
+SIC_subject_ADJ;Italic;;;;;;;;;;;;;x
+SIC_provisional_state;The Neapolitan Republic;;;;;;;;;;;;;x
+SIC_provisional_state_ADJ;Neapolitan;;;;;;;;;;;;;x
+SIC_presidential_dictatorship;The Sicilian Republic;;;;;;;;;;;;;x
+SIC_presidential_dictatorship_ADJ;Sicilian;;;;;;;;;;;;;x
+SIC_democracy;The Sicilian Republic;;;;;;;;;;;;;x
+SIC_absolute_monarchy;The Kingdom of Sicily;;;;;;;;;;;;;x,
+SIC_prussian_constitutionalism;The Kingdom of Sicily;;;;;;;;;;;;;x
+SIC_hms_government;The Kingdom of Sicily;;;;;;;;;;;;;x
+MLT_military_order;The Order of Saint John;;;;;;;;;;;;;x
+MLT_military_order_ADJ;Hospitaller;;;;;;;;;;;;;x
+MLT_elective_monarchy;The Knights Hospitaller;;;;;;;;;;;;;x
+MLT_elective_monarchy_ADJ;Hospitaller;;;;;;;;;;;;;x
+KNS;Konstanz;;;;;;;;;;;;;x
+KNS_ADJ;Konstantine;;;;;;;;;;;;;x
+TIC;Ticino;;;;;;;;;;;;;x
+TIC_ADJ;Ticine;;;;;;;;;;;;;x
+THR;The Three Leagues;;;;;;;;;;;;;x
+THR_ADJ;Federal;;;;;;;;;;;;;x
+BGY;Burgundy;;;;;;;;;;;;;x
+BGY_ADJ;Burgundian;;;;;;;;;;;;;x
+MAZ;Mazovia;;;;;;;;;;;;;x
+MAZ_ADJ;Mazovian;;;;;;;;;;;;;x
+AUV;Auvergne;;;;;;;;;;;;;x
+AUV_ADJ;Arverni;;;;;;;;;;;;;x
+SLV_subject;Nitra;;;;;;;;;;;;;x
+NRM;Normandy;;;;;;;;;;;;;x
+NRM_ADJ;Norman;;;;;;;;;;;;;x
+CRO_subject;Illyrian Croatia;;;;;;;;;;;;;x
+PAN;Pannonia;;;;;;;;;;;;;x
+PAN_subject;Pannonian Croatia;;;;;;;;;;;;;x
+PAN_ADJ;Pannonian;;;;;;;;;;;;;x
+BOS;Bosnia;;;;;;;;;;;;;x
+BOS_ADJ;Bosnian;;;;;;;;;;;;;x
+TRY;Transylvania;;;;;;;;;;;;;x
+TRY_ADJ;Transylvanian;;;;;;;;;;;;;x
+SIE;Siebenbürgen;;;;;;;;;;;;;x
+SIE_ADJ;Siebenbürger;;;;;;;;;;;;;x
+ALA;Alania;;;;;;;;;;;;;x
+ALA_ADJ;Alan;;;;;;;;;;;;;x
+OSS;Ossetia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+OSS_ADJ;Ossetian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+GLC;Galicia;;;;;;;;;;;;;x
+GLC_ADJ;Galician;;;;;;;;;;;;;x
+GLC_subject;Gallaecia;;;;;;;;;;;;;x
+GLC_subject_ADJ;Gallaecian;;;;;;;;;;;;x
+GLC_absolute_monarchy;The Kingdom of Galicia;;;;;;;;;;;;;x
+GLC_prussian_constitutionalism;The Kingdom of Galicia;;;;;;;;;;;;;x
+GLC_hms_government;The Kingdom of Galicia;;;;;;;;;;;;;x
+GLC_democracy;The Galician Republic;;;;;;;;;;;;;x
+GLC_proletarian_dictatorship;The Galician Council Republic;;;;;;;;;;;;x
+GLC_fascist_dictatorship;The Gallaecian State;;;;;;;;;;;;x
+GLC_fascist_dictatorship_ADJ;Gallaecian;;;;;;;;;;;;x
+CLA;Kalabari;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+CLA_ADJ;Kalabarian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+PLT;The Palatinate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+PLT_ADJ;Palatine;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+LIV;Livonia;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+LIV_theocracy;The Livonian Order;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+LIV_ADJ;Livonian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TST;Tyrol;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TST_ADJ;Tyrolean;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+AKU;Akura;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+AKU_ADJ;Akuran;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+LUR;Luristan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+LUR_ADJ;Lurish;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+AKU_absolute_monarchy;The Akura Kingdom;;;;;;;;;;;;;x,
+AKU_prussian_constitutionalism;The Akura Kingdom;;;;;;;;;;;;;x
+AKU_hms_government;The Akura Kingdom;;;;;;;;;;;;;x
+IDA;Idah;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+IDA_ADJ;Idahn;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+IDA_absolute_monarchy;The Idah Kingdom;;;;;;;;;;;;;x,
+IDA_prussian_constitutionalism;The Idah Kingdom;;;;;;;;;;;;;x
+IDA_hms_government;The Idah Kingdom;;;;;;;;;;;;;x
+ADW;Adamawa;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ADW_ADJ;Adamawan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ADW_absolute_monarchy;The Adamawa Emirate;;;;;;;;;;;;;x,
+ADW_prussian_constitutionalism;The Adamawa Emirate;;;;;;;;;;;;;x
+ADW_hms_government;The Adamawa Emirate;;;;;;;;;;;;;x
+SLS;Silesia;;;;;;;;;;;;;x
+SLS_ADJ;Silesian;;;;;;;;;;;;;x
+SWA;Swahilia;;;;;;;;;;;;;x
+SWA_ADJ;Swahili;;;;;;;;;;;;;x
+SWA_subject;East Africa;;;;;;;;;;;;;x
+SWA_subject_ADJ;East African;;;;;;;;;;;;x
+SWA_primitive_absolute_monarchy;The Swahili Empire;;;;;;;;;;;;;x
+SWA_absolute_monarchy;The Swahili Union;;;;;;;;;;;;;x
+SWA_prussian_constitutionalism;The Swahili Union;;;;;;;;;;;;;x
+SWA_hms_government;The Swahili Union;;;;;;;;;;;;;x
+SWA_democracy;The Swahili Federation;;;;;;;;;;;;;x
+SWA_proletarian_dictatorship;The East African Federation;;;;;;;;;;;;x
+SWA_proletarian_dictatorship_ADJ;East African;;;;;;;;;;;;x
+SWA_fascist_dictatorship;The Swahili League;;;;;;;;;;;;x
+MAD_primitive_absolute_monarchy;The Antemoro Sultanate;;;;;;;;;;;;;x
+MAD_primitive_absolute_monarchy_ADJ;Antemori;;;;;;;;;;;;;x
+MAD_absolute_monarchy;Antemoro;;;;;;;;;;;;;x,
+MAD_prussian_constitutionalism;Antemoro;;;;;;;;;;;;;x
+MAD_hms_government;Antemoro;;;;;;;;;;;;;x
+TRR;Trier;;;;;;;;;;;;;x
+TRR_ADJ;Treveri;;;;;;;;;;;;;x
+KSV;Kosovo;;;;;;;;;;;;;x
+KSV_ADJ;Kosovan;;;;;;;;;;;;;x
+SOF;Sofala;;;;;;;;;;;;;x
+SOF_ADJ;Sofala;;;;;;;;;;;;;x
+SSC;Sip Song Chu Tai;;;;;;;;;;;;;x
+SSC_ADJ;Tai;;;;;;;;;;;;;x
+ALB_primitive_absolute_monarchy;The Alvanian League;;;;;;;;;;;;;x
+ALB_primitive_absolute_monarchy_ADJ;Alvanian;;;;;;;;;;;;;x
+SHO_primitive_absolute_monarchy;The Rozwi Empire;;;;;;;;;;;;;x
+SHO_primitive_absolute_monarchy_ADJ;Rozwi;;;;;;;;;;;;;x
+QNG;Qing;;;;;;;;;;;;;x
+QNG_ADJ;Qing;;;;;;;;;;;;;x
+QNG_primitive_absolute_monarchy;Jin;;;;;;;;;;;;;x
+QNG_primitive_absolute_monarchy_ADJ;Jin;;;;;;;;;;;;;x
+QNG_absolute_monarchy;The Qing Empire;;;;;;;;;;;;;x
+QNG_prussian_constitutionalism;The Qing Empire;;;;;;;;;;;;;x
+QNG_hms_government;The Qing Empire;;;;;;;;;;;;;x
+DLM;Dalmatia;;;;;;;;;;;;;x
+DLM_ADJ;Dalmatian;;;;;;;;;;;;;x
+DLM_absolute_monarchy;The Dalmatian Kingdom;;;;;;;;;;;;;x,
+DLM_prussian_constitutionalism;The Dalmatian Kingdom;;;;;;;;;;;;;x
+DLM_hms_government;The Dalmatian Kingdom;;;;;;;;;;;;;x
+DLM_presidential_dictatorship;Ragusa;;;;;;;;;;;;;x
+DLM_presidential_dictatorship_ADJ;Ragusan;;;;;;;;;;;;;x
+DLM_democracy;The Republic of Ragusa;;;;;;;;;;;;x
+DLM_democracy_ADJ;Ragusan;;;;;;;;;;;;x
+DLM_fascist_dictatorship;The Dalmatian State;;;;;;;;;;;;x
+DLM_fascist_dictatorship_ADJ;Dalmatian;;;;;;;;;;;;x
+DLM_bourgeois_dictatorship;The Ragusan Republic;;;;;;;;;;;;x
+DLM_bourgeois_dictatorship_ADJ;Ragusan;;;;;;;;;;;;x
+DLM_proletarian_dictatorship;The Republic of Dubrovnik;;;;;;;;;;;;x
+DLM_proletarian_dictatorship_ADJ;Dubrovnik;;;;;;;;;;;;x
+BNY;Bunyoro;;;;;;;;;;;;x
+BNY_ADJ;Bunyori;;;;;;;;;;;;x
+KGW;Karagwe;;;;;;;;;;;;x
+KGW_ADJ;Karagwe;;;;;;;;;;;;x
+KRN_primitive_absolute_monarchy;Karnatak;;;;;;;;;;;;;x,
+KRN_primitive_absolute_monarchy_ADJ;Karnatak;;;;;;;;;;;;;x,
+KRN;Tamilia;;;;;;;;;;;;x
+KRN_ADJ;Tamil;;;;;;;;;;;;x
+KRN_democracy;Tamil Nadu;;;;;;;;;;;;x
+KRN_democracy_ADJ;Tamil;;;;;;;;;;;;x
+KRN_fascist_dictatorship;Tamil Nadu;;;;;;;;;;;;x
+KRN_fascist_dictatorship_ADJ;Tamil;;;;;;;;;;;;x
+KRN_bourgeois_dictatorship;Tamil Nadu;;;;;;;;;;;;x
+KRN_bourgeois_dictatorship_ADJ;Tamil;;;;;;;;;;;;x
+KRN_proletarian_dictatorship;Republic of the Carnatic;;;;;;;;;;;;x
+KRN_proletarian_dictatorship_ADJ;Carnatic;;;;;;;;;;;;x
+PNJ_primitive_absolute_monarchy;The Sikh Empire;;;;;;;;;;;;;x,
+BUR_primitive_absolute_monarchy;The Irrawaddy Empire;;;;;;;;;;;;;x,
+BUR_absolute_monarchy;The Irrawaddy Kingdom;;;;;;;;;;;;;x,
+BUR_prussian_constitutionalism;The Irrawaddy Kingdom;;;;;;;;;;;;;x
+BUR_hms_government;The Irrawaddy Kingdom;;;;;;;;;;;;;x
+BUR_fascist_dictatorship;The Neo-Pagan Empire Empire;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BUR_proletarian_dictatorship;The Irrawaddy Council Republic;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BUR_democracy;The Irrawaddy Republic;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BUR_presidential_dictatorship;The Irrawaddy Union;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+POL_elective_monarchy;The Kingdom of Poland;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+POL_absolute_monarchy;The Polish Empire;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+POL_prussian_constitutionalism;The Polish Empire;;;;;;;;;;;;;x
+POL_hms_government;The Polish Empire;;;;;;;;;;;;;x
+POL_fascist;ONR-Falanga;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HRE;The Holy Roman Empire;;;;;;;;;;;;;x
+HRE_ADJ;Imperial;;;;;;;;;;;;;x
+HRE_absolute_monarchy;The Holy Roman Empire;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HRE_prussian_constitutionalism;The Holy Roman Empire;;;;;;;;;;;;;x
+HRE_hms_government;The Holy Roman Empire;;;;;;;;;;;;;x
+HRE_fascist_dictatorship;The European Empire;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HRE_proletarian_dictatorship;The Council Union;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HRE_democracy;The Central European Republic;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HRE_presidential_dictatorship;The Central European Republic;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KOR;Korea;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+KOR_absolute_monarchy;The Korean Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+KOR_subject;Xin Ungjin;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+PRU_subject;The Prussian Confederation;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+BLT;Baltia;;;;;;;;;;;;;x
+BLT_ADJ;Baltic;;;;;;;;;;;;;x
+NST;Nakhon Si Thammarat;;;;;;;;;;;;;x
+NST_ADJ;Southern Thai;;;;;;;;;;;;;x
+CUR;Curonia;;;;;;;;;;;;;x
+CUR_subject;Kurland;;;;;;;;;;;;;x
+CUR_ADJ;Curonia;;;;;;;;;;;;;x
+SAT;Kyushu;;;;;;;;;;;;;x
+SAT_ADJ;Kyushuan;;;;;;;;;;;;;x
+SAT_absolute_monarchy;Shimazu;;;;;;;;;;;;;x
+SAT_prussian_constitutionalism;Satsuma;;;;;;;;;;;;;x
+SAT_hms_government_ADJ;Satsuma;;;;;;;;;;;;;x
+CHO;Chugoku;;;;;;;;;;;;;x
+CHO_ADJ;Chugokuan;;;;;;;;;;;;;x
+CHO_absolute_monarchy_ADJ;Mori;;;;;;;;;;;;;x
+CHO_prussian_constitutionalism_ADJ;Choshu;;;;;;;;;;;;;x
+CHO_hms_government_ADJ;Choshu;;;;;;;;;;;;;x
+TOS;Tosa;;;;;;;;;;;;;x
+TOS_ADJ;Tosan;;;;;;;;;;;;;x
+TOS_absolute_monarchy;Chosokabe;;;;;;;;;;;;;x
+TOS_prussian_constitutionalism;Chosokabe;;;;;;;;;;;;;x
+TOS_hms_government;Chosokabe;;;;;;;;;;;;;x
+UES;Uesugi;;;;;;;;;;;x
+UES_ADJ;Uesugi;;;;;;;;;;;x
+TKG;Tokugawa;;;;;;;;;;;x
+TKG_ADJ;Tokugawa;;;;;;;;;;;x
+HOJ;Hojo;;;;;;;;;;;;x
+HOJ_ADJ;Hojon;;;;;;;;;;;;x
+RIG;Riga;;;;;;;;;;;;x
+RIG_ADJ;Rigan;;;;;;;;;;;;x
+BSK;Bashkiria;;;;;;;;;;;;x
+BSK_ADJ;Bashkir;;;;;;;;;;;;x
+KUK;Bohemia;;;;;;;;;;;;x
+KUK_absolute_monarchy;The Bohemian Empire;;;;;;;;;;;;x
+KUK_prussian_constitutionalism;The Bohemian Empire;;;;;;;;;;;;x
+KUK_hms_government;The Bohemian Empire;;;;;;;;;;;;x
+KUK_fascist_dictatorship;Großböhmen;;;;;;;;;;;;x
+KUK_proletarian_dictatorship;The Prager Räterepublik;;;;;;;;;;;;x
+KUK_proletarian_dictatorship_ADJ;Prager;;;;;;;;;;;;x
+KUK_democracy;The Bohemian Federation;;;;;;;;;;;;x
+KUK_ADJ;Bohemian;;;;;;;;;;;;x
+HUN;Magyaria;;;;;;;;;;;;x
+HUN_ADJ;Magyar;;;;;;;;;;;;x
+HUN_fascist_dictatorship;The Magyar Khanate;;;;;;;;;;;;x
+HUN_proletarian_dictatorship;The Magyar ASSR;;;;;;;;;;;;x
+MRL;Mari El;;;;;;;;;;;;x
+MRL_ADJ;Mari El;;;;;;;;;;;;x
+MRL_proletarian_dictatorship;The Mari El ASSR;;;;;;;;;;;;x
+MRD;Mordvinia;;;;;;;;;;;;x
+MRD_ADJ;Mordvin;;;;;;;;;;;;x
+MRD_proletarian_dictatorship;The Mordvin ASSR;;;;;;;;;;;;x
+UDM;Udmurtia;;;;;;;;;;;;x
+UDM_ADJ;Udmurt;;;;;;;;;;;;x
+UDM_proletarian_dictatorship;The Udmurt ASSR;;;;;;;;;;;;x
+CHV;Chuvashia;;;;;;;;;;;;x
+CHV_ADJ;Chuvash;;;;;;;;;;;;x
+CHV_proletarian_dictatorship;The Chuvash ASSR;;;;;;;;;;;;x
+AOM;Aromania;;;;;;;;;;;;x
+AOM_ADJ;Aromanian;;;;;;;;;;;;x
+ANA;Anatolia;;;;;;;;;;;;x
+ANA_ADJ;Anatolian;;;;;;;;;;;;x
+ANA_absolute_monarchy;The Ancyran Empire;The Ancyran Empire;;The Ancyran Empire;;;;;;;;;x ;
+ANA_proletarian_dictatorship;The Anatolian Council Republic;The Anatolian Council Republic;The Anatolian Council Republic;;The Anatolian Council Republic;;;;;;;;;x ;
+ANA_proletarian_dictatorship_ADJ;Anatolian;;;;;;;;;;;;x
+ANA_presidential_dictatorship;Anatolian Republic;Anatolian Republic;Anatolian Republic;;Anatolian Republic;;;;;;;;;x ;
+ANA_bourgeois_dictatorship;The Ilkhani Republic;The Ilkhani Republic;The Ilkhani Republic;The Ilkhani Republic;;;;;;;;;x ;
+ANA_fascist_dictatorship_ADJ;The Ilkhanate;;;;;;;;;;;;x
+ANA_bourgeois_dictatorship_ADJ;Ilkhani;;;;;;;;;;;;x
+ANA_democracy;Republic of Anatolia;;;;;;;;;;;;x
+URM_absolute_monarchy;The Urmian Khanate;;;;;;;;;;;;;x
+URM;Urmia;;;;;;;;;;;;;x
+URM_ADJ;Urmian;;;;;;;;;;;;;x
+TAL;Talysh;;;;;;;;;;;;;x
+TAL_ADJ;Talysh;;;;;;;;;;;;;x
+TUN_absolute_monarchy;The Hafsid Empire;;;;;;;;;;;;;x
+MAG;Maguindao;;;;;;;;;;;;;x
+MAG_absolute_monarchy;The Maguindanao Sultanate;;;;;;;;;;;;;x
+MAG_prussian_constitutionalism;The Maguindanao Sultanate;;;;;;;;;;;;;x
+MAG_hms_government;The Maguindanao Sultanate;;;;;;;;;;;;;x
+MAG_ADJ;Maguindaon;;;;;;;;;;;;;x
+LUS;Lusong;;;;;;;;;;;;;x
+LUS_absolute_monarchy;The Lusong Empire;;;;;;;;;;;;;x
+LUS_prussian_constitutionalism;The Lusong Empire;;;;;;;;;;;;;x
+LUS_hms_government;The Lusong Empire;;;;;;;;;;;;;x
+LUS_ADJ;Lusong;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+BNJ;Banjar;;;;;;;;;;;;;x
+BNJ_ADJ;Banjarese;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+SMK;Samarkand;;;;;;;;;;;;;x
+SMK_ADJ;Samarkandi;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+PBC;Peru-Bolivia;;;;;;;;;;;;;x
+PBC_ADJ;Peru-Bolivian;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+PBC_presidential_dictatorship;The Republic of Peru;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+PBC_presidential_dictatorship_ADJ;Peruvian;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+PBC_absolute_monarchy;Great Peru;;;;;;;;;;;;;x
+PBC_prussian_constitutionalism;Great Peru;;;;;;;;;;;;;x
+PBC_hms_government;Peru-Bolivia;;;;;;;;;;;;;x
+PBC_proletarian_dictatorship;The People's Andine Republic;;;;;;;;;;;;;x
+PBC_proletarian_dictatorship_ADJ;Andine;;;;;;;;;;;;;
+PBC_democracy;Andine Federation;;;;;;;;;;;;;;;;;
+PBC_democracy_ADJ;Andine;;;;;;;;;;;;;
+MCK_absolute_monarchy;Dongbei;;;;;;;;;x;;;;;;;;
+MCK_prussian_constitutionalism;Dongbei;;;;;;;;;;;;;x
+MCK_hms_government;Dongbei;;;;;;;;;;;;;x,
+MCK_subject;Guanwei;;;;;;;;;;;;;x,
+MCK;Manchuria;;;;;;;;;;;;;x
+MCK_fascist_dictatorship;Manchu Empire;Manchu Empire;Manchu Empire;;;;;;;;;;;x
+MCK_presidential_dictatorship;Fengtian Clique;;;;;;;;;;;;;x
+MCK_ADJ;Manchu;Manchu;Manchu;;;;;;;;;;;x
+MCK_presidential_dictatorship_ADJ;Fengtian;;;;;;;;;;;;;x
+MLC;Malacca;;;;;;;;;;;;x
+MLC_absolute_monarchy;The Malaccan Sultanate;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+MLC_prussian_constitutionalism;The Malaccan Sultanate;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+MLC_hms_government;The Malaccan Sultanate;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+MLC_proletarian_dictatorship;Malaysia;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+MLC_democracy;The Malayan Republic;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+MLC_ADJ;Malaccan;;;;;;;;;;;;x
+KGS;Kongsi States;;;;;;;;;;;;x
+KGS_absolute_monarchy;The Kongsi Empire;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+KGS_prussian_constitutionalism;The Kongsi Empire;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+KGS_hms_government;The Kongsi Empire;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+KGS_proletarian_dictatorship;The Kongsi Republics;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+KGS_fascist_dictatorship;The Lotus Union;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+KGS_democracy;The Kongsi Federation;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+KGS_ADJ;Kongsi;;;;;;;;;;;;x
+JAV_absolute_monarchy;The Mataram Sultanate;;;;;;;;;;;;;x
+SPA_democracy;The Spanish Republic;;;;;;;;;;;;;x,
+SPA_absolute_monarchy;The Kingdom of Spain;;;;;;;;;;;;;x
+SPA_proletarian_dictatorship;The Spanish Republic;;;;;;;;;;;;;x,
+SPA_presidential_dictatorship;The Spanish State;;;;;;;;;;;;;x,
+SPA_fascist_dictatorship;The Spanish State;;;;;;;;;;;;;x,
+SPC;Spain;;;;;;;;;;;;;x
+SPC_democracy;The Spanish Republic;;;;;;;;;;;;;x
+SPC_presidential_dictatorship;The Spanish Republic;;;;;;;;;;;;;x
+SPC_absolute_monarchy;The Kingdom of Spain;;;;;;;;;;;;;x
+SPC_prussian_constitutionalism;The Kingdom of Spain;;;;;;;;;;;;;x
+SPC_hms_government;The Kingdom of Spain;;;;;;;;;;;;;x
+SPC_ADJ;Spanish;;;;;;;;;;;;;x
+PAG;Pagaruyung;;;;;;;;;;;;x
+PAG_ADJ;Pagaruyung;;;;;;;;;;;;x
+ALH;Al-Haasa;;;;;;;;;;;;x
+ALH_absolute_monarchy;The Al-Haasa Emirate;;;;;;;;;;;;;x
+ALH_prussian_constitutionalism;The Al-Haasa Emirate;;;;;;;;;;;;;x
+ALH_hms_government;The Al-Haasa Emirate;;;;;;;;;;;;;x
+ALH_ADJ;Haasan;;;;;;;;;;;;x
+IRQ_colonial_company;Baghdad Governate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+IRQ_colonial_company_ADJ;Baghdadi;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+IRQ_subject;The Baghdad Governate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+IRQ_subject_ADJ;Baghdadi;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SYR_subject;Damascus Governate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SYR_subject_ADJ;Damascene;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HAL_subject;The Al-Ha'il Emirate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HAL_subject_ADJ;Rashidi;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BRN;Brandenburg;;;;;;;;;;;;x
+BRN_ADJ;Brandenburger;;;;;;;;;;;;x
+BRN_subject;Ostmark;;;;;;;;;;;;x
+BRN_subject_ADJ;Ostmarker;;;;;;;;;;;;x
+HAL;Ha'il;;;;;;;;;;;;x
+HAL_ADJ;Haili;;;;;;;;;;;;x
+HAL_absolute_monarchy;The Al-Ha'il Emirate;;;;;;;;;;;;x
+HAL_prussian_constitutionalism;The Al-Ha'il Emirate;;;;;;;;;;;;x
+HAL_hms_government;The Al-Ha'il Emirate;;;;;;;;;;;;x
+HAL_absolute_monarchy_ADJ;Rashidi;;;;;;;;;;;;x
+HAL_prussian_constitutionalism_ADJ;Rashidi;;;;;;;;;;;;x
+HAL_hms_government_ADJ;Rashidi;;;;;;;;;;;;x
+PAL;Palmyra;;;;;;;;;;;;x
+PAL_ADJ;Palmyran;;;;;;;;;;;;x
+PAL_absolute_monarchy;Al-Tadmur Emirate;;;;;;;;;;;;x
+PAL_prussian_constitutionalism;Al-Tadmur Emirate;;;;;;;;;;;;x
+PAL_hms_government;Al-Tadmur Emirate;;;;;;;;;;;;x
+NHL;New Holland;;;;;;;;;;;;x
+NHL_colonial_company;The New Holland Colony;;;;;;;;;;;;x
+NHL_ADJ;New Hollander;;;;;;;;;;;;x
+TIB_primitive_absolute_monarchy;The Khoshut Khanate;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+TIB_primitive_absolute_monarchy_ADJ;Khoshut;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+KHA;Khalka;;;;;;;;;;;;x
+KHA_ADJ;Khalka;;;;;;;;;;;;x
+CAM;Khmeria;;;;;;;;;;;;x
+CAM_ADJ;Khmer;;;;;;;;;;;;x
+CAM_primitive_absolute_monarchy;Cambodia;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+CAM_primitive_absolute_monarchy_ADJ;Cambodian;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+CAM_proletarian_dictatorship;Kampuchea;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+CAM_proletarian_dictatorship_ADJ;Kampuchean;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+PNT;Pontus;;;;;;;;;;;;x
+PNT_absolute_monarchy;The Empire of Trebizond;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+PNT_prussian_constitutionalism;The Pontic Kingdom;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+PNT_hms_government;The Pontic Kingdom;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+PNT_ADJ;Pontic;;;;;;;;;;;;x
+PNT_absolute_monarchy_ADJ;Trebizondic;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+SIA_absolute_monarchy;The Ayutthaya Empire;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+SIA_prussian_constitutionalism;The Kingdom of Siam;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+SIA_hms_government;The Kingdom of Siam;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+AVK;Ava;;;;;;;;;;;;;;;;;;x;;;;
+AVK_ADJ;Ava;;;;;;;;;;;;;;;;;;x;;;;
+PRM;Monia;;;;;;;;;;;;;;;;;;x;;;;
+PRM_ADJ;Monic;;;;;;;;;;;;;;;;;;x;;;;
+PRM_absolute_monarchy;Pegu;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+PRM_prussian_constitutionalism;Hantawaddy;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+PRM_hms_government;Hantawaddy;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+LNN;Lan Na;;;;;;;;;;;;;;;;;;x;;;;
+LNN_ADJ;Lan Na;;;;;;;;;;;;;;;;;;x;;;;
+KRT;Kärnten;;;;;;;;;;;;;;;;;;x;;;;
+KRT_ADJ;Kärntener;;;;;;;;;;;;;;;;;;x;;;;
+AOS;Aosta;;;;;;;;;;;;;;;;;;x;;;;
+AOS_ADJ;Aostan;;;;;;;;;;;;;;;;;;x;;;;
+KHI;Khworazm;;;;;;;;;;;;;;;;;;x;;;;
+KHI_ADJ;Khworazm;;;;;;;;;;;;;;;;;;x;;;;
+AFG_absolute_monarchy;Pashtunistan;;;;;;;;;;;;;;x
+AFG_prussian_constitutionalism;Pashtunistan;;;;;;;;;;;;;;x
+RUS_proletarian_dictatorship;The RSFSR;;;;;;;;;;;;;;;;;;;x
+SOV;The Soviet Union;;;;;;;;;;;;;;;;;;x;;;;
+SOV_absolute_monarchy;The Eurasian Empire;;;;;;;;;;;;;;;;;;x;;;;
+SOV_prussian_constitutionalism;The Eurasian Empire;;;;;;;;;;;;;;;;;;x;;;;
+SOV_hms_government;The Eurasian Empire;;;;;;;;;;;;;;;;;;x;;;;
+SOV_fascist_dictatorship;The Russian Empire;;;;;;;;;;;;;;;;;;x;;;;
+SOV_proletarian_dictatorship;The Union of Soviet Socialist Republics;;;;;;;;;;;;;;;;;;x;;;;
+SOV_democracy;The Soviet Federation;;;;;;;;;;;;;;;;;;x;;;;
+SOV_totalitarian_state;The Soviet Republic;;;;;;;;;;;;;;;;;;x;;;;
+SOV_ADJ;Soviet;;;;;;;;;;;;;;;;;;x;;;;
+SOV_absolute_monarchy_ADJ;Eurasian;;;;;;;;;;;;;;;;;;x;;;;
+SOV_prussian_constitutionalism_ADJ;Eurasian;;;;;;;;;;;;;;;;;;x;;;;
+SOV_hms_government_ADJ;Eurasian;;;;;;;;;;;;;;;;;;x;;;;
+SOV_fascist_dictatorship_ADJ;Russian;;;;;;;;;;;;;;;;;;x;;;;
+BLK;Kabardino-Balkaria;;;;;;;;;;;;;;;;;;x;;;;
+BLK_absolute_monarchy;Kabarda;;;;;;;;;;;;;;;;;;x;;;;
+BLK_ADJ;Kabardino-Balkar;;;;;;;;;;;;;;;;;;x;;;;
+BUL_absolute_monarchy;The Bulgarian Empire;;;;;;;;;;;;;;;;;;x;;;;
+MRE;Peloponnesia;;;;;;;;;;;;;;;;;;x;;;;
+MRE_absolute_monarchy;The Morean Empire;;;;;;;;;;;;;;;;;;x;;;;
+MRE_absolute_monarchy_ADJ;Morean;;;;;;;;;;;;;;;;;;x;;;;
+MRE_ADJ;Peloponnese;;;;;;;;;;;;;;;;;;x;;;;
+RUM;Dobrotstan;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+RUM_absolute_monarchy;The Dobruyan Kingdom;;;;;;;;;;;;;;;;;;x;;;;
+RUM_prussian_constitutionalism;The Dobruyan Kingdom;;;;;;;;;;;;;;;;;;x;;;;
+RUM_hms_government;Dobruya;;;;;;;;;;;;;;;;;;x;;;;
+RUM_democracy;The Dobruyan Republic;;;;;;;;;;;;;;;;;;x;;;;
+RUM_presidential_dictatorship;Dobruya;;;;;;;;;;;;;;;;;;x;;;;
+RUM_fascist_dictatorship;Dobruya;;;;;;;;;;;;;;;;;;x;;;;
+RUM_proletarian_dictatorship;The Dobruya Commune;;;;;;;;;;;;;;;;;;x;;;;
+RUM_ADJ;Dobruyan;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+BID;Bida;;;;;;;;;;;;;;;;;;x;;;;
+BID_absolute_monarchy;The Bida Sultanate;;;;;;;;;;;;;;;;;;x;;;;
+BID_ADJ;Bidan;;;;;;;;;;;;;;;;;;x;;;;
+FUT;Futa;;;;;;;;;;;;;;;;;;x;;;;
+FUT_absolute_monarchy;Denanke;;;;;;;;;;;;;;;;;;x;;;;
+FUT_ADJ;Futan;;;;;;;;;;;;;;;;;;x;;;;
+MTF;Montferrat;;;;;;;;;;;;;;;;;;x;;;;
+MTF_ADJ;Montferratan;;;;;;;;;;;;;;;;;;x;;;;
+SAL;Saluzzo;;;;;;;;;;;;;;;;;;x;;;;
+SAL_ADJ;Saluzzon;;;;;;;;;;;;;;;;;;x;;;;
+SNA;Siena;;;;;;;;;;;;;;;;;;x;;;;
+SNA_ADJ;Sienan;;;;;;;;;;;;;;;;;;x;;;;
+FLO;Florence;;;;;;;;;;;;;;;;;;x;;;;
+FLO_ADJ;Florentian;;;;;;;;;;;;;;;;;;x;;;;
+FER;Ferrara;;;;;;;;;;;;;;;;;;x;;;;
+FER_ADJ;Ferraran;;;;;;;;;;;;;;;;;;x;;;;
+AKO;Akoupe;;;;;;;;;;;;;;;;;;x;;;;
+AKO_ADJ;Akoupe;;;;;;;;;;;;;;;;;;x;;;;
+LME;Lome;;;;;;;;;;;;;;;;;;x;;;;
+LME_absolute_monarchy;Aifan;;;;;;;;;;;;;;;;;;x;;;;
+LME_ADJ;Lomen;;;;;;;;;;;;;;;;;;x;;;;
+KAN;Kangaba;;;;;;;;;;;;;;;;;;x;;;;
+KAN_ADJ;Kangaban;;;;;;;;;;;;;;;;;;x;;;;
+ILL;Illyria;;;;;;;;;;;;;;;;;;x;;;;
+ILL_ADJ;Illyrian;;;;;;;;;;;;;;;;;;x;;;;
+YOR;Yoruba;;;;;;;;;;;;;;;;;;x;;;;
+YOR_ADJ;Yoruba;;;;;;;;;;;;;;;;;;x;;;;
+SLZ;Salzburg;;;;;;;;;;;;;;;;;;x;;;;
+SLZ_ADJ;Salzburger;;;;;;;;;;;;;;;;;;x;;;;
+TYR;Tyrol;;;;;;;;;;;;;;;;;;x;;;;
+TYR_ADJ;Tyrolian;;;;;;;;;;;;;;;;;;x;;;;
+ARW;Arawakan;;;;;;;;;;;;;;;;;;x;;;;
+ARW_ADJ;Arawak;;;;;;;;;;;;;;;;;;x;;;;
+ARW_absolute_monarchy;The Arawak Confederacy;;;;;;;;;;;;;;x
+ARW_prussian_constitutionalism;The Arawak Confederacy;;;;;;;;;;;;;x
+ARW_democracy;The Amazon Republic;;;;;;;;;;;;;x
+ARW_proletarian_dictatorship;The Amazon Commune;;;;;;;;;;;;;x
+EGY_absolute_monarchy;The Mamluk Sultanate;;;;;;;;;;;;;;x
+EGY_prussian_constitutionalism;The Egyptian Sultanate;;;;;;;;;;;;;x
+EGY_democracy;The Republic of Egypt;;;;;;;;;;;;;x
+EGY_proletarian_dictatorship;The Nile Commune;;;;;;;;;;;;;x
+EGY_hms_government;The Egyptian Kingdom;;;;;;;;;;;;;x,
+EGY_colonial_company;Egypt;;;;;;;;;;;;;;x
+EGY_subject;The Khedivate of Egypt;;;;;;;;;;;;;;x
+ALP_absolute_monarchy;The Alpine Empire;;;;;;;;;x;;;;;;;;
+ALP_prussian_constitutionalism;The Alpine Federation;;;;;;;;;;;;;x
+ALP_hms_government;The Alpine Federation;;;;;;;;;;;;;x,
+ALP_fascist_dictatorship;The Alpenstaat;The Alpenstaat;The Alpenstaat;;;;;;;;;;;x
+ALP_proletarian_dictatorship;The Alpine Union;The Alpine Union;The Alpine Union;;;;;;;;;;;x
+ALP_presidential_dictatorship;The Alpenbund;;;;;;;;;;;;;x
+ALP_democracy;The Alpine Republic;;;;;;;;;;;;;x
+ALP_ADJ;Alpine;;;;;;;;;;;;;x
+BUK_absolute_monarchy;Tashkent;;;;;;;;;;;;;;;;x;;;;
+BUK;Bukhant;;;;;;;;;;;;;;;;x;;;;
+BUK_ADJ;Tashkenti;;;;;;;;;;;;;;;;x;;;;
+BUK_absolute_monarchy_ADJ;Bukhanti;;;;;;;;;;;;;;;;x;;;;
+KOK_absolute_monarchy;Kokand;;;;;;;;;;;;;;;;;;x;;;;
+BDK;Badakhshan;;;;;;;;;;;;;;;;;;;;;;;;x
+BDK_ADJ;Badakhshani;;;;;;;;;;;;;;;;;;;;;;;;x
+COP;Kaami;;;;;;;;;;;;;;;;;;;;;;;;x
+COP_ADJ;Kaami;;;;;;;;;;;;;;;;;;;;;;;;x
+ASI;Asir;;;;;;;;;;;;;;;;;;;;;;;;x
+ASI_ADJ;Asir;;;;;;;;;;;;;;;;;;;;;;;;x
+AGN;Aragon;;;;;;;;;;;;;;;;;;;;;;;;x
+AGN_ADJ;Aragonese;;;;;;;;;;;;;;;;;;;;;;;;x
+DRU;Druze;;;;;;;;;;;;;;;;;;;;;;;;x
+DRU_ADJ;Druze;;;;;;;;;;;;;;;;;;;;;;;;x
+UPE;Prydain-Eire;;;;;;;;;;;;;;;;;;;;;;;;x
+UPE_ADJ;Prydish;;;;;;;;;;;;;;;;;;;;;;;;x
+GAE;Gaeldom;;;;;;;;;;;;;;;;;;;;;;;;x
+GAE_ADJ;Gaeldom;;;;;;;;;;;;;;;;;;;;;;;;x
+UIL;The Union of Illinois;;;;;;;;;;;;x;;;
+UIL_proletarian_dictatorship;The Great Lakes Commune;;;;;;;;;;;;x
+UIL_fascist_dictatorship;The Great Lakes Empire;;;;;;;;;;;;x
+UIL_presidential_dictatorship;The Great Lakes Republic;;;;;;;;;;;;x
+UIL_absolute_monarchy;The Great Lakes Kingdom;;;;;;;;;;;;x
+UIL_prussian_constitutionalism;The Great Lakes Kingdom;;;;;;;;;;;;x
+UIL_democracy;The Great Lakes Republic;;;;;;;;;;;;x
+UIL_ADJ;Great Lakes;;;;;;;;;;;;x;;;
+UIL_reactionary;New American Party;;;;;;;;;;;;;x
+UIL_conservative;New Democratic Party;;;;;;;;;;;;;x
+UIL_liberal;New Republican Party;;;;;;;;;;;;;x
+UIL_anarcho_liberal;Libertarian Party;;;;;;;;;;;;;x
+UIL_socialist;Socialist Party;;;;;;;;;;;;;x
+UIL_communist;Industrial Workers of the World;;;;;;;;;;;;;;x
+UIL_fascist;Supremacy Party;;;;;;;;;;;;;x
+GNV;Geneva;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+GNV_ADJ;Genevan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+NIZ;Nice;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+NIZ_democracy;Nizza;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+NIZ_ADJ;Nicene;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+WLS;Wallis;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+WLS_ADJ;Wallis;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+WLS_democracy;République des Sept-Dizains;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+WLS_democracy_ADJ;Sept-Dizains;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZUR;Zurich;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZUR_ADJ;Zurich;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BRG;Bregenz;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BRG_ADJ;Bregenzer;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+RMD;Romandy;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+RMD_ADJ;Romandine;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CAP;Cappadocia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CAP_ADJ;Cappadocian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHN;Chenoua;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHN_ADJ;Chenouan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHN_absolute_monarchy;Tlemcen;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CHN_absolute_monarchy_ADJ;Tlemceni;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+TUN;Tunisia;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;
+TUN_absolute_monarchy;The Hafsid Empire;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;
+TUN_absolute_monarchy_ADJ;Hafsidi;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;
+TUA;Tuareg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+TUA_ADJ;Tuareg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AIN;Ainu;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AIN_ADJ;Ainu;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EMI;Emishi;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EMI_ADJ;Emishi;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MET;Metz;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MET_ADJ;Metzer;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AAC;Aachen;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AAC_ADJ;Aachener;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DOR;Dortmund;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DOR_ADJ;Dortmunder;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CLG;Cologne;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+CLG_ADJ;Colognian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+latvian;Latgalian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MOM;Mombasa;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MOM_ADJ;Mombasan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KIL;Kilwa;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KIL_ADJ;Kilwan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LAT;Latgale;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LAT_ADJ;Latgalian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LAT_proletarian_dictatorship;The Latgale Soviet;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LAT_fascist_dictatorship;The Free State of Latgale;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LAT_presidential_dictatorship;The Latgale State;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LAT_monarchy;The Latgalian Kingdom;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LAT_democracy;The Republic of Latgale;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BOH_absolute_monarchy;The Bohemian Crown;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BOH_prussian_constitutionalism;The Bohemian Crown;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BOH_hms_government;The Bohemian Crown;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+POM;Pomerania;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+POM_ADJ;Pomeranian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KML_primitive_absolute_monarchy;The Dzungar Khanate;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+KML_primitive_absolute_monarchy_ADJ;Dzungari;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+KML;Dzungar;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+KML_democracy;Oirat Republic;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+KML_bourgeois_dictatorship;Oiratia;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+KML_proletarian_dictatorship;People's Republic of Oirat;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+KML_ADJ;Oirat;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+KML_conservative;Oirati Shah Faction;;;;;;;;;;;;x,,
+KML_liberal;Oirati Reformers;;;;;;;;;;;;x,,
+KML_reactionary;Oirati Fundamentalists;;;;;;;;;;;;x,,
+KML_anarcho_liberal;Oirati Libertarians;;;;;;;;;;;;x,,
+KML_socialist;Oirati Socialists;;;;;;;;;;;;x,,
+KML_communist;Oirati People's Party;;;;;;;;;;;;x,,
+KML_fascist;Oirati National Front;;;;;;;;;;;;x,,
+SEL;Selonia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SEL_ADJ;Selonian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HNL;Hansa;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HNL_ADJ;Hanseatic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HNL_democracy;Hanseatic League;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HNL_fascist_dictatorship;Hanseatic Free State;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HNL_proletarian_dictatorship;North German Communal League;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HNL_monarchy;Hanseatic Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+YER;Yeren;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+YER_ADJ;Yereni;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVE;Evenkia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVE_ADJ;Evenki;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+JIA;Jianzhou;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+JIA_ADJ;Jianzhou;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+YUE;Yue;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+YUE_ADJ;Yue;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+YUE_absolute_monarchy;The Yue Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+YUE_prussian_constitutionalism;The Yue Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+YUE_hms_government;The Yue Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+YUE_fascist_dictatorship;The State of Yue;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+YUE_proletarian_dictatorship;The Yue Soviet Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+YUE_democracy;The Yue Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MIN;Ming;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MIN_ADJ;Ming;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MIN_absolute_monarchy;The Ming Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MIN_prussian_constitutionalism;The Ming Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MIN_hms_government;The Ming Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MIN_fascist_dictatorship;The State of Ming;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MIN_proletarian_dictatorship;The Ming Soviet Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MIN_democracy;The Ming China Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+XBI;Hui;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+XBI_ADJ;Hui;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+XBI_subject;Qinghai;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+XBI_absolute_monarchy;The Hui Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+XBI_prussian_constitutionalism;The Hui Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+XBI_hms_government;The Hui Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+XBI_fascist_dictatorship;The State of Hui;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+XBI_proletarian_dictatorship;The Hui Soviet Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+XBI_democracy;The Hui China Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZHO;Zhou;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZHO_ADJ;Zhou;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZHO_absolute_monarchy;The Zhou Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZHO_prussian_constitutionalism;The Zhou Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZHO_hms_government;The Zhou Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZHO_fascist_dictatorship;The State of Zhou;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZHO_proletarian_dictatorship;The Zhou Soviet Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ZHO_democracy;The Zhou China Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BYZ_absolute_monarchy;The Byzantine Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BYZ_prussian_constitutionalism;The Greek Confederacy;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BYZ_hms_government;The Greek Confederacy;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BYZ_democracy;The Greek Federation;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KLE;Kleverland;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KLE_ADJ;Klever;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MID;Aesyris;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MID_ADJ;Aesyric;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ANN;Yuenan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ANN_subject;Jiaozhi;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ANN_ADJ;Yue;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DAN;Da Nang;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DAN_ADJ;Vietnamese;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DAN_absolute_monarchy;Nam Hau Lê;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DAN_prussian_constitutionalism;Nam Hau Lê;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DAN_hms_government;Nam Hau Lê;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DAN_fascist_dictatorship;The State of Vietnam;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DAN_proletarian_dictatorship;The SR Vietnam;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DAN_democracy;The Republic of Vietnam;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KHM;Khmur;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KHM_ADJ;Khmu;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KHM_primitive_absolute_monarchy;Vientiane;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+KHM_primitive_absolute_monarchy_ADJ;Vientiane;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+FNJ;Funjistan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+FNJ_ADJ;Funj;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+FNJ_primitive_absolute_monarchy;Sennar Sultanate;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+FNJ_primitive_absolute_monarchy_ADJ;Sennari;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+FNJ_absolute_monarchy;Funj Sultanate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+FNJ_prussian_constitutionalism;Funj Sultanate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+FNJ_hms_government;Funj Sultanate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SHK;Shilluk;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+SHK_ADJ;Shilluki;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+SHK_absolute_monarchy;Chollo;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x,,,,,,,,,
+ORE;Orenburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ORE_ADJ;Orenburger;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SMS;Samarastadt;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SMS_ADJ;Samarastadter;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KOS;Kosakenstadt;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KOS_ADJ;Volga German;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KZM;Kazakmark;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KZM_ADJ;Kazakmarker;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ATH;Athens;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ATH_colonial_company;Theme of Athens;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ATH_ADJ;Athenian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LAR;Larissa;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LAR_colonial_company;Theme of Larissa;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LAR_ADJ;Larissan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MCD_colonial_company;Theme of Macedonia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EPI;Epirus;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EPI_ADJ;Epirote;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HER_theocracy;The Prince-Bishopric of Hercegovina;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+HER;Hercegovina;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+HER_ADJ;Hercegovinan;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+SER_subject;The Belgrade Governate;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+SER_subject_ADJ;Belgradi;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+CYP_colonial_company;Cipro;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SAM_colonial_company;Isole Egee;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SAM_dominion;The Aegean Islands;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SAM_monarchy;The Aegean Kingdom;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SAM_democracy;The Aegean Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SAM_fascist_dictatorship;State of Samos;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+SAM_proletarian_dictatorship;The Aegean Commune;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+SAM_presidential_dictatorship;Samos;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+SAM_ADJ;Aegean;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+VEN_democracy;The Republic of Venice;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+VEN_presidential_dictatorship;Venetia;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+ENL;Edinburgh-Lodainn;;;;;;;;;;;;;x
+ENL_ADJ;Edinburgher;;;;;;;;;;;;;x
+ENL_monarchy;Bernica-Deira;;;;;;;;;;;;;x
+ENL_monarchy_ADJ;Northumbrian;;;;;;;;;;;;;x
+ENL_democracy;Northumbria;;;;;;;;;;;;;x
+ENL_democracy_ADJ;Northumbrian;;;;;;;;;;;;;x
+ENL_fascist_dictatorship;Nord-Angland;;;;;;;;;;;;;x
+ENL_fascist_dictatorship_ADJ;Anglish;;;;;;;;;;;;;x
+ENL_proletarian_dictatorship;Gododdin Commune;;;;;;;;;;;;;x
+ENL_proletarian_dictatorship_ADJ;Gododdin;;;;;;;;;;;;;x
+ENG_fascist_dictatorship;The Anglish Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+ENG_democracy;The Republic of Angland;;;;;;;;;;;;;;;;;x;
+ENG_presidential_dictatorship;The Anglish Union;;;;;;;;;;;;;;;;;x;
+ENG_bourgeois_dictatorship;The Anglish Commonwealth;;;;;;;;;;;;;;;;;x;
+ENG;Angland;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+ENG_ADJ;Anglish;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+TDY;Tainody;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+TDY_ADJ;Tainodyn;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+TAI;Taiwan;;;;;;;;;;;;x
+TAI_absolute_monarchy;The Tungning Empire;;;;;;;;;;;;x
+TAI_primitive_absolute_monarchy;Tungning;;;;;;;;;;;;x
+TAI_ADJ;Taiwanese;;;;;;;;;;;;x
+TAI_absolute_monarchy_ADJ;Tungning;;;;;;;;;;;;x
+TAI_primitive_absolute_monarchy_ADJ;Tungning;;;;;;;;;;;;x
+JER;Jerusalem;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+JER_military_order;The Holy State of Jerusalem;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+JER_monarchy;The Kingdom of Jerusalem;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+JER_fascist_dictatorship;The Kingdom of God;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+JER_democracy;The Republic of Jerusalem;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+JER_proletarian_dictatorship;The Oriental Commune;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+JER_ADJ;Jerusalemer;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+FRA_ancient_regime;The Kingdom of France;;;;;;;;;;;;x
+FRA_ancient_regime_ADJ;French;;;;;;;;;;;;x
+AZB_absolute_monarchy;Shirvan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AZB_absolute_monarchy_ADJ;Shirvani;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ARB;Aruba;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+ARB_ADJ;Aruban;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+STY;Styria;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+STY_ADJ;Styrian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AVR;Avaria;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AVR_ADJ;Avarian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AVR_proletarian_dictatorship;Avar Council;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AVR_presidential_dictatorship;Republic of Avaria;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AVR_bourgeois_dictatorship;Republic of Avaria;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AVR_fascist_dictatorship;Avar Khanate;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AVR_monarchy;Kingdom of Avaria;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AVR_democracy;Avar Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DNN;Denmark-Norway;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DNN_ADJ;Dano-Norwegian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DNN_proletarian_dictatorship;Nordic Union;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DNN_presidential_dictatorship;Copenhagen Council;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DNN_bourgeois_dictatorship;The Dano-Norwegian Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DNN_fascist_dictatorship;The Norse State;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DNN_monarchy;Denmark-Norway;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DNN_democracy;Scandinavian Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KLA;Klausenburg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KLA_ADJ;Klausenburger;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MLO_democracy;The Second Ambrosian Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MLO_democracy_ADJ;Ambrosian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MLO;Milan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MLO_ADJ;Milano;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BJK;Rhine-Ruhr;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BJK_ADJ;Rhine-Ruhrish;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BJK_proletarian_dictatorship;The United Councils;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BJK_presidential_dictatorship;The United Republics;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BJK_bourgeois_dictatorship;The Rhine-Ruhr Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BJK_fascist_dictatorship;The Rhine-Ruhr Free State;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BJK_absolute_monarchy;Berg-Jülich-Kleve;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BJK_prussian_constitutionalism;The United Duchies;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BJK_hms_government;The United Duchies;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BJK_colonial_company;The Duisburger Crownlands;;;;;;;;;;;;;x,
+BJK_subject;The Duisburger Crownlands;;;;;;;;;;;;;x,
+BJK_democracy;The United Republics;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MUN;Munster;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MUN_ADJ;Munster;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+FRI;Frisia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+FRI_ADJ;Frisian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HLL;Holland;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HLL_ADJ;Dutch;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HOK;Hokoan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HOK_ADJ;Hokoan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HSH;Heshun;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HSH_ADJ;Heshun;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+IOU;Iouhous;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+IOU_ADJ;Iouhous;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+IOU_proletarian_dictatorship;Iouhous Federation;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+IOU_presidential_dictatorship;State of Iouhous;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+IOU_bourgeois_dictatorship;Nouvelle France;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+IOU_fascist_dictatorship;Free State of Iouhous;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+IOU_monarchy;Nouvelle France;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+IOU_democracy;Iouhous Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+IOU_colonial_company;Nouvelle France;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BRB;Brabant;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BRB_ADJ;Brabantic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BRB_proletarian_dictatorship;Brabanter Commune;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BRB_presidential_dictatorship;Brabant;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BRB_bourgeois_dictatorship;Brabant;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BRB_fascist_dictatorship;Brabant;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BRB_absolute_monarchy;Brabant;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BRB_prussian_constitutionalism;Brabant;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BRB_hms_government;Brabant;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BRB_democracy;Brabanter Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+DUI;Duisburg;Duisburg;Duisburg;;;;;;;;;;;x;
+DUI_ADJ;Duisburger;Duisburger;Duisburger;;;;;;;;;;;x;
+DUI_proletarian_dictatorship;The Rhine-Ruhr Republic;The Rhine-Ruhr Republic;The Rhine-Ruhr Republic;;;;;;;;;;;x;
+DUI_presidential_dictatorship;The Duisburger Republic;The Duisburger Republic;The Duisburger Republic;;;;;;;;;;;x;
+DUI_bourgeois_dictatorship;Duisburg;Duisburg;Duisburg;;;;;;;;;;;x;
+DUI_fascist_dictatorship;The Rhine-Ruhr Free State;The Rhine-Ruhr Free State;The Rhine-Ruhr Free State;;;;;;;;;;;x;
+DUI_absolute_monarchy;The Duchy of Duisburg;The Duchy of Duisburg;The Duchy of Duisburg;;;;;;;;;;;x;
+DUI_prussian_constitutionalism;The Duchy of Duisburg;The Duchy of Duisburg;The Duchy of Duisburg;;;;;;;;;;;x;
+DUI_hms_government;The Duchy of Duisburg;The Duchy of Duisburg;The Duchy of Duisburg;;;;;;;;;;;x;
+DUI_democracy;The Free State of the Lower Rhine;;;;;;;;;;;;;x
+DUI_subject;Berg-Jülich-Kleve-Utrecht;Berg-Jülich-Kleve-Utrecht;Berg-Jülich-Kleve-Utrecht;;;;;;;;;;;x;
+DUI_subject_ADJ;Berg-Jülich-Klever-Utrechter;Berg-Jülich-Klever-Utrechter;Berg-Jülich-Kleve-Utrechter;;;;;;;;;;;x;
+FRK;Franconia;;;;;;;;;;;;;x
+FRK_ADJ;Franconian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MAI;Mainz;;;;;;;;;;;;;x
+MAI_ADJ;Mainzer;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+WLL;Hainaut;;;;;;;;;;;;;x
+WLL_ADJ;Wallonian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LIG;Liège;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LIG_ADJ;Liègois;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LIG_proletarian_dictatorship;Commune of Liege;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LIG_presidential_dictatorship;Liege;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LIG_bourgeois_dictatorship;Liege;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LIG_fascist_dictatorship;Liege;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LIG_absolute_monarchy;Liege;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LIG_prussian_constitutionalism;Liege;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LIG_hms_government;Liege;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+LIG_democracy;Liege;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+UCA;The UPCA;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+UCA_democracy;The FRCA;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+UCA_proletarian_dictatorship;The SFRCA;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+UCA_fascist_dictatorship;The USCA;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+COS;Rivas;;;;;;;;;;;;;x;
+COS_ADJ;Rivan;Rivan;Rivan;;;;;;;;;;;x;
+COS_proletarian_dictatorship;People's Commune of Rivas;People's Commune of Rivas;People's Commune of Rivas;;;;;;;;;;;x;
+COS_presidential_dictatorship;Rivas;Rivas;Rivas;;;;;;;;;;;x;
+COS_bourgeois_dictatorship;Rivas;Rivas;Rivas;;;;;;;;;;;x;
+COS_fascist_dictatorship;Rivas;Rivas;Rivas;;;;;;;;;;;x;
+COS_monarchy;Kingdom of Rivas;;;;;;;;;;;;;x;
+COS_democracy;Republic of Rivas;;;;;;;;;;;;;x
+SMO;Samoa;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+BRC;Boruca;Boruca;Boruca;;;;;;;;;;;x;
+BRC_ADJ;Borucan;Borucan;Borucan;;;;;;;;;;;x;
+BRC_proletarian_dictatorship;Costa Boruca;Costa Boruca;Costa Boruca;;;;;;;;;;;x;
+BRC_presidential_dictatorship;Boruca;Boruca;Boruca;;;;;;;;;;;x;
+BRC_bourgeois_dictatorship;Boruca;Boruca;Boruca;;;;;;;;;;;x;
+BRC_fascist_dictatorship;Chibchan;Chibchan;Chibchan;;;;;;;;;;;x;
+BRC_absolute_monarchy;Boruca;Boruca;Boruca;;;;;;;;;;;x;
+BRC_prussian_constitutionalism;Boruca;Boruca;Boruca;;;;;;;;;;;x;
+BRC_hms_government;Boruca;Boruca;Boruca;;;;;;;;;;;x;
+BRC_democracy;Boruca;;;;;;;;;;;;;x
+CYM;Cymru;Cymru;Cymru;;;;;;;;;;;x;
+CYM_ADJ;Cymric;Cymric;Cymric;;;;;;;;;;;x;
+CYM_proletarian_dictatorship;The Socialist Republic of Prydain;The Socialist Republic of Prydain;The Socialist Republic of Prydain;;;;;;;;;;;x;
+CYM_presidential_dictatorship;The Republic of Prydain;The Republic of Prydain;The Republic of Prydain;;;;;;;;;;;x;
+CYM_bourgeois_dictatorship;The Prydain Republic;The Prydain Republic;The Prydain Republic;;;;;;;;;;;x;
+CYM_fascist_dictatorship;Albion;Albion;Albion;;;;;;;;;;;x;
+CYM_absolute_monarchy;The Cymric Empire;The Cymric Empire;The Cymric Empire;;;;;;;;;;;x;
+CYM_prussian_constitutionalism;The Kingdom of Prydain;The Kingdom of Prydain;The Kingdom of Prydain;;;;;;;;;;;x;
+CYM_hms_government;The Kingdom of Prydain;The Kingdom of Prydain;The Kingdom of Prydain;;;;;;;;;;;x;
+CYM_democracy;The Republic of Prydain;;;;;;;;;;;;;x
+AVA;Avalon;Avalon;Avalon;;;;;;;;;;;x;
+AVA_ADJ;Avalic;Avalic;Avalic;;;;;;;;;;;x;
+AVA_proletarian_dictatorship;FSR Avalon;FSR Avalon;FSR Avalon;;;;;;;;;;;x;
+AVA_presidential_dictatorship;North Avalon;North Avalon;North Avalon;;;;;;;;;;;x;
+AVA_bourgeois_dictatorship;Republic of Avalon;Republic of Avalon;Republic of Avalon;;;;;;;;;;;x;
+AVA_fascist_dictatorship;Gran Avalon;Gran Avalon;Gran Avalon;;;;;;;;;;;x;
+AVA_absolute_monarchy;Kingdom of Avalon;Kingdom of Avalon;Kingdom of Avalon;;;;;;;;;;;x;
+AVA_prussian_constitutionalism;Kingdom of Avalon;Kingdom of Avalon;Kingdom of Avalon;;;;;;;;;;;x;
+AVA_hms_government;Kingdom of Avalon;Kingdom of Avalon;Kingdom of Avalon;;;;;;;;;;;x;
+AVA_democracy;Republic of Avalon;;;;;;;;;;;;;x
+AVA_colonial_company;The East Coast Company;;;;;;;;;;;;;x
+AVA_colonial_company_ADJ;Cymric;;;;;;;;;;;;;x
+AVA_dominion;The Viceroyalty of Cymru Newydd;;;;;;;;;;;;x,
+AVA_dominion_ADJ;Cymric;;;;;;;;;;;;x
+MIA;Miami;;;;;;;;;;;;;x;
+MIA_ADJ;Miamic;;;;;;;;;;;;;x;
+MIA_colonial_company;The Lakota Company;;;;;;;;;;;;;x
+MIA_colonial_company_ADJ;Cymric;;;;;;;;;;;;;x
+MIA_dominion;Viceroyalty of Miami;;;;;;;;;;;;x,
+MIA_dominion_ADJ;Miamic;;;;;;;;;;;;x
+PIK_colonial_company;Viceroyalty of the Tawantinsuyu;;;;;;;;;;;;;x
+PIK_colonial_company_ADJ;Tawantinsuyun;;;;;;;;;;;;;x
+PIK;Picchun;Picchun;Picchun;;;;;;;;;;;x;
+PIK_ADJ;Picchunic;Picchunic;Picchunic;;;;;;;;;;;x;
+PIK_proletarian_dictatorship;Republic of Santa Cruz;Republic of Santa Cruz;Republic of Santa Cruz;;;;;;;;;;;x;
+PIK_presidential_dictatorship;Picchun Federation;Picchun Federation;Picchun Federation;;;;;;;;;;;x;
+PIK_bourgeois_dictatorship;Picchun Republic;Picchun Republic;Picchun Republic;;;;;;;;;;;x;
+PIK_fascist_dictatorship;State of Santa Cruz;State of Santa Cruz;State of Santa Cruz;;;;;;;;;;;x;
+PIK_absolute_monarchy;Empire of Picchun;Empire of Picchun;Empire of Picchun;;;;;;;;;;;x;
+PIK_prussian_constitutionalism;Empire of Picchun;Empire of Picchun;Empire of Picchun;;;;;;;;;;;x;
+PIK_hms_government;Kingdom of Picchun;Kingdom of Picchun;Kingdom of Picchun;;;;;;;;;;;x;
+PIK_democracy;Republic of Picchun;;;;;;;;;;;;;x
+TRS;Tarasco;Tarasco;Tarasco;;;;;;;;;;;x;
+TRS_ADJ;Tarascanian;Tarascanian;Tarascanian;;;;;;;;;;;x;
+TRS_proletarian_dictatorship;Popular Union of Tarascan;Popular Union of Tarascan;Popular Union of Tarascan;;;;;;;;;;;x;
+TRS_presidential_dictatorship;Tarasco;Tarasco;Tarasco;;;;;;;;;;;x;
+TRS_bourgeois_dictatorship;Tarascan Republic;Tarascan Republic;Tarascan Republic;;;;;;;;;;;x;
+TRS_fascist_dictatorship;Neo-Tarascan Empire;Neo-Tarascan Empire;Neo-Tarascan Empire;;;;;;;;;;;x;
+TRS_absolute_monarchy;Kingdom of Tarasco;Kingdom of Tarasco;Kingdom of Tarasco;;;;;;;;;;;x;
+TRS_prussian_constitutionalism;Kingdom of Tarasco;Kingdom of Tarasco;Kingdom of Tarasco;;;;;;;;;;;x;
+TRS_hms_government;Kingdom of Tarasco;Kingdom of Tarasco;Kingdom of Tarasco;;;;;;;;;;;x;
+TRS_democracy;Republic of Tarasco;;;;;;;;;;;;;x
+TRS_colonial_company;Congress of Morelia;;;;;;;;;;;;;x
+TRS_colonial_company_ADJ;Morelian;;;;;;;;;;;;;x
+QUI;Quito;Quito;Quito;;;;;;;;;;;x;
+QUI_ADJ;Quito;Quito;Quito;;;;;;;;;;;x;
+QUI_proletarian_dictatorship;Quito Republic;Quito Republic;Quito Republic;;;;;;;;;;;x;
+QUI_presidential_dictatorship;Quito;Quito;Quito;;;;;;;;;;;x;
+QUI_bourgeois_dictatorship;Free State of Quito;Free State of Quito;Free State of Quito;;;;;;;;;;;x;
+QUI_fascist_dictatorship;Gran Quito;Gran Quito;Gran Quito;;;;;;;;;;;x;
+QUI_absolute_monarchy;Empire of Quito;Empire of Quito;Empire of Quito;;;;;;;;;;;x;
+QUI_prussian_constitutionalism;Kingdom of Quito;Kingdom of Quito;Kingdom of Quito;;;;;;;;;;;x;
+QUI_hms_government;Kingdom of Quito;Kingdom of Quito;Kingdom of Quito;;;;;;;;;;;x;
+QUI_democracy;Quito Republic;;;;;;;;;;;;;x
+KAP;Kapuy;Kapuy;Kapuy;;;;;;;;;;;x;
+KAP_ADJ;Kapuyan;Kapuyan;Kapuyan;;;;;;;;;;;x;
+KAP_proletarian_dictatorship;Lima Federation;Lima Federation;Lima Federation;;;;;;;;;;;x;
+KAP_presidential_dictatorship;Kapuy;Kapuy;Kapuy;;;;;;;;;;;x;
+KAP_bourgeois_dictatorship;Kapuyan Republic;Kapuyan Republic;Kapuyan Republic;;;;;;;;;;;x;
+KAP_fascist_dictatorship;Gran Peru y Kapuy;Gran Peru y Kapuy;Gran Peru y Kapuy;;;;;;;;;;;x;
+KAP_absolute_monarchy;Liman Empire;Liman Empire;Liman Empire;;;;;;;;;;;x;
+KAP_prussian_constitutionalism;Kingdom of Kapuy;Kingdom of Kapuy;Kingdom of Kapuy;;;;;;;;;;;x;
+KAP_hms_government;Kingdom of Kapuy;Kingdom of Kapuy;Kingdom of Kapuy;;;;;;;;;;;x;
+KAP_democracy;Kapuyan Republic;;;;;;;;;;;;;x
+PRO;Provence;Provence;Provence;;;;;;;;;;;x;
+PRO_ADJ;Provencal;Provencal;Provencal;;;;;;;;;;;x;
+GSC;Guscony;Guscony;Guscony;;;;;;;;;;;x;
+GSC_ADJ;Guscon;Guscon;Guscon;;;;;;;;;;;x;
+CLM;El Dorado;;;;;;;;;;;;;x
+CLM_ADJ;El Doradine;;;;;;;;;;;;;x
+CLM_fascist_dictatorship;Gran Bogota;;;;;;;;;;;;;x
+CLM_absolute_monarchy;Kingdom of El Dorado;;;;;;;;;;;;;x
+CLM_prussian_constitutionalism;Kingdom of El Dorado;;;;;;;;;;;;;x
+CLM_hms_government;El Dorado;;;;;;;;;;;;;x
+CLM_fascist_dictatorship;The Neo-Muiscan Empire;;;;;;;;;;;;;x
+CLM_proletarian_dictatorship;The North Andean Council Republic;;;;;;;;;;;;;x
+CHR;Charrua;Charrua;Charrua;;;;;;;;;;;x;
+CHR_ADJ;Charruan;Charruan;Charruan;;;;;;;;;;;x;
+CHR_colonial_company;The Southern Provinces;;;;;;;;;;;;x
+CHR_colonial_company_ADJ;Provincial;;;;;;;;;;;;x
+CHR_proletarian_dictatorship;Charruan Federation;Charruan Federation;Charruan Federation;;;;;;;;;;;x;
+CHR_presidential_dictatorship;The Charruan Provinces;The Charruan Provinces;The Charruan Provinces;;;;;;;;;;;x;
+CHR_bourgeois_dictatorship;Charruan Republic;Charruan Republic;Charruan Republic;;;;;;;;;;;x;
+CHR_fascist_dictatorship;Free State of Charrua;Free State of Charrua;Free State of Charrua;;;;;;;;;;;x;
+CHR_absolute_monarchy;Kingdom of Charrua;Kingdom of Charrua;Kingdom of Charrua;;;;;;;;;;;x;
+CHR_prussian_constitutionalism;Kingdom of Charrua;Kingdom of Charrua;Kingdom of Charrua;;;;;;;;;;;x;
+CHR_hms_government;Kingdom of Charrua;Kingdom of Charrua;Kingdom of Charrua;;;;;;;;;;;x;
+CHR_democracy;The Republic of Charrua;;;;;;;;;;;;;x
+AZU;Parania;Parania;Parania;;;;;;;;;;;x;
+AZU_ADJ;Parani;Parani;Parani;;;;;;;;;;;x;
+AZU_proletarian_dictatorship;Guaran;Guaran;Guaran;;;;;;;;;;;x;
+AZU_presidential_dictatorship;Parania;Parania;Parania;;;;;;;;;;;x;
+AZU_bourgeois_dictatorship;Paraguay;Paraguay;Paraguay;;;;;;;;;;;x;
+AZU_fascist_dictatorship;Free Society of Azul;Free Society of Azul;Free Society of Azul;;;;;;;;;;;x;
+AZU_absolute_monarchy;Imperial State of Azul;Imperial State of Azul;Imperial State of Azul;;;;;;;;;;;x;
+AZU_prussian_constitutionalism;Azul-Parania;Azul-Parania;Azul-Parania;;;;;;;;;;;x;
+AZU_hms_government;Royal Azulia;Royal Azulia;Royal Azulia;;;;;;;;;;;x;
+AZU_democracy;Parani Republic;;;;;;;;;;;;;x
+RIO;Rioja;Rioja;Rioja;;;;;;;;;;;x;
+RIO_ADJ;Riojan;Riojan;Riojan;;;;;;;;;;;x;
+RIO_proletarian_dictatorship;Riojan Commune;Riojan Commune;Riojan Commune;;;;;;;;;;;x;
+RIO_presidential_dictatorship;Rioja;Rioja;Rioja;;;;;;;;;;;x;
+RIO_bourgeois_dictatorship;Rioja;Rioja;Rioja;;;;;;;;;;;x;
+RIO_fascist_dictatorship;Collasuyu;Collasuyu;Collasuyu;;;;;;;;;;;x;
+RIO_absolute_monarchy;Empire of Collasuyu;Empire of Collasuyu;Empire of Collasuyu;;;;;;;;;;;x;
+RIO_prussian_constitutionalism;Royal Rioja;Royal Rioja;Royal Rioja;;;;;;;;;;;x;
+RIO_hms_government;Royal Rioja;Royal Rioja;Royal Rioja;;;;;;;;;;;x;
+RIO_democracy;Rioja;;;;;;;;;;;;;x
+SMO_ADJ;Samoan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KHR_ADJ;Khorasani;Khorasani;Khorasani;;;;;;;;;;;x;
+KHR;Khorasan;Khorasan;Khorasan;;;;;;;;;;;x;
+KHR_proletarian_dictatorship;Khorasan Republic;Khorasan Republic;Khorasan Republic;;;;;;;;;;;x;
+KHR_presidential_dictatorship;Khorasan Republic;Khorasan Republic;Khorasan Republic;;;;;;;;;;;x;
+KHR_bourgeois_dictatorship;Khorasan Republic;Khorasan Republic;Khorasan Republic;;;;;;;;;;;x;
+KHR_fascist_dictatorship;Khorasani State;Khorasani State;Khorasani State;;;;;;;;;;;x;
+KHR_absolute_monarchy;Khorasan;Khorasan;Khorasan;;;;;;;;;;;x;
+KHR_prussian_constitutionalism;Khorasan;Khorasan;Khorasan;;;;;;;;;;;x;
+KHR_hms_government;Khorasan;Khorasan;Khorasan;;;;;;;;;;;x;
+KHR_democracy;Khorasan;Khorasan;Khorasan;;;;;;;;;;;x;
+KHZ_ADJ;Arab;Arabistani;Arabistani;;;;;;;;;;;x;
+KHZ;Arabistan;Arabistan;Arabistan;;;;;;;;;;;x;
+KHZ_proletarian_dictatorship;Arabistan;Arabistan;Arabistan;;;;;;;;;;;x;
+KHZ_presidential_dictatorship;Arabistan;Arabistan;Arabistan;;;;;;;;;;;x;
+KHZ_bourgeois_dictatorship;Arabistan;Arabistan;Arabistan;;;;;;;;;;;x;
+KHZ_fascist_dictatorship;Arabistan;Arabistan;Arabistan;;;;;;;;;;;x;
+KHZ_absolute_monarchy;Arabistan;Arabistan;Arabistan;;;;;;;;;;;x;
+KHZ_prussian_constitutionalism;Arabistan;Arabistan;Arabistan;;;;;;;;;;;x;
+KHZ_hms_government;Arabistan;Arabistan;Arabistan;;;;;;;;;;;x;
+KHZ_democracy;Arabistan;Arabistan;Arabistan;;;;;;;;;;;x;
+KDH;Kandahar;;;;;;;;;;x;;;
+KDH_ADJ;Kandahari;;;;;;;;;;x;;;
+KDH_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KDH_liberal;The Liberal Faction;Faction libérale;Die liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KDH_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KDH_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KDH_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KDH_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+KDH_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HRT;Herat;;;;;;;;;;x;;;
+HRT_ADJ;Herati;;;;;;;;;;x;;;
+HRT_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HRT_liberal;The Liberal Faction;Faction libérale;Die liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HRT_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HRT_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HRT_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HRT_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HRT_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HZJ;Hazarajat;;;;;;;;;;x;;;
+HZJ_ADJ;Hazara;;;;;;;;;;x;;;
+HZJ_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HZJ_liberal;The Liberal Faction;Faction libérale;Die liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HZJ_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HZJ_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HZJ_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HZJ_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HZJ_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+MAR;Maratha;;;;;;;;;;;;x;;;
+MAR_ADJ;Marathan;;;;;;;;;;;;x;;;
+MAR_proletarian_dictatorship;The Maratha Council Republic;;;;;;;;;;;;x
+MAR_fascist_dictatorship;The Indian Empire;;;;;;;;;;;;x
+MAR_presidential_dictatorship;The State of Maratha;;;;;;;;;;;;x
+MAR_absolute_monarchy;The Maratha Empire;;;;;;;;;;;;x
+MAR_prussian_constitutionalism;Maratha;;;;;;;;;;;;x
+MAR_democracy;The Maratha Republic;;;;;;;;;;;;x
+MUG_colonial_company;The Delhi Governate;;;;;;;;;;;;x,
+MUG_dominon;The Delhi Governate;;;;;;;;;;;;x,
+MUG_subject;The Delhi Governate;;;;;;;;;;;;x,

@@ -1,0 +1,159 @@
+country_event = {
+	id = 667744
+	title = "EVTNAME667744" #The Acadian Uprising
+	desc = "EVTDESC667744"
+	picture = "treaty_of_tientsin"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA667744"
+		73 = { secede_province = ACA }
+		72 = { secede_province = ACA }
+		70 = { secede_province = ACA }
+		71 = { secede_province = ACA }
+		68 = { secede_province = ACA }
+		69 = { secede_province = ACA }
+		67 = { secede_province = ACA }
+		250 = { secede_province = ACA }
+		CYM = { country_event = 667755 }
+	}
+}
+
+country_event = {
+	id = 667755
+	title = "EVTNAME667755" #The Acadian Uprising
+	desc = "EVTDESC667755"
+	picture = "treaty_of_tientsin"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA667755"
+		relation = { who = ACA value = -400 }
+		CYM = {
+			war = {
+				target = ACA
+				attacker_goal = { casus_belli = conquest }
+				defender_goal = { casus_belli = cut_down_to_size }
+				call_ally = yes
+			}
+		}
+		FRA = { country_event = 667766 }
+	}
+}
+
+country_event = {
+	id = 667766
+	title = "EVTNAME667766" #French Intervention in Acadia
+	desc = "EVTDESC667766"
+	picture = "PDA_Blockade"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA667766"
+		relation = { who = CYM value = -200 }
+		relation = { who = ACA value = 400 }
+		FRA = {
+			war = {
+				target = CYM
+				attacker_goal = { casus_belli = cut_down_to_size }
+				defender_goal = { casus_belli = cut_down_to_size }
+				call_ally = yes
+			}
+		}
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPTB667766"
+		relation = { who = CYM value = 200 }
+		relation = { who = ACA value = -400 }
+		prestige = -5
+	}
+}
+
+country_event = {
+	id = 667777
+	title = "EVTNAME667777" #The Dutch invade New Cymru!
+	desc = "EVTDESC667777"
+	picture = "crimean_war_defeat"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA667777"
+		relation = { who = HLL value = -400 }
+		HLL = {
+			war = {
+				target = CYM
+				attacker_goal = { casus_belli = cut_down_to_size }
+				defender_goal = { casus_belli = cut_down_to_size }
+				call_ally = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 667788
+	title = "EVTNAME667788" #Great Lakes Republic
+	desc = "EVTDESC667788"
+	picture = "ezo_end"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = RPL
+		has_global_flag = the_acadian_uprising
+		NOT = { has_country_flag = great_lakes_formed }
+	}
+	
+	option = {
+		name = "EVTOPTA667788"
+		set_country_flag = great_lakes_formed
+		any_owned = {
+			limit = { is_core = MIA }
+			add_core = UIL
+		}
+		any_owned = {
+			limit = { is_core = UIL }
+			remove_core = RPL
+		}
+		any_owned = {
+			limit = { is_core = UIL }
+			secede_province = UIL
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 667799
+	title = "EVTNAME667799" #Great Lakes Republic
+	desc = "EVTDESC667799"
+	picture = "ezo_end"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA667799"
+		inherit = UIL
+		any_owned = {
+			limit = { is_core = UIL }
+			remove_core = UIL
+		}
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPTB667799"
+		UIL = { 
+			any_owned = {
+			limit = { is_core = MIA }
+			remove_core = MIA
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+owner = KML
+controller = KML
+add_core = CHI
+add_core = UYG 
+add_core = KML
+trade_goods = cotton
+life_rating = 32

@@ -1,0 +1,7 @@
+owner = CHK
+controller = CHK
+add_core = CHK
+add_core = KHM
+add_core = LUA
+trade_goods = tobacco
+life_rating = 32

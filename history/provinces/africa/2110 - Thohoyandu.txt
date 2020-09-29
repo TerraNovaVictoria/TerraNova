@@ -1,0 +1,7 @@
+owner = KIL
+controller = KIL
+add_core = KIL
+add_core = AGC
+terrain = jungle
+trade_goods = wool
+life_rating = 35

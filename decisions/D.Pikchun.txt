@@ -1,0 +1,161 @@
+political_decisions = {
+	
+	conquest_of_santa_cruz = {
+		picture = the_jungle
+		potential = {
+			
+			OR = {
+				2317 = { empty = yes }
+				2318 = { empty = yes }
+				2286 = { empty = yes }
+				2300 = { empty = yes }
+				2301 = { empty = yes }
+				2321 = { empty = yes }
+				2319 = { empty = yes }
+				2320 = { empty = yes }
+				2549 = { empty = yes }
+			}
+			owns = 2316 #Santa Cruz
+			NOT = { has_country_flag = conquest_of_santa_cruz }
+		}
+		
+		allow = {
+			war = no
+		}
+		effect = {
+			set_country_flag = conquest_of_santa_cruz
+			prestige = 2
+			random_owned = {
+				limit = {
+					2317 = { empty = yes }
+					2316 = { empty = no }
+				}
+				2317 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					2318 = { empty = yes }
+					2316 = { empty = no }
+				}
+				2318 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			random_owned = {
+				limit = {
+					2286 = { empty = yes }
+					2310 = { empty = no }
+				}
+				2286 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					2300 = { empty = yes }
+					2310 = { empty = no }
+				}
+				2300 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					2301 = { empty = yes }
+					2310 = { empty = no }
+				}
+				2301 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					2321 = { empty = yes }
+					2310 = { empty = no }
+				}
+				2321 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					2319 = { empty = yes }
+					2310 = { empty = no }
+				}
+				2319 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					2320 = { empty = yes }
+					2310 = { empty = no }
+				}
+				2320 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+			
+			random_owned = {
+				limit = {
+					2549 = { empty = yes }
+					2310 = { empty = no }
+				}
+				2549 = {
+					secede_province = THIS
+					life_rating = 20
+					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	pikchunic_government_selection = {
+		picture = peru_bolivia
+		potential = {
+			tag = PIK
+			NOT = { exists = SPA }
+			NOT = { has_country_flag = pikchunic_government_selection_proclaimed }
+			government = colonial_company
+		}
+		
+		allow = {
+			government = colonial_company
+		}
+		effect = {
+			PIK = { country_event = 21123333 }
+			set_country_flag = pikchunic_government_selection_proclaimed
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

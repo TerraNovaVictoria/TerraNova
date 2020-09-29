@@ -1,0 +1,8 @@
+owner = MAR
+controller = MAR
+add_core = MAR
+add_core = MUG
+add_core = HND
+trade_goods = cattle
+life_rating = 32
+colonial = 2

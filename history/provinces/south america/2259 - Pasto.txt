@@ -1,0 +1,6 @@
+owner = QUI
+controller = QUI
+add_core = QUI
+trade_goods = cattle
+terrain = montane_forest
+life_rating = 32

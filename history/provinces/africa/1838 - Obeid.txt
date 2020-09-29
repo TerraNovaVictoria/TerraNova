@@ -1,0 +1,8 @@
+owner = DAR
+controller = DAR
+add_core = DAR
+add_core = FNJ
+add_core = SUD
+trade_goods = cattle
+life_rating = 31
+terrain = desert

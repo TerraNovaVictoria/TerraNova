@@ -1,0 +1,64 @@
+political_decisions = {
+
+	#The Pannonian Basin
+	avaria_claims_basin = {
+		picture = avar_propaganda
+		potential = {
+				tag = AVR
+				NOT = { has_country_flag = greater_avaria }
+			}
+		
+			allow = {
+				war = no
+				is_vassal = no
+				660 = { owned_by = THIS }
+				633 = { owned_by = THIS }
+				nationalism_n_imperialism = 1
+			}
+		
+			effect = {
+				badboy = 10
+				prestige = 25
+				any_pop = {
+					limit = { has_pop_culture = avari }
+					scaled_consciousness = {
+						ideology = reactionary
+						factor = -4
+					}
+					scaled_militancy = {
+						ideology = reactionary
+						factor = -4
+					}
+					scaled_consciousness = {
+						ideology = fascist
+						factor = -4
+					}
+					scaled_militancy = {
+						ideology = fascist
+						factor = -4
+					}
+				}
+				any_pop = {
+					dominant_issue = {
+						value = jingoism
+						factor = 0.2
+					}
+				}
+				BAN = {
+					all_core = { add_core = AVR}
+				}
+				SIE = {
+					all_core = { add_core = AVR}
+				}
+				633 = { add_core = AVR }
+				634 = { add_core = AVR }
+				636 = { add_core = AVR }
+				638 = { add_core = AVR }
+				3256 = { add_core = AVR }
+				set_country_flag = greater_avaria
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+}

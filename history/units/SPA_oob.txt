@@ -1,0 +1,400 @@
+#Spherlings
+SIC = {	
+	value = 125
+	level = 5
+	influence_value = 50
+}
+PIK = {	
+	value = 125
+	level = 5
+	influence_value = 50
+}
+PTG = {	
+	value = 125
+	level = 5
+	influence_value = 50
+}
+TUN = {	
+	value = 125
+	level = 5
+	influence_value = 25
+}
+
+#America
+GUA = {
+	value = -50		#relation
+}
+COS = {
+	value = -50		#relation
+}
+BLZ = {
+	value = 50		#relation
+}
+YUC = {
+	value = 50		#relation
+}
+BRC = {
+	value = -200		#relation
+}
+TRS = {
+	value = -200		#relation
+}
+CHR = {
+	value = -200		#relation
+}
+PIK = {
+	value = 150		    #relation
+}
+QUI = {
+	value = -200		#relation
+}
+PTG = {
+	value = 50		#relation
+}
+
+
+#Africa
+MOR = {
+	value = 100		#relation
+}
+EGY = {
+	value = 0		#relation
+}
+ASH = {
+	value = 50
+}
+BEN = {
+	value = 50
+}
+DAH = {
+	value = 30
+}
+OYO = {
+	value = 30
+}
+ARO = {
+	value = 40
+}
+CLA = {
+	value = 50
+}
+WRI = {
+	value = 30
+}
+KON = {
+	value = 40
+}
+LOA = {
+	value = 30
+}
+GBU = {
+	value = 50
+}
+TOO = {
+	value = 50
+}
+WOL = {
+	value = 50
+}
+
+#Asia
+ZHO ={
+	value = -10
+}
+SUL = {
+	value = -100		#relation
+}
+
+#Other GP's
+CYM = { value = -75 }
+FRA = { value = 125 }
+BOH = { value = 0 }
+ANA = { value = -25 }
+HNL = { value = 0 }
+BAV = { value = 25 }
+RUS = { value = 0 }
+
+
+#Army
+army = {
+	name = "Ejército Cristino del Centro"
+	location = 487
+
+	regiment = {
+		name= "1. Brigada de Infantería"
+		type = infantry
+		home = 487
+	}
+
+	regiment = {
+		name= "2. Brigada de Ingenieros"
+		type = infantry
+		home = 487
+	}
+
+	regiment = {
+		name= "3. Granaderos del Rey"
+		type = infantry
+		home = 483
+	}
+
+	regiment = {
+		name= "4. Granaderos del Rey"
+		type = infantry
+		home = 482
+	}
+
+	regiment = {
+		name= "5. Granaderos del Rey"
+		type = infantry
+		home = 481
+	}
+	
+	regiment = {
+		name= "6. Granaderos del Rey"
+		type = infantry
+		home = 497
+	}
+}
+
+army = {
+	name = "Ejército de Norte"
+	location = 474
+
+	regiment = {
+		name= "8. Brigada de Infantería"
+		type = infantry
+		home = 474
+	}
+
+	regiment = {
+		name= "9. Brigada de Infantería"
+		type = infantry
+		home = 474
+	}
+
+	regiment = {
+		name= "10. Brigada de Infantería"
+		type = infantry
+		home = 475
+	}
+
+	regiment = {
+		name= "11. Brigada de Infantería"
+		type = infantry
+		home = 518
+	}
+	
+	regiment = {
+		name= "12. Brigada de Infantería"
+		type = infantry
+		home = 518
+	}
+}
+
+army = {
+	name = "Ejército de Brazil"
+	location = 2463
+	
+	regiment = {
+		name = "1. Brigada Colonial"
+		type = infantry
+		home = 2463
+	}
+	
+	regiment = {
+		name = "2. Brigada Colonial"
+		type = infantry
+		home = 2464
+	}
+	
+	regiment = {
+		name = "3. Brigada Colonial"
+		type = infantry
+		home = 2466
+	}
+}
+
+army = {
+	name = "Ejército de Puerto Rico"
+	location = 2222
+	
+	regiment = {
+		name = "3. Brigada Colonial"
+		type = infantry
+		home = 522
+	}
+}
+
+army = {
+	name = "Ejército de Filipinas"
+	location = 1455
+	
+	regiment = {
+		name = "4. Brigada Colonial"
+		type = infantry
+		home = 1455
+	}
+}
+
+army = {
+	name = "Ejército de Mindanao"
+	location = 1463
+	
+	regiment = {
+		name = "5. Brigada Colonial"
+		type = infantry
+		home = 1463
+	}
+}
+
+navy = {
+	name = "Armada de Jamaica"
+	location = 2217
+	
+	ship = {
+		name = "Santiago"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Hespérides"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Centinela"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Isla de Jamaica"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Cristóbal Colón"
+		type = frigate
+	}
+	
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+}
+
+navy = {
+	name = "Armada de Brazil"
+	location = 2463
+	
+	ship = {
+		name = "Alegro"
+		type = manowar
+	}
+	
+	ship = {
+		name = "Pelotarias"
+		type = frigate
+	}
+	
+	ship = {
+		name = "Trinidago"
+		type = frigate
+	}
+}
+
+navy = {
+	name = "Armada Real Española"
+	location = 521
+	ship = {
+		name= "San Raimundo"
+		type = manowar
+	}
+
+	ship = {
+		name= "Héroe"
+		type = manowar
+	}
+
+	ship = {
+		name= "San Pablo"
+		type = manowar
+	}
+
+	ship = {
+		name= "Ceres"
+		type = frigate
+	}
+
+	ship = {
+		name= "Gloria"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nuestra Señora de Asunción"
+		type = frigate
+	}
+
+	ship = {
+		name= "Nuestra Señora de Atocha"
+		type = frigate
+	}
+
+	ship = {
+		name= "Santa Sabina"
+		type = frigate
+	}
+
+	ship = {
+		name= "1a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "2a Flotilla de Transporte"
+		type = clipper_transport
+	}
+
+	ship = {
+		name= "3a Flotilla de Transporte"
+		type = clipper_transport
+	}
+}
+
+leader = {
+	name = "Francisco Serrano"
+	date = 1833.1.1
+	type = land
+	personality = expert
+	background = war_college
+	prestige = 0.0
+}
+
+leader = {
+	name = "Leopoldo O'Donnell"
+	date = 1836.1.1
+	type = land
+	personality = efficient
+	background = rising_star
+	prestige = 0.0
+}
+
+leader = {
+	name = "Narváez"
+	date = 1836.1.1
+	type = land
+	personality = efficient
+	background = powerful_friends
+	prestige = 0.0
+}

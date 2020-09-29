@@ -1,0 +1,14 @@
+owner = LIG
+controller = LIG
+add_core = LIG
+add_core = BEL
+add_core = NET
+add_core = BGY
+add_core = GER
+trade_goods = coal
+life_rating = 35
+state_building = {
+	level = 1
+	building = cement_factory
+	upgrade = yes
+}

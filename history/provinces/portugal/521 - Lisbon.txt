@@ -1,0 +1,20 @@
+owner = SPA
+controller = SPA
+add_core = SPC
+add_core = SPA
+add_core = GLC
+trade_goods = grain
+life_rating = 35
+terrain = lisbon
+naval_base = 1
+fort = 1
+party_loyalty = {
+	ideology = liberal
+	loyalty_value = 25
+}
+state_building = {
+	level = 1
+	building = glass_factory
+	upgrade = yes
+}
+

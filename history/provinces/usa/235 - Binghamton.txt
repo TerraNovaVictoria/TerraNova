@@ -1,0 +1,3 @@
+owner = MIDcontroller = MIDadd_core = MID
+trade_goods = grain
+life_rating = 35

@@ -1,0 +1,176 @@
+political_decisions = {
+
+	#Tarascan occupies el paso
+	tarascan_claims_el_paso = {
+		picture = establish_panfrenchism
+		potential = {
+				tag = TRS
+				year = 1837
+				owns = 2143
+				136 = { empty = yes }
+			}
+		
+			allow = {
+				money = 250
+			}
+		
+			effect = {
+				136 = { secede_province = THIS } 
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Tarascan occupies claimed land
+	tarascan_claims = {
+		picture = establish_panfrenchism
+		potential = {
+				tag = TRS
+				year = 1840
+				owns = 101
+				96 = { empty = yes }
+			}
+		
+			allow = {
+				war = no
+			}
+		
+			effect = {
+				84 = { secede_province = THIS } 
+				86 = { secede_province = THIS } 
+				85 = { secede_province = THIS }
+				96 = { secede_province = THIS } 
+				95 = { secede_province = THIS } 
+				94 = { secede_province = THIS } 
+				98 = { secede_province = THIS } 
+				99 = { secede_province = THIS } 
+				110 = { secede_province = THIS } 
+				108 = { secede_province = THIS } 
+				109 = { secede_province = THIS } 
+				97 = { secede_province = THIS } 
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Cascadia occupies claimed land
+	cascadian_claims = {
+		picture = establish_panfrenchism
+			potential = {
+				tag = COL
+				year = 1840
+				owns = 78
+				80 = { empty = yes }
+			}
+		
+			allow = {
+				war = no
+			}
+		
+			effect = {
+				82 = { secede_province = THIS } 
+				80 = { secede_province = THIS } 
+				114 = { secede_province = THIS }
+				92 = { secede_province = THIS } 
+				91 = { secede_province = THIS } 
+				113 = { secede_province = THIS } 
+				93 = { secede_province = THIS } 
+				111 = { secede_province = THIS } 
+				83 = { secede_province = THIS } 
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	#Iouhous occupies claimed land
+	iouhous_claims = {
+		picture = establish_panfrenchism
+		potential = {
+				tag = IOU
+				year = 1837
+				owns = 134
+				135 = { empty = yes }
+			}
+		
+			allow = {
+				money = 500
+			}
+		
+			effect = {
+				135 = { secede_province = THIS } 
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+
+	#Lakota occupies claimed land
+	lakotan_claims = {
+		picture = establish_panfrenchism
+		potential = {
+				tag = MIA
+				year = 1837
+				owns = 106
+				112 = { empty = yes }
+				116 = { empty = yes }
+				103 = { empty = yes }
+				128 = { empty = yes }
+				129 = { empty = yes }
+				106 = { empty = yes }
+				107 = { empty = yes }
+				131 = { empty = yes }
+			}
+		
+			allow = {
+				money = 500
+			}
+		
+			effect = {
+				112 = { secede_province = THIS } 
+				116 = { secede_province = THIS } 
+				103 = { secede_province = THIS } 
+				128 = { secede_province = THIS } 
+				129 = { secede_province = THIS } 
+				106 = { secede_province = THIS } 
+				107 = { secede_province = THIS } 
+				131 = { secede_province = THIS } 
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#St. Marie occupies claimed land
+	marien_claims = {
+		picture = establish_panfrenchism
+		potential = {
+				tag = RPL
+				year = 1837
+				owns = 35
+				115 = { empty = yes }
+				24 = { empty = yes }
+				25 = { empty = yes }
+				33 = { empty = yes }
+				22 = { empty = yes }
+				27 = { empty = yes }
+				26 = { empty = yes }
+				28 = { empty = yes }
+			}
+		
+			allow = {
+				money = 2500
+			}
+		
+			effect = {
+				115 = { secede_province = THIS } 
+				24 = { secede_province = THIS } 
+				25 = { secede_province = THIS } 
+				33 = { secede_province = THIS } 
+				22 = { secede_province = THIS } 
+				27 = { secede_province = THIS } 
+				26 = { secede_province = THIS } 
+				28 = { secede_province = THIS } 
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+
+}

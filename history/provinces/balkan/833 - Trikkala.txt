@@ -1,0 +1,6 @@
+owner = LAR
+controller = LAR
+add_core = LAR
+add_core = GRE
+trade_goods = grain
+life_rating = 35

@@ -1,0 +1,5 @@
+add_core = AZU
+add_core = CHR
+trade_goods = sulphur
+terrain = savanna
+life_rating = 25

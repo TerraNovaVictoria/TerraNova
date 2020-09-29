@@ -1,0 +1,94 @@
+country_event = {
+	id = 131140
+	title = "EVTNAME131140" #Aromanian Schools
+	desc = "EVTDESC131140"
+	picture = "yusupov_palace"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT131140A"
+		833 = { 
+			any_pop = { 
+				limit = { culture = aromanian } 
+				literacy = 0.9
+			} 
+		}
+		831 = { 
+			any_pop = { 
+				limit = { culture = aromanian } 
+				literacy = 0.9
+			} 
+		}
+		820 = { 
+			any_pop = { 
+				limit = { culture = aromanian } 
+				literacy = 0.9
+			} 
+		}
+		819 = { 
+			any_pop = { 
+				limit = { culture = aromanian } 
+				literacy = 0.9
+			} 
+		}
+		821 = { 
+			any_pop = { 
+				limit = { culture = aromanian } 
+				literacy = 0.9
+			} 
+		}
+		852 = { 
+			any_pop = { 
+				limit = { culture = aromanian } 
+				literacy = 0.9
+			} 
+			add_core = AOM 
+		}
+		853 = { 
+			any_pop = { 
+				limit = { culture = aromanian } 
+				literacy = 0.9
+			} 
+			add_core = AOM 
+		}
+		824 = { 
+			any_pop = { 
+				limit = { culture = aromanian } 
+				literacy = 0.9
+			} 
+			add_core = AOM 
+		}
+		825 = { 
+			any_pop = { 
+				limit = { culture = aromanian } 
+				literacy = 0.9
+			} 
+			add_core = AOM 
+		}
+		ai_chance = { factor = 100 }
+	}
+		
+	option = {
+		name = "EVTOPT131140B"
+		ROM = { country_event = 131141 }
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 131141
+	title = "EVTNAME131141" #Aromanian Schools Refused
+	desc = "EVTDESC131141"
+	picture = "yusupov_palace"
+
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPT131141A"
+		relations = { who = GRE value = -50 }
+		relations = { who = MRE value = -50 }
+		relations = { who = ALB value = -50 }
+		ai_chance = { factor = 0 }
+	}
+}

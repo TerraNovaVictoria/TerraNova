@@ -1,0 +1,7 @@
+owner = RAG
+controller = RAG
+add_core = RAG
+trade_goods = fish
+life_rating = 30
+colonial = 2
+terrain = new_world_mountain

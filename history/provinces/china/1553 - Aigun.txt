@@ -1,0 +1,8 @@
+owner = YER
+controller = YER
+add_core = YER
+add_core = CHI
+add_core = MCK
+add_core = EVE
+trade_goods = coal
+life_rating = 32

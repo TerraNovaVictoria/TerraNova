@@ -1,0 +1,8 @@
+owner = SIA
+controller = SIA
+add_core = SIA
+add_core = CHK
+add_core = KHM
+add_core = LUA
+trade_goods = cattle
+life_rating = 35

@@ -1,0 +1,7 @@
+owner = NYS
+controller = NYS
+add_core = NYS
+trade_goods = iron
+life_rating = 35
+terrain = philadelphia
+railroad = 1

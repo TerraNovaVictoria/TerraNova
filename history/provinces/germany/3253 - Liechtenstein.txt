@@ -1,0 +1,7 @@
+owner = LIE
+controller = LIE
+add_core = LIE
+add_core = SWI
+add_core = GER
+trade_goods = cattle
+life_rating = 30

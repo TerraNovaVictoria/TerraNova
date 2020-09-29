@@ -1,0 +1,1 @@
+add_core = MIAtrade_goods = cattlelife_rating = 20colonial = 2

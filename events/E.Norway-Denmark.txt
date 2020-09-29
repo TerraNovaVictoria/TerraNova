@@ -1,0 +1,864 @@
+country_event = {
+	id = 110011
+	title = "EVTNAME110011" #Jamtland Border Treaty
+	desc = "EVTDESC110011"
+	picture = "swe_nor_border_treaty"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT110022A"
+		badboy = -2
+		prestige = 5
+		319 = { remove_core = NOR remove_core = DNN }
+		329 = { remove_core = SWE }
+		319 = { owner = { country_event = 111111 } }
+		relation = { who = SWE value = 50 }
+		
+		ai_chance = { factor = 0.98 }
+	}
+		
+	option = {
+		name = "EVTOPT110011B"
+		badboy = 5
+		319 = { owner = { country_event = 112211 } }
+		relation = {
+			who = SWE
+			value = -200
+		}
+		ai_chance = { factor = 0.02 }
+	}
+}
+
+country_event = {
+	id = 111111
+	title = "EVTNAME111111" #Jamtland Border Treaty - They Accepted
+	desc = "EVTDESC111111"
+	picture = "swe_nor_border_treaty"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT111111A"
+		prestige = 5
+		relation = { who = DNN value = 50 }
+		relation = { who = NOR value = 50 }
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 112211
+	title = "EVTNAME112211" #Jamtland Border Treaty - They Refused
+	desc = "EVTDESC112211"
+	picture = "swe_nor_border_treaty"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT112211A"
+		relation = { who = NOR value = -200 }
+		relation = { who = DNN value = -200 }
+		
+		ai_chance = { factor = 75 }
+	}
+	
+	option = {
+		name = "EVTOPT112211B"
+		badboy = 5
+		305 = { add_core = SWE }
+		relation = { who = NOR value = -400 }
+		relation = { who = DNN value = -400 }
+		
+		ai_chance = { factor = 25 }
+	}
+}
+
+country_event = {
+	id = 113311
+	title = "EVTNAME113311" #Norway wants to hold plebiscite
+	desc = "EVTDESC113311"
+	picture = "norwegian_storting"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT113311A"
+		relation = { who = NOR value = 200 }
+		NOR = { country_event = 114411 }
+		
+		ai_chance = { factor = 0.90 }
+	}
+	
+	option = {
+		name = "EVTOPT113311B"
+		prestige = 5
+		badboy = 2
+		NOR = { country_event = 115511 }
+		
+		ai_chance = { factor = 0.10 }
+	}
+}
+
+country_event = {
+	id = 114411
+	title = "EVTNAME114411" #Denmark says yes
+	desc = "EVTDESC114411"
+	picture = "norway_council"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT114411A"
+		set_country_flag = referendum_preps
+		
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 115511
+	title = "EVTNAME115511" #Denmark says no
+	desc = "EVTDESC115511"
+	picture = "norwegian_storting"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT115511A"
+		prestige = 10
+		relation = { who = DNN value = -200 }
+		set_country_flag = referendum_preps
+		
+		ai_chance = { factor = 0.40 }
+	}
+	
+	option = {
+		name = "EVTOPT115511B"
+		prestige = -5
+		relation = { who = DNN value = -100 }
+		
+		ai_chance = { factor = 0.60 }
+	}
+}
+
+country_event = {
+	id = 116611
+	title = "EVTNAME116611" #Norway Declares Independence
+	desc = "EVTDESC116611"
+	picture = "norwegian_storting"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT116611A"
+		prestige = -10
+		relation = { who = NOR value = 200 }
+		release_vassal = NOR
+		set_global_flag = denmark_norway_dissolved
+		
+		ai_chance = { factor = 40 }
+	}
+	
+	option = {
+		name = "EVTOPT116611B"
+		badboy = 10
+		relation = { who = NOR value = -100 }
+		release_vassal = NOR
+		war = {
+				target = NOR
+				attacker_goal = { casus_belli = conquest }
+				defender_goal = { casus_belli = humiliate }
+			}
+		
+		ai_chance = { factor = 60 }
+	}
+}
+
+#####NORWEGIAN REFERENDUM EVENTS#####
+
+country_event = {
+	id = 11000
+	title = "EVTNAME11000" #The Referendum Begins
+	desc = "EVTDESC11000"
+	picture = "treaty_discussion"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		has_country_flag = referendum_preps
+	}
+	
+	mean_time_to_happen = { days = 7 }
+
+	option = {
+		name = "EVTOPT11000A"
+		prestige = 5
+		set_country_flag = referendum_begins
+		remove_country_flag = referendum_preps
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 11001
+	title = "EVTNAME11001" #Enthusiastic Populace
+	desc = "EVTDESC11001"
+	picture = "norway_votes"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		has_country_flag = referendum_begins
+	}
+	
+	mean_time_to_happen = { days = 10 }
+
+	option = {
+		name = "EVTOPT11001A"
+		set_country_flag = nor_encouraged_people
+		
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPT11001B"
+		set_country_flag = nor_discouraged_people
+		
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = 11002
+	title = "EVTNAME11002" #Unionist Protest
+	desc = "EVTDESC11002"
+	picture = "agitation"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		public_meetings = yes_meeting
+		has_country_flag = nor_discouraged_people
+	}
+	
+	mean_time_to_happen = { days = 10 }
+
+	option = {
+		name = "EVTOPT11002A"
+		set_country_flag = nor_against_union
+		
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPT11002B"
+		set_country_flag = nor_against_nationalists
+		
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = 11003
+	title = "EVTNAME11003" #Police clashes with nationalists
+	desc = "EVTDESC11003"
+	picture = "communist_riot"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		public_meetings = yes_meeting
+		has_country_flag = nor_encouraged_people
+	}
+	
+	mean_time_to_happen = { days = 20 }
+
+	option = {
+		name = "EVTOPT11003A"
+		set_country_flag = nor_against_union
+		
+		ai_chance = { factor = 40 }
+	}
+	
+	option = {
+		name = "EVTOPT11003B"
+		set_country_flag = nor_against_nationalists
+		
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = 11004
+	title = "EVTNAME11004" #Parliament Speeches
+	desc = "EVTDESC11004"
+	picture = "norwegian_storting"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		has_country_flag = referendum_begins
+	}
+	
+	mean_time_to_happen = { days = 60 }
+
+	option = {
+		name = "EVTOPT11004A"
+		set_country_flag = nor_pro_nationalist_parliament
+		
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPT11004B"
+		set_country_flag = nor_mixed_parliament
+		
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = 11005
+	title = "EVTNAME11005" #Nationalist Propaganda
+	desc = "EVTDESC11005"
+	picture = "norway_flag"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		has_country_flag = referendum_begins
+	}
+	
+	mean_time_to_happen = { days = 80 }
+
+	option = {
+		name = "EVTOPT11005A"
+		
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 11006
+	title = "EVTNAME11006" #Unionist Propaganda
+	desc = "EVTDESC11006"
+	picture = "norway_denmark_flag"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		has_country_flag = referendum_begins
+	}
+	
+	mean_time_to_happen = { days = 90 }
+
+	option = {
+		name = "EVTOPT11006A"
+		
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 11007
+	title = "EVTNAME11007" #Unionists might win
+	desc = "EVTDESC11007"
+	picture = "election_polls"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		has_country_flag = referendum_begins
+	}
+	
+	mean_time_to_happen = { days = 10 }
+
+	option = {
+		name = "EVTOPT11007A"
+		set_country_flag = nor_rig_election
+		
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPT11007B"
+		set_country_flag = nor_final_steps
+		
+		ai_chance = { factor = 50 }
+	}
+
+}
+
+country_event = {
+	id = 11008
+	title = "EVTNAME11008" #Successful Rigging
+	desc = "EVTDESC11008"
+	picture = "norwegian_storting"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		OR = { 
+			has_country_flag = nor_encouraged_people
+			has_country_flag = nor_against_union
+		}
+		has_country_flag = nor_rig_election
+	}
+	
+	mean_time_to_happen = { days = 7 }
+
+	option = {
+		name = "EVTOPT11008A"
+		remove_country_flag = nor_rig_election
+		set_country_flag = nor_nationalists_will_win
+		
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 11009
+	title = "EVTNAME11009" #Exposed Rigging
+	desc = "EVTDESC11009"
+	picture = "norwegian_storting"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		has_country_flag = nor_mixed_parliament
+		OR = {
+			has_country_flag = nor_against_nationalists
+			has_country_flag = nor_discouraged_people
+		}
+		has_country_flag = nor_rig_election
+	}
+	
+	mean_time_to_happen = { days = 7 }
+
+	option = {
+		name = "EVTOPT11009A"
+		prestige = -20
+		remove_country_flag = nor_rig_election
+		set_country_flag = nor_unionists_will_win
+		
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 11010
+	title = "EVTNAME11010" #Unsuccessful Rigging
+	desc = "EVTDESC11010"
+	picture = "norwegian_storting"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		has_country_flag = nor_pro_nationalist_parliament
+		OR = {
+			has_country_flag = nor_against_union
+			has_country_flag = nor_discouraged_people
+		}
+		has_country_flag = nor_rig_election
+	}
+	
+	mean_time_to_happen = { days = 7 }
+
+	option = {
+		name = "EVTOPT11010A"
+		remove_country_flag = nor_rig_election
+		set_country_flag = nor_final_steps
+		
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 11011
+	title = "EVTNAME11011" #Nationalists Win cuz Rig
+	desc = "EVTDESC11011"
+	picture = "norway_flag_rising"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		has_country_flag = nor_nationalists_will_win
+	}
+	
+	mean_time_to_happen = { days = 14 }
+
+	option = {
+		name = "EVTOPT11011A"
+		set_country_flag = nor_voted_for_independence
+		remove_country_flag = referendum_begins
+		remove_country_flag = nor_nationalists_will_win
+		remove_country_flag = nor_unionists_will_win
+		remove_country_flag = nor_pro_nationalist_parliament
+		remove_country_flag = nor_mixed_parliament
+		remove_country_flag = nor_encouraged_people
+		remove_country_flag = nor_discouraged_people
+		remove_country_flag = nor_against_union
+		remove_country_flag = nor_against_nationalists
+		prestige = 20
+		DNN = { country_event = 11015 }
+		
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 11012
+	title = "EVTNAME11012" #Unionists Win cuz Rig
+	desc = "EVTDESC11012"
+	picture = "bad_badboy"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		has_country_flag = nor_unionists_will_win
+	}
+	
+	mean_time_to_happen = { days = 14 }
+
+	option = {
+		name = "EVTOPT11012A"
+		remove_country_flag = referendum_begins
+		remove_country_flag = nor_nationalists_will_win
+		remove_country_flag = nor_unionists_will_win
+		remove_country_flag = nor_pro_nationalist_parliament
+		remove_country_flag = nor_mixed_parliament
+		remove_country_flag = nor_encouraged_people
+		remove_country_flag = nor_discouraged_people
+		remove_country_flag = nor_against_union
+		remove_country_flag = nor_against_nationalists
+		prestige = 20
+		DNN = { country_event = 11017 }
+		
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 11013
+	title = "EVTNAME11013" #Nationalists Win Fair
+	desc = "EVTDESC11013"
+	picture = "norway_flag_rising"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		NOT = { has_country_flag = nor_rig_election }
+		NOT = { has_country_flag = nor_unionists_will_win }
+		NOT = { has_country_flag = nor_nationalists_will_win }
+		has_country_flag = nor_final_steps
+		OR = {
+			AND = { 
+				has_country_flag = nor_encouraged_people
+				has_country_flag = nor_pro_nationalist_parliament
+			}
+			AND = { 
+				has_country_flag = nor_encouraged_people
+				has_country_flag = nor_against_union
+			}
+			AND = { 
+				has_country_flag = nor_pro_nationalist_parliament
+				has_country_flag = nor_against_union
+			}
+		}
+	}
+	
+	mean_time_to_happen = { days = 14 }
+
+	option = {
+		name = "EVTOPT11013A"
+		set_country_flag = nor_voted_for_independence
+		remove_country_flag = referendum_begins
+		remove_country_flag = nor_nationalists_will_win
+		remove_country_flag = nor_unionists_will_win
+		remove_country_flag = nor_pro_nationalist_parliament
+		remove_country_flag = nor_mixed_parliament
+		remove_country_flag = nor_encouraged_people
+		remove_country_flag = nor_discouraged_people
+		remove_country_flag = nor_against_union
+		remove_country_flag = nor_against_nationalists
+		prestige = 20
+		DNN = { country_event = 11016 }
+		
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 11014
+	title = "EVTNAME11014" #Unionists Win Fair
+	desc = "EVTDESC11014"
+	picture = "election"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		NOT = { has_country_flag = nor_rig_election }
+		NOT = { has_country_flag = nor_unionists_will_win }
+		NOT = { has_country_flag = nor_nationalists_will_win }
+		has_country_flag = nor_final_steps
+		OR = {
+			AND = { 
+				has_country_flag = nor_discouraged_people
+				has_country_flag = nor_mixed_parliament
+			}
+			AND = { 
+				has_country_flag = nor_discouraged_people
+				has_country_flag = nor_against_nationalists
+			}
+			AND = { 
+				has_country_flag = nor_mixed_parliament
+				has_country_flag = nor_against_nationalists
+			}
+		}
+	}
+	
+	mean_time_to_happen = { days = 14 }
+
+	option = {
+		name = "EVTOPT11014A"
+		remove_country_flag = referendum_begins
+		remove_country_flag = nor_final_steps
+		remove_country_flag = nor_nationalists_will_win
+		remove_country_flag = nor_unionists_will_win
+		remove_country_flag = nor_pro_nationalist_parliament
+		remove_country_flag = nor_mixed_parliament
+		remove_country_flag = nor_encouraged_people
+		remove_country_flag = nor_discouraged_people
+		remove_country_flag = nor_against_union
+		remove_country_flag = nor_against_nationalists
+		badboy = -5
+		DNN = { country_event = 11017 }
+		
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 11015
+	title = "EVTNAME11015" #Tied Election
+	desc = "EVTDESC11015"
+	picture = "election"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		NOT = { has_country_flag = nor_rig_election }
+		NOT = { has_country_flag = nor_unionists_will_win }
+		NOT = { has_country_flag = nor_nationalists_will_win }
+		NOT = { has_country_flag = nor_encouraged_people }
+		NOT = { has_country_flag = nor_discouraged_people }
+		has_country_flag = nor_final_steps
+		OR = {
+			AND = { 
+				has_country_flag = nor_against_nationalists
+				has_country_flag = nor_pro_nationalist_parliament
+			}
+			AND = { 
+				has_country_flag = nor_against_union
+				has_country_flag = nor_mixed_parliament
+			}
+		}
+	}
+	
+	mean_time_to_happen = { days = 14 }
+	
+	option = {
+		name = "EVTOPT11015A"
+		set_country_flag = nor_parliament_must_decide
+		
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 110151
+	title = "EVTNAME110151" #Parliament votes for independence
+	desc = "EVTDESC110151"
+	picture = "norwegian_storting"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		has_country_flag = nor_parliament_must_decide
+		has_country_flag = nor_pro_nationalist_parliament
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = "EVTOPT110151A"
+		set_country_flag = nor_voted_for_independence
+		remove_country_flag = referendum_begins
+		remove_country_flag = nor_parliament_must_decide
+		remove_country_flag = nor_nationalists_will_win
+		remove_country_flag = nor_unionists_will_win
+		remove_country_flag = nor_pro_nationalist_parliament
+		remove_country_flag = nor_mixed_parliament
+		remove_country_flag = nor_encouraged_people
+		remove_country_flag = nor_discouraged_people
+		remove_country_flag = nor_against_union
+		remove_country_flag = nor_against_nationalists
+		prestige = 20
+		DNN = { country_event = 11016 }
+		
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 110152
+	title = "EVTNAME110152" #Parliament votes for the union
+	desc = "EVTDESC110152"
+	picture = "norwegian_storting"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		has_country_flag = nor_parliament_must_decide
+		has_country_flag = nor_mixed_parliament
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = "EVTOPT110152A"
+		remove_country_flag = referendum_begins
+		remove_country_flag = nor_parliament_must_decide
+		remove_country_flag = nor_nationalists_will_win
+		remove_country_flag = nor_unionists_will_win
+		remove_country_flag = nor_pro_nationalist_parliament
+		remove_country_flag = nor_mixed_parliament
+		remove_country_flag = nor_encouraged_people
+		remove_country_flag = nor_discouraged_people
+		remove_country_flag = nor_against_union
+		remove_country_flag = nor_against_nationalists
+		DNN = { country_event = 11017 }
+		
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+
+#####DANISH RESPONSE#####
+
+country_event = {
+	id = 11016
+	title = "EVTNAME11016" #Nationalist Win in Norway
+	desc = "EVTDESC11016"
+	picture = "norwegian_storting"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT11016A"
+		badboy = -5
+		relation = { who = NOR value = 400 }
+		release_vassal = NOR
+		set_global_flag = denmark_norway_dissolved
+		
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+		name = "EVTOPT11016B"
+		badboy = 10
+		relation = { who = NOR value = -400 }
+		release_vassal = NOR
+		war = {
+				target = NOR
+				attacker_goal = { casus_belli = conquest }
+				defender_goal = { casus_belli = humiliate }
+			}
+		
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = 11017
+	title = "EVTNAME11017" #Unionists Win in Norway
+	desc = "EVTDESC11017"
+	picture = "norwegian_storting"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT11017A"
+		prestige = 25
+		relation = { who = NOR value = 100 }
+		
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+
+#####NORWEGIAN GOVERNMENT FORM#####
+country_event = {
+	id = 11018
+	title = "EVTNAME11018" #Norwegian Government
+	desc = "EVTDESC11018"
+	picture = "norwegian_storting"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPT11018A"
+		government = democracy
+		political_reform = wealth_voting
+		political_reform = yes_meeting
+		political_reform = free_press
+		political_reform = gerrymandering
+		
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPT11018B"
+		government = absolute_monarchy
+		political_reform = none_voting
+		political_reform = yes_meeting
+		political_reform = free_press
+		
+		ai_chance = { factor = 50 }
+	}
+}

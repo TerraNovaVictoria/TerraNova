@@ -1,0 +1,14 @@
+owner = IRQ
+controller = IRQ
+add_core = IRQ
+add_core = ANA
+add_core = ASY
+add_core = KDS
+add_core = PER
+trade_goods = wool
+life_rating = 35
+terrain = hills
+1861.1.1 = {
+	controller = ANA 
+	owner = ANA
+}

@@ -1,0 +1,10 @@
+owner = BEL
+controller = BEL
+add_core = BEL
+add_core = LUX
+add_core = BGY
+add_core = GER
+trade_goods = iron
+fort = 2
+life_rating = 35
+terrain = luxemburg

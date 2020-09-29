@@ -1,0 +1,16 @@
+army = {
+	name = "Friesland Milizien"
+	location = 581
+	regiment = {
+		name= "1. Division"
+		type = irregular
+		home = 581
+	}
+
+	regiment = {
+		name= "2. Division"
+		type = irregular
+		home = 581
+	}
+
+}

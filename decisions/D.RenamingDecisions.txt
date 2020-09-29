@@ -1,0 +1,535 @@
+political_decisions = {
+
+	czh_rename_transdanubia = {
+		picture = gtfo
+		potential = {
+			OR = {
+				is_culture_group = czecho_slovak_culture_group
+				tag = CZH
+			}
+			owns = 642
+			has_global_flag = transdanubia_rename_ger
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = transdanubia_rename_czh
+			clr_global_flag = transdanubia_rename_ger
+			623 = { 
+				change_province_name = "Sambotel"
+				state_scope = { change_region_name = "Západní Avarie" }
+			}
+			639 = { change_province_name = "Velika Kaniža" }
+			640 = { change_province_name = "Pecuh" }
+			642 = { change_province_name = "Jura" }
+			643 = { change_province_name = "Stolni Biograd" }
+			644 = { change_province_name = "Kapošvar" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	ger_rename_transdanubia = {
+		picture = gtfo
+		potential = {
+			is_culture_group = germanic
+			owns = 642
+			has_global_flag = transdanubia_rename_czh
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = transdanubia_rename_ger
+			clr_global_flag = transdanubia_rename_czh
+			623 = { 
+				change_province_name = "Samburg"
+				state_scope = { change_region_name = "West-Pannonien" }
+			}
+			639 = { change_province_name = "Egersee" }
+			640 = { change_province_name = "Peschken" }
+			642 = { change_province_name = "Jaurastadt" }
+			643 = { change_province_name = "Stalnstadt" }
+			644 = { change_province_name = "Kestlen" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+
+
+	czh_bohemia_rename = {
+		picture = gtfo
+		potential = {
+			OR = {
+				is_culture_group = czecho_slovak_culture_group
+				tag = SLV
+				tag = CZH
+			}
+			owns = 625 #Prague
+			owns = 626 #Hradec Kralove
+			owns = 631 #Brno
+			NOT = { has_global_flag = bohemia_rename_czh }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = bohemia_rename_czh
+			625 = {
+				change_province_name = "Praha"
+				state_scope = { change_region_name = "Cechy-Morava" }
+			}
+			626 = { change_province_name = "Hradec Králové" }
+			631 = { change_province_name = "Brno" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	ger_bohemia_rename = {
+		picture = gtfo
+		potential = {
+			is_culture_group = germanic
+			owns = 625 #Prague
+			owns = 626 #Hradec Kralove
+			owns = 631 #Brno
+			has_global_flag = bohemia_rename_czh
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			clr_global_flag = bohemia_rename_czh
+			625 = {
+				change_province_name = "Prag"
+				state_scope = { change_region_name = "Böhmen-Mähren" }
+			}
+			626 = { change_province_name = "Königgrätz" }
+			631 = { change_province_name = "Brünn" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	czh_sudetes_rename = {
+		picture = gtfo
+		potential = {
+			OR = {
+				is_culture_group = czecho_slovak_culture_group
+				tag = SLV
+				tag = CZH
+			}
+			owns = 627 #Karlsbad
+			owns = 628 #Aussig
+			owns = 629 #Plzen
+			owns = 630 #Budejovice
+			owns = 632 #Olomouc
+			owns = 688 #Troppau
+			NOT = { has_global_flag = sudetes_rename_czh }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = sudetes_rename_czh
+			627 = {
+				change_province_name = "Karlovy Vary"
+				state_scope = { change_region_name = "Sudety" }
+			}
+			628 = { change_province_name = "Ústí nad Labem" }
+			629 = { change_province_name = "Plzen" }
+			630 = { change_province_name = "Budejovice" }
+			632 = { change_province_name = "Olomouc" }
+			688 = { change_province_name = "Opava" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	ger_sudetes_rename = {
+		picture = gtfo
+		potential = {
+			is_culture_group = germanic
+			owns = 627 #Karlsbad
+			owns = 628 #Aussig
+			owns = 629 #Plzen
+			owns = 630 #Budejovice
+			owns = 632 #Olomouc
+			owns = 688 #Troppau
+			has_global_flag = sudetes_rename_czh
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			clr_global_flag = sudetes_rename_czh
+			627 = {
+				change_province_name = "Karlsbad"
+				state_scope = { change_region_name = "Sudetenland" }
+			}
+			628 = { change_province_name = "Aussig" }
+			629 = { change_province_name = "Pilsen" }
+			630 = { change_province_name = "Budweis" }
+			632 = { change_province_name = "Olmütz" }
+			688 = { change_province_name = "Troppau" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	czh_slovakia_rename = {
+		picture = gtfo
+		potential = {
+			OR = {
+				is_culture_group = czecho_slovak_culture_group
+				tag = SLV
+				tag = CZH
+			}
+			owns = 633
+			owns = 634
+			owns = 637
+			owns = 950
+			NOT = { has_global_flag = slovakia_rename_czhslo }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = slovakia_rename_czhslo
+			633 = { 
+				change_province_name = "Bratislava"
+				state_scope = { change_region_name = "Slovensko" }
+			}
+			634 = { change_province_name = "Trencín" }
+			635 = { change_province_name = "Nitra" }
+			636 = { change_province_name = "Banská Bystrica" }
+			637 = { change_province_name = "Košice" }
+			638 = { change_province_name = "Prešov" }
+			950 = { change_province_name = "Užhorod" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	ger_slovakia_rename = {
+		picture = gtfo
+		potential = {
+			is_culture_group = germanic
+			has_global_flag = slovakia_rename_czhslo
+			owns = 633
+			owns = 634
+			owns = 637
+			owns = 950
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			clr_global_flag = slovakia_rename_czhslo
+			633 = { 
+				change_province_name = "Preßburg"
+				state_scope = { change_region_name = "Nord-Pannonien" }
+			}
+			634 = { change_province_name = "Trentschin" }
+			635 = { change_province_name = "Neutra" }
+			636 = { change_province_name = "Neusohl" }
+			637 = { change_province_name = "Kaschau" }
+			638 = { change_province_name = "Eperies" }
+			950 = { change_province_name = "Ungwar" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	czh_central_avaria_rename = {
+		picture = gtfo
+		potential = {
+			OR = {
+				is_culture_group = czecho_slovak_culture_group
+				tag = CZH
+			}
+			owns = 641
+			NOT = { has_global_flag = czh_central_avaria_rename }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = czh_central_avaria_rename
+			random_owned = {
+				limit = { owner = { NOT = { has_global_flag = jersa_founded } } }
+				641 = { 
+					change_province_name = "Vacija"
+					state_scope = { change_region_name = "Východní Avarie" }
+				}
+			}
+			random_owned = {
+				limit = { owner = { has_global_flag = jersa_founded } }
+				641 = { 
+					change_province_name = "Jerša"
+					state_scope = { change_region_name = "Východní Avarie" }
+				}
+			}
+			645 = { change_province_name = "Jankovac" }
+			646 = { change_province_name = "Szikszó" }
+			648 = { change_province_name = "Níredháza" }
+			649 = { change_province_name = "Vašrelj" }
+			650 = { change_province_name = "Karcag" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	ger_central_avaria_rename = {
+		picture = gtfo
+		potential = {
+			is_culture_group = germanic
+			owns = 641
+			has_global_flag = czh_central_avaria_rename
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			clr_global_flag = czh_central_avaria_rename
+			random_owned = {
+				limit = { owner = { NOT = { has_global_flag = jersa_founded } } }
+				641 = { 
+					change_province_name = "Warkin"
+					state_scope = { change_region_name = "Awarenmark" }
+				}
+			}
+			random_owned = {
+				limit = { owner = { has_global_flag = jersa_founded } }
+				641 = { 
+					change_province_name = "Jauerstadt"
+					state_scope = { change_region_name = "Awarenmark" }
+				}
+			}
+			645 = { change_province_name = "Kleinburg" }
+			646 = { change_province_name = "Schreinstadt" }
+			648 = { change_province_name = "Nirmansburg" }
+			649 = { change_province_name = "Ackerland" }
+			650 = { change_province_name = "Engelhausen" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	czh_southern_transylvania_rename = {
+		picture = gtfo
+		potential = {
+			OR = {
+				is_culture_group = czecho_slovak_culture_group
+				tag = CZH
+			}
+			owns = 647
+			owns = 655
+			owns = 656
+			owns = 657
+			owns = 659
+			NOT = { has_global_flag = southern_transylvania_rename_czh }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = southern_transylvania_rename_czh
+			clr_global_flag = southern_transylvania_rename_rom
+			647 = { 
+				change_province_name = "Craiva" 
+				state_scope = { change_region_name = "Jižní Sedmihradsko" }
+			}
+			657 = { change_province_name = "Pljevlja" }
+			655 = { change_province_name = "Varoš" }
+			656 = { change_province_name = "Požarevac" }
+			659 = { change_province_name = "Nova Lucenec" }
+			
+			
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	rom_southern_transylvania_rename = {
+		picture = gtfo
+		potential = {
+			OR = {
+				primary_culture = romanian
+				primary_culture = aromanian
+			}	
+			owns = 647
+			owns = 655
+			owns = 656
+			owns = 657
+			owns = 659
+			NOT = { has_global_flag = southern_transylvania_rename_rom }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = southern_transylvania_rename_rom
+			clr_global_flag = southern_transylvania_rename_czh
+			657 = { 
+				change_province_name = "Sibiu"
+				state_scope = { change_region_name = "Transilvania de Sud" }
+			}
+			647 = {  change_province_name = "Oradea" }
+			655 = { change_province_name = "Alba Iulia" }
+			656 = { change_province_name = "Deva" }
+			659 = { change_province_name = "Bra?ov" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	ger_southern_transylvania_rename = {
+		picture = gtfo
+		potential = {
+			is_culture_group = germanic
+			owns = 647
+			owns = 655
+			owns = 656
+			owns = 657
+			owns = 659
+			OR = {
+				has_global_flag = southern_transylvania_rename_hun
+				has_global_flag = southern_transylvania_rename_rom
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			clr_global_flag = southern_transylvania_rename_hun
+			clr_global_flag = southern_transylvania_rename_rom
+			647 = { change_province_name = "Großwardein" }
+			655 = { change_province_name = "Weißenburg" }
+			656 = { change_province_name = "Diemrich" }
+			657 = {
+				change_province_name = "Hermannstadt"
+				state_scope = { change_region_name = "Siebenbürgen" }
+			}
+			659 = { change_province_name = "Kronstadt" }
+			
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	czh_northern_transylvania_rename = {
+		picture = gtfo
+		potential = {
+			OR = {
+				is_culture_group = czecho_slovak_culture_group
+				tag = CZH
+			}
+			owns = 651
+			owns = 654
+			owns = 661
+			owns = 2533
+			owns = 660
+			NOT = { has_global_flag = northern_transylvania_rename_czh }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = northern_transylvania_rename_czh
+			clr_global_flag = northern_transylvania_rename_rom
+			651 = { 
+				change_province_name = "Oradea"
+				state_scope = { change_region_name = "Karpatska Dežela" }
+			}
+			654 = { change_province_name = "Cluj-Napoca" }
+			2533 = { change_province_name = "Vinnicja" }
+			661 = { change_province_name = "Zalau" }
+			660 = { change_province_name = "Baštanka" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	rom_northern_transylvania_rename = {
+		picture = gtfo
+		potential = {
+			primary_culture = romanian
+			owns = 651
+			owns = 654
+			owns = 661
+			owns = 2533
+			owns = 660
+			NOT = { has_global_flag = northern_transylvania_rename_rom }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			set_global_flag = northern_transylvania_rename_rom
+			clr_global_flag = northern_transylvania_rename_czh
+			prestige = 2
+			654 = { 
+				change_province_name = "Cluj"
+				state_scope = { change_region_name = "Transilvania de Nord" }
+			}
+			651 = { change_province_name = "Carei" }
+			
+			661 = { change_province_name = "Bistrita" }
+			660 = { change_province_name = "Trei Scaune" }
+			2533 = { change_province_name = "Târgu Mures" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	ger_northern_transylvania_rename = {
+		picture = gtfo
+		potential = {
+			is_culture_group = germanic
+			owns = 651
+			owns = 654
+			owns = 661
+			owns = 2533
+			owns = 660
+			OR = {
+				has_global_flag = northern_transylvania_rename_czh
+				has_global_flag = northern_transylvania_rename_rom
+			}
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			clr_global_flag = northern_transylvania_rename_czh
+			clr_global_flag = northern_transylvania_rename_rom
+			651 = { 
+				change_province_name = "Kisch" 
+				state_scope = { change_region_name = "Karpathenland" }
+			}
+			654 = { change_province_name = "Klausenburg" }
+			661 = { change_province_name = "Bistritz" }
+			660 = { change_province_name = "Osterstadt" }
+			2533 = { change_province_name = "Neumarkt" }
+		}
+		ai_will_do = { factor = 1 }
+	}
+}

@@ -1,0 +1,7 @@
+owner = MLC
+controller = MLC
+add_core = MLC
+add_core = ATJ
+add_core = PAG
+trade_goods = coffee
+life_rating = 35

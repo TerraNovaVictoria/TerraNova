@@ -1,0 +1,12 @@
+owner = PNJ
+controller = PNJ
+add_core = BHP
+add_core = PNJ
+add_core = HND
+trade_goods = cattle
+life_rating = 32
+1861.1.1 = {
+	owner = CYM
+	controller = CYM
+	colonial = 2
+}

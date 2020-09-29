@@ -1,0 +1,81 @@
+country_event = {
+	id = 99660
+	title = "EVTNAME99660" #The War Intensifies for Guatemala
+	desc = "EVTDESC99660"
+	picture = "mexico_soldiers"
+	
+	trigger = {
+		tag = GUA
+		NOT = {
+			has_global_flag = the_frca_war_intensifies_gua
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_global_flag = the_frca_war_intensifies_gua
+	}
+	
+	option = {
+		name = "EVT99660PTA"
+		any_country = {
+			limit = {
+				tag = GUA
+			}
+			add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+			}
+		}
+		any_pop = {
+			militancy = -5
+			consciousness = -5
+		}
+		
+		ai_chance = { factor = 20 }
+	}
+}
+
+country_event = {
+	id = 99661
+	title = "EVTNAME99661" #The War Intensifies for Costa Rica de la Rivas
+	desc = "EVTDESC99661"
+	picture = "mexico_soldiers"
+	
+	trigger = {
+		tag = COS
+		NOT = {
+			has_global_flag = the_frca_war_intensifies_cos
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_global_flag = the_frca_war_intensifies_cos
+	}
+	
+	option = {
+		name = "EVT99661PTA"
+		any_country = {
+			limit = {
+				tag = COS
+			}
+			add_country_modifier = {
+				name = small_country_draft
+				duration = 1095
+			}
+		}
+		any_pop = {
+			militancy = -5
+			consciousness = -5
+		}
+		
+		ai_chance = { factor = 20 }
+	}
+}

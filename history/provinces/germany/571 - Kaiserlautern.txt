@@ -1,0 +1,8 @@
+owner = PLT
+controller = PLT
+add_core = PLT
+add_core = RHI
+add_core = GER
+trade_goods = fruit
+life_rating = 40
+1861.1.1 = { railroad = 3 }

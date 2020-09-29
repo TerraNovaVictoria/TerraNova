@@ -1,0 +1,481 @@
+###SPANISH REVOLUTIONARY WAR###
+
+country_event = {
+	id = 777700
+	title = "EVTNAME777700" #The Revolution has begun - SPA
+	desc = "EVTDESC777700"
+	picture = "spanish_civil_war_spa"
+	
+	trigger = {
+		tag = SPA
+		year = 1836
+		NOT = { has_country_flag = revolutionary_wars }
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT777700A"
+		prestige = -5
+		any_pop = { militancy = 0.5 }
+		set_country_flag = revolutionary_wars
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 777701
+	title = "EVTNAME777701" #The Revolution has begun - SPC
+	desc = "EVTDESC777701"
+	picture = "spanish_civil_war_spc"
+	
+	trigger = {
+		tag = SPC
+		year = 1836
+		NOT = { has_country_flag = revolutionary_wars }
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT777701A"
+		prestige = 5
+		any_pop = { militancy = 0.5 }
+		set_country_flag = revolutionary_wars
+		set_global_flag = the_european_age_of_revolution
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 777702
+	title = "EVTNAME777702" #Brazilian Independence
+	desc = "EVTDESC777702"
+	picture = "leopold_von_hohenzollern"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT777702A"
+		prestige = -25
+		any_owned = {
+			limit = { is_core = BRZ }
+			secede_province = BRZ
+		}
+		any_country = {
+			limit = {
+				war_with = THIS
+				tag = GCO
+			}
+			end_war = THIS
+		}
+		any_country = {
+			limit = {
+				war_with = THIS
+				alliance_with = GCO
+			}
+			end_war = THIS
+		}
+		any_country = {
+			limit = {
+				war_with = THIS
+				tag = CHR
+			}
+			end_war = THIS
+		}
+		ai_chance = { factor = 30 }
+	}
+	
+	option = {
+		name = "EVTOPT777702B"
+		prestige = 25
+		badboy = 5
+		any_owned = {
+			limit = { is_core = BRZ }
+			secede_province = BRZ
+		}
+		war = {
+			target = BRZ
+			attacker_goal = { 
+				casus_belli = establish_protectorate_casus_belli
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = no
+		}
+		ai_chance = { factor = 90 }
+	}
+}
+
+country_event = {
+	id = 777703
+	title = "EVTNAME777703" #Lisbon uprising
+	desc = "EVTDESC777703"
+	picture = "portuguese_secession"
+	
+	
+	trigger = {
+		tag = SPA
+		SPA = { war_exhaustion = 15 }
+		NOT = { has_country_flag = lisbon_uprising }
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	fire_only_once = yes
+	
+	immediate = {
+		521 = { secede_province = GLC }
+	}
+	
+	option = {
+		name = "EVTOPT777703A"
+		prestige = -25
+		523 = { secede_province = GLC }
+		522 = { secede_province = GLC }
+		520 = { secede_province = GLC }
+		519 = { secede_province = GLC }
+		518 = { secede_province = GLC }
+		476 = { secede_province = GLC }
+		474 = { secede_province = GLC }
+		3251 = { secede_province = GLC }
+		ai_chance = { factor = 10 }
+	}
+	
+	option = {
+		name = "EVTOPT777703B"
+		prestige = 25
+		badboy = 5
+		523 = { secede_province = GLC }
+		522 = { secede_province = GLC }
+		520 = { secede_province = GLC }
+		519 = { secede_province = GLC }
+		518 = { secede_province = GLC }
+		476 = { secede_province = GLC }
+		474 = { secede_province = GLC }
+		3251 = { secede_province = GLC }
+		war = {
+			target = GLC
+			attacker_goal = { 
+				casus_belli = establish_protectorate_casus_belli
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = no
+		}
+		ai_chance = { factor = 90 }
+		
+	}
+	
+	option = {
+		name = "EVTOPT777703C"
+		prestige = -10
+		523 = { secede_province = GLC }
+		522 = { secede_province = GLC }
+		520 = { secede_province = GLC }
+		519 = { secede_province = GLC }
+		518 = { secede_province = GLC }
+		476 = { secede_province = GLC }
+		474 = { secede_province = GLC }
+		3251 = { secede_province = GLC }
+		change_tag_no_core_switch = GLC
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 777704
+	title = "EVTNAME777704" #Fall of Algarve
+	desc = "EVTDESC777704"
+	picture = "leopold_von_hohenzollern"
+	major = yes
+	
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT777704A"
+		prestige = -5
+		any_pop = { militancy = -0.5 }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT777704B"
+		prestige = 15
+		badboy = 5
+		any_pop = { militancy = 2.0 }
+		war = {
+			target = GLC
+			attacker_goal = { 
+				casus_belli = establish_protectorate_casus_belli
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = no
+		}
+		ai_chance = { factor = 0 }
+	}
+	
+}
+
+country_event = {
+	id = 777705
+	title = "EVTNAME777705" #The Italian Secession
+	desc = "EVTDESC777705"
+	picture = "the_sicilian_republic"
+	major = yes
+	
+	trigger = {
+		tag = SPA
+		SPA = { war_exhaustion = 20 }
+		SIC = { vassal_of = THIS }
+		NOT = { has_country_flag = italian_uprising }
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	fire_only_once = yes
+	
+	immediate = {
+		release_vassal = SIC 
+		SIC = { government = provisional_state }
+		release = SRD
+		SRD = { government = provisional_state }
+		any_country = {
+			limit = {
+				war_with = SIC
+			}
+			end_war = THIS
+		}
+	}
+	
+	option = {
+		name = "EVTOPT777705A"
+		prestige = -5
+		any_pop = { militancy = -0.5 }
+		SPA = { release_vassal = SIC }
+		SIC = { country_event = 777706 }
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+		name = "EVTOPT777705B"
+		prestige = 15
+		badboy = 5
+		any_pop = { militancy = 2.0 }
+		SPA = { release_vassal = SIC }
+		SIC = { country_event = 777706 }
+		war = {
+			target = SIC
+			attacker_goal = { 
+				casus_belli = establish_protectorate_casus_belli
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = no
+		}
+		ai_chance = { factor = 10 }
+	}
+	
+}
+
+###NAPLES RELATED EVENTS###
+
+country_event = {
+	id = 777706
+	title = "EVTNAME777706" #The Neapolitan Revolution
+	desc = "EVTDESC777706"
+	picture = "the_sicilian_republic"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT777706A"
+		prestige = 12.5
+		political_reform = universal_weighted_voting
+		political_reform = free_press
+		political_reform = federalism
+		political_reform = gerrymandering
+		any_pop = { militancy = 1 }
+		set_country_flag = fate_of_naples_republic
+		ai_chance = { factor = 98 }
+	}
+	
+	option = {
+		name = "EVTOPT777706B"
+		prestige = 20
+		badboy = 2.5
+		government = presidential_dictatorship
+		any_pop = { militancy = -1 }
+		set_country_flag = fate_of_naples_republic
+		ai_chance = { factor = 2 }
+	}
+	
+}
+
+###IMMEDIATE POST WAR EVENTS###
+
+country_event = {
+	id = 777707
+	title = "EVTNAME777707" #The Republlican Spanish Demands
+	desc = "EVTDESC777707"
+	picture = "portuguese_secession"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT777707A" #Border Treaty and Alliance
+		GLC = { country_event = 777709 }
+		ai_chance = { factor = 89 }
+	}
+	
+	option = {
+		name = "EVTOPT777707B" #Full Reintegration
+		GLC = { country_event = 777710 }
+		war = {
+			target = GLC
+			attacker_goal = { 
+				casus_belli = establish_protectorate_casus_belli
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = no
+		}
+		set_country_flag = galician_affairs_completed
+		ai_chance = { factor = 11 }
+	}
+	
+}
+
+country_event = {
+	id = 777708
+	title = "EVTNAME777708" #The Royalist Spanish Demands
+	desc = "EVTDESC777708"
+	picture = "portuguese_secession"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT777708A" #Border Treaty and become a Monarchy
+		GLC = { country_event = 777711 }
+		ai_chance = { factor = 10 }
+	}
+	
+	option = {
+		name = "EVTOPT777708B" #Full Reintegration
+		GLC = { country_event = 777710 }
+		war = {
+			target = GLC
+			attacker_goal = { 
+				casus_belli = establish_protectorate_casus_belli
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = no
+		}
+		set_country_flag = galician_affairs_completed
+		ai_chance = { factor = 90 }
+	}
+	
+}
+
+country_event = {
+	id = 777712
+	title = "EVTNAME777712" #The Galician Refused
+	desc = "EVTDESC777712"
+	picture = "portuguese_secession"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT777712A" #Let them go
+		prestige = -5
+		badboy = -5
+		set_country_flag = galician_affairs_completed
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "EVTOPT777708B" #Full Reintegration/Declare war
+		badboy = 5
+		GLC = { country_event = 777710 }
+		war = {
+			target = GLC
+			attacker_goal = { 
+				casus_belli = establish_protectorate_casus_belli
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = no
+		}
+		set_country_flag = galician_affairs_completed
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 777713
+	title = "EVTNAME777713" #The Spanish Occupation of Andorra
+	desc = "EVTDESC777713"
+	picture = "battle_at_zorndorf"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT777713A" #Submit to the Spaniards
+		SPC = { inherit = THIS }
+		3252 = { add_core = SPC }
+		FRA = { country_event = 777714 }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT777713B" #No one plays Andorra, this is a meme tbh
+		SPC = { country_event = 777715 }
+		ai_chance = { factor = 0 }
+	}
+	
+}
+
+country_event = {
+	id = 777715
+	title = "EVTNAME777715" #The Andorrans refused to submit
+	desc = "EVTDESC777715"
+	picture = "battle_at_zorndorf"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT777715A" #To war with Andorra
+		3252 = { add_core = SPC }
+		war = {
+			target = ADO
+			attacker_goal = { 
+				casus_belli = establish_protectorate_casus_belli
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = no
+		}
+		FRA = { country_event = 777714 }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT777715B" #They are not worth a war
+		prestige = -15
+		ai_chance = { factor = 0 }
+	}
+	
+}
