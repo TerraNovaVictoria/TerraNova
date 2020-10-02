@@ -4,5 +4,5 @@ add_core = BGY
 add_core = AUV
 add_core = FRA
 trade_goods = coal
-life_rating = 30
+life_rating = 35
 1861.1.1 = { railroad = 2 }
