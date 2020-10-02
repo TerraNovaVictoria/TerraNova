@@ -2,4 +2,4 @@ owner = PAP
 controller = PAP
 add_core = PAP
 trade_goods = sulphur
-life_rating = 30
+life_rating = 35
