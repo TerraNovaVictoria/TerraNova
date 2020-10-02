@@ -3,6 +3,6 @@ controller = FRA
 add_core = GSC
 add_core = FRA
 trade_goods = grain
-life_rating = 35
+life_rating = 40
 terrain = toulouse
 1861.1.1 = { railroad = 2 }
