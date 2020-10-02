@@ -3,5 +3,5 @@ controller = NIZ
 add_core = NIZ
 add_core = ITA
 trade_goods = grain
-life_rating = 34
+life_rating = 35
 terrain = nice
