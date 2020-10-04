@@ -1,5 +1,5 @@
-owner = TIB
-controller = TIB
+owner = XBI
+controller = XBI
 add_core = TIB
 add_core = XBI
 add_core = CHI

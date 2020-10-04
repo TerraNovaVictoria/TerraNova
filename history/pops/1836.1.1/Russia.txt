@@ -43,17 +43,29 @@
 		religion = orthodox
 		size = 2000
 	}
-
+	
+	farmers = {
+		culture = russian
+		religion = orthodox
+		size = 27550
+	}
+	
+	serfs = {
+		culture = russian
+		religion = orthodox
+		size = 15000
+	}
+	
 	farmers = {
 		culture = ruthenian
 		religion = orthodox
-		size = 40550
+		size = 13000
 	}
 	
 	serfs = {
 		culture = ruthenian
 		religion = orthodox
-		size = 40000
+		size = 25000
 	}
 
 	clergymen = {
@@ -433,13 +445,13 @@
 	farmers = {
 		culture = ruthenian
 		religion = orthodox
-		size = 46975
+		size = 6975
 	}
 
 	serfs = {
 		culture = ruthenian
 		religion = orthodox
-		size = 100000
+		size = 65000
 	}
 	
 	aristocrats = {
@@ -469,7 +481,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 26925
+		size = 101925
 	}
 }
 #Voronets (1540000/385000 POPS)

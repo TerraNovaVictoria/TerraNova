@@ -3,39 +3,45 @@
 #Ruse (188000/47000 POPS)
 811 = {
 	aristocrats = {
-		culture = selonian
-		religion = catholic
+		culture = north_german
+		religion = protestant
 		size = 550
 	}
 
 	clergymen = {
-		culture = selonian
-		religion = catholic
+		culture = north_german
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
-		culture = selonian
-		religion = catholic
+		culture = north_german
+		religion = protestant
 		size = 850
+	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 1950
 	}
 
 	soldiers = {
 		culture = selonian
-		religion = catholic
+		religion = protestant
 		size = 1000
 	}
 	
 	farmers = {
 		culture = selonian
-		religion = catholic
-		size = 2600
+		religion = protestant
+		size = 4600
 	}
 	
 	farmers = {
 		culture = estonian
-		religion = catholic
-		size = 6550
+		religion = protestant
+		size = 3150
 	}
 
 	artisans = {
@@ -47,20 +53,26 @@
 #Ajmer (200000/50000 POPS)
 1264 = {
 	aristocrats = {
-		culture = estonian
-		religion = catholic
+		culture = north_german
+		religion = protestant
 		size = 500
+	}
+	
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 100
 	}
 
 	clergymen = {
-		culture = estonian
-		religion = catholic
+		culture = north_german
+		religion = protestant
 		size = 500
 	}
 
 	artisans = {
-		culture = estonian
-		religion = catholic
+		culture = north_german
+		religion = protestant
 		size = 2000
 	}
 
@@ -106,11 +118,6 @@
 		size = 5325
 	}
 
-	bureaucrats = {
-		culture = north_german
-		religion = protestant
-		size = 100
-	}
 }
 #Riga (220000/55000 POPS)  
 354 = {
@@ -598,7 +605,7 @@
 #Ventspils (140000/35000 POPS) #uralic = Livonian 
 358 = {
 	clergymen = {
-		culture = ugrian
+		culture = estonian
 		religion = protestant
 		size = 225
 	}
@@ -652,7 +659,7 @@
 	}
 
 	farmers = {
-		culture = estonian
+		culture = north_german
 		religion = protestant
 		size = 5500
 	}
@@ -704,7 +711,7 @@
 	farmers = {
 		culture = selonian
 		religion = protestant
-		size = 21475
+		size = 10925
 	}
 
 	aristocrats = {
@@ -722,13 +729,19 @@
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 400
+		size = 7400
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = protestant
 		size = 100
+	}
+	
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 3475
 	}
 
 	clergymen = {

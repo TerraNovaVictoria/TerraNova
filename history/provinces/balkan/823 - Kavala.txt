@@ -1,5 +1,5 @@
 owner = ANA
-controller = ANA
+controller = ANT
 add_core = ANA
 add_core = MCD
 add_core = GRE

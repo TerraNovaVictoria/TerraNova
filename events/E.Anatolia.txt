@@ -144,7 +144,7 @@ country_event = {
 
 country_event = {
 	id = 121222
-	title = "EVTNAME121222" #Anarchy in the Balkans
+	title = "EVTNAME121222" #Anarchy in the Balkans - Vassals gain independence
 	desc = "EVTDESC121222"
 	picture = "kurdish_soldiers"
 	
@@ -243,8 +243,11 @@ country_event = {
 			secede_province = SER
 		}
 		ANA = { release_vassal = WAL }
+		WAL = { country_event = 121223 }
 		ANA = { release_vassal = SER }
+		SER = { country_event = 121223 }
 		ANA = { release_vassal = HER }
+		HER = { country_event = 121223 }
 		relation = { who = WAL value = -200 }
 		relation = { who = SER value = -200 }
 		relation = { who = HER value = -200 }
@@ -278,4 +281,22 @@ country_event = {
 		}
 	}
 
+}
+
+country_event = {
+	id = 121223
+	title = "EVTNAME121223" #Notification of independence
+	desc = "EVTDESC121223"
+	picture = "kurdish_soldiers"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA121223"
+		government = absolute_monarchy
+		ai_chance = {
+			factor = 100
+		}
+	}
 }

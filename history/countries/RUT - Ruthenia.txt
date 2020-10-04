@@ -1,7 +1,7 @@
-capital = 718
+capital = 946
 primary_culture = ruthenian
 religion = orthodox
-government = absolute_monarchy
+government = subject
 plurality = 0.02
 nationalvalue = nv_autocracy
 literacy = 0.15

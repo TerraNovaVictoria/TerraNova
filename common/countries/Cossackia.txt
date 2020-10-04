@@ -1,4 +1,5 @@
 color = { 200  202  85 }
+subject = { 87 135 79 }
 graphical_culture = RussianGC
 
 party = {

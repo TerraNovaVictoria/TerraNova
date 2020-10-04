@@ -20,3 +20,8 @@ UBD = {
 	level = 5		
 	influence_value = 25
 }
+RUT = {
+	value = 125		
+	level = 3		
+	influence_value = 25
+}

@@ -267,7 +267,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 22525
+		size = 20525
 	}
 	
 	aristocrats = {
@@ -303,7 +303,7 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 23650
+		size = 25650
 	}
 	
 	aristocrats = {

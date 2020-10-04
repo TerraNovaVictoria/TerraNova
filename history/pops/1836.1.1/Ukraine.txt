@@ -3905,7 +3905,7 @@
 	serfs = {
 		culture = ruthenian
 		religion = orthodox
-		size = 80000
+		size = 60000
 	}
 	
 	aristocrats = {
@@ -3977,7 +3977,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 37075
+		size = 57075
 	}
 }
 #Donbass Region (652000) #see Russia.txt for balance of region 

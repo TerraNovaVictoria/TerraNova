@@ -7,6 +7,12 @@ AZB_primitive_absolute_monarchy;Baku;;;;;;;;;;;;;x
 AZB_primitive_absolute_monarchy_ADJ;Bakunid;;;;;;;;;;;;;x
 BEL_subject;The Bavarian Netherlands;;;;;;;;;;;;;x
 BEL_subject_ADJ;Bavarian;;;;;;;;;;;;;x
+RUT_subject;The Polotsk March;;;;;;;;;;;;;x
+RUT_subject_ADJ;Polotskian;;;;;;;;;;;;;x
+RUT_dominion;Polotsk-Ruthenia;;;;;;;;;;;;;x
+RUT_dominion_ADJ;Ruthenian;;;;;;;;;;;;;x
+DON_subject;The Cossack Territory;;;;;;;;;;;;;x
+DON_subject_ADJ;Cossack;;;;;;;;;;;;;x
 FRA_democracy;The French Republic;;;;;;;;;;;;;x
 NYS;Midgardy;;;;;;;;;;;;;x
 NYS_ADJ;Midgardic;;;;;;;;;;;;;x
@@ -211,7 +217,7 @@ HRE_democracy;The Central European Republic;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 HRE_presidential_dictatorship;The Central European Republic;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 KOR;Korea;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 KOR_absolute_monarchy;The Korean Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-KOR_subject;Xin Ungjin;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+KOR_subject;Xinjin;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 PRU_subject;The Prussian Confederation;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 BLT;Baltia;;;;;;;;;;;;;x
 BLT_ADJ;Baltic;;;;;;;;;;;;;x

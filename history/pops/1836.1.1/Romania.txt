@@ -2566,7 +2566,7 @@
 	farmers = {
 		culture = tatar
 		religion = sunni
-		size = 8000
+		size = 19000
 	}
 
 	farmers = {
@@ -2590,7 +2590,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 59525
+		size = 9525
 	}
 	
 	slaves = {

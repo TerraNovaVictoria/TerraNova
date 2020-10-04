@@ -1,4 +1,6 @@
 color = { 100 140 110 }
+subject = { 217  112  126 }
+dominion = { 87 135 79 }
 graphical_culture = Generic
 
 party = {

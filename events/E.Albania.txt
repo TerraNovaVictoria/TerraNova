@@ -1,0 +1,132 @@
+country_event = {
+	id = 120220
+	title = "EVTNAME120220" #Kosovo joins Albania?
+	desc = "EVTDESC120220"
+	picture = "kurdish_soldiers"
+
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPTA120220"
+		KSV = {
+			all_core = {
+				remove_core = KSV
+				add_core = ALB
+			}
+		}
+		ALB = { inherit = KSV country_event = 120221 }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPTB120220"
+		prestige = 5
+		ALB = { country_event = 120222 }
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 120221
+	title = "EVTNAME120221" #Formation of the Albanian Kingdom
+	desc = "EVTDESC120221"
+	picture = "kurdish_soldiers"
+
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPTA120221"
+		government = absolute_monarchy
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 0.5
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 0.5
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 0.5
+			}
+		}
+	}
+	ai_chance = { factor = 100 }
+}
+
+country_event = {
+	id = 120222
+	title = "EVTNAME120222" #Kosovo refused!
+	desc = "EVTDESC120222"
+	picture = "kurdish_soldiers"
+
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPTA120222" #Albania must be united
+		KSV = { all_core = { add_core = ALB } }
+		badboy = 5
+		prestige = 10
+		government = absolute_monarchy
+	}
+	option = {
+		name = "EVTOPTB120222" #Albanian suicide option
+		prestige = -20
+	}
+	ai_chance = { factor = 100 }
+}
+
+country_event = {
+	id = 120223
+	title = "EVTNAME120223" #The Albanian Reforms
+	desc = "EVTDESC120223"
+	picture = "kurdish_soldiers"
+
+	is_triggered_only = yes
+		
+	option = {
+		name = "EVTOPTA120223" #minor reform
+		economic_reform = yes_admin_reform
+		economic_reform = yes_firearms_production
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 0.5
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = -0.5
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = -0.5
+			}
+		}
+	}
+	ai_chance = { factor = 50 }
+	
+	option = {
+		name = "EVTOPTB120223" #major reform
+		economic_reform = yes_education_reform
+		economic_reform = yes_admin_reform
+		economic_reform = yes_firearms_production
+		economic_reform = yes_finance_reform
+		economic_reform = yes_land_reform
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = -2
+			}
+			scaled_militancy = {
+				ideology = conservative
+				factor = 1
+			}
+			scaled_militancy = {
+				ideology = reactionary
+				factor = 1
+			}
+		}
+	}
+	ai_chance = { factor = 50 }
+}

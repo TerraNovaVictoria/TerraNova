@@ -43,17 +43,11 @@
 		religion = mahayana
 		size = 10000
 	}
-
-	farmers = {
-		culture = beifaren
-		religion = mahayana
-		size = 150025
-	}
 	
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 122125
+		size = 272125
 	}
 
 	slaves = {
@@ -103,13 +97,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 113000
-	}
-	
-	farmers = {
-		culture = beifaren
-		religion = mahayana
-		size = 90000
+		size = 203000
 	}
 	
 	farmers = {
@@ -201,6 +189,12 @@
 		religion = mahayana
 		size = 9000
 	}
+	
+	farmers = {
+		culture = korean
+		religion = mahayana
+		size = 52600
+	}
 
 	soldiers = {
 		culture = manchu
@@ -211,7 +205,7 @@
 	farmers = {
 		culture = manchu
 		religion = mahayana
-		size = 152600
+		size = 100000
 	}
 
 	slaves = {
@@ -249,13 +243,13 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 70625
+		size = 90625
 	}
 	
 	farmers = {
 		culture = manchu
 		religion = mahayana
-		size = 80625
+		size = 60625
 	}
 
 	slaves = {
@@ -431,13 +425,13 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 67625
+		size = 187625
 	}
 	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 57625
+		size = 10625
 	}
 
 	slaves = {
@@ -493,13 +487,7 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 100625
-	}
-	
-	farmers = {
-		culture = beifaren
-		religion = mahayana
-		size = 47625
+		size = 147625
 	}
 
 	slaves = {

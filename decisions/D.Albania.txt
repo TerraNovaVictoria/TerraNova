@@ -1,0 +1,60 @@
+political_decisions = {
+
+	kosovo_unites_with_albania = { 
+		picture = quito_map
+		potential = {
+			tag = ALB
+			exists = KSV
+		}
+		
+		allow = {
+			war = no
+			KSV = { war = no }
+			KSV = {
+				all_core = {
+					owned_by = KSV
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			KSV = { country_event = 120220 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	albanian_reforms = { 
+		picture = quito_map
+		potential = {
+			tag = ALB
+			civilized = no
+			admin_reform = no_admin_reform
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				government = absolute_monarchy 
+				government = prussian_constitutionalism
+				government = hms_government
+				government = democracy
+				government = presidential_dictatorship
+			}
+			KSV = { exists = no }
+		}
+		
+		effect = {
+			prestige = 15
+			ALB = { country_event = 120223 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

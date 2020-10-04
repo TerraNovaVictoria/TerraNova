@@ -151,7 +151,7 @@
 	farmers = {
 		culture = czech
 		religion = catholic
-		size = 22950 
+		size = 52950 
 	}
 	
 	serfs = {
@@ -187,7 +187,7 @@
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 46700 
+		size = 16700 
 	}
 
 	clergymen = {

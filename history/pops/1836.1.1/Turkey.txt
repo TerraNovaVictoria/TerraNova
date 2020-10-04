@@ -37,7 +37,7 @@
 	farmers = {
 		culture = anatoli
 		religion = sunni
-		size = 47750
+		size = 37750
 	}
 
 	aristocrats = {
@@ -67,7 +67,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 12125
+		size = 22125
 	}
 	
 	farmers = {
@@ -406,7 +406,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 13675
+		size = 18675
 	}
 	
 	farmers = {
@@ -460,7 +460,7 @@
 	farmers = {
 		culture = anatoli
 		religion = sunni
-		size = 35900
+		size = 30900
 	}
 	
 	farmers = {
@@ -821,7 +821,7 @@
 	farmers = {
 		culture = anatoli
 		religion = sunni
-		size = 38575
+		size = 48575
 	}
 	
 	aristocrats = {
@@ -857,7 +857,13 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 33850
+		size = 23850
+	}
+	
+	farmers = {
+		culture = turkish
+		religion = sunni
+		size = 3850
 	}
 	
 	aristocrats = {
@@ -1361,7 +1367,7 @@
 	farmers = {
 		culture = anatoli
 		religion = sunni
-		size = 10350
+		size = 18350
 	}
 
 	aristocrats = {
@@ -1409,13 +1415,13 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 20750
+		size = 19750
 	}
 	
 	farmers = {
 		culture = greek
 		religion = sunni
-		size = 14750
+		size = 7750
 	}
 	
 	aristocrats = {

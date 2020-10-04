@@ -89,32 +89,32 @@
 #Famagusta (44000/11000 POPS)
 857 = {
 	aristocrats = {
-		culture = greek
-		religion = orthodox
+		culture = pan_italian
+		religion = catholic
 		size = 200
 	}
 
 	clergymen = {
-		culture = greek
-		religion = orthodox
+		culture = pan_italian
+		religion = catholic
 		size = 110
 	}
 
 	artisans = {
-		culture = greek
-		religion = orthodox
+		culture = pan_italian
+		religion = catholic
 		size = 150
 	}
 
 	soldiers = {
-		culture = greek
-		religion = orthodox
+		culture = pan_italian
+		religion = catholic
 		size = 100
 	}
 
 	farmers = {
-		culture = greek
-		religion = orthodox
+		culture = pan_italian
+		religion = catholic
 		size = 2500
 	}
 	
