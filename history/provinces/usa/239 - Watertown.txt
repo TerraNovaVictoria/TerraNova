@@ -3,3 +3,4 @@ controller = CAN
 add_core = CAN
 add_core = MID
 trade_goods = iron
+life_rating = 30

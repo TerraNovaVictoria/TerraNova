@@ -1131,7 +1131,7 @@
 	}
 	
 	artisans = {
-		culture = anatolic
+		culture = anatoli
 		religion = sunni
 		size = 2050
 	}

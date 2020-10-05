@@ -28,7 +28,7 @@
 
 	artisans = {
 		culture = polish
-		religion = polish
+		religion = catholic
 		size = 2500
 	}
 

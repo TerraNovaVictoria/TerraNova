@@ -4,17 +4,13 @@ political_decisions = {
 		picture = quito_map
 		potential = {
 			tag = ALB
-			exists = KSV
+			KSV = { exists = yes }
 		}
 		
 		allow = {
 			war = no
+			KSV = { exists = yes }
 			KSV = { war = no }
-			KSV = {
-				all_core = {
-					owned_by = KSV
-				}
-			}
 		}
 		
 		effect = {

@@ -94,9 +94,7 @@ schools = culture_tech_school
 govt_flag = {
 	government = absolute_monarchy
 	flag = theocracy
-}
 
-govt_flag = {
 	government = prussian_constitutionalism
 	flag = theocracy
 }

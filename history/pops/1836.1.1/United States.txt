@@ -4265,25 +4265,25 @@
 
 	clergymen = {
 		culture = avalonian
-		religion = mormon
+		religion = catholic
 		size = 15
 	}
 
 	artisans = {
 		culture = avalonian
-		religion = mormon
+		religion = catholic
 		size = 50
 	}
 
 	soldiers = {
 		culture = avalonian
-		religion = mormon
+		religion = catholic
 		size = 15
 	}
 
 	farmers = {
 		culture = gwladychwr
-		religion = mormon
+		religion = catholic
 		size = 1400
 	}
 
@@ -5018,25 +5018,25 @@
 
 	clergymen = {
 		culture = avalonian
-		religion = mormon
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
 		culture = avalonian
-		religion = mormon
+		religion = catholic
 		size = 350
 	}
 
 	farmers = {
 		culture = gwladychwr
-		religion = mormon
+		religion = catholic
 		size = 4000
 	}
 
 	soldiers = {
 		culture = avalonian
-		religion = mormon
+		religion = catholic
 		size = 250
 	}
 }

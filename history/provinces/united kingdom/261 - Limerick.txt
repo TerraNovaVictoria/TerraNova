@@ -1,5 +1,5 @@
-owner = CYM
-controller = CYM
+owner = IRE
+controller = IRE
 add_core = CYM
 add_core = IRE
 trade_goods = fish

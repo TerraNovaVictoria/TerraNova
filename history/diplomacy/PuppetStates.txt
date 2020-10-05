@@ -212,6 +212,20 @@ substate = {
 
 substate = {
 	first = CYM
+	second = ENL
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+substate = {
+	first = CYM
+	second = IRE
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+substate = {
+	first = CYM
 	second = AST
 	start_date = 1815.1.1
 	end_date = 1936.1.1

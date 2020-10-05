@@ -1,4 +1,6 @@
 color = { 239  96  88 }
+subject = { 220 26 72 }
+dominion = { 240 46 92 }
 graphical_culture = BritishGC
 
 party = {

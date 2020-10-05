@@ -1,6 +1,6 @@
 owner = ANA
 controller = ANA
 add_core = ANA
-add_core = HER
+add_core = SER
 trade_goods = iron
 life_rating = 35

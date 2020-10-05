@@ -2,10 +2,6 @@ NET = {
 	value = 60
 }
 
-POR = {
-	value = 40
-}
-
 MOS = {
 	value = 10
 }

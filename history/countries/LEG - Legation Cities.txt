@@ -6,7 +6,7 @@ culture = hakka
 culture = miao
 culture = min
 culture = zhuang
-culture = yue
+culture = cantonese
 culture = yi
 
 religion = mahayana

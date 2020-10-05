@@ -102,7 +102,7 @@ MOL = {
 }
 
 # Montenegro FIXED
-MON = {
+HER = {
     color1= { 244 56 49  }
     color2= { 255 255 255  }
     color3= { 184 193 89  }
@@ -383,24 +383,10 @@ HES = {
     color3= { 195 149 155  }
 }
 
-# Hesse-Kassel FIXED
-HEK = {
-    color1= { 244 56 49  }
-    color2= { 255 255 255  }
-    color3= { 195 149 155  }
-}
-
 # Mecklenburg FIXED
 MEC = {
     color1= { 248 199 67  }
     color2= { 244 56 49  }
-    color3= { 112 150 105  }
-}
-
-# Saxe-Meiningen FIXED
-MEI = {
-    color1= { 134 224 126  }
-    color2= { 255 255 255  }
     color3= { 112 150 105  }
 }
 
@@ -415,20 +401,6 @@ OLD = {
 SAX = {
     color1= { 255 255 255  }
     color2= { 134 224 126  }
-    color3= { 117 127 174  }
-}
-
-# Saxe-Weimar FIXED
-WEI = {
-    color1= { 134 224 126  }
-    color2= { 100 100 100  }
-    color3= { 117 127 174  }
-}
-
-# Saxe-Coburg-Gotha FIXED
-COB = {
-    color1= { 134 224 126  }
-    color2= { 248 199 67  }
     color3= { 117 127 174  }
 }
 
@@ -461,7 +433,7 @@ NAS = {
 }
 
 # Portugal FIXED
-POR = {
+GAL = {
 
     color1= { 103 123 204  }
     color2= { 255 255 255  }
@@ -1015,13 +987,6 @@ KAL = {
     color1= { 90 164 107  }
     color2= { 244 56 49  }
     color3= { 99 137 153  }
-}
-
-# Kutch FIXED
-KUT = {
-    color1= { 244 56 49  }
-    color2= { 255 255 255  }
-    color3= { 69 157 208  }
 }
 
 # Makran

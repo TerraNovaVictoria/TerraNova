@@ -2736,7 +2736,7 @@
 
 	farmers = {
 		culture = greek
-		religion = othodox
+		religion = orthodox
 		size = 11525
 	}
 	

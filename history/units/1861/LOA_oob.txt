@@ -1,7 +1,3 @@
-POR = {
-	value = 75
-}
-
 NET = {
 	value = 30
 }

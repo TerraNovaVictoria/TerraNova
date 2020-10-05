@@ -1,7 +1,3 @@
-POR = {
-	value = 125		#relation
-}
-
 LAN = {
 	value = 200		#relation
 }

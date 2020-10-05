@@ -93,5 +93,3 @@ high_pressure_steam_engine = 1
 # Starting Consciousness
 consciousness = 2
 nonstate_consciousness = 1
-
-oob = "HNL_oob.txt"

@@ -525,10 +525,18 @@ AGN;Aragon;;;;;;;;;;;;;;;;;;;;;;;;x
 AGN_ADJ;Aragonese;;;;;;;;;;;;;;;;;;;;;;;;x
 DRU;Druze;;;;;;;;;;;;;;;;;;;;;;;;x
 DRU_ADJ;Druze;;;;;;;;;;;;;;;;;;;;;;;;x
-UPE;Prydain-Eire;;;;;;;;;;;;;;;;;;;;;;;;x
-UPE_ADJ;Prydish;;;;;;;;;;;;;;;;;;;;;;;;x
+UPE;Prydain-Eire;;;;;;;;;;;;x;;;
+UPE_proletarian_dictatorship;The Commonwealth;;;;;;;;;;;;x
+UPE_fascist_dictatorship;The Celtic Empire;;;;;;;;;;;;x
+UPE_fascist_dictatorship_ADJ;Celtic;;;;;;;;;;;;x
+UPE_presidential_dictatorship;The Republic of Britain;;;;;;;;;;;;x
+UPE_absolute_monarchy;The United Kingdom;;;;;;;;;;;;x
+UPE_prussian_constitutionalism;The United Kingdom;;;;;;;;;;;;x
+UPE_hms_government;The United Kingdom;;;;;;;;;;;;x
+UPE_democracy;The British Republic;;;;;;;;;;;;x
+UPE_ADJ;British;;;;;;;;;;;;x;;;
 GAE;Gaeldom;;;;;;;;;;;;;;;;;;;;;;;;x
-GAE_ADJ;Gaeldom;;;;;;;;;;;;;;;;;;;;;;;;x
+GAE_ADJ;Gaelic;;;;;;;;;;;;;;;;;;;;;;;;x
 UIL;The Union of Illinois;;;;;;;;;;;;x;;;
 UIL_proletarian_dictatorship;The Great Lakes Commune;;;;;;;;;;;;x
 UIL_fascist_dictatorship;The Great Lakes Empire;;;;;;;;;;;;x
@@ -726,12 +734,12 @@ SAM_presidential_dictatorship;Samos;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
 SAM_ADJ;Aegean;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
 VEN_democracy;The Republic of Venice;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 VEN_presidential_dictatorship;Venetia;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-ENL;Edinburgh-Lodainn;;;;;;;;;;;;;x
-ENL_ADJ;Edinburgher;;;;;;;;;;;;;x
-ENL_monarchy;Bernica-Deira;;;;;;;;;;;;;x
-ENL_monarchy_ADJ;Northumbrian;;;;;;;;;;;;;x
-ENL_democracy;Northumbria;;;;;;;;;;;;;x
-ENL_democracy_ADJ;Northumbrian;;;;;;;;;;;;;x
+IRE_subject;Iwerddon;;;;;;;;;;;;;x
+IRE_subject_ADJ;Iwerddonan;;;;;;;;;;;;;x
+ENL;Northumbria;;;;;;;;;;;;;x
+ENL_ADJ;Northumbrian;;;;;;;;;;;;;x
+ENL_subject;Brynaich;;;;;;;;;;;;;x
+ENL_subject_ADJ;Brynaichan;;;;;;;;;;;;;x
 ENL_fascist_dictatorship;Nord-Angland;;;;;;;;;;;;;x
 ENL_fascist_dictatorship_ADJ;Anglish;;;;;;;;;;;;;x
 ENL_proletarian_dictatorship;Gododdin Commune;;;;;;;;;;;;;x
@@ -881,13 +889,13 @@ BRC_hms_government;Boruca;Boruca;Boruca;;;;;;;;;;;x;
 BRC_democracy;Boruca;;;;;;;;;;;;;x
 CYM;Cymru;Cymru;Cymru;;;;;;;;;;;x;
 CYM_ADJ;Cymric;Cymric;Cymric;;;;;;;;;;;x;
-CYM_proletarian_dictatorship;The Socialist Republic of Prydain;The Socialist Republic of Prydain;The Socialist Republic of Prydain;;;;;;;;;;;x;
-CYM_presidential_dictatorship;The Republic of Prydain;The Republic of Prydain;The Republic of Prydain;;;;;;;;;;;x;
-CYM_bourgeois_dictatorship;The Prydain Republic;The Prydain Republic;The Prydain Republic;;;;;;;;;;;x;
-CYM_fascist_dictatorship;Albion;Albion;Albion;;;;;;;;;;;x;
-CYM_absolute_monarchy;The Cymric Empire;The Cymric Empire;The Cymric Empire;;;;;;;;;;;x;
-CYM_prussian_constitutionalism;The Kingdom of Prydain;The Kingdom of Prydain;The Kingdom of Prydain;;;;;;;;;;;x;
-CYM_hms_government;The Kingdom of Prydain;The Kingdom of Prydain;The Kingdom of Prydain;;;;;;;;;;;x;
+CYM_proletarian_dictatorship;The SFR of Prydain;;;;;;;;;;;;;x;
+CYM_presidential_dictatorship;The British Commonwealth;;;;;;;;;;;;;x;
+CYM_bourgeois_dictatorship;The British Republic;;;;;;;;;;;;;x;
+CYM_fascist_dictatorship;The Cymric Empire;;;;;;;;;;;;;x;
+CYM_absolute_monarchy;The Kingdom of Prydain;;;;;;;;;;;;;x;
+CYM_prussian_constitutionalism;The Kingdom of Prydain;;;;;;;;;;;;;x;
+CYM_hms_government;The Kingdom of Prydain;;;;;;;;;;;;;x;
 CYM_democracy;The Republic of Prydain;;;;;;;;;;;;;x
 AVA;Avalon;Avalon;Avalon;;;;;;;;;;;x;
 AVA_ADJ;Avalic;Avalic;Avalic;;;;;;;;;;;x;

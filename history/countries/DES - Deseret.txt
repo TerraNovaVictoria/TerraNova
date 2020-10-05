@@ -1,7 +1,7 @@
 capital = 97
 primary_culture = yankee
 culture = dixie
-religion = mormon
+religion = catholic
 government = theocracy
 plurality = 0.2
 nationalvalue = nv_liberty

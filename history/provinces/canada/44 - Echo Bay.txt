@@ -1,6 +1,6 @@
-owner = RAG
-controller = RAG
-add_core = RAG
+owner = CAN
+controller = CAN
+add_core = CAN
 trade_goods = fish
 life_rating = 30
 colonial = 2

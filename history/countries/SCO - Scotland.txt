@@ -1,4 +1,5 @@
 capital = 269
+primary_culture = welsh
 culture = gaelic
 religion = protestant
 government = hms_government

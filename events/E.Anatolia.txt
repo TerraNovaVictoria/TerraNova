@@ -96,6 +96,7 @@ country_event = {
 			}
 			secede_province = BUL
 		}
+		795 = { secede_province = BUL }
 		relation = { who = BUL value = -100 }
 		any_pop = {
 			limit = { is_primary_culture = yes }
@@ -188,12 +189,21 @@ country_event = {
 				is_core = BOS
 			}
 			secede_province = BOS
+			remove_core = ANA
 		}
 		any_owned = {
 			limit = {
 				is_core = HER
 			}
 			secede_province = HER
+			remove_core = ANA
+		}
+		any_owned = {
+			limit = {
+				is_core = ALB
+			}
+			secede_province = ALB
+			remove_core = ANA
 		}
 		any_owned = {
 			limit = {

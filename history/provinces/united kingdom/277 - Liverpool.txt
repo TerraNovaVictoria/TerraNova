@@ -1,6 +1,7 @@
 owner = CYM
 controller = CYM
 add_core = CYM
+add_core = ENL
 trade_goods = fish
 life_rating = 40
 terrain = liverpool

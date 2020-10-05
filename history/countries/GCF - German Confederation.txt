@@ -1,8 +1,5 @@
 capital = 619
 primary_culture = north_german
-culture = north_german
-culture = siebenburger
-culture = volga_german
 religion = catholic
 government = absolute_monarchy
 plurality = 0.15

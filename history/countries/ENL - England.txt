@@ -1,7 +1,8 @@
-capital = 300
-primary_culture = british
+capital = 280
+primary_culture = welsh
+culture = british
 religion = protestant
-government = hms_government
+government = subject
 plurality = 5
 nationalvalue = nv_order
 literacy = 0.55

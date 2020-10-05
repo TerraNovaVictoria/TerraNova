@@ -75,7 +75,7 @@
 	}
 
 	artisans = {
-		culture = 
+		culture = misri
 		religion = sunni
 		size = 10000
 	}

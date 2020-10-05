@@ -1,6 +1,6 @@
 capital = 593
 primary_culture = north_german
-religion = proestant
+religion = protestant
 government = democracy
 plurality = 25.0
 nationalvalue = nv_order

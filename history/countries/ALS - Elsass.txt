@@ -1,6 +1,5 @@
 capital = 409
 primary_culture = north_german
-culture = north_german
 religion = protestant
 government = democracy
 plurality = 0.0

@@ -48,7 +48,6 @@ army_schools = yes_army_schools
 flintlock_rifles = 1
 
 # Inventions
-bottling_process = yes
 modern_winemaking = yes
 
 # Starting Consciousness

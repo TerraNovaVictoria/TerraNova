@@ -1,7 +1,7 @@
-TUR = {
+VEN = {
 	value = 100
 }
-AUS = {
+BAV = {
 	value = 100
 }
 FRA = {
@@ -10,16 +10,10 @@ FRA = {
 SPA = {
 	value = 100
 }
-USA = {
+CYM = {
 	value = 100
 }
-ENG = {
-	value = 100
-}
-PRU = {
-	value = 100
-}
-POR = {
+HNL = {
 	value = 100
 }
 

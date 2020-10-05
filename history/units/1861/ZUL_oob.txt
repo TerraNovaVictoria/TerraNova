@@ -14,10 +14,6 @@ XHO = {
 	value = 30
 }
 
-POR = {
-	value = 30
-}
-
 leader = {
    name = "Dingane"
    type = land

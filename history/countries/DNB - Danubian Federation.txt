@@ -1,7 +1,7 @@
 capital = 619
 primary_culture = north_german
 culture = hungarian
-culture = slovak
+culture = avari
 culture = czech
 culture = romanian
 culture = croat

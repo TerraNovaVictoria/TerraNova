@@ -1,7 +1,8 @@
 capital = 263
 primary_culture = gaelic
+culture = welsh
 religion = catholic
-government = hms_government
+government = subject
 plurality = 0.1
 nationalvalue = nv_order
 literacy = 0.55

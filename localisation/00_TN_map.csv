@@ -1,4 +1,16 @@
 ;;;;;;;;;;;;;;x,,,
+PROV254;Din Padraig;;;;;;;;;;x;;;;
+PROV255;Dindoire;;;;;;;;;;x;;;;
+PROV263;Droichead;;;;;;;;;;x;;;;
+PROV265;Phoill;;;;;;;;;;x;;;;
+PROV262;Dingarbhán;;;;;;;;;;x;;;;
+PROV260;Mainistir;;;;;;;;;;x;;;;
+PROV261;Faing;;;;;;;;;;x;;;;
+PROV258;Gaillimh;;;;;;;;;;x;;;;
+PROV259;Sligeach;;;;;;;;;;x;;;;
+PROV257;Dinygal;;;;;;;;;;x;;;;
+PROV264;Caerdara;;;;;;;;;;x;;;;
+PROV256;Caertra;;;;;;;;;;x;;;;
 PROV296;Caerodor;;;;;;;;;;x;;;;
 PROV285;Caer;;;;;;;;;;x;;;;
 PROV299;Cernyw;;;;;;;;;;x;;;;
@@ -16,7 +28,7 @@ PROV278;Manceinion;;;;;;;;;;;;;;x
 PROV294;Rhydychen;;;;;;;;;;;;;;x
 PROV277;Lerpwl;;;;;;;;;;;;;;x
 PROV279;Drefgaerog;;;;;;;;;;;;;;x
-PROV303;Ynys Wyth;;;;;;;;;;;;;;x
+PROV303;Wyth;;;;;;;;;;;;;;x
 PROV302;Trallwng;;;;;;;;;;;;;;x
 PROV289;Caerlyr;;;;;;;;;;;;;;x
 PROV288;Penarlâg;;;;;;;;;;;;;;x
@@ -25,7 +37,7 @@ PROV295;Tafwys;;;;;;;;;;;;;;x
 PROV290;Lindon;;;;;;;;;;;;;;x
 PROV281;Ebrauc;;;;;;;;;;;;;;x
 PROV280;Brynaich;;;;;;;;;;;;;;x
-PROV272;Ynys Metcaut;;;;;;;;;;;;;;x
+PROV272;Metcaut;;;;;;;;;;;;;;x
 PROV271;Alclud;;;;;;;;;;;;;;x
 PROV269;Din Eidyn;;;;;;;;;;;;;;x
 PROV283;Amwythig;;;;;;;;;;;;;;x
@@ -40,7 +52,7 @@ PROV270;Yr Wyddfa;;;;;;;;;;;;;;x
 PROV267;Eryri;;;;;;;;;;;;;;x
 PROV268;Penntir;;;;;;;;;;;;;;x
 PROV266;Ardewr;;;;;;;;;;;;;;x
-PROV304;Ynys Môn;;;;;;;;;;;;;;x
+PROV304;Ynys Dyn;;;;;;;;;;;;;;x
 PROV1724;Manaw a Yell;;;;;;;;;;;;;;;;;;;;;;;;x
 ENG_266;Albidosia;;;;;;;;;;;;;;;;;;;;;;;;x
 ENG_271;Ystrad Clud;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -49,8 +61,12 @@ ENG_277;Rheged;;;;;;;;;;;;;;;;;;;;;;;;x
 ENG_280;Yr Ogledd;;;;;;;;;;;;;;;;;;;;;;;;x
 ENG_284;Elmet;;;;;;;;;;;;;;;;;;;;;;;;x
 ENG_291;Gogledd Lloegr;;;;;;;;;;;;;;;;;;;;;;;;x
-ENG_296;Dumnonia;;;;;;;;;;;;;;;;;;;;;;;;x
+ENG_296;Kernow;;;;;;;;;;;;;;;;;;;;;;;;x
 ENG_300;De Lloegr;;;;;;;;;;;;;;;;;;;;;;;;x
+ENG_254;Ulaidh;;;;;;;;;;;;;;;;;;;;;;;;x
+ENG_258;Connachta;;;;;;;;;;;;;;;;;;;;;;;;x
+ENG_260;An Mhumhain;;;;;;;;;;;;;;;;;;;;;;;;x
+ENG_263;Laighin;;;;;;;;;;;;;;;;;;;;;;;;x
 TUR_922;Philadelphia;;;;;;;;;;x;;;;
 TUR_873;Cappadocia;;;;;;;;;;x;;;;
 TUR_894;Tarsos;;;;;;;;;;x;;;;

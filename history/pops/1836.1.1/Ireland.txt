@@ -33,57 +33,57 @@
 	}
 
 	artisans = {
-		culture = gaelic
+		culture = welsh
 		religion = protestant
 		size = 10000
 	}
 	
 	artisans = {
-		culture = gaelic
+		culture = welsh
 		religion = protestant
 		size = 2000
 	}
 
 	farmers = {
-		culture = gaelic
+		culture = welsh
 		religion = protestant
-		size = 20000
+		size = 40000
 	}
 	
 	labourers = {
-		culture = gaelic
+		culture = welsh
 		religion = protestant
-		size = 20250
+		size = 25250
 	}
 	
 	farmers = {
 		culture = gaelic
-		religion = protestant
-		size = 72875
+		religion = catholic
+		size = 57875
 	}
 	
 	clergymen = {
-		culture = welsh
+		culture = british
 		religion = protestant
 		size = 125
 	}
 
 	clergymen = {
-		culture = welsh
+		culture = british
 		religion = protestant
 		size = 125
 	}
 
 	artisans = {
-		culture = welsh
+		culture = british
 		religion = protestant
 		size = 5500
 	}
 
 	labourers = {
-		culture = welsh
+		culture = british
 		religion = protestant
-		size = 15250
+		size = 5250
 	}
 }
 #Londonderry (524000/131000 POPS)
@@ -107,50 +107,56 @@
 	}
 
 	labourers = {
-		culture = gaelic
+		culture = welsh
 		religion = protestant
-		size = 26625
+		size = 10000
+	}
+	
+	farmers = {
+		culture = welsh
+		religion = protestant
+		size = 51625
 	}
 
 	aristocrats = {
-		culture = welsh
+		culture = british
 		religion = protestant
 		size = 500
 	}
 
 	clergymen = {
-		culture = gaelic
+		culture = british
 		religion = protestant
 		size = 125
 	}
 
 	artisans = {
-		culture = gaelic
+		culture = british
 		religion = protestant
 		size = 5000
 	}
 
 	soldiers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 1100
 	}
 
 	farmers = {
-		culture = gaelic
+		culture = british
 		religion = protestant
-		size = 40250
+		size = 5250
 	}
 	
 	clergymen = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 250
 	}
 	
 	farmers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 55000
 	}
 }
@@ -175,114 +181,107 @@
 	}
 
 	soldiers = {
-		culture = gaelic
+		culture = welsh
 		religion = protestant
 		size = 1100
 	}
 
 	labourers = {
-		culture = gaelic
+		culture = welsh
 		religion = protestant
-		size = 38000
+		size = 26000
+	}
+	
+	labourers = {
+		culture = british
+		religion = protestant
+		size = 6000
 	}
 	
 	labourers = {
 		culture = gaelic
-		religion = protestant
-		size = 19000
+		religion = catholic
+		size = 25000
 	}
 	
 	clergymen = {
-		culture = welsh
-		religion = protestant
+		culture = gaelic
+		religion = catholic
 		size = 250
 	}
 
 	artisans = {
-		culture = welsh
-		religion = protestant
+		culture = gaelic
+		religion = catholic
 		size = 500
 	}
 
 	soldiers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 250
 	}
 
 	labourers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 20500
 	}
 }
 #Donegal (508000/127000 POPS) 
 257 = {
 	aristocrats = {
-		culture = welsh
-		religion = protestant
+		culture = gaelic
+		religion = catholic
 		size = 250
 	}
 
 	clergymen = {
-		culture = welsh
-		religion = protestant
+		culture = gaelic
+		religion = catholic
 		size = 250
 	}
 
 	artisans = {
-		culture = welsh
-		religion = protestant
+		culture = gaelic
+		religion = catholic
 		size = 3750
 	}
 
 	soldiers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 500
 	}
 
 	labourers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 93250
 	}
 	
 	clergymen = {
 		culture = welsh
 		religion = protestant
-		size = 50
+		size = 150
 	}
 	
-	farmers = {
-		culture = welsh
-		religion = protestant
-		size = 10575
-	}
-
-
-	clergymen = {
-		culture = welsh
-		religion = protestant
-		size = 50
-	}
-
 	artisans = {
 		culture = welsh
 		religion = protestant
 		size = 2250
 	}
-
+	
 	soldiers = {
 		culture = welsh
 		religion = protestant
 		size = 125
 	}
-
+	
 	farmers = {
-		culture = gaelic
+		culture = welsh
 		religion = protestant
-		size = 16575
+		size = 27575
 	}
 
 }
@@ -291,6 +290,36 @@
 #Galway (548000/137000 POPS)
 258 = {
 	aristocrats = {
+		culture = gaelic
+		religion = catholic
+		size = 500
+	}
+
+	clergymen = {
+		culture = gaelic
+		religion = catholic
+		size = 1250
+	}
+
+	artisans = {
+		culture = gaelic
+		religion = catholic
+		size = 7000
+	}
+
+	soldiers = {
+		culture = gaelic
+		religion = catholic
+		size = 1500
+	}
+
+	farmers = {
+		culture = gaelic
+		religion = catholic
+		size = 126750
+	}
+	
+	aristocrats = {
 		culture = welsh
 		religion = protestant
 		size = 500
@@ -299,45 +328,22 @@
 	clergymen = {
 		culture = welsh
 		religion = protestant
-		size = 1250
-	}
-
-	artisans = {
-		culture = welsh
-		religion = protestant
-		size = 7000
-	}
-
-	soldiers = {
-		culture = gaelic
-		religion = protestant
-		size = 1500
-	}
-
-	farmers = {
-		culture = gaelic
-		religion = protestant
-		size = 126750
+		size = 250
 	}
 }
 #Sligo (768000/192000 POPs)
 259 = {
-	bureaucrats = {
-		culture = welsh
-		religion = protestant
-		size = 500
-	}
-
-	bureaucrats = {
-		culture = welsh
-		religion = protestant
-		size = 250
-	}
 
 	aristocrats = {
 		culture = welsh
 		religion = protestant
 		size = 1100
+	}
+	
+	bureaucrats = {
+		culture = welsh
+		religion = protestant
+		size = 250
 	}
 
 	clergymen = {
@@ -351,16 +357,28 @@
 		religion = protestant
 		size = 9500
 	}
+	
+	aristocrats = {
+		culture = gaelic
+		religion = catholic
+		size = 100
+	}
+	
+	bureaucrats = {
+		culture = gaelic
+		religion = catholic
+		size = 500
+	}
 
 	soldiers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 2500
 	}
 
 	farmers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 176250
 	}
 
@@ -395,67 +413,67 @@
 
 	artisans = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 10000
 	}
 	
 	artisans = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 10000
 	}
 	
 	artisans = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 2000
 	}
 
 	soldiers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 1500
 	}
 
 	farmers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 180350
 	}
 	
 	farmers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 8000
 	}
 
 	aristocrats = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 900
 	}
 
 	bureaucrats = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 750
 	}
 
 	officers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 250
 	}
 
 	soldiers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 500
 	}
 
 	farmers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 5250
 	}
 }
@@ -475,7 +493,7 @@
 
 	artisans = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 10000
 	}
 	
@@ -487,13 +505,13 @@
 
 	soldiers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 1500
 	}
 
 	farmers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 186500
 	}
 }
@@ -519,13 +537,13 @@
 
 	soldiers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 1100
 	}
 
 	farmers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 124750
 	}
 
@@ -620,19 +638,19 @@
 	
 	artisans = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 10000
 	}
 	
 	artisans = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 2000
 	}
 
 	farmers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 110375
 	}
 }
@@ -652,7 +670,7 @@
 	
 	farmers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 20000
 	}
 	
@@ -664,7 +682,7 @@
 	
 	clergymen = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 100
 	}
 
@@ -682,7 +700,7 @@
 
 	farmers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 104400
 	}
 }
@@ -720,7 +738,7 @@
 
 	farmers = {
 		culture = gaelic
-		religion = protestant
+		religion = catholic
 		size = 103000
 	}
 

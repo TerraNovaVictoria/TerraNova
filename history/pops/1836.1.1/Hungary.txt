@@ -1098,25 +1098,25 @@
 
 	clergymen = {
 		culture = shtokavian
-		religion = orthodx
+		religion = orthodox
 		size = 50  
 	}
 
 	artisans = {
 		culture = shtokavian
-		religion = orthodx
+		religion = orthodox
 		size = 1650 
 	}
 
 	soldiers = {
 		culture = shtokavian
-		religion = orthodx
+		religion = orthodox
 		size = 25
 	}
 
 	farmers = {
 		culture = shtokavian
-		religion = orthodx
+		religion = orthodox
 		size = 7275   
 	}
 

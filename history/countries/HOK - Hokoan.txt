@@ -11,7 +11,7 @@ non_state_culture_literacy = 0.01
 # Political reforms
 slavery = no_slavery
 upper_house_composition = population_equal_weight
-vote_franschise = universal
+vote_franschise = first_past_the_post
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = all_trade_unions

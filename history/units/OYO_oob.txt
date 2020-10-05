@@ -2,10 +2,6 @@ NET = {
 	value = 50
 }
 
-POR = {
-	value = 35
-}
-
 BEN = {
 	value = 30
 }
