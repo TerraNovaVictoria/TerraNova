@@ -82,7 +82,6 @@ GRE_837;Central Greece;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV2669;Sondrio;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3262;Belluno;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3261;Pescara;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
-PROV2351;Magdalena;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV3260;Sado;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV1531;Tombara;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 PROV2537;Birara;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
@@ -357,7 +356,6 @@ PROV972;Yekaterinoslav;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 PROV974;Bachmut;;;;;;;;;;;;;;;;;;;x;
 PROV1041;Elista;;;;;;;;;;;;;;;;;;;x;
 PROV745;Livorno;;;;;;;;;;;;;;;;;;;x;
-PROV2436;Salvador da Bahia;;;;;;;;;;;;;;;;;;;x;
 BRZ_2408;Grão - Pará;;;;;;;;;;;;;;;;;;;x;
 BRZ_2428;Nordeste;;;;;;;;;;;;;;;;;;;x;
 PROV2423;Vila da Palma;;;;;;;;;;;;;;;;;;;x;
@@ -929,15 +927,12 @@ PROV2626;Sakami;;;;;;;;;;;;x
 PROV59;Mistissini;;;;;;;;;;;;x
 PROV2140;Hermosillo;;;;;;;;;;;;x
 PROV2137;Nogales;;;;;;;;;;;;x
-PROV2143;Ciudad Juarez;;;;;;;;;;;;x
-PROV2147;Ciudad Acuña;;;;;;;;;;;;x
 PROV2171;Cololo;;;;;;;;;;;;x
 PROV103;Pueblo;;;;;;;;;;;;x
 PROV109;Aspen;;;;;;;;;;;;x
 PROV105;Santa Fe;;;;;;;;;;;;x
 PROV218;Wheeling;;;;;;;;;;;;x
 PROV217;Green Bank;;;;;;;;;;;;x
-PROV2187;La Mesilla;;;;;;;;;;;;x
 PROV2628;Ocos;;;;;;;;;;;;x
 BAV_601;Niederbayern;;;;;;;;;;;;x
 PROV3249;Old Tianjin;;;;;;;;;;;;;x
@@ -965,7 +960,7 @@ PROV60;Richmond;;;;;;;;;;;;x
 PROV211;Lynchburg;;;;;;;;;;;;x
 PROV2186;Guatemala City;;;;;;;;;;;;x
 PROV14;Victoria;;;;;;;;;;;;x
-PROV3259;Jadegebiet;;;;;;;;;;;;;x
+PROV3259;Calais;;;;;;;;;;;;;x
 east_africa;East Africa;;;;;;;;;;;;;x
 west_africa;West Africa;;;;;;;;;;;;;x
 south_west_africa;South-West Africa;;;;;;;;;;;;;x

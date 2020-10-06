@@ -868,14 +868,14 @@ UCA;The UPCA;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
 UCA_democracy;The FRCA;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
 UCA_proletarian_dictatorship;The SFRCA;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
 UCA_fascist_dictatorship;The USCA;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
-COS;Rivas;;;;;;;;;;;;;x;
-COS_ADJ;Rivan;Rivan;Rivan;;;;;;;;;;;x;
-COS_proletarian_dictatorship;People's Commune of Rivas;People's Commune of Rivas;People's Commune of Rivas;;;;;;;;;;;x;
-COS_presidential_dictatorship;Rivas;Rivas;Rivas;;;;;;;;;;;x;
-COS_bourgeois_dictatorship;Rivas;Rivas;Rivas;;;;;;;;;;;x;
-COS_fascist_dictatorship;Rivas;Rivas;Rivas;;;;;;;;;;;x;
-COS_monarchy;Kingdom of Rivas;;;;;;;;;;;;;x;
-COS_democracy;Republic of Rivas;;;;;;;;;;;;;x
+COS;Ribas;;;;;;;;;;;;;x;
+COS_ADJ;Riban;Riban;Riban;;;;;;;;;;;x;
+COS_proletarian_dictatorship;People's Commune of Ribas;People's Commune of Ribas;People's Commune of Ribas;;;;;;;;;;;x;
+COS_presidential_dictatorship;Ribas;Ribas;Ribas;;;;;;;;;;;x;
+COS_bourgeois_dictatorship;Ribas;Ribas;Ribas;;;;;;;;;;;x;
+COS_fascist_dictatorship;Ribas;Ribas;Ribas;;;;;;;;;;;x;
+COS_monarchy;Kingdom of Ribas;;;;;;;;;;;;;x;
+COS_democracy;Republic of Ribas;;;;;;;;;;;;;x
 SMO;Samoa;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 BRC;Boruca;Boruca;Boruca;;;;;;;;;;;x;
 BRC_ADJ;Borucan;Borucan;Borucan;;;;;;;;;;;x;
@@ -995,16 +995,16 @@ AZU_absolute_monarchy;Imperial State of Azul;Imperial State of Azul;Imperial Sta
 AZU_prussian_constitutionalism;Azul-Parania;Azul-Parania;Azul-Parania;;;;;;;;;;;x;
 AZU_hms_government;Royal Azulia;Royal Azulia;Royal Azulia;;;;;;;;;;;x;
 AZU_democracy;Parani Republic;;;;;;;;;;;;;x
-RIO;Rioja;Rioja;Rioja;;;;;;;;;;;x;
-RIO_ADJ;Riojan;Riojan;Riojan;;;;;;;;;;;x;
-RIO_proletarian_dictatorship;Riojan Commune;Riojan Commune;Riojan Commune;;;;;;;;;;;x;
-RIO_presidential_dictatorship;Rioja;Rioja;Rioja;;;;;;;;;;;x;
-RIO_bourgeois_dictatorship;Rioja;Rioja;Rioja;;;;;;;;;;;x;
+RIO;Rioxa;Rioxa;Rioxa;;;;;;;;;;;x;
+RIO_ADJ;Rioxanu;Rioxanu;Rioxanu;;;;;;;;;;;x;
+RIO_proletarian_dictatorship;Rioxanu Commune;Rioxanu Commune;Rioxanu Commune;;;;;;;;;;;x;
+RIO_presidential_dictatorship;Rioxa;Rioxa;Rioxa;;;;;;;;;;;x;
+RIO_bourgeois_dictatorship;Rioxa;Rioxa;Rioxa;;;;;;;;;;;x;
 RIO_fascist_dictatorship;Collasuyu;Collasuyu;Collasuyu;;;;;;;;;;;x;
 RIO_absolute_monarchy;Empire of Collasuyu;Empire of Collasuyu;Empire of Collasuyu;;;;;;;;;;;x;
-RIO_prussian_constitutionalism;Royal Rioja;Royal Rioja;Royal Rioja;;;;;;;;;;;x;
-RIO_hms_government;Royal Rioja;Royal Rioja;Royal Rioja;;;;;;;;;;;x;
-RIO_democracy;Rioja;;;;;;;;;;;;;x
+RIO_prussian_constitutionalism;Royal Rioxa;Royal Rioxa;Royal Rioxa;;;;;;;;;;;x;
+RIO_hms_government;Royal Rioxa;Royal Rioxa;Royal Rioxa;;;;;;;;;;;x;
+RIO_democracy;Rioxa;;;;;;;;;;;;;x
 SMO_ADJ;Samoan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 KHR_ADJ;Khorasani;Khorasani;Khorasani;;;;;;;;;;;x;
 KHR;Khorasan;Khorasan;Khorasan;;;;;;;;;;;x;
