@@ -113,3 +113,100 @@ country_event = {
 		ai_chance = { factor = 0 }
 	}
 }
+
+country_event = {
+	id = 192203
+	title = "EVTNAME192203" #The matter of Ireland
+	desc = "EVTDESC192203"
+	picture = "irish_flag"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT192203A" #Integrate Ireland
+		prestige = 5
+		IRE = { country_event = 192204 }
+		ai_chance = { factor = 80 }
+	}
+		
+	option = {
+		name = "EVTOPT192203B" #Reform Ireland
+		any_owned = {
+			limit = {
+				is_core = IRE
+			}
+			secede_province = IRE
+		}
+		IRE = { government = dominion }
+		ai_chance = { factor = 20 }
+	}
+}
+
+country_event = {
+	id = 192204
+	title = "EVTNAME192204" #The british demands
+	desc = "EVTDESC192204"
+	picture = "irish_flag"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT192204A" #resist london
+		prestige = 25
+		CYM = { country_event = 192205 }
+		CYM = {
+			any_owned = {
+				limit = {
+					is_core = IRE
+				}
+				secede_province = IRE
+			} 
+		}
+		CYM = { release_vassal = IRE }
+		government = absolute_monarchy
+		ai_chance = { factor = 0 }
+	}
+		
+	option = {
+		name = "EVTOPT192204B" # submit to londo
+		CYM = { inherit = THIS }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 192205
+	title = "EVTNAME192205" #The irish rebellion
+	desc = "EVTDESC192205"
+	picture = "irish_flag"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT192205A" #invade
+		war = {
+			target = IRE
+			attacker_goal = {
+				casus_belli = conquest
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+		
+	option = {
+		name = "EVTOPT192205B" #leave them be
+		prestige = -25
+		IRE = {
+			any_owned = {
+				limit = {
+					is_core = CYM
+				}
+				remove_core = CYM
+			} 
+		}
+		ai_chance = { factor = 0 }
+	}
+}

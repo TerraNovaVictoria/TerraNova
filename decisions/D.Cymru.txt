@@ -7,7 +7,6 @@ political_decisions = {
 				tag = CYM
 				tag = UPE
 			}
-			state_and_government = 1
 			NOT = { has_country_flag = claimeded_brittany }
 		}
 		
@@ -25,6 +24,43 @@ political_decisions = {
 			add_accepted_culture = breton
 			BRT = { all_core = { add_core = THIS } }
 			419 = { add_core = THIS }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	brit_centralization_act = { 
+		picture = brynaich_map
+		potential = {
+			OR = {	
+				tag = CYM
+				tag = UPE
+			}
+			AND = {
+				ENL = { exists = yes }
+				IRE = { exists = yes }
+			}
+		}
+		
+		allow = {
+			war = no
+			state_n_government = 1
+			AND = {
+				ENL = { vassal_of = THIS }
+				IRE = { vassal_of = THIS }
+			}
+		}
+		
+		effect = {
+			ENL = {
+				all_core = {
+					remove_core = ENL
+				}
+			}
+			THIS = { inherit = ENL country_event = 192203 }
+			prestige = 5		
 		}
 		
 		ai_will_do = {

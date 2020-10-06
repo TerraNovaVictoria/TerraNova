@@ -1,4 +1,16 @@
 ;;;;;;;;;;;;;;x,,,
+EVTNAME192203;The Irish Question;;;;;;;;;;;;;x
+EVTDESC192203;Iwerddon, also known as Ireland, has been subjugated many centuries ago. However, the various Irish Clans still persist throughout the isle, rendering our administration in many regions de facto obscure. If we want to integrate Ireland, we have to break these clans and remove all their privileges or alternatively set up an Irish Dominion that would rule the island on our behalf through a Cymro-Irish administration.;;;;;;;;;;;;;x
+EVTOPT192203A;They are better off under us.;;;;;;;;;;;;;x
+EVTOPT192203B;Set up a Dominion.;;;;;;;;;;;;;x
+EVTNAME192204;The British Demands;;;;;;;;;;;;;x
+EVTDESC192204;The British Government has put forth a series of demands to our administration that would effectively put all of Ireland under direct rule from Caerloyw. While outrageous, we have little to no means to resist them...;;;;;;;;;;;;;x
+EVTOPT192204A;We rather go down fighting those darn Brits;;;;;;;;;;;;;x
+EVTOPT192204B;Very well, we have no choice.;;;;;;;;;;;;;x
+EVTNAME192205;The Irish Revolt!;;;;;;;;;;;;;x
+EVTDESC192205;Our demands have fallen upon deaf ears and sparked an unprecedented act of defiance towards the crown. The Irish have declared their independence and cut all ties to the Kingdom!;;;;;;;;;;;;;x
+EVTOPT192205A;We'll teach them a lesson. Prepare the fleet!
+EVTOPT192205B;Let them go, they are of no value.
 EVTNAME6666100;The Belgian Revolution;;;;;;;;;;;;;x
 EVTDESC6666100;My Emperor! Our subjects in the Low Countries have revolted against our rule and proclaimed the United States of the Netherlands in Brussels! We have effectively lost control over our holdings in the area and now face another serious issue within the Empire. If we fail to restore order to the Netherlands soon, this might lead to only more trouble in the future.;;;;;;;;;;;;;x
 EVTOPT6666100A;We will prepare a response;;;;;;;;;;;;;x
