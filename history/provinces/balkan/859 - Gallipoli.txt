@@ -1,6 +1,5 @@
 owner = ANT
 controller = ANT
-add_core = ANT
 add_core = GRE
 add_core = ANA
 trade_goods = tobacco

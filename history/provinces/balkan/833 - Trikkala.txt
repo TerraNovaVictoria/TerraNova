@@ -1,5 +1,6 @@
-owner = LAR
-controller = LAR
+owner = ANA
+controller = ANA
+add_core = ANA
 add_core = LAR
 add_core = GRE
 trade_goods = grain

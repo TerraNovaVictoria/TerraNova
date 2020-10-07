@@ -1,5 +1,6 @@
-owner = MCD
-controller = MCD
+owner = ANA
+controller = ANA
+add_core = ANA
 add_core = MCD
 add_core = GRE
 trade_goods = coal

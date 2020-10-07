@@ -3,6 +3,7 @@ controller = SRN
 add_core = IRQ
 add_core = SRN
 add_core = KDS
+add_core = URM
 add_core = PER
 add_core = ASY
 trade_goods = wool

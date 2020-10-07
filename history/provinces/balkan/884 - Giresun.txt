@@ -1,6 +1,5 @@
-owner = ANA
+owner = ANT
 controller = ANA
-add_core = ANT
 add_core = ANA
 add_core = PNT
 trade_goods = fruit

@@ -1,6 +1,6 @@
-owner = URM
-controller = URM
-add_core = IRQ
+owner = ANA
+controller = ANA
+add_core = ANA
 add_core = URM
 add_core = ARM
 add_core = PER

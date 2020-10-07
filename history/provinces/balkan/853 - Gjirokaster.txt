@@ -1,5 +1,6 @@
-owner = VEN
-controller = VEN
+owner = ANA
+controller = ANA
+add_core = ANA
 add_core = EPI
 add_core = ALB
 add_core = GRE

@@ -1,7 +1,7 @@
 ;;;;;;;;;;;;;;x,,,
 colonial_company;Colonial Company;;;;;;;;;x;;;;;;;;
 subject;Autonomous Territory;;;;;;;;;x;;;;;;;;
-subject_state_ruler;My Lord;;;;;;;;;;;;x
+subject_ruler;My Lord;;;;;;;;;;;;x
 provisional_state;Republic;;;;;;;;;x;;;;;;;;
 provisional_state_ruler;My President;;;;;;;;;;;;x
 ancient_regime;Absolute Monarchy;;;;;;;;;x;;;;;;;;

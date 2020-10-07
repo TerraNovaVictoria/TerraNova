@@ -1,5 +1,5 @@
 owner = ANA
-controller = ANT
+controller = ANA
 add_core = ANT
 add_core = ANA
 trade_goods = grain

@@ -2,6 +2,7 @@ owner = BHT
 controller = BHT
 add_core = BHT
 add_core = KDS
+add_core = URM
 add_core = PER
 add_core = ASY
 add_core = IRQ

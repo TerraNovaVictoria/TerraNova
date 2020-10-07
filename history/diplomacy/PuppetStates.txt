@@ -126,20 +126,6 @@ substate = {
 	start_date = 1815.1.1
 	end_date = 1936.1.1
 }
-#Larissa
-substate = {
-	first = MRE
-	second = LAR
-	start_date = 1815.1.1
-	end_date = 1936.1.1
-}
-#Macedonia
-substate = {
-	first = MRE
-	second = MCD
-	start_date = 1815.1.1
-	end_date = 1936.1.1
-}
 
 #POLAND
 #Moldovia
@@ -152,7 +138,6 @@ vassal = {
 
 
 #Anatolian Empire
-#Mosul/Hatay
 
 #Wallachia
 vassal = {
@@ -163,7 +148,7 @@ vassal = {
 }
 
 #Hercegovina
-vassal = {
+substate = {
 	first = ANA
 	second = HER
 	start_date = 1815.1.1
@@ -171,7 +156,7 @@ vassal = {
 }
 
 #Serbia
-vassal = {
+substate = {
 	first = ANA
 	second = SER
 	start_date = 1815.1.1
@@ -179,7 +164,7 @@ vassal = {
 }
 
 #Iraq/Baghdad
-vassal = {
+substate = {
 	first = ANA
 	second = IRQ
 	start_date = 1815.1.1
