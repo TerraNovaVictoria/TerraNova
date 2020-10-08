@@ -1,7 +1,7 @@
 owner = ANA
-controller = ANA
+controller = ANT
 add_core = ANA
-add_core = ATH
+add_core = LAR
 add_core = GRE
 trade_goods = cotton
 life_rating = 35

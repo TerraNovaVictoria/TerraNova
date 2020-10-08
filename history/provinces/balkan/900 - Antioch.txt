@@ -1,6 +1,7 @@
 owner = ANA
 controller = ANA
 add_core = ANA
+add_core = CLC
 add_core = EGY
 add_core = SYR
 trade_goods = fruit

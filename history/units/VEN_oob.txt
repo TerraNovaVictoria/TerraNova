@@ -37,11 +37,11 @@ army = {
 
 army = {
 	name = "Armata del Peloponneso"
-	location = 841
+	location = 825
 	regiment = {
 		name= "1a Divisione di fanteria"
 		type = infantry
-		home = 842
+		home = 835
 	}
 	
 	regiment = {

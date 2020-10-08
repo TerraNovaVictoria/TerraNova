@@ -1,5 +1,6 @@
-owner = BDK
-controller = BDK
+owner = HRT
+controller = HRT
+add_core = HRT
 add_core = BDK
 add_core = PER
 terrain = dryhills

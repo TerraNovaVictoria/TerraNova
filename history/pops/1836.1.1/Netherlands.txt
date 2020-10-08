@@ -581,7 +581,7 @@
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 1034
+		size = 2500
 	}
 	soldiers = {
 		culture = north_german
@@ -591,11 +591,11 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 8745
+		size = 13745
 	}
 	farmers = {
 		culture = frisian
 		religion = protestant
-		size = 8034
+		size = 534
 	}
 }

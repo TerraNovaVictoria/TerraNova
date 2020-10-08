@@ -27,8 +27,8 @@ IRQ = {
 #ARM
 
 army = {
-	name = "1st Imperial Anatolian Army"
-	location = 876
+	name = "1st Imperial Army"
+	location = 864
 	regiment = {
 		name= "1. Sevom Regiment"
 		type = infantry
@@ -45,25 +45,45 @@ army = {
 		home = 894
 	}
 	regiment = {
+		name= "4. Sevom Regiment"
+		type = infantry
+		home = 813
+	}
+	regiment = {
+		name= "5. Sevom Regiment"
+		type = infantry
+		home = 809
+	}
+	regiment = {
+		name= "6. Sevom Regiment"
+		type = infantry
+		home = 812
+	}
+	regiment = {
 		name= "1. Aswari Regiment "
 		type = cuirassier
-		home = 883
+		home = 887
 	}
 	regiment = {
 		name= "2. Aswari Regiment "
 		type = cuirassier
-		home = 883
+		home = 887
 	}
 	regiment = {
 		name= "1. Artillery Regiment"
 		type = artillery
 		home = 879
 	}
+	regiment = {
+		name= "2. Artillery Regiment"
+		type = artillery
+		home = 798
+	}
 }
 
 army = {
-	name = "2nd Imperial Anatolian Army"
-	location = 900
+	name = "2nd Imperial Army"
+	location = 882
 	regiment = {
 		name= "1. Sevom Regiment"
 		type = infantry
@@ -75,8 +95,8 @@ army = {
 		home = 898
 	}
 	regiment = {
-		name= "1. Aswari Regiment"
-		type = cuirassier
+		name= "3. Sevom Regiment"
+		type = infantry
 		home = 898
 	}
 	regiment = {
@@ -87,7 +107,12 @@ army = {
 	regiment = {
 		name= "1. Artillery Regiment "
 		type = artillery
-		home = 882
+		home = 888
+	}
+	regiment = {
+		name= "2. Artillery Regiment "
+		type = artillery
+		home = 802
 	}
 }
 

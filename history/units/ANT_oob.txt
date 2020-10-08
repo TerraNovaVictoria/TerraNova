@@ -1,16 +1,86 @@
+leader = {
+	name = "Demetrios Kalergis"
+	type = land
+	date="1833.1.1"
+	personality = romantic
+	background = poet
+	prestige = 0.1
+}
+
+leader = {
+	name = "Alexander Komnenos"
+	type = land
+	date="1833.1.1"
+	personality = aweless
+	background = poet
+	prestige = 0.1
+}
+
 army = {
-	name = "Greek Partisan Army"
+	name = "1st Greek Partisan Army"
 	location = 863
 	regiment = {
 		name= "1. Greek Partisan Division"
 		type = infantry
-		home = 863
+		home = 861
 	}
 
 	regiment = {
 		name= "2. Greek Partisan Division"
 		type = infantry
-		home = 861
+		home = 862
+	}
+	
+	regiment = {
+		name= "3. Greek Partisan Division"
+		type = infantry
+		home = 863
+	}
+	
+	regiment = {
+		name= "4. Greek Partisan Division"
+		type = cuirassier
+		home = 828
+	}
+
+}
+
+army = {
+	name = "2nd Greek Partisan Army"
+	location = 831
+	regiment = {
+		name= "1. Greek Partisan Division"
+		type = infantry
+		home = 830
+	}
+
+	regiment = {
+		name= "2. Greek Partisan Division"
+		type = infantry
+		home = 859
+	}
+	
+	regiment = {
+		name= "3. Greek Partisan Division"
+		type = infantry
+		home = 860
+	}
+	
+	regiment = {
+		name= "4. Greek Partisan Division"
+		type = cuirassier
+		home = 828
+	}
+
+}
+
+army = {
+	name = "Pontic Remnant Army"
+	location = 881
+	regiment = {
+		name= "1. Pontic Partisan Division"
+		type = infantry
+		home = 882
 	}
 
 }

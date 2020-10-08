@@ -47,7 +47,13 @@
 	farmers = {
 		culture = aramean
 		religion = catholic
-		size = 9000
+		size = 6000
+	}
+	
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 3000
 	}
 
 	clergymen = {
@@ -183,13 +189,25 @@
 	farmers = {
 		culture = aramean
 		religion = catholic
-		size = 4000
+		size = 2000
 	}
 	
 	farmers = {
 		culture = mashriqi
 		religion = catholic
-		size = 27100
+		size = 20000
+	}
+	
+	farmers = {
+		culture = mashriqi
+		religion = sunni
+		size = 9100
+	}
+	
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 1100
 	}
 	
 	soldiers = {
@@ -323,7 +341,13 @@
 	farmers = {
 		culture = aramean
 		religion = orthodox
-		size = 2875
+		size = 1900
+	}
+	
+	farmers = {
+		culture = greek
+		religion = orthodox
+		size = 975
 	}
 	
 	clergymen = {

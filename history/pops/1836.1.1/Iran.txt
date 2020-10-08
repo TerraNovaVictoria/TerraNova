@@ -5,32 +5,32 @@
 1108 = {
 	aristocrats = {
 		culture = persian
-		religion = shiite
+		religion = sunni
 		size = 2500
 	}
 
 	bureaucrats = {
 		culture = persian
-		religion = shiite
+		religion = sunni
 		size = 500
 	}
 
 	officers = {
 		culture = persian
-		religion = shiite
+		religion = sunni
 		size = 400
 	}
 
 	clergymen = {
 		culture = persian
-		religion = shiite
+		religion = sunni
 		size = 1250
 	}
 
 	artisans = {
 		culture = talysh
 		religion = shiite
-		size = 10000
+		size = 9000
 	}
 	
 	artisans = {
@@ -48,43 +48,43 @@
 	farmers = {
 		culture = talysh
 		religion = shiite
-		size = 9850
+		size = 14850
 	}
 
 	farmers = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
-		size = 90850
+		size = 86850
 	}
 
 	aristocrats = {
-		culture = turkish
-		religion = sunni
+		culture = persian
+		religion = shiite
 		size = 1500
 	}
 
 	clergymen = {
-		culture = turkish
-		religion = sunni
+		culture = persian
+		religion = shiite
 		size = 525
 	}
 
 	artisans = {
-		culture = turkish
-		religion = sunni
+		culture = persian
+		religion = shiite
 		size = 8500
 	}
 
 	soldiers = {
-		culture = turkish
-		religion = sunni
+		culture = persian
+		religion = shiite
 		size = 800
 	}
-
+	
 	farmers = {
-		culture = turkish
-		religion = sunni
-		size = 65175
+		culture = persian
+		religion = shiite
+		size = 67175
 	}
 
 	farmers = {
@@ -119,80 +119,80 @@
 	
 	slaves = {
 		culture = circassian
-		religion = syriac
+		religion = orthodox
 		size = 12000
 	}
 
 	slaves = {
 		culture = georgian
-		religion = syriac
+		religion = orthodox
 		size = 8000
 	}
 
 	slaves = {
 		culture = armenian
 		religion = orthodox
-		size = 5000
+		size = 6000
 	}
 }
 #Khvoy (168000/42000 POPS)
 1109 = {
 	aristocrats = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 175
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 75
 	}
 
 	artisans = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 400
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 100
 	}
 
 	farmers = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 3225
 	}
 
 	aristocrats = {
-		culture = turkish
+		culture = turkmen
 		religion = sunni
 		size = 250
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = turkmen
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = turkish
+		culture = turkmen
 		religion = sunni
 		size = 650
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = turkmen
 		religion = sunni
 		size = 125
 	}
 
 	farmers = {
-		culture = turkish
+		culture = turkmen
 		religion = sunni
 		size = 17875
 	}
@@ -272,61 +272,61 @@
 #Urumia (192000/48000 POPS)
 1110 = {
 	aristocrats = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 250
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 125
 	}
 
 	artisans = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 600
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 125
 	}
 
 	farmers = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 10900
 	}
 
 	aristocrats = {
-		culture = turkish
+		culture = turkmen
 		religion = sunni
 		size = 275
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = turkmen
 		religion = sunni
 		size = 150
 	}
 
 	artisans = {
-		culture = turkish
+		culture = turkmen
 		religion = sunni
 		size = 850
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = turkmen
 		religion = sunni
 		size = 150
 	}
 
 	farmers = {
-		culture = turkish
+		culture = turkmen
 		religion = sunni
 		size = 10575
 	}
@@ -395,7 +395,7 @@
 #Mahabad (200000/50000 POPS)
 1111 = {
 	aristocrats = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 650
 	}
@@ -407,7 +407,7 @@
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 325
 	}
@@ -419,49 +419,49 @@
 	}
 
 	artisans = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 1600
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 1100
 	}
 
 	farmers = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 28425
 	}
 
 	aristocrats = {
-		culture = turkish
+		culture = turkmen
 		religion = sunni
 		size = 300
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = turkmen
 		religion = sunni
 		size = 150
 	}
 
 	artisans = {
-		culture = turkish
+		culture = turkmen
 		religion = sunni
 		size = 900
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = turkmen
 		religion = sunni
 		size = 175
 	}
 
 	farmers = {
-		culture = turkish
+		culture = turkmen
 		religion = sunni
 		size = 13475
 	}
@@ -505,31 +505,31 @@
 	}
 
 	aristocrats = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 375
 	}
 
 	clergymen = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 200
 	}
 
 	artisans = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 1100
 	}
 
 	soldiers = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 200
 	}
 
 	farmers = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 30125
 	}
@@ -1187,7 +1187,7 @@
 	}
 
 	farmers = {
-		culture = turkish
+		culture = turkmen
 		religion = shiite
 		size = 7575
 	}
@@ -1787,7 +1787,7 @@
 	}
 	
 	farmers = {
-		culture = qashqai
+		culture = turkmen
 		religion = shiite
 		size = 10625
 	}
@@ -1919,7 +1919,7 @@
 	}
 	
 	farmers = {
-		culture = qashqai
+		culture = turkmen
 		religion = shiite
 		size = 3925
 	}

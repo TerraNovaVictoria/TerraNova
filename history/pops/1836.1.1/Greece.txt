@@ -1569,7 +1569,7 @@
 }
 #Peloponnese Region (220000)  
 #under the rule of Greece in 1836
-#Nafplion (72000/18000 POPS)
+#Mystras (72000/18000 POPS)
 839 = {
 	
 	clergymen = {
@@ -1593,13 +1593,25 @@
 	soldiers = {
 		culture = albanian
 		religion = orthodox
-		size = 600
+		size = 3000
+	}
+	
+	soldiers = {
+		culture = greek
+		religion = orthodox
+		size = 6000
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 10070
+		size = 19070
+	}
+	
+	farmers = {
+		culture = albanian
+		religion = orthodox
+		size = 2000
 	}
 }
 #Corinth (40000/10000 POPS)
@@ -1700,15 +1712,15 @@
 	}
 
 	soldiers = {
-		culture = greek
+		culture = albanian
 		religion = orthodox
-		size = 1100
+		size = 3000
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 39340
+		size = 34340
 	}
 	
 	farmers = {

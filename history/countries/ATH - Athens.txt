@@ -1,7 +1,7 @@
 capital = 834
 primary_culture = greek
 religion = hellenic
-government = subject
+government = ancient_regime
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.68
@@ -71,3 +71,5 @@ mechanical_production = 1
 #Starting Consciousness
 consciousness = 2
 nonstate_consciousness = 0
+
+oob = "ATH_oob.txt"

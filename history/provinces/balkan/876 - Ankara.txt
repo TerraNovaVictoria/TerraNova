@@ -4,3 +4,8 @@ add_core = ANA
 trade_goods = fruit
 life_rating = 35
 terrain = ankara
+state_building = {
+	level = 1
+	building = canned_food_factory
+	upgrade = yes
+}

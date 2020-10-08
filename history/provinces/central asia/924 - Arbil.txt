@@ -1,7 +1,6 @@
-owner = SRN
-controller = SRN
+owner = URM
+controller = URM
 add_core = IRQ
-add_core = SRN
 add_core = KDS
 add_core = URM
 add_core = PER

@@ -1,6 +1,6 @@
-owner = BRN
-controller = BRN
-add_core = POM
+owner = PRU
+controller = PRU
+add_core = PRU
 add_core = PML
 add_core = GER
 trade_goods = grain

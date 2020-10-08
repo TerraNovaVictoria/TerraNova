@@ -1,0 +1,17 @@
+leader = {
+	name = "Antonios Kriezis"
+	type = sea
+	date="1836.1.1"
+	personality = audacious
+	background = expert_raider
+}
+
+army = {
+	name = "Stratós Attica"
+	location = 834
+	regiment = {
+		name= "1. Taxiarchia Pezikou"
+		type = infantry
+		home = 834
+	}
+}

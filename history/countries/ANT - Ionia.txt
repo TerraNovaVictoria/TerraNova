@@ -70,4 +70,9 @@ clipper_design = 1
 consciousness = 3
 nonstate_consciousness = 0
 
+govt_flag = {
+	government = presidential_dictatorship
+	flag = theocracy
+}
+
 oob = "ANT_oob.txt"
