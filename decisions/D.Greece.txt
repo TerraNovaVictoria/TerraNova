@@ -81,9 +81,37 @@ political_decisions = {
 			remove_accepted_culture = pan_italian
 			remove_accepted_culture = maltese
 			add_accepted_culture = greek
-			add_accepted_culture = assyrian
+			add_accepted_culture = aramean
 			change_tag = JER
 			set_global_flag = restored_jerusalem
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	seize_macedonia = { 
+		picture = macedon_map
+		potential = {
+			806 { owned_by = ANA }
+			THIS = { war_with = ANA }
+			OR = {
+				AND = {
+					tag = GRE
+					NOT = { has_global_flag = rome_has_fallen }
+				}
+				tag = ANT
+			}
+		}
+		
+		allow = {
+			806 = { controlled_by = THIS }
+		}
+		
+		effect = {
+			prestige = 10
+			MCD = { all_core = { secede_province = THIS } }
 		}
 		
 		ai_will_do = {

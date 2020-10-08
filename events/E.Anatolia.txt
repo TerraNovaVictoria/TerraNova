@@ -85,6 +85,8 @@ country_event = {
 	}
 
 	immediate = {
+		ANA = { release_vassal = WAL }
+		WAL = { country_event = 121223 }
 		set_global_flag = bulgaria_seceded
 	}
 
@@ -211,8 +213,6 @@ country_event = {
 			}
 			secede_province = SER
 		}
-		ANA = { release_vassal = WAL }
-		WAL = { country_event = 121223 }
 		ANA = { release_vassal = SER }
 		SER = { country_event = 121223 }
 		ANA = { release_vassal = HER }
@@ -255,8 +255,6 @@ country_event = {
 			}
 			secede_province = SER
 		}
-		ANA = { release_vassal = WAL }
-		WAL = { country_event = 121223 }
 		ANA = { release_vassal = SER }
 		SER = { country_event = 121223 }
 		ANA = { release_vassal = HER }
@@ -334,6 +332,7 @@ country_event = {
 			limit = { is_core = LAR }
 			secede_province = ANT 
 		}
+		837 = { secede_province = ANT }
 		ai_chance = {
 			factor = 100
 		}
