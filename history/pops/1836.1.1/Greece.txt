@@ -4,43 +4,43 @@
 805 = {
 	aristocrats = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 1800
 	}
 
 	bureaucrats = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 250
 	}
 
 	officers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 325
 	}
 
 	clergymen = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 250
 	}
 
 	artisans = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 4500
 	}
 
 	soldiers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 2800
 	}
 
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 15075
 	}
 	
@@ -308,37 +308,37 @@
 	
 	aristocrats = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 200
 	}
 	
 	officers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 200
 	}
 
 	soldiers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 400
 	}
 
 	clergymen = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 225
 	}
 
 	artisans = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 900
 	}
 
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 9675
 	}
 
@@ -933,25 +933,25 @@
 	
 	soldiers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 300
 	}
 
 	clergymen = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 300
 	}
 
 	artisans = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 300
 	}
 
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 18550
 	}
 	
@@ -1025,19 +1025,19 @@
 	
 	clergymen = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 200
 	}
 
 	artisans = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 300
 	}
 
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 19625
 	}
 	

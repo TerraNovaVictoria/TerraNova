@@ -76,31 +76,31 @@
 
 	aristocrats = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 100
 	}
 	
 	soldiers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 300
 	}
 
 	clergymen = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 300
 	}
 
 	artisans = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 300
 	}
 
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 15600
 	}
 
@@ -225,7 +225,7 @@
 	
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 8425
 	}
 	
@@ -275,31 +275,31 @@
 810 = {
 	aristocrats = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 650
 	}
 
 	clergymen = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 110
 	}
 
 	artisans = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 800
 	}
 
 	soldiers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 500
 	}
 
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 16125
 	}
 
@@ -361,31 +361,31 @@
 812 = {
 	aristocrats = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 875
 	}
 
 	clergymen = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 100
 	}
 
 	artisans = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 1350
 	}
 
 	soldiers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 1000
 	}
 
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 3939
 	}
 
@@ -491,31 +491,31 @@
 814 = {
 	aristocrats = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 300
 	}
 
 	clergymen = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 175
 	}
 
 	artisans = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 2100
 	}
 
 	soldiers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 1500
 	}
 
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 39425
 	}
 
@@ -651,25 +651,25 @@
 	
 	soldiers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 300
 	}
 
 	clergymen = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 300
 	}
 
 	artisans = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 600
 	}
 
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 19200
 	}
 
@@ -683,31 +683,31 @@
 816 = {
 	aristocrats = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 325
 	}
 
 	clergymen = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 110
 	}
 
 	artisans = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 550
 	}
 
 	soldiers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 175
 	}
 
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 4900
 	}
 	
@@ -841,25 +841,25 @@
 
 	clergymen = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 200
 	}
 	
 	soldiers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 300
 	}
 
 	artisans = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 900
 	}
 
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 14950
 	}
 
@@ -956,31 +956,31 @@
 	
 	aristocrats = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 400 
 	}
 
 	clergymen = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 100
 	}
 
 	artisans = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 450
 	}
 
 	soldiers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 1100
 	}
 
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 29100  
 	}
 }

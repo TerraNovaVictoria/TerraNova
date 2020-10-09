@@ -4,5 +4,6 @@ add_core = URM
 add_core = KDS
 add_core = PER
 add_core = ASY
+add_core = IRQ
 trade_goods = wool
 life_rating = 35

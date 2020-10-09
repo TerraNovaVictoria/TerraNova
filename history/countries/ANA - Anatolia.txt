@@ -1,18 +1,19 @@
 capital = 876
-primary_culture = anatoli
-religion = sunni
+primary_culture = persian
+culture = anatoli
+religion = shiite
 government = ancient_regime
-plurality = 15.0
+plurality = 25.0
 nationalvalue = nv_order
-literacy = 0.22
-non_state_culture_literacy = 0.1
+literacy = 0.34
+non_state_culture_literacy = 0.26
 civilized = yes
 
 #GreaterPowers = prestige
-prestige = 15
+prestige = 25
 
 # Political reforms
-slavery = yes_slavery
+slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -41,7 +42,7 @@ child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
 
-set_country_flag = sunni_country
+set_country_flag = shiite_country
 set_country_flag = christian_oppression
 
 ruling_party = ANA_conservative
@@ -81,13 +82,5 @@ dragoon_activation = yes
 #Starting Consciousness
 consciousness = 1
 nonstate_consciousness = 0
-
-govt_flag = {
-	government = absolute_monarchy
-	flag = theocracy
-	
-	government = prussian_constitutionalism
-	flag = theocracy
-}
 
 oob = "ANA_oob.txt"

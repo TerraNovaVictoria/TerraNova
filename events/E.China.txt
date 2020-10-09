@@ -159,7 +159,7 @@ country_event = {
             }
         }
         set_global_flag = chinese_vietnam
-        FROM = { country_event = { id = 3091840 days = 1 } }
+        YUE = { country_event = 3091840 }
         ai_chance = { factor = 40 }
     }
 	

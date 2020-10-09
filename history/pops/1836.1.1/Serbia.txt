@@ -907,7 +907,7 @@
 	
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 3020
 	}
 	
@@ -1132,7 +1132,7 @@
 	
 	artisans = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 2050
 	}
 

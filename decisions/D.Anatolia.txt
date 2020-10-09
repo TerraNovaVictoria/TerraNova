@@ -1,0 +1,56 @@
+political_decisions = {
+
+
+	relocate_back_to_conpol = {
+			picture = constantinople
+			potential = {
+				tag = ANA
+				NOT = {
+					capital = 860
+				}
+			}
+		
+			allow = {
+				860 = { owned_by = THIS }
+			}
+		
+			effect = {
+				capital = 860
+				prestige = 2.5
+			}
+			ai_will_do = { factor = 1 }
+	}
+	
+	ana_sultan_reforms = {
+			picture = abdulmejid_i
+			potential = {
+				NOT = { exists = ANT }
+				government = ancient_regime
+			}
+		
+			allow = {
+				capital = 860
+			}
+		
+			effect = {
+				limit = { SER = { vassal_of = ANA } }
+				SER = { annex_to = ANA }
+				limit = { HER = { vassal_of = ANA } }
+				HER = { annex_to = ANA }
+				limit = { IRQ = { vassal_of = ANA } }
+				IRQ = { all_core = { add_core = ANA } annex_to = ANA }
+				SYR = { all_core = { remove_core = IRQ } }
+				ARM = { all_core = { remove_core = IRQ } }
+				2414 = { remove_core = IRQ }
+				892 = { remove_core = IRQ }
+				1110 = { remove_core = IRQ }
+				limit = { WAL = { vassal_of = ANA } }
+				WAL = { government = ancient_regime }
+				government = absolute_monarchy
+				primary_culture = anatoli
+				prestige = 15
+			}
+			ai_will_do = { factor = 1 }
+	}
+	
+}

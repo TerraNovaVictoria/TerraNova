@@ -2,31 +2,31 @@
 806 = {
 	aristocrats = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 450
 	}
 
 	clergymen = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 325
 	}
 
 	artisans = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 2000
 	}
 
 	soldiers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 1500
 	}
 
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 8500
 	}
 	
@@ -191,7 +191,7 @@
 	
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 9000
 	}
 
@@ -303,7 +303,7 @@
 	
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 3500
 	}
 	

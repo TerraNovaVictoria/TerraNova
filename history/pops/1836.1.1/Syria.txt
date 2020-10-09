@@ -5,37 +5,37 @@
 
 	aristocrats = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 200
 	}
 
 	officers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 225
 	}
 
 	clergymen = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 125
 	}
 
 	artisans = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 1400
 	}
 
 	soldiers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 350
 	}
 
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 10000
 	}
 	
@@ -200,31 +200,31 @@
 901 = {
 	aristocrats = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 150
 	}
 
 	clergymen = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 125
 	}
 
 	artisans = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 650
 	}
 
 	soldiers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 175
 	}
 
 	farmers = {
 		culture = anatoli
-		religion = sunni
+		religion = shiite
 		size = 1300
 	}
 	
