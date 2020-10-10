@@ -39,7 +39,6 @@ country_event = {
 	id = 194501
 	title = "EVTNAME194501" #The Illyrian Revolution
 	desc = "EVTDESC194501"
-	picture = "communist_riot"
 	major = yes
 
 	trigger = {
@@ -68,10 +67,10 @@ country_event = {
 				factor = 0.1
 			}
 		}
-		CRO = { all_core = { add_core = ILL }
-		BOS = { all_core = { add_core = ILL remove_core = CRO }
-		HER = { all_core = { add_core = ILL }
-		SER = { all_core = { add_core = ILL }
+		CRO = { all_core = { add_core = ILL } }
+		BOS = { all_core = { add_core = ILL remove_core = CRO } }
+		HER = { all_core = { add_core = ILL } }
+		SER = { all_core = { add_core = ILL } }
 		government = absolute_monarchy
 		change_tag = ILL
 		set_global_flag = illyrian_revolution

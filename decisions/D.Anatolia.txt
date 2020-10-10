@@ -26,6 +26,7 @@ political_decisions = {
 			potential = {
 				NOT = { exists = ANT }
 				government = ancient_regime
+				NOT = { exists = BUL }
 			}
 		
 			allow = {

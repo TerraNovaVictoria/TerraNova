@@ -1,7 +1,6 @@
 owner = ANA
 controller = ANA
 add_core = ANA
-add_core = SER
 add_core = KSV
 add_core = MCD
 add_core = BUL

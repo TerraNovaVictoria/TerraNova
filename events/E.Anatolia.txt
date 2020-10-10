@@ -10,7 +10,7 @@ country_event = {
 	trigger = {
 		tag = ANA
 		year = 1836
-		primary_culture = anatoli
+		primary_culture = persian
 		NOT = { has_country_flag = the_sofian_council }
 	}
 
@@ -57,25 +57,23 @@ country_event = {
 	trigger = {
 		tag = ANA
 		year = 1837
-		NOT = { owns = 860 }
+		NOT = { 860 = { owned_by = ANA } }
 		OR = {
 			OR = {
 				860 = { controlled_by = ANT }
+				860 = { controlled_by = GRE }
 				860 = { controlled_by = REB }
 			}
 			OR = {
-				869 = { controlled_by = ANT }
-				869 = { controlled_by = REB }
-			}
-			OR = {
-				859 = { controlled_by = ANT }
-				859 = { controlled_by = REB }
+				861 = { controlled_by = ANT }
+				860 = { controlled_by = GRE }
+				861 = { controlled_by = REB }
 			}
 		}
 		has_country_flag = the_sofian_council
 		NOT = {
 			BUL = { involved_in_crisis = yes }
-			exists = BUL
+			BUL = { exists = yes }
 			has_global_flag = bulgaria_seceded
 		}
 	}
@@ -186,13 +184,7 @@ country_event = {
 			}
 			secede_province = KSV
 		}
-		any_owned = {
-			limit = {
-				is_core = BOS
-			}
-			secede_province = BOS
-			remove_core = ANA
-		}
+		787 = { secede_province = SER }
 		any_owned = {
 			limit = {
 				is_core = HER
@@ -225,7 +217,7 @@ country_event = {
 			militancy = -1
 		}
 		ai_chance = {
-			factor = 5
+			factor = 95
 		}
 	}
 	
@@ -237,17 +229,18 @@ country_event = {
 			}
 			secede_province = KSV
 		}
-		any_owned = {
-			limit = {
-				is_core = BOS
-			}
-			secede_province = BOS
-		}
+		787 = { secede_province = SER }
 		any_owned = {
 			limit = {
 				is_core = HER
 			}
 			secede_province = HER
+		}
+		any_owned = {
+			limit = {
+				is_core = ALB
+			}
+			secede_province = ALB
 		}
 		any_owned = {
 			limit = {
@@ -287,8 +280,13 @@ country_event = {
 			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
 			defender_goal = { casus_belli = status_quo }
 		}
+		war = {
+			target = ALB
+			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
+			defender_goal = { casus_belli = status_quo }
+		}
 		ai_chance = {
-			factor = 95
+			factor = 5
 		}
 	}
 
