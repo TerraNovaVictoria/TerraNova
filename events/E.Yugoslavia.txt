@@ -1,61 +1,59 @@
 country_event = {
 	id = 194500
-	title = "EVTNAME194500" #The Illyrian Movement
+	title = "EVTNAME194500" #The Illyrian Spring - Both paths lead towards Yugoslavia, yugoslavism however will include Bulgars
 	desc = "EVTDESC194500"
 	picture = "free_staters"
 
-	is_triggered_only = yes
+	trigger = {
+		tag = CRO
+		AND = {
+			NOT = { has_country_flag = illyrianism }
+			NOT = { has_country_flag = yugoslavism }
+		}
+	}
+	
+	mean_time_to_happen = { months = 1 }
+	fire_only_once = yes
 	
 	option = {
 		name = "EVTOPT194500A"
-		prestige = 2.5
-		relations = { who = ILL value = 100 }
-		set_country_flag = accepted_illyrian_movement
-		ai_chance = { factor = 10 }
+		prestige = 5
+		relations = { who = SER value = 50 }
+		relations = { who = HER value = 25 }
+		set_country_flag = illyrianism
+		ai_chance = { factor = 15 }
 	}
 	
 	option = {
 		name = "EVTOPT194500B"
 		prestige = 5
-		relations = { who = ILL value = 25 }
-		set_country_flag = illyrian_followers
+		relations = { who = SER value = 25 }
+		relations = { who = HER value = 50 }
+		set_country_flag = yugoslavism
 		ai_chance = { factor = 85 }
 	}
-	
-	option = {
-		name = "EVTOPT194500C"
-		badboy = 5
-		BOS = {
-			all_core = { add_core = SER }
-		}
-		780 = { add_core = SER }
-		772 = { add_core = SER }
-		793 = { add_core = SER }
-		777 = { add_core = SER }
-		relations = { who = ILL value = -400 }
-		set_country_flag = claimed_greater_serbia
-		ai_chance = { factor = 5 }
-	}
+
 }
 
 country_event = {
 	id = 194501
-	title = "EVTNAME194501" #The Illyrian Coup
+	title = "EVTNAME194501" #The Illyrian Revolution
 	desc = "EVTDESC194501"
 	picture = "communist_riot"
+	major = yes
 
 	trigger = {
-		tag = SER
-		exists = ILL
-		NOT = { owns = 850 }
-		has_country_flag = illyrian_followers
-		NOT = {
-			has_country_flag = illyrian_coup
+		tag = CRO
+		NOT = { exists = ILL }
+		has_country_flag = illyrianism
+		AND = {
+			ANT = { exists = yes }
+			year = 1837
 		}
 	}
 	
 	mean_time_to_happen = {
-		days = 7
+		months = 1
 	}
 
 	fire_only_once = yes
@@ -63,32 +61,27 @@ country_event = {
 	option = {
 		name = "EVTOPT194501A"
 		prestige = 10
-		badboy = 2
-		any_pop = {
-			limit = { has_pop_culture = shtokavian }
-			militancy = 4
-			consciousness = 4
-		}
+		badboy = 2.5
 		any_pop = {
 			dominant_issue = {
 				value = jingoism
 				factor = 0.1
 			}
 		}
-		relations = { who = ILL value = -100 }
-		remove_country_flag = illyrian_followers
-		ai_chance = { factor = 0 }
+		CRO = { all_core = { add_core = ILL }
+		BOS = { all_core = { add_core = ILL remove_core = CRO }
+		HER = { all_core = { add_core = ILL }
+		SER = { all_core = { add_core = ILL }
+		government = absolute_monarchy
+		change_tag = ILL
+		set_global_flag = illyrian_revolution
+		ai_chance = { factor = 100 }
 	}
 	
 	option = {
 		name = "EVTOPT194501B"
-		prestige = 5
-		badboy = -2.5
-		relations = { who = ILL value = 400 }
-		government = presidential_dictatorship
-		remove_country_flag = illyrian_followers
-		850 = { remove_core = SER }
-		set_country_flag = illyrian_coup
+		government = absolute_monarchy
+		prestige = -5
 		ai_chance = { factor = 100 }
 	}
 	
@@ -96,7 +89,7 @@ country_event = {
 
 country_event = {
 	id = 194502
-	title = "EVTNAME194502" #Illyrian Unification
+	title = "EVTNAME194502" #Illyrian Unification with Serbia
 	desc = "EVTDESC194502"
 	picture = "serbo_croatia_map"
 
@@ -106,28 +99,25 @@ country_event = {
 		name = "EVTOPT194502A"
 		any_pop = {
 			limit = { has_pop_culture = shtokavian }
-			militancy = 2
-			consciousness = 2
+			militancy = 0.5
 		}
 		ILL = { inherit = SER }
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 100 }
 	}
 	
 	option = {
 		name = "EVTOPT194502B"
 		prestige = 15
-		relations = { who = ILL value = -400 }
-		remove_country_flag = illyrian_followers
-		set_global_flag = serbian_revolution
+		set_country_flag = serbia_declares_independence
 		ILL = { country_event = 194503 }
-		ai_chance = { factor = 50 }
+		ai_chance = { factor = 0 }
 	}
 	
 }
 
 country_event = {
 	id = 194503
-	title = "EVTNAME194503" #Serbia Revolts!
+	title = "EVTNAME194503" #Serbia Refused
 	desc = "EVTDESC194503"
 	picture = "storming_palace"
 
@@ -136,7 +126,6 @@ country_event = {
 	option = {
 		name = "EVTOPT194503A"
 		prestige = -15
-		badboy = -5
 		any_pop = {
 			limit = { has_pop_culture = shtokavian }
 			militancy = 2
@@ -145,8 +134,7 @@ country_event = {
 		SER = {
 			all_core = { remove_core = ILL }
 		}
-		relations = { who = SER value = 200 }
-		ai_chance = { factor = 10 }
+		ai_chance = { factor = 30 }
 	}
 	
 	option = {
@@ -157,15 +145,14 @@ country_event = {
 			target = SER
 			attacker_goal = { casus_belli = conquest }
 		}
-		SER = { country_event = 194504 }
-		ai_chance = { factor = 90 }
+		ai_chance = { factor = 70 }
 	}
 	
 }
 
 country_event = {
 	id = 194504
-	title = "EVTNAME194504" #Yugoslav Wars
+	title = "EVTNAME194504" #Illyrian Unification with Hercegovina
 	desc = "EVTDESC194504"
 	picture = "serbo_croatia_map"
 
@@ -173,41 +160,54 @@ country_event = {
 	
 	option = {
 		name = "EVTOPT194504A"
-		prestige = 5
-		787 = { secede_province = SER }
-		2569 = { secede_province = SER }
-		791 = { secede_province = SER }
-		ai_chance = { factor = 25 }
+		any_pop = {
+			limit = { has_pop_culture = shtokavian }
+			militancy = 0.5
+		}
+		ILL = { inherit = HER }
+		ai_chance = { factor = 100 }
 	}
 	
 	option = {
 		name = "EVTOPT194504B"
-		783 = { secede_province = SER }
-		789 = { secede_province = SER }
-		784 = { secede_province = SER }
-		2569 = { secede_province = SER }
-		791 = { secede_province = SER }
-		785 = { secede_province = SER }
-		786 = { secede_province = SER }
-		783 = { secede_province = BOS }
-		789 = { secede_province = BOS }
-		784 = { secede_province = BOS }
+		prestige = 15
+		ILL = { country_event = 194505 }
+		ai_chance = { factor = 0 }
+	}
+	
+}
+
+country_event = {
+	id = 194505
+	title = "EVTNAME194505" #Hercegovina Refused
+	desc = "EVTDESC194505"
+	picture = "storming_palace"
+
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT194505A"
+		prestige = -15
+		any_pop = {
+			limit = { has_pop_culture = shtokavian }
+			militancy = 2
+			consciousness = 2
+		}
+		HER = {
+			all_core = { remove_core = ILL }
+		}
+		ai_chance = { factor = 30 }
+	}
+	
+	option = {
+		name = "EVTOPT194505B"
+		prestige = 15
+		badboy = 2.5
 		war = {
-			target = BOS
+			target = HER
 			attacker_goal = { casus_belli = conquest }
 		}
-		CRO = { all_core = { add_core = YUG } }
-		BOS = { all_core = { add_core = YUG } }
-		SER = { all_core = { add_core = YUG } }
-		3255 = { add_core = YUG }
-		767 = { add_core = YUG }
-		768 = { add_core = YUG }
-		769 = { add_core = YUG }
-		778 = { add_core = YUG }
-		770 = { add_core = YUG }
-		add_accepted_culture = slovene
-		change_tag = YUG
-		ai_chance = { factor = 75 }
+		ai_chance = { factor = 70 }
 	}
 	
 }

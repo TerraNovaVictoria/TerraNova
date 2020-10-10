@@ -2,5 +2,6 @@ owner = PAN
 controller = PAN
 add_core = AVR
 add_core = PAN
+add_core = CRO
 trade_goods = coal
 life_rating = 35

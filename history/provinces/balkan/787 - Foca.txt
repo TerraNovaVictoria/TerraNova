@@ -1,6 +1,7 @@
 owner = ANA
 controller = ANA
 add_core = ANA
+add_core = CRO
 add_core = BOS
 trade_goods = coal
 life_rating = 35
