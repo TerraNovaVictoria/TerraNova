@@ -372,10 +372,34 @@
 		size = 3000
 	}
 	
+	aristocrats = {
+		culture = oirat
+		religion = gelugpa
+		size = 1250
+	}
+
+	clergymen = {
+		culture = oirat
+		religion = gelugpa
+		size = 250
+	}
+
+	artisans = {
+		culture = oirat
+		religion = gelugpa
+		size = 3500
+	}
+
+	soldiers = {
+		culture = oirat
+		religion = gelugpa
+		size = 3000
+	}
+	
 	farmers = {
 		culture = oirat
 		religion = gelugpa
-		size = 3375
+		size = 63750
 	}
 }
 #Aksu (192000/48000 POPS)
@@ -477,7 +501,7 @@
 	farmers = {
 		culture = uighur
 		religion = sunni
-		size = 39200
+		size = 19200
 	}
 
 	aristocrats = {
@@ -539,6 +563,36 @@
 		religion = mahayana
 		size = 900
 	}
+	
+	aristocrats = {
+		culture = oirat
+		religion = gelugpa
+		size = 25
+	}
+
+	clergymen = {
+		culture = oirat
+		religion = gelugpa
+		size = 25
+	}
+
+	artisans = {
+		culture = oirat
+		religion = gelugpa
+		size = 150
+	}
+
+	soldiers = {
+		culture = oirat
+		religion = gelugpa
+		size = 500
+	}
+	
+	farmers = {
+		culture = oirat
+		religion = gelugpa
+		size = 19000
+	}
 }
 #Urumqi (Tihwa) (332000/83000 POPS)
 1600 = {
@@ -569,7 +623,7 @@
 	farmers = {
 		culture = uighur
 		religion = sunni
-		size = 80225
+		size = 70225
 	}
 
 	aristocrats = {
@@ -600,6 +654,36 @@
 		culture = hanhui
 		religion = sunni
 		size = 7325
+	}
+	
+	aristocrats = {
+		culture = oirat
+		religion = gelugpa
+		size = 1250
+	}
+
+	clergymen = {
+		culture = oirat
+		religion = gelugpa
+		size = 100
+	}
+
+	artisans = {
+		culture = oirat
+		religion = gelugpa
+		size = 4000
+	}
+
+	soldiers = {
+		culture = oirat
+		religion = gelugpa
+		size = 1500
+	}
+	
+	farmers = {
+		culture = oirat
+		religion = gelugpa
+		size = 35000
 	}
 
 	bureaucrats = {

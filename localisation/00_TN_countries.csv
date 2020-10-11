@@ -426,6 +426,8 @@ SIA_prussian_constitutionalism;The Kingdom of Siam;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
 SIA_hms_government;The Kingdom of Siam;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
 AVK;Ava;;;;;;;;;;;;;;;;;;x;;;;
 AVK_ADJ;Ava;;;;;;;;;;;;;;;;;;x;;;;
+AVK_ancient_regime;Nan Ming;;;;;;;;;;;;;;;;;;x;;;;
+AVK_ancient_regime_ADJ;Nan Ming;;;;;;;;;;;;;;;;;;x;;;;
 PRM;Monia;;;;;;;;;;;;;;;;;;x;;;;
 PRM_ADJ;Monic;;;;;;;;;;;;;;;;;;x;;;;
 PRM_absolute_monarchy;Pegu;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
@@ -577,6 +579,15 @@ GNV_ADJ;Genevan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 NIZ;Nice;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 NIZ_democracy;Nizza;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 NIZ_ADJ;Nicene;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+SLS_colonial_company;Schlesien;;;;;;;;;;;;;x,
+SLS_dominion;Schlesien;;;;;;;;;;;;;x,
+SLS_subject;Schlesien;;;;;;;;;;;;;x,
+PML_colonial_company;Westpreuﬂen;;;;;;;;;;;;;x,
+PML_dominion;Westpreuﬂen;;;;;;;;;;;;;x,
+PML_subject;Westpreuﬂen;;;;;;;;;;;;;x,
+PZN_colonial_company;Posen;;;;;;;;;;;;;x,
+PZN_dominion;Posen;;;;;;;;;;;;;x,
+PZN_subject;Wielkopolska;;;;;;;;;;;;;x,
 WLS;Wallis;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 WLS_ADJ;Wallis;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 WLS_democracy;RÈpublique des Sept-Dizains;;;;;;;;;;;;;;;;;;;;;;;x;;;;

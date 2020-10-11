@@ -1,7 +1,8 @@
 capital = 1334
-primary_culture = burmese
+primary_culture = beifaren
+culture = burmese
 religion = theravada
-government = absolute_monarchy
+government = ancient_regime
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.03

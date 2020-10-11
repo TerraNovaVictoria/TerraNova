@@ -1,4 +1,5 @@
 color = { 116 116 41 }
+ancient_regime = { 255 163 0 }
 graphical_culture = AsianGC
 
 party = {

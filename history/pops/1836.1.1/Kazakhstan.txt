@@ -551,37 +551,37 @@
 	farmers = {
 		culture = kazak
 		religion = sunni
-		size = 14575
+		size = 13575
 	}
 
 	aristocrats = {
-		culture = uighur
-		religion = sunni
+		culture = oirat
+		religion = gelugpa
 		size = 200
 	}
 
 	clergymen = {
-		culture = uighur
-		religion = sunni
+		culture = oirat
+		religion = gelugpa
 		size = 100
 	}
 
 	artisans = {
-		culture = uighur
-		religion = sunni
+		culture = oirat
+		religion = gelugpa
 		size = 550
 	}
 
 	soldiers = {
-		culture = uighur
-		religion = sunni
+		culture = oirat
+		religion = gelugpa
 		size = 125
 	}
 
 	farmers = {
-		culture = uighur
-		religion = sunni
-		size = 7025
+		culture = oirat
+		religion = gelugpa
+		size = 8025
 	}
 }
 #under the "rule" of Kokand in 1836

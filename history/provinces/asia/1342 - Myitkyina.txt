@@ -1,5 +1,5 @@
-owner = SHA
-controller = SHA
+owner = AVK
+controller = AVK
 add_core = AVK
 add_core = KCH
 add_core = SHA

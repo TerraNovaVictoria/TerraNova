@@ -1040,7 +1040,7 @@ pan_romanian = {
 	leader = european
 	unit = AustriaHungaryGC
 	romanian = {
-		color = {240 240 140}
+		color = {255 165 30}
 		first_names = { Adrian Alexandru Andrei Anton Artur Bogdan Carol Cezar Constantin Constin
 		Cosmin Daniel Dumitru Emanuel Eremia Eugen Ferdinand Flaviu Florea Gheorghe
 		Grigore Henric Horatiu Iacob Ilie Ioan Ion "Ion Emanuel" Iosif Iulian
@@ -1057,7 +1057,7 @@ pan_romanian = {
 		radicalism = 10
 	}
 	aromanian = {
-		color = { 255 163 0 }
+		color = { 255 195 0 }
 		first_names = { Adrian Alexandru Andrei Anton Artur Bogdan Carol Cezar Constantin Constin
 		Cosmin Daniel Dumitru Emanuel Eremia Eugen Ferdinand Flaviu Florea Gheorghe
 		Grigore Henric Horatiu Iacob Ilie Ioan Ion "Ion Emanuel" Iosif Iulian
@@ -1293,7 +1293,7 @@ levantine = {
 		radicalism = 10
 	}
 	georgian = {
-		color = {254 189 17}
+		color = {80 80 95}
 		first_names = { Akaki Alexander Andria Bagrat Besarion David Dimitri Eduard Ekvtime Evgeni
 		Filipp Galaktion Georgi German Givi Grigol Ilia Ioseb Irakli Ivane
 		Jansung Jemal Kaikhosro Konstantine Leo Levan Luka Meliton Mikheil Murman
@@ -1309,7 +1309,7 @@ levantine = {
 		}
 	}
 	megrelian = {
-		color = {255 120 61}
+		color = {105 105 120}
 		first_names = { Akaki Alexander Andria Bagrat Besarion David Dimitri Eduard Ekvtime Evgeni
 		Filipp Galaktion Georgi German Givi Grigol Ilia Ioseb Irakli Ivane
 		Jansung Jemal Kaikhosro Konstantine Leo Levan Luka Meliton Mikheil Murman
@@ -1325,7 +1325,7 @@ levantine = {
 		}
 	}
 	svan = {
-		color = {255 185 89}
+		color = {130 130 145}
 		first_names = { Akaki Alexander Andria Bagrat Besarion David Dimitri Eduard Ekvtime Evgeni
 		Filipp Galaktion Georgi German Givi Grigol Ilia Ioseb Irakli Ivane
 		Jansung Jemal Kaikhosro Konstantine Leo Levan Luka Meliton Mikheil Murman
@@ -1341,7 +1341,7 @@ levantine = {
 		}
 	}
 	laz = {
-		color = {240 240 140}
+		color = {120 120 150}
 		first_names = { Akaki Alexander Andria Bagrat Besarion David Dimitri Eduard Ekvtime Evgeni
 		Filipp Galaktion Georgi German Givi Grigol Ilia Ioseb Irakli Ivane
 		Jansung Jemal Kaikhosro Konstantine Leo Levan Luka Meliton Mikheil Murman
@@ -1770,7 +1770,7 @@ caucasian = {
 		}
 		
 		abkhaz = {
-		color = {210 55 55}
+		color = {221 20 81}
 		first_names = {
 			Aghwrbiy Abatiy Albech Albot "Alhx'es" "Alhx'o" Alijiqwe Bale Batirbiy Biylhosten Blaneshu Bubeird Chetsu "Ch'ischiqwe" Chawis Dariqwe Dokshiqua Dzeghaschte Dzune Foqwe Ghwaze Gushina Gushipsa Hegwtsire Hanaqua Hetsu Jirandiqwe Kwshbiy Lhostenasch Mamsriqwe Menshaq Meshiqwe Nalbiy Nartshu Nerzan Pschimaxwe Qideghaze Schebet Shumaxwe Shupashe Takwu Tsumash Tighwenbiy Tighwen Werdeschawe Wezroqwe Yedij Zhore
 			}
@@ -2121,8 +2121,18 @@ central_asian = {
 	leader = asian
 	is_overseas = no
 	unit = AsianGC
+	oirat = {
+		color = {255 125 55}
+		first_names = { 
+               Peljidiin Balingiin Sodnomyn Kubilai Baterdene Dogsomyn Damdin Khorloogiin Dambyan 
+               Gonchigjalzangiin Badamdorj Chingis Otgonbayar Batbayar }
+
+		last_names = { 
+               Genden Amar Tserendorj Tomorbaatar Damdinbazar Bodoo Sukhbaatar Jamyan Choibalsan Chagdarjav
+		}
+	}
 	mongol = {
-		color = {207 181 75}
+		color = {255 180 55}
 		first_names = { 
                Peljidiin Balingiin Sodnomyn Kubilai Baterdene Dogsomyn Damdin Khorloogiin Dambyan 
                Gonchigjalzangiin Badamdorj Chingis Otgonbayar Batbayar }
@@ -2132,7 +2142,7 @@ central_asian = {
 		}
 	}
 	buryat = {
-		color = {200 126 34}
+		color = {255 220 100}
 		first_names = { 
                Peljidiin Balingiin Sodnomyn Kubilai Baterdene Dogsomyn Damdin Khorloogiin Dambyan 
                Gonchigjalzangiin Badamdorj Chingis Otgonbayar Batbayar }
@@ -2143,16 +2153,6 @@ central_asian = {
 	}
 	khant = {
 		color = {224 144 128}
-		first_names = { 
-               Peljidiin Balingiin Sodnomyn Kubilai Baterdene Dogsomyn Damdin Khorloogiin Dambyan 
-               Gonchigjalzangiin Badamdorj Chingis Otgonbayar Batbayar }
-
-		last_names = { 
-               Genden Amar Tserendorj Tomorbaatar Damdinbazar Bodoo Sukhbaatar Jamyan Choibalsan Chagdarjav
-		}
-	}
-	oirat = {
-		color = {230 130 64}
 		first_names = { 
                Peljidiin Balingiin Sodnomyn Kubilai Baterdene Dogsomyn Damdin Khorloogiin Dambyan 
                Gonchigjalzangiin Badamdorj Chingis Otgonbayar Batbayar }
@@ -3137,7 +3137,7 @@ east_asian = {
 	leader = asian
 	unit = ChineseGC
 	manchu = {
-		color = {40 140 90}#245 255 160
+		color = {40 140 90}
 		first_names = { Ma Deng Zhao Tong Guan Oboi Sonin Songgotu Suksaha Mingzhu Nalan Fu Hesehn Changlin
 		}
 		last_names = { Zhanshan Tiemei Shangzhi Linge Xiangying Xingde Kang'an
@@ -3150,15 +3150,8 @@ east_asian = {
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
-	jinyu = {
-		color = {142 58 58}
-		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
-		}
-		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
-		}
-	}
 	nanfaren = {
-		color = {160 73 73}
+		color = {165 50 50}
 		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
@@ -3172,7 +3165,7 @@ east_asian = {
 		}
 	}
 	hakka = {
-		color = {209 26 55}
+		color = {205 90 90}
 		first_names = { Hong Feng Shi Li Chen Liu Qiu Sun Soong Liao Xue Zhang Xie Wu Shu Tsai Deng Zhen Huang Ye Yang
 		}
 		last_names = { Xiuquan Yunshan Xiuqing Dakai Yucheng Rengan Zicai Yongfu Fengjia Yatsen
@@ -3186,31 +3179,17 @@ east_asian = {
 		}
 	}
 	min = {
-		color = {173 135 98}
+		color = {225 110 110}
 		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
 		}
 		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
 		}
 	}
 	ganyu = {
-		color = {211 91 91}
+		color = {160 73 73}
 		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
 		}
 		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
-		}
-	}
-	huizhou = {
-		color = {211 44 44}
-		first_names = { Lin Shen Chen Wong Yan Sa Hou Zheng Bing Wu Tan He Du Xue Xu Qin
-		}
-		last_names = { Zexu Baozhen Baochen Nai-siong Shu Fu Sen Debang Xin Nee Huiyin
-		}
-	}
-	taiwanese = {
-		color = {177 186 183}
-		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
-		}
-		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
 	hani = {
@@ -3235,21 +3214,21 @@ east_asian = {
 		}
 	}
 	cantonese = {
-		color = {191 111 124}
+		color = {209 26 55}
 		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
 	xiang = {
-		color = {160 39 73}
+		color = {185 70 70}
 		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
 		}
 		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
 	korean = {
-		color = {170 100 23}
+		color = {150 175 175}
 		first_names = { Hwan Chung Hyong Shinjong Haung Ch'ok Taek Seon Si Jip Guk Mok Bo Yong Sun Gyu Hu Kim Rhee Bahk Choi Jung Yie Ee Gahn Kahn Gahl Kahl Gahm Kahng Kangjun Kae Kyun Kyong Kye Ko Kok Khong Kwak Kyo Ku Kuk Kun Kung Kwog Kwon Keun Kuem Ki Kil Pak Chae Nahn Namgung Nahng Lang Nae Noh Roi Than Tam Tang Tae Toh Tokko Ton Tong Tubongbanua Ryu Mangjul Maing Myong Myo Muk Pang Min Pyun Peom Paek Pin Pi Pok Sa Sagong Sam Sang Somoon Seonwoo Seul Song Sobong Sin Sim Yang Lyang Yu Chang Changgok Jei Chong Chegal Chin P'aeng P'an Ch'ang Pyong Hyung Hyun Huhng Hyeong Hwangbo Lee Ch'oe Cho Kang Yun Han
 		}
 		last_names = { Yi Jo Bak Hong Seo Jeong Jang Shin Lim Song Jin Jun Hwang Jeon Min Yoon Ahn Ko Joon Bae Nam An "Dong Hyun" Sung Ha Baek MinSu Cha Im Won Jihun Seong "Sang Min" Minwoo Minho "Ji Hoon" Joo Woo Woojin Donghyun Jongmin Jaehyun Ji "Seung Hyun" "Sung Min" Seungmin Jihoon "Jong-un" "Jong-il" "Pong-ju" "Yong-rim" "Yong-nam" "Ryong-hae" "Yong-ho"
@@ -3315,6 +3294,13 @@ oceanic = {
 		first_names = { Ti-Toorou Ti-Quatchium Kaoua Kanendjo Samuel Ti-Abel  Seru Epenisa Tamavunisa Yavala Ralulu Raivalita Rasolo Lubati Taltai Eroni
 		}
 		last_names = { Hortense Vendegou Cakobau Cokanauto Qaraniqio Banuve Loganimoce Tupou Lakeba
+		}
+	}
+	taiwanese = {
+		color = {177 186 183}
+		first_names = { Wang Li Zhang Liu Chen Huang Liang Luo Kwong Hsia Zhu Mao Hu Liao Tan Deng Cheng Yang Gao Xie Ma Kong Dong Pan Yu
+		}
+		last_names = { Zhao Wu Sun Ma Hu Peng Dong Ye Lü Tian Jiang Wei Ting Shen Fang Jin Qiu
 		}
 	}
 	micronesian = {

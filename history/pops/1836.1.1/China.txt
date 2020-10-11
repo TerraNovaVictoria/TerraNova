@@ -315,31 +315,31 @@
 	}
 
 	artisans = {
-		culture = huizhou
+		culture = nanfaren
 		religion = mahayana
 		size = 11000
 	}
 
 	artisans = {
-		culture = huizhou
+		culture = nanfaren
 		religion = mahayana
 		size = 50
 	}
 
 	soldiers = {
-		culture = huizhou
+		culture = nanfaren
 		religion = mahayana
 		size = 3000
 	}
 
 	soldiers = {
-		culture = huizhou
+		culture = nanfaren
 		religion = mahayana
 		size = 2800
 	}
 
 	farmers = {
-		culture = huizhou
+		culture = nanfaren
 		religion = mahayana
 		size = 980575
 	}
@@ -553,7 +553,7 @@
 	}
 	
 	serfs = {
-		culture = huizhou
+		culture = nanfaren
 		religion = mahayana
 		size = 150000
 	}
@@ -8923,7 +8923,7 @@
 	farmers = {
 		culture = manchu
 		religion = mahayana
-		size = 25800
+		size = 22800
 	}
 	
 	farmers = {
@@ -8935,7 +8935,13 @@
 	farmers = {
 		culture = mongol
 		religion = gelugpa
-		size = 80000
+		size = 5000
+	}
+	
+	farmers = {
+		culture = buryat
+		religion = gelugpa
+		size = 27000
 	}
 
 }
@@ -12494,43 +12500,43 @@
 	}
 	
 	farmers = {
-		culture = huizhou
+		culture = nanfaren
 		religion = mahayana
 		size = 1000
 	}
 	
 	serfs = {
-		culture = huizhou
+		culture = nanfaren
 		religion = mahayana
 		size = 10000
 	}
 	
 	aristocrats = {
-		culture = huizhou
+		culture = nanfaren
 		religion = mahayana
 		size = 2725
 	}
 
 	clergymen = {
-		culture = huizhou
+		culture = nanfaren
 		religion = mahayana
 		size = 1375
 	}
 
 	artisans = {
-		culture = huizhou
+		culture = nanfaren
 		religion = mahayana
 		size = 11000
 	}
 	
 	artisans = {
-		culture = huizhou
+		culture = nanfaren
 		religion = mahayana
 		size = 11000
 	}
 	
 	artisans = {
-		culture = huizhou
+		culture = nanfaren
 		religion = mahayana
 		size = 7450
 	}

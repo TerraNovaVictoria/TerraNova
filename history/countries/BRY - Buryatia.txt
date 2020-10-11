@@ -1,5 +1,5 @@
 capital = 2670
-primary_culture = mongol
+primary_culture = buryat
 religion = gelugpa
 government = primitive_absolute_monarchy
 plurality = 0.02

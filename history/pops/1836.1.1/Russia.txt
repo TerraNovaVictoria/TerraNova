@@ -7387,13 +7387,43 @@
 	soldiers = {
 		culture = altai
 		religion = orthodox
-		size = 75
+		size = 750
 	}
 
 	farmers = {
 		culture = altai
 		religion = animist
-		size = 8475
+		size = 9475
+	}
+	
+	aristocrats = {
+		culture = oirat
+		religion = gelugpa
+		size = 50
+	}
+
+	clergymen = {
+		culture = oirat
+		religion = gelugpa
+		size = 25
+	}
+
+	artisans = {
+		culture = oirat
+		religion = gelugpa
+		size = 1550
+	}
+
+	soldiers = {
+		culture = oirat
+		religion = gelugpa
+		size = 500
+	}
+
+	farmers = {
+		culture = oirat
+		religion = gelugpa
+		size = 6500
 	}
 }
 #Yakutsk Region (117000)
@@ -8535,31 +8565,31 @@
 2670 = {
 	
 	aristocrats = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 325
 	}
 
 	clergymen = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 175
 	}
 
 	artisans = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 850
 	}
 
 	soldiers = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 175
 	}
 
 	farmers = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 30000
 	}
@@ -8623,31 +8653,31 @@
 	}
 	
 	aristocrats = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 35
 	}
 
 	clergymen = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 15
 	}
 
 	artisans = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 85
 	}
 
 	soldiers = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 15
 	}
 
 	farmers = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 3500
 	}	
@@ -9755,31 +9785,31 @@
 	}
 
 	aristocrats = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 175
 	}
 
 	clergymen = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 125
 	}
 
 	artisans = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 600
 	}
 
 	soldiers = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 125
 	}
 
 	farmers = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 24975
 	}
@@ -9935,31 +9965,31 @@
 1078 = {
 
 	aristocrats = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 325
 	}
 
 	clergymen = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 175
 	}
 
 	artisans = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 850
 	}
 
 	soldiers = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 175
 	}
 
 	farmers = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 15500
 	}
@@ -9968,31 +9998,31 @@
 1079 = {
 
 	aristocrats = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 275
 	}
 
 	clergymen = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 175
 	}
 
 	artisans = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 150
 	}
 
 	soldiers = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 1100
 	}
 
 	farmers = {
-		culture = mongol
+		culture = buryat
 		religion = gelugpa
 		size = 21800
 	}
