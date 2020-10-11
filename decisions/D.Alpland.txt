@@ -1,0 +1,25 @@
+political_decisions = {
+
+
+	move_cap_to_vienna = {
+			picture = czech_autonomy
+			potential = {
+				tag = STY
+				NOT = {
+					capital = 619
+				}
+				619 = { owned_by = THIS }
+				NOT = { exists = AUS }
+			}
+		
+			allow = {
+				NOT = { exists = AUS }
+			}
+		
+			effect = {
+				capital = 619
+			}
+			ai_will_do = { factor = 1 }
+	}
+	
+}

@@ -1,11 +1,18 @@
 ;;;;;;;;;;;;;;x,,,
+EVTNAME325200;The Last Habsburg;;;;;;;;;;;;;x
+EVTDESC325200;Otto XII has died in a hunting accident a few days ago at the young age of 21. Without an heir, his death marks the end of the Habsburg dynasty, a dynasty that has ruled the duchy of austria for seven centuries. Due to the Vienna Pact, the duchy would supposedly be inherited by the Bavarian King, however due to the recent events in the Netherlands and Spain, the Bavarian King has instead granted the title to us. While this is certainly a moment to rejoice for us, it also a moment to mourn as the Habsburgs with their long history have finally come to an end. While their history is fascinating and it is interesting to think what could have been, they will ultimately be forgotten as their only stronghold gets inherited by the Styrians, the true rulers of all eastern marches.;;;;;;;;;;;;;x
+EVTOPT325200A;Es lebe Steiermark!;;;;;;;;;;;;;x
 EVTNAME712400;Death of the Pannonian Duke!;;;;;;;;;;;;;x
-EVTDESC712400;With the death of our Duke, our Duchy would legitimately pass on to the Duchy Avaria, resulting in us loosing our unique autonomy under the Bohemian Crown. If we don't intervene, Lower Pannonia will become an integral part of the Avar Duchy.;;;;;;;;;;;;;x
+EVTDESC712400;With the death of our duke, our duchy would legitimately pass on to the duchy Avaria, resulting in us loosing our unique autonomy under the Bohemian Crown. If we don't intervene, Lower Pannonia will become an integral part of the Avarian Duchy!;;;;;;;;;;;;;x
 EVTOPT712400A;We have to abide by the law.;;;;;;;;;;;;;x
 EVTOPT712400B;Declare the Balaton Republic!;;;;;;;;;;;;;x
 EVTNAME712401;The Pannonian Inheritance;;;;;;;;;;;;;x
-EVTDESC712401;The pannonian duke has died without an heir, resulting in the avar duke inheriting the title. While this change is widely welcomed by the Avars, this is most certainly a worrying development for the Bohemians. Either way, after almost seven centuries, the two Pannonian Duchies are finally reunited under a single Avar ruler once more.;;;;;;;;;;;;;x
-EVTOPT712401A;United at last;;;;;;;;;;;;;x
+EVTDESC712401;The pannonian duke has died without an heir, resulting in the avarian duke inheriting the title. Despite the new duke's unpopularity within the lower pannonian duchy, especially amongst the pannonian nobility, there has been little to no resistance to the change. While this change is widely welcomed by the Avars, this is most certainly a worrying development for the Bohemians as well as the various minorities living within pannonia who had enjoyed great autonomy under the former duke. Whatever the future holds for the area, one thing is certain: after almost seven centuries, the two Avarian Duchies have finally been reunited under a single Avarian ruler, creating a rivaling power to the Bohemian authority within the basin..;;;;;;;;;;;;;x
+EVTOPT712401A;Konecne dohromady!;;;;;;;;;;;;;x
+EVTNAME712402;The Balaton Republic;;;;;;;;;;;;;x
+EVTDESC712402;The pannonian duke has died without an heir, resulting in the avarian duke inheriting the title. Despite this however, the Pannonian nobility has gathered the regional parliament and declared the Balaton Republic, officially seceding from the Bohemian Crown. While it is unlikely that the Balatonese can hold their ground against the overwhelming force of the bohemian army, they would rather go down fighting for their independence than give up the autonomy and freedom they have enjoyed for the past few centuries.;;;;;;;;;;;;;x
+EVTOPT712402A;Crush this revolt!;;;;;;;;;;;;;x
+EVTOPT712402B;Let them go...;;;;;;;;;;;;;x
 EVTNAME025567;Collapse of the Ionian League!;;;;;;;;;;;;;x
 EVTDESC025567;The republican government in Morea has failed to usurp the despotate. Without the foreigners backing the revolution and without the morean army, the chances of our survival are slim. It is now upon us to liberate all of Greece from the the autocrats.;;;;;;;;;;;;;x
 EVTOPT025567A;Long live the Hellenic Republic!;;;;;;;;;;;;;x

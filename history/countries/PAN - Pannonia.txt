@@ -1,11 +1,11 @@
-capital = 644
+capital = 639
 primary_culture = avari
 culture = shtokavian
 religion = catholic
 government = subject
-plurality = 0.05
+plurality = 0.25
 nationalvalue = nv_order
-literacy = 0.2
+literacy = 0.41
 civilized = yes
 is_releasable_vassal = no
 
@@ -63,11 +63,6 @@ mechanical_production = 1
 consciousness = 2
 nonstate_consciousness = 0
 
-govt_flag = {
-	government = absolute_monarchy
-	flag = theocracy
-}
-
 ruling_party = CRO_conservative
 upper_house = {
 	fascist = 0
@@ -77,10 +72,4 @@ upper_house = {
 	anarcho_liberal = 5
 	socialist = 0
 	communist = 0
-}
-
-1861.1.1 = {
-# Technologies
-
-#Inventions
 }

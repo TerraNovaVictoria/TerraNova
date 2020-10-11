@@ -20,7 +20,7 @@ country_event = {
 		name = "EVTOPT712400A" #Pannonian Inheritance
 		AVR = { country_event = 712401 }
 		BCR = { country_event = 712405 }
-		ai_chance = { factor = 90 }
+		ai_chance = { factor = 70 }
 	}
 		
 	option = {
@@ -30,7 +30,7 @@ country_event = {
 		BOH = { release_vassal = PAN }
 		BOH = { country_event = 712402 }
 		BCR = { country_event = 712405 }
-		ai_chance = { factor = 10 }
+		ai_chance = { factor = 30 }
 	}
 }
 
@@ -57,6 +57,7 @@ country_event = {
 	title = "EVTNAME712402" #Pannonia Secedes
 	desc = "EVTDESC712402"
 	picture = "irish_flag"
+	major = yes
 	
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -124,7 +125,8 @@ country_event = {
 	
 	option = {
 		name = "EVTOPT712404A"
-		624 = { remove_core = AVR add_core = AUS secede_province = AUS }
+		PAN = { all_core = { remove_core = PAN } }
+		624 = { remove_core = AVR add_core = STY secede_province = STY }
 		3255 = { remove_core = AVR add_core = STY secede_province = STY }
 		any_owned = {
 			limit = {
@@ -132,7 +134,6 @@ country_event = {
 			}
 			secede_province = AVR
 		}
-		PAN = { all_core = { remove_core = PAN } }
 		clr_country_flag = pannonian_war
 		ai_chance = { factor = 100 }
 	}

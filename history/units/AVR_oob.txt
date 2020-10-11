@@ -1,28 +1,40 @@
+leader = {
+	name = "Ján Milovic"
+	date = 1831.1.1 #1840
+	type = land
+	personality = intelligent
+	background = aristocrat
+	prestige = 0.5
+}
+
+leader = {
+	name = "Ludwig von Benedek"
+	date = 1849.1.1
+	type = land
+	personality = steadfast
+	background = unqualified
+	prestige = 0.2
+}
+
 army = {
 	name = "I. Army"
-	location = 643
+	location = 641
 	regiment = {
 		name= "1. Brigade"
 		type = infantry
-		home = 643
+		home = 641
 	}
 
 	regiment = {
 		name= "2. Brigade"
 		type = infantry
-		home = 640
+		home = 641
 	}
-
+	
 	regiment = {
 		name= "3. Brigade"
-		type = infantry
-		home = 640
-	}
-
-	regiment = {
-		name= "4. Brigade"
 		type = artillery
-		home = 648
+		home = 649
 	}
 
 }

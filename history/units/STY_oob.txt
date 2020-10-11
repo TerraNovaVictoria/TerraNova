@@ -1,3 +1,36 @@
+leader = {
+	name = "Joseph Philippovic"
+	date = 1859.1.1
+	type = land
+	personality = relentless
+	background = school_of_offense
+	prestige = 0.1
+}
+
+leader = {
+	name = "Franz von John"
+	date = 1861.1.1
+	type = land
+	personality = competent
+	background = generals_aide
+}
+
+leader = {
+	name = "Kuhn von Khunenfeld"
+	date = 1861.1.1
+	type = land
+	personality = arrogant
+	background = professor
+}
+
+leader = {
+	name = "von Tegethoff"
+	date = 1861.1.1
+	type = sea
+	personality = daring
+	background = school_of_offense
+}
+
 army = {
 	name = "I. Korps"
 	location = 616
@@ -23,6 +56,61 @@ army = {
 		name= "4. Steiermark Infanteriebrigade"
 		type = artillery
 		home = 618
+	}
+
+}
+
+navy = {
+	name = "K & K Kriegsflotte"
+	location = 736
+	ship = {
+		name= "SMS Ferdinand Max"
+		type = manowar
+	}
+
+	ship = {
+		name= "SMS Schwarzenberg"
+		type = frigate
+	}
+
+	ship = {
+		name= "SMS Aurora"
+		type = frigate
+	}
+
+	ship = {
+		name= "SMS Donau"
+		type = frigate
+	}
+
+	ship = {
+		name= "SMS Bellona"
+		type = frigate
+	}
+
+	ship = {
+		name= "SMS Novara"
+		type = frigate
+	}
+
+	ship = {
+		name= "SMS Radetsky"
+		type = frigate
+	}
+
+	ship = {
+		name= "SMS Kaiser"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "SMS Helgoland"
+		type = commerce_raider
+	}
+
+	ship = {
+		name= "SMS Frundsberg"
+		type = commerce_raider
 	}
 
 }

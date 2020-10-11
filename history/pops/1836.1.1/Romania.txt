@@ -912,7 +912,13 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 23125 
+		size = 17125 
+	}
+	
+	farmers = {
+		culture = avari
+		religion = protestant
+		size = 6125 
 	}
 	
 	farmers = {
@@ -1112,7 +1118,13 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 32175 
+		size = 30000
+	}
+	
+	farmers = {
+		culture = shtokavian
+		religion = orthodox
+		size = 2175 
 	}
 
 	aristocrats = {
@@ -1520,7 +1532,7 @@
 	serfs = {
 		culture = romanian
 		religion = orthodox
-		size = 7450
+		size = 15450
 	}
 
 	serfs = {
@@ -1556,43 +1568,13 @@
 	farmers = {
 		culture = tatar
 		religion = orthodox
-		size = 4150   
+		size = 250   
 	}
 	
 	farmers = {
 		culture = ossetian
 		religion = orthodox
-		size = 14000
-	}
-
-	aristocrats = {
-		culture = ruthenian
-		religion = orthodox
-		size = 600  
-	}
-
-	clergymen = {
-		culture = ruthenian
-		religion = orthodox
-		size = 300      
-	}
-
-	artisans = {
-		culture = ruthenian
-		religion = orthodox
-		size = 1550    
-	}
-
-	soldiers = {
-		culture = ruthenian
-		religion = orthodox
-		size = 300
-	}
-
-	farmers = {
-		culture = ruthenian
-		religion = orthodox
-		size = 7250      
+		size = 13000
 	}
 
 	clergymen = {
