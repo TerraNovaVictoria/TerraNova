@@ -686,21 +686,21 @@ iberian = {
 	}
 	spanish = {
 		color = {219 175 9}
-		first_names = { Agustín Alberto Alejandro Alfonso Álvaro Antonio "Antonio María" Arsenio Augusto Baldomero
+		first_names = { Adán Alberto Alexandru Alfonso Álvaro Antonio "Antonio María" Arsenio Augusto Baldomero
 		Baltasar Benito Bernardino Bernardo Calixto Carlos Celestino Claudio Cristobal Dámaso
 		Diego Dionisio Eduardo Emilio Estanislao Federico Felipe Félix Fernando Francisco
-		"Francisco Javier" Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime
-		Joaquín José "José Antonio" "José Manuel" "José María" Juan "Juan Bautista" Julio Leopoldo Lorenzo 
-		Luis Manuel Marcelo Mariano Mateo Melchor Miguel Nicolás Pablo Pascual
-		Pedro Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente }
+		"Francisco Xavier" Gabino Gabriel Gaspar Xenaro Gonzalo Inaciu Isidro Xacobo Xaime
+		Xoaquím Xousé "Xousé Antonio" "Xousé Manuel" "Xousé María" Xuan "Xuan Bautista" Xulio Llucas Lorenzo 
+		Lluis Manuel Marcos Mariano Matéu Melchor Miguel Nicolás Pablo Pascual
+		Plutracu Rafael Raimundo Ramón Ricardo Santiago Sebastián Segismundo Valeriano Vicente }
 		
 	last_names = { Acuña Aguirre Alcalá-Zamora Allendesalazar Alonso Álvarez "Álvarez de Toledo" Aranda Argüelles-Meres Asensio
 		Aznar Barradas Bugallal Cabrera "Cagigal de la Vega" Cano Cervera "de Albornoz" "de Borbón"
-		"de Carvajal" "de la Fuente" "de Orleans" Díaz Espartero Fernández "Fernández de Córdoba" "Fitz-James Stuart" Franco 
-		García "García de la Noceda" González Heredia Hernández Herrera Hevia "Hidalgo de Cisneros" Linares López 
-		Maroto Márquez Martínez-Campos Maura Menéndez Miaja Millán-Astray Mina Mola Muñoz 
-		Narváez O'Donnell Ortega Pavía Pérez "Primo de Rivera" "Queipo de Llano" Rodríguez Rojo Ruiz 
-		Sanjurjo Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Yagüe }
+		"de la Riba" "de la Fuente" "de Orleans" Escanlar Espartero Fonseca Folgueras Feito Gancedo 
+		Gallinar "García de la Noceda" Galguera Heredia Herías Heres Hevia "Hidalgo de Cisneros" Linares López 
+		Maroto Márquez Mayo Maura Menéndez Miaja Margolles Mina Magadán Mallada 
+		Narváez O'Donnell Ortega Pavía Pérez "de Salimo" "del Narclea" Rodríguez Roxo Rubio 
+		Sariego Serrano Silvestre Topete Valdés Varela Villapol Villar Weyler Zapico }
 	}
 	aragonese = {
 		color = {145 97 204} #119 120 136

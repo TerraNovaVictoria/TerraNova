@@ -94,74 +94,74 @@ RUS = { value = 0 }
 
 #Army
 army = {
-	name = "1. EjÃ©rcito de la RepÃºblica"
+	name = "1. Exercitu de la República"
 	location = 489
 	regiment = {
-		name= "1. Granaderos del Rey"
+		name= "1. Guardia d'Asaltu"
 		type = infantry
 		home = 489
 	}
 
 	regiment = {
-		name= "2. Granaderos del Rey"
+		name= "2. Guardia d'Asaltu"
 		type = infantry
 		home = 489
 	}
 
 	regiment = {
-		name= "3. Granaderos Real"
+		name= "3. Guardia d'Asaltu"
 		type = infantry
 		home = 503
 	}
 
 	regiment = {
-		name= "1. Brigada de InfanterÃ­a"
+		name= "1. Brigada de Infantería"
 		type = infantry
 		home = 516
 	}
 
 	regiment = {
-		name= "2. Brigada de InfanterÃ­a"
+		name= "2. Brigada de Infantería"
 		type = infantry
 		home = 513
 	}
 	
 	regiment = {
-		name= "3. Brigada de InfanterÃ­a"
+		name= "3. Brigada de Infantería"
 		type = infantry
 		home = 513
 	}
 	
 	regiment = {
-		name= "4. Brigada de InfanterÃ­a"
+		name= "4. Brigada de Infantería"
 		type = infantry
 		home = 513
 	}
 	
 	regiment = {
-		name= "5. Brigada de InfanterÃ­a"
+		name= "5. Brigada de Infantería"
 		type = infantry
 		home = 513
 	}
 }
 
 army = {
-	name = "2. EjÃ©rcito de la RepÃºblica"
+	name = "2. Exercitu de la República"
 	location = 503
 	regiment = {
-		name= "1. Brigada de InfanterÃ­a"
+		name= "1. Brigada de Infantería"
 		type = infantry
 		home = 513
 	}
 
 	regiment = {
-		name= "2. Brigada de InfanterÃ­a"
+		name= "2. Brigada de Infantería"
 		type = infantry
 		home = 513
 	}
 
 	regiment = {
-		name= "3. Brigada de InfanterÃ­a"
+		name= "3. Brigada de Infantería"
 		type = infantry
 		home = 513
 	}
@@ -169,7 +169,7 @@ army = {
 }
 
 navy = {
-	name = "2. Marina de Guerra de la RepÃºblica EspaÃ±ola"
+	name = "2. Marina de Guerra de la República Española"
 	location = 503
 	
 	ship = {
@@ -193,7 +193,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Nuestra SeÃ±ora del Patrocinio"
+		name = "Nuestra Señora del Patrocinio"
 		type = frigate
 	}
 	
@@ -214,7 +214,7 @@ navy = {
 }
 
 navy = {
-	name = "2. Marina de Guerra de la RepÃºblica EspaÃ±ola"
+	name = "2. Marina de Guerra de la República Española"
 	location = 512
 	
 	ship = {
@@ -228,7 +228,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Pinzero"
+		name = "Pieloro"
 		type = manowar
 	}
 	
@@ -238,7 +238,7 @@ navy = {
 	}
 	
 	ship = {
-		name = "Nuestra SeÃ±ora del Patrocinio"
+		name = "Nuestra Señora del Patrocinio"
 		type = frigate
 	}
 	
@@ -259,7 +259,7 @@ navy = {
 }
 
 leader = {
-	name = "GerÃ³nimo ValdÃ©s"
+	name = "Xaime Valdés"
 	date = 1836.1.1
 	type = land
 	personality = competent
@@ -268,7 +268,7 @@ leader = {
 }
 
 leader = {
-	name = "Van Halen"
+	name = "Alexandru Tomás"
 	date = 1823.1.1
 	type = land
 	personality = merciless
@@ -277,7 +277,7 @@ leader = {
 }
 
 leader = {
-	name = "JosÃ© RamÃ³n Rodil"
+	name = "Matéu Rodil"
 	date = 1824.1.1
 	type = land
 	personality = merciless
