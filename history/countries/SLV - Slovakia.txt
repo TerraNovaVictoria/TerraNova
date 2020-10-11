@@ -1,5 +1,6 @@
 capital = 633
 primary_culture = avari
+culture = north_german
 religion = catholic
 government = subject
 plurality = 0.05

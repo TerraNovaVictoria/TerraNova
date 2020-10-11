@@ -854,7 +854,7 @@
 	farmers = {
 		culture = avari
 		religion = catholic
-		size = 9900    
+		size = 13900    
 	}
 	
 	aristocrats = {
@@ -878,7 +878,7 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 12900    
+		size = 8900    
 	}
 
 	clergymen = {

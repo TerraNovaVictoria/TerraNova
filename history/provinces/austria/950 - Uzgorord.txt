@@ -1,6 +1,6 @@
-owner = AVR
-controller = AVR
+owner = BCR
+controller = BCR
+add_core = BCR
 add_core = AVR
-add_core = RUT
 trade_goods = coal
 life_rating = 35

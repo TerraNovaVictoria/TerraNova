@@ -1,0 +1,162 @@
+country_event = {
+	id = 712400
+	title = "EVTNAME712400" #Death of the Pannonian Duke
+	desc = "EVTDESC712400"
+	picture = "irish_flag"
+	
+	trigger = {
+		tag = PAN
+		government = subject
+		year = 1841
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT712400A" #Pannonian Inheritance
+		AVR = { country_event = 712401 }
+		BCR = { country_event = 712405 }
+		ai_chance = { factor = 90 }
+	}
+		
+	option = {
+		name = "EVTOPT712400B" #Balaton Republic
+		prestige = 5
+		government = democracy
+		BOH = { release_vassal = PAN }
+		BOH = { country_event = 712402 }
+		BCR = { country_event = 712405 }
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = {
+	id = 712401
+	title = "EVTNAME712401" #Avaria Inherits Pannonia
+	desc = "EVTDESC712401"
+	picture = "irish_flag"
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT712401A"
+		PAN = { all_core = { remove_core = PAN } }
+		AVR = { inherit = PAN }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 712402
+	title = "EVTNAME712402" #Pannonia Secedes
+	desc = "EVTDESC712402"
+	picture = "irish_flag"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT712402A" #Declare War
+		BAV = { country_event = 712403 }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT712402B" #Let them be
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 712403
+	title = "EVTNAME712403" #Pannonia Secedes - Bavarian Event
+	desc = "EVTDESC712403"
+	picture = "irish_flag"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT712403A" #Let the Bohemians Pass
+		war = {
+			target = PAN
+			attacker_goal = { casus_belli = conquest }
+		}
+		BOH = { 
+			war = {
+				target = PAN
+			}
+		}
+		set_country_flag = pannonian_war
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT712403B" #Let them be
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 712404
+	title = "EVTNAME712404" #Pannonian Province Transfer and Redrawel
+	desc = "EVTDESC712404"
+	picture = "irish_flag"
+	
+	trigger = {
+		tag = BAV
+		AND = {
+			644 = { owned_by = THIS }
+			3255 = { owned_by = THIS }
+			624 = { owned_by = THIS }
+		}
+		has_country_flag = pannonian_war
+	}
+		
+	mean_time_to_happen = { days = 1 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT712404A"
+		624 = { remove_core = AVR add_core = AUS secede_province = AUS }
+		3255 = { remove_core = AVR add_core = STY secede_province = STY }
+		any_owned = {
+			limit = {
+				is_core = AVR
+			}
+			secede_province = AVR
+		}
+		PAN = { all_core = { remove_core = PAN } }
+		clr_country_flag = pannonian_war
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 712405
+	title = "EVTNAME712405" #Ruthenia gets inherited/ Part of BlueCroatia-Pannonia technically
+	desc = "EVTDESC712405"
+	picture = "irish_flag"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT712405A"
+		government = absolute_monarchy
+		950 = { secede_province = AVR }
+		3258 = { remove_core = BCR secede_province = AVR }
+		637 = { remove_core = BCR }
+		638 = { remove_core = BCR }
+		SLV = { inherit = BCR }
+		ai_chance = { factor = 100 }
+	}
+
+}

@@ -74,8 +74,15 @@ NRM;Normandy;;;;;;;;;;;;;x
 NRM_ADJ;Norman;;;;;;;;;;;;;x
 CRO_subject;Illyrian Croatia;;;;;;;;;;;;;x
 PAN;Pannonia;;;;;;;;;;;;;x
-PAN_subject;Pannonian Croatia;;;;;;;;;;;;;x
+PAN_subject;Lower Pannonia;;;;;;;;;;;;;x
+PAN_provisional_state;Pannonian Croatia;;;;;;;;;;;;;x
 PAN_ADJ;Pannonian;;;;;;;;;;;;;x
+PAN_democracy;Balaton;;;;;;;;;;;;;x
+PAN_democracy_ADJ;Balaton;;;;;;;;;;;;;x
+BCR;Chrobatia;;;;;;;;;;;;;x
+BCR_ADJ;Chrobatian;;;;;;;;;;;;;x
+BCR_subject;Bijela Croatia;;;;;;;;;;;;;x
+BCR_subject_ADJ;Bijelan;;;;;;;;;;;;;x
 BOS;Bosnia;;;;;;;;;;;;;x
 BOS_ADJ;Bosnian;;;;;;;;;;;;;x
 TRY;Transylvania;;;;;;;;;;;;;x

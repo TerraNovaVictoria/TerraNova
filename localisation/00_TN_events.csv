@@ -1,4 +1,11 @@
 ;;;;;;;;;;;;;;x,,,
+EVTNAME712400;Death of the Pannonian Duke!;;;;;;;;;;;;;x
+EVTDESC712400;With the death of our Duke, our Duchy would legitimately pass on to the Duchy Avaria, resulting in us loosing our unique autonomy under the Bohemian Crown. If we don't intervene, Lower Pannonia will become an integral part of the Avar Duchy.;;;;;;;;;;;;;x
+EVTOPT712400A;We have to abide by the law.;;;;;;;;;;;;;x
+EVTOPT712400B;Declare the Balaton Republic!;;;;;;;;;;;;;x
+EVTNAME712401;The Pannonian Inheritance;;;;;;;;;;;;;x
+EVTDESC712401;The pannonian duke has died without an heir, resulting in the avar duke inheriting the title. While this change is widely welcomed by the Avars, this is most certainly a worrying development for the Bohemians. Either way, after almost seven centuries, the two Pannonian Duchies are finally reunited under a single Avar ruler once more.;;;;;;;;;;;;;x
+EVTOPT712401A;United at last;;;;;;;;;;;;;x
 EVTNAME025567;Collapse of the Ionian League!;;;;;;;;;;;;;x
 EVTDESC025567;The republican government in Morea has failed to usurp the despotate. Without the foreigners backing the revolution and without the morean army, the chances of our survival are slim. It is now upon us to liberate all of Greece from the the autocrats.;;;;;;;;;;;;;x
 EVTOPT025567A;Long live the Hellenic Republic!;;;;;;;;;;;;;x

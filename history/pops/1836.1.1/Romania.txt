@@ -30,7 +30,19 @@
 	farmers = {
 		culture = ossetian
 		religion = orthodox
-		size = 14250
+		size = 5000
+	}
+	
+	farmers = {
+		culture = avari
+		religion = catholic
+		size = 4000
+	}
+	
+	farmers = {
+		culture = ruthenian
+		religion = orthodox
+		size = 5250
 	}
 
 	aristocrats = {
@@ -712,7 +724,7 @@
 	serfs = {
 		culture = avari
 		religion = protestant
-		size = 16325 
+		size = 9325 
 	}
 	
 	serfs = {
@@ -724,7 +736,7 @@
 	serfs = {
 		culture = romanian
 		religion = orthodox
-		size = 2000 
+		size = 9000 
 	}
 
 	aristocrats = {

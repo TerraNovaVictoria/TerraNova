@@ -1,7 +1,7 @@
 #All HRE states are vassals of Bavaria at the start of the game/ HRE is a formable tag for the Bavarian Empire, cosmetically changed to the HRE
 
 #Palatinate
-substate = {
+vassal = {
 	first = BAV
 	second = PLT
 	start_date = 1815.1.1
@@ -89,7 +89,7 @@ vassal = {
 }
 
 #Styria
-vassal = {
+substate = {
 	first = BAV
 	second = STY
 	start_date = 1815.1.1
@@ -97,7 +97,7 @@ vassal = {
 }
 
 #Austria
-vassal = {
+substate = {
 	first = BAV
 	second = AUS
 	start_date = 1815.1.1
@@ -105,7 +105,7 @@ vassal = {
 }
 
 #Salzburg
-vassal = {
+substate = {
 	first = BAV
 	second = SLZ
 	start_date = 1815.1.1

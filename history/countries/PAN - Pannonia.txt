@@ -1,5 +1,6 @@
 capital = 644
-primary_culture = shtokavian
+primary_culture = avari
+culture = shtokavian
 religion = catholic
 government = subject
 plurality = 0.05

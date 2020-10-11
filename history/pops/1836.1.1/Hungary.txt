@@ -231,7 +231,7 @@
 	artisans = {
 		culture = north_german
 		religion = catholic
-		size = 1500
+		size = 4500
 	}
 
 	soldiers = {
@@ -243,55 +243,43 @@
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 27450 
+		size = 7450 
 	}
 
 	aristocrats = {
-		culture = avari
-		religion = protestant
+		culture = shtokavian
+		religion = catholic
 		size = 3750 
 	}
 
 	clergymen = {
-		culture = avari
-		religion = protestant
+		culture = shtokavian
+		religion = catholic
 		size = 1250
 	}
 
 	artisans = {
-		culture = avari
-		religion = protestant
-		size = 6000
+		culture = shtokavian
+		religion = catholic
+		size = 500
 	}
 
 	soldiers = {
-		culture = avari
-		religion = protestant
+		culture = shtokavian
+		religion = catholic
 		size = 3000
 	}
 
 	soldiers = {
-		culture = avari
-		religion = protestant
-		size = 3000
-	}
-
-	soldiers = {
-		culture = avari
-		religion = protestant
-		size = 3000
-	}
-
-	soldiers = {
-		culture = avari
-		religion = protestant
+		culture = shtokavian
+		religion = catholic
 		size = 250
 	}
 
 	farmers = {
-		culture = avari
-		religion = protestant
-		size = 10000
+		culture = shtokavian
+		religion = catholic
+		size = 1000
 	}
 	
 	serfs = {
@@ -321,13 +309,13 @@
 	soldiers = {
 		culture = avari
 		religion = protestant
-		size = 300
+		size = 3000
 	}
 
 	serfs = {
 		culture = avari
 		religion = protestant
-		size = 29075  
+		size = 33075  
 	}
 
 	clergymen = {
@@ -338,68 +326,44 @@
 
 	artisans = {
 		culture = avari
-		religion = protestant
-		size = 2000
+		religion = jewish
+		size = 500
 	}
 
 	soldiers = {
 		culture = avari
-		religion = protestant
+		religion = jewish
 		size = 50
 	}
 
 	farmers = {
 		culture = avari
-		religion = protestant
+		religion = jewish
 		size = 2900   
 	}
 
 	clergymen = {
 		culture = slovene
 		religion = catholic
-		size = 150 
-	}
-
-	artisans = {
-		culture = slovene
-		religion = catholic
-		size = 750
-	}
-
-	soldiers = {
-		culture = slovene
-		religion = catholic
-		size = 150
-	}
-
-	serfs = {
-		culture = slovene
-		religion = catholic
-		size = 3950 
-	}
-
-	clergymen = {
-		culture = shtokavian
-		religion = catholic
 		size = 50 
 	}
 
 	artisans = {
-		culture = shtokavian
+		culture = slovene
 		religion = catholic
 		size = 350
 	}
 
 	soldiers = {
-		culture = shtokavian
+		culture = slovene
 		religion = catholic
-		size = 75
+		size = 1500
 	}
 
 	serfs = {
-		culture = shtokavian
+		culture = slovene
 		religion = catholic
-		size = 56525 
+		size = 27025 
 	}
 }
 #Baranya Region (232000) #see shtokaviania.txt for balance of Region
@@ -445,31 +409,31 @@
 	farmers = {
 		culture = avari
 		religion = protestant
-		size = 15670
+		size = 23670
 	}
 
 	clergymen = {
 		culture = avari
-		religion = protestant
+		religion = catholic
 		size = 75  
 	}
 
 	artisans = {
 		culture = avari
-		religion = protestant
+		religion = catholic
 		size = 250 
 	}
 
 	soldiers = {
 		culture = avari
-		religion = protestant
+		religion = catholic
 		size = 1050
 	}
 
 	serfs = {
 		culture = avari
-		religion = protestant
-		size = 4625    
+		religion = catholic
+		size = 3625    
 	}
 
 	aristocrats = {
@@ -541,7 +505,7 @@
 	farmers = {
 		culture = shtokavian
 		religion = catholic
-		size = 27435 
+		size = 20435 
 	}
 }
 #Dunautul Region (1892000)  
@@ -861,7 +825,7 @@
 	farmers = {
 		culture = avari
 		religion = protestant
-		size =  37000
+		size =  57000
 	}
 
 	aristocrats = {
@@ -873,13 +837,13 @@
 	farmers = {
 		culture = shtokavian
 		religion = catholic
-		size =  11000
+		size =  1000
 	}
 
 	serfs = {
 		culture = shtokavian
 		religion = catholic
-		size = 23275    
+		size = 13275    
 	}
 
 	aristocrats = {
@@ -941,7 +905,7 @@
 	farmers = {
 		culture = avari
 		religion = protestant
-		size = 43550
+		size = 49550
 	}
 	
 	farmers = {
@@ -977,7 +941,7 @@
 	farmers = {
 		culture = shtokavian
 		religion = catholic
-		size = 25250
+		size = 19250
 	}
 
 	serfs = {
