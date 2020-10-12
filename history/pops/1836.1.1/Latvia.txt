@@ -23,7 +23,7 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 1950
+		size = 3950
 	}
 
 	soldiers = {
@@ -41,7 +41,7 @@
 	farmers = {
 		culture = estonian
 		religion = protestant
-		size = 3150
+		size = 1150
 	}
 
 	artisans = {
@@ -194,38 +194,38 @@
 	}
 
 	aristocrats = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	bureaucrats = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	officers = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 1500
 	}
 
 	soldiers = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 150
 	}
 
@@ -334,32 +334,32 @@
 	}
 
 	aristocrats = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 250
 	}
 
 	clergymen = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	soldiers = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	farmers = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 1550
 	}
 
@@ -475,32 +475,32 @@
 	}
 
 	aristocrats = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	soldiers = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	farmers = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 2050
 	}
 

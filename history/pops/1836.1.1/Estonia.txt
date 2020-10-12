@@ -75,74 +75,74 @@
 	}
 
 	clergymen = {
-		culture = swedish
+		culture = russian
 		religion = protestant
 		size = 100
 	}
 	
 	aristocrats = {
-		culture = swedish
+		culture = russian
 		religion = protestant
 		size = 100
 	}
 	
 	officers = {
-		culture = swedish
+		culture = russian
 		religion = protestant
 		size = 100
 	}
 
 	artisans = {
-		culture = swedish
+		culture = russian
 		religion = protestant
 		size = 300
 	}
 
 	soldiers = {
-		culture = swedish
+		culture = russian
 		religion = protestant
 		size = 100
 	}
 
 	farmers = {
-		culture = swedish
+		culture = russian
 		religion = protestant
 		size = 400
 	}
 
 	aristocrats = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 425
 	}
 
 	officers = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	clergymen = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 175
 	}
 
 	soldiers = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 	
 	farmers = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 }
@@ -173,32 +173,32 @@
 	}
 
 	aristocrats = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 800
 	}
 
 	clergymen = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	soldiers = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	farmers = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 1100
 	}
 }
@@ -315,26 +315,26 @@
 	}
 
 	clergymen = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	soldiers = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 100
 	}
 
 	farmers = {
-		culture = russian
-		religion = orthodox
+		culture = north_german
+		religion = catholic
 		size = 1325
 	}
 }

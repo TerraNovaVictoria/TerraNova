@@ -2111,13 +2111,13 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 18325
+		size = 25325
 	}
 	
 	farmers = {
-		culture = finnish
+		culture = estonian
 		religion = protestant
-		size = 13175
+		size = 6175
 	}
 }
 #Gdov (120000/30000 POPS)
@@ -2153,25 +2153,25 @@
 	}
 
 	clergymen = {
-		culture = finnish
+		culture = estonian
 		religion = protestant
 		size = 100
 	}
 	
 	artisans = {
-		culture = finnish
+		culture = estonian
 		religion = protestant
 		size = 350
 	}
 
 	soldiers = {
-		culture = finnish
+		culture = estonian
 		religion = protestant
 		size = 110
 	}
 
 	farmers = {
-		culture = finnish
+		culture = estonian
 		religion = protestant
 		size = 4925
 	}

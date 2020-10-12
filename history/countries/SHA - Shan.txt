@@ -5,7 +5,7 @@ culture = kachin
 culture = lahu
 culture = wa-palaung
 religion = theravada
-government = absolute_monarchy
+government = subject
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.02
@@ -51,6 +51,11 @@ upper_house = {
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
+}
+
+govt_flag = {
+	government = subject
+	flag = democracy
 }
 
 # Inventions

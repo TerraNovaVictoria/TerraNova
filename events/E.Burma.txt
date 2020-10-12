@@ -1,0 +1,36 @@
+#Ming-Ava Transition
+country_event = {
+	id = 471800
+	title = "EVTNAME471800" #Collapse of the Southern Ming
+	desc = "EVTDESC471800"
+	picture = "ava_temple"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = AVK
+		year = 1837
+		primary_culture = beifaren
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "EVTOPT471800A"
+		prestige = -5
+		primary_culture = burmese
+		government = absolute_monarchy
+		AVK = { release_vassal = SHA }
+		1342 = { secede_province = SHA }
+		SHA = { government = ancient_regime }
+		AVK = { release_vassal = MNP }
+		1339 = { add_core = MNP secede_province = MNP }
+		MNP = { government = absolute_monarchy }
+		ai_chance = {
+			factor = 100
+		}
+	}
+	
+}

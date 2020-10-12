@@ -1,4 +1,5 @@
 color = { 190 144 0 }
+subject = { 255 193 30 }
 graphical_culture = IndianGC
 
 party = {

@@ -1,12 +1,13 @@
 capital = 625
 primary_culture = north_german
+culture = czech
 religion = catholic
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.7
 civilized = yes
-prestige = 5
+prestige = 0
 
 # Political reforms
 slavery = no_slavery

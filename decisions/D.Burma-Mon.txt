@@ -65,6 +65,7 @@ political_decisions = {
 				tag = AVK
 				NOT = { has_country_flag = post_colonial_nation }
 				NOT = { has_country_flag = claimed_irrawady_delta }
+				NOT = { primary_culture = beifaren }
 			}
 		
 			allow = {
@@ -93,7 +94,11 @@ political_decisions = {
 		picture = map_of_burma
 		potential = {
 				OR = {
-					tag = AVK
+					AND = {
+						tag = AVK
+						NOT = { primary_culture = beifaren }
+						NOT = { government = ancient_regime }
+					}
 					AND = {
 						tag = PRM
 						has_country_flag = monic_burma

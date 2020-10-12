@@ -585,7 +585,7 @@ VEN		= "countries/Venice.txt"
 
 # Eastern Europe
 BOH		= "countries/Bohemia-Moravia.txt"
-KRA		= "countries/Krakow.txt"
+USL		= "countries/Upper-Silesia.txt"
 CRI		= "countries/Crimea.txt"
 EST		= "countries/Estonia.txt"
 HUN		= "countries/Hungary.txt"

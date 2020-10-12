@@ -1,5 +1,6 @@
 capital = 633
-primary_culture = avari
+primary_culture = czech
+culture = avari
 culture = north_german
 religion = catholic
 government = subject

@@ -782,51 +782,9 @@
 	}
 
 	aristocrats = {
-		culture = romanian
-		religion = protestant
-		size = 500  
-	}
-
-	bureaucrats = {
-		culture = romanian
-		religion = protestant
-		size = 275  
-	}
-
-	officers = {
-		culture = romanian
-		religion = protestant
-		size = 250  
-	}
-
-	clergymen = {
-		culture = romanian
-		religion = protestant
-		size = 75      
-	}
-
-	artisans = {
-		culture = romanian
-		religion = protestant
-		size = 1500     
-	}
-
-	soldiers = {
-		culture = romanian
-		religion = protestant
-		size = 100
-	}
-
-	farmers = {
-		culture = romanian
-		religion = protestant
-		size = 6300      
-	}
-
-	aristocrats = {
 		culture = north_german
 		religion = protestant
-		size = 350   
+		size = 550   
 	}
 
 	bureaucrats = {
@@ -838,31 +796,31 @@
 	officers = {
 		culture = north_german
 		religion = protestant
-		size = 100 
+		size = 250 
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 80    
+		size = 250    
 	}
 
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 850  
+		size = 2850  
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 50
+		size = 500
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 3320   
+		size = 9320   
 	}
 
 	clergymen = {
@@ -1812,7 +1770,7 @@
 	serfs = {
 		culture = romanian
 		religion = orthodox
-		size = 24150 
+		size = 34150 
 	}
 	
 	farmers = {
@@ -1848,7 +1806,7 @@
 	farmers = {
 		culture = avari
 		religion = orthodox
-		size = 27175   
+		size = 17175   
 	}
 
 	aristocrats = {
