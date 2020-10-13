@@ -1,7 +1,7 @@
 country_event = {
-	id = 140001
-	title = "EVTNAME140001" #Hanseatic Factionalism
-	desc = "EVTDESC140001"
+	id = 130001
+	title = "EVTNAME130001" #Hanseatic Factionalism
+	desc = "EVTDESC130001"
 	picture = "chinese_palace"
 	
 	trigger = {
@@ -14,8 +14,31 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "EVTOPT140001A"
+		name = "EVTOPT130001A"
 		set_country_flag = hanseatic_factionalism
 		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 130002
+	title = "EVTNAME130002" #Hansa invites Brandenburg
+	desc = "EVTDESC130002"
+	picture = "chinese_palace"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT130002A"
+		HAN = { all_core = { add_core = HNL } }
+		HNL = { inherit = THIS }		
+		HNL = { country_event = 130002 }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT130002B"
+		HNL = { country_event = 130003 }
+		ai_chance = { factor = 0 }
 	}
 }

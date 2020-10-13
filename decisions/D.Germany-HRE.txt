@@ -1,0 +1,296 @@
+political_decisions = {
+
+########BELGIUM RELATED DECISIONS########
+
+	#Aachen seizes Eupen
+	aachen_takes_eupen = {
+		picture = hre_map
+		potential = {
+				tag = AAC
+				LIG = { NOT = { vassal_of = BAV } }
+			}
+		
+			allow = {
+				396 = { NOT = { owned_by = THIS } }
+			}
+		
+			effect = {
+				396 = { add_core = AAC remove_core = LIG secede_province = AAC }
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+
+
+########HRE REFORMATION DECISIONS########
+
+	##Reform the Stemduchies
+	lander_reform = {
+		picture = hre_map
+		potential = {
+				tag = BAV
+				government = elective_monarchy
+				NOT = { has_global_flag = hre_dissolved }
+				NOT = { has_country_flag = reformed_landers }
+			}
+		
+			allow = {
+				state_and_government = 1
+			}
+		
+			effect = {
+				set_country_flag = reformed_landers
+				prestige = 5
+				badboy = 2.5
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Reform Swabia
+	reform_swabia = {
+		picture = hre_map
+		potential = {
+				tag = BAV
+				government = elective_monarchy
+				has_country_flag = reformed_landers
+				NOT = { has_global_flag = hre_dissolved }
+				NOT = { has_country_flag = the_swabian_duchy }
+			}
+		
+			allow = {
+				state_n_government = 1
+				AND = {
+					WUR = { in_sphere = THIS vassal_of = THIS }
+					BAD = { in_sphere = THIS vassal_of = THIS }
+					ALS = { in_sphere = THIS vassal_of = THIS }
+					ULM = { in_sphere = THIS vassal_of = THIS }
+				}
+			}
+		
+			effect = {
+				WUR = { all_core = { add_core = SWB remove_core = WUR } }
+				WUR = { change_tag = SWB }
+				BAD = { all_core = { add_core = SWB remove_core = BAD } annex_to = SWB }
+				ULM = { all_core = { add_core = SWB remove_core = ULM } annex_to = SWB }
+				ALS = { all_core = { add_core = SWB remove_core = ALS } annex_to = SWB }
+				410 = { add_core = SWB }
+				588 = { add_core = SWB }
+				594 = { add_core = SWB }
+				592 = { add_core = SWB }	
+				prestige = 5
+				badboy = 1
+				SWB = { government = subject }
+				590 = { add_core = FRK remove_core = SWB secede_province = BAV }
+				set_country_flag = the_swabian_duchy
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Reform Hesse
+	reform_hesse = {
+		picture = hre_map
+		potential = {
+				tag = BAV
+				government = elective_monarchy
+				has_country_flag = reformed_landers
+				NOT = { has_global_flag = hre_dissolved }
+				NOT = { has_country_flag = the_franconian_duchy }
+				NOT = { has_country_flag = the_hessian_duchy }
+			}
+		
+			allow = {
+				state_n_government = 1
+				AND = {
+					FRM = { in_sphere = THIS vassal_of = THIS }
+					HES = { in_sphere = THIS vassal_of = THIS }
+					NAS = { in_sphere = THIS vassal_of = THIS }
+					MAI = { in_sphere = THIS vassal_of = THIS }
+				}
+			}
+		
+			effect = {
+				FRM = { all_core = { add_core = HES remove_core = FRM } annex_to = HES }
+				MAI = { all_core = { add_core = HES remove_core = MAI } annex_to = HES }
+				NAS = { all_core = { add_core = HES remove_core = NAS } annex_to = HES }
+				570 = { remove_core = RHI }
+				596 = { add_core = FRK remove_core = HES secede_province = BAV }
+				3270 = { remove_core = BAV secede_province = HES }
+				prestige = 5
+				badboy = 1
+				HES = { government = subject }
+				set_country_flag = the_hessian_duchy
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Reform Saxony
+	reform_upper_saxony = {
+		picture = hre_map
+		potential = {
+				tag = BAV
+				government = elective_monarchy
+				has_country_flag = reformed_landers
+				NOT = { has_global_flag = hre_dissolved }
+				NOT = { has_country_flag = the_upp_saxon_duchy }
+			}
+		
+			allow = {
+				state_n_government = 1
+				AND = {
+					SAX = { in_sphere = THIS vassal_of = THIS }
+					THU = { in_sphere = THIS vassal_of = THIS }
+					ANH = { in_sphere = THIS vassal_of = THIS }
+				}
+			}
+		
+			effect = {
+				THU = { all_core = { add_core = SAX remove_core = THU } annex_to = SAX }
+				ANH = { all_core = { add_core = SAX remove_core = ANH } annex_to = SAX }
+				556 = { add_core = SAX }
+				687 = { remove_core = SAX }
+				prestige = 5
+				badboy = 1
+				SAX = { government = subject }
+				set_country_flag = the_upp_saxon_duchy
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Reform Westphalia
+	reform_lower_saxony = {
+		picture = hre_map
+		potential = {
+				tag = BAV
+				government = elective_monarchy
+				has_country_flag = reformed_landers
+				NOT = { has_global_flag = hre_dissolved }
+				NOT = { has_country_flag = the_low_saxon_duchy }
+			}
+		
+			allow = {
+				state_n_government = 1
+				AND = {
+					BRA = { in_sphere = THIS vassal_of = THIS }
+					MUN = { in_sphere = THIS vassal_of = THIS }
+					WES = { in_sphere = THIS vassal_of = THIS }
+					DOR = { in_sphere = THIS vassal_of = THIS }
+					LIP = { in_sphere = THIS vassal_of = THIS }
+					WLD = { in_sphere = THIS vassal_of = THIS }
+					OLD = { in_sphere = THIS vassal_of = THIS }
+				}
+			}
+		
+			effect = {
+				BRA = { all_core = { add_core = HAN remove_core = BRA } }
+				BRA = { change_tag = HAN }
+				MUN = { all_core = { add_core = HAN remove_core = MUN } annex_to = HAN }
+				WES = { all_core = { add_core = HAN remove_core = WES } annex_to = HAN }
+				DOR = { all_core = { add_core = HAN remove_core = DOR } annex_to = HAN }
+				LIP = { all_core = { add_core = HAN remove_core = LIP } annex_to = HAN }
+				WLD = { all_core = { add_core = HAN remove_core = WLD } annex_to = HAN }
+				OLD = { all_core = { add_core = HAN remove_core = WLD } annex_to = HAN }
+				LAU = { all_core = { add_core = HAN remove_core = LAU add_core = SWH } }
+				BRE = { all_core = { add_core = HAN } }
+				HAM = { all_core = { add_core = HAN add_core = SWH } }
+				LUB = { all_core = { add_core = HAN add_core = SWH } }
+				HOL = { all_core = { add_core = HAN add_core = SWH remove_core = HOL } }
+				SCH = { all_core = { add_core = HAN remove_core = SCH } }
+				limit = { HOL = { exists = yes } }
+				HOL = { change_tag = SWH }
+				583 = { add_core = HAN }
+				prestige = 5
+				badboy = 1
+				HAN = { government = subject }
+				set_country_flag = the_low_saxon_duchy
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Reform Renania
+	reform_renania = {
+		picture = hre_map
+		potential = {
+				tag = BAV
+				government = elective_monarchy
+				has_country_flag = reformed_landers
+				NOT = { has_global_flag = hre_dissolved }
+				NOT = { has_country_flag = the_rhenish_duchy }
+			}
+		
+			allow = {
+				state_n_government = 1
+				AND = {
+					OR = {
+						DUI = { in_sphere = THIS vassal_of = THIS }
+						BJK = { in_sphere = THIS vassal_of = THIS }
+					}
+					TRR = { in_sphere = THIS vassal_of = THIS }
+					AAC = { in_sphere = THIS vassal_of = THIS }
+					PLT = { in_sphere = THIS vassal_of = THIS }
+					CLG = { in_sphere = THIS vassal_of = THIS }
+				}
+			}
+		
+			effect = {
+				DUI = { all_core = { add_core = RHI remove_core = DUI } change_tag = RHI }
+				TRR = { all_core = { add_core = RHI remove_core = TRR } annex_to = RHI }
+				AAC = { all_core = { add_core = RHI remove_core = AAC } annex_to = RHI }
+				583 = { secede_province = BAV add_core = BAV }
+				602 = { secede_province = BAV add_core = BAV }
+				569 = { secede_province = BAV add_core = FRK }
+				CLG = { all_core = { remove_core = CLG } annex_to = RHI }
+				575 = { add_core = RHI }
+				PLT = { all_core = { remove_core = PLT } annex_to = RHI }
+				571 = { add_core = RHI }
+				prestige = 5
+				badboy = 1
+				RHI = { government = subject }
+				set_country_flag = the_rhenish_duchy
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Reform Franconia
+	reform_franconia = {
+		picture = hre_map
+		potential = {
+				tag = BAV
+				government = elective_monarchy
+				has_country_flag = reformed_landers
+				NOT = { has_global_flag = hre_dissolved }
+				NOT = { has_country_flag = the_franconian_duchy }
+				has_country_flag = the_hessian_duchy
+			}
+		
+			allow = {
+				state_n_government = 1
+				FRK = { in_sphere = THIS vassal_of = THIS }
+				HES = { in_sphere = THIS vassal_of = THIS }
+				590 = { owned_by = THIS }
+				569 = { owned_by = THIS }
+				596 = { owned_by = THIS }
+			}
+		
+			effect = {
+				HES = { all_core = { add_core = FRK } }
+				FRK = { inherit = HES }
+				any_owned = {
+					limit = { is_core = FRK }
+					secede_province = FRK
+				}
+				prestige = 5
+				badboy = -5
+				clr_country_flag = the_hessian_duchy
+				set_country_flag = the_franconian_duchy
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+}

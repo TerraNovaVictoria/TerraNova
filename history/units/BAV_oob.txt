@@ -1,4 +1,66 @@
-#German Minors
+THU = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+ANH = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+BRA = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+LIP = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+DOR = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+MUN = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+OLD = {	
+	value = 125
+	level = 5
+	influence_value = 0
+}
+MEC = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+BRN = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+SAX = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+HES = {
+	value = 125
+	level = 5
+	influence_value = 100
+	military_access = yes
+}
+HNL = {
+	value = 125
+	level = 5
+	military_access = yes
+}
+
+
 DUI = {	
 	value = 125
 	level = 5
@@ -120,13 +182,7 @@ WLD = {
 }
 FRM = {
 	value = 125
-	level = 4
-	military_access = yes
-}
-HES = {
-	value = 125
 	level = 5
-	influence_value = 100
 	military_access = yes
 }
 LIP = {
@@ -134,16 +190,6 @@ LIP = {
 	military_access = yes
 }
 BOH = {
-	value = 125
-	level = 5
-	military_access = yes
-}
-HNL = {
-	value = 125
-	level = 5
-	military_access = yes
-}
-BRN = {
 	value = 125
 	level = 5
 	military_access = yes

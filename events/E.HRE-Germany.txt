@@ -5,15 +5,13 @@ country_event = {
 	title = "EVTNAME6666100" #Collapse of the Bavarian Netherlands
 	desc = "EVTDESC6666100"
 	picture = "belgian_revolution"
-	major = yes
 	
 	trigger = {
 		tag = BAV
 		year = 1836
-		has_global_flag = end_of_spanish_civil_war
 	}
 	
-	mean_time_to_happen = { days = 30 }
+	mean_time_to_happen = { days = 90 }
 	fire_only_once = yes
 	
 	option = {

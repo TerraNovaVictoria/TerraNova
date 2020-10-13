@@ -18,6 +18,7 @@ BOR		="countries/The Kingdom of France.txt"
 
 ##Terra Nova Nations
 THU		= "countries/Thuringia.txt"
+SWB		= "countries/Swabia.txt"
 BCR		= "countries/WhiteCroatia.txt"
 THR		= "countries/Three Leagues.txt"
 TIC		= "countries/Ticino.txt"

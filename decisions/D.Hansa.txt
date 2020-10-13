@@ -1,6 +1,6 @@
 political_decisions = {
 
-	#Invite Hannover
+	#Invite Brandenburg
 	invite_brandenburg = {
 		picture = czech_autonomy
 		potential = {
