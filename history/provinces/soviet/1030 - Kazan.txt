@@ -1,5 +1,6 @@
-owner = RUS
-controller = RUS
+owner = HUN
+controller = HUN
+add_core = HUN
 add_core = RUS
 add_core = TAR
 trade_goods = grain

@@ -8565,33 +8565,39 @@
 2670 = {
 	
 	aristocrats = {
-		culture = buryat
+		culture = mongol
 		religion = gelugpa
 		size = 325
 	}
 
 	clergymen = {
-		culture = buryat
+		culture = mongol
 		religion = gelugpa
 		size = 175
 	}
 
 	artisans = {
-		culture = buryat
+		culture = mongol
 		religion = gelugpa
 		size = 850
 	}
 
 	soldiers = {
-		culture = buryat
+		culture = mongol
 		religion = gelugpa
 		size = 175
 	}
 
 	farmers = {
+		culture = mongol
+		religion = gelugpa
+		size = 18000
+	}
+	
+	farmers = {
 		culture = buryat
 		religion = gelugpa
-		size = 30000
+		size = 4000
 	}
 }
 #Kular (1000/250 POPS)
@@ -8628,29 +8634,6 @@
 }
 #Zhilinda (1000/250 POPS) => Barguzin
 2671 = {
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 25
-	}
-
-	artisans = {
-		culture = russian
-		religion = orthodox
-		size = 50
-	}
-
-	soldiers = {
-		culture = russian
-		religion = orthodox
-		size = 25
-	}
-
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 2500
-	}
 	
 	aristocrats = {
 		culture = buryat
@@ -9654,45 +9637,33 @@
 1076 = {
 
 	aristocrats = {
-		culture = russian
-		religion = orthodox
-		size = 400
-	}
-
-	bureaucrats = {
-		culture = russian
-		religion = orthodox
-		size = 75
-	}
-
-	officers = {
-		culture = russian
-		religion = orthodox
-		size = 65
+		culture = buryat
+		religion = gelugpa
+		size = 100
 	}
 
 	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 375
+		culture = buryat
+		religion = gelugpa
+		size = 75
 	}
 
 	artisans = {
-		culture = russian
-		religion = orthodox
-		size = 1850
+		culture = buryat
+		religion = gelugpa
+		size = 850
 	}
 
 	soldiers = {
-		culture = russian
-		religion = orthodox
+		culture = buryat
+		religion = gelugpa
 		size = 375
 	}
 
 	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 7500
+		culture = buryat
+		religion = gelugpa
+		size = 5500
 	}
 	
 	aristocrats = {
@@ -9730,60 +9701,6 @@
 #Irkutsk (289000/72250 POPS) #Mongol = mongol  
 1075 = {
 
-	artisans = {
-		culture = ashkenazi
-		religion = jewish
-		size = 1000
-	}
-	
-	farmers = {
-		culture = gypsy
-		religion = orthodox
-		size = 150
-	}
-	
-	aristocrats = {
-		culture = russian
-		religion = orthodox
-		size = 500
-	}
-
-	bureaucrats = {
-		culture = russian
-		religion = orthodox
-		size = 75
-	}
-
-	officers = {
-		culture = russian
-		religion = orthodox
-		size = 65
-	}
-
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 600
-	}
-
-	artisans = {
-		culture = russian
-		religion = orthodox
-		size = 3000
-	}
-
-	soldiers = {
-		culture = russian
-		religion = orthodox
-		size = 1000
-	}
-
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 35760
-	}
-
 	aristocrats = {
 		culture = buryat
 		religion = gelugpa
@@ -9811,7 +9728,7 @@
 	farmers = {
 		culture = buryat
 		religion = gelugpa
-		size = 24975
+		size = 14975
 	}
 
 }
@@ -9850,26 +9767,26 @@
 #Dotkon (1000/250 POPS)
 2677 = {
 	clergymen = {
-		culture = russian
-		religion = orthodox
+		culture = buryat
+		religion = gelugpa
 		size = 250
 	}
 
 	artisans = {
-		culture = russian
-		religion = orthodox
+		culture = buryat
+		religion = gelugpa
 		size = 100
 	}
 
 	soldiers = {
-		culture = russian
-		religion = orthodox
+		culture = buryat
+		religion = gelugpa
 		size = 25
 	}
 
 	farmers = {
-		culture = russian
-		religion = orthodox
+		culture = buryat
+		religion = gelugpa
 		size = 2000
 	}
 
@@ -9906,26 +9823,26 @@
 #Kirensk (1000/250 POPS)
 2676 = {
 	clergymen = {
-		culture = russian
-		religion = orthodox
+		culture = buryat
+		religion = gelugpa
 		size = 300
 	}
 
 	artisans = {
-		culture = russian
-		religion = orthodox
+		culture = buryat
+		religion = gelugpa
 		size = 100
 	}
 
 	soldiers = {
-		culture = russian
-		religion = orthodox
+		culture = buryat
+		religion = gelugpa
 		size = 250
 	}
 
 	farmers = {
-		culture = russian
-		religion = orthodox
+		culture = buryat
+		religion = gelugpa
 		size = 3000
 	}
 

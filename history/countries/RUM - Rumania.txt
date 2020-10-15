@@ -1,4 +1,4 @@
-capital = 814
+capital = 860
 primary_culture = anatoli
 religion = sunni
 government = presidential_dictatorship
@@ -38,7 +38,7 @@ border_policy = open_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
-set_country_flag = sunni_country
+set_country_flag = shiite_country
 
 ruling_party = ANA_conservative
 upper_house = {

@@ -20,6 +20,30 @@ political_decisions = {
 
 		ai_will_do = { factor = 1 }
 	}
+	
+	#Aachen restores Francia #loljkdontdothisplease
+	aachen_reforms_francia = {
+		picture = francia_map
+		potential = {
+				tag = AAC
+			}
+		
+			allow = {
+				FRA = { all_core = { owned_by = THIS } }
+				GER = { all_core = { owned_by = THIS } }
+				ITA = { all_core = { owned_by = THIS } }
+			}
+		
+			effect = {
+				FRA = { all_core = { add_core = FRC } }
+				GER = { all_core = { add_core = FRC } }
+				ITA = { all_core = { add_core = FRC } }
+				prestige = 50
+				change_tag = FRC
+			}
+
+		ai_will_do = { factor = 1 }
+	}
 
 
 ########HRE REFORMATION DECISIONS########

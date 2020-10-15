@@ -1,6 +1,5 @@
-owner = RUS
-controller = RUS
-add_core = RUS
+owner = ALT
+controller = ALT
 add_core = ALT
 add_core = KAZ
 add_core = SIB

@@ -1,7 +1,6 @@
 owner = EVE
 controller = EVE
 add_core = EVE
-add_core = RUS
 add_core = SIB
 trade_goods = cattle
 life_rating = 35

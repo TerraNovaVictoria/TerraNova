@@ -1,4 +1,23 @@
 ;;;;;;;;;;;;;;x,,,
+SMD;Samoyedia;;;;;;;;;;;;;x
+SMD_ADJ;Samoyed;;;;;;;;;;;;;x
+SBR;Sibir;;;;;;;;;;;;;x
+SBR_ADJ;Sibirian;;;;;;;;;;;;;x
+KHK;Khakassia;;;;;;;;;;;;;x
+KHK_ADJ;Khakas;;;;;;;;;;;;;x
+BRY_primitive_absolute_monarchy;Khori;;;;;;;;;;;;;x
+BLG;Bargadia;;;;;;;;;;;;;x
+BLG_primitive_absolute_monarchy;Bulagad;;;;;;;;;;;;;x
+BLG_ADJ;Barga;;;;;;;;;;;;;x
+EVN;Evena;;;;;;;;;;;;;x
+EVN_ADJ;Even;;;;;;;;;;;;;x
+KET;Ketia;;;;;;;;;;;;;x
+KET_ADJ;Ket;;;;;;;;;;;;;x
+FRC;Francia;;;;;;;;;;;;;x
+FRC_ADJ;Frankish;;;;;;;;;;;;;x
+FRC_absolute_monarchy;The Frankish Empire;;;;;;;;;;;;;x
+FRC_prussian_constitutionalism;The Frankish Empire;;;;;;;;;;;;;x
+FRC_hms_government;The Frankish Empire;;;;;;;;;;;;;x
 SWB;Swabia;;;;;;;;;;;;;x
 SWB_ADJ;Swabian;;;;;;;;;;;;;x
 HAN_subject;Lower Saxony;;;;;;;;;;;;;x
@@ -478,15 +497,24 @@ MRE_prussian_constitutionalism;The Mystrasite Empire;;;;;;;;;;;;;;;;;;x;;;;
 MRE_prussian_constitutionalism_ADJ;Mystrasite;;;;;;;;;;;;;;;;;;x;;;;
 MRE_hms_government;The Mystrasite Empire;;;;;;;;;;;;;;;;;;x;;;;
 MRE_hms_government_ADJ;Mystrasite;;;;;;;;;;;;;;;;;;x;;;;
-RUM;Dobrewtson;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
-RUM_ADJ;Dobrewan;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
-RUM_absolute_monarchy;The Dobrewan Kingdom;;;;;;;;;;;;;;;;;;x;;;;
-RUM_prussian_constitutionalism;The Dobrewan Kingdom;;;;;;;;;;;;;;;;;;x;;;;
-RUM_hms_government;Dobrewa;;;;;;;;;;;;;;;;;;x;;;;
-RUM_democracy;The Dobrewan Republic;;;;;;;;;;;;;;;;;;x;;;;
-RUM_presidential_dictatorship;Dobrewa;;;;;;;;;;;;;;;;;;x;;;;
-RUM_fascist_dictatorship;Dobrewa;;;;;;;;;;;;;;;;;;x;;;;
-RUM_proletarian_dictatorship;The Dobrewan Commune;;;;;;;;;;;;;;;;;;x;;;;
+DBR;Dobrewtson;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+DBR_ADJ;Dobrewan;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+DBR_absolute_monarchy;The Dobrewan Kingdom;;;;;;;;;;;;;;;;;;x;;;;
+DBR_prussian_constitutionalism;The Dobrewan Kingdom;;;;;;;;;;;;;;;;;;x;;;;
+DBR_hms_government;Dobrewa;;;;;;;;;;;;;;;;;;x;;;;
+DBR_democracy;The Dobrewan Republic;;;;;;;;;;;;;;;;;;x;;;;
+DBR_presidential_dictatorship;Dobrewa;;;;;;;;;;;;;;;;;;x;;;;
+DBR_fascist_dictatorship;Dobrewa;;;;;;;;;;;;;;;;;;x;;;;
+DBR_proletarian_dictatorship;The Dobrewan Commune;;;;;;;;;;;;;;;;;;x;;;;
+RUM;Rumania;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+RUM_ADJ;Ruman;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;
+RUM_absolute_monarchy;The Ruman Empire;;;;;;;;;;;;;;;;;;x;;;;
+RUM_prussian_constitutionalism;The Ruman Empire;;;;;;;;;;;;;;;;;;x;;;;
+RUM_hms_government;The Ruman Empire;;;;;;;;;;;;;;;;;;x;;;;
+RUM_democracy;The Ruman Republic;;;;;;;;;;;;;;;;;;x;;;;
+RUM_presidential_dictatorship;Rumanstan;;;;;;;;;;;;;;;;;;x;;;;
+RUM_fascist_dictatorship;The Roman Empire;;;;;;;;;;;;;;;;;;x;;;;
+RUM_proletarian_dictatorship;The Ruman Federation;;;;;;;;;;;;;;;;;;x;;;;
 BID;Bida;;;;;;;;;;;;;;;;;;x;;;;
 BID_absolute_monarchy;The Bida Sultanate;;;;;;;;;;;;;;;;;;x;;;;
 BID_ADJ;Bidan;;;;;;;;;;;;;;;;;;x;;;;

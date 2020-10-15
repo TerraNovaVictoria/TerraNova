@@ -1,8 +1,7 @@
-owner = RUS
-controller = RUS
-add_core = RUS
+owner = KET
+controller = KET
+add_core = KET
 add_core = SIB
-# add_core = YAK
 trade_goods = grain
 life_rating = 15
 colonial = 2

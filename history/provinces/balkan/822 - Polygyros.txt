@@ -1,6 +1,5 @@
 owner = ANT
 controller = ANT
-add_core = ANT
 add_core = ANA
 add_core = MCD
 add_core = GRE

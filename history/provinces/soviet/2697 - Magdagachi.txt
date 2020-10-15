@@ -1,7 +1,6 @@
-owner = YER
-controller = YER
+owner = EVE
+controller = EVE
 add_core = EVE
-add_core = YER
 add_core = MCK
 add_core = CHI
 trade_goods = grain

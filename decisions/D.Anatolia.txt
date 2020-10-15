@@ -21,12 +21,13 @@ political_decisions = {
 			ai_will_do = { factor = 1 }
 	}
 	
-	ana_sultan_reforms = {
+	ana_roman_heritage = {
 			picture = abdulmejid_i
 			potential = {
 				NOT = { exists = ANT }
 				government = ancient_regime
 				NOT = { exists = BUL }
+				war = no
 			}
 		
 			allow = {
@@ -45,8 +46,36 @@ political_decisions = {
 				2414 = { remove_core = IRQ }
 				892 = { remove_core = IRQ }
 				1110 = { remove_core = IRQ }
-				limit = { WAL = { vassal_of = ANA } }
-				WAL = { government = ancient_regime }
+				primary_culture = anatoli
+				government = absolute_monarchy
+				ANA = { all_core = { add_core = RUM } }
+				prestige = 15
+				change_tag = RUM
+			}
+			ai_will_do = { factor = 1 }
+	}
+	
+	ana_sultan_reforms = {
+			picture = abdulmejid_i
+			potential = {
+				NOT = { exists = ANT }
+				government = ancient_regime
+				exists = BUL
+				809 = { owned_by = BUL }
+				war = no
+			}
+		
+			allow = {
+				capital = 860
+			}
+		
+			effect = {
+				IRQ = { all_core = { add_core = ANA } annex_to = ANA }
+				SYR = { all_core = { remove_core = IRQ } }
+				ARM = { all_core = { remove_core = IRQ } }
+				2414 = { remove_core = IRQ }
+				892 = { remove_core = IRQ }
+				1110 = { remove_core = IRQ }
 				government = absolute_monarchy
 				primary_culture = anatoli
 				prestige = 15
