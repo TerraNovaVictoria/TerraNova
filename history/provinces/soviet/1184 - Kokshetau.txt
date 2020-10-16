@@ -1,7 +1,6 @@
-owner = SBR
-controller = SBR
-add_core = SBR
-add_core = KAZ
+owner = KYR
+controller = KYR
+add_core = KYR
 add_core = SIB
 trade_goods = iron
 life_rating = 35

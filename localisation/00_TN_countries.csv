@@ -775,6 +775,12 @@ KOS;Kosakenstadt;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 KOS_ADJ;Volga German;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 KZM;Kazakmark;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 KZM_ADJ;Kazakmarker;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KYR_primitive_absolute_monarchy;Orta Zhuz;;;;;;;;;;;;;x
+KYR_ancient_regime;The Kirgiz Khanate;;;;;;;;;;;;;x
+KAZ_primitive_absolute_monarchy;Uly Zhuz;;;;;;;;;;;;;x
+KAZ_ancient_regime;The Kazakh Khanate;;;;;;;;;;;;;x
+KAZ;Kazakhstan;;;;;;;;;;;;;x
+KAZ_ADJ;Kazakh;;;;;;;;;;;;;x
 ATH;Attica;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 ATH_ancient_regime;The Duchy of Athens;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 ATH_subject;The Theme of Athens;;;;;;;;;;;;;;;;;;;;;;;x;;;;

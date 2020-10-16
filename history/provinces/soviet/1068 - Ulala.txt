@@ -2,7 +2,6 @@ owner = KML
 controller = KML
 add_core = KML
 add_core = ALT
-add_core = KAZ
 add_core = CHI
 trade_goods = coal
 life_rating = 35

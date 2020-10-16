@@ -1,0 +1,38 @@
+#Cossack Territories
+vassal = {
+	first = KMK
+	second = ORE
+	start_date = 1815.1.1
+	end_date = 1838.1.1
+}
+vassal = {
+	first = KMK
+	second = SMS
+	start_date = 1815.1.1
+	end_date = 1838.1.1
+}
+#Caucasus Territories
+vassal = {
+	first = KMK
+	second = BLK
+	start_date = 1815.1.1
+	end_date = 1838.1.1
+}
+vassal = {
+	first = KMK
+	second = DAG
+	start_date = 1815.1.1
+	end_date = 1838.1.1
+}
+vassal = {
+	first = KMK
+	second = CHY
+	start_date = 1815.1.1
+	end_date = 1838.1.1
+}
+vassal = {
+	first = KMK
+	second = OSS
+	start_date = 1815.1.1
+	end_date = 1838.1.1
+}

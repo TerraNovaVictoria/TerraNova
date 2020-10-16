@@ -1,7 +1,6 @@
 owner = ALT
 controller = ALT
 add_core = ALT
-add_core = KAZ
 add_core = SIB
 trade_goods = coal
 life_rating = 35

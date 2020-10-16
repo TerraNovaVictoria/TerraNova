@@ -1,6 +1,6 @@
-owner = SBR
-controller = SBR
-add_core = SBR
+owner = RUS
+controller = RUS
+add_core = RUS
 add_core = SIB
 trade_goods = precious_metal
 life_rating = 40

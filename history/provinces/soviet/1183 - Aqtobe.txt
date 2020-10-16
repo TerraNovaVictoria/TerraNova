@@ -1,7 +1,6 @@
-owner = KZM
-controller = KZM
-add_core = KZM
-add_core = KAZ
+owner = KYR
+controller = KYR
+add_core = KYR
 trade_goods = wool
 life_rating = 35
 colonial = 2 

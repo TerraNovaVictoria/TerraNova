@@ -1,8 +1,8 @@
-owner = KZM
-controller = KZM
-add_core = KZM
-add_core = KAZ
+owner = KMK
+controller = KMK
 add_core = KMK
+add_core = KYR
+add_core = HUN
 trade_goods = opium
 life_rating = 35
 colonial = 2

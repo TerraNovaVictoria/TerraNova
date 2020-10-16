@@ -1,5 +1,6 @@
 owner = ORE
 controller = ORE
 add_core = ORE
+add_core = HUN
 trade_goods = iron
 life_rating = 35

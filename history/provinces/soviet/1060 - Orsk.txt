@@ -1,7 +1,7 @@
-owner = ORE
-controller = ORE
+owner = KYR
+controller = KYR
+add_core = KYR
 add_core = ORE
-add_core = KAZ
 trade_goods = iron
 life_rating = 35
 colonial = 2

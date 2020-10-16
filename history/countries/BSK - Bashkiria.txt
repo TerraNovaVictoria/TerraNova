@@ -1,11 +1,10 @@
 capital = 1042
 primary_culture = bashkir
 religion = sunni
-government = subject
+government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.01
-civilized = yes
 
 # Political reforms
 slavery = yes_slavery
