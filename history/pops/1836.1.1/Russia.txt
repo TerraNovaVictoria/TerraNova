@@ -5020,7 +5020,13 @@
 	farmers = {
 		culture = tatar
 		religion = sunni
-		size = 31055
+		size = 10500
+	}
+	
+	farmers = {
+		culture = oirat
+		religion = gelugpa
+		size = 15055
 	}
 	
 	farmers = {

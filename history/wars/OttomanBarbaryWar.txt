@@ -1,4 +1,4 @@
-name = "Tunisian Conquest of Tripoli"
+name = "Anti-Spanish Uprising"
 
 1835.10.2 = {
 	add_attacker = TUN
@@ -10,7 +10,7 @@ name = "Tunisian Conquest of Tripoli"
 	# country - 3rd party
 	# state_province_id - target state capital
 	war_goal = {
-		casus_belli = establish_protectorate_casus_belli
+		casus_belli = conquest
 		actor = TUN
 		receiver = TRI
 	}

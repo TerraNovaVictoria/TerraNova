@@ -71,19 +71,19 @@
 	farmers = {
 		culture = kazak
 		religion = sunni
-		size = 2425
+		size = 2025
 	}
 	
 	farmers = {
 		culture = nogai
 		religion = sunni
-		size = 2225
+		size = 225
 	}
 	
 	farmers = {
 		culture = oirat
 		religion = gelugpa
-		size = 1500
+		size = 3900
 	}
 }
 #Aqtobe (20000/5000 POPS)
@@ -243,13 +243,13 @@
 	farmers = {
 		culture = nogai
 		religion = sunni
-		size = 1825
+		size = 425
 	}
 	
 	farmers = {
 		culture = oirat
 		religion = gelugpa
-		size = 1200
+		size = 3600
 	}
 }
 #Turgay (20000/5000 POPS)
