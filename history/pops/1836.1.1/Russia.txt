@@ -4333,7 +4333,7 @@
 	
 	farmers = {
 		culture = hungarian
-		religion = sunni
+		religion = orthodox
 		size = 53340
 	}
 
@@ -4489,7 +4489,7 @@
 
 	farmers = {
 		culture = hungarian
-		religion = sunni
+		religion = orthodox
 		size = 9650
 	}
 

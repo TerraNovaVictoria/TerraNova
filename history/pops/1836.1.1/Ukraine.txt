@@ -2153,73 +2153,7 @@
 	serfs = {
 		culture = crimean
 		religion = sunni
-		size = 10000
-	}
-
-	clergymen = {
-		culture = ruthenian
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = ruthenian
-		religion = orthodox
-		size = 150
-	}
-
-	soldiers = {
-		culture = ruthenian
-		religion = orthodox
-		size = 50
-	}
-
-	farmers = {
-		culture = ruthenian
-		religion = orthodox
-		size = 2750
-	}
-
-	aristocrats = {
-		culture = russian
-		religion = orthodox
-		size = 100
-	}
-
-	bureaucrats = {
-		culture = russian
-		religion = orthodox
-		size = 175
-	}
-
-	officers = {
-		culture = russian
-		religion = orthodox
-		size = 60
-	}
-
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = russian
-		religion = orthodox
-		size = 75
-	}
-
-	soldiers = {
-		culture = russian
-		religion = orthodox
-		size = 50
-	}
-
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 2465
+		size = 12000
 	}
 
 	clergymen = {
@@ -2247,71 +2181,35 @@
 	}
 
 	clergymen = {
-		culture = north_german
-		religion = catholic
+		culture = greek
+		religion = orthodox
 		size = 15
 	}
 
 	artisans = {
-		culture = north_german
-		religion = catholic
+		culture = greek
+		religion = orthodox
 		size = 75
 	}
 
 	soldiers = {
-		culture = north_german
-		religion = catholic
+		culture = greek
+		religion = orthodox
 		size = 25
 	}
 
 	farmers = {
-		culture = north_german
-		religion = catholic
+		culture = greek
+		religion = orthodox
 		size = 885
 	}
 }
 #Cherson (126000/29000 POPS)
 965 = {
-	aristocrats = {
-		culture = ruthenian
-		religion = orthodox
-		size = 450
-	}
-
-	clergymen = {
-		culture = ruthenian
-		religion = orthodox
-		size = 125
-	}
-
-	artisans = {
-		culture = ruthenian
-		religion = orthodox
-		size = 275
-	}
-
-	soldiers = {
-		culture = ruthenian
-		religion = orthodox
-		size = 150
-	}
-
 	farmers = {
-		culture = ruthenian
+		culture = hungarian
 		religion = orthodox
-		size = 1000
-	}
-	
-	farmers = {
-		culture = crimean
-		religion = sunni
-		size = 10000
-	}
-	
-	serfs = {
-		culture = ruthenian
-		religion = orthodox
-		size = 1000
+		size = 200
 	}
 
 	aristocrats = {
@@ -2341,37 +2239,7 @@
 	farmers = {
 		culture = crimean
 		religion = sunni
-		size = 4575
-	}
-
-	aristocrats = {
-		culture = russian
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = russian
-		religion = orthodox
-		size = 150
-	}
-
-	soldiers = {
-		culture = russian
-		religion = orthodox
-		size = 50
-	}
-
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 2625
+		size = 15575
 	}
 
 	clergymen = {
@@ -2421,54 +2289,7 @@
 		religion = orthodox
 		size = 750
 	}
-
-	clergymen = {
-		culture = ruthenian
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = ruthenian
-		religion = orthodox
-		size = 100
-	}
-
-	soldiers = {
-		culture = ruthenian
-		religion = orthodox
-		size = 25
-	}
-
-	farmers = {
-		culture = ruthenian
-		religion = orthodox
-		size = 2825
-	}
-
-	clergymen = {
-		culture = north_german
-		religion = catholic
-		size = 50
-	}
-
-	artisans = {
-		culture = north_german
-		religion = catholic
-		size = 125
-	}
-
-	soldiers = {
-		culture = north_german
-		religion = catholic
-		size = 25
-	}
-
-	farmers = {
-		culture = north_german
-		religion = catholic
-		size = 1800
-	}
+	
 }
 #Kerch (48000/12000 POPS)
 966 = {
@@ -2500,36 +2321,6 @@
 		culture = crimean
 		religion = sunni
 		size = 7950
-	}
-
-	aristocrats = {
-		culture = russian
-		religion = orthodox
-		size = 50
-	}
-
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = russian
-		religion = orthodox
-		size = 125
-	}
-
-	soldiers = {
-		culture = russian
-		religion = orthodox
-		size = 25
-	}
-
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 1750
 	}
 
 	clergymen = {
@@ -2609,39 +2400,9 @@
 	farmers = {
 		culture = crimean
 		religion = sunni
-		size = 9375
+		size = 24375
 	}
-
-	aristocrats = {
-		culture = russian
-		religion = orthodox
-		size = 50
-	}
-
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 50
-	}
-
-	artisans = {
-		culture = russian
-		religion = orthodox
-		size = 100
-	}
-
-	soldiers = {
-		culture = russian
-		religion = orthodox
-		size = 25
-	}
-
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 1775
-	}
-
+	
 	clergymen = {
 		culture = ashkenazi
 		religion = jewish
@@ -2678,35 +2439,6 @@
 		size = 15
 	}
 
-	farmers = {
-		culture = greek
-		religion = orthodox
-		size = 960
-	}
-
-	clergymen = {
-		culture = north_german
-		religion = catholic
-		size = 25
-	}
-
-	artisans = {
-		culture = north_german
-		religion = catholic
-		size = 75
-	}
-
-	soldiers = {
-		culture = north_german
-		religion = catholic
-		size = 25
-	}
-
-	farmers = {
-		culture = north_german
-		religion = catholic
-		size = 875
-	}
 }
 #Odessa Region (1488000)
 #under the rule of Russia in 1836
@@ -3154,6 +2886,12 @@
 		religion = orthodox
 		size = 5000
 	}
+	
+	farmers = {
+		culture = hungarian
+		religion = orthodox
+		size = 200
+	}
 
 	aristocrats = {
 		culture = polish
@@ -3287,6 +3025,11 @@
 		culture = gypsy
 		religion = orthodox
 		size = 135
+	}
+	farmers = {
+		culture = hungarian
+		religion = orthodox
+		size = 200
 	}
 	aristocrats = {
 		culture = ruthenian
@@ -3448,58 +3191,17 @@
 #under the rule of Russia in 1836
 #Melitopol (84000/21000 POPS)
 973 = {
-	aristocrats = {
-		culture = ruthenian
-		religion = orthodox
-		size = 250
-	}
-
-	bureaucrats = {
-		culture = ruthenian
-		religion = orthodox
-		size = 50
-	}
-
-	officers = {
-		culture = ruthenian
-		religion = orthodox
-		size = 75
-	}
-
-	clergymen = {
-		culture = ruthenian
-		religion = orthodox
-		size = 150
-	}
-
-	artisans = {
-		culture = ruthenian
-		religion = orthodox
-		size = 650
-	}
-
-	soldiers = {
-		culture = ruthenian
-		religion = orthodox
-		size = 175
-	}
-
-	farmers = {
-		culture = ruthenian
-		religion = orthodox
-		size = 6650
-	}
 	
 	farmers = {
 		culture = crimean
 		religion = sunni
-		size = 5650
+		size = 7650
 	}
 	
 	farmers = {
-		culture = ruthenian
-		religion = sunni
-		size = 3000
+		culture = hungarian
+		religion = orthodox
+		size = 200
 	}
 
 	clergymen = {
@@ -3518,48 +3220,6 @@
 		culture = ashkenazi
 		religion = jewish
 		size = 540
-	}
-
-	aristocrats = {
-		culture = russian
-		religion = orthodox
-		size = 200
-	}
-
-	bureaucrats = {
-		culture = russian
-		religion = orthodox
-		size = 25
-	}
-
-	officers = {
-		culture = russian
-		religion = orthodox
-		size = 100
-	}
-
-	clergymen = {
-		culture = russian
-		religion = orthodox
-		size = 75
-	}
-
-	artisans = {
-		culture = russian
-		religion = orthodox
-		size = 200
-	}
-
-	soldiers = {
-		culture = russian
-		religion = orthodox
-		size = 50
-	}
-
-	farmers = {
-		culture = russian
-		religion = orthodox
-		size = 2600
 	}
 	
 	clergymen = {

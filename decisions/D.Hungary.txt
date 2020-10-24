@@ -1,0 +1,33 @@
+political_decisions = {
+
+	#The Hungarian Migration Decision
+	the_magyars_flee = {
+		picture = establish_panfrenchism
+		potential = {
+				tag = HUN
+				year = 1836
+				NOT = { year = 1840 }
+				1021 = { owned_by = THIS }
+			}
+		
+			allow = {
+				1021 = { NOT = { controlled_by = THIS } }
+			}
+		
+			effect = {
+				HUN = { all_core  = { remove_core = HUN  } }
+				2610 = { secede_province = THIS }
+				1182 = { secede_province = THIS }
+				1043 = { secede_province = THIS }
+				1038 = { secede_province = THIS }
+				973 = { secede_province = THIS }
+				965 = { secede_province = THIS }
+				970 = { secede_province = THIS }
+				972 = { secede_province = THIS }
+				country_event = 151000
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+}

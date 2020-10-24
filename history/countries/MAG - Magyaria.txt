@@ -1,10 +1,10 @@
-capital = 1021
+capital = 970
 primary_culture = hungarian
 religion = orthodox
 government = ancient_regime
 plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.04
+literacy = 0.02
 
 # Political reforms
 slavery = no_slavery

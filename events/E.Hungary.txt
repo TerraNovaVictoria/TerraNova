@@ -1,0 +1,162 @@
+#####HUNGARIAN MIGRATION EVENTS#####
+
+country_event = {
+	id = 151000
+	title = "EVTNAME151000" #The Hungarian Migration
+	desc = "EVTDESC151000"
+	picture = "portuguese_secession"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		government = absolute_monarchy
+	}
+	
+	option = {
+		name = "EVTOPT151000A" #Kazakhstan
+		2659 = { 	
+			any_pop = {
+				limit = { has_pop_culture = hungarian }
+				random_list = {
+					50 = { reduce_pop = 0.8 }
+					50 = { reduce_pop = 0.9 }
+				}
+				move_pop = 1182
+			}
+		}
+		1030 = { 	
+			any_pop = {
+				limit = { has_pop_culture = hungarian }
+				random_list = {
+					50 = { reduce_pop = 0.8 }
+					50 = { reduce_pop = 0.9 }
+				}
+				move_pop = 2610
+			}
+		}
+		1020 = { 	
+			any_pop = {
+				limit = { has_pop_culture = hungarian }
+				random_list = {
+					50 = { reduce_pop = 0.8 }
+					50 = { reduce_pop = 0.9 }
+				}
+				move_pop = 2610
+			}
+		}
+		1033 = { 	
+			any_pop = {
+				limit = { has_pop_culture = hungarian }
+				random_list = {
+					50 = { reduce_pop = 0.8 }
+					50 = { reduce_pop = 0.9 }
+				}
+				move_pop = 973
+			}
+		}
+		1021 = { 	
+			any_pop = {
+				limit = { has_pop_culture = hungarian }
+				random_list = {
+					50 = { reduce_pop = 0.8 }
+					50 = { reduce_pop = 0.9 }
+				}
+				move_pop = 965
+			}
+		}
+		any_country = {
+			limit = {
+				war_with = HUN
+			}
+			end_war = THIS
+		}
+		1038 = { add_core = HUN } 
+		1043 = { add_core = HUN } 
+		2610 = { add_core = HUN } 
+		1182 = { add_core = HUN } 
+		965 = { add_core = MAG secede_province = MAG }
+		973 = { add_core = MAG secede_province = MAG }
+		972 = { add_core = MAG secede_province = MAG }
+		970 = { add_core = MAG secede_province = MAG }
+		any_owned = {
+			limit = { is_core = RUS }
+			secede_province = RUS
+		}
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT151000B" #Ukraine
+		2659 = { 	
+			any_pop = {
+				limit = { has_pop_culture = hungarian }
+				random_list = {
+					50 = { reduce_pop = 0.8 }
+					50 = { reduce_pop = 0.9 }
+				}
+				move_pop = 1182
+			}
+		}
+		1030 = { 	
+			any_pop = {
+				limit = { has_pop_culture = hungarian }
+				random_list = {
+					50 = { reduce_pop = 0.8 }
+					50 = { reduce_pop = 0.9 }
+				}
+				move_pop = 2610
+			}
+		}
+		1020 = { 	
+			any_pop = {
+				limit = { has_pop_culture = hungarian }
+				random_list = {
+					50 = { reduce_pop = 0.8 }
+					50 = { reduce_pop = 0.9 }
+				}
+				move_pop = 2610
+			}
+		}
+		1033 = { 	
+			any_pop = {
+				limit = { has_pop_culture = hungarian }
+				random_list = {
+					50 = { reduce_pop = 0.8 }
+					50 = { reduce_pop = 0.9 }
+				}
+				move_pop = 973
+			}
+		}
+		1021 = { 	
+			any_pop = {
+				limit = { has_pop_culture = hungarian }
+				random_list = {
+					50 = { reduce_pop = 0.8 }
+					50 = { reduce_pop = 0.9 }
+				}
+				move_pop = 965
+			}
+		}
+		any_country = {
+			limit = {
+				war_with = HUN
+			}
+			end_war = THIS
+		}
+		1038 = { add_core = HUN } 
+		1043 = { add_core = HUN } 
+		2610 = { add_core = HUN } 
+		1182 = { add_core = HUN } 
+		965 = { add_core = MAG secede_province = MAG }
+		973 = { add_core = MAG secede_province = MAG }
+		972 = { add_core = MAG secede_province = MAG }
+		970 = { add_core = MAG secede_province = MAG }
+		any_owned = {
+			limit = { is_core = RUS }
+			secede_province = RUS
+		}
+		change_tag_no_core_switch = MAG
+		ai_chance = { factor = 0 }
+	}
+
+}
