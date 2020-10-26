@@ -1,0 +1,95 @@
+country_event = {
+	id = 188100
+	title = "EVTNAME188100" #The Conquest of Sibir
+	desc = "EVTDESC188100"
+	picture = "streetriot"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT188100A"
+		war = {
+			target = SBR
+			attacker_goal = { 
+				casus_belli = conquest
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		relation = { who = SBR value = -100 }
+		prestige = 5
+		badboy = 2.5
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT188100B"
+		prestige = -10
+		relation = { who = SBR value = 100 }
+		badboy = -1
+		ai_chance = { factor = 100 }
+	}
+		
+}
+
+country_event = {
+	id = 188101
+	title = "EVTNAME188101" #The Tatar Genocide
+	desc = "EVTDESC188101"
+	picture = "streetriot"
+	major = yes
+	
+	trigger = {
+		tag = RUS
+		year = 1850
+		has_country_modifier = the_conquest_of_siberia_m
+		1061 = { owned_by = THIS }
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT188101A"
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = mordvin
+					has_pop_culture = mari
+					has_pop_culture = tatar
+				}
+			}
+			random_list = {
+				50 = { reduce_pop = 0.9 }
+				50 = { reduce_pop = 0.8 }
+			}
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = bashkir
+					has_pop_culture = chuvash
+				}
+			}
+			reduce_pop = 0.7
+		}
+		any_pop = {
+			limit = {
+				OR = {
+					has_pop_culture = sibiric
+					has_pop_culture = hungarian
+				}
+			}
+			random_list = {
+				50 = { reduce_pop = 0.2 }
+				50 = { reduce_pop = 0.1 }
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+		
+}

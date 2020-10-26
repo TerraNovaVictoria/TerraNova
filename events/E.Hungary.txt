@@ -4,7 +4,7 @@ country_event = {
 	id = 151000
 	title = "EVTNAME151000" #The Hungarian Migration
 	desc = "EVTDESC151000"
-	picture = "portuguese_secession"
+	picture = "graveyard_of_empires"
 	
 	is_triggered_only = yes
 	
@@ -76,8 +76,6 @@ country_event = {
 		1182 = { add_core = HUN } 
 		965 = { add_core = MAG secede_province = MAG }
 		973 = { add_core = MAG secede_province = MAG }
-		972 = { add_core = MAG secede_province = MAG }
-		970 = { add_core = MAG secede_province = MAG }
 		any_owned = {
 			limit = { is_core = RUS }
 			secede_province = RUS
@@ -149,14 +147,184 @@ country_event = {
 		1182 = { add_core = HUN } 
 		965 = { add_core = MAG secede_province = MAG }
 		973 = { add_core = MAG secede_province = MAG }
-		972 = { add_core = MAG secede_province = MAG }
-		970 = { add_core = MAG secede_province = MAG }
 		any_owned = {
 			limit = { is_core = RUS }
 			secede_province = RUS
 		}
 		change_tag_no_core_switch = MAG
 		ai_chance = { factor = 0 }
+	}
+
+}
+
+country_event = {
+	id = 151001
+	title = "EVTNAME151001" #The Kazakh Notification
+	desc = "EVTDESC151001"
+	picture = "graveyard_of_empires"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT151001A" #Ok
+		1183 = { add_core = HUN secede_province = HUN }
+		any_owned = {
+			limit = { is_core = ORE }
+			secede_province = ORE
+		}
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 151002
+	title = "EVTNAME151002" #The Kalmyk Collapse
+	desc = "EVTDESC151002"
+	picture = "graveyard_of_empires"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT151002A" #Not one inch shall be given up
+		release_vassal = ORE
+		release_vassal = DAG
+		release_vassal = OSS
+		ORE = { government = democracy }
+		any_owned = {
+			limit = { is_core = CIR }
+			secede_province = CIR
+		}
+		any_owned = {
+			limit = { is_core = DAG }
+			secede_province = DAG
+		}
+		1055 = { add_core = DAG }
+		BLK = {
+			limit = { vassal_of = KMK }
+			annex_to = CIR 
+		}
+		CHY = {
+			limit = { vassal_of = KMK }
+			annex_to = DAG 
+		}
+		DAG = { all_core = { remove_core = KMK } }
+		CIR = { all_core = { remove_core = KMK } }
+		HUN = { all_core = { add_core = KMK } }
+		ORE = { all_core = { add_core = KMK } }
+		SMS = { all_core = { add_core = KMK } }
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPT151002B" #Focus on solidifying the caucasus
+		release_vassal = ORE
+		release_vassal = DAG
+		release_vassal = OSS
+		ORE = { government = democracy }
+		any_owned = {
+			limit = { is_core = CIR }
+			secede_province = CIR
+		}
+		any_owned = {
+			limit = { is_core = DAG }
+			secede_province = DAG
+		}
+		1055 = { add_core = DAG }
+		BLK = {
+			limit = { vassal_of = KMK }
+			annex_to = CIR 
+		}
+		CHY = {
+			limit = { vassal_of = KMK }
+			annex_to = DAG 
+		}
+		DAG = { all_core = { add_core = KMK } }
+		CIR = { all_core = { add_core = KMK } }
+		HUN = { all_core = { remove_core = KMK } }
+		ai_chance = { factor = 50 }
+	}
+
+}
+
+country_event = {
+	id = 151003
+	title = "EVTNAME151003" #The Polish Clash with Magyars
+	desc = "EVTDESC151003"
+	picture = "caucasian_war"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT151003A" #Ok
+		969 = { secede_province = MOL }
+		970 = { add_core = MAG secede_province = MAG remove_core = POL }
+		972 = { add_core = MAG secede_province = MAG remove_core = POL }
+		release_vassal = DON
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT151003B" #nOt oNe iNcH sHalL bE gIveN uP
+		969 = { secede_province = MOL }
+		970 = { add_core = MAG secede_province = MAG remove_core = POL }
+		972 = { add_core = MAG secede_province = MAG remove_core = POL }
+		release_vassal = DON
+		badboy = 10
+		war = {
+			target = MAG
+			attacker_goal = {
+				casus_belli = conquest
+			}
+		}
+		ai_chance = { factor = 0 }
+	}
+
+}
+
+country_event = {
+	id = 151004
+	title = "EVTNAME151004" #The Cossack Republic
+	desc = "EVTDESC151004"
+	picture = "caucasian_war"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT151004A" #At least we are free...
+		963 = { secede_province = RUT }
+		DON = { all_core = { add_core = RUT } }
+		1045 = { remove_core = RUT remove_core = DON }
+		979 = { remove_core = RUT }
+		1047 = { remove_core = RUT }
+		1048 = { remove_core = RUT }
+		974 = { add_core = MAG secede_province = MAG }
+		975 = { add_core = MAG secede_province = MAG }
+		976 = { add_core = MAG secede_province = MAG }
+		any_owned = {
+			limit = { is_core = RUS }
+			secede_province = RUS 
+		}
+		release_vassal = CRI
+		government = democracy
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 151005
+	title = "EVTNAME151005" 
+	desc = "EVTDESC151005"
+	picture = "caucasian_war"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT151005A" 
+		add_country_modifier = international_zone_modifier
+		prestige = 10
+		ai_chance = { factor = 100 }
 	}
 
 }

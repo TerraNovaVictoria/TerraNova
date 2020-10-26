@@ -1,52 +1,4 @@
 political_decisions = {
-
-	integrate_themes_mre = { 
-		picture = map_of_greece
-		potential = {
-			tag = MRE
-			has_global_flag = rome_has_prevailed
-			NOT = { has_country_flag = greek_centralized_authority }
-		}
-		
-		allow = {
-			war = no
-		}
-		
-		effect = {
-			ATH = { country_event = 555566 }
-			LAR = { country_event = 555566 }
-			MCD = { country_event = 555566 }
-			set_country_flag = greek_centralized_authority
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	integrate_themes_gre = { 
-		picture = map_of_greece
-		potential = {
-			tag = GRE
-			has_global_flag = end_of_rome
-			NOT = { has_country_flag = greek_centralized_authority }
-		}
-		
-		allow = {
-			war = no
-		}
-		
-		effect = {
-			ATH = { country_event = 445566 }
-			LAR = { country_event = 445566 }
-			MCD = { country_event = 445566 }
-			set_country_flag = greek_centralized_authority
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
 	restore_jerusalem = { 
 		picture = map_palestine
@@ -94,7 +46,7 @@ political_decisions = {
 	seize_macedonia = { 
 		picture = macedon_map
 		potential = {
-			806 { owned_by = ANA }
+			806 = { owned_by = ANA }
 			THIS = { war_with = ANA }
 			OR = {
 				AND = {

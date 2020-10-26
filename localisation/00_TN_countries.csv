@@ -336,9 +336,12 @@ TAL_ADJ;Talysh;;;;;;;;;;;;;x
 TUN_absolute_monarchy;The Hafsid Empire;;;;;;;;;;;;;x
 HUN_ancient_regime;Magyaria;;;;;;;;;;;;;x
 HUN_ADJ;Magyarian;;;;;;;;;;;;x
-MAG_ancient_regime;Magyary;;;;;;;;;;;;;x
+MAG_ancient_regime;The Zöld Khanate;;;;;;;;;;;;;x
 MAG;Etelköz;;;;;;;;;;;;;x
 MAG_ADJ;Etelközer;;;;;;;;;;;;;x
+MAG_absolute_monarchy;Magyary;;;;;;;;;;;;;x
+MAG_prussian_constitutionalism;Magyary;;;;;;;;;;;;;x
+MAG_hms_government;Magyary;;;;;;;;;;;;;x
 LUS;Lusong;;;;;;;;;;;;;x
 LUS_absolute_monarchy;The Lusong Empire;;;;;;;;;;;;;x
 LUS_prussian_constitutionalism;The Lusong Empire;;;;;;;;;;;;;x

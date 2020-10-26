@@ -12,6 +12,7 @@ political_decisions = {
 					GRE = { exists = yes }
 					NOT = { has_global_flag = rome_has_fallen }
 				}
+			}
 		}
 		
 		allow = {

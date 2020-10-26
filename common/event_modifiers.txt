@@ -280,6 +280,23 @@ repatriation = {
 	icon = 19
 }
 
+the_conquest_of_siberia_m = {
+	assimilation_rate = 0.5
+	badboy = 0.01
+	
+	icon = 7
+}
+
+solidify_new_homeland = {
+	administrative_efficiency_modifier = 0.5
+	tax_efficiency = 0.5
+	research_points_modifier = 0.5
+	education_efficiency_modifier = 0.1
+	assimilation_rate = 0.25
+	
+	icon = 7
+}
+
 international_zone_modifier = {
 	rich_income_modifier = 0.25
 	middle_income_modifier = 0.1

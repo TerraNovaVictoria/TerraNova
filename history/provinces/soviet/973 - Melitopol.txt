@@ -1,6 +1,5 @@
 owner = CRI
 controller = CRI
-add_core = RUS
 add_core = DON
 add_core = CRI
 trade_goods = coal

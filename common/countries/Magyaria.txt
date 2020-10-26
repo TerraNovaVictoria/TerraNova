@@ -1,3 +1,4 @@
+ancient_regime = { 20 80 20 }
 color = { 245 233 66 }
 graphical_culture = AustriaHungaryGC
 

@@ -16,15 +16,40 @@ political_decisions = {
 		
 			effect = {
 				HUN = { all_core  = { remove_core = HUN  } }
+				HUN = { release_vassal = SMS }
+				SMS = { government = democracy }
 				2610 = { secede_province = THIS }
 				1182 = { secede_province = THIS }
 				1043 = { secede_province = THIS }
 				1038 = { secede_province = THIS }
 				973 = { secede_province = THIS }
 				965 = { secede_province = THIS }
-				970 = { secede_province = THIS }
-				972 = { secede_province = THIS }
 				country_event = 151000
+				KYR = { country_event = 151001 }
+				KMK = { country_event = 151002 }
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#The Rise of the Green Khan
+	the_green_khan = {
+		picture = establish_panfrenchism
+		potential = {
+				tag = MAG
+				MAG = { all_core = { owned_by = THIS } }
+				NOT = { has_country_modifier = solidify_new_homeland }
+				civilized = no
+			}
+		
+			allow = {
+				war = no
+			}
+		
+			effect = {
+				POL = { country_event = 151003 }
+				DON = { country_event = 151004 }
+				add_country_modifier = { name = solidify_new_homeland duration = -1 }
 			}
 
 		ai_will_do = { factor = 1 }

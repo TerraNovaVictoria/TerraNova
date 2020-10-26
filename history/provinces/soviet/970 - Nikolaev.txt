@@ -2,6 +2,5 @@ owner = POL
 controller = POL
 add_core = POL
 add_core = DON
-add_core = RUS
 trade_goods = fish
 life_rating = 35
