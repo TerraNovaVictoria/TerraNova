@@ -1,5 +1,55 @@
 political_decisions = {
 
+	al_biruni_university_unciv = { 
+		picture = al_biruni
+		potential = {
+			primary_culture = persian
+			1191 = { owned_by = THIS }
+			civilized = no
+			NOT = { has_country_modifier = al_biruni_uni }
+		}
+		
+		allow = {
+			research_reform = yes_research_reform
+		}
+		
+		effect = {
+			prestige = 5
+			economic_reform = yes_education_reform
+			add_country_modifier = { name = al_biruni_uni duration = -1 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	al_biruni_university_civ = { 
+		picture = al_biruni
+		potential = {
+			primary_culture = persian
+			1191 = { owned_by = THIS }
+			civilized = yes
+			NOT = { has_country_modifier = al_biruni_uni }
+			NOT = { has_country_modifier = al_biruni_uni_two }
+		}
+		
+		allow = {
+			romanticism = 1
+			enlightenment_thought = 1
+			malthusian_thought = 1
+		}
+		
+		effect = {
+			prestige = 5
+			add_country_modifier = { name = al_biruni_uni_two duration = -1 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	lur_raid_ilam = { 
 		picture = greater_iran
 		potential = {

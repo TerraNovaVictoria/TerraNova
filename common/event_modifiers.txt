@@ -297,6 +297,19 @@ solidify_new_homeland = {
 	icon = 7
 }
 
+al_biruni_uni = {
+	research_points_modifier = 0.5
+	education_efficiency_modifier = 0.1
+	
+	icon = 7
+}
+
+al_biruni_uni_two = {
+	research_points_modifier = 0.1
+	
+	icon = 7
+}
+
 international_zone_modifier = {
 	rich_income_modifier = 0.25
 	middle_income_modifier = 0.1

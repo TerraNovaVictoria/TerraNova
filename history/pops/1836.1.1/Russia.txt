@@ -5167,6 +5167,12 @@
 		religion = orthodox
 		size = 20000
 	}
+	
+	farmers = {
+		culture = crimean
+		religion = sunni
+		size = 2000
+	}
 
 	clergymen = {
 		culture = greek

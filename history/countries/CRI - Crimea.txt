@@ -1,5 +1,6 @@
 capital = 967
 primary_culture = crimean
+culture = krymchak
 religion = sunni
 government = absolute_monarchy
 plurality = 0.02

@@ -1,5 +1,7 @@
-capital = 2692
-primary_culture = ket
+capital = 1070
+primary_culture = buryat
+culture = ket
+culture = evenki
 religion = animist
 government = absolute_monarchy
 plurality = 10
