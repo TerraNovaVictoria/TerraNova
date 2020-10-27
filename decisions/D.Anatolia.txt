@@ -24,6 +24,7 @@ political_decisions = {
 	ana_roman_heritage = {
 			picture = abdulmejid_i
 			potential = {
+				tag = ANA
 				NOT = { exists = ANT }
 				government = ancient_regime
 				NOT = { exists = BUL }
@@ -58,6 +59,7 @@ political_decisions = {
 	ana_sultan_reforms = {
 			picture = abdulmejid_i
 			potential = {
+				tag = ANA
 				NOT = { exists = ANT }
 				government = ancient_regime
 				exists = BUL
