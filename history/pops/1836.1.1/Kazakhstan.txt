@@ -804,33 +804,33 @@
 #Shymkent (180000/45000 POPS) #now part of Kazakhstan   
 1197 = {
 	aristocrats = {
-		culture = kazak
+		culture = persian
 		religion = sunni
 		size = 250
 	}
 
 	clergymen = {
-		culture = kazak
+		culture = persian
 		religion = sunni
 		size = 125
 	}
 
 	artisans = {
-		culture = kazak
+		culture = persian
 		religion = sunni
 		size = 750
 	}
 
 	soldiers = {
-		culture = kazak
+		culture = persian
 		religion = sunni
 		size = 150
 	}
 
 	farmers = {
-		culture = kazak
+		culture = persian
 		religion = sunni
-		size = 13725
+		size = 8725
 	}
 
 	aristocrats = {
@@ -860,7 +860,7 @@
 	farmers = {
 		culture = kazak
 		religion = sunni
-		size = 27450
+		size = 32450
 	}
 
 	slaves = {

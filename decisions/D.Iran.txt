@@ -10,12 +10,12 @@ political_decisions = {
 		}
 		
 		allow = {
-			research_reform = yes_research_reform
+			education_reform = yes_education_reform
 		}
 		
 		effect = {
 			prestige = 5
-			economic_reform = yes_education_reform
+			economic_reform = yes_research_reform
 			add_country_modifier = { name = al_biruni_uni duration = -1 }
 		}
 		

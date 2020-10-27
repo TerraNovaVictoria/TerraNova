@@ -3,33 +3,33 @@
 #Khujand (200000/50000 POPS) #now part of persianistan  
 1201 = {
 	aristocrats = {
-		culture = kazak
+		culture = uighur
 		religion = sunni
 		size = 775
 	}
 
 	clergymen = {
-		culture = kazak
+		culture = uighur
 		religion = sunni
 		size = 400
 	}
 
 	artisans = {
-		culture = kazak
+		culture = uighur
 		religion = sunni
 		size = 2000
 	}
 
 	soldiers = {
-		culture = kazak
+		culture = uighur
 		religion = sunni
 		size = 400
 	}
 
 	farmers = {
-		culture = kazak
+		culture = uighur
 		religion = sunni
-		size = 25425
+		size = 9425
 	}
 
 	aristocrats = {
@@ -59,7 +59,13 @@
 	farmers = {
 		culture = persian
 		religion = sunni
-		size = 20150
+		size = 30150
+	}
+	
+	farmers = {
+		culture = kazak
+		religion = sunni
+		size = 5150
 	}
 }
 #Badakhshan Region (212000) 

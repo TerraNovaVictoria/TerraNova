@@ -227,7 +227,7 @@
 	farmers = {
 		culture = persian
 		religion = sunni
-		size = 13550
+		size = 3550
 	}
 
 	aristocrats = {
@@ -263,7 +263,7 @@
 	farmers = {
 		culture = kazak
 		religion = sunni
-		size = 8200
+		size = 18200
 	}
 
 }
