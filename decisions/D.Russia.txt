@@ -18,7 +18,7 @@ political_decisions = {
 		effect = {
 			inherit = UDM
 			BSK = { all_core = { add_core = RUS } }
-			prestige = 2.5
+			prestige = 5
 		}
 		
 		ai_will_do = {
@@ -45,8 +45,8 @@ political_decisions = {
 				limit = { vassal_of = RUS }
 				annex_to = RUS
 			}
-			prestige = 2.5
-			badboy = 5
+			prestige = 5
+			badboy = 2.5
 			add_country_modifier = { name = the_conquest_of_siberia_m duration = -1 }
 			country_event = 188100
 		}

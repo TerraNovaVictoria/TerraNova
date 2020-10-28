@@ -280,6 +280,15 @@ repatriation = {
 	icon = 19
 }
 
+repopulating_the_wastes = {
+	immigrant_attract = 5
+	population_growth = 0.005
+	assimilation_rate = 0.75
+	farm_rgo_size = 0.75
+	mine_RGO_size = 0.75
+	icon = 19
+}
+
 the_conquest_of_siberia_m = {
 	assimilation_rate = 0.5
 	badboy = 0.01

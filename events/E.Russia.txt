@@ -19,7 +19,7 @@ country_event = {
 		}
 		relation = { who = SBR value = -100 }
 		prestige = 5
-		badboy = 2.5
+		badboy = 5
 		ai_chance = { factor = 100 }
 	}
 	
@@ -28,7 +28,7 @@ country_event = {
 		prestige = -10
 		relation = { who = SBR value = 100 }
 		badboy = -1
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 		
 }
@@ -42,13 +42,13 @@ country_event = {
 	
 	trigger = {
 		tag = RUS
-		year = 1850
+		year = 1845
 		has_country_modifier = the_conquest_of_siberia_m
 		1061 = { owned_by = THIS }
 	}
 
 	mean_time_to_happen = {
-		months = 12
+		months = 24
 	}
 	
 	fire_only_once = yes
@@ -62,21 +62,36 @@ country_event = {
 					has_pop_culture = mari
 					has_pop_culture = tatar
 				}
-			}
-			random_list = {
-				50 = { reduce_pop = 0.9 }
-				50 = { reduce_pop = 0.8 }
-			}
-		}
-		any_pop = {
-			limit = {
-				OR = {
-					has_pop_culture = bashkir
-					has_pop_culture = chuvash
+				location = {
+					NOT = {
+						province_id = 1033
+						province_id = 2684
+						province_id = 1032
+						province_id = 1030
+					}
 				}
 			}
-			reduce_pop = 0.7
+			reduce_pop = 0.3
 		}
+		1020 = { remove_core = MRL }
+		1027 = { remove_core = MRL }
+		1028 = { remove_core = MRL }
+		1021 = { remove_core = MRD }
+		any_pop = {
+			limit = { has_pop_culture = udmurt }
+			move_pop = 1031
+		}
+		1026 = { remove_core = UDM }
+		1029 = { remove_core = UDM }
+		any_pop = {
+			limit = {
+				has_pop_culture = bashkir
+			}
+			reduce_pop = 0.9
+			move_pop = 1042
+		}
+		1059 = { remove_core = BSK }
+		1042 = { add_province_modifier = { name = repopulating_the_wastes duration = 3650 } remove_core = SIB }
 		any_pop = {
 			limit = {
 				OR = {
@@ -84,9 +99,32 @@ country_event = {
 					has_pop_culture = hungarian
 				}
 			}
-			random_list = {
-				50 = { reduce_pop = 0.2 }
-				50 = { reduce_pop = 0.1 }
+			reduce_pop = 0.1
+			move_pop = 1045
+		}
+		any_pop = {
+			limit = { 
+				has_pop_culture = kazak 
+				location = {
+					OR = {
+						province_id = 2658
+						province_id = 1184
+						province_id = 1059
+					}
+				}
+			}
+			reduce_pop = 0.05
+		}
+		SBR = { 
+			all_core = { 
+				limit = { 
+					NOT = {
+						province_id = 2614
+						province_id = 1058
+					}
+				}
+				add_province_modifier = { name = repopulating_the_wastes duration = 3650 } 
+				remove_core = SBR 
 			}
 		}
 		ai_chance = { factor = 100 }

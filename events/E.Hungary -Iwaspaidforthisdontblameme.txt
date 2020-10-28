@@ -171,6 +171,7 @@ country_event = {
 		any_owned = {
 			limit = { is_core = ORE }
 			secede_province = ORE
+			remove_core = THIS
 		}
 		ai_chance = { factor = 100 }
 	}
