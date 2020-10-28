@@ -1,5 +1,68 @@
 political_decisions = {
 
+	form_tajikistan_native = { 
+		picture = greater_iran
+		potential = {
+			NOT = { exists = TAJ }
+			OR = {
+				tag = KHI
+				tag = SMK
+				tag = BUK
+				tag = BDK
+			}
+		}
+		
+		allow = {
+			SMK = { all_core = { owned_by = THIS } }
+			BUK = { all_core = { owned_by = THIS } }
+			1191 = { owned_by = THIS }
+			1196 = { owned_by = THIS }
+			1210 = { owned_by = THIS }
+		}
+		
+		effect = {
+			prestige = 10
+			KHI = { all_core = { add_core = TAJ remove_core = KHI } }
+			SMK = { all_core = { add_core = TAJ remove_core = SMK } }
+			BUK = { all_core = { add_core = TAJ remove_core = BUK } }
+			BDK = { all_core = { add_core = TAJ remove_core = BDK } }
+			change_tag = TAJ
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_tajik_empire = { 
+		picture = greater_iran
+		potential = {
+			tag = TAJ
+			686 = { NOT = { is_core = THIS } }
+			NOT = { has_country_flag = post_colonial_nation }
+			NOT = { government = ancient_regime }
+		}
+		
+		allow = {
+			1191 = { owned_by = THIS }
+			1204 = { owned_by = THIS }
+			1210 = { owned_by = THIS }
+			1195 = { owned_by = THIS }
+		}
+		
+		effect = {
+			prestige = 15
+			government = ancient_regime
+			TKM = { all_core = { add_core = TAJ } }
+			PER = { all_core = { add_core = TAJ } }
+			badboy = 15
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
 	al_biruni_university_unciv = { 
 		picture = al_biruni
 		potential = {
