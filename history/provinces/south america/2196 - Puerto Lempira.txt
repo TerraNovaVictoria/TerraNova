@@ -1,6 +1,6 @@
-owner = COS
-controller = ELS
-add_core = COS
+owner = MSK
+controller = UCA
+add_core = UCA
 add_core = MSK
 trade_goods = timber
 life_rating = 31

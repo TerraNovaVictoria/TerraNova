@@ -1,81 +1,266 @@
 country_event = {
-	id = 99660
-	title = "EVTNAME99660" #The War Intensifies for Guatemala
-	desc = "EVTDESC99660"
-	picture = "mexico_soldiers"
+	id = 996600
+	title = "EVTNAME996600" #Manuel Xosé Arce
+	desc = "EVTDESC996600"
+	picture = "manuel_xose"
 	
 	trigger = {
-		tag = GUA
-		NOT = {
-			has_global_flag = the_frca_war_intensifies_gua
-		}
+		tag = BRC
+		government = presidential_dictatorship
+		has_country_modifier = exile_brc_government
 	}
+	
+	trigger_only_once = yes
 	
 	mean_time_to_happen = {
-		days = 1
-	}
-	
-	immediate = {
-		set_global_flag = the_frca_war_intensifies_gua
+		days = 14
 	}
 	
 	option = {
-		name = "EVT99660PTA"
-		any_country = {
-			limit = {
-				tag = GUA
-			}
-			add_country_modifier = {
-				name = small_country_draft
-				duration = 1095
-			}
+		name = "EVTOPT996600A"
+		add_country_modifier = {
+			name = small_country_draft
+			duration = 1095
 		}
 		any_pop = {
-			militancy = -5
-			consciousness = -5
+			militancy = 1
+			consciousness = 1
 		}
-		
-		ai_chance = { factor = 20 }
+		prestige = 5
+		UCA = { all_core = { add_core = BRC } }
+		war = {
+			target = UCA
+			attacker_goal = { 
+				casus_belli = conquest
+			}
+			defender_goal = {
+				casus_belli = conquest
+			}
+			call_ally = no
+		}
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "EVTOPT996600B"
+		government = provisional_state
+		remove_country_modifier = exile_brc_government
+		prestige = -5
+		UCA = { country_event = 996603 }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT996600B"
+		remove_country_modifier = exile_brc_government
+		prestige = 5
+		ai_chance = { factor = 0 }
 	}
 }
 
 country_event = {
-	id = 99661
-	title = "EVTNAME99661" #The War Intensifies for Costa Rica de la Rivas
-	desc = "EVTDESC99661"
-	picture = "mexico_soldiers"
+	id = 996605
+	title = "EVTNAME996605" #Manuel Xosé Arce UCA
+	desc = "EVTDESC996605"
+	picture = "manuel_xose"
 	
 	trigger = {
-		tag = COS
-		NOT = {
-			has_global_flag = the_frca_war_intensifies_cos
-		}
+		tag = UCA
+		NOT = { has_country_modifier = unstable_government }
 	}
+	
+	trigger_only_once = yes
 	
 	mean_time_to_happen = {
 		days = 1
 	}
 	
-	immediate = {
-		set_global_flag = the_frca_war_intensifies_cos
+	option = {
+		name = "EVTOPT996605A"
+		add_country_modifier = {
+			name = unstable_government
+			duration = -1
+		}
+		any_pop = {
+			militancy = 1
+			consciousness = 1
+		}
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 996601
+	title = "EVTNAME996601" #The Reconquest of Belize
+	desc = "EVTDESC996601"
+	picture = "mexico_soldiers"
+	
+	trigger = {
+		tag = UCA
+		BLZ = { exists = yes }
+		war = no
+		OR = {
+			AND = {
+				MSK = { exists = no }
+				MSK = { all_core = { owned_by = THIS } }
+			}
+			MSK = { vassal_of = THIS }
+		}
+	}
+	
+	trigger_only_once = yes
+	
+	mean_time_to_happen = {
+		days = 7
 	}
 	
 	option = {
-		name = "EVT99661PTA"
+		name = "EVTOPT996601A"
+		prestige = 5
+		war = {
+			target = BLZ
+			attacker_goal = { 
+				casus_belli = conquest
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = no
+		}
+		ai_chance = { factor = 70 }
+	}
+	
+	option = {
+		name = "EVTOPT996601B"
+		BLZ = { country_event = 996602 }
+		ai_chance = { factor = 30 }
+	}
+	
+	option = {
+		name = "EVTOPT996601C"
+		prestige = -5
+		any_pop = {
+			militancy = 2
+			consciousness = 2
+		}
+		BLZ = { all_core = { remove_core = UCA } }
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 996602
+	title = "EVTNAME996602" #The Reconquest of Belize - Negotiations for Belize
+	desc = "EVTDESC996602"
+	picture = "frc_costa_rica"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT996602A"
+		BLZ = { all_core = { remove_core = BLZ } }
+		BLZ = { annex_to = UCA }
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPT996602B"
+		prestige = 5
+		war = {
+			target = UCA
+			attacker_goal = { 
+				casus_belli = status_quo
+			}
+			defender_goal = {
+				casus_belli = conquest
+			}
+			call_ally = no
+		}
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = 996603
+	title = "EVTNAME996603" #Boruca Rejoins FRCA
+	desc = "EVTDESC996603"
+	picture = "frc_salvador"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT996603A"
+		BRC = { all_core = { remove_core = BRC } }
+		BRC = { annex_to = UCA }
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 996604
+	title = "EVTNAME996604" #Boruca Declares Independence
+	desc = "EVTDESC996604"
+	picture = "frc_salvador"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT996604A"
+		BRC = { all_core = { remove_core = UCA } }
+		war = {
+			target = BRC
+			attacker_goal = { 
+				casus_belli = conquest
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = no
+		}
+		badboy = 2
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT996604B"
+		BRC = { all_core = { remove_core = UCA } }
+		prestige = -5
+		ai_chance = { factor = 0 }
+	}
+
+}
+
+country_event = {
+	id = 996606
+	title = "EVTNAME996606" #Miskito's Proposal
+	desc = "EVTDESC996606"
+	picture = "frc_nicaragua"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		2206 = { secede_province = THIS remove_core = MSK }
+		2196 = { secede_province = THIS remove_core = MSK }
+	}
+	
+	option = {
+		name = "EVTOPT996606A"
 		any_country = {
 			limit = {
-				tag = COS
+				war_with = MSK
 			}
-			add_country_modifier = {
-				name = small_country_draft
-				duration = 1095
-			}
+			end_war = THIS
 		}
-		any_pop = {
-			militancy = -5
-			consciousness = -5
-		}
-		
-		ai_chance = { factor = 20 }
+		po_make_puppet = MSK
+		ai_chance = { factor = 100 }
 	}
+	
+	option = {
+		name = "EVTOPT996606B"
+		badboy = 5
+		ai_chance = { factor = 0 }
+	}
+
 }

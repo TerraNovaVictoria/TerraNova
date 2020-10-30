@@ -1,4 +1,4 @@
-color = { 10 46 114 }
+color = { 144 112 192 }
 graphical_culture = AfricanGC
 party = {
 	name = "JAM_liberal"

@@ -1,5 +1,5 @@
-color = { 137 197 227 }
-presidential_dictatorship = { 119 160 196 }
+color = { 153 203 239 }
+provisional_state = { 249 180 42 }
 graphical_culture = SouthAmericanGC
 
 party = {

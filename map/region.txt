@@ -1145,13 +1145,13 @@ MEX_2181 = { 2181 2182 2165 } #Chiapas
 
 ### Central America
 
-UCA_2186 = { 2186 2187 2188 2191 2192 2194 2628 } #Guatemala
+UCA_2186 = { 2186 2187 2188 2191 2628 } #Guatemala
 
 UCA_2191 = { } #El Salvador
 
 UCA_2193 = { } #Honduras
 
-UCA_2197 = { 2197 2198 2202 } #Nicaragua
+UCA_2197 = { 2197 2198 2199 } #Nicaragua
 
 UCA_2201 = { } #Costa Rica
 
@@ -1159,11 +1159,11 @@ UCA_2202 = { 2196 2200 2206 } #Miskito
 
 UCA_2203 = { 2189 2190 } #Itza
 
-UCA_2204 = { 2201 2203 2205 } #Boruca
+UCA_2204 = { 1723 2201 2203 2202 2205 } #Boruca
 
-UCA_2205 = { 2193 2195 2199 } #Paya
+UCA_2205 = { 2192 2193 2194 2195 } #Paya
 
-CLM_1723 = { 2204 1723 2208 } #Panama
+CLM_1723 = { 2204 2208 2253 } #Panama
 
 
 ### Caribbean
@@ -1191,7 +1191,7 @@ VNZ_2265 = { 2264 2265 2266 2267 2274 } #Miranda
 
 VNZ_2278 = { 2269 2275 2276 2277 2278 } #Bolivar
 
-CLM_2251 = { 2255 2252 2251 2253 2254 } #Antioquia
+CLM_2251 = { 2255 2252 2251 2254 } #Antioquia
 
 CLM_2262 = { 2262 2261 2260 2263 } #Guaviare
 

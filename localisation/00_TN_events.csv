@@ -1,4 +1,28 @@
 ;;;;;;;;;;;;;;x,,,
+EVTNAME996600;Manuel Xosé Arce's Government;;;;;;;;;;;;;x
+EVTDESC996600;When the Central American Partisan War began, Manuel Xosé Arce was just one of many regional militia leaders fighting against the Spanish. While initially just a minor insurgency which's future would have been one of tragedy, the sudden rise of revolutionary sentiment across the Americas has enabled Arce to effectively take control over most of Central America. However, unlike most other revolutionaries, he stands strongly opposed to the Pan-Colombian dream, instead fighting for a united Central American Federation. This stance has caused a lot of tensions in the liberal dominated national assembly, eventually resulting in the December Coup of 1835. Unable to hold onto power, he gathered his followers and set up an exile government in Sax Xosé, the Regional Borucan Government for the Liberation of Central America, ready to march north to seize control once more.;;;;;;;;;;;;;x
+EVTOPT996600A;For Central America!;;;;;;;;;;;;;x
+EVTOPT996600B;This insanity ends now - down with Arce! Long live Colombia!;;;;;;;;;;;;;x
+EVTOPT996600C;This insanity ends now - down with Arce! Long live Boruca!;;;;;;;;;;;;;x
+EVTNAME996601;The Future of Belize;;;;;;;;;;;;;x
+EVTDESC996601;When Spanish authority collapsed, many regional militia leaders managed to seize large chunks of lands for themselves, forming their own little kingdoms or republics. While the Belizean army was an ally during the Partisan Wars, they refused to join Arce's government once the Spanish yoke was overthrown. The political instability that followed after Arce fled south has kept us from establishing a proper government in the break-away region - however, now that the Insurgency has been dealt with, it is time to bring them into the fold.;;;;;;;;;;;;;x
+EVTOPT996601A;To war!;;;;;;;;;;;;;x
+EVTOPT996601B;Let's negotiate with them.;;;;;;;;;;;;;x
+EVTOPT996601C;They are not worth it. Recognize their Independence!;;;;;;;;;;;;;x
+EVTNAME996602;The Future of Belize;;;;;;;;;;;;;x
+EVTDESC996602;The Central American Government has offered us terms under which Belize would effectively join the Union as another separate province. While loosing our independence, declining the offer would certainly mean war. How shall we react?;;;;;;;;;;;;;x
+EVTOPT996602A;We have no choice...;;;;;;;;;;;;;x
+EVTOPT996602B;To war!;;;;;;;;;;;;;x
+EVTNAME996603;The Collapse of Arce's Government!;;;;;;;;;;;;;x
+EVTDESC996603;The division of the country comes to an end as Arce is overthrown by a local pro-federal coup. The takeover of Xosé Rafael de Gallegos y Alvarado has reformed the Borucan Republic into a regional province once more, eagerly awaiting reintegration into the union once more.;;;;;;;;;;;;;x
+EVTOPT996603A;Hurrah!;;;;;;;;;;;;;x
+EVTNAME996604;The Borucan Declaration of Independence!;;;;;;;;;;;;;x
+EVTDESC996604;Arce's Government has been overthrown by a regionalist coup! The new Borucan government refuses to recognize federal authority and has revoked all claims on our land. Their secession seriously threatens the integrity of our nation.;;;;;;;;;;;;;x
+EVTOPT996604A;For the integrity of the republic!;;;;;;;;;;;;;x
+EVTOPT996604B;They are not worth it. Recognize their Independence!;;;;;;;;;;;;;x
+EVTNAME996605;The War for Central America;;;;;;;;;;;;;x
+EVTDESC996605;When the Central American Partisan War began, Manuel Xosé Arce was just one of many regional militia leaders fighting against the Spanish. While initially just a minor insurgency which's future would have been one of tragedy, the sudden rise of revolutionary sentiment across the Americas has enabled Arce to effectively take control over most of Central America. However, unlike most other revolutionaries, he stood strongly opposed to the Pan-Colombian dream, instead attempting to solidify his own rule in Centróamerica. His unpopularity in the assembly has thus resulted in a coup last December, causing him to flee to San Xosé. Francisco Morazán has temporarily assumed emergency powers to deal with Arce's government and the Miskito Insurgency that occurred following his removal from office. The country stands divided and on the brink of civil war as both sides claim to be the rightful government of the region.;;;;;;;;;;;;;x
+EVTOPT996605A;For the Federal Republic!;;;;;;;;;;;;;x
 EVTNAME151000;The Great Migration;;;;;;;;;;;;;x
 EVTDESC151000;Our homeland has been devastated. The brutal nature of the Russian incursions left many towns and villages in ruins, whole families were eradicated. As a result, many people started to flee from the advancing Russian hordes into a new land south. However, only few are willing to settle in the cold and dry steppes of the Oirats and Kazakhs. Under the leadership of a new great khan, referred to as the Zöld Khan, many people have instead started to head west towards the Polish lands, settling in a strip of land along the black sea to build themselves a new homeland there. We have to choose which area would be more suitable for our people and a safe future.;;;;;;;;;;;;;x
 EVTOPT151000A;The Urals will always be our home!;;;;;;;;;;;;;x

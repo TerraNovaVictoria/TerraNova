@@ -37,7 +37,18 @@ border_policy = open_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
+decision = BRC_1836_setup
 set_country_flag = catholic_country
+
+govt_flag = {
+	government = provisional_state
+	flag = theocracy
+}
+
+govt_flag = {
+	government = presidential_dictatorship
+	flag = theocracy
+}
 
 ruling_party = PNM_conservative
 upper_house = {

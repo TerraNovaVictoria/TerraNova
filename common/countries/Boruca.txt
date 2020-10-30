@@ -1,4 +1,6 @@
 color = { 137 134 136 }
+presidential_dictatorship = { 101 120 198 }
+provisional_state = { 255 120 9 }
 graphical_culture = Generic
 
 party = {

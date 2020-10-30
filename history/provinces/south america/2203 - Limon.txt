@@ -1,9 +1,6 @@
 owner = BRC
 controller = BRC
 add_core = BRC
+add_core = UCA
 trade_goods = coffee
 life_rating = 31
-1861.1.1 = {
-	owner = COS
-	controller = COS
-}
