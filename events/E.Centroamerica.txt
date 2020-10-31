@@ -51,7 +51,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPT996600B"
+		name = "EVTOPT996600C"
 		remove_country_modifier = exile_brc_government
 		prestige = 5
 		ai_chance = { factor = 0 }

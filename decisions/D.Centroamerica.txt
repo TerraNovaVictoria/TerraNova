@@ -79,6 +79,7 @@ political_decisions = {
 				tag = COS
 			}
 			NOT = { exists = UCA }
+			NOT = { has_country_modifier = exile_brc_government }
 		} 
 
 		allow = {
@@ -127,6 +128,41 @@ political_decisions = {
 					remove_core = BRC
 				}
 			}
+			political_reform = federalism
+			change_tag = UCA
+		}
+		ai_will_do = { factor = 1 }
+	}
+	
+	form_upca_brc = {
+	picture = form_USCA
+		potential = {
+			tag = BRC
+			NOT = { exists = UCA }
+			has_country_modifier = exile_brc_government
+		} 
+
+		allow = {
+			war = no
+			OR = {
+				UCA = { all_core = { owned_by = THIS } }
+				AND = {
+					2191 = { owned_by = THIS }
+					2193 = { owned_by = THIS }
+					2201 = { owned_by = THIS }
+				}
+			}
+		}
+
+		effect = {
+			prestige = 10
+			capital = 2191
+			BRC = {
+				all_core = {
+					remove_core = BRC
+				}
+			}
+			remove_country_modifier = exile_brc_government
 			political_reform = federalism
 			change_tag = UCA
 		}
