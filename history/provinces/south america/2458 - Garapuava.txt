@@ -1,5 +1,6 @@
 owner = SPA
 controller = SPA
 add_core = BRZ
+add_core = GRI
 trade_goods = fruit
 life_rating = 35

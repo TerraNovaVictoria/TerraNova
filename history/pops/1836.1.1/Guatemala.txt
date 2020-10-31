@@ -203,7 +203,7 @@
 	soldiers = {
 		culture = central_american
 		religion = catholic
-		size = 100
+		size = 1500
 	}
 
 	farmers = {
@@ -227,13 +227,13 @@
 	soldiers = {
 		culture = mayan
 		religion = catholic
-		size = 25
+		size = 2025
 	}
 
 	farmers = {
 		culture = mayan
 		religion = catholic
-		size = 2800
+		size = 5800
 	}
 
 }

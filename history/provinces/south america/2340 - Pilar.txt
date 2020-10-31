@@ -1,6 +1,7 @@
-owner = AZU
-controller = AZU
-add_core = AZU
+owner = PRG
+controller = PRG
+add_core = PRG
+add_core = GRI
 add_core = CHR
 trade_goods = grain
 life_rating = 31

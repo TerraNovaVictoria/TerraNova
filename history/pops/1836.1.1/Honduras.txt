@@ -168,6 +168,13 @@
 		militancy = 9
 		rebel_type = nationalist_rebels
 	}
+	
+	farmers = {
+		culture = criollo
+		religion = catholic
+		size = 3700
+		militancy = 5
+	}
 
 	farmers = {
 		culture = miskito

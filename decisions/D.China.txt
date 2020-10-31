@@ -30,7 +30,7 @@ political_decisions = {
 	
 	#Yue Reforms Lingnan
 	yue_reforms_lingnan_proposal = {
-		picture = guangxi
+		picture = map_of_lingnan
 		potential = {
 				tag = YUE
 				NOT = { has_country_flag = lingnan_proposal }
@@ -54,7 +54,7 @@ political_decisions = {
 	
 	#Form Great Yue
 	yue_becomes_yue = {
-		picture = guangxi
+		picture = dynasty_great_yue
 			potential = {
 				tag = YUE
 				government = subject

@@ -3,6 +3,7 @@ controller = PIK
 add_core = PIK
 add_core = KAP
 add_core = CHR
+add_core = GRI
 trade_goods = fruit
 life_rating = 35
 1860.1.1 = {

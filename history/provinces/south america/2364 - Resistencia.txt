@@ -1,4 +1,5 @@
 add_core = CHR
+add_core = GRI
 trade_goods = timber
 terrain = savanna
 life_rating = 15

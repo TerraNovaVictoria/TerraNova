@@ -1,1 +1,1 @@
-add_core = AZUadd_core = CHRtrade_goods = fruitlife_rating = 31
+owner = GRIcontroller = GRIadd_core = GRIadd_core = PRGadd_core = CHRtrade_goods = fruitlife_rating = 31

@@ -1069,16 +1069,15 @@ CHR_absolute_monarchy;Kingdom of Charrua;Kingdom of Charrua;Kingdom of Charrua;;
 CHR_prussian_constitutionalism;Kingdom of Charrua;Kingdom of Charrua;Kingdom of Charrua;;;;;;;;;;;x;
 CHR_hms_government;Kingdom of Charrua;Kingdom of Charrua;Kingdom of Charrua;;;;;;;;;;;x;
 CHR_democracy;The Republic of Charrua;;;;;;;;;;;;;x
-AZU;Parania;Parania;Parania;;;;;;;;;;;x;
-AZU_ADJ;Parani;Parani;Parani;;;;;;;;;;;x;
-AZU_proletarian_dictatorship;Guaran;Guaran;Guaran;;;;;;;;;;;x;
-AZU_presidential_dictatorship;Parania;Parania;Parania;;;;;;;;;;;x;
-AZU_bourgeois_dictatorship;Paraguay;Paraguay;Paraguay;;;;;;;;;;;x;
-AZU_fascist_dictatorship;Free Society of Azul;Free Society of Azul;Free Society of Azul;;;;;;;;;;;x;
-AZU_absolute_monarchy;Imperial State of Azul;Imperial State of Azul;Imperial State of Azul;;;;;;;;;;;x;
-AZU_prussian_constitutionalism;Azul-Parania;Azul-Parania;Azul-Parania;;;;;;;;;;;x;
-AZU_hms_government;Royal Azulia;Royal Azulia;Royal Azulia;;;;;;;;;;;x;
-AZU_democracy;Parani Republic;;;;;;;;;;;;;x
+GRI;Guarany;;;;;;;;;;;;;x;
+GRI_ADJ;Guarani;;;;;;;;;;;;;x;
+GRI_proletarian_dictatorship;Parany;;;;;;;;;;;;;x;
+GRI_presidential_dictatorship;The Guarani State;;;;;;;;;;;;;x;
+GRI_fascist_dictatorship;The Free Society of Parany;;;;;;;;;;;;;x;
+GRI_absolute_monarchy;The Guarani Empire;;;;;;;;;;;;;x;
+GRI_prussian_constitutionalism;The Guarani Empire;;;;;;;;;;;;;x;
+GRI_hms_government;The Guarani Empire;;;;;;;;;;;;;x;
+GRI_democracy;The Guarani Republic;;;;;;;;;;;;;x
 RIO;Rioxa;Rioxa;Rioxa;;;;;;;;;;;x;
 RIO_ADJ;Rioxanu;Rioxanu;Rioxanu;;;;;;;;;;;x;
 RIO_proletarian_dictatorship;Rioxanu Commune;Rioxanu Commune;Rioxanu Commune;;;;;;;;;;;x;

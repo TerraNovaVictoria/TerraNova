@@ -38,7 +38,7 @@
 	soldiers = {
 		culture = central_american
 		religion = catholic
-		size = 525
+		size = 6525
 
 		militancy = 9
 	}
@@ -46,7 +46,7 @@
 	farmers = {
 		culture = criollo
 		religion = catholic
-		size = 11725
+		size = 15725
 		militancy = 5
 	}
 }
@@ -112,7 +112,7 @@
 	soldiers = {
 		culture = central_american
 		religion = catholic
-		size = 25
+		size = 3025
 
 		militancy = 9
 	}
@@ -120,7 +120,7 @@
 	farmers = {
 		culture = criollo
 		religion = catholic
-		size = 2700
+		size = 7700
 		militancy = 5
 	}
 

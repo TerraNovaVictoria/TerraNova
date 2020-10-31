@@ -1,4 +1,7 @@
-add_core = AZU
+owner = GRI
+controller = GRI
+add_core = GRI
+add_core = PRG
 add_core = CHR
 trade_goods = sulphur
 terrain = savanna

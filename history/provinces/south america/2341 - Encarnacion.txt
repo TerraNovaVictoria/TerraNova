@@ -1,2 +1,2 @@
-owner = AZUcontroller = AZUadd_core = AZUadd_core = CHRtrade_goods = timber
+owner = PRGcontroller = PRGadd_core = PRGadd_core = GRIadd_core = CHRtrade_goods = timber
 life_rating = 31
