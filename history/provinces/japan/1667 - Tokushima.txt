@@ -1,5 +1,6 @@
 owner = TOS
 controller = TOS
+add_core = KYO
 add_core = TOS
 add_core = JAP
 trade_goods = tobacco

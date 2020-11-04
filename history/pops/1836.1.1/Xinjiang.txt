@@ -247,7 +247,7 @@
 	farmers = {
 		culture = oirat
 		religion = gelugpa
-		size = 14550
+		size = 11550
 	}
 }
 #Tulta (88000/22000 POPS)

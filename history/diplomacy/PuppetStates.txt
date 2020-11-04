@@ -461,10 +461,36 @@ substate = {
 	end_date = 1937.1.1
 }
 
-#########1861
+#########JAPAN
+
+# Chugoku
+substate = {
+	first = KYO
+	second = CHO
+	start_date = 1815.1.1
+	end_date = 1975.1.1
+}
+
+# Tosa
+substate = {
+	first = KYO
+	second = TOS
+	start_date = 1815.1.1
+	end_date = 1975.1.1
+}
+
+# Kyushu
+substate = {
+	first = KYO
+	second = SAT
+	start_date = 1815.1.1
+	end_date = 1975.1.1
+}
+
+#########Others
 
 # Siam - Lan Na
-vassal = {
+substate = {
 	first = SIA
 	second = LNN
 	start_date = 1815.1.1
@@ -472,9 +498,17 @@ vassal = {
 }
 
 # Siam - NST
-vassal = {
+substate = {
 	first = SIA
 	second = NST
+	start_date = 1815.1.1
+	end_date = 1975.1.1
+}
+
+# Siam - Champassak
+vassal = {
+	first = SIA
+	second = CHK
 	start_date = 1815.1.1
 	end_date = 1975.1.1
 }

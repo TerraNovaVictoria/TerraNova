@@ -2,27 +2,50 @@
 
 political_decisions = {
 
+	#Guangdong becomes Yue
+	form_yue = {
+		picture = dynasty_great_yue
+		potential = {
+				tag = GNG
+				GNG = { vassal_of = ZHO }
+				government = subject
+				has_global_flag = decline_of_the_zhou
+			}
+		
+			allow = {
+				number_of_states = 2
+			}
+		
+			effect = {
+				GNG = { all_core = { add_core = YUE remove_core = GNG } }
+				change_tag = YUE
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+
 	#Yue Occupies Guangxi
 	yue_occupies_guangxi = {
 		picture = guangxi
 		potential = {
 				tag = YUE
-				NOT = { has_country_flag = took_guangxi }
-				has_global_flag = trouble_in_china
-				1504 = { owned_by = ZHO }
+				YUE = { vassal_of = ZHO }
+				government = subject
+				NOT = {
+					1502 = { owned_by = THIS }
+					1503 = { owned_by = THIS }
+					1504 = { owned_by = THIS }
+				}
 			}
 		
 			allow = {
-				1495 = { owned_by = THIS }
+				YUE = { all_core = { owned_by = THIS } }
 			}
 		
 			effect = {
-				1491 = { secede_province = THIS add_core = THIS remove_core = ZHO } 
 				1504 = { secede_province = THIS add_core = THIS remove_core = ZHO } 
 				1503 = { secede_province = THIS add_core = THIS remove_core = ZHO } 
 				1502 = { secede_province = THIS add_core = THIS remove_core = ZHO } 
-				ZHO = { country_event = 3031840 }
-				set_country_flag = took_guangxi
 			}
 
 		ai_will_do = { factor = 1 }
@@ -33,20 +56,17 @@ political_decisions = {
 		picture = map_of_lingnan
 		potential = {
 				tag = YUE
-				NOT = { has_country_flag = lingnan_proposal }
-				has_country_flag = took_guangxi 
-				has_global_flag = trouble_in_china
-				ANN = { vassal_of = ZHO }
-				ANN = { neighbour = THIS }
+				ANN = { exists = yes }
+				has_global_flag = decline_of_the_zhou
 			}
 		
 			allow = {
 				ANN = { neighbour = THIS }
+				number_of_states = 3
 			}
 		
 			effect = {
-				ANN = { country_event = 3061840 }
-				set_country_flag = lingnan_proposal
+				ANN = { country_event = 119905 }
 			}
 
 		ai_will_do = { factor = 1 }
@@ -58,23 +78,26 @@ political_decisions = {
 			potential = {
 				tag = YUE
 				government = subject
-				NOT = { has_country_flag = yue_becomes_great_yue }
 			}
 		
 			allow = {
-				has_global_flag = formation_of_the_five_kingdoms
+				OR = { 
+					AND = {
+						number_of_states = 3
+						NOT = { exists = ANN }
+					}
+					number_of_states = 4
+				}
 			}
 		
 			effect = {
 				prestige = 25
-				ZHO = { release_vassal = YUE }
 				government = absolute_monarchy
 				MIN = { all_core = { add_core = YUE } }
 				ZHO = { all_core = { add_core = YUE } }
 				YUE = { all_core = { add_core = ZHO } }
 				XBI = { all_core = { add_core = YUE } }
 				QNG = { all_core = { add_core = YUE } }
-				set_country_flag = yue_becomes_great_yue
 			}
 
 		ai_will_do = { factor = 1 }
@@ -83,15 +106,15 @@ political_decisions = {
 
 #####HUI/XBI DECISIONS#####
 
-	#Hui Occupies Gansu
+	#Hui Occupies Gansu/ Gansu Mil Comm
 	hui_occupies_gansu = {
 		picture = guangxi
 		potential = {
 				tag = XBI
-				NOT = { has_country_flag = took_gansu }
-				has_global_flag = trouble_in_china
-				1488 = { owned_by = ZHO }
-				1504 = { owned_by = YUE }
+				has_global_flag = decline_of_the_zhou
+				XBI = { substate_of = ZHO }
+				government = subject
+				NOT = { number_of_states = 2 }
 			}
 		
 			allow = {
@@ -103,9 +126,7 @@ political_decisions = {
 				1490 = { secede_province = THIS add_core = THIS remove_core = ZHO } 
 				1492 = { secede_province = THIS add_core = THIS remove_core = ZHO } 
 				1489 = { secede_province = THIS add_core = THIS remove_core = ZHO } 
-				1558 = { secede_province = THIS } 
-				ZHO = { country_event = 3051840 }
-				set_country_flag = took_gansu
+				government = primitive_absolute_monarchy
 			}
 
 		ai_will_do = { factor = 1 }
@@ -113,27 +134,47 @@ political_decisions = {
 	
 	#Form Great Hui
 	xbi_becomes_hui = {
-		picture = guangxi
+		picture = dynasty_great_hui
 			potential = {
 				tag = XBI
-				government = subject
-				NOT = { has_country_flag = xbi_becomes_hui }
+				XBI = { substate_of = ZHO }
+				government = primitive_absolute_monarchy
 			}
 		
 			allow = {
-				has_global_flag = formation_of_the_five_kingdoms
+				ZHO = { NOT = { num_of_substates = 5 } }
+				number_of_states = 2
+			}
+		
+			effect = {
+				XBI = { all_core = { add_core = HUI remove_core = XBI } }
+				change_tag = HUI
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Hui Dynasty Formation Decision
+	hui_forms_great_hui = {
+		picture = dynasty_great_hui
+			potential = {
+				tag = HUI
+				HUI = { substate_of = ZHO }
+				government = primitive_absolute_monarchy
+			}
+		
+			allow = {
+				HUI = { all_core = { owned_by = THIS } }
 			}
 		
 			effect = {
 				prestige = 25
-				ZHO = { release_vassal = XBI }
 				government = absolute_monarchy
 				MIN = { all_core = { add_core = XBI } }
 				ZHO = { all_core = { add_core = XBI } }
 				YUE = { all_core = { add_core = XBI } }
 				XBI = { all_core = { add_core = ZHO } }
 				QNG = { all_core = { add_core = XBI } }
-				set_country_flag = xbi_becomes_hui
 			}
 
 		ai_will_do = { factor = 1 }
@@ -147,27 +188,23 @@ political_decisions = {
 		potential = {
 				tag = TAI
 				has_country_flag = tungning_prevails
-				NOT = { has_country_flag = reformed_ming_empire }
-				NOT = { has_country_flag = taiwanese_independence }
+				has_global_flag = decline_of_the_zhou
+				QNG = { exists = yes }
 			}
 		
 			allow = {
 				war = no
-				has_global_flag = trouble_in_china
 				TAI = { all_core = { owned_by = THIS } }
-				QNG = { exists = yes }
 			}
 		
 			effect = {
-				prestige = 50
+				prestige = 25
 				TAI = { change_tag = MIN }
 				MIN = { all_core = { add_core = ZHO } }
 				ZHO = { all_core = { add_core = MIN } }
 				YUE = { all_core = { add_core = MIN } }
-				XBI = { all_core = { add_core = MIN } }
+				HUI = { all_core = { add_core = MIN } }
 				QNG = { all_core = { add_core = MIN } }
-				set_country_flag = reformed_ming_empire
-				set_global_flag = formation_of_the_five_kingdoms
 			}
 
 		ai_will_do = { factor = 1 }
@@ -177,15 +214,17 @@ political_decisions = {
 
 #####MONGOL/KHALKA DECISIONS#####
 
-	#Mongolia Takes Khovd
-	mongolia_occupies_khovd = {
+		
+#####MANCHU DECISIONS#####
+
+	#The Jilin Military Commission
+	mck_becomes_jilin = {
 		picture = guangxi
-		potential = {
-				tag = MGL
-				NOT = { has_country_flag = took_khovd }
-				1068 = { NOT = { owned_by = KML } }
-				2608 = { owned_by = KML }
-				has_global_flag = trouble_in_china
+			potential = {
+				tag = MCK
+				MCK = { substate_of = ZHO }
+				YER = { NOT = { vassal_of = ZHO } }
+				JIA = { NOT = { vassal_of = ZHO } }
 			}
 		
 			allow = {
@@ -193,23 +232,23 @@ political_decisions = {
 			}
 		
 			effect = {
-				1469 = { secede_province = THIS add_core = THIS } 
-				2608 = { secede_province = THIS add_core = THIS } 
-				2679 = { secede_province = THIS add_core = THIS } 
-				KML = { country_event = 3101840 }
-				set_country_flag = took_khovd
+				1002 = { secede_province = THIS remove_core = KHA remove_core = BRY remove_core = MGL }
+				1553 = { secede_province = THIS }
+				government = primitive_absolute_monarchy
+				ZHO = { country_event = 119910 }
 			}
 
 		ai_will_do = { factor = 1 }
 	}
 	
-	#Status on the Zhou
-	mongolia_zhou_relation = {
+	#Break free from Nanjing
+	mck_gains_independence = {
 		picture = guangxi
-		potential = {
-				tag = MGL
-				NOT = { has_country_flag = zhou_relation_mgl }
-				has_global_flag = trouble_in_china
+			potential = {
+				tag = MCK
+				MCK = { substate_of = ZHO }
+				government = primitive_absolute_monarchy
+				year = 1840
 			}
 		
 			allow = {
@@ -217,124 +256,55 @@ political_decisions = {
 			}
 		
 			effect = {
-				MGL = { country_event = 3191840 }
-				set_country_flag = zhou_relation_mgl
+				ZHO = { release_vassal = MCK }
 			}
 
 		ai_will_do = { factor = 1 }
 	}
-		
-#####MANCHU DECISIONS#####
 
 	#Manchus reunite
 	manchu_reunite = {
 		picture = guangxi
 		potential = {
 				tag = MCK
-				NOT = { has_country_flag = manchu_reunification }
-				1613 = { NOT = { owned_by = MCK } }
-				1553 = { NOT = { owned_by = MCK } }
-				1554 = { NOT = { owned_by = MCK } }
-				1480 = { owned_by = MCK }
-				has_global_flag = trouble_in_china
+				government = primitive_absolute_monarchy
+				JIA = { exists = yes }
+				YER = { exists = yes }
 			}
 		
 			allow = {
 				war = no
+				is_substate = no
 			}
 		
 			effect = {
 				prestige = 10
-				1613 = { secede_province = THIS add_core = THIS remove_core = ZHO }  
-				JIA = { country_event = 3111840 }
-				YER = { country_event = 3111840 }
-				ZHO = { country_event = 3131840 }
+				JIA = { country_event = 119911 }
+				YER = { country_event = 119911 }
 				set_country_flag = manchu_reunification
 			}
 
 		ai_will_do = { factor = 1 }
 	}
 	
-	#Restore order in Korea
-	zho_restore_order_kor = {
+	#Form Great Jin
+	manchu_reunite = {
 		picture = guangxi
 		potential = {
-				tag = ZHO
-				has_global_flag = collapse_of_china_begins
-				NOT = { has_country_flag = zho_let_kor_go }
-				OR = {
-					NOT = { KOR = { vassal_of = THIS } }
-					AND = { 
-						KOR = { vassal_of = THIS }
-						NOT = { has_country_flag = restored_order_to_kor }
-					}
-				has_global_flag = trouble_in_china
-				}
-			}
-		
-			allow = {
-				KOR = { vassal_of = THIS }
-			}
-		
-			effect = {
-				prestige = 10
-				remove_global_flag = collapse_of_china_begins
-			}
-
-		ai_will_do = { factor = 1 }
-	}
-	
-	#Restore order in Manchuria
-	zho_restore_order_mck = {
-		picture = guangxi
-		potential = {
-				tag = ZHO
-				has_global_flag = collapse_of_china_begins
-				NOT = { has_country_flag = restored_order_to_mck }
-				OR = {
-					NOT = { QNG = { vassal_of = THIS } }
-					AND = { 
-						QNG = { vassal_of = THIS }
-						NOT = { has_country_flag = restored_order_to_kor }
-					}
-				has_global_flag = trouble_in_china
-				}
-			}
-		
-			allow = {
-				QNG = { vassal_of = THIS }
-			}
-		
-			effect = {
-				prestige = 20
-				QNG = { country_event = 3171840 }
-				remove_global_flag = collapse_of_china_begins
-			}
-
-		ai_will_do = { factor = 1 }
-	}
-	
-	#Jin seizes Manzhouli
-	qng_take_manzhouli = {
-		picture = guangxi
-			potential = {
-				OR = { 
-					tag = QNG
-					tag = MCK
-				}
-				1002 = { owned_by = KHA }
-				has_global_flag = collapse_of_china_begins
-				NOT = { has_country_flag = took_manzhouli }
+				tag = MCK
+				government = primitive_absolute_monarchy
 			}
 		
 			allow = {
 				war = no
+				is_substate = no
+				MCK = { all_core = { owned_by = THIS } }
 			}
 		
 			effect = {
-				prestige = 2.5
-				1002 = { secede_province = THIS remove_core = KHA }
-				set_country_flag = took_manzhouli
+				prestige = 5
+				MCK = { all_core = { add_core = QNG } }
+				change_tag = QNG
 			}
 
 		ai_will_do = { factor = 1 }
@@ -346,7 +316,6 @@ political_decisions = {
 			potential = {
 				tag = QNG
 				government = primitive_absolute_monarchy
-				NOT = { has_country_flag = jin_becomes_qing }
 			}
 		
 			allow = {
@@ -354,15 +323,14 @@ political_decisions = {
 			}
 		
 			effect = {
-				prestige = 25
+				prestige = 10
 				government = absolute_monarchy
-				1616 = { secede_province = THIS }
+				1613 = { secede_province = THIS add_core = THIS }
 				MIN = { all_core = { add_core = QNG } }
 				ZHO = { all_core = { add_core = QNG } }
 				YUE = { all_core = { add_core = QNG } }
 				XBI = { all_core = { add_core = QNG } }
 				QNG = { all_core = { add_core = ZHO } }
-				set_country_flag = jin_becomes_qing
 			}
 
 		ai_will_do = { factor = 1 }

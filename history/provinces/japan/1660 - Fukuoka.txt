@@ -1,5 +1,6 @@
 owner = SAT
 controller = SAT
+add_core = KYO
 add_core = SAT
 add_core = JAP
 trade_goods = tea

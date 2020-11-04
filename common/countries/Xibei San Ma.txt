@@ -1,4 +1,5 @@
-color = { 43 124 51 }
+color = { 105 70 115 }
+primitive_absolute_monarchy = { 163 99 99 }
 subject = { 163 99 99 }
 graphical_culture = ChineseGC
 

@@ -10151,13 +10151,13 @@
 	soldiers = {
 		culture = evenki
 		religion = mahayana
-		size = 4200
+		size = 5200
 	}
 
 	farmers = {
 		culture = nanai
 		religion = animist
-		size = 4575
+		size = 3575
 	}
 }
 #Saghalian Oula (62000 POPS)    

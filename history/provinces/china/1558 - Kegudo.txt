@@ -1,6 +1,6 @@
 owner = XBI
 controller = XBI
-add_core = TIB
+add_core = KHO
 add_core = XBI
 add_core = CHI
 trade_goods = grain

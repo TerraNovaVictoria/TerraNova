@@ -1,4 +1,4 @@
-capital = 1613
+capital = 1555
 primary_culture = beifaren
 culture = manchu
 religion = mahayana

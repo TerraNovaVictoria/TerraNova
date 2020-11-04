@@ -1,5 +1,5 @@
-owner = KHI
-controller = KHI
+owner = SMK
+controller = SMK
 add_core = KHI
 add_core = SMK
 add_core = BUK

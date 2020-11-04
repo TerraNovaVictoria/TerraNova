@@ -20,13 +20,6 @@ substate = {
 	start_date = 1836.1.1
 	end_date = 1938.1.1
 }
-#ZHO-Evenkia
-vassal = {
-	first = ZHO
-	second = EVE
-	start_date = 1836.1.1
-	end_date = 1938.1.1
-}
 
 ##Western Provinces
 #ZHO-Kamul/Dzungar
@@ -36,8 +29,20 @@ vassal = {
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }
-#ZHO-Tibet
 vassal = {
+	first = ZHO
+	second = BHU
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+vassal = {
+	first = ZHO
+	second = SSC
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+#ZHO-Tibet
+substate = {
 	first = ZHO
 	second = TIB
 	start_date = 1815.11.9
@@ -71,7 +76,15 @@ substate = {
 #ZHO-YUE
 substate = {
 	first = ZHO
-	second = YUE
+	second = GNG
+	start_date = 1836.1.1
+	end_date = 1937.1.1
+}
+
+#ZHO-MIN
+substate = {
+	first = ZHO
+	second = FJN
 	start_date = 1836.1.1
 	end_date = 1937.1.1
 }

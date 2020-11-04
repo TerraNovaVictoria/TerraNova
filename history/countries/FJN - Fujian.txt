@@ -1,12 +1,12 @@
-capital = 1482
-primary_culture = min
-culture = beifaren
+capital = 1487
+primary_culture = beifaren
+culture = min
 religion = mahayana
-government = absolute_monarchy
-plurality = 0.0
+government = subject
+plurality = 5.0
 nationalvalue = nv_tradition
-literacy = 0.01
-non_state_culture_literacy = 0.01
+literacy = 0.05
+non_state_culture_literacy = 0.02
 
 # Political reforms
 slavery = no_slavery

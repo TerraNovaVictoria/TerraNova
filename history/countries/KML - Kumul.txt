@@ -1,6 +1,6 @@
-capital = 1600
+capital = 1596
 primary_culture = oirat
-religion = sunni
+religion = gelugpa
 government = primitive_absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition

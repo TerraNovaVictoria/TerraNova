@@ -1,8 +1,8 @@
 capital = 1587
-primary_culture = tibetan
-culture = oirat
+primary_culture = beifaren
+culture = tibetan
 religion = gelugpa
-government = primitive_absolute_monarchy
+government = subject
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.01
@@ -37,6 +37,11 @@ citizens_rights = primary_culture_only
 border_policy = closed_borders
 centralization = unitary
 colonial_policy = no_colonies 
+
+govt_flag = {
+	government = primitive_absolute_monarchy
+	flag = democracy
+}
 
 set_country_flag = gelugpa_country
 

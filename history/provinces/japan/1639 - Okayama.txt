@@ -1,6 +1,6 @@
-owner = TKG
-controller = TKG
-add_core = TKG
+owner = CHO
+controller = CHO
+add_core = KYO
 add_core = CHO
 add_core = JAP
 trade_goods = fruit

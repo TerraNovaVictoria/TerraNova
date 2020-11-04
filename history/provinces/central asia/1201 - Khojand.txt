@@ -1,5 +1,5 @@
-owner = KOK
-controller = KOK
+owner = SMK
+controller = SMK
 add_core = SMK
 add_core = BUK
 add_core = KOK

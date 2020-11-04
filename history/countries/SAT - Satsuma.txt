@@ -1,7 +1,9 @@
 capital = 1662
-primary_culture = japanese
+primary_culture = mongol
+culture = japanese
+culture = beifaren
 religion = mahayana
-government = absolute_monarchy
+government = subject
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.40

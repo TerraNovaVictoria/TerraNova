@@ -1,0 +1,42 @@
+#####YUE DECISIONS#####
+
+political_decisions = {
+
+	#Oirat Empire
+	form_oirat_empire = {
+		picture = dynasty_great_yue
+		potential = {
+				OR = {
+					tag = KML
+					tag = KMK
+				}
+				NOT = { has_country_flag = claimed_oirat_empire }
+			}
+		
+			allow = {
+				THIS = {
+					all_core = {
+						owned_by = THIS
+					}
+				}
+				number_of_states = 10
+				1596 = { owned_by = THIS }
+				1185 = { owned_by = THIS }
+				1041 = { owned_by = THIS }
+				is_greater_power = yes
+			}
+		
+			effect = {
+				prestige = 25
+				KMK = { all_core = { add_core = THIS }
+				KML = { all_core = { add_core = THIS }
+				KYR = { all_core = { add_core = THIS }
+				KAZ = { all_core = { add_core = THIS }
+				KOK = { all_core = { add_core = THIS }
+				set_country_flag = claimed_oirat_empire
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+}

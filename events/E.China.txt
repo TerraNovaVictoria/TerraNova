@@ -1,27 +1,28 @@
 #####ZHOU RELATED EVENTS#####
 
 country_event = {
-	id = 3021840
-	title = "EVTNAME3021840" #Trouble in China
-	desc = "EVTDESC3021840"
+	id = 119900
+	title = "EVTNAME119900" #Trouble in China
+	desc = "EVTDESC119900"
 	picture = "chinese_palace"
 	major = yes
 	
 	trigger = {
 		tag = ZHO
 		year = 1837
-		NOT = { year = 1840 }
-		NOT = { has_global_flag = trouble_in_china }
+		NOT = { has_global_flag = decline_of_the_zhou }
 	}
 	
 	mean_time_to_happen = { days = 90 }
 	fire_only_once = yes
 	
 	option = {
-		name = "EVTOPT3021840A"
-		set_global_flag = trouble_in_china
+		name = "EVTOPT119900A"
+		set_global_flag = decline_of_the_zhou
 		ZHO = {
-			release_vassal = EVE
+			release_vassal = BHU
+			release_vassal = YER
+			release_vassal = JIA
 		}
 		prestige = -2.5
 		ai_chance = { factor = 100 }
@@ -29,167 +30,114 @@ country_event = {
 }
 
 country_event = {
-	id = 3031840
-	title = "EVTNAME3031840" #Yue occupies Guangxi
-	desc = "EVTDESC3031840"
-	picture = "liangguang"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPT3031840A"
-		set_country_flag = yue_in_guangxi
-		prestige = -2.5
-		ai_chance = { factor = 95 }
-	}
-	
-	option = {
-		name = "EVTOPT3031840B"
-		set_country_flag = yue_in_guangxi
-		money = 7500
-		YUE = { country_event = 3041840 }
-		ai_chance = { factor = 5 }
-	}
-}
-
-country_event = {
-	id = 3041840
-	title = "EVTNAME3041840" #Zhou demands compensation
-	desc = "EVTDESC3211840"
-	picture = "liangguang"
-	
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPT3041840A"
-		set_country_flag = yue_in_guangxi
-		money = -7500
-		ai_chance = { factor = 100 }
-	}
-}
-
-country_event = {
-	id = 3211840
-	title = "EVTNAME3211840" #Collapse of the Zhou Empire/ The Five Kingdoms and the 3 Hordes
-	desc = "EVTDESC3211840"
+	id = 119920
+	title = "EVTNAME119920" #Collapse of the Zhou Empire/ The Five Kingdoms and the 3 Hordes
+	desc = "EVTDESC119920"
 	picture = "liangguang"
 	major = yes
 	
 	trigger = {
 		tag = ZHO
-		has_global_flag = collapse_of_china_begins
-		has_global_flag = formation_of_the_five_kingdoms
+		has_global_flag = decline_of_the_zhou
+		AND = {
+			exists = YUE
+			exists = QNG
+			exists = HUI
+			exists = MIN
+		}
 	}
 	
-	mean_time_to_happen = { days = 7 }	
+	mean_time_to_happen = { days = 30 }	
 	fire_only_once = yes
 	
 	option = {
-		name = "EVTOPT3211840A"
-		ZHO = { release_vassal = MGL }
-		ZHO = { release_vassal = KML }
-		ZHO = { release_vassal = TIB }
-		ZHO = { release_vassal = KOR }
-		ZHO = { release_vassal = ANN }
-		ZHO = { release_vassal = YNN }
-		YNN = { country_event = 3221840 }
+		name = "EVTOPT119920A"
+		any_country = {
+			limit = { vassal_of = ZHO }
+			ZHO = { release_vassal = THIS }
+		}
+		YNN = { country_event = 119921 }
+		clr_global_flag = decline_of_the_zhou
 		ai_chance = { factor = 100 }
 	}
 }
 
 country_event = {
-	id = 3221840
-	title = "EVTNAME3221840" #Yunnan Government Decision
-	desc = "EVTDESC3221840"
+	id = 119921
+	title = "EVTNAME119921" #Yunnan Government Decision
+	desc = "EVTDESC119921"
 	picture = "liangguang"
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPT3221840A"
-		prestige = 15
+		name = "EVTOPT119921A"
+		prestige = 5
 		government = absolute_monarchy
 		ai_chance = { factor = 50 }
 	}
 	
 	option = {
-		name = "EVTOPT3221840B"
-		prestige = 15
+		name = "EVTOPT119921B"
+		prestige = 5
 		government = presidential_dictatorship
 		ai_chance = { factor = 50 }
-	}
-}
-
-#####ZHOU-HUI RELATED EVENTS#####
-country_event = {
-	id = 3051840
-	title = "EVTNAME3051840" #Hui occupies Gansu
-	desc = "EVTDESC3051840"
-	picture = "demolished_mosque"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPT3051840A"
-		set_country_flag = hui_in_gansu
-		prestige = -2.5
-		ai_chance = { factor = 100 }
 	}
 }
 
 #####VIETNAM RELATED EVENTS#####
 
 country_event = {
-	id = 3061840
-	title = "EVTNAME3061840" #The Lingnan Proposal
-	desc = "EVTDESC3061840"
+	id = 119905
+	title = "EVTNAME119905" #The Lingnan Proposal
+	desc = "EVTDESC119905"
 	picture = "liangguang"
 	
 	is_triggered_only = yes
 	
 	option = {
-        name = "EVTOPT3061840A" #Lingnan
+        name = "EVTOPT119905A" #Lingnan
         ANN = {
             all_core = {
-                add_core = CHI
                 add_core = YUE
                 add_core = DAI
                 remove_core = ANN
             }
         }
-        set_global_flag = chinese_vietnam
-        YUE = { country_event = 3091840 }
-        ai_chance = { factor = 40 }
+		DAN = {
+            all_core = {
+                add_core = DAI
+            }
+        }
+        YUE = { country_event = 119907 }
+        ai_chance = { factor = 20 }
     }
 	
 	option = {
-		name = "EVTOPT3061840B" #Vietnam
-		ZHO = { country_event = 3071840 }
+		name = "EVTOPT119905B" #Vietnam
+		ZHO = { country_event = 119906 }
+		YUE = { country_event = 119908 }
 		relation = { who = ZHO value = -200 }
-		FROM = { country_event = { id = 3081840 days = 1 } }
 		relation = { who = YUE value = -200 }
-		prestige = 15
-		ANN = { all_core = { add_core = DAI } }
-		ANN = { all_core = { remove_core = ANN } }
+		government = absolute_monarchy
+		prestige = 5
+		ANN = { all_core = { add_core = DAI remove_core = ANN } primary_culture = vietnamese }
 		change_tag = DAI
-		DAI = { primary_culture = vietnamese }
-		set_global_flag = independent_vietnam
-		ai_chance = { factor = 60 }
+		ai_chance = { factor = 80 }
 	}
 }
 
 country_event = {
-	id = 3071840
-	title = "EVTNAME3071840" #Annam secedes from Zhou
-	desc = "EVTDESC3071840"
+	id = 119906
+	title = "EVTNAME119906" #Annam secedes from Zhou
+	desc = "EVTDESC119906"
 	picture = "liangguang"
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPT3071840A" 
-		release_vassal = ANN
+		name = "EVTOPT119906A" 
+		release_vassal = DAI
 		prestige = -5
 		ai_chance = { factor = 100 }
 	}
@@ -197,130 +145,206 @@ country_event = {
 }
 
 country_event = {
-	id = 3081840
-	title = "EVTNAME3081840" #The Lingnan Proposal failed
-	desc = "EVTDESC3081840"
+	id = 119907
+	title = "EVTNAME119907" #The Lingnan Proposal successful
+	desc = "EVTDESC119907"
 	picture = "liangguang"
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPT3081840A" 
-		prestige = -5
-		ai_chance = { factor = 100 }
-	}
-
-}
-
-country_event = {
-	id = 3091840
-	title = "EVTNAME3091840" #The Lingnan Proposal successful
-	desc = "EVTDESC3091840"
-	picture = "liangguang"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPT3091840A" 
+		name = "EVTOPT119907A" 
 		ZHO = { release_vassal = ANN }
 		ANN = { annex_to = YUE }
-		prestige = 15
 		ai_chance = { factor = 100 }
 	}
+}
+
+country_event = {
+	id = 119908
+	title = "EVTNAME119908" #The Lingnan Proposal failed
+	desc = "EVTDESC119908"
+	picture = "liangguang"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT119908A" 
+		ai_chance = { factor = 100 }
+	}
+
 }
 
 #####MING/TAIWAN RELATED EVENTS#####
 
 country_event = {
-	id = 3201840
-	title = "EVTNAME3201840" #The Lotus Revolution
-	desc = "EVTDESC3201840"
+	id = 119909
+	title = "EVTNAME119909" #The Lotus Revolution
+	desc = "EVTDESC119909"
 	picture = "graveyard_of_empires"
 	major = yes
 	
 	trigger = {
 		tag = TAI
-		has_global_flag = trouble_in_china
+		has_global_flag = decline_of_the_zhou
 	}
 	
 	mean_time_to_happen = { days = 15 }
 	fire_only_once = yes
 	
 	option = {
-		name = "EVTOPT3201840A" 
+		name = "EVTOPT119909A" 
 		prestige = 5
 		government = absolute_monarchy
 		set_country_flag = taiwanese_independence
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
 	}
 	
 	option = {
-		name = "EVTOPT3201840B" 
+		name = "EVTOPT119909B" 
 		prestige = 15
 		any_pop = {
 			limit = { has_pop_culture = hakka }
-			militancy = 2
-			consciousness = 2
+			militancy = 1
+			consciousness = 1
 		}
 		any_pop = {
 			limit = { has_pop_culture = min }
-			militancy = 2
-			consciousness = 2
+			militancy = 1
+			consciousness = 1
 		}
 		set_country_flag = tungning_prevails
 		ai_chance = { factor = 100 }
 	}
 }
 
-#####DZUNGAR/KHALKA RELATED EVENTS#####
+#####DZUNGAR/MONGOLIA RELATED EVENTS#####
 
 country_event = {
-	id = 3101840
-	title = "EVTNAME3101840" #Mongols occupy North Dzungar
-	desc = "EVTDESC3101840"
+	id = 119901
+	title = "EVTNAME119901" #Fading Chinese Influence in Dzungaria
+	desc = "EVTDESC119901"
 	picture = "graveyard_of_empires"
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPT3101840A" 
-		prestige = -15
-		set_country_flag = dzungar_instability
+		name = "EVTOPT119901A" #Become independent
+		add_country_modifier = {
+			name = unstable_government
+			duration = -1
+		}
+		ZHO = { release_vassal = KML }
 		ai_chance = { factor = 100 }
 	}
-}
-
-country_event = {
-	id = 3191840
-	title = "EVTNAME3191840" #Mongolian Path
-	desc = "EVTDESC3191840"
-	picture = "graveyard_of_empires"
-	
-	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPT3191840A" 
-		prestige = 15
-		relation = { who = ZHO value = -150 }
-		set_country_flag = mgl_wants_to_secede
+		name = "EVTOPT119901B" #Remain loyal
+		set_country_flag = loyal_oirats
+		relation = { who = ZHO value = 200 }
 		ai_chance = { factor = 0 }
 	}
+}
+
+country_event = {
+	id = 119902
+	title = "EVTNAME119902" #Dzungar's Collapse
+	desc = "EVTDESC119902"
+	picture = "graveyard_of_empires"
+	
+	trigger = {
+		tag = KML
+		government = primitive_absolute_monarchy
+		has_country_modifier = unstable_government
+		NOT = { vassal_of = ZHO }
+		NOT = { neighbour = ZHO }
+	}
+	
+	fire_only_once = yes
+	
+	immediate = {
+		remove_country_modifier = unstable_government
+		government = absolute_monarchy
+		any_owned = {
+			limit = { is_core = KOK }
+			secede_province = KOK 
+		}
+		any_owned = {
+			limit = { is_core = KAZ }
+			secede_province = KAZ 
+		}
+		any_owned = {
+			limit = { is_core = KYR }
+			secede_province = KYR 
+		}
+		any_owned = {
+			limit = { is_core = ALT }
+			secede_province = ALT
+		}
+		1469 = { secede_province = TNT }
+		2608 = { add_core = TNT secede_province = TNT }
+		2679 = { add_core = TNT secede_province = TNT }
+	}
 	
 	option = {
-		name = "EVTOPT3191840B" 
-		prestige = 5
-		relation = { who = ZHO value = 200 }
-		set_country_flag = kha_wants_to_secede
-		ai_chance = { factor = 100 }
+		name = "EVTOPT119902A" #Become China's Bitch again
+		ZHO = { create_vassal = KML }
+		government = subject
+		relation = { who = ZHO value = 400 }
+		KML = { all_core = { add_core = XIN remove_core = KML } }
+		change_tag = XIN
+		ai_chance = { factor = 10 }
+	}
+	
+	option = {
+		name = "EVTOPT119902B" #Civil War as Dzungaria
+		920 = { secede_province = UYG }
+		1594 = { secede_province = UYG }
+		1598 = { secede_province = UYG }
+		2607 = { secede_province = UYG }
+		1597 = { secede_province = UYG }
+		1600 = { secede_province = UYG }
+		war = {
+			target = UYG
+			attacker_goal = { 
+				casus_belli = conquest
+			}
+			defender_goal = {
+				casus_belli = conquest
+			}
+			call_ally = no
+		}
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+		name = "EVTOPT119902B" #Civil War as Karlukstan
+		920 = { secede_province = UYG }
+		1594 = { secede_province = UYG }
+		1598 = { secede_province = UYG }
+		2607 = { secede_province = UYG }
+		1597 = { secede_province = UYG }
+		1600 = { secede_province = UYG }
+		war = {
+			target = UYG
+			attacker_goal = { 
+				casus_belli = conquest
+			}
+			defender_goal = {
+				casus_belli = conquest
+			}
+			call_ally = no
+		}
+		change_tag_no_core_switch = UYG
+		ai_chance = { factor = 0 }
 	}
 }
 
 country_event = {
-	id = 3171840
-	title = "EVTNAME3171840" #Khalka Separatism
-	desc = "EVTDESC3171840"
+	id = 119903
+	title = "EVTNAME119903" #Khalka Separatism
+	desc = "EVTDESC119903"
 	picture = "graveyard_of_empires"
-	major = yes
 	
 	trigger = {
 		tag = MGL
@@ -331,7 +355,7 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "EVTOPT3171840A" 
+		name = "EVTOPT119903A" 
 		2670 = { add_core = KHA }
 		1078 = { add_core = KHA }
 		1079 = { add_core = KHA }
@@ -346,29 +370,28 @@ country_event = {
 		1466 = { add_core = KHA }
 		1466 = { add_core = KHA }
 		2207 = { add_core = KHA }
-		set_country_flag = kha_cores_added
+		clr_country_flag = kha_wants_to_secede
 		ai_chance = { factor = 100 }
 	}
 }
 
 country_event = {
-	id = 3181840
-	title = "EVTNAME3181840" #Khalka Revolt
-	desc = "EVTDESC3181840"
+	id = 119904
+	title = "EVTNAME119904" #Khalka Revolt
+	desc = "EVTDESC119904"
 	picture = "graveyard_of_empires"
-	major = yes
 	
 	trigger = {
 		tag = MGL
-		has_country_flag = kha_cores_added
-		has_global_flag = collapse_of_china_begins
+		any_province = { is_core = KHA }
+		QNG = { exists = yes }
 	}
 	
 	mean_time_to_happen = { days = 5 }
 	fire_only_once = yes
 	
 	option = {
-		name = "EVTOPT3181840A" 
+		name = "EVTOPT119904A"
 		ZHO = { release_vassal = MGL }
 		MGL = { release = KHA } 
 		war = {
@@ -381,8 +404,16 @@ country_event = {
 			}
 			call_ally = no
 		}
+		government = absolute_monarchy
 		prestige = 5
 		badboy = 2.5
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "EVTOPT3181840B"
+		MGL = { release = KHA } 	
+		KHA = { all_core = { remove_core = MGL } }		
 		ai_chance = { factor = 100 }
 	}
 	
@@ -390,7 +421,7 @@ country_event = {
 		name = "EVTOPT3181840B"
 		MGL = { release = KHA } 	
 		KHA = { all_core = { remove_core = MGL } }		
-		prestige = -15
+		change_tag_no_core_switch = KHA
 		ai_chance = { factor = 0 }
 	}
 }
@@ -398,15 +429,31 @@ country_event = {
 #####MANCHU/KOREA RELATED EVENTS#####
 
 country_event = {
-	id = 3111840
-	title = "EVTNAME3111840" #Reunion of the Manzhou
-	desc = "EVTDESC3111840"
+	id = 119910
+	title = "EVTNAME119910" #The Jilin Military Commission
+	desc = "EVTDESC119910"
 	picture = "graveyard_of_empires"
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPT3111840A" 
+		name = "EVTOPT119910A" 
+		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 119911
+	title = "EVTNAME119911" #Reunion of the Manzhou
+	desc = "EVTDESC119911"
+	picture = "graveyard_of_empires"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT119911A" 
 		ZHO = { release_vassal = THIS }
 		THIS = { all_core = { remove_core = THIS } }
 		MCK = { inherit = THIS }
@@ -414,42 +461,41 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPT3111840B" 
+		name = "EVTOPT119911B" 
 		ZHO = { release_vassal = THIS }
 		prestige = 15
-		MCK = { country_event = 3121840 }
+		MCK = { country_event = 119912 }
 		ai_chance = { factor = 0 }
 	}
 }
 
 country_event = {
-	id = 3121840
-	title = "EVTNAME3121840" #Tribe refused reunion
-	desc = "EVTDESC3121840"
+	id = 119912
+	title = "EVTNAME119912" #Tribe refused reunion
+	desc = "EVTDESC119912"
 	picture = "graveyard_of_empires"
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPT3121840A" 
-		prestige = -5
-		ai_chance = { factor = 60 }
-	}
-	
-}
-
-country_event = {
-	id = 3131840
-	title = "EVTNAME3131840" #Manchu undermine Zhou authority
-	desc = "EVTDESC3131840"
-	picture = "graveyard_of_empires"
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPT3131840A" 
+		name = "EVTOPT119912A" #Accept it
 		prestige = -5
 		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT119912B" #Take them by force
+		war = {
+			target = FROM
+			attacker_goal = { 
+				casus_belli = conquest
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = no
+		}
+		ai_chance = { factor = 0 }
 	}
 	
 }
@@ -464,8 +510,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPT3141840A" 
-		prestige = -5
-		set_country_flag = zho_let_kor_go
+		prestige = -2.5
 		ai_chance = { factor = 90 }
 	}
 	
@@ -482,7 +527,6 @@ country_event = {
 			call_ally = no
 		}
 		badboy = 5
-		set_global_flag = collapse_of_china_begins
 		ai_chance = { factor = 10 }
 	}
 	

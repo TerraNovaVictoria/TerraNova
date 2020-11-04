@@ -1,5 +1,5 @@
 color = { 65  127  186 }
-primitive_absolute_monarchy = { 231 90 53 }
+subject = { 163 99 99 }
 graphical_culture = AsianGC
 
 party = {

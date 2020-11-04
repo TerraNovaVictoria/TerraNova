@@ -1,5 +1,6 @@
-owner = KHM
-controller = KHM
+owner = SIA
+controller = SIA
+add_core = SIA
 add_core = KHM
 add_core = CHK
 add_core = LUA

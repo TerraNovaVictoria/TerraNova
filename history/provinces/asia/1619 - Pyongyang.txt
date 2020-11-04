@@ -1,6 +1,5 @@
 owner = KOR
 controller = KOR
-add_core = MCK
 add_core = KOR
 add_core = CHI
 trade_goods = coal

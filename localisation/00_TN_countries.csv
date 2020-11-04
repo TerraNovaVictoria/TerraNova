@@ -1,4 +1,37 @@
 ;;;;;;;;;;;;;;x,,,
+NVK;Nivkhia;;;;;;;;;;;;x
+NVK_ADJ;Nivkh;;;;;;;;;;;;x
+TIB_subject;Xizang;;;;;;;;;;;;x
+TIB_subject_ADJ;Xizang;;;;;;;;;;;;x
+KHO_primitive_absolute_monarchy;The Khoshut Khanate;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+KHO_primitive_absolute_monarchy_ADJ;Khoshut;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+KHO;Tsangpa;;;;;;;;;;;;x
+KHO_ADJ;Tsangpadic;;;;;;;;;;;;x
+MCK_primitive_absolute_monarchy;The Jilin Military Commission;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+FJN;Min;;;;;;;;;;;;x
+FJN_ADJ;Min;;;;;;;;;;;;x
+FJN_subject;Fujian;;;;;;;;;;;;x
+FJN_subject_ADJ;Fujian;;;;;;;;;;;;x
+FJN_democracy;The Min Republic;;;;;;;;;;;;x
+FJN_presidential_dictatorship;Fujian Clique;;;;;;;;;;;;x
+FJN_proletarian_dictatorship;The People's Republic of Fujian;;;;;;;;;;;;x
+FJN_fascist_dictatorship;Minyue;;;;;;;;;;;;x
+FJN_fascist_dictatorship_ADJ;Minyue;;;;;;;;;;;;x
+UYG;Karlukstan;;;;;;;;;;;;;x
+UYG_ADJ;Karluk;;;;;;;;;;;;;x
+UYG_absolute_monarchy;Kashgaria;;;;;;;;;;;;;x
+UYG_prussian_constitutionalism;Kashgaria;;;;;;;;;;;;;x
+UYG_hms_government;Kashgaria;;;;;;;;;;;;;x
+UYG_absolute_monarchy_ADJ;Kashgarian;;;;;;;;;;;;;x
+UYG_prussian_constitutionalism_ADJ;Kashgarian;;;;;;;;;;;;;x
+UYG_hms_government_ADJ;Kashgarian;;;;;;;;;;;;;x
+UYG_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+UYG_liberal;The Liberal Faction;Faction libérale;Die liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+UYG_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+UYG_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+UYG_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+UYG_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+UYG_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TAJ_ancient_regime;The Chorasmid Empire;;;;;;;;;;;;;x
 TAJ_ancient_regime_ADJ;Chorasmid;;;;;;;;;;;;;x
 SMD;Samoyedia;;;;;;;;;;;;;x
@@ -258,30 +291,36 @@ BLT;Baltia;;;;;;;;;;;;;x
 BLT_ADJ;Baltic;;;;;;;;;;;;;x
 NST;Nakhon Si Thammarat;;;;;;;;;;;;;x
 NST_ADJ;Southern Thai;;;;;;;;;;;;;x
-CUR;Curonia;;;;;;;;;;;;;x
-CUR_subject;Kurland;;;;;;;;;;;;;x
-CUR_ADJ;Curonia;;;;;;;;;;;;;x
 SAT;Kyushu;;;;;;;;;;;;;x
 SAT_ADJ;Kyushuan;;;;;;;;;;;;;x
+SAT_subject;The Naiman Khanate;;;;;;;;;;;;;x
+SAT_subject_ADJ;Naiman;;;;;;;;;;;;;x
 SAT_absolute_monarchy;Shimazu;;;;;;;;;;;;;x
 SAT_prussian_constitutionalism;Satsuma;;;;;;;;;;;;;x
 SAT_hms_government_ADJ;Satsuma;;;;;;;;;;;;;x
 CHO;Chugoku;;;;;;;;;;;;;x
 CHO_ADJ;Chugokuan;;;;;;;;;;;;;x
+CHO_subject;The Birghid Khanate;;;;;;;;;;;;;x
+CHO_subject_ADJ;Birghid;;;;;;;;;;;;;x
 CHO_absolute_monarchy_ADJ;Mori;;;;;;;;;;;;;x
 CHO_prussian_constitutionalism_ADJ;Choshu;;;;;;;;;;;;;x
 CHO_hms_government_ADJ;Choshu;;;;;;;;;;;;;x
 TOS;Tosa;;;;;;;;;;;;;x
 TOS_ADJ;Tosan;;;;;;;;;;;;;x
+TOS_subject;The Dagur Khanate;;;;;;;;;;;;;x
+TOS_subject_ADJ;Dagur;;;;;;;;;;;;;x
 TOS_absolute_monarchy;Chosokabe;;;;;;;;;;;;;x
 TOS_prussian_constitutionalism;Chosokabe;;;;;;;;;;;;;x
 TOS_hms_government;Chosokabe;;;;;;;;;;;;;x
 UES;Uesugi;;;;;;;;;;;x
 UES_ADJ;Uesugi;;;;;;;;;;;x
-TKG;Tokugawa;;;;;;;;;;;x
-TKG_ADJ;Tokugawa;;;;;;;;;;;x
+KYO;The Kyoto Khanate;;;;;;;;;;;x
+KYO_ADJ;Kyoton;;;;;;;;;;;x
 HOJ;Hojo;;;;;;;;;;;;x
 HOJ_ADJ;Hojon;;;;;;;;;;;;x
+CUR;Curonia;;;;;;;;;;;;;x
+CUR_subject;Kurland;;;;;;;;;;;;;x
+CUR_ADJ;Curonia;;;;;;;;;;;;;x
 RIG;Riga;;;;;;;;;;;;x
 RIG_ADJ;Rigan;;;;;;;;;;;;x
 BSK;Bashkiria;;;;;;;;;;;;x
@@ -436,8 +475,6 @@ PAL_hms_government;Al-Tadmur Emirate;;;;;;;;;;;;x
 NHL;New Holland;;;;;;;;;;;;x
 NHL_colonial_company;The New Holland Colony;;;;;;;;;;;;x
 NHL_ADJ;New Hollander;;;;;;;;;;;;x
-TIB_primitive_absolute_monarchy;The Khoshut Khanate;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
-TIB_primitive_absolute_monarchy_ADJ;Khoshut;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
 KHA;Khalka;;;;;;;;;;;;x
 KHA_ADJ;Khalka;;;;;;;;;;;;x
 CAM;Khmeria;;;;;;;;;;;;x
@@ -457,8 +494,8 @@ SIA_prussian_constitutionalism;The Kingdom of Siam;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
 SIA_hms_government;The Kingdom of Siam;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
 AVK;Ava;;;;;;;;;;;;;;;;;;x;;;;
 AVK_ADJ;Ava;;;;;;;;;;;;;;;;;;x;;;;
-AVK_ancient_regime;Nan Ming;;;;;;;;;;;;;;;;;;x;;;;
-AVK_ancient_regime_ADJ;Nan Ming;;;;;;;;;;;;;;;;;;x;;;;
+AVK_ancient_regime;Mianma;;;;;;;;;;;;;;;;;;x;;;;
+AVK_ancient_regime_ADJ;Mianman;;;;;;;;;;;;;;;;;;x;;;;
 PRM;Monia;;;;;;;;;;;;;;;;;;x;;;;
 PRM_ADJ;Monic;;;;;;;;;;;;;;;;;;x;;;;
 PRM_absolute_monarchy;Pegu;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
@@ -722,15 +759,16 @@ MIN_hms_government;The Ming Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 MIN_fascist_dictatorship;The State of Ming;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 MIN_proletarian_dictatorship;The Ming Soviet Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 MIN_democracy;The Ming China Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-XBI;Hui;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-XBI_ADJ;Hui;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+XBI;Xibeiguo;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+XBI_ADJ;Xibei;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 XBI_subject;Qinghai;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-XBI_absolute_monarchy;The Hui Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-XBI_prussian_constitutionalism;The Hui Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-XBI_hms_government;The Hui Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+XBI_absolute_monarchy;The Hui Kingdom;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+XBI_prussian_constitutionalism;The Hui Kingdom;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+XBI_hms_government;The Hui Kingdom;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 XBI_fascist_dictatorship;The State of Hui;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 XBI_proletarian_dictatorship;The Hui Soviet Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-XBI_democracy;The Hui China Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+XBI_presidential_dictatorship;Xibei San Ma;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+XBI_democracy;The Hui Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 ZHO;Zhou;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 ZHO_ADJ;Zhou;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 ZHO_absolute_monarchy;The Zhou Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;

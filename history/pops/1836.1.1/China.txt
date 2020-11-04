@@ -8721,19 +8721,19 @@
 	labourers = {
 		culture = evenki
 		religion = animist
-		size = 70000
+		size = 42000
 	}
 	
 	labourers = {
 		culture = manchu
 		religion = mahayana
-		size = 20000
+		size = 11000
 	}
 	
 	labourers = {
 		culture = dagur
 		religion = gelugpa
-		size = 23950
+		size = 16950
 	}
 	
 	bureaucrats = {
@@ -8769,7 +8769,7 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 57000
+		size = 17000
 	}
 
 }

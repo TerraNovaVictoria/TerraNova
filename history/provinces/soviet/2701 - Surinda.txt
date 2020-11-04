@@ -1,6 +1,6 @@
-owner = BLG
-controller = BLG
-add_core = BLG
+owner = KET
+controller = KET
+add_core = KET
 add_core = SIB
 trade_goods = grain
 life_rating = 35

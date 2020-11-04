@@ -528,7 +528,7 @@
 	farmers = {
 		culture = persian
 		religion = sunni
-		size = 860800
+		size = 86080
 	}
 
 	aristocrats = {

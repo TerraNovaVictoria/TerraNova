@@ -1,5 +1,5 @@
-color = { 164 188 192 }
-#color = { 86 98 147 }
+color = { 0 40 100 }
+subject = { 163 99 99 }
 graphical_culture = ChineseGC
 
 party = {

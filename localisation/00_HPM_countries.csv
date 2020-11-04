@@ -1039,18 +1039,6 @@ FIU_socialist;Partito Socialista di Fiume;Partito Socialista di Fiume;Partito So
 FIU_communist;Partito Comunista di Fiume;Partito Comunista di Fiume;Partito Comunista di Fiume;;;;;;;;;;;x
 FIU_anarcho_liberal;Radicali;Radical;Radikal;;;;;;;;;;;x
 FIU_fascist;Fascisti;Fasciste;Faschistisch;;;;;;;;;;;x
-FJN;Fujian;;;;;;;;;;;;x
-FJN_ADJ;Fujian;;;;;;;;;;;;x
-FJN_presidential_dictatorship;Fujian Clique;;;;;;;;;;;;x
-FJN_fascist_dictatorship;Min Republic;;;;;;;;;;;;x
-FJN_fascist_dictatorship_ADJ;Min;;;;;;;;;;;;x
-FJN_reactionary;Beiyang Faction;Faction Rongting;Rongting-Fraktion;;;;;;;;;;;x
-FJN_socialist;Socialist Party;Parti socialiste;Sozialistische Partei;;;;;;;;;;;x
-FJN_communist;Chinese Communist Party;Parti communiste chinois;Kommunistische Partei China;;;;;;;;;;;x
-FJN_liberal;Liberal Party;Parti libéral;Liberale Partei;;;;;;;;;;;x
-FJN_conservative;Kuomintang Faction;Faction Kuomintang;Guomintang-Fraktion;;;;;;;;;;;x
-FJN_fascist;Min Party;Parti fasciste;Faschistische Partei;;;;;;;;;;;x
-FJN_anarcho_liberal;Freedom Party;Parti de la liberté;Freiheitspartei;;;;;;;;;;;x
 FRA_liberal;Républicain;Républicain;Républicain;;Républicain;;;;;;;;;x
 FRA_liberal_2;Union libérale;;;;;;;;;;;;x
 FRA_liberal_3;Républicain libérale;;;;;;;;;;;;x
@@ -2433,30 +2421,6 @@ USA_absolute_monarchy;The American Empire;;;;;;;;;;;;x
 USA_prussian_constitutionalism;The American Empire;;;;;;;;;;;;x
 USA_hms_government;The Kingdom of America;;;;;;;;;;;;x
 USA_proletarian_dictatorship;The People's Republic of America;;;;;;;;;;;;x
-UYG;Uyghurstan;;;;;;;;;;;;;x
-UYG_ADJ;Uyghur;;;;;;;;;;;;;x
-UYG_absolute_monarchy;Kashgaria;;;;;;;;;;;;;x
-UYG_prussian_constitutionalism;Kashgaria;;;;;;;;;;;;;x
-UYG_hms_government;Kashgaria;;;;;;;;;;;;;x
-UYG_absolute_monarchy_ADJ;Kashgarian;;;;;;;;;;;;;x
-UYG_prussian_constitutionalism_ADJ;Kashgarian;;;;;;;;;;;;;x
-UYG_hms_government_ADJ;Kashgarian;;;;;;;;;;;;;x
-UYG_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UYG_liberal;The Liberal Faction;Faction libérale;Die liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UYG_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UYG_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UYG_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UYG_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UYG_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UZB;Uzbekistan;;;;;;;;;;;;;x
-UZB_ADJ;Uzbek;;;;;;;;;;;;;x
-UZB_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UZB_liberal;The Liberal Faction;Faction libérale;Die liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UZB_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UZB_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UZB_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UZB_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UZB_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 VEN_reactionary;Monarchici;Monarchici;Monarchici;;Monarchici;;;;;;;;;x
 VEN_liberal;Intransigenti;Intransigenti;Intransige nti;;Intransigenti;;;;;;;;;x
 VEN_conservative;Transigenti;Transigenti;Transigen ti;;Transigenti;;;;;;;;;x

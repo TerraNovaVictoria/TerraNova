@@ -2,5 +2,6 @@ owner = ANN
 controller = ANN
 add_core = SSC
 add_core = ANN
+add_core = CHI
 trade_goods = grain
 life_rating = 33
