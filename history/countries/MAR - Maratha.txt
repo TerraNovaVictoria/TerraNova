@@ -1,7 +1,7 @@
 capital = 1297
 primary_culture = marathi
 religion = hindu
-government = absolute_monarchy
+government = subject
 plurality = 0.10
 nationalvalue = nv_tradition
 literacy = 0.17
@@ -38,11 +38,6 @@ colonial_policy = no_colonies
 
 set_country_flag = hindu_country
 
-govt_flag = {
-	government = absolute_monarchy
-	flag = theocracy
-}
-
 ruling_party = IND_conservative
 upper_house = {
 	fascist = 0
@@ -68,19 +63,4 @@ modern_winemaking = yes
 consciousness = 0
 nonstate_consciousness = 0
 
-oob = "IND_oob.txt"
-1861.1.1 = {
-	oob = "/1861/IND_oob.txt"
-	literacy = 0.10
-	non_state_culture_literacy = 0.05
-
-	#Military Reforms
-	foreign_training = yes_foreign_training
-	foreign_weapons = yes_foreign_weapons
-	foreign_officers = yes_foreign_officers
-
-	#Technologies
-	flintlock_rifles = 1
-	military_staff_system = 1
-
-}
+oob = "MAR_oob.txt"

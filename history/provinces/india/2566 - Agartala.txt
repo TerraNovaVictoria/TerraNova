@@ -1,5 +1,6 @@
-owner = CYM
-controller = CYM
+owner = ASM
+controller = ASM
+add_core = ASM
 add_core = BNG
 add_core = HND
 trade_goods = grain

@@ -1,4 +1,53 @@
 ;;;;;;;;;;;;;;x,,,
+DLH_absolute_monarchy;The Delhi Sultanate;;;;;;;;;;;;;x
+DLH_absolute_monarchy_ADJ;Delhian;;;;;;;;;;;;;x
+DLH_prussian_constitutionalism;The Delhi Sultanate;;;;;;;;;;;;;x
+DLH_prussian_constitutionalism_ADJ;Delhian;;;;;;;;;;;;;x
+DLH_hms_government;The Delhi Sultanate;;;;;;;;;;;;;x
+DLH_hms_government_ADJ;Delhian;;;;;;;;;;;;;x
+DLH;Hindustan;;;;;;;;;;;;;x
+DLH_ADJ;Hindustani;;;;;;;;;;;;;x
+GAY_absolute_monarchy;The Gayan Sultanate;;;;;;;;;;;;;x
+GAY_absolute_monarchy_ADJ;Gayani;;;;;;;;;;;;;x
+GAY_prussian_constitutionalism;The Gayan Sultanate;;;;;;;;;;;;;x
+GAY_prussian_constitutionalism_ADJ;Gayani;;;;;;;;;;;;;x
+GAY_hms_government;The Gayan Sultanate;;;;;;;;;;;;;x
+GAY_hms_government_ADJ;Gayani;;;;;;;;;;;;;x
+GAY;Bihar;;;;;;;;;;;;;x
+GAY_ADJ;Bihari;;;;;;;;;;;;;x
+GUJ;Gujarat;;;;;;;;;;;;;x
+GUJ_ADJ;Gujarati;;;;;;;;;;;;;x
+LHR;Lahore;;;;;;;;;;;;;x
+LHR_ADJ;Lahori;;;;;;;;;;;;;x
+RAI;Raipur;;;;;;;;;;;;;x
+RAI_ADJ;Raipuri;;;;;;;;;;;;;x
+GLK_absolute_monarchy;Golkonda;;;;;;;;;;;;;x
+GLK_absolute_monarchy_ADJ;Golkondi;;;;;;;;;;;;;x
+GLK_prussian_constitutionalism;Golkonda;;;;;;;;;;;;;x
+GLK_prussian_constitutionalism_ADJ;Golkondi;;;;;;;;;;;;;x
+GLK_hms_government;Golkonda;;;;;;;;;;;;;x
+GLK_hms_government_ADJ;Golkondi;;;;;;;;;;;;;x
+GLK;Telugia;;;;;;;;;;;;;x
+GLK_ADJ;Telugu;;;;;;;;;;;;;x
+GAY_ADJ;Bihari;;;;;;;;;;;;;x
+SHI_absolute_monarchy;Amritsar;;;;;;;;;;;;;x
+SHI_absolute_monarchy_ADJ;Amritsari;;;;;;;;;;;;;x
+KLC;Kalachar;;;;;;;;;;;;;x
+KLC_ADJ;Kalachari;;;;;;;;;;;;;x
+BHO_absolute_monarchy;Khandesh;;;;;;;;;;;;;x
+BHO_absolute_monarchy_ADJ;Khandeshi;;;;;;;;;;;;;x
+REW_absolute_monarchy;Bandoga;;;;;;;;;;;;;x
+REW_absolute_monarchy_ADJ;Bandhogarhi;;;;;;;;;;;;;x
+SRI_absolute_monarchy;The Tanjorite Empire;;;;;;;;;;;;;x
+SRI_absolute_monarchy_ADJ;Tanjori;;;;;;;;;;;;;x
+SRI_prussian_constitutionalism;The Tanjorite Empire;;;;;;;;;;;;;x
+SRI_prussian_constitutionalism_ADJ;Tanjori;;;;;;;;;;;;;x
+SRI_hms_government;The Tanjorite Empire;;;;;;;;;;;;;x
+SRI_hms_government_ADJ;Tanjori;;;;;;;;;;;;;x
+SRI;Sri Lanka;;;;;;;;;;;;;x
+SRI_ADJ;Sri Lankan;;;;;;;;;;;;;x
+BIJ;Bijapur;;;;;;;;;;;;x
+BIJ_ADJ;Bijapuri;;;;;;;;;;;;x
 NVK;Nivkhia;;;;;;;;;;;;x
 NVK_ADJ;Nivkh;;;;;;;;;;;;x
 TIB_subject;Xizang;;;;;;;;;;;;x
@@ -25,13 +74,13 @@ UYG_hms_government;Kashgaria;;;;;;;;;;;;;x
 UYG_absolute_monarchy_ADJ;Kashgarian;;;;;;;;;;;;;x
 UYG_prussian_constitutionalism_ADJ;Kashgarian;;;;;;;;;;;;;x
 UYG_hms_government_ADJ;Kashgarian;;;;;;;;;;;;;x
-UYG_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UYG_liberal;The Liberal Faction;Faction libérale;Die liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UYG_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UYG_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UYG_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UYG_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
-UYG_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HUI;Hui;;;;;;;;;;;;x
+HUI_ADJ;Hui;;;;;;;;;;;;x
+HUI_presidential_dictatorship;The Ma Clique;;;;;;;;;;;;x
+HUI_absolute_monarchy;The Hui Empire;;;;;;;;;;;;;x
+HUI_prussian_constitutionalism;The Hui Empire;;;;;;;;;;;;;x
+HUI_hms_government;The Hui Empire;;;;;;;;;;;;;x
+HUI_democracy;The Ma Republic;;;;;;;;;;;;;x
 TAJ_ancient_regime;The Chorasmid Empire;;;;;;;;;;;;;x
 TAJ_ancient_regime_ADJ;Chorasmid;;;;;;;;;;;;;x
 SMD;Samoyedia;;;;;;;;;;;;;x
@@ -291,24 +340,29 @@ BLT;Baltia;;;;;;;;;;;;;x
 BLT_ADJ;Baltic;;;;;;;;;;;;;x
 NST;Nakhon Si Thammarat;;;;;;;;;;;;;x
 NST_ADJ;Southern Thai;;;;;;;;;;;;;x
-SAT;Kyushu;;;;;;;;;;;;;x
-SAT_ADJ;Kyushuan;;;;;;;;;;;;;x
-SAT_subject;The Naiman Khanate;;;;;;;;;;;;;x
-SAT_subject_ADJ;Naiman;;;;;;;;;;;;;x
-SAT_absolute_monarchy;Shimazu;;;;;;;;;;;;;x
-SAT_prussian_constitutionalism;Satsuma;;;;;;;;;;;;;x
-SAT_hms_government_ADJ;Satsuma;;;;;;;;;;;;;x
+WUU;Jiuzhou;;;;;;;;;;;;;x
+WUU_ADJ;Jiuzhou;;;;;;;;;;;;;x
+WUU_primitive_absolute_monarchy;Tungwu;;;;;;;;;;;;;x
+WUU_absolute_monarchy;The Wu Kingdom;;;;;;;;;;;;;x
+WUU_prussian_constitutionalism;The Wu Kingdom;;;;;;;;;;;;;x
+WUU_hms_government_ADJ;The Wu Kingdom;;;;;;;;;;;;;x
+WUU_proletarian_dictatorship;The Jiuzhou Soviets;;;;;;;;;;;;;x
+WUU_fascist_dictatorship;The Red Dragon Empire;;;;;;;;;;;;;x
+WUU_provisional_state;The Wu Republic;;;;;;;;;;;;;x
+WUU_democracy;The Tunghai Republic;;;;;;;;;;;;;x
 CHO;Chugoku;;;;;;;;;;;;;x
 CHO_ADJ;Chugokuan;;;;;;;;;;;;;x
-CHO_subject;The Birghid Khanate;;;;;;;;;;;;;x
-CHO_subject_ADJ;Birghid;;;;;;;;;;;;;x
+CHO_subject;Xiguo;;;;;;;;;;;;;x
+CHO_subject_ADJ;Xiguo;;;;;;;;;;;;;x
+CHO_primitive_absolute_monarchy;The Birghid Khanate;;;;;;;;;;;;;x
+CHO_primitive_absolute_monarchy_ADJ;Birghid;;;;;;;;;;;;;x
 CHO_absolute_monarchy_ADJ;Mori;;;;;;;;;;;;;x
 CHO_prussian_constitutionalism_ADJ;Choshu;;;;;;;;;;;;;x
 CHO_hms_government_ADJ;Choshu;;;;;;;;;;;;;x
 TOS;Tosa;;;;;;;;;;;;;x
 TOS_ADJ;Tosan;;;;;;;;;;;;;x
-TOS_subject;The Dagur Khanate;;;;;;;;;;;;;x
-TOS_subject_ADJ;Dagur;;;;;;;;;;;;;x
+TOS_subject;Siguo;;;;;;;;;;;;;x
+TOS_subject_ADJ;Siguo;;;;;;;;;;;;;x
 TOS_absolute_monarchy;Chosokabe;;;;;;;;;;;;;x
 TOS_prussian_constitutionalism;Chosokabe;;;;;;;;;;;;;x
 TOS_hms_government;Chosokabe;;;;;;;;;;;;;x
@@ -318,6 +372,7 @@ KYO;The Kyoto Khanate;;;;;;;;;;;x
 KYO_ADJ;Kyoton;;;;;;;;;;;x
 HOJ;Hojo;;;;;;;;;;;;x
 HOJ_ADJ;Hojon;;;;;;;;;;;;x
+HOJ_primitive_absolute_monarchy;The Hojo Shogunate;;;;;;;;;;;;x
 CUR;Curonia;;;;;;;;;;;;;x
 CUR_subject;Kurland;;;;;;;;;;;;;x
 CUR_ADJ;Curonia;;;;;;;;;;;;;x
@@ -1174,14 +1229,17 @@ HZJ_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;
 HZJ_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 HZJ_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 HZJ_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+MAR_subject;Bombay;;;;;;;;;;;;x;;;
+MAR_subject_ADJ;Bombayi;;;;;;;;;;;;x;;;
 MAR;Maratha;;;;;;;;;;;;x;;;
-MAR_ADJ;Marathan;;;;;;;;;;;;x;;;
+MAR_ADJ;Marathi;;;;;;;;;;;;x;;;
 MAR_proletarian_dictatorship;The Maratha Council Republic;;;;;;;;;;;;x
-MAR_fascist_dictatorship;The Indian Empire;;;;;;;;;;;;x
+MAR_fascist_dictatorship;The Marathi Empire;;;;;;;;;;;;x
 MAR_presidential_dictatorship;The State of Maratha;;;;;;;;;;;;x
 MAR_absolute_monarchy;The Maratha Empire;;;;;;;;;;;;x
-MAR_prussian_constitutionalism;Maratha;;;;;;;;;;;;x
+MAR_prussian_constitutionalism;The Maratha Empire;;;;;;;;;;;;x
+MAR_hms_government;The Maratha Empire;;;;;;;;;;;;x
 MAR_democracy;The Maratha Republic;;;;;;;;;;;;x
-MUG_colonial_company;The Delhi Governate;;;;;;;;;;;;x,
-MUG_dominon;The Delhi Governate;;;;;;;;;;;;x,
-MUG_subject;The Delhi Governate;;;;;;;;;;;;x,
+DLH_colonial_company;The Delhi Governate;;;;;;;;;;;;x,
+DLH_dominon;The Delhi Governate;;;;;;;;;;;;x,
+DLH_subject;The Delhi Governate;;;;;;;;;;;;x,

@@ -1,7 +1,9 @@
-owner = MAR
-controller = MAR
-add_core = MAR
+owner = RAI
+controller = RAI
+add_core = RAI
 add_core = ORI
+add_core = BIJ
+add_core = GLK
 add_core = HND
 trade_goods = grain
 life_rating = 32

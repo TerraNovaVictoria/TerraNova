@@ -1,7 +1,7 @@
 country_event = {
-	id = 120220
-	title = "EVTNAME120220" #Kosovo joins Albania?
-	desc = "EVTDESC120220"
+	id = 120200
+	title = "EVTNAME120200" #Kosovo joins Albania?
+	desc = "EVTDESC120200"
 	picture = "kurdish_soldiers"
 
 	is_triggered_only = yes
@@ -27,9 +27,9 @@ country_event = {
 }
 
 country_event = {
-	id = 120221
-	title = "EVTNAME120221" #Formation of the Albanian Kingdom
-	desc = "EVTDESC120221"
+	id = 120201
+	title = "EVTNAME120201" #Formation of the Albanian Kingdom
+	desc = "EVTDESC120201"
 	picture = "kurdish_soldiers"
 
 	is_triggered_only = yes
@@ -56,37 +56,37 @@ country_event = {
 }
 
 country_event = {
-	id = 120222
-	title = "EVTNAME120222" #Kosovo refused!
-	desc = "EVTDESC120222"
+	id = 120202
+	title = "EVTNAME120202" #Kosovo refused!
+	desc = "EVTDESC120202"
 	picture = "kurdish_soldiers"
 
 	is_triggered_only = yes
 		
 	option = {
-		name = "EVTOPTA120222" #Albania must be united
+		name = "EVTOPTA120202" #Albania must be united
 		KSV = { all_core = { add_core = ALB } }
 		badboy = 5
 		prestige = 10
 		government = absolute_monarchy
 	}
 	option = {
-		name = "EVTOPTB120222" #Albanian suicide option
+		name = "EVTOPTB120202" #Albanian suicide option
 		prestige = -20
 	}
 	ai_chance = { factor = 100 }
 }
 
 country_event = {
-	id = 120223
-	title = "EVTNAME120223" #The Albanian Reforms
-	desc = "EVTDESC120223"
+	id = 120203
+	title = "EVTNAME120203" #The Albanian Reforms
+	desc = "EVTDESC120203"
 	picture = "kurdish_soldiers"
 
 	is_triggered_only = yes
 		
 	option = {
-		name = "EVTOPTA120223" #minor reform
+		name = "EVTOPTA120203" #minor reform
 		economic_reform = yes_admin_reform
 		economic_reform = yes_firearms_production
 		any_pop = {
@@ -107,7 +107,7 @@ country_event = {
 	ai_chance = { factor = 50 }
 	
 	option = {
-		name = "EVTOPTB120223" #major reform
+		name = "EVTOPTB120203" #major reform
 		economic_reform = yes_education_reform
 		economic_reform = yes_admin_reform
 		economic_reform = yes_firearms_production

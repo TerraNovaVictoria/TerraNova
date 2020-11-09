@@ -1,3 +1,5 @@
+#####9966--#####
+
 country_event = {
 	id = 996600
 	title = "EVTNAME996600" #Manuel Xosé Arce

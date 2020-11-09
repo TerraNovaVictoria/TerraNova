@@ -1,6 +1,7 @@
-owner = CYM
-controller = CYM
-add_core = HYD
+owner = SRI
+controller = SRI
+add_core = SRI
+add_core = GLK
 add_core = HND
 trade_goods = grain
 life_rating = 32

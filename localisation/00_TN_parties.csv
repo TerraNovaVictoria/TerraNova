@@ -1,4 +1,25 @@
 ;;;;;;;;;;;;;;x,,,
+SRI_conservative;Royal Faction;;;;;;;;;;;;x
+SRI_liberal;The Liberal Faction;;;;;;;;;;;;x
+SRI_reactionary;The Nationalist Faction;;;;;;;;;;;;x
+SRI_anarcho_liberal;The Radical Faction;;;;;;;;;;;;x
+SRI_socialist;The Socialist Faction;;;;;;;;;;;;x
+SRI_communist;The Communist Faction;;;;;;;;;;;;x
+SRI_fascist;The Fascist Faction;;;;;;;;;;;;x
+UYG_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+UYG_liberal;The Liberal Faction;Faction libérale;Die liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+UYG_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+UYG_anarcho_liberal;The Radical Faction;Faction radicale;Die radikale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+UYG_socialist;The Socialist Faction;Faction socialiste;Die sozialistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+UYG_communist;The Communist Faction;Faction communiste;Die kommunistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+UYG_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HUI_reactionary;Beiyang Faction;Faction Rongting;Rongting-Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HUI_socialist;Socialist Party;Parti socialiste;Sozialistische Partei;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HUI_communist;Chinese Communist Party;Parti communiste chinois;Kommunistische Partei China;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HUI_liberal;Liberal Party;Parti libéral;Liberale Partei;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HUI_conservative;Kuomintang Faction;Faction Kuomintang;Guomintang-Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HUI_fascist;Fascist Party;Parti fasciste;Faschistische Partei;;;;;;;;;;;;x;;;;;;;;;;;;;;
+HUI_anarcho_liberal;Freedom Party;Parti de la liberté;Freiheitspartei;;;;;;;;;;;;x;;;;;;;;;;;;;;
 CLA_conservative;Duke Town Faction;Faction de Duke Town;Duke Town Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 CLA_liberal;Creek Town Faction;Faction de Creek Town;Creek Town Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 CLA_reactionary;Empire Faction;Faction d'empire;Reich Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;

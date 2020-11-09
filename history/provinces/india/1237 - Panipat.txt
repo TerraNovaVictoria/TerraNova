@@ -1,7 +1,7 @@
-owner = MAR
-controller = MAR
-add_core = MAR
-add_core = MUG
+owner = DLH
+controller = DLH
+add_core = DLH
+add_core = GAY
 add_core = HND
 trade_goods = cattle
 life_rating = 32

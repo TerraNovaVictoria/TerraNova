@@ -1,6 +1,8 @@
-owner = PNJ
-controller = PNJ
+owner = LHR
+controller = LHR
+add_core = LHR
 add_core = PNJ
+add_core = DLH
 add_core = HND
 trade_goods = wool
 life_rating = 32

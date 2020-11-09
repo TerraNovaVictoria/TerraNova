@@ -1,7 +1,7 @@
-owner = MAR
-controller = MAR
-add_core = MAR
-add_core = NAG
+owner = RAI
+controller = RAI
+add_core = RAI
+add_core = BIJ
 add_core = HND
 trade_goods = dye
 life_rating = 32

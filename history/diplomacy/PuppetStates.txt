@@ -1,3 +1,17 @@
+#Bijapur
+substate = {
+	first = BIJ
+	second = MAH
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+substate = {
+	first = BIJ
+	second = MAR
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
 #Magyars
 vassal = {
 	first = KMK
@@ -391,34 +405,10 @@ vassal = {
 #        INDIA        #
 #######################
 
-# Maratha - Hyderbad
-substate = {
-	first = MAR
-	second = HYD
-	start_date = 1807.1.1
-	end_date = 1863.1.1
-}
-
 # Maratha - Mughals/Delhi
 vassal = {
 	first = MAR
 	second = MUG
-	start_date = 1807.1.1
-	end_date = 1863.1.1
-}
-
-# Hansa - Ceylon
-vassal = {
-	first = HNL
-	second = SRI
-	start_date = 1807.1.1
-	end_date = 1863.1.1
-}
-
-# France - Travancore
-vassal = {
-	first = FRA
-	second = TRA
 	start_date = 1807.1.1
 	end_date = 1863.1.1
 }
@@ -479,10 +469,34 @@ substate = {
 	end_date = 1975.1.1
 }
 
-# Kyushu
+# Tungwu
 substate = {
 	first = KYO
-	second = SAT
+	second = WUU
+	start_date = 1815.1.1
+	end_date = 1975.1.1
+}
+
+# Sendai
+substate = {
+	first = HOJ
+	second = SEN
+	start_date = 1815.1.1
+	end_date = 1975.1.1
+}
+
+# Uesugi
+substate = {
+	first = HOJ
+	second = UES
+	start_date = 1815.1.1
+	end_date = 1975.1.1
+}
+
+# Emishi
+vassal = {
+	first = HOJ
+	second = EMI
 	start_date = 1815.1.1
 	end_date = 1975.1.1
 }

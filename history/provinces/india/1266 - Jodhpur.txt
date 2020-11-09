@@ -1,7 +1,8 @@
-owner = MAR
-controller = MAR
-add_core = MAR
+owner = JOD
+controller = JOD
 add_core = JOD
+add_core = MEW
+add_core = DLH
 add_core = HND
 trade_goods = fruit
 life_rating = 32

@@ -1,7 +1,7 @@
 capital = 1649
 primary_culture = japanese
 religion = mahayana
-government = absolute_monarchy
+government = primitive_absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.40

@@ -1,5 +1,5 @@
-owner = HNL
-controller = HNL
+owner = SRI
+controller = SRI
 add_core = SRI
 trade_goods = coffee
 life_rating = 33

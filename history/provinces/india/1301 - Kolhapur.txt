@@ -1,6 +1,8 @@
-owner = MAR
-controller = MAR
-add_core = HND
+owner = BIJ
+controller = BIJ
 add_core = MAR
+add_core = MAH
+add_core = BIJ
+add_core = HND
 trade_goods = fish
 life_rating = 32

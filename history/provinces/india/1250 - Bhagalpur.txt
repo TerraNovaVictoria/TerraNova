@@ -1,8 +1,7 @@
-owner = BNG
-controller = BNG
-add_core = BNG
-add_core = BIH
-add_core = MAR
+owner = GAY
+controller = GAY
+add_core = GAY
+add_core = DLH
 add_core = HND
 trade_goods = fish
 life_rating = 32

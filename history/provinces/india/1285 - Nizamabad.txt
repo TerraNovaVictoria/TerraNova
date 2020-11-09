@@ -1,6 +1,7 @@
-owner = HYD
-controller = HYD
-add_core = HYD
+owner = MAH
+controller = MAH
+add_core = MAH
+add_core = BIJ
 add_core = HND
 trade_goods = fruit
 life_rating = 32

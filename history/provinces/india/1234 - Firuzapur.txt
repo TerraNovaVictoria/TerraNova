@@ -1,12 +1,8 @@
-owner = PNJ
-controller = PNJ
+owner = SHI
+controller = SHI
+add_core = SHI
 add_core = PNJ
-add_core = MUG
+add_core = DLH
 add_core = HND
 trade_goods = wool
 life_rating = 32
-1861.1.1 = {
-	owner = CYM
-	controller = CYM
-	colonial = 2
-}

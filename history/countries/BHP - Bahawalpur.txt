@@ -1,7 +1,8 @@
 capital = 1231
-primary_culture = panjabi
+primary_culture = hindi
+culture = panjabi
 religion = sunni
-government = subject
+government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.01

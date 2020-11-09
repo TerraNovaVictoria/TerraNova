@@ -1,6 +1,7 @@
-owner = MUG
-controller = MUG
-add_core = MUG
+owner = DLH
+controller = DLH
+add_core = DLH
+add_core = GAY
 add_core = HND
 trade_goods = fruit
 life_rating = 32

@@ -1,6 +1,76 @@
 #Chugoku Region (2236000)
 #under the rule of Japan in 1836
 #Hiroshima (672000/168000 POPS)
+#Cheju (300000/75000 POPS)
+1637 = {
+	aristocrats = {
+		culture = korean
+		religion = mahayana
+		size = 50
+	}
+
+	clergymen = {
+		culture = korean
+		religion = mahayana
+		size = 25
+	}
+
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 750
+	}
+
+	soldiers = {
+		culture = korean
+		religion = mahayana
+		size = 500
+	}
+
+	farmers = {
+		culture = korean
+		religion = mahayana
+		size = 31725
+	}
+	
+	aristocrats = {
+		culture = changduren
+		religion = mahayana
+		size = 500
+	}
+
+	clergymen = {
+		culture = changduren
+		religion = mahayana
+		size = 25
+	}
+
+	artisans = {
+		culture = changduren
+		religion = mahayana
+		size = 1500
+	}
+
+	soldiers = {
+		culture = changduren
+		religion = mahayana
+		size = 3000
+	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 32000
+	}
+	
+	farmers = {
+		culture = japanese
+		religion = mahayana
+		size = 500
+	}
+
+}
+
 1638 = {
 	aristocrats = {
 		culture = japanese
@@ -79,11 +149,17 @@
 		religion = mahayana
 		size = 6000
 	}
-
+	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 47000
+		size = 7000
+	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 40000
 	}
 
 	aristocrats = {
@@ -133,7 +209,7 @@
 	artisans = {
 		culture = japanese
 		religion = shinto
-		size = 4800
+		size = 3800
 	}
 
 	soldiers = {
@@ -145,11 +221,11 @@
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 62425
+		size = 38425
 	}
 	
 	farmers = {
-		culture = beifaren
+		culture = changduren
 		religion = mahayana
 		size = 5925
 	}
@@ -219,7 +295,7 @@
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 52850
+		size = 27850
 	}
 
 	aristocrats = {
@@ -245,35 +321,35 @@
 		religion = shinto
 		size = 3000
 	}
-
-	soldiers = {
-		culture = mongol
-		religion = shinto
-		size = 3000
-	}
-
-	soldiers = {
-		culture = mongol
-		religion = shinto
-		size = 3000
-	}
 	
 	farmers = {
 		culture = mongol
 		religion = shinto
-		size = 9675
+		size = 675
 	}
 
 	soldiers = {
 		culture = beifaren
 		religion = mahayana
-		size = 6275
+		size = 3275
 	}
-
+	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 29000
+		size = 1000
+	}
+
+	soldiers = {
+		culture = changduren
+		religion = mahayana
+		size = 3000
+	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 21000
 	}
 }
 #Matsue (548000/137000 POPS)
@@ -305,11 +381,11 @@
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 72425
+		size = 42425
 	}
 	
 	farmers = {
-		culture = beifaren
+		culture = changduren
 		religion = mahayana
 		size = 6425
 	}
@@ -564,11 +640,17 @@
 		religion = mahayana
 		size = 625
 	}
-
+	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 6425
+		size = 1000
+	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 5425
 	}
 }
 #Kanazawa (384000/96000 POPS)
@@ -626,11 +708,23 @@
 		religion = mahayana
 		size = 300
 	}
-
+	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 17325
+		size = 2000
+	}
+	
+	farmers = {
+		culture = korean
+		religion = mahayana
+		size = 10000
+	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 2325
 	}
 }
 #Fukui (160000/40000 POPS)
@@ -688,11 +782,23 @@
 		religion = mahayana
 		size = 150
 	}
-
+	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 13675
+		size = 3000
+	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 675
+	}
+	
+	farmers = {
+		culture = korean
+		religion = mahayana
+		size = 9000
 	}
 }
 #Toyama (352000/88000 POPS)
@@ -750,11 +856,23 @@
 		religion = mahayana
 		size = 275
 	}
-
+	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 26575
+		size = 4000
+	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 7000
+	}
+	
+	farmers = {
+		culture = korean
+		religion = mahayana
+		size = 14575
 	}
 }
 #Kanto Region (4604000)
@@ -896,49 +1014,55 @@
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 167575
+		size = 287575
 	}
 
 	aristocrats = {
-		culture = japanese
-		religion = shinto
-		size = 1450
+		culture = changduren
+		religion = mahayana
+		size = 450
 	}
 
 	clergymen = {
-		culture = japanese
-		religion = shinto
+		culture = changduren
+		religion = mahayana
 		size = 550
 	}
 
 	artisans = {
-		culture = japanese
-		religion = shinto
+		culture = changduren
+		religion = mahayana
 		size = 10000
 	}
 	
 	artisans = {
-		culture = japanese
-		religion = shinto
+		culture = changduren
+		religion = mahayana
 		size = 10000
 	}
 	
 	artisans = {
-		culture = japanese
-		religion = shinto
+		culture = changduren
+		religion = mahayana
 		size = 7000
 	}
 
 	soldiers = {
-		culture = japanese
-		religion = shinto
+		culture = changduren
+		religion = mahayana
 		size = 700
 	}
 
 	farmers = {
-		culture = japanese
-		religion = shinto
-		size = 39100
+		culture = changduren
+		religion = mahayana
+		size = 9100
+	}
+	
+	farmers = {
+		culture = ainu
+		religion = mahayana
+		size = 100
 	}
 }
 #Chiba (788000/197000 POPS)
@@ -976,7 +1100,7 @@
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 124700
+		size = 154700
 	}
 
 	aristocrats = {
@@ -1032,13 +1156,13 @@
 	soldiers = {
 		culture = japanese
 		religion = shinto
-		size = 1125
+		size = 3125
 	}
 
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 98675
+		size = 148675
 	}
 
 	aristocrats = {
@@ -1294,11 +1418,17 @@
 		religion = mahayana
 		size = 6000
 	}
-
+	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 15300
+		size = 2000
+	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 13300
 	}
 }
 #Wakayama (1064000/266000 POPS)
@@ -1335,6 +1465,12 @@
 	
 	farmers = {
 		culture = beifaren
+		religion = mahayana
+		size = 500
+	}
+	
+	farmers = {
+		culture = changduren
 		religion = mahayana
 		size = 8425
 	}
@@ -1459,13 +1595,37 @@
 	artisans = {
 		culture = beifaren
 		religion = mahayana
-		size = 9000
+		size = 4000
 	}
-
+	
+	artisans = {
+		culture = korean
+		religion = mahayana
+		size = 5000
+	}
+	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 25000
+		size = 9000
+	}
+	
+	farmers = {
+		culture = hakka
+		religion = mahayana
+		size = 2000
+	}
+	
+	farmers = {
+		culture = manchu
+		religion = mahayana
+		size = 5000
+	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 6000
 	}
 	
 	farmers = {
@@ -1571,11 +1731,17 @@
 		religion = mahayana
 		size = 900
 	}
-
+	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 11950
+		size = 3500
+	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 5950
 	}
 }
 #Kobe (1120000/280000 POPS)
@@ -1663,11 +1829,17 @@
 		religion = mahayana
 		size = 9050
 	}
-
+	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 16450
+		size = 3000
+	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 13450
 	}
 }
 #Kyushu Region (3600000)
@@ -1675,33 +1847,33 @@
 #Fukuoka (784000/196000 POPS)
 1660 = {
 	aristocrats = {
-		culture = mongol
-		religion = shinto
+		culture = nanfaren
+		religion = mahayana
 		size = 1175
 	}
 
 	bureaucrats = {
-		culture = mongol
-		religion = shinto
+		culture = nanfaren
+		religion = mahayana
 		size = 3675
 	}
 
 	officers = {
-		culture = mongol
-		religion = shinto
+		culture = nanfaren
+		religion = mahayana
 		size = 1900
 	}
 
 	clergymen = {
-		culture = mongol
-		religion = shinto
+		culture = nanfaren
+		religion = mahayana
 		size = 500
 	}
 
 	artisans = {
-		culture = mongol
-		religion = shinto
-		size = 7550
+		culture = nanfaren
+		religion = mahayana
+		size = 2550
 	}
 
 	soldiers = {
@@ -1713,11 +1885,11 @@
 	farmers = {
 		culture = mongol
 		religion = shinto
-		size = 7786
+		size = 2786
 	}
 	
 	farmers = {
-		culture = mongol
+		culture = nanfaren
 		religion = syriac
 		size = 5000
 	}
@@ -1775,11 +1947,17 @@
 		religion = mahayana
 		size = 650
 	}
-
+	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 40925
+		size = 7000
+	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 43925
 	}
 }
 
@@ -1812,7 +1990,13 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 6308
+		size = 500
+	}
+	
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 5308
 	}
 }
 
@@ -1845,7 +2029,7 @@
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 9550
+		size = 3550
 	}
 
 	aristocrats = {
@@ -1875,7 +2059,13 @@
 	farmers = {
 		culture = mongol
 		religion = syriac
-		size = 4750
+		size = 2750
+	}
+	
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 75
 	}
 	
 	aristocrats = {
@@ -1905,7 +2095,55 @@
 	farmers = {
 		culture = beifaren
 		religion = mahayana
+		size = 6000
+	}
+	
+	farmers = {
+		culture = cantonese
+		religion = mahayana
+		size = 500
+	}
+	
+	farmers = {
+		culture = hakka
+		religion = mahayana
+		size = 2500
+	}
+	
+	aristocrats = {
+		culture = changduren
+		religion = mahayana
+		size = 250
+	}
+
+	clergymen = {
+		culture = changduren
+		religion = mahayana
+		size = 750
+	}
+
+	artisans = {
+		culture = changduren
+		religion = mahayana
+		size = 9500
+	}
+	
+	farmers = {
+		culture = changduren
+		religion = syriac
+		size = 2000
+	}
+	
+	farmers = {
+		culture = changduren
+		religion = mahayana
 		size = 57500
+	}
+	
+	farmers = {
+		culture = korean
+		religion = mahayana
+		size = 4500
 	}
 	
 }
@@ -1941,22 +2179,10 @@
 		size = 3000
 	}
 
-	soldiers = {
-		culture = japanese
-		religion = shinto
-		size = 3000
-	}
-
-	soldiers = {
-		culture = japanese
-		religion = shinto
-		size = 2275
-	}
-
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 15600
+		size = 9600
 	}
 	
 	aristocrats = {
@@ -1980,13 +2206,31 @@
 	soldiers = {
 		culture = mongol
 		religion = syriac
-		size = 6375
+		size = 375
 	}
 
 	farmers = {
 		culture = mongol
 		religion = syriac
-		size = 6400
+		size = 2400
+	}
+	
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 50
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 375
+	}
+	
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 1500
 	}
 
 	aristocrats = {
@@ -2012,12 +2256,19 @@
 		religion = mahayana
 		size = 3375
 	}
-
+	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 55600
+		size = 9000
 	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 41000
+	}
+
 }
 #Miyazaki (380000/95000 POPS)
 1663 = {
@@ -2048,25 +2299,31 @@
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 35175
+		size = 31175
 	}
 
 	aristocrats = {
-		culture = mongol
-		religion = syriac
+		culture = nanfaren
+		religion = mahayana
 		size = 50
 	}
 
 	clergymen = {
-		culture = mongol
-		religion = syriac
+		culture = nanfaren
+		religion = mahayana
 		size = 325
 	}
 
 	artisans = {
-		culture = mongol
-		religion = syriac
+		culture = nanfaren
+		religion = mahayana
 		size = 1500
+	}
+	
+	farmers = {
+		culture = nanfaren
+		religion = syriac
+		size = 2325
 	}
 
 	soldiers = {
@@ -2078,7 +2335,7 @@
 	farmers = {
 		culture = mongol
 		religion = syriac
-		size = 7325
+		size = 3325
 	}
 	
 	aristocrats = {
@@ -2104,11 +2361,23 @@
 		religion = mahayana
 		size = 100
 	}
-
+	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 10000
+		size = 2500
+	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 26500
+	}
+	
+	farmers = {
+		culture = changduren
+		religion = syriac
+		size = 4175
 	}
 	
 }
@@ -2141,41 +2410,41 @@
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 25375
+		size = 21375
 	}
 
 	aristocrats = {
-		culture = mongol
-		religion = shinto
+		culture = nanfaren
+		religion = mahayana
 		size = 90
 	}
 
 	clergymen = {
-		culture = mongol
-		religion = shinto
+		culture = nanfaren
+		religion = mahayana
 		size = 450
 	}
 	
 	artisans = {
-		culture = mongol
-		religion = shinto
+		culture = nanfaren
+		religion = mahayana
 		size = 1550
 	}
 
 	artisans = {
-		culture = mongol
+		culture = nanfaren
 		religion = syriac
 		size = 250
 	}
 
 	soldiers = {
-		culture = mongol
+		culture = nanfaren
 		religion = syriac
 		size = 450
 	}
 
 	farmers = {
-		culture = mongol
+		culture = nanfaren
 		religion = syriac
 		size = 2950
 	}
@@ -2203,11 +2472,17 @@
 		religion = mahayana
 		size = 3550
 	}
-
+	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 25950
+		size = 1000
+	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 28950
 	}
 }
 #Shikoku Region (1368000)
@@ -2237,11 +2512,23 @@
 		religion = mahayana
 		size = 3000
 	}
-
+	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 31650
+		size = 2000
+	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 4650
+	}
+	
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 28650
 	}
 	
 	aristocrats = {
@@ -2301,7 +2588,7 @@
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 42400
+		size = 36400
 	}
 }
 #Matsuyama (432000/108000 POPS)
@@ -2359,11 +2646,23 @@
 		religion = mahayana
 		size = 3000
 	}
-
+	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 15900
+		size = 2000
+	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 3900
+	}
+	
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 11000
 	}
 
 	farmers = {
@@ -2439,11 +2738,23 @@
 		religion = mahayana
 		size = 525
 	}
-
+	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 17325
+		size = 1000
+	}
+	
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 26325
+	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 3325
 	}
 	
 	aristocrats = {
@@ -2461,7 +2772,7 @@
 	artisans = {
 		culture = mongol
 		religion = shinto
-		size = 9600
+		size = 2600
 	}
 
 	soldiers = {
@@ -2473,7 +2784,7 @@
 	farmers = {
 		culture = mongol
 		religion = shinto
-		size = 14325
+		size = 2325
 	}
 }
 #Tohoku Region (3208000)
@@ -3053,11 +3364,17 @@
 		religion = mahayana
 		size = 1100
 	}
-
+	
 	farmers = {
 		culture = beifaren
 		religion = mahayana
-		size = 18625
+		size = 2000
+	}
+
+	farmers = {
+		culture = changduren
+		religion = mahayana
+		size = 16625
 	}
 }
 #Shizuoka (436000/109000 POPS)
@@ -3121,9 +3438,15 @@
 		religion = mahayana
 		size = 400
 	}
-
+	
 	farmers = {
 		culture = beifaren
+		religion = mahayana
+		size = 500
+	}
+
+	farmers = {
+		culture = changduren
 		religion = mahayana
 		size = 5425
 	}
@@ -3183,9 +3506,15 @@
 		religion = mahayana
 		size = 900
 	}
-
+	
 	farmers = {
 		culture = beifaren
+		religion = mahayana
+		size = 150
+	}
+
+	farmers = {
+		culture = changduren
 		religion = mahayana
 		size = 6000
 	}
@@ -3258,6 +3587,12 @@
 		culture = beifaren
 		religion = shinto
 		size = 2050
+	}
+	
+	farmers = {
+		culture = beifaren
+		religion = mahayana
+		size = 250
 	}
 
 	farmers = {

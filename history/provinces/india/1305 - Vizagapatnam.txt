@@ -1,7 +1,7 @@
 owner = CYM
 controller = CYM
-add_core = MAR
 add_core = ORI
+add_core = GLK
 add_core = HND
 trade_goods = tobacco
 life_rating = 32

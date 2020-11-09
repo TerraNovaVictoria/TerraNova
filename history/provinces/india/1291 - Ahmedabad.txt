@@ -1,7 +1,6 @@
-owner = CYM
-controller = CYM
-add_core = MAR
-add_core = BER
+owner = GUJ
+controller = GUJ
+add_core = GUJ
 add_core = HND
 trade_goods = tobacco
 life_rating = 32

@@ -1,0 +1,19 @@
+#####KYOTO RELATED EVENTS#####
+
+country_event = {
+	id = 145500
+	title = "EVTNAME145500" #Jianzhou raids
+	desc = "EVTDESC145500"
+	picture = "chinese_palace"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT145500A"
+		add_country_modifier = { name = weak_central_government duration = -1 }
+		1676 = { remove_core = KYO secede_province = HOJ }
+		1639 = { secede_province = CHO }
+		1637 = { add_core = WUU secede_province = WUU }
+		ai_chance = { factor = 100 }
+	}
+}

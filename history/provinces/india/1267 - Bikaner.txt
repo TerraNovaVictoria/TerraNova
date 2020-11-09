@@ -1,7 +1,8 @@
-owner = MAR
-controller = MAR
-add_core = MAR
+owner = BIK
+controller = BIK
 add_core = BIK
+add_core = MEW
+add_core = DLH
 add_core = HND
 trade_goods = wool
 life_rating = 32

@@ -1,6 +1,7 @@
-owner = MAR
-controller = MAR
-add_core = MAR
+owner = BHO
+controller = BHO
+add_core = BHO
+add_core = MAH
 add_core = IND
 add_core = HND
 trade_goods = opium

@@ -1,7 +1,8 @@
 capital = 1671
 primary_culture = ainu
+culture = japanese
 religion = shinto
-government = absolute_monarchy
+government = primitive_absolute_monarchy
 plurality = 10
 nationalvalue = nv_autocracy
 literacy = 0.6

@@ -1,12 +1,10 @@
-capital = 1299
+capital = 1278
 primary_culture = marathi
-culture = sindi
-culture = kannada
 religion = hindu
-government = absolute_monarchy
+government = subject
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.01
+literacy = 0.07
 non_state_culture_literacy = 0.01
 
 # Political reforms

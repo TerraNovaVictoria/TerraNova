@@ -1,5 +1,5 @@
-owner = CYM
-controller = CYM
+owner = BNG
+controller = BNG
 add_core = BNG
 add_core = HND
 trade_goods = dye

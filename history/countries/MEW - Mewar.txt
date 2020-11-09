@@ -1,7 +1,7 @@
 capital = 1269
 primary_culture = hindi
 religion = hindu
-government = subject
+government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.01

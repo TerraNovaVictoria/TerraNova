@@ -1,7 +1,7 @@
 owner = CYM
 controller = CYM
 add_core = SIN
-add_core = BER
+add_core = GUJ
 add_core = HND
 trade_goods = cotton
 life_rating = 32

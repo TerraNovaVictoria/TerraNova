@@ -1,6 +1,7 @@
-owner = HYD
-controller = HYD
-add_core = HYD
+owner = BIJ
+controller = BIJ
+add_core = MAH
+add_core = BIJ
 add_core = HND
 trade_goods = cotton
 life_rating = 32

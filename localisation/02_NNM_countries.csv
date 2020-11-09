@@ -581,16 +581,6 @@ HNN_conservative;Kuomintang Faction;Faction Kuomintang;Guomintang-Fraktion;;;;;;
 HNN_fascist;Fascist Party;Parti fasciste;Faschistische Partei;;;;;;;;;;;x
 HNN_anarcho_liberal;Freedom Party;Parti de la liberté;Freiheitspartei;;;;;;;;;;;x
 HOL_anarcho_liberal;Radicale Partij;;;;;;;;;;;;x
-HUI;Anhui;;;;;;;;;;;;x
-HUI_ADJ;Anhui;;;;;;;;;;;;x
-HUI_presidential_dictatorship;Anhui Clique;;;;;;;;;;;;x
-HUI_reactionary;Beiyang Faction;Faction Rongting;Rongting-Fraktion;;;;;;;;;;;x
-HUI_socialist;Socialist Party;Parti socialiste;Sozialistische Partei;;;;;;;;;;;x
-HUI_communist;Chinese Communist Party;Parti communiste chinois;Kommunistische Partei China;;;;;;;;;;;x
-HUI_liberal;Liberal Party;Parti libéral;Liberale Partei;;;;;;;;;;;x
-HUI_conservative;Kuomintang Faction;Faction Kuomintang;Guomintang-Fraktion;;;;;;;;;;;x
-HUI_fascist;Fascist Party;Parti fasciste;Faschistische Partei;;;;;;;;;;;x
-HUI_anarcho_liberal;Freedom Party;Parti de la liberté;Freiheitspartei;;;;;;;;;;;x
 IBR_proletarian_dictatorship;The Iberian Worker's Union;;;;;;;;;;;;;x,
 IBR_presidential_dictatorship;The Iberian Union;;;;;;;;;;;;;x,
 IBR_bourgeois_dictatorship;The Iberian Union;;;;;;;;;;;;;x,
@@ -926,8 +916,6 @@ MAH_communist;Communist Faction;;;;;;;;;;;;x
 MAH_fascist;The Fascist Faction;;;;;;;;;;;;x
 MAL;Maluku;;;;;;;;;;;;x
 MAL_ADJ;Moluccan;;;;;;;;;;;;x
-MAR;Marianas;Marianas;Marianas;;;;;;;;;;;;x
-MAR_ADJ;Marianan;Marianan;Marianan;;;;;;;;;;;;x
 MCD;Macedonia;;;;;;;;;;;;x
 MCD_ADJ;Macedonian;;;;;;;;;;;;x
 MCK;Manchuria;;;;;;;;;;;;;x
@@ -1407,21 +1395,6 @@ SPU;South Peru;;;;;;;;;;;;;x
 SPU_ADJ;South Peruvian;;;;;;;;;;;;;x
 SRD;Sardinia;;;;;;;;;;;;;
 SRD_ADJ;Sardinian;;;;;;;;;;;;;
-SRI;Sri Lanka;;;;;;;;;;;;;x
-SRI_ADJ;Sri Lankan;;;;;;;;;;;;;x
-SRI_absolute_monarchy;Ceylon;;;;;;;;;;;;x
-SRI_prussian_constitutionalism;Ceylon;;;;;;;;;;;;x
-SRI_hms_government;Ceylon;;;;;;;;;;;;x
-SRI_absolute_monarchy_ADJ;Ceylonian;;;;;;;;;;;;x
-SRI_prussian_constitutionalism_ADJ;Ceylonian;;;;;;;;;;;;x
-SRI_hms_government_ADJ;Ceylonian;;;;;;;;;;;;x
-SRI_conservative;Royal Faction;;;;;;;;;;;;x
-SRI_liberal;The Liberal Faction;;;;;;;;;;;;x
-SRI_reactionary;The Nationalist Faction;;;;;;;;;;;;x
-SRI_anarcho_liberal;The Radical Faction;;;;;;;;;;;;x
-SRI_socialist;The Socialist Faction;;;;;;;;;;;;x
-SRI_communist;The Communist Faction;;;;;;;;;;;;x
-SRI_fascist;The Fascist Faction;;;;;;;;;;;;x
 SUD;Sudan;;;;;;;;;;;;x
 SUD_ADJ;Sudanese;;;;;;;;;;;;x
 SUD_reactionary;the Mahdists;;;;;;;;;;;;;x

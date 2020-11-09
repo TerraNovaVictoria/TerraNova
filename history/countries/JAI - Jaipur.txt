@@ -1,5 +1,5 @@
 capital = 1268
-primary_culture = rajput
+primary_culture = hindi
 religion = hindu
 government = absolute_monarchy
 plurality = 0.0

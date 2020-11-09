@@ -1,8 +1,7 @@
-owner = AWA
-controller = AWA
-add_core = AWA
-add_core = MAR
-add_core = MUG
+owner = GAY
+controller = GAY
+add_core = GAY
+add_core = DLH
 add_core = HND
 trade_goods = timber
 life_rating = 32

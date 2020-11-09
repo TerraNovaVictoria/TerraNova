@@ -1,4 +1,4 @@
-capital = 1227
+capital = 1232
 primary_culture = panjabi
 religion = sikh
 government = primitive_absolute_monarchy

@@ -1,5 +1,6 @@
-owner = FRA
-controller = FRA
+owner = SRI
+controller = SRI
+add_core = SRI
 add_core = KRN
 add_core = HND
 trade_goods = dye

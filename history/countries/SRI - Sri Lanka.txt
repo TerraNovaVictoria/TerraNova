@@ -1,10 +1,11 @@
-capital = 1321
+capital = 1309
 primary_culture = sinhala
+culture = tamil
 religion = theravada
 government = absolute_monarchy
-plurality = 0.0
+plurality = 5.0
 nationalvalue = nv_tradition
-literacy = 0.02
+literacy = 0.17
 
 # Political reforms
 slavery = no_slavery
@@ -37,6 +38,15 @@ border_policy = open_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
+govt_flag = {
+	government = absolute_monarchy
+	flag = theocracy
+}
+
+govt_flag = {
+	government = prussian_constitutionalism
+	flag = theocracy
+}
 
 set_country_flag = theravada_country
 

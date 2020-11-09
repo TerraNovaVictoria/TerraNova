@@ -1,7 +1,7 @@
-owner = MAR
-controller = MAR
-add_core = MAR
+owner = MEW
+controller = MEW
 add_core = MEW
+add_core = DLH
 add_core = HND
 trade_goods = opium
 life_rating = 32

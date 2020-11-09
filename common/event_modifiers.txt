@@ -23,32 +23,6 @@ no_trade_policy_set = {
 	icon = 9
 }
 
-exile_brc_government = {
-	prestige = -1
-	global_pop_consciousness_modifier = 0.01
-	icon = 16
-}
-
-unstable_government = {
-	global_pop_militancy_modifier = 0.075
-	global_pop_consciousness_modifier = 0.075
-	icon = 16
-}
-
-athenian_cult = {
-	global_assimilation_rate = 0.5
-	education_efficiency_modifier = 0.15
-	global_pop_consciousness_modifier = -0.25
-	icon = 16
-}
-
-athenian_cult_extreme = {
-	global_assimilation_rate = 0.5
-	education_efficiency_modifier = 0.25
-	global_pop_consciousness_modifier = -0.3
-	icon = 16
-}
-
 mercantilism = {
 	min_tariff = 0.5
 	tariff_efficiency_modifier = 0.15
@@ -118,6 +92,41 @@ native_removal_act_policy = {
 #	#population_growth = 0.002
 #	icon = 19
 #}
+
+########################
+######TN MODIFIERS######
+########################
+
+exile_brc_government = {
+	prestige = -1
+	global_pop_consciousness_modifier = 0.01
+	icon = 16
+}
+
+unstable_government = {
+	global_pop_militancy_modifier = 0.075
+	global_pop_consciousness_modifier = 0.075
+	icon = 16
+}
+
+athenian_cult = {
+	global_assimilation_rate = 0.5
+	education_efficiency_modifier = 0.15
+	global_pop_consciousness_modifier = -0.25
+	icon = 16
+}
+
+athenian_cult_extreme = {
+	global_assimilation_rate = 0.5
+	education_efficiency_modifier = 0.25
+	global_pop_consciousness_modifier = -0.3
+	icon = 16
+}
+
+weak_central_government = {
+	global_pop_consciousness_modifier = 0.05
+	icon = 16
+}
 
 ##Disasters
 earthquake_devastation = {

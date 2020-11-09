@@ -2,6 +2,7 @@ owner = SEN
 controller = SEN
 add_core = SEN
 add_core = EMI
+add_core = HOJ
 add_core = JAP
 trade_goods = grain
 life_rating = 35
