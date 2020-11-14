@@ -2,7 +2,7 @@ color = { 109 179 109 }
 graphical_culture = IndianGC
 
 party = {
-	name = "AWA_conservative"
+	name = "GAY_conservative"
 	start_date = 1800.1.1
 	end_date = 2000.1.1
 
@@ -17,7 +17,7 @@ party = {
 }
 
 party = {
-	name = "AWA_liberal"
+	name = "GAY_liberal"
 	start_date = 1820.1.1
 	end_date = 1936.1.1
 
@@ -32,7 +32,7 @@ party = {
 }
 
 party = {
-	name = "AWA_reactionary"
+	name = "GAY_reactionary"
 	start_date = 1820.1.1
 	end_date = 2000.1.1
 
@@ -47,7 +47,7 @@ party = {
 }
 
 party = {
-	name = "AWA_anarcho_liberal"
+	name = "GAY_anarcho_liberal"
 	start_date = 1830.1.1
 	end_date = 2000.1.1
 
@@ -62,7 +62,7 @@ party = {
 }
 
 party = {
-	name = "AWA_socialist"
+	name = "GAY_socialist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -77,7 +77,7 @@ party = {
 }
 
 party = {
-	name = "AWA_communist"
+	name = "GAY_communist"
 	start_date = 1848.1.1
 	end_date = 2000.1.1
 
@@ -92,7 +92,7 @@ party = {
 }
 
 party = {
-	name = "AWA_fascist"
+	name = "GAY_fascist"
 	start_date = 1900.1.1
 	end_date = 2000.1.1
 

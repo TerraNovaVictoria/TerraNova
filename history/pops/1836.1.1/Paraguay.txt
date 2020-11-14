@@ -69,45 +69,45 @@
 #Asuncion (368000/92000 POPS)
 2339 = {
 	aristocrats = {
-		culture = azuli
+		culture = platinean
 		religion = catholic
 		size = 1850
 	}
 
 	bureaucrats = {
-		culture = azuli
+		culture = platinean
 		religion = catholic
 		size = 200
 	}
 
 	officers = {
-		culture = azuli
+		culture = platinean
 		religion = catholic
 		size = 300
 	}
 
 	clergymen = {
-		culture = azuli
+		culture = platinean
 		religion = catholic
 		size = 775
 	}
 
 	artisans = {
-		culture = azuli
+		culture = platinean
 		religion = catholic
 		size = 4200
 	}
 
 	soldiers = {
-		culture = azuli
+		culture = platinean
 		religion = catholic
-		size = 20100
+		size = 9100
 	}
 
 	farmers = {
-		culture = azuli
+		culture = criollo
 		religion = catholic
-		size = 66825
+		size = 56825
 	}
 
 	clergymen = {
@@ -125,13 +125,13 @@
 	soldiers = {
 		culture = guarani
 		religion = catholic
-		size = 18250
+		size = 6250
 	}
 
 	farmers = {
 		culture = guarani
 		religion = catholic
-		size = 38425
+		size = 28425
 	}
 
 	clergymen = {
@@ -187,54 +187,54 @@
 	farmers = {
 		culture = guarani
 		religion = catholic
-		size = 3300
+		size = 5300
 	}
 
 	clergymen = {
-		culture = guarani
+		culture = criollo
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = guarani
+		culture = criollo
 		religion = catholic
 		size = 600
 	}
 
 	soldiers = {
-		culture = guarani
+		culture = criollo
 		religion = catholic
 		size = 125
 	}
 
 	farmers = {
-		culture = guarani
+		culture = criollo
 		religion = catholic
-		size = 11225
+		size = 9225
 	}
 
 	clergymen = {
-		culture = guarani
-		religion = animist
+		culture = platinean
+		religion = catholic
 		size = 25
 	}
 
 	artisans = {
-		culture = guarani
-		religion = animist
+		culture = platinean
+		religion = catholic
 		size = 50
 	}
 
 	soldiers = {
-		culture = guarani
-		religion = animist
+		culture = platinean
+		religion = catholic
 		size = 15
 	}
 
 	farmers = {
-		culture = guarani
-		religion = animist
+		culture = platinean
+		religion = catholic
 		size = 910
 	}
 }

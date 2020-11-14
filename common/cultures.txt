@@ -2282,7 +2282,17 @@ south_asian = {
 		}
 	}
 	telegu = {
-		color = {90 45 154}
+		color = {99 12 89}
+		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
+			
+		}
+		
+		last_names = { Sitaramaraju Kattabomman Hanumathu Nayudu Deshmukh Naidu Veeresalingam Sriramulu
+               
+		}
+	}
+	gondi = {
+		color = {111 42 109}
 		first_names = { Vasireddy Venkatadri Uyyalawada Narasimha Veerapandiya Keneganti Alluri Potti Tanguturi Pingali Durgabai Sarojini Kandukuri
 			
 		}
@@ -2445,7 +2455,7 @@ indo_iranian = {
 		}
 	}
 	gujarati = {
-		color = {99 12 89}
+		color = {193 85 121}
 		first_names = { Chetan Fakirbhai Jivraj Madhavsingh Khemchand Manubhai Bharatsingh Balwantry Chabildas Maniraj 
 			
 		}

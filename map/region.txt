@@ -34,11 +34,11 @@ USA_78 = { 78 79 80 } #Washington
 
 USA_81 = { 81 82 83 } #Oregon
 
-MEX_85 = { 84 85 86 104 } #California
+MEX_85 = { 84 85 86 94 104 } #California
 
-USA_91 = { 91 92 93 111 } #Idaho
+USA_91 = { 91 92 93 111 114 } #Idaho
 
-MEX_94 = { 94 95 96 98 } #Nevada
+MEX_94 = { 95 96 98 } #Nevada
 
 MEX_97 = { 97 99 108 109 110 } #Utah
 
@@ -46,33 +46,29 @@ MEX_100 = { 100 101 102 2148 } #Arizona
 
 MEX_103 = { 87 88 89 90 } #New Mexico
 
-USA_106 = { 106 125 127 } #Colorado
+USA_2556 = { 207 60 211 214 } #North Carolina
 
 USA_111 = { 2138 2139 } #Wyoming
 
-USA_116 = { 112 113 116 115 114 } #Montana
+USA_116 = { 112 113 116 115 } #Montana
 
 USA_118 = { 117 118 119 } #North Dakota
 
-USA_121 = { 120 121 122 } #South Dakota
+USA_121 = { 107 123 124 120 121 122 } #South Dakota
 
-USA_124 = { 107 123 124 } #Nebraska
+USA_129 = { 128 130 131 } #Oklahoma
 
-USA_126 = { 157 158 } #Kansas
-
-USA_129 = { 103 128 129 130 } #Oklahoma
-
-TEX_132 = { 105 133 43 132 134 135 136 137 138 } #Texas
+TEX_132 = { 105 129 133 43 132 134 135 136 137 138 } #Texas
 
 USA_139 = { 139 141 142 } #Louisiana
 
-USA_144 = { 131 144 } #Arkansas
+USA_144 = { 143 144 145 147 } #Arkansas
 
-USA_148 = { 126 143 145 146 148 147 149 150 } #Missouri
+USA_148 = { 126 146 148 149 150 } #Missouri
 
 USA_151 = { 151 152 153 154 } #Iowa
 
-USA_158 = { 155 156 } #Minnesota
+USA_158 = { 155 156 157 158 } #Minnesota
 
 USA_162 = { 159 160 161 162 177 } #Wisconsin
 
@@ -82,35 +78,39 @@ USA_170 = { 169 170 172 171 } #Indiana
 
 USA_176 = { 173 174 175 176 } #Michigan
 
-USA_178 = { 178 179 180 183 182 181 218 217 } #Ohio
+USA_178 = { 178 179 180 183 182 181 } #Ohio
 
-USA_185 = { 184 185 186 187 188 190 } #Kentucky
+USA_185 = { 184 185 186 } #Kentucky
 
 USA_188 = { 140 194 197 } #Tennessee
 
 USA_194 = { 2383 2384 2390 2389 } #Mississippi
 
-USA_196 = { 189 191 192 193 195 196 201 } #Alabama
+USA_196 = { 192 193 195 } #Alabama
+
+USA_126 = { 196 190 191 201 } #Kansas
+
+USA_124 = { 187 188 189 2146 } #Nebraska
 
 USA_200 = { 200 199 198 } #Florida
 
-USA_201 = { 202 204 2555 } #Georgia
+USA_201 = { 202 204 205 206 2555 } #Georgia
 
-USA_205 = { 205 206 209 2556 } #South Carolina
+USA_205 = { 208 209 210 216 2556 } #South Carolina
 
-USA_2556 = { 207 208 210 } #North Carolina
+USA_106 = { 103 106 125 127 } #Colorado
 
-USA_211 = { 60 211 212 213 214 215 216 } #Virginia
+USA_211 = { 215 218 217 } #Virginia
 
 USA_218 = { 2131 2335 2400 } #West Virginia
 
-USA_219 = { 2146 220 219 222 221 } #Maryland
+USA_219 = { 220 212 213 219 221 } #Maryland
 
-USA_223 = { 223 224 225 226 227 228 236 2627 } #Pennsylvania
+USA_223 = { 225 227 228 236 2627 } #Pennsylvania
 
-USA_231 = { 229 231 230 } #New Jersey
+USA_231 = { 222 224 226 223 231 230 } #New Jersey
 
-USA_232 = { 232 233 234 235 237 238 239 240 } #New York
+USA_232 = { 229 232 233 234 235 237 238 239 240 } #New York
 
 USA_243 = { 243 244 245 241 242 } #Massachusets
 

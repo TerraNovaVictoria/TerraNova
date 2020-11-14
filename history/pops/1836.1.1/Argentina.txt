@@ -289,11 +289,17 @@
 		religion = catholic
 		size = 300
 	}
+	
+	farmers = {
+		culture = platinean
+		religion = catholic
+		size = 2500
+	}
 
 	farmers = {
 		culture = criollo
 		religion = catholic
-		size = 515
+		size = 14515
 	}
 
 	clergymen = {
@@ -305,7 +311,7 @@
 	farmers = {
 		culture = guarani
 		religion = catholic
-		size = 6750
+		size = 4750
 	}
 }
 #Curuzu Cuatia (16000/4000 POPS)
@@ -337,7 +343,7 @@
 	farmers = {
 		culture = criollo
 		religion = catholic
-		size = 825
+		size = 8825
 	}
 }
 #Santo Tomas (28000/7000 POPS)
@@ -363,7 +369,7 @@
 	farmers = {
 		culture = criollo
 		religion = catholic
-		size = 825
+		size = 2225
 	}
 
 	aristocrats = {
@@ -381,7 +387,7 @@
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 4700
+		size = 4500
 	}
 }
 #Colon (8000/2000 POPS)
@@ -519,11 +525,17 @@
 		religion = catholic
 		size = 150
 	}
+	
+	farmers = {
+		culture = criollo
+		religion = catholic
+		size = 4350
+	}
 
 	farmers = {
 		culture = guarani
 		religion = catholic
-		size = 14350
+		size = 10000
 	}
 }
 #Rosario (8000/2000 POPS)
@@ -820,7 +832,7 @@
 	farmers = {
 		culture = criollo
 		religion = catholic
-		size = 1600
+		size = 2900
 	}
 
 	slaves = {
@@ -858,7 +870,7 @@
 	farmers = {
 		culture = criollo
 		religion = catholic
-		size = 900
+		size = 2900
 	}
 }
 #Cochinoca (4000/1000 POPS)

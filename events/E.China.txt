@@ -122,8 +122,8 @@ country_event = {
 		relation = { who = YUE value = -200 }
 		government = absolute_monarchy
 		prestige = 5
-		ANN = { all_core = { add_core = DAI remove_core = ANN } primary_culture = vietnamese }
-		change_tag = DAI
+		ANN = { all_core = { add_core = DAI remove_core = CHI } primary_culture = vietnamese }
+		DAN = { all_core = { add_core = DAI } }
 		ai_chance = { factor = 80 }
 	}
 }

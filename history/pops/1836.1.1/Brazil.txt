@@ -3331,7 +3331,7 @@
 	farmers = {
 		culture = criollo
 		religion = catholic
-		size = 900
+		size = 4900
 	}
 	
 	slaves = {
@@ -3455,7 +3455,7 @@
 	farmers = {
 		culture = criollo
 		religion = catholic
-		size = 900
+		size = 1100
 	}
 	
 	slaves = {
@@ -3491,7 +3491,7 @@
 	farmers = {
 		culture = tupinamba
 		religion = animist
-		size = 900
+		size = 1300
 	}
 }
 #Parana Region (512000)
@@ -3691,7 +3691,7 @@
 	farmers = {
 		culture = criollo
 		religion = catholic
-		size = 4575
+		size = 6575
 	}
 	
 	farmers = {
@@ -3721,13 +3721,13 @@
 	farmers = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 1200
+		size = 200
 	}
 
 	slaves = {
 		culture = afro_caribeno
 		religion = catholic
-		size = 2500
+		size = 1500
 	}
 
 	aristocrats = {
@@ -4149,7 +4149,7 @@
 	farmers = {
 		culture = criollo
 		religion = catholic
-		size = 4000
+		size = 14000
 	}
 
 	clergymen = {
@@ -4203,7 +4203,7 @@
 	farmers = {
 		culture = guarani
 		religion = animist
-		size = 14650
+		size = 4650
 	}
 }
 #Santa Maria (88000/22000 POPS)
@@ -4235,7 +4235,7 @@
 	farmers = {
 		culture = criollo
 		religion = catholic
-		size = 2000
+		size = 9000
 	}
 
 	clergymen = {
@@ -4265,7 +4265,7 @@
 	farmers = {
 		culture = guarani
 		religion = catholic
-		size = 10000
+		size = 3000
 	}
 
 	slaves = {
@@ -4297,7 +4297,7 @@
 	farmers = {
 		culture = criollo
 		religion = catholic
-		size = 2000
+		size = 12000
 	}
 
 	aristocrats = {

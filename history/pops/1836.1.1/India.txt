@@ -5314,65 +5314,65 @@
 	}
 
 	aristocrats = {
-		culture = hindi
-		religion = sunni
+		culture = gondi
+		religion = hindu
 		size = 650
 	}
 
 	clergymen = {
-		culture = hindi
-		religion = sunni
+		culture = gondi
+		religion = hindu
 		size = 600
 	}
 
 	artisans = {
-		culture = hindi
-		religion = sunni
+		culture = gondi
+		religion = hindu
 		size = 2000
 	}
 
 	soldiers = {
-		culture = hindi
-		religion = sunni
+		culture = gondi
+		religion = hindu
 		size = 650
 	}
 
 	serfs = {
-		culture = hindi
-		religion = sunni
+		culture = gondi
+		religion = hindu
 		size = 57000
 	}
 }
 #Raipur (804000/201000 POPS)
 1280 = {
 	aristocrats = {
-		culture = marathi
+		culture = gondi
 		religion = hindu
 		size = 850
 	}
 
 	clergymen = {
-		culture = marathi
+		culture = gondi
 		religion = hindu
 		size = 800
 	}
 
 	artisans = {
-		culture = marathi
+		culture = gondi
 		religion = hindu
 		size = 7000
 	}
 
 	soldiers = {
-		culture = marathi
+		culture = gondi
 		religion = hindu
 		size = 800
 	}
 
 	farmers = {
-		culture = marathi
+		culture = gondi
 		religion = hindu
-		size = 70550
+		size = 62550
 	}
 
 	aristocrats = {
@@ -5402,7 +5402,7 @@
 	farmers = {
 		culture = hindi
 		religion = sunni
-		size = 604225
+		size = 44225
 	}
 
 	serfs = {
@@ -5440,7 +5440,13 @@
 	farmers = {
 		culture = marathi
 		religion = hindu
-		size = 74300
+		size = 41300
+	}
+	
+	farmers = {
+		culture = gondi
+		religion = hindu
+		size = 24000
 	}
 
 	aristocrats = {
@@ -5470,7 +5476,7 @@
 	farmers = {
 		culture = hindi
 		religion = sunni
-		size = 50050
+		size = 54050
 	}
 
 	serfs = {
@@ -5582,13 +5588,13 @@
 	}
 
 	soldiers = {
-		culture = telegu
+		culture = gondi
 		religion = hindu
 		size = 1000
 	}
 
 	farmers = {
-		culture = telegu
+		culture = gondi
 		religion = hindu
 		size = 58400
 	}

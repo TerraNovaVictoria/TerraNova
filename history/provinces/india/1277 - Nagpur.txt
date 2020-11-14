@@ -1,6 +1,5 @@
-owner = RAI
-controller = RAI
-add_core = RAI
+owner = MAH
+controller = MAH
 add_core = MAH
 add_core = BIJ
 add_core = HND

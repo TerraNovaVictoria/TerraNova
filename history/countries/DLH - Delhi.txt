@@ -4,9 +4,9 @@ religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.02
+literacy = 0.06
 
-ruling_party = MUG_conservative
+ruling_party = DLH_reactionary
 upper_house = {
 	fascist = 0
 	liberal = 10
