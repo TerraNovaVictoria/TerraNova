@@ -1,4 +1,4 @@
-capital = 913
+capital = 908
 primary_culture = assyrian
 religion = syriac
 government = absolute_monarchy

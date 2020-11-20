@@ -1,6 +1,7 @@
-owner = IOU
-controller = IOU
-add_core = IOU
+owner = TRS
+controller = TRS
+add_core = TRS
+add_core = ULA
 trade_goods = cattle
 life_rating = 35
 terrain = austin

@@ -1,3 +1,4 @@
+add_core = TRS
 add_core = COL
 trade_goods = wool
 life_rating = 20

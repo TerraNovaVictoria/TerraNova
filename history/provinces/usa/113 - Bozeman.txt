@@ -1,4 +1,5 @@
-add_core = COL
+add_core = MIA
+add_core = ULA
 trade_goods = cattle
 life_rating = 20
 colonial = 2

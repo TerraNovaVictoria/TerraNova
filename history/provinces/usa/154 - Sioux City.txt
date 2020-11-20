@@ -1,6 +1,8 @@
-owner = MIA
-controller = MIA
+owner = DAK
+controller = DAK
+add_core = DAK
 add_core = MIA
+add_core = ULA
 trade_goods = grain
 life_rating = 35
 colonial = 2

@@ -1,6 +1,6 @@
 color = { 40 150 90 } 
-dominion = { 151 13 38 }
-subject = { 151 13 38 }
+dominion = { 99  14  87 }
+subject = { 99  14  87 }
 presidential_dictatorship = { 124 28 168 }
 provisional_state = { 124 28 168 }
 graphical_culture = ItalianGC

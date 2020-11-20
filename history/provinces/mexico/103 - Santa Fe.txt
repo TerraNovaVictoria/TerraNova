@@ -1,6 +1,5 @@
-add_core = IOU
-add_core = MIA
 add_core = TRS
+add_core = ULA
 trade_goods = fruit
 life_rating = 20
 colonial = 2

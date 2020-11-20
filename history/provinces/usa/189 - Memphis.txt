@@ -1,5 +1,6 @@
-owner = AVA
-controller = AVA
+owner = FOU
+controller = FOU
+add_core = FOU
 add_core = AVA
 trade_goods = cotton
 life_rating = 35

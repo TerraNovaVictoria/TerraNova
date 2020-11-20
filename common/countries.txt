@@ -17,6 +17,8 @@ VIC 	="countries/Nationalist France.txt"
 BOR		="countries/The Kingdom of France.txt"
 
 ##Terra Nova Nations
+AME		= "countries/Aramea.txt"
+FOU		= "countries/Four Nations.txt"
 MAG		= "countries/Magyaria.txt"
 SMD		= "countries/Samoyedia.txt"
 KET		= "countries/Ketia.txt"

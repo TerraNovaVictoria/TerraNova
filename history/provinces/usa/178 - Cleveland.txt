@@ -1,6 +1,6 @@
-owner = AVA
-controller = AVA
-add_core = AVA
+owner = MIA
+controller = MIA
+add_core = MIA
 trade_goods = coal
 life_rating = 35
 terrain = cleveland

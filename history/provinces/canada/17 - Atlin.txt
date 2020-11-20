@@ -1,5 +1,5 @@
-owner = RUS
-controller = RUS
+owner = CYM
+controller = CYM
 add_core = COL
 trade_goods = timber
 terrain = new_world_montane_tundra

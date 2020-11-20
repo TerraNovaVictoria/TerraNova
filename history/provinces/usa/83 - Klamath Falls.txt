@@ -1,5 +1,6 @@
-owner = RUS
-controller = RUS
+owner = TRS
+controller = TRS
+add_core = TRS
 add_core = COL
 trade_goods = timber
 life_rating = 20

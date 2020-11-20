@@ -1,6 +1,5 @@
-owner = MIA
-controller = MIA
 add_core = MIA
+add_core = ULA
 colonial = 2
 trade_goods = grain
 life_rating = 20

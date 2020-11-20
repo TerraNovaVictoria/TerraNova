@@ -1,4 +1,5 @@
 color = { 75  101  160 }
+colonial_company = { 255 120 50 }
 graphical_culture = SouthAmericanGC
 
 party = {

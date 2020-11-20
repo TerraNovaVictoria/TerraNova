@@ -1,5 +1,5 @@
-owner = CAN
-controller = CAN
+owner = MID
+controller = MID
 add_core = CAN
 add_core = MID
 add_core = ACA

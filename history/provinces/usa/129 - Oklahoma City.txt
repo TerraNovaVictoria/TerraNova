@@ -1,5 +1,4 @@
-add_core = IOU
-add_core = MIA
+add_core = ULA
 add_core = TRS
 colonial = 2
 trade_goods = grain

@@ -1,4 +1,16 @@
 ;;;;;;;;;;;;;;x,,,
+DAK;Dakota;;;;;;;;;;;;x;;;
+DAK_ADJ;Dakotan;;;;;;;;;;;;x;;;
+DAK_absolute_monarchy;The Sioux Empire;;;;;;;;;;;;x;
+DAK_prussian_constitutionalism;The Sioux Commonwealth;;;;;;;;;;;;x
+DAK_hms_government;The Sioux Commonwealth;;;;;;;;;;;;;x
+DAK_democracy;The Sioux Republic;;;;;;;;;;;;;x
+FOU;The Oshta Union;;;;;;;;;;;;x;;;
+FOU_ADJ;Oshta;;;;;;;;;;;;x;;;
+FOU_absolute_monarchy;The Oshta Federation;;;;;;;;;;;;x;
+FOU_prussian_constitutionalism;The Oshta Federation;;;;;;;;;;;;x
+FOU_hms_government;The Oshta Federation;;;;;;;;;;;;;x
+FOU_democracy;The Oshta Republic;;;;;;;;;;;;;x
 SIN_absolute_monarchy;The Tarkhan Sultanate;;;;;;;;;;;;;x
 SIN_absolute_monarchy_ADJ;Tarkhanid;;;;;;;;;;;;;x
 ORI_absolute_monarchy;The Bhoi Empire;;;;;;;;;;;;;x
@@ -1156,7 +1168,7 @@ CLM_fascist_dictatorship;The Neo-Muiscan Empire;;;;;;;;;;;;;x
 CLM_proletarian_dictatorship;The North Andean Council Republic;;;;;;;;;;;;;x
 CHR;Charrua;Charrua;Charrua;;;;;;;;;;;x;
 CHR_ADJ;Charruan;Charruan;Charruan;;;;;;;;;;;x;
-CHR_colonial_company;The Southern Provinces;;;;;;;;;;;;x
+CHR_colonial_company;The Congress of Bonaira;;;;;;;;;;;;x
 CHR_colonial_company_ADJ;Provincial;;;;;;;;;;;;x
 CHR_proletarian_dictatorship;Charruan Federation;Charruan Federation;Charruan Federation;;;;;;;;;;;x;
 CHR_presidential_dictatorship;The Charruan Provinces;The Charruan Provinces;The Charruan Provinces;;;;;;;;;;;x;

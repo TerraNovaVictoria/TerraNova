@@ -1,5 +1,6 @@
-owner = NYS
-controller = NYS
+owner = MID
+controller = MID
+add_core = MID
 add_core = NYS
 trade_goods = iron
 life_rating = 35

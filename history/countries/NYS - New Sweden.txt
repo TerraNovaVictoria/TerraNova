@@ -1,6 +1,5 @@
 capital = 223
-primary_culture = swedish
-culture = new_swedish
+primary_culture = new_swedish
 religion = protestant
 government = colonial_company
 plurality = 25.0
@@ -10,7 +9,7 @@ non_state_culture_literacy = 0.21
 civilized = yes
 
 # Political reforms
-slavery = yes_slavery
+slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = universal_weighted_voting
 public_meetings = yes_meeting

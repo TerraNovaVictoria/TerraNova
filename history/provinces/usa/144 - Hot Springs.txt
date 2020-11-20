@@ -1,6 +1,4 @@
-owner = MIA
-controller = MIA
 add_core = MIA
-add_core = IOU
+add_core = ULA
 trade_goods = grain
 life_rating = 35

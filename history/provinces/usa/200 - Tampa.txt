@@ -1,1 +1,1 @@
-owner = DUIcontroller = DUIadd_core = KLEtrade_goods = fruitlife_rating = 35
+owner = KLEcontroller = KLEadd_core = KLEtrade_goods = fruitlife_rating = 35

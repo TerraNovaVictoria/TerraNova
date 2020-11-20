@@ -1,1 +1,1 @@
-owner = MIAcontroller = MIAadd_core = MIAtrade_goods = fruitlife_rating = 35colonial = 2
+add_core = MIAadd_core = ULAadd_core = DAKtrade_goods = fruitlife_rating = 35colonial = 2

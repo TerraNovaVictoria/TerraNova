@@ -1,7 +1,7 @@
 owner = TRS
 controller = SPA
 add_core = TRS
-add_core = IOU
+add_core = ULA
 terrain = new_world_semidesert
 trade_goods = cattle
 life_rating = 35

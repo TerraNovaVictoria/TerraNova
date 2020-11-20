@@ -1,6 +1,6 @@
-owner = MIA
-controller = MIA
 add_core = MIA
+add_core = ULA
+add_core = DAK
 trade_goods = cattle
 life_rating = 35
 colonial = 2

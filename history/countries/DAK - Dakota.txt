@@ -1,13 +1,11 @@
-capital = 119
-primary_culture = yankee
-culture = dakota
+capital = 154
+primary_culture = dakota
 culture = native_american_minor
 religion = protestant
-government = democracy
+government = prussian_constitutionalism
 plurality = 0.1
 nationalvalue = nv_liberty
-literacy = 0.50
-civilized = yes
+literacy = 0.14
 
 
 # Political reforms
@@ -51,5 +49,3 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
-
-set_country_flag = new_world_nation

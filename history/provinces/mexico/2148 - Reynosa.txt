@@ -1,4 +1,5 @@
 add_core = TRS
+add_core = ULA
 trade_goods = coal
 life_rating = 35
 colonial = 2
