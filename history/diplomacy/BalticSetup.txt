@@ -1,0 +1,47 @@
+#Lithuania
+substate = {
+	first = UBD
+	second = LIT
+	start_date = 1801.1.1
+	end_date = 1881.1.1
+}
+
+#Livonia
+substate = {
+	first = UBD
+	second = LIV
+	start_date = 1801.1.1
+	end_date = 1881.1.1
+}
+
+#Curonia
+substate = {
+	first = LIV
+	second = CUR
+	start_date = 1801.1.1
+	end_date = 1881.1.1
+}
+
+#Latgalia
+substate = {
+	first = LIV
+	second = LAT
+	start_date = 1801.1.1
+	end_date = 1881.1.1
+}
+
+#Estonia
+substate = {
+	first = LIV
+	second = EST
+	start_date = 1801.1.1
+	end_date = 1881.1.1
+}
+
+#Riga
+substate = {
+	first = HNL
+	second = RIG
+	start_date = 1801.1.1
+	end_date = 1881.1.1
+}

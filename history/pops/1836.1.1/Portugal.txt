@@ -114,13 +114,13 @@
 	farmers = {
 		culture = leonese
 		religion = catholic
-		size = 23275
+		size = 14275
 	}
 
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 39275
+		size = 48275
 	}
 }
 #Covilha (568000/142000 POPS)

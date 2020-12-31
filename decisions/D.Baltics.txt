@@ -1,0 +1,25 @@
+political_decisions = {
+
+	#Rigan Future
+	rigan_future = {
+		picture = czech_autonomy
+		potential = {
+				tag = RIG
+				government = colonial_company
+				has_global_flag = end_of_the_ubd
+				is_vassal = yes
+			}
+		
+			allow = {
+				government = colonial_company
+			}
+		
+			effect = {
+				government = democracy
+				RIG = { country_event = 135003 }
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+}

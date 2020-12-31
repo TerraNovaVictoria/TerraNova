@@ -17,6 +17,8 @@ VIC 	="countries/Nationalist France.txt"
 BOR		="countries/The Kingdom of France.txt"
 
 ##Terra Nova Nations
+OUA		= "countries/Ouargla.txt"
+ALO		= "countries/Alaouita.txt"
 AME		= "countries/Aramea.txt"
 FOU		= "countries/Four Nations.txt"
 MAG		= "countries/Magyaria.txt"
@@ -581,7 +583,7 @@ SGF		= "countries/South German Fed.txt"
 WUR		= "countries/Wurttemberg.txt"
 
 # Italy
-LOM		= "countries/Lombardia.txt"
+CIS		= "countries/Cisalpina.txt"
 LUC		= "countries/Lucca.txt"
 MOD		= "countries/Modena.txt"
 PAP		= "countries/Papal States.txt"
@@ -628,7 +630,6 @@ WAL		="countries/Wallachia.txt"
 YUG		="countries/Yugoslavia.txt"
 
 # Africa
-ALD		="countries/Aldjazair.txt"
 CNG		="countries/Congo Free State.txt"
 EGY		="countries/Egypt.txt"
 ETH		="countries/Ethiopia.txt"

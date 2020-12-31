@@ -1,5 +1,7 @@
-owner = MOR
-controller = MOR
+owner = ALO
+controller = ALO
+add_core = ALO
+add_core = OUA
 add_core = MOR
 trade_goods = wool
 life_rating = 10

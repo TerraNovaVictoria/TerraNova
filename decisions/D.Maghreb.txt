@@ -1,0 +1,37 @@
+political_decisions = {
+
+	form_maghreb = { 
+		picture = greater_iran
+		potential = {
+			NOT = { exists = MGH }
+			OR = {
+				primary_culture = maghrebi
+				primary_culture = berber
+				primary_culture = maures
+				primary_culture = tuareg
+			}
+		}
+		
+		allow = {
+			SMK = { all_core = { owned_by = THIS } }
+			BUK = { all_core = { owned_by = THIS } }
+			1191 = { owned_by = THIS }
+			1196 = { owned_by = THIS }
+			1210 = { owned_by = THIS }
+		}
+		
+		effect = {
+			prestige = 10
+			KHI = { all_core = { add_core = TAJ remove_core = KHI } }
+			SMK = { all_core = { add_core = TAJ remove_core = SMK } }
+			BUK = { all_core = { add_core = TAJ remove_core = BUK } }
+			BDK = { all_core = { add_core = TAJ remove_core = BDK } }
+			change_tag = TAJ
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

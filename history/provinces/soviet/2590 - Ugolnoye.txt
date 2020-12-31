@@ -1,7 +1,8 @@
-owner = SPA
-controller = SPA
+owner = SPC
+controller = SPC
 add_core = SPC
 add_core = SPA
+add_core = TUN
 add_core = MOR
 trade_goods = fish
 terrain = ceuta

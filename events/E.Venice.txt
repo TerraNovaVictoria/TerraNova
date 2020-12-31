@@ -1,0 +1,171 @@
+country_event = {
+	id = 772100
+	title = "EVTNAME772100" #The Adriatic Wars
+	desc = "EVTDESC772100"
+	picture = "streetriot"
+	
+	trigger = {
+		tag = VEN
+		825 = { NOT = { controlled_by = THIS } }
+		VEN = { war_with = EPI }
+		has_country_flag = anti_venetian_sentiment
+	}
+	
+	mean_time_to_happen = { days = 30 }
+	fire_only_once = yes
+	
+	immediate = {
+		2582 = { secede_province = DLM add_core = DLM }
+		780 = { secede_province = DLM add_core = DLM }
+		781 = { secede_province = DLM add_core = DLM }
+		770 = { secede_province = DLM add_core = DLM }
+		782 = { add_core = VEN }
+		prestige = -5
+	}
+	
+	option = {
+		name = "EVTOPT772100A"
+		war = {
+			target = DLM
+			attacker_goal = { 
+				casus_belli = conquest
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		relation = { who = DLM value = -400 }
+		prestige = 5
+		badboy = 2.5
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPT772100B"
+		DLM = { all_core = { remove_core = VEN } }
+		relation = { who = DLM value = 200 }
+		ai_chance = { factor = 50 }
+	}
+		
+}
+
+country_event = {
+	id = 772101
+	title = "EVTNAME772101" #The Epirote Revolution
+	desc = "EVTDESC772101"
+	picture = "streetriot"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		825 = { secede_province = EPI }
+		824 = { secede_province = EPI }
+		835 = { secede_province = ATH }
+		838 = { secede_province = ATH }
+		EPI = { government = democracy }
+		prestige = -2.5
+	}
+	
+	option = {
+		name = "EVTOPT772101A"
+		826 = { add_core = EPI secede_province = EPI }
+		827 = { add_core = EPI secede_province = EPI }
+		war = {
+			target = EPI
+			attacker_goal = { 
+				casus_belli = conquest
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		set_country_flag = anti_venetian_sentiment
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT772101B"
+		prestige = -5
+		relation = { who = EPI value = 200 }
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "EVTOPT772101C"
+		826 = { add_core = EPI secede_province = EPI }
+		827 = { add_core = EPI secede_province = EPI }
+		war = {
+			target = EPI
+			attacker_goal = { 
+				casus_belli = conquest
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		set_country_flag = anti_venetian_sentiment
+		change_tag_no_core_switch = EPI
+		ai_chance = { factor = 0 }
+	}
+		
+}
+
+country_event = {
+	id = 772102
+	title = "EVTNAME772102" #The Aegean Wars
+	desc = "EVTDESC772102"
+	picture = "streetriot"
+	
+	trigger = {
+		tag = VEN
+		825 = { NOT = { controlled_by = THIS } }
+		VEN = { war_with = EPI }
+		has_country_flag = anti_venetian_sentiment
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	fire_only_once = yes
+	
+	immediate = {
+		any_owned = { limit = { is_core = SAM } secede_province = SAM }
+		release_vassal = SAM
+		SAM = { government = democracy }
+	}
+	
+	option = {
+		name = "EVTOPT772102A"
+		war = {
+			target = SAM
+			attacker_goal = { 
+				casus_belli = conquest
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		badboy = 5
+		ai_chance = { factor = 20 }
+	}
+	
+	option = {
+		name = "EVTOPT772102B"
+		relation = { who = SAM value = 400 }
+		ai_chance = { factor = 80 }
+	}
+	
+	option = {
+		name = "EVTOPT772102C"
+		war = {
+			target = SAM
+			attacker_goal = { 
+				casus_belli = conquest
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+		}
+		change_tag_no_core_switch = SAM
+		ai_chance = { factor = 0 }
+	}
+		
+}

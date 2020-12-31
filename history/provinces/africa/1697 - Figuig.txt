@@ -1,5 +1,6 @@
-owner = MOR
-controller = MOR
+owner = ALO
+controller = ALO
+add_core = ALO
 add_core = MOR
 terrain = semidesert
 trade_goods = wool

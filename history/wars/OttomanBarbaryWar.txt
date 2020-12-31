@@ -1,8 +1,10 @@
-name = "Anti-Spanish Uprising"
+name = "Magyar War for Independence"
 
-1835.10.2 = {
-	add_attacker = TUN
-	add_defender = TRI
+1835.12.12 = {
+	add_attacker = RUS
+	add_attacker = KOS
+	add_attacker = UDM
+	add_defender = HUN
 	
 	# actor
 	# receiver
@@ -10,20 +12,15 @@ name = "Anti-Spanish Uprising"
 	# country - 3rd party
 	# state_province_id - target state capital
 	war_goal = {
-		casus_belli = conquest
-		actor = TUN
-		receiver = TRI
+		casus_belli = establish_protectorate_casus_belli
+		actor = RUS
+		receiver = HUN
 	}
 	
 	war_goal = {
 		casus_belli = status_quo
-		actor = TRI
-		receiver = TUN
+		actor = HUN
+		receiver = RUS
 	}
 
-}
-
-1836.6.6 = {
-	rem_attacker = TUN
-	rem_defender = TRI
 }

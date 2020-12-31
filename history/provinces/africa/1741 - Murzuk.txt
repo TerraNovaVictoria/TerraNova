@@ -1,6 +1,7 @@
 owner = TUA
 controller = TUA
 add_core = TUA
+add_core = TRI
 trade_goods = fruit
 life_rating = 10
 1861.1.1 = {

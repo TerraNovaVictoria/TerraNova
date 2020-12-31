@@ -3,25 +3,25 @@
 #Ruse (188000/47000 POPS)
 811 = {
 	aristocrats = {
-		culture = north_german
+		culture = estonian
 		religion = protestant
 		size = 550
 	}
 
 	clergymen = {
-		culture = north_german
+		culture = estonian
 		religion = protestant
 		size = 100
 	}
 
 	artisans = {
-		culture = north_german
+		culture = estonian
 		religion = protestant
 		size = 850
 	}
 	
 	farmers = {
-		culture = north_german
+		culture = estonian
 		religion = protestant
 		size = 3950
 	}
@@ -38,8 +38,8 @@
 		size = 4600
 	}
 	
-	farmers = {
-		culture = estonian
+	aristocrats = {
+		culture = north_german
 		religion = protestant
 		size = 1150
 	}
@@ -705,13 +705,13 @@
 	soldiers = {
 		culture = selonian
 		religion = protestant
-		size = 200
+		size = 1200
 	}
 
 	farmers = {
 		culture = selonian
 		religion = protestant
-		size = 10925
+		size = 14925
 	}
 
 	aristocrats = {
@@ -729,7 +729,7 @@
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 7400
+		size = 2400
 	}
 
 	soldiers = {

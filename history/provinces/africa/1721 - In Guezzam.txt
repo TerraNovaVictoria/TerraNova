@@ -1,3 +1,4 @@
+add_core = OUA
 trade_goods = grain
 terrain = desert
 life_rating = 10 

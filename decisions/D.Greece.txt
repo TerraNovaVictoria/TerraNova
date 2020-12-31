@@ -71,4 +71,36 @@ political_decisions = {
 		}
 	}
 	
+	the_corinthian_secession = { 
+		picture = macedon_map
+		potential = {
+			OR = {
+				tag = MRE
+				tag = GRE
+			}
+			839 = { owned_by = THIS }
+			840 = { owned_by = VEN }
+			OR = {
+				has_country_flag = embraced_ionian_revolution
+				has_country_flag = accepted_ionian_revolution
+				has_country_flag = crushed_ionian_revolution
+			}
+		}
+		
+		allow = {
+			subject = no
+		}
+		
+		effect = {
+			prestige = 5
+			841 = { secede_province = THIS }
+			840 = { secede_province = THIS }
+			VEN = { country_event = 772101 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 }

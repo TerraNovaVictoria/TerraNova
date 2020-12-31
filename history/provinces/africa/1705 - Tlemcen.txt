@@ -1,7 +1,7 @@
-owner = CHN
-controller = CHN
+owner = TUN
+controller = TUN
+add_core = TUN
 add_core = CHN
-add_core = ALD
 trade_goods = fruit
 life_rating = 35
 1861.1.1 = {

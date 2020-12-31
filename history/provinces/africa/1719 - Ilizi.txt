@@ -1,5 +1,6 @@
 owner = TUA
 controller = TUA
 add_core = TUA
+add_core = OUA
 trade_goods = wool
 life_rating = 10

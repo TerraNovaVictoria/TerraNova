@@ -247,25 +247,25 @@
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 100
+		size = 150
 	}
 
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 100
+		size = 5000
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 100
+		size = 500
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 100
+		size = 4500
 	}
 }
 #Marjampole (240000/60000 POPS)
@@ -603,7 +603,7 @@
 	farmers = {
 		culture = selonian
 		religion = catholic
-		size = 8825
+		size = 3825
 	}
 
 	clergymen = {
@@ -633,25 +633,25 @@
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 100
+		size = 150
 	}
 
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 100
+		size = 2100
 	}
 
 	soldiers = {
 		culture = north_german
 		religion = protestant
-		size = 100
+		size = 500
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 850
+		size = 2850
 	}
 
 }

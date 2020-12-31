@@ -1,5 +1,6 @@
 capital = 359
-primary_culture = selonian
+primary_culture = north_german
+culture = selonian
 religion = protestant
 government = absolute_monarchy
 plurality = 0.2

@@ -1,4 +1,8 @@
 ;;;;;;;;;;;;;;x,,,
+OUA;Ouargla;;;;;;;;;;;;x;;;
+OUA_ADJ;Ouarglan;;;;;;;;;;;;x;;;
+OUA_absolute_monarchy;Banu Hilal;;;;;;;;;;;;x;;;
+OUA_absolute_monarchy_ADJ;Banu Hilali;;;;;;;;;;;;x;;;
 DAK;Dakota;;;;;;;;;;;;x;;;
 DAK_ADJ;Dakotan;;;;;;;;;;;;x;;;
 DAK_absolute_monarchy;The Sioux Empire;;;;;;;;;;;;x;
@@ -21,8 +25,22 @@ DLH_prussian_constitutionalism;The Delhi Sultanate;;;;;;;;;;;;;x
 DLH_prussian_constitutionalism_ADJ;Delhian;;;;;;;;;;;;;x
 DLH_hms_government;The Delhi Sultanate;;;;;;;;;;;;;x
 DLH_hms_government_ADJ;Delhian;;;;;;;;;;;;;x
+MOR_primitive_absolute_monarchy;The Saadites;;;;;;;;;;;;x;
+ALO;Fez;;;;;;;;;;;;x;;;
+ALO_ADJ;Fasi;;;;;;;;;;;;x;;;
+ALO_primitive_absolute_monarchy;The Alouites;;;;;;;;;;;;x;
+ALO_absolute_monarchy;The Alaouite Kingdom;;;;;;;;;;;;x;
+ALO_prussian_constitutionalism;The Alaouite Kingdom;;;;;;;;;;;;x
+ALO_hms_government;The Alaouite Kingdom;;;;;;;;;;;;;x
+ALO_democracy;The Fezzi Republic;;;;;;;;;;;;;x
 DLH;Hindustan;;;;;;;;;;;;;x
 DLH_ADJ;Hindustani;;;;;;;;;;;;;x
+AME;Aramea;;;;;;;;;;;;x;;;
+AME_ADJ;Aramea;;;;;;;;;;;;x;;;
+AME_absolute_monarchy;Aram;;;;;;;;;;;;x;
+AME_prussian_constitutionalism;Aram;;;;;;;;;;;;x
+AME_hms_government;Aram;;;;;;;;;;;;;x
+AME_democracy;The Aramean Republic;;;;;;;;;;;;;x
 GAY_absolute_monarchy;The Gayan Sultanate;;;;;;;;;;;;;x
 GAY_absolute_monarchy_ADJ;Gayani;;;;;;;;;;;;;x
 GAY_prussian_constitutionalism;The Gayan Sultanate;;;;;;;;;;;;;x

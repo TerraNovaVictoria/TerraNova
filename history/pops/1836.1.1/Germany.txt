@@ -4986,31 +4986,7 @@
 	farmers = {
 		culture = polish
 		religion = protestant
-		size = 1850 
-	}
-
-	clergymen = {
-		culture = selonian
-		religion = protestant
-		size = 25 
-	}
-
-	artisans = {
-		culture = selonian
-		religion = protestant
-		size = 150
-	}
-
-	soldiers = {
-		culture = selonian
-		religion = protestant
-		size = 25 
-	}
-
-	farmers = {
-		culture = selonian
-		religion = protestant
-		size = 8800 
+		size = 3850 
 	}
 }
 

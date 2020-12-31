@@ -599,7 +599,7 @@
 	farmers = {
 		culture = maghrebi
 		religion = sunni
-		size = 10250
+		size = 18250
 	}
 
 	aristocrats = {
@@ -661,7 +661,7 @@
 	farmers = {
 		culture = maghrebi
 		religion = sunni
-		size = 18725
+		size = 22725
 	}
 
 	aristocrats = {

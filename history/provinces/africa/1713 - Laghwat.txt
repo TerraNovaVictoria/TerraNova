@@ -1,7 +1,7 @@
-owner = CHN
-controller = CHN
-add_core = CHN
-add_core = ALD
+owner = TUN
+controller = TUN
+add_core = TUN
+add_core = OUA
 trade_goods = grain
 life_rating = 31
 terrain = semidesert
