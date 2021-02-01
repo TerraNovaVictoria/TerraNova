@@ -479,3 +479,84 @@ country_event = {
 	}
 	
 }
+
+country_event = {
+	id = 777718
+	title = "EVTNAME777718" #The Restoration of the Monarchy
+	desc = "EVTDESC777718"
+	picture = "battle_at_zorndorf"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT777718A" #The Lion Roars again
+		SPC = { all_core = { add_core = SPA remove_core = SPC } }
+		government = absolute_monarchy
+		change_tag = SPA
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 777719
+	title = "EVTNAME777719" #The Restoration of the Monarchy - Forced to let go of Aragon
+	desc = "EVTDESC777719"
+	picture = "battle_at_zorndorf"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT777719A" 
+		SPC = { all_core = { add_core = SPA remove_core = SPC } }
+		government = absolute_monarchy
+		change_tag = SPA
+		any_owned = { limit = { is_core = AGN } secede_province = AGN }
+		AGN = { all_core = { remove_core = SPC remove_core = SPA } }
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 777720
+	title = "EVTNAME777720" #The Rebirth of Aragon
+	desc = "EVTDESC777720"
+	picture = "aragonese_flag"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT777720A" 
+		capital = 495
+		SPA_498 = { all_provinces = { add_core = CAT } }
+		SPA_503 = { all_provinces = { add_core = CAT } }
+		any_pop = { 
+			limit = { culture = catalan }
+			militancy = 2 
+		}
+		ai_chance = { factor = 10 }
+	}
+	
+	option = {
+		name = "EVTOPT777720B" 
+		primary_culture = catalan
+		add_accepted_culture = aragonese
+		any_pop = { 
+			limit = { culture = aragonese }
+			militancy = 1 
+		}
+		prestige = 2.5
+		ai_chance = { factor = 60 }
+	}
+	
+	option = {
+		name = "EVTOPT777720C" 
+		capital = 503
+		primary_culture = catalan
+		add_accepted_culture = aragonese
+		prestige = 2.5
+		ai_chance = { factor = 30 }
+	}
+	
+}

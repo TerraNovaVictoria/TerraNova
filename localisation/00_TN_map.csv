@@ -63,48 +63,48 @@ PROV259;Sligeach;;;;;;;;;;x;;;;
 PROV257;Dinygal;;;;;;;;;;x;;;;
 PROV264;Caerdara;;;;;;;;;;x;;;;
 PROV256;Caertra;;;;;;;;;;x;;;;
-PROV296;Caerodor;;;;;;;;;;x;;;;
-PROV285;Caer;;;;;;;;;;x;;;;
-PROV299;Cernyw;;;;;;;;;;x;;;;
+PROV296;Caerloyw;;;;;;;;;;x;;;;
+PROV285;Lerpwl;;;;;;;;;;x;;;;
+PROV299;Penlyndon;;;;;;;;;;x;;;;
 PROV3265;Duisburg;;;;;;;;;;;;;;x
 PROV3269;Trefdraeth;;;;;;;;;;;;;;x
-PROV3268;Dyfnaint;;;;;;;;;;;;;;x
+PROV3268;Caerwysg;;;;;;;;;;;;;;x
 PROV291;Caergrawnt;;;;;;;;;;;;;;x
-PROV293;Gaerlleon;;;;;;;;;;;;;;x
+PROV293;Colyn;;;;;;;;;;;;;;x
 PROV301;Dofr;;;;;;;;;;;;;;x
 PROV300;Llundain;;;;;;;;;;;;;;x
-PROV292;Ychen;;;;;;;;;;;;;;x
-PROV298;Caerfaddon;;;;;;;;;;;;;;x
+PROV292;Caerwent;;;;;;;;;;;;;;x
+PROV298;Bryste;;;;;;;;;;;;;;x
 PROV297;Caersallog;;;;;;;;;;;;;;x
 PROV278;Manceinion;;;;;;;;;;;;;;x
 PROV294;Rhydychen;;;;;;;;;;;;;;x
-PROV277;Lerpwl;;;;;;;;;;;;;;x
-PROV279;Drefgaerog;;;;;;;;;;;;;;x
-PROV303;Wyth;;;;;;;;;;;;;;x
-PROV302;Trallwng;;;;;;;;;;;;;;x
-PROV289;Caerlyr;;;;;;;;;;;;;;x
-PROV288;Penarlâg;;;;;;;;;;;;;;x
-PROV286;Llwydlo;;;;;;;;;;;;;;x
-PROV295;Tafwys;;;;;;;;;;;;;;x
-PROV290;Lindon;;;;;;;;;;;;;;x
-PROV281;Ebrauc;;;;;;;;;;;;;;x
+PROV277;Aberlune;;;;;;;;;;;;;;x
+PROV279;Penrhyd;;;;;;;;;;;;;;x
+PROV303;Gwinntguic;;;;;;;;;;;;;;x
+PROV302;Caer Bryn;;;;;;;;;;;;;;x
+PROV289;Lerion;;;;;;;;;;;;;;x
+PROV288;Pentref;;;;;;;;;;;;;;x
+PROV286;Pengwern;;;;;;;;;;;;;;x
+PROV295;Cynwidion;;;;;;;;;;;;;;x
+PROV290;Llyndon;;;;;;;;;;;;;;x
+PROV281;Efrog;;;;;;;;;;;;;;x
 PROV280;Brynaich;;;;;;;;;;;;;;x
-PROV272;Metcaut;;;;;;;;;;;;;;x
+PROV272;Galwyddel;;;;;;;;;;;;;;x
 PROV271;Alclud;;;;;;;;;;;;;;x
 PROV269;Din Eidyn;;;;;;;;;;;;;;x
-PROV283;Amwythig;;;;;;;;;;;;;;x
-PROV282;Hep;;;;;;;;;;;;;;x
+PROV283;Elmet;;;;;;;;;;;;;;x
+PROV282;Lloed;;;;;;;;;;;;;;x
 PROV284;Bryncreigiog;;;;;;;;;;;;;;x
-PROV287;Twmpyn;;;;;;;;;;;;;;x
-PROV275;Powys;;;;;;;;;;;;;;x
-PROV276;Gwynedd;;;;;;;;;;;;;;x
-PROV274;Dyfed;;;;;;;;;;;;;;x
+PROV287;Llwydlo;;;;;;;;;;;;;;x
+PROV275;Y Trallwng;;;;;;;;;;;;;;x
+PROV276;Y Fangor;;;;;;;;;;;;;;x
+PROV274;Aberteifi;;;;;;;;;;;;;;x
 PROV273;Caerdydd;;;;;;;;;;;;;;x
 PROV270;Yr Wyddfa;;;;;;;;;;;;;;x
 PROV267;Eryri;;;;;;;;;;;;;;x
 PROV268;Penntir;;;;;;;;;;;;;;x
 PROV266;Ardewr;;;;;;;;;;;;;;x
-PROV304;Ynys Dyn;;;;;;;;;;;;;;x
+PROV304;Ynys Manaw;;;;;;;;;;;;;;x
 PROV464;Perpinyà;;;;;;;;;;;;;;x
 PROV474;A Coruña;;;;;;;;;;;;;;x
 PROV475;Uviéu;;;;;;;;;;;;;;x
@@ -125,7 +125,7 @@ PROV516;Xaén;;;;;;;;;;;;;;x
 PROV518;Porto;;;;;;;;;;;;;;x
 PROV521;Lisboa;;;;;;;;;;;;;;x
 PROV524;Plasencia;;;;;;;;;;;;;;x
-PROV1724;Manaw a Yell;;;;;;;;;;;;;;;;;;;;;;;;x
+PROV1724;Ynysoedd Erch a Yell;;;;;;;;;;;;;;;;;;;;;;;;x
 PROV2087;Cidade do Cabo;;;;;;;;;;;;;;x
 PROV2139;Rosarín;;;;;;;;;;;;;;x
 PROV2143;Pasu del Norte;;;;;;;;;;;;;;x
@@ -189,14 +189,14 @@ PROV2462;Santu Medero;;;;;;;;;;;;;;x
 PROV2463;Rufríu;;;;;;;;;;;;;;x
 PROV2465;Celoriu;;;;;;;;;;;;;;x
 PROV2532;Ciudadela San Xoaquim;;;;;;;;;;;;;;x
-ENG_266;Albidosia;;;;;;;;;;;;;;;;;;;;;;;;x
+ENG_266;Yr Alban;;;;;;;;;;;;;;;;;;;;;;;;x
 ENG_271;Ystrad Clud;;;;;;;;;;;;;;;;;;;;;;;;x
 ENG_273;Cymru;;;;;;;;;;;;;;;;;;;;;;;;x
 ENG_277;Rheged;;;;;;;;;;;;;;;;;;;;;;;;x
 ENG_280;Yr Ogledd;;;;;;;;;;;;;;;;;;;;;;;;x
-ENG_284;Elmet;;;;;;;;;;;;;;;;;;;;;;;;x
+ENG_284;Y Mers;;;;;;;;;;;;;;;;;;;;;;;;x
 ENG_291;Gogledd Lloegr;;;;;;;;;;;;;;;;;;;;;;;;x
-ENG_296;Kernow;;;;;;;;;;;;;;;;;;;;;;;;x
+ENG_296;Cernyw;;;;;;;;;;;;;;;;;;;;;;;;x
 ENG_300;De Lloegr;;;;;;;;;;;;;;;;;;;;;;;;x
 ENG_254;Ulaidh;;;;;;;;;;;;;;;;;;;;;;;;x
 ENG_258;Connachta;;;;;;;;;;;;;;;;;;;;;;;;x

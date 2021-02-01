@@ -32,6 +32,91 @@ country_event = {
 	
 }
 
+country_event = {
+	id = 777717
+	title = "EVTNAME777717" #The Fate of Spain
+	desc = "EVTDESC777717"
+	picture = "battle_at_zorndorf"
+	
+	trigger = {
+		tag = FRA
+		SPC = { vassal_of = THIS }
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	immediate = {
+		3252 = { secede_province = FRA }
+		464 = { secede_province = FRA }
+		499 = { secede_province = FRA }
+		498 = { secede_province = FRA }
+		501 = { secede_province = FRA }
+		500 = { secede_province = FRA }
+	}
+	
+	option = {
+		name = "EVTOPT777717A" #Release Spain as a whole
+		464 = { 
+			remove_core = SPC
+			remove_core = SPA
+			add_core = THIS
+		}
+		3252 = { secede_province = ADO remove_core = SPC remove_core = SPA }
+		create_vassal = ADO
+		release_vassal = SPC
+		SPC = { country_event = 777718 } #restoration of the monarchy
+		prestige = 20
+		ai_chance = { factor = 10 }
+	}
+	
+	option = {
+		name = "EVTOPT777717B" #Release spain and aragon
+		464 = { 
+			remove_core = SPC
+			remove_core = SPA
+			add_core = THIS
+		}
+		3252 = { secede_province = ADO remove_core = SPC remove_core = SPA }
+		create_vassal = ADO
+		493 = { add_core = AGN }
+		CAT = { all_core = { add_core = AGN remove_core = CAT } }
+		499 = { secede_province = AGN }
+		498 = { secede_province = AGN }
+		501 = { secede_province = AGN }
+		500 = { secede_province = AGN }
+		AGN = { add_accepted_culture = catalan }
+		AGN = { capital = 498 }
+		release_vassal = SPC
+		SPC = { country_event = 777719 } #restoration of the monarchy
+		prestige = 20
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+		name = "EVTOPT777717C" #Release spain and aragon - continue as aragon
+		464 = { 
+			remove_core = SPC
+			remove_core = SPA
+			add_core = THIS
+		}
+		3252 = { secede_province = ADO remove_core = SPC remove_core = SPA }
+		create_vassal = ADO
+		493 = { add_core = AGN }
+		CAT = { all_core = { add_core = AGN remove_core = CAT } }
+		499 = { secede_province = AGN }
+		498 = { secede_province = AGN }
+		501 = { secede_province = AGN }
+		500 = { secede_province = AGN }
+		AGN = { add_accepted_culture = catalan }
+		AGN = { capital = 498 }
+		release_vassal = SPC
+		SPC = { country_event = 777719 } #restoration of the monarchy
+		change_tag_no_core_switch = AGN
+		ai_chance = { factor = 0 }
+	}
+	
+}
+
 ###FRENCH CIVIL WAR EVENTS###
 
 country_event = {

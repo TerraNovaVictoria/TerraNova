@@ -1,0 +1,24 @@
+political_decisions = {
+
+	#La Renaixença
+	reapers_rise = {
+		picture = aragon_coa
+		potential = {
+				tag = AGN
+				NOT = { has_country_flag = aragon_reborn }
+			}
+		
+			allow = {
+				is_subject = no
+			}
+		
+			effect = {
+				AGN = { country_event = 777720 }
+				prestige = 5
+				set_country_flag = aragon_reborn
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+}
