@@ -21,4 +21,40 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
+	#Claim Neapolitana
+	claim_sicilia = {
+		picture = italian_islands
+		potential = {
+				tag = AGN
+				has_country_flag = aragon_reborn
+				NOT = { has_country_flag = aragon_claimed_sicily }
+			}
+		
+			allow = {
+				nationalism_n_imperialism = 1
+				OR = {
+					AND = {
+						is_greater_power = yes
+						prestige = 50
+					}
+					AND = {
+						government = fascist_dictatorship
+						prestige = 25
+					}
+				}
+			}
+		
+			effect = {
+				SRD = { all_core = { add_core = AGN } }
+				SYC = { all_core = { add_core = AGN } }
+				SIC = { all_core = { add_core = AGN } }
+				CRS = { all_core = { add_core = AGN } }
+				prestige = 5
+				badboy = 10
+				set_country_flag = aragon_claimed_sicily
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
 }
