@@ -1,6 +1,6 @@
 capital = 60
-primary_culture = avalonian
-culture = creoliaid
+primary_culture = creoliaid
+culture = avalonian
 religion = protestant
 government = dominion
 plurality = 25.0

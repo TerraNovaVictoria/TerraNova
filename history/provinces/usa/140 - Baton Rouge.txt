@@ -1,5 +1,6 @@
 owner = AVA
 controller = AVA
 add_core = AVA
+add_core = KLE
 trade_goods = cotton
 life_rating = 35

@@ -2,6 +2,66 @@
 #Benadir Region (392000)
 #under the loose rule of Muscat in 1836
 #Mogadishu (216000/54000 POPS)
+#Mayotte (8000/2000 POPS) 
+2124 = {
+
+	aristocrats = {
+		culture = somali
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = somali
+		religion = sunni
+		size = 25
+	}
+
+	artisans = {
+		culture = somali
+		religion = sunni
+		size = 250
+	}
+
+	soldiers = {
+		culture = somali
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = somali
+		religion = sunni
+		size = 2340
+	}
+
+}
+#Walvis Bay (4000/1000 POPS)
+2083 = {
+	aristocrats = {
+		culture = somali
+		religion = sunni
+		size = 50
+	}
+
+	artisans = {
+		culture = somali
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = somali
+		religion = sunni
+		size = 100
+	}
+
+	farmers = {
+		culture = somali
+		religion = sunni
+		size = 2925
+	}
+}
 1868 = {
 	aristocrats = {
 		culture = somali

@@ -1,6 +1,7 @@
 graphical_culture = UsGC
-color = { 111  165  227 }
-
+color = { 0 51 128 }
+colonial_company = { 210 16 52 }
+dominion = { 168 15 33 }
 party = {
 	name = "UIL_liberal"
 	start_date = 1854.1.1

@@ -1,5 +1,5 @@
-owner = AVA
-controller = AVA
+owner = FOU
+controller = FOU
 add_core = AVA
 add_core = FOU
 trade_goods = grain

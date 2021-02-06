@@ -302,32 +302,6 @@
 }
 #Namaqualand Region (64000) #see South Africa.txt for balance of region
 #uncolonized in 1836/dominated by the Nama in 1836
-#Walvis Bay (4000/1000 POPS)
-2083 = {
-	aristocrats = {
-		culture = khoisan
-		religion = animist
-		size = 15
-	}
-
-	artisans = {
-		culture = khoisan
-		religion = animist
-		size = 50
-	}
-
-	soldiers = {
-		culture = khoisan
-		religion = animist
-		size = 10
-	}
-
-	farmers = {
-		culture = khoisan
-		religion = animist
-		size = 1925
-	}
-}
 #Angra Pequena (28000/7000 POPS)
 2084 = {
 	aristocrats = {

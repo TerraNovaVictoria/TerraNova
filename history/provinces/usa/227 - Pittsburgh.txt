@@ -1,6 +1,6 @@
-owner = AVA
-controller = AVA
-add_core = AVA
+owner = UIL
+controller = UIL
+add_core = UIL
 add_core = MID
 add_core = NYS
 trade_goods = coal

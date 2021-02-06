@@ -720,7 +720,7 @@ BUR_1339 = { 1339 1341 1342 } #Kachin
 
 ENG_1343 = { 1343 1344 1320 3264 } #Tenasserim
 
-ENG_2125 = { 2125 2127 2126 2124 2123 2128 } #Indian Ocean Territory
+ENG_2125 = { 2125 2127 2126 2123 2128 } #Indian Ocean Territory
 
 
 ### Indochina
@@ -962,7 +962,7 @@ ENG_1844 = { 1844 1845 1846 1847 1832 } #Sudd
 
 ETH_1852 = { 1852 1854 1855 1863 } #Begemder
 
-ETH_1853 = { 1853 1856 1857 1858 } #Tigray
+ETH_1853 = { 1853 1856 1857 1858 1875 } #Tigray
 
 ETH_1859 = { 1859 1860 1861 1862 } #Shewa
 
@@ -970,9 +970,9 @@ ETH_1865 = { 1865 1866 1867 1864 } #Hararghe
 
 ENG_1848 = { 1848 1849 1850 1851 } #Eritrea
 
-SOM_1868 = { 1868 1869 1870 1871 1872 } #South Somaliland
+SOM_1868 = { 1868 1869 1870 1871 1872 2083 } #South Somaliland
 
-SOM_1872 = { 1873 1874 1875 } #North Somaliland
+SOM_1872 = { 1873 1874 2124 } #North Somaliland
 
 ENG_2024 = { 2024 2030 2032 2027 2029 2033 } #Kenya
 
@@ -1101,7 +1101,7 @@ ENG_2074 = { 2074 2075 2076 2077 2574 } #Bechuanaland
 
 ENG_2078 = { 2078 2079 2080 2081 2082 } #Hereroland
 
-ENG_2083 = { 2083 2084 2085 2086 } #Namaqualand
+ENG_2083 = { 2084 2085 2086 } #Namaqualand
 
 ENG_2087 = { 2087 2090 2089 2091 2092 } #Cape Colony
 

@@ -299,6 +299,13 @@ substate = {
 
 substate = {
 	first = CYM
+	second = UIL
+	start_date = 1825.1.1
+	end_date = 1936.1.1
+}
+
+substate = {
+	first = CYM
 	second = MIA
 	start_date = 1825.1.1
 	end_date = 1936.1.1
