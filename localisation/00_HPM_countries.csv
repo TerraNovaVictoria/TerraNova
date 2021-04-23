@@ -321,16 +321,6 @@ MSS;Samos;;;;;;;;;;;;;;;;;;x;;;;
 MSS_ADJ;Greek;;;;;;;;;;;;;;;;;;x;;;;
 RDL;Ardalan;;;;;;;;;;;;;;;;;;x;;;;
 RDL_ADJ;Ardalani;;;;;;;;;;;;;;;;;;x;;;;
-BTL;Van;;;;;;;;;;;;;;;;;;x;;;;
-BTL_ADJ;Vani;;;;;;;;;;;;;;;;;;x;;;;
-BNB;Baban;;;;;;;;;;;;;;;;;;x;;;;
-BNB_ADJ;Babani;;;;;;;;;;;;;;;;;;x;;;;
-BDN;Hakkari;;;;;;;;;;;;;;;;;;x;;;;
-BDN_ADJ;Hakkari;;;;;;;;;;;;;;;;;;x;;;;
-MKN;Mukriyan;;;;;;;;;;;;;;;;;;x;;;;
-MKN_ADJ;Mukriyani;;;;;;;;;;;;;;;;;;x;;;;
-BHT;Bohtan;;;;;;;;;;;;;;;;;;x;;;;
-BHT_ADJ;Bohtani;;;;;;;;;;;;;;;;;;x;;;;
 SRN;Soran;;;;;;;;;;;;;;;;;;;x;;;;
 SRN_ADJ;Sorani;;;;;;;;;;;;;;;;;;;x;;;;
 LBG;Limburg;;;;;;;;;;;;;;;;;;;x;;;;
@@ -979,16 +969,6 @@ DRA;Dravidistan;;;;;;;;;;;;x
 DRA_absolute_monarchy;Dravidian Empire;;;;;;;;;;;;x
 DRA_fascist_dictatorship;Dravid Nadu;;;;;;;;;;;;x
 DRA_ADJ;Dravidian;;;;;;;;;;;;x
-DUR;Pashtunistan;;;;;;;;;;;;x
-DUR_ADJ;Pashtun;;;;;;;;;;;;x
-DUR_absolute_monarchy;Durrani Empire;;;;;;;;;;;;x
-DUR_prussian_constitutionalism;Durrani Empire;;;;;;;;;;;;x
-DUR_hms_government;Durrani Empire;;;;;;;;;;;;x
-DUR_absolute_monarchy_ADJ;Durrani;;;;;;;;;;;;x
-DUR_prussian_constitutionalism_ADJ;Durrani;;;;;;;;;;;;x
-DUR_hms_government_ADJ;Durrani;;;;;;;;;;;;x
-DUR_fascist_dictatorship;Durrani Republic;;;;;;;;;;;;x
-DUR_fascist_dictatorship_ADJ;Durrani;;;;;;;;;;;;x
 ENT;Entre Rios;;;;;;;;;;;;;x
 ENT_ADJ;Entrerriano;;;;;;;;;;;;;x
 ENT_conservative;Federalistas;;;;;;;;;;;;;x
@@ -1763,12 +1743,6 @@ PHL_liberal;Partido Liberal;Partido Liberal;Partido Liberal;;;;;;;;;;;x
 PHL_anarcho_liberal;Partido Libertad;Partido Libertad;Partido Libertad;;;;;;;;;;;x
 PHL_conservative;Partido Nacionalista;Partido Nacionalista;Partido Nacionalista;;;;;;;;;;;x
 PHL_fascist;Partido Nacional Socialista;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-PLC;The Polish-Lithuanian Commonwealth;;;;;;;;;;;;x
-PLC_ADJ;Polish-Lithuanian;;;;;;;;;;;;x
-PLC_proletarian_dictatorship;The Polish-Lithuanian Republic;;;;;;;;;;;;x
-PLC_fascist_dictatorship;The Polish-Lithuanian Republic;;;;;;;;;;;;x
-PLC_presidential_dictatorship;The Polish-Lithuanian Republic;;;;;;;;;;;;x
-PLC_democracy;Poland-Lithuania;;;;;;;;;;;;x
 PML;Pomerelia;;;;;;;;;;;;x
 PML_ADJ;Pomerelian;;;;;;;;;;;;x
 PNP;Pohnpei;Pohnpei;Pohnpei;;;;;;;;;;;;x
@@ -2181,8 +2155,6 @@ TAS_anarcho_liberal;Radical Liberals;Radical Liberals;Radical Liberals;;;;;;;;;;
 TAS_fascist;Fascist Party;Fascist Party;Fascist Party;;;;;;;;;;;x
 TCA;Transcaucasia;;;;;;;;;;;;x
 TCA_ADJ;Transcaucasian;;;;;;;;;;;;x
-TKM;Turkmenistan;;;;;;;;;;;;;x
-TKM_ADJ;Turkmenian;;;;;;;;;;;;;x
 TKM_conservative;Royal Faction;Faction royale;Königsfraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TKM_liberal;The Liberal Faction;Faction libérale;Die liberale Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TKM_reactionary;The Nationalist Faction;Faction nationaliste;Die nationalistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;

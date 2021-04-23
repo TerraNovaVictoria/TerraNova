@@ -1,7 +1,8 @@
-color = { 56 114 52 }
+color = { 245 130 10 }
 primitive_absolute_monarchy = { 255 185 40 }
 proletarian_dictatorship = { 165 0 0 }
 fascist_dictatorship = { 255 185 0 }
+ancient_regime = { 128 128 174 }
 graphical_culture = MiddleEasternGC
 
 party = {

@@ -1,74 +1,55 @@
 country_event = {
 	id = 192201
-	title = "EVTNAME192201" #Gaelic Rebellion
+	title = "EVTNAME192201" #Great fire of Gloucester
 	desc = "EVTDESC192201"
-	picture = "irish_flag"
+	picture = "fire_of_gloucester"
 	
 	trigger = {
-		tag = CYM
-		has_country_modifier = springtime_of_nations
+		OR = {
+			tag = CYM
+			tag = UPE
+		}
 		NOT = {
-			has_global_flag = the_first_gaelic_uprising
+			exists = ENL
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 3
+		months = 1
 	}
 
 	fire_only_once = yes
 	
 	option = {
 		name = "EVTOPT192201A"
-		set_global_flag = the_first_gaelic_uprising
-		any_owned = {
-			limit = {
-				is_core = IRE
+		any_pop = {
+			limit = { 
+				location = {
+					province_id = 296
+				}
 			}
-			add_core = GAE
-			secede_province = GAE
+			reduce_pop = 0.95
 		}
-		any_owned = {
-			limit = {
-				is_core = SCO
-			}
-			add_core = GAE
-		}
-		267 = { secede_province = GAE } 
-		270 = { secede_province = GAE } 
-		271 = { secede_province = GAE } 
-		war = {
-			target = GAE
-			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
-		}
-		ai_chance = { factor = 100 }
+		money = -5000
+		296 = { life_rating = -5 }
+		set_country_flag = gloucester_in_ruins
+		ai_chance = { factor = 50 }
 	}
-		
+	
 	option = {
 		name = "EVTOPT192201B"
-		set_global_flag = the_first_gaelic_uprising
-		any_owned = {
-			limit = {
-				is_core = IRE
+		any_pop = {
+			limit = { 
+				location = {
+					province_id = 296
+				}
 			}
-			add_core = GAE
-			secede_province = GAE
+			reduce_pop = 0.90
 		}
-		any_owned = {
-			limit = {
-				is_core = SCO
-			}
-			add_core = GAE
-		}
-		267 = { secede_province = GAE } 
-		270 = { secede_province = GAE } 
-		271 = { secede_province = GAE } 
-		war = {
-			target = GAE
-			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
-		}
-		change_tag_no_core_switch = GAE
-		ai_chance = { factor = 0 }
+		prestige = -2.5
+		296 = { life_rating = -10 }
+		set_country_flag = gloucester_in_ruins
+		ai_chance = { factor = 50 }
 	}
 }
 
@@ -208,5 +189,55 @@ country_event = {
 			} 
 		}
 		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 192206
+	title = "EVTNAME192206" #A new capital for the empire?
+	desc = "EVTDESC192206"
+	picture = "london_westminster"
+	
+	trigger = {
+		OR = {
+			tag = CYM
+			tag = UPE
+		}
+		has_country_flag = gloucester_in_ruins
+	}
+	
+	mean_time_to_happen = {
+		days = 7
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT192206A"
+		296 = { add_province_modifier = { name = a_new_capitol_pry duration = 2700 }  }
+		296 = { life_rating = 10 }
+		prestige = 12.5
+		clr_country_flag = gloucester_in_ruins
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "EVTOPT192206B"
+		capital = 300
+		300 = { add_province_modifier = { name = a_new_capitol_pry duration = 2700 }  }
+		300 = { life_rating = 10 }
+		296 = { add_province_modifier = { name = infrastructure_projects duration = 365 }  }
+		clr_country_flag = gloucester_in_ruins
+		ai_chance = { factor = 70 }
+	}
+	
+	option = {
+		name = "EVTOPT192206C"
+		capital = 277
+		277 = { add_province_modifier = { name = a_new_capitol_pry duration = 2700 }  }
+		277 = { life_rating = 10 }
+		296 = { add_province_modifier = { name = infrastructure_projects duration = 365 }  }
+		clr_country_flag = gloucester_in_ruins
+		ai_chance = { factor = 30 }
 	}
 }

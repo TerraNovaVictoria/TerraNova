@@ -2,6 +2,6 @@ owner = IRQ
 controller = IRQ
 add_core = IRQ
 add_core = ANA
-add_core = PER
+add_core = TKM
 trade_goods = sulphur
 life_rating = 35

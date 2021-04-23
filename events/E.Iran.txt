@@ -1,7 +1,7 @@
 country_event = {
-	id = 2001836
-	title = "EVTNAME2001836" #The Decline of Persia
-	desc = "EVTDESC2001836"
+	id = 251700
+	title = "EVTNAME251700" #The Decline of Persia
+	desc = "EVTDESC251700"
 	picture = "graveyard_of_empires"
 	
 	trigger = {
@@ -18,8 +18,10 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "EVTOPT2001836A"
+		name = "EVTOPT251700A"
 		prestige = 10
+		HZJ = { country_event = 251704 }
+		KDH = { country_event = 251704 }
 		set_global_flag = the_decline_of_persia 
 		ai_chance = { factor = 100 }
 	}
@@ -27,9 +29,9 @@ country_event = {
 }
 
 country_event = {
-	id = 2011836
-	title = "EVTNAME2011836" #Pashtun Revolt
-	desc = "EVTDESC2011836"
+	id = 251701
+	title = "EVTNAME251701" #Pashtun Revolt
+	desc = "EVTDESC251701"
 	picture = "graveyard_of_empires"
 	major = yes
 	
@@ -37,13 +39,13 @@ country_event = {
 	fire_only_once = yes
 	
 	immediate = {
-		PER = {
+		TKM = {
 			release_vassal = AFG
 		}
 	}
 	
 	option = {
-		name = "EVTOPT2011836A"
+		name = "EVTOPT251701A"
 		any_pop = { militancy = 2 }
 		prestige = -5
 		AFG = { set_country_flag = won_over_persia }
@@ -51,7 +53,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPT2011836B"
+		name = "EVTOPT251701B"
 		any_pop = { militancy = 4 }
 		prestige = -2.5
 		war = {
@@ -70,16 +72,16 @@ country_event = {
 }
 
 country_event = {
-	id = 2021836
-	title = "EVTNAME2021836" #Pashtun Revolt Put Down
-	desc = "EVTDESC2021836"
+	id = 251702
+	title = "EVTNAME251702" #Pashtun Revolt Put Down
+	desc = "EVTDESC251702"
 	picture = "graveyard_of_empires"
 	
 	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
-		name = "EVTOPT2021836A"
+		name = "EVTOPT251702A"
 		any_pop = { militancy = -2 }
 		prestige = -15
 		government = subject 
@@ -90,23 +92,23 @@ country_event = {
 }
 
 country_event = {
-	id = 2031836
-	title = "EVTNAME2031836" #Sikhs occupied Peshawar
-	desc = "EVTDESC2031836"
+	id = 251703
+	title = "EVTNAME251703" #Sikhs occupied Peshawar
+	desc = "EVTDESC251703"
 	picture = "graveyard_of_empires"
 	
 	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
-		name = "EVTOPT2031836A"
+		name = "EVTOPT251703A"
 		any_pop = { militancy = 2 }
 		prestige = -2.5
 		ai_chance = { factor = 98 }
 	}
 	
 	option = {
-		name = "EVTOPT2031836A"
+		name = "EVTOPT251703A"
 		war = {
 			target = PNJ
 			attacker_goal = {
@@ -119,21 +121,257 @@ country_event = {
 }
 
 country_event = {
-	id = 2041836
-	title = "EVTNAME2041836" #Minor Afghan State joins the Revolt
-	desc = "EVTDESC2041836"
+	id = 251704
+	title = "EVTNAME251704" #Minor Afghan State joins the Revolt
+	desc = "EVTDESC251704"
 	picture = "graveyard_of_empires"
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPT2041836A"
-		AFG = { create_vassal = THIS }
+		name = "EVTOPT251704A"
 		government = primitive_absolute_monarchy
-		prestige = 2.5
+		THIS = { all_core = { remove_core = THIS } }
+		AFG = { inherit = THIS }
 		ai_chance = { factor = 100 }
 	}
 	
 
+
+}
+
+country_event = {
+	id = 251705
+	title = "EVTNAME251705" #Pashtun Revolt Successful
+	desc = "EVTDESC251705"
+	picture = "graveyard_of_empires"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT251705A"
+		any_pop = { militancy = -2 }
+		AFG = { all_core = { remove_core = TKM } }
+		prestige = -10
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 251706
+	title = "EVTNAME251706" #Fall of the Hajilarids
+	desc = "EVTDESC251706"
+	picture = "graveyard_of_empires"
+	major = yes
+	
+	trigger = {
+		tag = TKM
+		year = 1846
+		NOT = { year = 1848 }
+		government = primitive_absolute_monarchy
+		NOT = {
+			TKM = { 
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { vassal_of = THIS }
+					}
+				}
+			}
+		}
+	}
+	
+	mean_time_to_happen = { months = 3 }
+	
+	immediate = { 
+		TKM = { all_core = { remove_core = TKM } }	
+		government = absolute_monarchy
+		primary_culture = turkmen
+		1205 = { add_core = TKM secede_province = THIS }
+		1206 = { add_core = TKM }
+		1196 = { add_core = TKM }
+	}
+	
+	fire_only_once = yes
+	
+	option = { #Continue as Turkmenistan
+		name = "EVTOPT251706A"
+		any_pop = { militancy = 1 }
+		prestige = -10
+		TKM = { all_core = { remove_core = TKM } }
+		any_owned = {
+			limit = {
+				region = RUS_1196
+			}
+			add_core = TKM
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					region = PER_1136
+					region = PER_1140
+				}
+			}
+			add_core = PER
+			secede_province = PER
+		}
+		1130 = { add_core = PER secede_province = PER }
+		1127 = { add_core = PER secede_province = PER }
+		any_owned = {
+			limit = {
+				OR = {
+					region = PER_1148
+					region = PER_1121
+				}
+			}
+			add_core = KHR
+			secede_province = KHR
+		}
+		1129 = { add_core = KHR secede_province = KHR }
+		any_owned = {
+			limit = {
+				region = PER_1116
+			}
+			add_core = TAB
+			secede_province = TAB
+		}
+		any_owned = {
+			limit = {
+				region = PER_1112
+			}
+			add_core = TAL
+			secede_province = TAL
+		}
+		release_vassal = BLC
+		release_vassal = LUR
+		release_vassal = TAL
+		release_vassal = KHR
+		release_vassal = RDL
+		release_vassal = AFG
+		set_global_flag = collapse_of_persia
+		ai_chance = { factor = 100 }
+	}
+	
+	option = { #Continue as Tabaristan
+		name = "EVTOPT251706B"
+		any_pop = { militancy = 1 }
+		prestige = -10
+		TKM = { all_core = { remove_core = TKM } }
+		any_owned = {
+			limit = {
+				region = RUS_1196
+			}
+			add_core = TKM
+		}
+		1116 = { add_core = TKM }
+		any_owned = {
+			limit = {
+				OR = {
+					region = PER_1136
+					region = PER_1140
+				}
+			}
+			add_core = PER
+			secede_province = PER
+		}
+		1130 = { add_core = PER secede_province = PER }
+		1127 = { add_core = PER secede_province = PER }
+		any_owned = {
+			limit = {
+				OR = {
+					region = PER_1148
+					region = PER_1121
+				}
+			}
+			add_core = KHR
+			secede_province = KHR
+		}
+		1129 = { add_core = KHR secede_province = KHR }
+		any_owned = {
+			limit = {
+				region = PER_1116
+			}
+			add_core = TAB
+			secede_province = TAB
+		}
+		any_owned = {
+			limit = {
+				region = PER_1112
+			}
+			add_core = TAL
+			secede_province = TAL
+		}
+		release_vassal = BLC
+		release_vassal = LUR
+		release_vassal = TAL
+		release_vassal = KHR
+		release_vassal = RDL
+		release_vassal = AFG
+		set_global_flag = collapse_of_persia
+		change_tag_no_core_switch = TAB
+		ai_chance = { factor = 100 }
+	}
+	
+	option = { #Continue as Persia
+		name = "EVTOPT251706C"
+		any_pop = { militancy = 1 }
+		prestige = -10
+		TKM = { all_core = { remove_core = TKM } }
+		any_owned = {
+			limit = {
+				region = RUS_1196
+			}
+			add_core = TKM
+		}
+		1116 = { add_core = TKM }
+		any_owned = {
+			limit = {
+				OR = {
+					region = PER_1136
+					region = PER_1140
+				}
+			}
+			add_core = PER
+			secede_province = PER
+		}
+		1130 = { add_core = PER secede_province = PER }
+		1127 = { add_core = PER secede_province = PER }
+		any_owned = {
+			limit = {
+				OR = {
+					region = PER_1148
+					region = PER_1121
+				}
+			}
+			add_core = KHR
+			secede_province = KHR
+		}
+		1129 = { add_core = KHR secede_province = KHR }
+		any_owned = {
+			limit = {
+				region = PER_1116
+			}
+			add_core = TAB
+			secede_province = TAB
+		}
+		any_owned = {
+			limit = {
+				region = PER_1112
+			}
+			add_core = TAL
+			secede_province = TAL
+		}
+		release_vassal = BLC
+		release_vassal = LUR
+		release_vassal = TAL
+		release_vassal = KHR
+		release_vassal = RDL
+		release_vassal = AFG
+		set_global_flag = collapse_of_persia
+		change_tag_no_core_switch = PER
+		ai_chance = { factor = 100 }
+	}
 
 }

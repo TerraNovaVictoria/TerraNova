@@ -36,7 +36,6 @@ country_event = {
 		
 	option = {
 		name = "EVTOPTA120221"
-		government = absolute_monarchy
 		any_pop = {
 			scaled_militancy = {
 				ideology = liberal
@@ -79,54 +78,25 @@ country_event = {
 
 country_event = {
 	id = 120203
-	title = "EVTNAME120203" #The Albanian Reforms
+	title = "EVTNAME120203" #Albanian Nobles join the League
 	desc = "EVTDESC120203"
 	picture = "kurdish_soldiers"
 
-	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ALB
+		837 = { owned_by = ANT }
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
 		
 	option = {
-		name = "EVTOPTA120203" #minor reform
-		economic_reform = yes_admin_reform
-		economic_reform = yes_firearms_production
-		any_pop = {
-			scaled_militancy = {
-				ideology = liberal
-				factor = 0.5
-			}
-			scaled_militancy = {
-				ideology = conservative
-				factor = -0.5
-			}
-			scaled_militancy = {
-				ideology = reactionary
-				factor = -0.5
-			}
-		}
+		name = "EVTOPT120203A"
+		853 = { secede_province = THIS }
+		850 = { secede_province = THIS }
 	}
-	ai_chance = { factor = 50 }
-	
-	option = {
-		name = "EVTOPTB120203" #major reform
-		economic_reform = yes_education_reform
-		economic_reform = yes_admin_reform
-		economic_reform = yes_firearms_production
-		economic_reform = yes_finance_reform
-		economic_reform = yes_land_reform
-		any_pop = {
-			scaled_militancy = {
-				ideology = liberal
-				factor = -2
-			}
-			scaled_militancy = {
-				ideology = conservative
-				factor = 1
-			}
-			scaled_militancy = {
-				ideology = reactionary
-				factor = 1
-			}
-		}
-	}
-	ai_chance = { factor = 50 }
+	ai_chance = { factor = 100 }
 }

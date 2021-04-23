@@ -1,6 +1,6 @@
-owner = PER
-controller = PER
-add_core = PER
+owner = TKM
+controller = TKM
+add_core = TKM
 trade_goods = cattle
 life_rating = 35
 terrain = isfahan

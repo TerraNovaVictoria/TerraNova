@@ -202,3 +202,21 @@ country_event = {
 	}
 	
 }
+
+country_event = {
+	id = 135004
+	title = "EVTNAME135004" #Polish Infiltration
+	desc = "EVTDESC135004"
+	picture = "baltic_germans"
+	
+	is_triggered_only = yes
+	
+	immediate = { set_country_flag = polish_infiltration }
+	
+	option = {
+		name = "EVTOPT135004A"
+		relation = { who = POL value = -50 }
+		ai_chance = { factor = 100 }
+	}
+	
+}

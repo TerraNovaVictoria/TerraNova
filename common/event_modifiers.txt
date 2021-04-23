@@ -97,6 +97,12 @@ native_removal_act_policy = {
 ######TN MODIFIERS######
 ########################
 
+anti_colonial_sentiment = {
+	global_pop_militancy_modifier = 0.01
+	global_pop_consciousness_modifier = 0.01
+	icon = 16
+}
+
 exile_brc_government = {
 	prestige = -1
 	global_pop_consciousness_modifier = 0.01
@@ -301,12 +307,33 @@ repatriation = {
 	icon = 19
 }
 
+a_new_capitol_pry = {
+	immigrant_attract = 2.5
+	population_growth = 0.006
+	assimilation_rate = 0.75
+	icon = 19
+}
+
+infrastructure_projects = {
+	immigrant_attract = 0.5
+	population_growth = 0.006
+	assimilation_rate = 0.5
+	icon = 19
+}
+
 repopulating_the_wastes = {
 	immigrant_attract = 5
 	population_growth = 0.005
 	assimilation_rate = 0.75
 	farm_rgo_size = 0.75
 	mine_RGO_size = 0.75
+	icon = 19
+}
+
+founding_odessa = {
+	immigrant_attract = 2
+	population_growth = 0.008
+	assimilation_rate = 2
 	icon = 19
 }
 

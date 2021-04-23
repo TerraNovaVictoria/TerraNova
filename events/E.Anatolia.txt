@@ -169,11 +169,17 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 3
+		days = 7
 	}
 
 	immediate = {
 		set_global_flag = anarchy_in_the_balkans
+		895 = { secede_province = RMZ }
+		787 = { remove_core = ANA }
+		SER = { all_core = { remove_core = ANA } }
+		ALB = { all_core = { remove_core = ANA } }
+		HER = { all_core = { remove_core = ANA } }
+		KSV = { all_core = { remove_core = ANA } }
 	}
 
 	option = {
@@ -209,84 +215,15 @@ country_event = {
 		SER = { country_event = 121223 }
 		ANA = { release_vassal = HER }
 		HER = { country_event = 121223 }
-		relation = { who = WAL value = 400 }
-		relation = { who = SER value = 400 }
-		relation = { who = HER value = 400 }
+		relation = { who = WAL value = -50 }
+		relation = { who = SER value = -50 }
+		relation = { who = HER value = -50 }
 		any_pop = {
 			limit = { NOT = { is_primary_culture = yes } }
 			militancy = -1
 		}
 		ai_chance = {
-			factor = 95
-		}
-	}
-	
-	option = {
-		name = "EVTOPTB121222"
-		any_owned = {
-			limit = {
-				is_core = KSV
-			}
-			secede_province = KSV
-		}
-		787 = { secede_province = SER }
-		any_owned = {
-			limit = {
-				is_core = HER
-			}
-			secede_province = HER
-		}
-		any_owned = {
-			limit = {
-				is_core = ALB
-			}
-			secede_province = ALB
-		}
-		any_owned = {
-			limit = {
-				is_core = SER
-			}
-			secede_province = SER
-		}
-		ANA = { release_vassal = SER }
-		SER = { country_event = 121223 }
-		ANA = { release_vassal = HER }
-		HER = { country_event = 121223 }
-		relation = { who = WAL value = -200 }
-		relation = { who = SER value = -200 }
-		relation = { who = HER value = -200 }
-		relation = { who = KSV value = -200 }
-		any_pop = {
-			limit = { NOT = { is_primary_culture = yes } }
-			militancy = 1
-		}
-		war = {
-			target = SER
-			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
-			defender_goal = { casus_belli = status_quo }
-		}
-		war = {
-			target = WAL
-			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
-			defender_goal = { casus_belli = status_quo }
-		}
-		war = {
-			target = HER
-			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
-			defender_goal = { casus_belli = status_quo }
-		}
-		war = {
-			target = KSV
-			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
-			defender_goal = { casus_belli = status_quo }
-		}
-		war = {
-			target = ALB
-			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
-			defender_goal = { casus_belli = status_quo }
-		}
-		ai_chance = {
-			factor = 5
+			factor = 100
 		}
 	}
 
@@ -321,7 +258,7 @@ country_event = {
 		year = 1836
 	}
 	
-	mean_time_to_happen = { days = 1 }
+	mean_time_to_happen = { days = 7 }
 	fire_only_once = yes
 
 	option = {

@@ -1,7 +1,7 @@
 capital = 1121
 primary_culture = persian
 religion = shiite
-government = primitive_absolute_monarchy
+government = ancient_regime
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.09

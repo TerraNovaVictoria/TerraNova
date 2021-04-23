@@ -193,24 +193,21 @@ country_event = {
 		release_vassal = OSS
 		ORE = { government = democracy }
 		any_owned = {
-			limit = { is_core = CIR }
-			secede_province = CIR
+			limit = { is_core = BLK }
+			secede_province = BLK
 		}
 		any_owned = {
 			limit = { is_core = DAG }
 			secede_province = DAG
 		}
 		1055 = { add_core = DAG }
-		BLK = {
-			limit = { vassal_of = KMK }
-			annex_to = CIR 
-		}
 		CHY = {
 			limit = { vassal_of = KMK }
 			annex_to = DAG 
 		}
 		DAG = { all_core = { remove_core = KMK } }
-		CIR = { all_core = { remove_core = KMK } }
+		BLK = { all_core = { remove_core = KMK } }
+		ADY = { all_core = { remove_core = KMK } }
 		HUN = { all_core = { add_core = KMK } }
 		ORE = { all_core = { add_core = KMK } }
 		SMS = { all_core = { add_core = KMK } }
@@ -224,24 +221,20 @@ country_event = {
 		release_vassal = OSS
 		ORE = { government = democracy }
 		any_owned = {
-			limit = { is_core = CIR }
-			secede_province = CIR
+			limit = { is_core = BLK }
+			secede_province = BLK
 		}
 		any_owned = {
 			limit = { is_core = DAG }
 			secede_province = DAG
 		}
 		1055 = { add_core = DAG }
-		BLK = {
-			limit = { vassal_of = KMK }
-			annex_to = CIR 
-		}
 		CHY = {
 			limit = { vassal_of = KMK }
 			annex_to = DAG 
 		}
 		DAG = { all_core = { add_core = KMK } }
-		CIR = { all_core = { add_core = KMK } }
+		BLK = { all_core = { add_core = KMK } }
 		HUN = { all_core = { remove_core = KMK } }
 		ai_chance = { factor = 50 }
 	}
@@ -258,7 +251,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPT151003A" #Ok
-		969 = { secede_province = MOL }
 		970 = { add_core = MAG secede_province = MAG remove_core = POL }
 		972 = { add_core = MAG secede_province = MAG remove_core = POL }
 		release_vassal = DON
@@ -267,7 +259,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPT151003B" #nOt oNe iNcH sHalL bE gIveN uP
-		969 = { secede_province = MOL }
 		970 = { add_core = MAG secede_province = MAG remove_core = POL }
 		972 = { add_core = MAG secede_province = MAG remove_core = POL }
 		release_vassal = DON
@@ -291,23 +282,27 @@ country_event = {
 	
 	is_triggered_only = yes
 	
+	immediate = { 
+		release_vassal = CRI
+		government = democracy
+		DON = { all_core = { add_core = RUT remove_core = DON } }
+	}
+	
 	option = {
 		name = "EVTOPT151004A" #At least we are free...
 		963 = { secede_province = RUT }
-		DON = { all_core = { add_core = RUT } }
-		1045 = { remove_core = RUT remove_core = DON }
-		979 = { remove_core = RUT }
-		1047 = { remove_core = RUT }
-		1048 = { remove_core = RUT }
+		1045 = { remove_core = RUT }
 		974 = { add_core = MAG secede_province = MAG }
 		975 = { add_core = MAG secede_province = MAG }
-		976 = { add_core = MAG secede_province = MAG }
 		any_owned = {
 			limit = { is_core = RUS }
 			secede_province = RUS 
 		}
-		release_vassal = CRI
-		government = democracy
+		1046 = { remove_core = KMK secede_province = DON }
+		any_owned = {
+			add_core = DON
+		}
+		primary_culture = russian
 		ai_chance = { factor = 100 }
 	}
 

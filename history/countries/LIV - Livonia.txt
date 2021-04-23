@@ -1,7 +1,5 @@
-capital = 349
+capital = 355
 primary_culture = north_german
-culture = estonian
-culture = selonian
 religion = catholic
 government = theocracy
 plurality = 0.2

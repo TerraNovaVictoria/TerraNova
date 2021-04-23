@@ -1,0 +1,165 @@
+#Marathi/Bijapur Events
+
+country_event = {
+	id = 152600
+	title = "EVTNAME152600" #The Maratha Plot
+	desc = "EVTDESC152600"
+	picture = "maratha_hunters"
+
+	trigger = {
+		tag = MAR
+		exists = MAH
+		AND = {
+			MAR = { vassal_of = BIJ }
+			MAH = { vassal_of = BIJ }
+		}
+	}
+	
+	mean_time_to_happen = { months = 12 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT152600A"
+		relation = { who = MAH value = 400 }
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 152601
+	title = "EVTNAME152601" #The Unification of the Maratha
+	desc = "EVTDESC152601"
+	picture = "maratha_wedding"
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT152601A"
+		BIJ = { country_event = 152602 }
+		MAH = { annex_to = MAR }
+		ai_chance = { factor = 70 }
+	}
+	
+	option = {
+		name = "EVTOPT152601B"
+		relations = { who = MAH value = -400 }
+		relations = { who = BIJ value = 400 }
+		ai_chance = { factor = 30 }
+	}
+
+}
+
+country_event = {
+	id = 152602
+	title = "EVTNAME152602" #Growing Maratha Influence
+	desc = "EVTDESC152602"
+	picture = "maratha_wedding"
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT152602A"
+		prestige = -5
+		relations = { who = MAR value = -100 }
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 152603
+	title = "EVTNAME152603" #The Occupation of Bombay
+	desc = "EVTDESC152603"
+	picture = "maratha_massacre"
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT152603A"
+		BIJ = { country_event = 152604 }
+		relations = { who = BIJ value = -400 }
+		set_country_flag = occupation_of_bombay_attempt
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+		name = "EVTOPT152603B"
+		BIJ = { inherit = MAR }
+		ai_chance = { factor = 10 }
+	}
+
+}
+
+country_event = {
+	id = 152604
+	title = "EVTNAME152604" #The Bombay Massacre
+	desc = "EVTDESC152604"
+	picture = "maratha_massacre"
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT152604A"
+		prestige = -5
+		relations = { who = MAR value = -400 }
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 152605
+	title = "EVTNAME152605" #The Great Maratha Revolt
+	desc = "EVTDESC152605"
+	picture = "maratha_war"
+	major = yes
+
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT152605A"
+		war = {
+			target = MAR
+			attacker_goal = { 
+				casus_belli = conquest
+			}
+			defender_goal = {
+				casus_belli = conquest
+			}
+			call_ally = no
+		}
+		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 152606
+	title = "EVTNAME152606" #The Maratha Confederacy
+	desc = "EVTDESC152606"
+	picture = "maratha_wedding"
+
+	trigger = {
+		tag = MAR
+		NOT = { exists = MAH }
+		government = subject
+		MAR = { vassal_of = BIJ }
+	}
+	
+	mean_time_to_happen = { years = 6 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT152606A"
+		government = primitive_absolute_monarchy
+		ai_chance = { factor = 100 }
+	}
+
+}

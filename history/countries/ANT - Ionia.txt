@@ -1,5 +1,6 @@
 capital = 869
 primary_culture = greek
+culture = anatoli
 religion = orthodox
 government = presidential_dictatorship
 plurality = 0.0

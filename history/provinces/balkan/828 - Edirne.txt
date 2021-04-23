@@ -1,5 +1,5 @@
-owner = ANT
-controller = ANT
+owner = ANA
+controller = ANA
 add_core = GRE
 add_core = BUL
 add_core = ANA

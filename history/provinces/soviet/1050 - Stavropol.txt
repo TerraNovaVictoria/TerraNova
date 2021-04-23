@@ -1,7 +1,5 @@
-owner = KMK
-controller = KMK
+owner = BLK
+controller = BLK
 add_core = BLK
-add_core = CIR
-add_core = KMK
 trade_goods = wool
 life_rating = 35

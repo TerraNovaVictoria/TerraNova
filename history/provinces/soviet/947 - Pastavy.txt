@@ -2,7 +2,6 @@ owner = POL
 controller = POL
 add_core = POL
 add_core = RUT
-add_core = LIT
 add_core = UBD
 trade_goods = grain
 life_rating = 35

@@ -196,36 +196,36 @@
 		size = 4600
 	}
 }
-#Mawarannahr Region (112000) #see Kazakhstan.txt, persianistan.txt, persianistan.txt for balance of region 
+#Mawarannahr Region (112000) #see Kazakhstan.txt, tajikistan.txt, tajikistan.txt for balance of region 
 #under the rule of Kokand in 1836  
 #Osh (112000/28000 POPS) #Now part of Kirghizstan   
 1203 = {
 	aristocrats = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 175
 	}
 
 	clergymen = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 75
 	}
 
 	artisans = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 450
 	}
 
 	soldiers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 3550
 	}

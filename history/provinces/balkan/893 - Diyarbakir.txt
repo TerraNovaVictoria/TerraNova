@@ -6,6 +6,6 @@ add_core = SYR
 add_core = URM
 add_core = ASY
 add_core = KDS
-add_core = PER
+add_core = TKM
 trade_goods = iron
 life_rating = 35

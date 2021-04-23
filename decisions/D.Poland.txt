@@ -1,0 +1,58 @@
+political_decisions = {
+	
+	build_odessa = {
+		picture = found_odessa
+		potential = {
+			968 = { owned_by = THIS }
+			NOT = { has_global_flag = odessa_founded }
+		}
+		
+		allow = {
+			money = 50000
+			early_railroad = 1
+		}
+		
+		effect = {
+			money = -50000
+			prestige = 2.5
+			968 = { add_province_modifier = { name = founding_odessa duration = 3650 } }
+			968 = { life_rating = 10 }
+			968 = { change_province_name = "Chadzybej" }
+			set_global_flag = odessa_founded
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	support_lithuanian_nobles = {
+		picture = old_vilnius
+		potential = {
+			tag = POL
+			has_country_flag = 1837_pol_election
+			LIT = { exists = no }
+			AND = {
+				361 = { owned_by = UBD }
+				362 = { owned_by = UBD }
+				363 = { owned_by = UBD }
+				364 = { owned_by = UBD }
+				707 = { owned_by = UBD }
+			}
+			UBD = { NOT = { has_country_flag = polish_infiltration } }
+		}
+		
+		allow = {
+			money = 2000
+		}
+		
+		effect = {
+			money = -2000
+			UBD = { country_event = 135004 }
+			badboy = 2.5
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

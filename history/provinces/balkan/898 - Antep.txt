@@ -1,8 +1,8 @@
-owner = ANA
-controller = ANA
+owner = RMZ
+controller = RMZ
+add_core = RMZ
 add_core = ANA
 add_core = CLC
-add_core = EGY
 add_core = SYR
 trade_goods = wool
 life_rating = 35

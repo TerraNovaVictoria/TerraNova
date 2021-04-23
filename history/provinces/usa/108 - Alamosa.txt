@@ -1,4 +1,6 @@
+add_core = SHS
 add_core = TRS
+add_core = PUE
 colonial = 2
 trade_goods = cattle
 life_rating = 20

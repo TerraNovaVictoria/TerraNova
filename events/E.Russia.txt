@@ -131,3 +131,24 @@ country_event = {
 	}
 		
 }
+
+#####CAUCASIAN EVENTS#####
+
+country_event = {
+	id = 188102
+	title = "EVTNAME188102" #The Cherkess Unification
+	desc = "EVTDESC188102"
+	picture = "streetriot"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT188102A"
+		THIS = { all_core = { add_core = CIR remove_core = THIS } }
+		primary_culture = circassian
+		CIR = { inherit = THIS }
+		ai_chance = { factor = 100 }
+	}
+		
+}

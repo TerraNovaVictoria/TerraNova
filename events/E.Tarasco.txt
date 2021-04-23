@@ -1,0 +1,87 @@
+country_event = {
+	id = 290100
+	title = "EVTNAME290100" #Tarascan Convention
+	desc = "EVTDESC290100"
+	picture = "trs_convention"
+	
+	trigger = {
+		tag = TRS
+		government = colonial_company
+		year = 1836
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT290100A" #Towards Colombia
+		relation = { who = GCO value = 400 }
+		prestige = 5
+		ai_chance = { factor = 25 }
+	}
+		
+	option = {
+		name = "EVTOPT290100B" #Towards Independence
+		prestige = 5
+		government = provisional_state
+		ai_chance = { factor = 75 }
+	}
+}
+
+country_event = {
+	id = 290101
+	title = "EVTNAME290101" #Yucatan Joins the Revolution
+	desc = "EVTDESC290101"
+	picture = "trs_yucatan"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT290101A" #Delightful
+		YUC = { all_core = { add_core = TRS } }
+		TRS = { inherit = YUC }
+		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 290102
+	title = "EVTNAME290102" #Yucatan Revolution
+	desc = "EVTDESC290102"
+	picture = "trs_yucatan"
+	
+	trigger = {
+		tag = YUC
+		government = colonial_company
+		year = 1836
+	}
+	
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT290102A" #Republic
+		primary_culture = mexican
+		government = democracy
+		prestige = 2.5
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT290102B" #Monarchy
+		primary_culture = mayan
+		government = absolute_monarchy
+		prestige = 5
+		ai_chance = { factor = 0 }
+	}
+
+}

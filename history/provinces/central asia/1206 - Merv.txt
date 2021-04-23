@@ -1,9 +1,6 @@
 owner = SMK
 controller = SMK
 add_core = SMK
-add_core = KHI
-add_core = BDK
-add_core = TKM
 trade_goods = grain
 life_rating = 35
 terrain = semidesert

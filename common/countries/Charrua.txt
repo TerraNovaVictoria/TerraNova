@@ -1,5 +1,5 @@
 color = { 117  170  219 }
-colonial_company = { 255 172 117 }
+colonial_company = { 255 193 86 }
 proletarian_dictatorship = { 173 105 105 }
 fascist_dictatorship = { 228 163 62 }
 graphical_culture = SouthAmericanGC

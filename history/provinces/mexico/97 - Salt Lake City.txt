@@ -1,5 +1,7 @@
+owner = SHS
+controller = SHS
+add_core = SHS
 add_core = TRS
-add_core = COL
 trade_goods = coal
 life_rating = 20
 colonial = 2

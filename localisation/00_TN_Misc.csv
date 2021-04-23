@@ -1,4 +1,5 @@
 ;;;;;;;;;;;;;;x,,,
+circassian;Circassian;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;x;;;;
 new_swedish;Nyasvenska;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;x;;;;
 gondi;Gondi;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;x;;;;
 changduren;Tunghai;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;x;;;;
@@ -98,7 +99,7 @@ thai;Siamese;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;x;;;;
 agul;Agul;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;x;;;;
 tabasaran;Tabasaran;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;x;;;;
 dagestani;Dargin;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-circassian;Adygey;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+adygean;Adygey;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 karachai;Karachay;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 abkhaz;Abkhaz;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 kabardine;Kabardin;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -157,7 +158,7 @@ australian;Neuholländer;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 talysh;Adari;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 gilaki;Gilaki;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 mazanderani;Mazanderani;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
-anatoli;Kirmanjki;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+anatoli;Dimili;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 kazak;Kirgiz;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 ruthenian;Ruthenian;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 portuguese;Galician;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
@@ -167,7 +168,7 @@ aromanian;Aromanian;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 qashqai;Qashqai;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 turkish;Turkoman;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 azerbaijani;Azeri;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-breton;Brezhoneg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+breton;Breton;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 north_german;German;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 north_italian;Galloitalic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 south_italian;Sicilian;;;;;;;;;;;;;;;;;;;;;;;x;;;;

@@ -71,6 +71,41 @@ political_decisions = {
 		}
 	}
 	
+	seize_thrace = { 
+		picture = macedon_map
+		potential = {
+			828 = { owned_by = ANA }
+			THIS = { war_with = ANA }
+			OR = {
+				AND = {
+					tag = GRE
+					NOT = { has_global_flag = rome_has_fallen }
+				}
+				tag = ANT
+			}
+		}
+		
+		allow = {
+			AND = {
+				859 = { controlled_by = THIS }
+				860 = { controlled_by = THIS }
+			}
+		}
+		
+		effect = {
+			prestige = 10
+			830 = { secede_province = THIS } 
+			859 = { secede_province = THIS } 
+			828 = { secede_province = THIS } 
+			858 = { secede_province = THIS } 
+			860 = { secede_province = THIS } 
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	the_corinthian_secession = { 
 		picture = macedon_map
 		potential = {

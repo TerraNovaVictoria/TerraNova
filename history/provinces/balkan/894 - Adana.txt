@@ -1,5 +1,6 @@
-owner = ANA
-controller = ANA
+owner = RMZ
+controller = RMZ
+add_core = RMZ
 add_core = ANA
 add_core = CLC
 trade_goods = wool

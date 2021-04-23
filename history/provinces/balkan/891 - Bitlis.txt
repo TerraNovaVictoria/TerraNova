@@ -1,8 +1,9 @@
-owner = URM
-controller = URM
+owner = BTL
+controller = BTL
+add_core = BTL
 add_core = URM
 add_core = KDS
-add_core = PER
+add_core = TKM
 add_core = ARM
 add_core = IRQ
 trade_goods = grain

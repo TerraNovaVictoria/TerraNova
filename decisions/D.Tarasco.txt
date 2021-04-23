@@ -1,6 +1,6 @@
 political_decisions = {
 
-		claim_the_phoenix = {
+	claim_the_phoenix = {
 		picture = the_phoenix
 		potential = {
 			
@@ -94,6 +94,34 @@ political_decisions = {
 					any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
 				}
 			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	join_the_morelian_congress = {
+		picture = the_phoenix
+		potential = {
+			tag = YUC
+			OR = {
+				government = democracy
+				government = provisional_state
+				government = presidential_dictatorship
+			}
+			NOT = { year = 1837 }
+			TRS = { exists = yes }
+			TRS = { government = colonial_company }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			2165 = { remove_core = YUC }
+			BLZ = { all_core = { remove_core = YUC }
+			TRS = { country_event = 290101 }
 		}
 		ai_will_do = {
 			factor = 1

@@ -1,6 +1,7 @@
 owner = KLE
 controller = KLE
 add_core = KLE
+add_core = FOU
 trade_goods = cotton
 life_rating = 35
 

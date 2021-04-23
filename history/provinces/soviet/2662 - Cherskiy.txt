@@ -1,5 +1,6 @@
-owner = TRS
-controller = TRS
+owner = PUE
+controller = PUE
+add_core = PUE
 add_core = TRS
 add_core = ULA
 trade_goods = grain

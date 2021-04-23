@@ -1,5 +1,6 @@
 capital = 57
-primary_culture = canadian
+primary_culture = gwladychwr
+culture = canadian
 religion = protestant
 government = dominion
 plurality = 0.2

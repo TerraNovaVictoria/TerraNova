@@ -1,7 +1,6 @@
 owner = IDA
 controller = IDA
 add_core = IDA
-add_core = YOR
 add_core = ARO
 trade_goods = cattle
 life_rating = 35

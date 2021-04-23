@@ -37,7 +37,13 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 45750
+		size = 12750
+	}
+	
+	farmers = {
+		culture = uighur
+		religion = shiite
+		size = 4500
 	}
 
 	aristocrats = {
@@ -73,13 +79,13 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 3125
+		size = 125
 	}
 	
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 9250
+		size = 18250
 	}
 }
 828 = {
@@ -1093,7 +1099,7 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 11100
+		size = 10100
 	}
 	
 	soldiers = {
@@ -1117,13 +1123,13 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 2630
+		size = 1330
 	}
 	
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 6630
+		size = 8930
 	}
 }
 #Hania or CHANIA (72000/18000 POPS)
@@ -1167,7 +1173,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 5950
+		size = 3950
 	}
 
 	soldiers = {
@@ -1197,7 +1203,7 @@
 	slaves = {
 		culture = turkmen
 		religion = sunni
-		size = 1000
+		size = 3000
 	}
 }
 #Kutahya (112000/28000 POPS)
@@ -1229,7 +1235,13 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 24725
+		size = 10725
+	}
+	
+	farmers = {
+		culture = turkmen
+		religion = shiite
+		size = 14725
 	}
 	
 	soldiers = {
@@ -1297,13 +1309,13 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 23550
+		size = 15550
 	}
 	
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 5550
+		size = 14550
 	}
 	
 	soldiers = {
@@ -1555,7 +1567,13 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 9450
+		size = 3450
+	}
+	
+	farmers = {
+		culture = turkmen
+		religion = shiite
+		size = 6050
 	}
 }
 #Denizli (308000/77000 POPS)
@@ -1655,7 +1673,7 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 8175
+		size = 10175
 	}
 	
 	soldiers = {
@@ -1679,13 +1697,13 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 12875
+		size = 9875
 	}
 	
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 1000
+		size = 2000
 	}
 }
 #Karaman Region (820000)
@@ -1731,13 +1749,19 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 43475
+		size = 38475
+	}
+	
+	farmers = {
+		culture = uighur
+		religion = shiite
+		size = 8000
 	}
 	
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 37475
+		size = 41475
 	}
 
 	aristocrats = {
@@ -1773,7 +1797,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 16000
+		size = 2000
 	}
 	
 	farmers = {
@@ -1853,7 +1877,13 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 35025
+		size = 25025
+	}
+	
+	farmers = {
+		culture = turkmen
+		religion = shiite
+		size = 11025
 	}
 	
 	soldiers = {
@@ -1883,7 +1913,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 8875
+		size = 4875
 	}
 	
 	soldiers = {
@@ -2015,13 +2045,13 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 40000
+		size = 19500
 	}
 	
 	farmers = {
 		culture = persian
 		religion = sunni
-		size = 3125
+		size = 125
 	}
 	
 	farmers = {
@@ -2033,7 +2063,13 @@
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 2125
+		size = 24125
+	}
+	
+	farmers = {
+		culture = uighur
+		religion = shiite
+		size = 4000
 	}
 	
 	farmers = {
@@ -2075,7 +2111,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 5925
+		size = 925
 	}
 	
 	aristocrats = {
@@ -2179,7 +2215,13 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 6925
+		size = 2925
+	}
+	
+	farmers = {
+		culture = uighur
+		religion = shiite
+		size = 4000
 	}
 	
 	soldiers = {
@@ -2235,7 +2277,13 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 36225
+		size = 34225
+	}
+	
+	farmers = {
+		culture = uighur
+		religion = shiite
+		size = 4000
 	}
 	
 	farmers = {
@@ -2265,7 +2313,7 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 42700
+		size = 40700
 	}
 	
 	soldiers = {
@@ -2327,7 +2375,13 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 27000
+		size = 23000
+	}
+	
+	farmers = {
+		culture = uighur
+		religion = shiite
+		size = 4000
 	}
 	
 	farmers = {
@@ -2847,15 +2901,15 @@
 	}
 
 	soldiers = {
-		culture = greek
-		religion = orthodox
+		culture = anatoli
+		religion = shiite
 		size = 700
 	}
 
 	farmers = {
-		culture = armenian
-		religion = orthodox
-		size = 45350
+		culture = anatoli
+		religion = shiite
+		size = 1350
 	}
 	
 	aristocrats = {
@@ -2891,7 +2945,13 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 28200
+		size = 31200
+	}
+	
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 9500
 	}
 	
 	farmers = {
@@ -2969,39 +3029,39 @@
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 19950
+		size = 6950
 	}
 }
 #Ardahan (448000/112000 POPS)
 886 = {
 	aristocrats = {
-		culture = anatoli
+		culture = turkmen
 		religion = shiite
 		size = 650
 	}
 
 	clergymen = {
-		culture = anatoli
+		culture = turkmen
 		religion = shiite
 		size = 425
 	}
 
 	artisans = {
-		culture = anatoli
+		culture = turkmen
 		religion = shiite
 		size = 2150
 	}
 
 	soldiers = {
-		culture = anatoli
+		culture = turkmen
 		religion = shiite
 		size = 575
 	}
 
 	farmers = {
-		culture = armenian
-		religion = orthodox
-		size = 49200
+		culture = turkmen
+		religion = shiite
+		size = 9200
 	}
 	
 	soldiers = {
@@ -3025,7 +3085,7 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 28200
+		size = 29200
 	}
 	
 	soldiers = {
@@ -3035,21 +3095,21 @@
 	}
 	
 	clergymen = {
-		culture = armenian
+		culture = greek
 		religion = orthodox
 		size = 110
 	}
 	
 	artisans = {
-		culture = armenian
+		culture = greek
 		religion = orthodox
 		size = 110
 	}
 
 	farmers = {
-		culture = armenian
+		culture = greek
 		religion = orthodox
-		size = 5000
+		size = 3500
 	}
 	
 	aristocrats = {
@@ -3079,7 +3139,7 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 25550
+		size = 17550
 	}
 	
 	farmers = {
@@ -4222,45 +4282,51 @@
 #Adana (252000/63000 POPS)
 894 = {
 	aristocrats = {
-		culture = anatoli
-		religion = shiite
+		culture = turkmen
+		religion = sunni
 		size = 650
 	}
 
 	bureaucrats = {
-		culture = anatoli
-		religion = shiite
+		culture = turkmen
+		religion = sunni
 		size = 150
 	}
 
 	officers = {
-		culture = anatoli
-		religion = shiite
+		culture = turkmen
+		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = anatoli
-		religion = shiite
+		culture = turkmen
+		religion = sunni
 		size = 500
 	}
 
 	artisans = {
-		culture = anatoli
-		religion = shiite
+		culture = turkmen
+		religion = sunni
 		size = 2550
 	}
 
 	soldiers = {
-		culture = anatoli
-		religion = shiite
+		culture = turkmen
+		religion = sunni
 		size = 2625
 	}
 
 	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 30000
+	}
+	
+	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 34375
+		size = 8375
 	}
 	
 	soldiers = {
@@ -4284,7 +4350,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 6600
+		size = 2600
 	}
 
 	aristocrats = {
@@ -4358,13 +4424,13 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 11675
+		size = 7675
 	}
 	
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 5175
+		size = 11175
 	}
 
 	aristocrats = {
@@ -4400,7 +4466,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 4575
+		size = 2575
 	}
 }
 #Marash (192000/48000 POPS)
@@ -4432,7 +4498,13 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 42525
+		size = 8525
+	}
+	
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 32525
 	}
 	
 	farmers = {
@@ -4503,7 +4575,7 @@
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 425
+		size = 10425
 	}
 	
 	aristocrats = {
@@ -4533,7 +4605,13 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 39525
+		size = 5525
+	}
+	
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 24525
 	}
 
 	farmers = {
@@ -4625,7 +4703,7 @@
 	farmers = {
 		culture = kurdish
 		religion = sunni
-		size = 29000
+		size = 49000
 	}
 
 	farmers = {
@@ -4661,7 +4739,13 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 34650
+		size = 650
+	}
+	
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 14000
 	}
 
 	aristocrats = {
@@ -4879,7 +4963,13 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 16000
+		size = 5000
+	}
+	
+	farmers = {
+		culture = turkmen
+		religion = sunni
+		size = 11000
 	}
 
 }

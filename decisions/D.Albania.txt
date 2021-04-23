@@ -27,25 +27,20 @@ political_decisions = {
 		picture = quito_map
 		potential = {
 			tag = ALB
-			civilized = no
-			admin_reform = no_admin_reform
+			850 = { owned_by = THIS }
+			853 = { owned_by = THIS }
+			government = primitive_absolute_monarchy
 		}
 		
 		allow = {
 			war = no
-			OR = {
-				government = absolute_monarchy 
-				government = prussian_constitutionalism
-				government = hms_government
-				government = democracy
-				government = presidential_dictatorship
-			}
-			KSV = { exists = no }
+			government = primitive_absolute_monarchy
 		}
 		
 		effect = {
-			prestige = 15
-			ALB = { country_event = 120223 }
+			prestige = 5
+			government = absolute_monarchy
+			ALB = { country_event = 120201 }
 		}
 		
 		ai_will_do = {

@@ -17,8 +17,8 @@ political_decisions = {
 			}
 		
 			effect = {
-				1218 = { secede_province = THIS }  
-				AFG = { country_event = 2031836 }
+				1218 = { secede_province = THIS remove_core = TKM }  
+				AFG = { country_event = 251703 }
 				set_country_flag = intervened_in_afg
 			}
 
@@ -73,6 +73,114 @@ political_decisions = {
 				1267 = { add_core = THIS }
 				add_accepted_culture = hindi
 				set_country_flag = save_the_burning_world
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+#####MARATHI/BIJAPUR DECISIONS#####
+
+
+	#The Unification of the Maratha
+	mar_unites = {
+		picture = sikh_symbol
+		potential = {
+				tag = MAR
+				exists = MAH
+				AND = {
+					MAR = { vassal_of = BIJ }
+					MAH = { vassal_of = BIJ }
+				}
+			}
+		
+			allow = {
+				war = no
+				subject = yes
+				relation = { who = MAH value = 100 }
+			}
+		
+			effect = {
+				MAH = { all_core = { add_core = MAR } }
+				MAH = { country_event = 152601 }
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Bijapur takes control of Maharashtra
+	bij_annexes_mah = {
+		picture = sikh_symbol
+		potential = {
+				tag = BIJ
+				exists = MAH
+				MAH = { vassal_of = BIJ }
+			}
+		
+			allow = {
+				war = no
+				relation = { who = MAH value = 400 }
+			}
+		
+			effect = {
+				inherit = MAH
+				prestige = 5
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Bijapur takes control of Bombay
+	bij_annexes_mar = {
+		picture = sikh_symbol
+		potential = {
+				tag = BIJ
+				exists = MAR
+				MAR = { vassal_of = BIJ }
+				NOT = { 1299 = { owned_by = THIS } }
+			}
+		
+			allow = {
+				war = no
+				OR = { 
+					civilized = yes
+					AND = {
+						NOT = { MAH = { exists = yes } }
+						MAR = { government = primitive_absolute_monarchy }
+					}
+				}
+			}
+		
+			effect = {
+				1299 = { secede_province = THIS }
+				MAR = { country_event = 152603 }
+				prestige = 5
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Start the Maratha Revolt
+	maratha_revolt = {
+		picture = sikh_symbol
+		potential = {
+				tag = MAR
+				vassal_of = BIJ
+				NOT = { exists = MAH }
+				relation = { who = BIJ value = -400 }
+				has_country_flag = occupation_of_bombay_attempt
+			}
+		
+			allow = {
+				war = no
+			}
+		
+			effect = {
+				MAR = { all_core = { add_core = BIJ } }
+				BIJ = { country_event = 152605 }
+				BIJ = { release_vassal = THIS }
+				prestige = 5
+				government = absolute_monarchy
+				clr_country_flag = occupation_of_bombay_attempt
 			}
 
 		ai_will_do = { factor = 1 }

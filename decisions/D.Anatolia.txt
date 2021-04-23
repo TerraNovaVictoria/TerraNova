@@ -12,6 +12,7 @@ political_decisions = {
 		
 			allow = {
 				860 = { owned_by = THIS }
+				NOT = { exists = ANT }
 			}
 		
 			effect = {
@@ -21,39 +22,35 @@ political_decisions = {
 			ai_will_do = { factor = 1 }
 	}
 	
-	ana_roman_heritage = {
-			picture = abdulmejid_i
-			potential = {
-				tag = ANA
-				NOT = { exists = ANT }
-				government = ancient_regime
-				NOT = { exists = BUL }
-				war = no
+	end_trebizond_revolt = { 
+		picture = claim_pontus
+		potential = {
+			OR = {
+				AND = {
+					882 = { owned_by = ANT }
+					THIS = { war_with = ANT }
+				}
+				AND = {
+					882 = { owned_by = GRE }
+					THIS = { war_with = GRE }
+					has_global_flag = rome_has_prevailed
+				}
 			}
+			tag = ANA
+		}
 		
-			allow = {
-				capital = 860
-			}
+		allow = {
+			882 = { controlled_by = THIS }
+		}
 		
-			effect = {
-				limit = { SER = { vassal_of = ANA } }
-				SER = { annex_to = ANA }
-				limit = { HER = { vassal_of = ANA } }
-				HER = { annex_to = ANA }
-				limit = { IRQ = { vassal_of = ANA } }
-				IRQ = { all_core = { add_core = ANA } annex_to = ANA }
-				SYR = { all_core = { remove_core = IRQ } }
-				ARM = { all_core = { remove_core = IRQ } }
-				2414 = { remove_core = IRQ }
-				892 = { remove_core = IRQ }
-				1110 = { remove_core = IRQ }
-				primary_culture = anatoli
-				government = absolute_monarchy
-				ANA = { all_core = { add_core = RUM } }
-				prestige = 15
-				change_tag = RUM
-			}
-			ai_will_do = { factor = 1 }
+		effect = {
+			prestige = 5
+			PNT = { all_core = { secede_province = THIS } }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 	
 	ana_sultan_reforms = {
@@ -62,8 +59,6 @@ political_decisions = {
 				tag = ANA
 				NOT = { exists = ANT }
 				government = ancient_regime
-				exists = BUL
-				809 = { owned_by = BUL }
 				war = no
 			}
 		
@@ -72,15 +67,65 @@ political_decisions = {
 			}
 		
 			effect = {
-				IRQ = { all_core = { add_core = ANA } annex_to = ANA }
-				SYR = { all_core = { remove_core = IRQ } }
-				ARM = { all_core = { remove_core = IRQ } }
-				2414 = { remove_core = IRQ }
-				892 = { remove_core = IRQ }
-				1110 = { remove_core = IRQ }
+				SER = {
+					limit = { vassal_of = ANA } 
+					annex_to = ANA 
+				}
+				HER = {
+					limit = { vassal_of = ANA } 
+					annex_to = ANA 
+				}
+				IRQ = {
+					limit = { vassal_of = ANA }
+					annex_to = ANA 
+					all_core = { add_core = ANA }	
+					SYR = { all_core = { remove_core = IRQ } }	
+					ARM = { all_core = { remove_core = IRQ } }
+					2414 = { remove_core = IRQ }
+					892 = { remove_core = IRQ }
+					1110 = { remove_core = IRQ }					
+				}
+				WAL =  { government = ancient_regime }
 				government = absolute_monarchy
 				primary_culture = anatoli
 				prestige = 15
+			}
+			ai_will_do = { factor = 1 }
+	}
+	
+	zaza_persian_border_treaty = {
+			picture = greater_iran
+			potential = {
+				tag = ANA
+				NOT = { has_country_flag = ana_persian_border_treaty }
+			}
+		
+			allow = {
+				war = no
+				926 = { owned_by = THIS }
+			}
+		
+			effect = {
+				SER = {
+					limit = { vassal_of = ANA } 
+					annex_to = ANA 
+				}
+				HER = {
+					limit = { vassal_of = ANA } 
+					annex_to = ANA 
+				}
+				IRQ = {
+					limit = { vassal_of = ANA }
+					annex_to = ANA 
+					all_core = { add_core = ANA }	
+					SYR = { all_core = { remove_core = IRQ } }	
+					ARM = { all_core = { remove_core = IRQ } }
+					2414 = { remove_core = IRQ }
+					892 = { remove_core = IRQ }
+					1110 = { remove_core = IRQ }					
+				}
+				set_country_flag = ana_persian_border_treaty
+				prestige = 5
 			}
 			ai_will_do = { factor = 1 }
 	}

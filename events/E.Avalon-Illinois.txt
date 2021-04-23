@@ -1,0 +1,30 @@
+country_event = {
+	id = 160500
+	title = "EVTNAME160500" #Life in Avalon
+	desc = "EVTDESC160500"
+	picture = "caerrhun_painting"
+	
+	trigger = {
+		tag = AVA
+		OR = {
+			government = subject
+			government = dominion
+		}
+		year = 1836
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT160500A" #Avalon will be free one day
+		add_country_modifier = {
+			name = anti_colonial_sentiment
+			duration = -1
+		}
+		ai_chance = { factor = 100 }
+	}
+}

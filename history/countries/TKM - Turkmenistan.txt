@@ -1,10 +1,11 @@
 capital = 1204
-primary_culture = turkmen
+primary_culture = persian
+culture = turkmen
 religion = sunni
-government = absolute_monarchy
-plurality = 0.0
+government = primitive_absolute_monarchy
+plurality = 0.20
 nationalvalue = nv_tradition
-literacy = 0.02
+literacy = 0.07
 
 # Political reforms
 slavery = no_slavery

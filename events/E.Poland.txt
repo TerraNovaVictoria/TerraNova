@@ -1,0 +1,255 @@
+country_event = {
+	id = 078500
+	title = "EVTNAME078500" #The Legacy of Odessa
+	desc = "EVTDESC078500"
+	picture = "frc_costa_rica"
+	
+	trigger = {
+		968 = { owned_by = THIS }
+		has_global_flag = odessa_founded
+		968 = { NOT = { has_province_modifier = founding_odessa }
+		968 = { NOT = { is_core = ODS } }
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT078500A"
+		prestige = 5
+		968 = { add_core = ODS remove_core = MOL }
+		969 = { add_core = ODS remove_core = MOL }
+		677 = { add_core = ODS }
+		678 = { add_core = ODS }
+		life_rating = -5
+		ai_chance = { factor = 100 }
+	}
+		
+}
+
+country_event = {
+	id = 078501
+	title = "EVTNAME078501" #Integration into the CMW
+	desc = "EVTDESC078501"
+	picture = "frc_costa_rica"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT078501A"
+		THIS = { all_core = { add_core = CMW } }
+		CMW = { inherit = THIS }
+		ai_chance = { factor = 100 }
+	}
+		
+}
+
+######KING ELECTION EVENTS######
+
+country_event = {
+	id = 078502
+	title = "EVTNAME078502" #Kingly Election of 1837
+	desc = "EVTDESC078502"
+	picture = "great_sejm_one"
+	
+	trigger = {
+		OR = {
+			tag = POL
+			tag = CMW
+		}
+		government = elective_monarchy
+		AND = {
+			NOT = { has_country_flag = 1837_pol_election }
+			NOT = { has_country_flag = 1862_pol_election }
+			NOT = { has_country_flag = 1888_pol_election }
+			NOT = { has_country_flag = 1907_pol_election }
+		}
+		year = 1837
+	}
+	
+	mean_time_to_happen = { days = 14 }
+	
+	fire_only_once = yes
+	
+	immediate = { set_country_flag = 1837_pol_election }
+	
+	option = {
+		name = "EVTOPT078502A" #Saxon King
+		relation = { who = SAX value = 50 }
+		prestige = 2.5
+		set_country_flag = pol_sax_king
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT078502B" #Local Noble
+		prestige = 2.5
+		ai_chance = { factor = 0 }
+	}
+		
+}
+
+country_event = {
+	id = 078503
+	title = "EVTNAME078503" #Kingly Election of 1862
+	desc = "EVTDESC078503"
+	picture = "great_sejm_two"
+	
+	trigger = {
+		OR = {
+			tag = POL
+			tag = CMW
+		}
+		government = elective_monarchy
+		AND = {
+			has_country_flag = 1837_pol_election
+			NOT = { has_country_flag = 1862_pol_election }
+			NOT = { has_country_flag = 1888_pol_election }
+			NOT = { has_country_flag = 1907_pol_election }
+		}
+		year = 1862
+	}
+	
+	mean_time_to_happen = { days = 14 }
+	
+	fire_only_once = yes
+	
+	immediate = { 
+		clr_country_flag = 1837_pol_election
+		set_country_flag = 1862_pol_election
+		clr_country_flag = pol_sax_king
+	}
+	
+	option = {
+		name = "EVTOPT078503A" #A Saxon King
+		relation = { who = SAX value = 50 }
+		prestige = 2.5
+		set_country_flag = pol_sax_king
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPT078503B" #A local noble
+		prestige = 2.5
+		ai_chance = { factor = 30 }
+	}
+	
+	option = {
+		name = "EVTOPT078503C" #Bohemian King
+		any_pop = {
+			limit = { has_pop_culture = ruthenian }
+			militancy = 1
+			consciousness = 1
+		}
+		relation = { who = BOH value = 50 }
+		prestige = 5
+		set_country_flag = pol_boh_king
+		ai_chance = { factor = 20 }
+	}
+		
+}
+
+country_event = {
+	id = 078504
+	title = "EVTNAME078504" #Kingly Election of 1888
+	desc = "EVTDESC078504"
+	picture = "great_sejm_three"
+	
+	trigger = {
+		OR = {
+			tag = POL
+			tag = CMW
+		}
+		government = elective_monarchy
+		AND = {
+			NOT = { has_country_flag = 1837_pol_election }
+			has_country_flag = 1862_pol_election
+			NOT = { has_country_flag = 1888_pol_election }
+			NOT = { has_country_flag = 1907_pol_election }
+		}
+		year = 1888
+	}
+	
+	mean_time_to_happen = { days = 14 }
+	
+	fire_only_once = yes
+	
+	immediate = { 
+		clr_country_flag = 1862_pol_election
+		set_country_flag = 1888_pol_election
+		clr_country_flag = pol_boh_king
+	}
+	
+	option = {
+		name = "EVTOPT078504A" #Local Noble
+		any_pop = {
+			limit = { has_pop_culture = ruthenian }
+			militancy = 2
+			consciousness = 2
+		}
+		any_pop = {
+			limit = { has_pop_culture = polish }
+			militancy = -1
+			consciousness = -1
+		}
+		prestige = 2.5
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPT078504B" #Ruthenian Noble
+		any_pop = {
+			limit = { has_pop_culture = ruthenian }
+			militancy = -1
+			consciousness = -1
+		}
+		ai_chance = { factor = 50 }
+	}
+		
+}
+
+country_event = {
+	id = 078505
+	title = "EVTNAME078505" #Kingly Election of 1907
+	desc = "EVTDESC078505"
+	picture = "great_sejm_last"
+	
+	trigger = {
+		OR = {
+			tag = POL
+			tag = CMW
+		}
+		government = elective_monarchy
+		AND = {
+			NOT = { has_country_flag = 1837_pol_election }
+			NOT = { has_country_flag = 1862_pol_election }
+			has_country_flag = 1888_pol_election
+			NOT = { has_country_flag = 1907_pol_election }
+		}
+		year = 1907
+	}
+	
+	mean_time_to_happen = { days = 14 }
+	
+	fire_only_once = yes
+	
+	immediate = { 
+		clr_country_flag = 1888_pol_election
+		set_country_flag = 1907_pol_election
+	}
+	
+	option = {
+		name = "EVTOPT078505A" #A Local Noble
+		prestige = 5
+		any_pop = {
+			militancy = -1
+			consciousness = -1
+		}
+		ai_chance = { factor = 100 }
+	}
+		
+}

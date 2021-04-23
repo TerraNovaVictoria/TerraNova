@@ -1,8 +1,9 @@
 capital = 1056
 primary_culture = kabardine
+culture = circassian
 culture = balkar
 religion = orthodox
-government = absolute_monarchy
+government = primitive_absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.01

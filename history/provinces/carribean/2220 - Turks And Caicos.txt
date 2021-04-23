@@ -1,5 +1,5 @@
-owner = DUI
-controller = DUI
+owner = KLE
+controller = KLE
 add_core = KLE
 trade_goods = cotton
 life_rating = 35

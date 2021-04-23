@@ -1,5 +1,6 @@
 color = { 255 178 80 }
 subject = { 20 144 84 }
+primitive_absolute_monarchy = { 20 144 84 }
 graphical_culture = IndianGC
 
 party = {

@@ -1,7 +1,9 @@
-owner = ARM
-controller = ARM
+owner = BZD
+controller = BZD
+add_core = BZD
+add_core = URM
 add_core = ARM
-add_core = PER
+add_core = TKM
 trade_goods = iron
 life_rating = 35
 terrain = erivan

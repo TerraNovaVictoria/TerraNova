@@ -1,4 +1,3 @@
-add_core = OYO
 add_core = BID
 add_core = YOR
 add_core = SOK

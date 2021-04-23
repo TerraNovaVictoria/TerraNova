@@ -1,8 +1,8 @@
-capital = 1113
+capital = 1108
 primary_culture = persian
 culture = talysh
 religion = shiite
-government = primitive_absolute_monarchy
+government = subject
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.05
@@ -64,10 +64,5 @@ bronze_muzzle_loaded_artillery = 1
 # Starting Consciousness
 consciousness = 0
 nonstate_consciousness = 0
-
-govt_flag = {
-	government = absolute_monarchy
-	flag = theocracy
-}
 
 oob = "TAL_oob.txt"

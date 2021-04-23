@@ -143,7 +143,7 @@ political_decisions = {
 	}
 	
 	form_the_swahili_federation = {
-		picture = vassalize_lanfang
+		picture = greater_turkey
 		potential = {
 			primary_culture = swahili
 			NOT = { exists = SWA }
@@ -236,6 +236,48 @@ political_decisions = {
 			2027 = { add_core = SWA }
 			2032 = { add_core = SWA }
 			2024 = { add_core = SWA }
+			set_country_flag = delay_unciv_annexation
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	
+	form_the_yoruba_federation = {
+		picture = map_africa
+		potential = {
+			primary_culture = yoruba
+			OR = {
+				AND = {
+					OYO = { all_core = { owned_by = THIS } }
+					OWO = { all_core = { owned_by = THIS } }
+					AKU = { all_core = { owned_by = THIS } }
+				}
+				government = primitive_absolute_monarchy
+			}
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			OR = {
+				AND = {
+					OYO = { all_core = { owned_by = THIS } }
+					OWO = { all_core = { owned_by = THIS } }
+					AKU = { all_core = { owned_by = THIS } }
+				}
+			}
+			NOT = { has_country_flag = lacking_writing_system }
+		}
+		
+		effect = {
+			prestige = 10
+			OYO = { all_core = { remove_core = OYO } }
+			AKU = { all_core = { remove_core = AKU } }
+			OWO = { all_core = { remove_core = OWO } }
+			1925 = { add_core = YOR }
+			1927 = { add_core = YOR }
+			1930 = { add_core = YOR }
+			change_tag = YOR
 			set_country_flag = delay_unciv_annexation
 		}
 		
@@ -335,6 +377,186 @@ political_decisions = {
 		}
 		
 		ai_will_do = { factor = 1 }
+	}
+	
+	form_kds = { 
+		picture = kds_flag
+		potential = {
+			primary_culture = kurdish
+			NOT = { exists = KDS }
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				AND = {
+					nationalism_n_imperialism = 1
+					THIS = { all_core = { owned_by = THIS } }
+				}
+				AND = {
+					civilized = yes
+					1118 = { owned_by = THIS }
+					1110 = { owned_by = THIS }
+					924 = { owned_by = THIS }
+					892 = { owned_by = THIS }
+					2414 = { owned_by = THIS }
+				}
+				AND = {
+					civilized = no
+					KDS = { all_core = { owned_by = THIS } }
+				}
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			change_tag = KDS
+			1122 = { add_core = KDS }
+			1120 = { add_core = KDS }
+			901 = { add_core = KDS }
+			1111 = { add_core = KDS }
+			1109 = { add_core = KDS }
+			889 = { add_core = KDS }
+			888 = { add_core = KDS }
+			887 = { add_core = KDS }
+			THIS = { 
+				limit = { government = primitive_absolute_monarchy }
+				government = absolute_monarchy
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_cir = { 
+		picture = circassia_flag
+		potential = {
+			NOT = { exists = CIR }
+			OR = {
+				tag = ADY
+				tag = ABK
+				tag = BLK
+			}
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				AND = {
+					ADY = { all_core = { owned_by = THIS } }
+					BLK = { all_core = { owned_by = THIS } }
+				}
+				AND = {
+					tag = ADY 
+					BLK = { vassal_of = THIS }
+				}
+				AND = {
+					tag = BLK 
+					ADY = { vassal_of = THIS }
+				}
+			}
+		}
+		
+		effect = {
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = kabardine
+						primary_culture = adygean
+						primary_culture = abkhaz
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+						exists = no
+					}
+					NOT = {	tag = THIS }
+				}
+				country_event = 188102
+			}
+			THIS = { all_core = { add_core = CIR remove_core = THIS } }
+			primary_culture = circassian
+			change_tag = CIR
+			prestige = 10
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_cmw = { 
+		picture = cmw_flag
+		potential = {
+			NOT = { exists = CMW }
+			OR = {
+				tag = POL
+				tag = RUT
+			}
+		}
+		
+		allow = {
+			war = no
+			AND = {
+				OR = {
+					tag = POL
+					AND = {
+						POL = { all_core = { owned_by = THIS } }
+						NOT = { exists = POL }
+					}
+					POL = { vassal_of = THIS }
+				}
+				OR = {
+					OR = {
+						tag = RUT
+						AND = {
+							RUT = { all_core = { owned_by = THIS } }
+							NOT = { exists = RUT }
+						}
+						RUT = { vassal_of = THIS }
+					}
+					OR = {
+						AND = {	
+							NOT = { exists = RUT } 
+							OR = {
+								UKR = { vassal_of = THIS }
+								UKR = { all_core = { owned_by = THIS } }
+							}
+							OR = {
+								BYE = { vassal_of = THIS }
+								BYE = { all_core = { owned_by = THIS } }
+							}
+						}
+					}
+				}
+			}
+			revolution_n_counterrevolution = 1
+		}
+		
+		effect = {
+			change_tag = CMW
+			any_country = {
+				limit = {
+					OR = {
+						primary_culture = ruthenian
+						primary_culture = polish
+					}
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+					}
+					NOT = {	tag = THIS }
+				}
+				country_event = 078501
+			}
+			prestige = 10
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
 	}
 	
 }

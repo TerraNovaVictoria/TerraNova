@@ -1,7 +1,7 @@
-owner = ARM
-controller = ARM
+owner = GEO
+controller = GEO
 add_core = GEO
 add_core = ARM
-add_core = PER
+add_core = TKM
 trade_goods = wool
 life_rating = 35

@@ -1,6 +1,6 @@
 owner = BLC
 controller = BLC
 add_core = BLC
-add_core = PER
+add_core = TKM
 trade_goods = wool
 life_rating = 35

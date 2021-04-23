@@ -1,5 +1,5 @@
-capital = 60
-primary_culture = creoliaid
+capital = 212
+primary_culture = gwladychwr
 culture = avalonian
 religion = protestant
 government = dominion

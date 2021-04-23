@@ -37,8 +37,8 @@ centralization = regionalism
 colonial_policy = no_colonies 
 
 govt_flag = {
-	government = absolute_monarchy
-	flag = theocracy
+	government = primitive_absolute_monarchy
+	flag = fascist_dictatorship
 }
 
 ruling_party = AFG_conservative

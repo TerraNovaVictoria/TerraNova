@@ -1,11 +1,10 @@
 capital = 1098
 primary_culture = armenian
 religion = orthodox
-government = absolute_monarchy
+government = primitive_absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_order
 literacy = 0.1
-civilized = yes
 
 # Political reforms
 slavery = no_slavery
@@ -50,9 +49,5 @@ upper_house = {
 	communist = 0
 }
 
-
-1861.1.1 = {
-# Technologies
-
-#Inventions
-}
+foreign_weapons = yes_foreign_weapons
+flintlock_rifles = 1

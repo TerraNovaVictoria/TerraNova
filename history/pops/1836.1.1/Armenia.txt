@@ -214,7 +214,7 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 7325
+		size = 7125
 	}
 
 	aristocrats = {
@@ -238,6 +238,6 @@
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 2775
+		size = 5775
 	}
 }

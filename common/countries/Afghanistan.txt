@@ -1,4 +1,6 @@
 color = { 92  148  152 }
+primitive_absolute_monarchy = { 115 115 115 }
+proletarian_dictatorship = { 173 26 26 }
 subject = { 215 155 35 }
 graphical_culture = MiddleEasternGC
 

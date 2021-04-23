@@ -1,7 +1,7 @@
 owner = ANA
 controller = ANT
 add_core = ANA
-add_core = MCD
+add_core = LAR
 add_core = GRE
 trade_goods = silk
 life_rating = 35

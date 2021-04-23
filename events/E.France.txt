@@ -262,6 +262,7 @@ country_event = {
 			release_vassal = GSC
 			release_vassal = PRO
 		}
+		BRT = { country_event = 222208 }
 		prestige = 25
 	}
 	
@@ -323,6 +324,7 @@ country_event = {
 			release_vassal = GSC
 			release_vassal = PRO
 		}
+		BRT = { country_event = 222208 }
 		BAV = {
 			release_vassal = BGY
 			release_vassal = LOR
@@ -452,9 +454,39 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPT222206A" 
+		name = "EVTOPT222206B" 
 		prestige = 15
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 0 }
+	}
+	
+}
+
+country_event = {
+	id = 222208
+	title = "EVTNAME222208" #A new beginning for the Bretons
+	desc = "EVTDESC222208"
+	picture = "nantes"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		government = hms_government
+		primary_culture = breton
+	}
+	
+	option = {
+		name = "EVTOPT222208A" 
+		prestige = 5
+		government = democracy
+		BRT = { all_cores = { remove_core = FRA } }
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+		name = "EVTOPT222208B" 
+		add_accepted_culture = french
+		ai_chance = { factor = 10 }
 	}
 	
 }

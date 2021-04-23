@@ -1,7 +1,7 @@
 owner = PZN
 controller = PZN
 add_core = PZN
-add_core = PRU
+add_core = POL
 add_core = PML
 add_core = GER
 trade_goods = grain

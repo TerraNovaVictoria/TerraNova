@@ -5271,31 +5271,61 @@
 	aristocrats = {
 		culture = circassian
 		religion = sunni
-		size = 2750
+		size = 750
+	}
+	
+	aristocrats = {
+		culture = adygean
+		religion = sunni
+		size = 2000
 	}
 
 	clergymen = {
 		culture = circassian
 		religion = sunni
-		size = 1500
+		size = 500
+	}
+	
+	clergymen = {
+		culture = adygean
+		religion = sunni
+		size = 1000
 	}
 
 	artisans = {
 		culture = circassian
 		religion = sunni
-		size = 7500
+		size = 2500
+	}
+	
+	artisans = {
+		culture = adygean
+		religion = sunni
+		size = 5000
 	}
 
 	soldiers = {
 		culture = circassian
 		religion = sunni
-		size = 20000
+		size = 2000
 	}
-
+	
+	soldiers = {
+		culture = adygean
+		religion = sunni
+		size = 18000
+	}
+	
 	farmers = {
 		culture = circassian
 		religion = sunni
-		size = 118250
+		size = 8250
+	}
+
+	farmers = {
+		culture = adygean
+		religion = sunni
+		size = 110250
 	}
 }
 #Stavropol (188000/47000 POPS)
@@ -5457,31 +5487,61 @@
 	aristocrats = {
 		culture = circassian
 		religion = sunni
-		size = 1425
+		size = 425
+	}
+	
+	aristocrats = {
+		culture = adygean
+		religion = sunni
+		size = 1000
 	}
 
 	clergymen = {
 		culture = circassian
 		religion = sunni
-		size = 1200
+		size = 200
+	}
+	
+	clergymen = {
+		culture = adygean
+		religion = sunni
+		size = 1000
 	}
 
 	artisans = {
 		culture = circassian
 		religion = sunni
-		size = 1100
+		size = 600
+	}
+	
+	artisans = {
+		culture = adygean
+		religion = sunni
+		size = 500
 	}
 
 	soldiers = {
 		culture = circassian
 		religion = sunni
-		size = 10000
+		size = 2000
+	}
+	
+	soldiers = {
+		culture = adygean
+		religion = sunni
+		size = 8000
 	}
 
 	farmers = {
 		culture = circassian
 		religion = sunni
-		size = 90175
+		size = 3175
+	}
+	
+	farmers = {
+		culture = adygean
+		religion = sunni
+		size = 87175
 	}
 	
 	farmers = {
@@ -5499,7 +5559,7 @@
 	farmers = {
 		culture = kabardine
 		religion = sunni
-		size = 50175
+		size = 37175
 	}
 }
 #Dagestan Region (324000)
@@ -5823,15 +5883,27 @@
 #Pyatigorsk (136000/34000 POPS)
 1056 = {
 	aristocrats = {
+		culture = circassian
+		religion = sunni
+		size = 250
+	}
+	
+	aristocrats = {
 		culture = kabardine
 		religion = sunni
-		size = 675
+		size = 350
 	}
 
 	clergymen = {
+		culture = circassian
+		religion = sunni
+		size = 350
+	}
+	
+	clergymen = {
 		culture = kabardine
 		religion = sunni
-		size = 1350
+		size = 1000
 	}
 
 	officers = {
@@ -5841,27 +5913,51 @@
 	}
 
 	artisans = {
+		culture = circassian
+		religion = sunni
+		size = 500
+	}
+	
+	artisans = {
 		culture = kabardine
 		religion = sunni
-		size = 1700
+		size = 1200
 	}
 
 	soldiers = {
+		culture = circassian
+		religion = sunni
+		size = 3350
+	}
+	
+	soldiers = {
 		culture = kabardine
 		religion = sunni
-		size = 13350
+		size = 10000
+	}
+	
+	farmers = {
+		culture = circassian
+		religion = sunni
+		size = 5075
+	}
+	
+	farmers = {
+		culture = adygean
+		religion = sunni
+		size = 6875
 	}
 
 	farmers = {
 		culture = balkar
 		religion = sunni
-		size = 90875
+		size = 77875
 	}
 	
 	farmers = {
 		culture = kabardine
 		religion = sunni
-		size = 55875
+		size = 53875
 	}
 }
 #Kizylyar (68000/17000 POPS)

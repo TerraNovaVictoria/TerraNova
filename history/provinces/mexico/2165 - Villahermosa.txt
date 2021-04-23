@@ -1,5 +1,6 @@
-owner = TRS
-controller = TRS
+owner = YUC
+controller = YUC
+add_core = YUC
 add_core = TRS
 trade_goods = coffee
 life_rating = 30

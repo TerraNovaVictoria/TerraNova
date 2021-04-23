@@ -1,3 +1,4 @@
+add_core = SHS
 add_core = TRS
 add_core = COL
 trade_goods = timber

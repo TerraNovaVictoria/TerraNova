@@ -2,6 +2,6 @@ owner = SMK
 controller = SMK
 add_core = SMK
 add_core = BUK
-add_core = KOK
+add_core = BDK
 trade_goods = grain
 life_rating = 35

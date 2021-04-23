@@ -3,6 +3,6 @@ controller = ANA
 add_core = ANA
 add_core = URM
 add_core = ARM
-add_core = PER
+add_core = TKM
 trade_goods = cattle
 life_rating = 35

@@ -3,6 +3,6 @@ controller = KDH
 add_core = KDH
 add_core = BLC
 add_core = AFG
-add_core = PER
+add_core = TKM
 trade_goods = wool
 life_rating = 35

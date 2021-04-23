@@ -1,5 +1,6 @@
 owner = ULA
-controller = ULA
+controller = SPA
+add_core = CDD
 add_core = TRS
 add_core = ULA
 trade_goods = cattle

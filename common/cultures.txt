@@ -1746,6 +1746,18 @@ caucasian = {
 		}
 		
 		circassian = {
+		color = {234 225 53}
+		first_names = {
+			Aghwrbiy Abatiy Albech Albot "Alhx'es" "Alhx'o" Alijiqwe Bale Batirbiy Biylhosten Blaneshu Bubeird Chetsu "Ch'ischiqwe" Chawis Dariqwe Dokshiqua Dzeghaschte Dzune Foqwe Ghwaze Gushina Gushipsa Hegwtsire Hanaqua Hetsu Jirandiqwe Kwshbiy Lhostenasch Mamsriqwe Menshaq Meshiqwe Nalbiy Nartshu Nerzan Pschimaxwe Qideghaze Schebet Shumaxwe Shupashe Takwu Tsumash Tighwenbiy Tighwen Werdeschawe Wezroqwe Yedij Zhore
+			}
+		
+		last_names = {
+			Neghwey al-Shishani Shapsug Zhaney Temirgoy Natukhai Syupako Abadzehs Kerzedzh Kuytsuk Khatirame Birdzh Cherch Ubykhs Mamkhegh Kabarday Cherkess Hatuqwai Bzhedug Kabardi Adyghe
+		}
+		radicalism = 20
+		}
+		
+		adygean = {
 		color = {201 0 61}
 		first_names = {
 			Aghwrbiy Abatiy Albech Albot "Alhx'es" "Alhx'o" Alijiqwe Bale Batirbiy Biylhosten Blaneshu Bubeird Chetsu "Ch'ischiqwe" Chawis Dariqwe Dokshiqua Dzeghaschte Dzune Foqwe Ghwaze Gushina Gushipsa Hegwtsire Hanaqua Hetsu Jirandiqwe Kwshbiy Lhostenasch Mamsriqwe Menshaq Meshiqwe Nalbiy Nartshu Nerzan Pschimaxwe Qideghaze Schebet Shumaxwe Shupashe Takwu Tsumash Tighwenbiy Tighwen Werdeschawe Wezroqwe Yedij Zhore
@@ -1958,7 +1970,7 @@ iranian_turanian = {
 			}
 	}
 	anatoli = {
-		color = {114 76 57}
+		color = { 122 89 67 }
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
 			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
@@ -1996,6 +2008,21 @@ iranian_turanian = {
 	}
 	persian = {
 		color = {107 64 43}
+		first_names = {
+			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
+			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
+			Mahmoud Massoud Mohammad "Moin ed-Din" "Mozzafer ed-Din" Murad Muhsin 
+			"Naser ed-Din" Nosret Reza
+			}
+		last_names = {
+			Airom Ansari Ayrum Buzarjomehri Davallu Esfahani Farhani 
+			Jahanbani Kashani Khan Khuzai
+			Meshhedi Nakhchevani Pesyan Rokni Shafaei Shahbakhti 
+			Shirazi Tabrizi Tahmasebi Zahedi
+			}
+	}
+	tajik = {
+		color = {114 76 57}
 		first_names = {
 			Abbas Abolghasem Abdolhossein Abdolsamad Abdolazim Ahmad Ali Bahram
 			Ebrahim Esmail "Fath Ali" Fazlollah Hamzeh Hasan Hossein Kamran Karim "Lotf Ali" 
@@ -3373,6 +3400,46 @@ native_american = {
 		Curruchic Ixquiac López Manzanero Mas Menchú Mérida Mes Osorio Pek
 		Poot Pop Puk Shal Sho Tecú Teul Tuyuc Xicara Xiloj }
 	}
+	apache = {
+		color = { 165 125 100 }
+		first_names = { Antonio Carlos Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jesús José Juan Julio Lorenzo Manuel
+		Marcial Mario Martín Natalio Oliverio Pedro Roberto Rodolfo Santiago Víctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Gutiérrez Hernández
+		Huanitzin Itzel Ixtlilxochitl Jiménez Matlacuahuac Mayahuel Moxo Muñoz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicoténcatl Xochitl Zapata Zapotitla }
+	}
+	pawneeic = {
+		color = { 255 130 0 }
+		first_names = { Antonio Carlos Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jesús José Juan Julio Lorenzo Manuel
+		Marcial Mario Martín Natalio Oliverio Pedro Roberto Rodolfo Santiago Víctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Gutiérrez Hernández
+		Huanitzin Itzel Ixtlilxochitl Jiménez Matlacuahuac Mayahuel Moxo Muñoz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicoténcatl Xochitl Zapata Zapotitla }
+	}
+	wichitan = {
+		color = { 255 245 180 }
+		first_names = { Antonio Carlos Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jesús José Juan Julio Lorenzo Manuel
+		Marcial Mario Martín Natalio Oliverio Pedro Roberto Rodolfo Santiago Víctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Gutiérrez Hernández
+		Huanitzin Itzel Ixtlilxochitl Jiménez Matlacuahuac Mayahuel Moxo Muñoz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicoténcatl Xochitl Zapata Zapotitla }
+	}
+	caddoanic = {
+		color = { 255 245 215 }
+		first_names = { Antonio Carlos Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jesús José Juan Julio Lorenzo Manuel
+		Marcial Mario Martín Natalio Oliverio Pedro Roberto Rodolfo Santiago Víctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Gutiérrez Hernández
+		Huanitzin Itzel Ixtlilxochitl Jiménez Matlacuahuac Mayahuel Moxo Muñoz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicoténcatl Xochitl Zapata Zapotitla }
+	}
 	nahua = {
 		color = {94 181 181}
 		first_names = { Antonio Carlos Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
@@ -3383,8 +3450,18 @@ native_american = {
 		Huanitzin Itzel Ixtlilxochitl Jiménez Matlacuahuac Mayahuel Moxo Muñoz Nahui Ocelotl
 		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicoténcatl Xochitl Zapata Zapotitla }
 	}
+	comanche = {
+		color = {114 201 201}
+		first_names = { Antonio Carlos Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jesús José Juan Julio Lorenzo Manuel
+		Marcial Mario Martín Natalio Oliverio Pedro Roberto Rodolfo Santiago Víctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Gutiérrez Hernández
+		Huanitzin Itzel Ixtlilxochitl Jiménez Matlacuahuac Mayahuel Moxo Muñoz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicoténcatl Xochitl Zapata Zapotitla }
+	}
 	tarascan = {
-		color = {150 66 66}
+		color = {57 120 68}
 		first_names = { Agustín Alberto Alfredo Antonio Armando Arturo Carlos Cenobio Daniel Diego
 		Everardo Gerardo Gumersindo Héctor Jesús Juan Leobardo Luis Manuel Marcial
 		"Marco Antonio" Melchor Pedro Ricardo Salvador Samuel Sergio Silvano Silvestre Víctor }
@@ -3392,6 +3469,16 @@ native_american = {
 		last_names = { Almonte Arredondo Arriaga Aureoles Bernal Brito Calderón Cano Carrillo Cristóbal
 		Cuevas Dimas Esquivel Estrada Galeana Gallardo García Gómez López Maciel
 		Magaña Medrano Mena Ocampo Ochoa Paniagua Tinoco Toryo Vargas Zendejas }
+	}
+	shoshoni = {
+		color = {135 225 225}
+		first_names = { Antonio Carlos Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jesús José Juan Julio Lorenzo Manuel
+		Marcial Mario Martín Natalio Oliverio Pedro Roberto Rodolfo Santiago Víctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Gutiérrez Hernández
+		Huanitzin Itzel Ixtlilxochitl Jiménez Matlacuahuac Mayahuel Moxo Muñoz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicoténcatl Xochitl Zapata Zapotitla }
 	}
 	quechua = {
 		color = {178 141 85}
@@ -3412,6 +3499,16 @@ native_american = {
 		last_names = { Abjaisu Álvarez Ayegua Camba Chuaie Correa Cunhagatú Díaz Fernández Galeano 
 		Gómez González Guaracay Guaraní Guerrero Jopara López Mongelós Morla Ortíz
 		Paravé Picagua Riquelme Rivarola "Santa Cruz" Tarayú Torga Velázquez Yaguarete Yrahi }
+	}
+	patagonian = {
+		color = { 153 137 137 }
+		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
+		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
+		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
+
+		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
+		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
+		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
 	}
 	aimara = {
 		color = {146 156 116}
@@ -3513,16 +3610,6 @@ native_american = {
 		last_names = { Arawá Arawak Bororo Garifuna Gê Guayaná Jeikó Kaingang Kalinago Kamakán
 		Karajá Kayapó Matsés Maxakalí Purí Timbira Xavante Xerente Xokieng Yanomamö }
 	}
-	patagonian = {
-		color = {88 99 133}
-		first_names = { Agustín Antonio Aquiles Arturo Aurelio Bernardo Carlos Claudio Diego Facundo
-		Félix Fernando Francisco Gerardo Gregorio Hugo Ignacio José Juan Luis
-		Manuel Marcos Martín Máximo Melchor Pedro Ramón Raúl Santiago Víctor }
-
-		last_names = { Aliwen Amuylifko Aukan Ayllapan Chiguay Cumin Curumilla Epulewfu Foyelkay Guaiquil
-		Huichaman Ilwen Kayupi Kumlafken Kvlapi Leviñanco Lincoman Marifil Melifilu Millakoyam
-		Millapani Nahuel Ñanku Paillacar Pillancar Quelin Remultray Unquen Waikimill Yankvleufu }
-	}
 	tupinamba = {
 		color = {236 184 153}
 		first_names = { Álvaro André Carlos Diogo Emilio Eusébio Fábio Fernando Filipe Francisco
@@ -3613,8 +3700,8 @@ native_american = {
 german_american_cultures = {
 	leader = european
 	is_overseas = no
-	midgard = {
-		color = {255 173 69}
+	german_american = {
+		color = { 90 90 90 }
 		first_names = { Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
 				Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
 				Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
@@ -3631,7 +3718,7 @@ german_american_cultures = {
 		}
 	}
 	new_swedish = {
-		color = {255 173 69}
+		color = { 90 90 185 }
 		first_names = { Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
 				Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
 				Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
@@ -3646,40 +3733,9 @@ german_american_cultures = {
 				Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
 				Wilson Wright Young 
 		}
-	}
-	ragenian = {
-		color = {198 12 48}
-		first_names = { Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
-				Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
-				Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
-		}
-		last_names = { Smith Washington Grant Sherman Chamberlain Powell Clemens Abbott Abercrombie Allen Ames Anderson Barkhauer Andrews Appleton
-				Armstrong Arthur Atkins Asboth Babcock Baker Pope Banks Barnard Barnes Barnum Barry Barstow Bartlett Bates 
-				Baxter Beatty Belknap Benton Blair Blunt Bradley Brown Buell Buford Burnside Butler Caldwell Campbell Carr
-				Chapman Chipman Clayton Coburn Connor Conrad Cook Cooper Crittenden Custer Davies Davis Doubleday Ewing Farnsworth 
-				Ford Forsyth Foster Franklin Fry Gilbert Gregg Griffin Halleck Hamlin Hancock Harrison Hatch Hayes Heintzelman
-				Hooker Howard Hunter Jackson Johnson Jones Keyes Kimball Lyon McArthur McClellan McCook McDowell Meade Mitchell
-				Morgan Paine Phelps Porter Potter Reynolds Rice Rhodes Robinson Rosencrans Saloman Schenck Schofield Scott Sedgwick
-				Seward Sheridan Sickles Sprague Stevens Stevenson Stone Sullivan Taylor Tyler Wade Wadsworth Wallace Ward Warner
-				Wilson Wright Young 
-		}
-	}
-	arubine = {
-		color = { 193 0 0 } 
-		first_names = { Adolf Albrecht Alexander Alfons Alois Anton Arthur Bernhard Christian
-		Edmund Eduard Engelbert Ernst Erwin Ferdinand Franz Friedrich Gebhard Gerhard Gottfried
-		Günther Gustav Heinrich Hermann Horst Jakob Joachim Johann Joseph
-		Julius Karl Konrad Kurt Leonhard Leopold Lorenz Lothar Ludwig Maximilian
-		Michael Otto Reinhold Rudolf Stefan Theodor Viktor Walter Werner Wilhelm }
-		
-		last_names = { Beck-Rzikowsky Blos Dankl Eisner Geiss Goering Hainisch Haus Held Hellpach
-		Hoffmann Hummel Köhler Mergenthaler Miklas Remmele Schmitt Schobber Seitz Steeb
-		Stolzer Trunk "von Baden" "von Benedek" "von Böhm-Ermolli" "von Brudermann" "von Clam-Gallas" "von der Tann" "von Dietrich" "von Gablenz"
-		"von Grünne" "von Habsburg" "von Hartmann" "von Haynau" "von Hess" "von Hohenhausen" "d'Aspre von Hoobreuk" "von Hortstein" "von Hötzendorf" "von Kirbach"
-		"von Kobratin" "von Schönburg" "von Tegetthoff" "von Uchatius" "von Wittelsbach" "von Württemberg" "von Zahringen" Wagner Wittmann "zu Hohenlohe" }
 	}
 	klever = {
-		color = {100 173 69}
+		color = { 120 120 120 }
 		first_names = { Adam Alexander William Henry Michael Samuel Joshua George John Matthew Mark Luke Lucas Jeffrey Ulysses 
 				Joseph Charles Russell Benjamin Robert Christopher Richard Chester Lafayette Nathaniel Francis James Donald Cyrus Ambrose
 				Edward Eugene Augustus Norton Abner Isaac Amos Thomas Randolph
@@ -3695,7 +3751,7 @@ german_american_cultures = {
 				Wilson Wright Young 
 		}
 	}
-	union = MID
+	union = NNE
 }
 
 french_american_cultures = {
@@ -3759,13 +3815,13 @@ celtic_american_cultures = {
 	leader = european
 	is_overseas = no
 	avalonian = { 
-		color = {56 154 196}
+		color = { 198 12 48 }
 		first_names = { Yann Yannic Pierre Jakez Elouan Frañsez Jaoua Paol Segal Alain Henri Hoël Michel Théodore }
 		
 		last_names = { "de Cornouaille" Karter Gallo Kergoulay Bellec "le Goff" Treguier Riou Morvan Peron Jezeguel Salaun "le Bihan" }
 	}
 	canadian = { 
-		color = {62 119 68}
+		color = { 193 0 0 }
 		first_names = { Yann Yannic Pierre Jakez Elouan Frañsez Jaoua Paol Segal Alain Henri Hoël Michel Théodore }
 		
 		last_names = { "de Cornouaille" Karter Gallo Kergoulay Bellec "le Goff" Treguier Riou Morvan Peron Jezeguel Salaun "le Bihan" }
@@ -3918,7 +3974,7 @@ latin_american_cultures = {
 	is_overseas = no
 	unit = SouthAmericanGC
 	mexican = {
-		color = {153 0 0}
+		color = { 57 33 68 }
 		first_names = { Adrián Agustín Álvaro Anastasio Andrés Ángel Antonio Bernardo Emiliano Emilio
 		Enrique Ernesto Felipe Félix Francisco "Francisco Javier" Gabriel Gaspar Gregorio Ignacio
 		Jerónimo Joaquín José "José Manuel" "José María" Juan "Juan Bautista" Justo Lázaro Manuel
@@ -3934,7 +3990,7 @@ latin_american_cultures = {
 		}
 	}
 	central_american = {
-		color = {173 216 255}
+		color = {78 46 94}
 		first_names = { Alejandro Andrés Aniceto Arturo Bartolomé Basilio Benito Benjamín Bernardo Carlos
 		Daniel Diego Doroteo Eduardo Eugenio Felipe Félix Fermín Fernando Francisco
 		Fruto Jacobo Jesús Joaquín Jorge "José Francisco" "José María" Juan "Juan Antonio" "Juan Pablo"
@@ -3951,7 +4007,7 @@ latin_american_cultures = {
 		radicalism = 15
 	}
 	caribeno = {
-		color = {173 0 75}
+		color = { 110 85 122 }
 		first_names = { Alberto Alejandro Alfredo Ambrosio Anselmo Antonio Arturo Benigno Buenaventura Calixto
 		Carlos Ceferino Cesáreo Demetrio Desiderio Dionisio Domingo Eugenio Federico Felipe
 		Fernando Fidel Fulgencio Gerardo Gregorio Guillermo Horacio Ignacio Jacinto Jacobo
@@ -3968,7 +4024,7 @@ latin_american_cultures = {
 		radicalism = 10
 	}
 	north_andean = {
-		color = {255 205 0}
+		color = {97 57 117}
 		first_names = { Antonio Camilo Carlos Cipriano Demetrio Diego Domingo Eloy Eusebio Eustorgio
 		Ezequiel Federico Fernando Florentino Franciso "Francisco Javier" "Francisco José" "Francisco de Paula" Froilán Gabriel
 		Gregorio Guillermo Gustavo Guzmán Hilario Ignacio Jerónimo Joaquín Jorge "José Antonio"
@@ -4000,7 +4056,7 @@ latin_american_cultures = {
 		}
 	}
 	south_andean = {
-		color = {32 142 83}
+		color = {118 69 142}
 		first_names = { Adolfo Agustín Alejandro Andrés Aníbal Antonio Bartolomé Bernardo David Diego
 		Domingo Eduardo Emiliano Emilio Enrique Esteban Eusebio Federico Felipe Francisco
 		Germán Hernando Hilarión Ignacio Isidoro Ismael Jorge José "José Miguel" Juan
@@ -4017,7 +4073,7 @@ latin_american_cultures = {
 	}
 	
 	ssouth_andean = {
-		color = {61 114 175}
+		color = {148 87 178}
 		first_names = { Adolfo Agustín Alejandro Andrés Aníbal Antonio Bartolomé Bernardo David Diego
 		Domingo Eduardo Emiliano Emilio Enrique Esteban Eusebio Federico Felipe Francisco
 		Germán Hernando Hilarión Ignacio Isidoro Ismael Jorge José "José Miguel" Juan
@@ -4034,7 +4090,7 @@ latin_american_cultures = {
 	}
 	
 	platinean = {
-		color = {117  170  219}
+		color = {135 79 163}
 		first_names = { Agustín Antonio Atanasio Baltasar Bartolomé Bernardino Bernardo Cándido Carlos Cecilio
 		Cirilo Claudio Domingo Emiliano Esteban Eugenio Evaristo Facundo Faustino Feliciano
 		Félix Francisco Fructuoso Gabriel Gaspar Guillermo Hipólito Ignacio José "Juan José"

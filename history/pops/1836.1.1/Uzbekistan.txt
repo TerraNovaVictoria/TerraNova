@@ -1,6 +1,6 @@
 #Khwarazm Region (380000) #see Kazakhstan.txt and Turkmenistan.txt for balance of region 
 #under the rule of Khiva in 1836  
-#Khiva (200000/50000 POPS) #now part of persianistan  
+#Khiva (200000/50000 POPS) #now part of tajikistan  
 1191 = {
 	aristocrats = {
 		culture = persian
@@ -27,48 +27,48 @@
 	}
 
 	artisans = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 2300
 	}
 
 	soldiers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 3000
 	}
 
 	soldiers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 1000
 	}
 
 	farmers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
-		size = 35050
+		size = 28050
 	}
 	
 	farmers = {
 		culture = kazak
 		religion = sunni
-		size = 2050
+		size = 10050
 	}
 
-	slaves = {
-		culture = kazak
+	farmers = {
+		culture = turkmen
 		religion = sunni
-		size = 7000
+		size = 16000
 	}
 
-	slaves = {
-		culture = russian
-		religion = orthodox
+	farmers = {
+		culture = uighur
+		religion = sunni
 		size = 3000
 	}
 }
-#Nukus (180000/45000 POPS) #now part of persianistan  
+#Nukus (180000/45000 POPS) #now part of tajikistan  
 1192 = {
 	aristocrats = {
 		culture = kazak
@@ -103,49 +103,43 @@
 	farmers = {
 		culture = kazak
 		religion = sunni
-		size = 9325
+		size = 2325
 	}
 
 	aristocrats = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 275
 	}
 
 	clergymen = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 125
 	}
 
 	artisans = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 2000
 	}
 
 	soldiers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 125
 	}
 
 	farmers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
-		size = 13000
+		size = 1300
 	}
 
 	slaves = {
 		culture = uighur
 		religion = sunni
 		size = 4000
-	}
-
-	slaves = {
-		culture = russian
-		religion = orthodox
-		size = 2100
 	}
 
 	aristocrats = {
@@ -178,42 +172,42 @@
 		size = 3650
 	}
 }
-#Mawarannahr Region (524000) #see Kazakhstan.txt, persianistan.txt, Kirghizstan.txt for balance of region 
+#Mawarannahr Region (524000) #see Kazakhstan.txt, tajikistan.txt, Kirghizstan.txt for balance of region 
 #under the rule of Kokand in 1836  
 #Tashkent (224000/56000 POPS)   
 1195 = {
 	aristocrats = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 900
 	}
 
 	clergymen = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 450
 	}
 
 	artisans = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 2300
 	}
 
 	soldiers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 3000
 	}
 
 	soldiers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 1000
 	}
 
 	farmers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 30850
 	}
@@ -329,31 +323,31 @@
 	}
 
 	aristocrats = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 250
 	}
 
 	clergymen = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 1500
 	}
 
 	soldiers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 250
 	}
 
 	farmers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 30625
 	}
@@ -374,43 +368,43 @@
 #Bukhara (868000/217000 POPS)   
 1198 = {
 	aristocrats = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 3750
 	}
 
 	bureaucrats = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 525
 	}
 
 	officers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 475
 	}
 
 	clergymen = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 2000
 	}
 
 	artisans = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 4300
 	}
 
 	soldiers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 16000
 	}
 
 	farmers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 142950
 	}
@@ -502,31 +496,31 @@
 #Samarkand (544000/136000 POPS)   
 1199 = {
 	aristocrats = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 2250
 	}
 
 	clergymen = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 1250
 	}
 
 	artisans = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 4700
 	}
 
 	soldiers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 7000
 	}
 
 	farmers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 86080
 	}
@@ -636,31 +630,31 @@
 	}
 
 	aristocrats = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 225
 	}
 
 	clergymen = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 100
 	}
 
 	artisans = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 500
 	}
 
 	soldiers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 100
 	}
 
 	farmers = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 37075
 	}
@@ -707,7 +701,7 @@
 29 = {
 	
 	clergymen = {
-		culture = persian
+		culture = tajik
 		religion = sunni
 		size = 100
 	}

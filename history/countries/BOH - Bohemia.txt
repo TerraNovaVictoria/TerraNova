@@ -1,6 +1,6 @@
 capital = 625
-primary_culture = north_german
-culture = czech
+primary_culture = czech
+culture = north_german
 religion = catholic
 government = absolute_monarchy
 plurality = 0.0

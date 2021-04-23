@@ -3,97 +3,97 @@
 #Havana (388000/97000 POPS)
 2209 = {
 	aristocrats = {
-		culture = danish
+		culture = leonese
 		religion = protestant
 		size = 350
 	}
 
 	bureaucrats = {
-		culture = danish
+		culture = leonese
 		religion = protestant
 		size = 300
 	}
 
 	clergymen = {
-		culture = danish
+		culture = leonese
 		religion = protestant
 		size = 325
 	}
 
 	artisans = {
-		culture = danish
+		culture = leonese
 		religion = protestant
 		size = 4325
 	}
 
 	soldiers = {
-		culture = danish
+		culture = leonese
 		religion = protestant
 		size = 200
 	}
 
 	aristocrats = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 3103
 	}
 
 	bureaucrats = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 175
 	}
 
 	artisans = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 10000
 	}
 	
 	artisans = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 4000
 	}
 
 	soldiers = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 1100
 	}
 
 	farmers = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 28625
 	}
 
 	artisans = {
-		culture = afro_german
+		culture = afro_caribbean
 		religion = protestant
 		size = 6000
 	}
 
 	soldiers = {
-		culture = afro_german
+		culture = afro_caribbean
 		religion = protestant
 		size = 500
 	}
 
 	farmers = {
-		culture = afro_german
+		culture = afro_caribbean
 		religion = protestant
 		size = 2500
 	}
 
 	slaves = {
-		culture = afro_german
+		culture = afro_caribbean
 		religion = protestant
 		size = 38000
 	}
@@ -101,55 +101,55 @@
 #Jagua (252000/63000 POPS)
 2210 = {
 	aristocrats = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 600
 	}
 
 	clergymen = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 375
 	}
 
 	artisans = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 1200
 	}
 
 	soldiers = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 250
 	}
 
 	farmers = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 21575
 	}
 
 	artisans = {
-		culture = afro_german
+		culture = afro_caribbean
 		religion = protestant
 		size = 2000
 	}
 
 	soldiers = {
-		culture = afro_german
+		culture = afro_caribbean
 		religion = protestant
 		size = 150
 	}
 
 	farmers = {
-		culture = afro_german
+		culture = afro_caribbean
 		religion = protestant
 		size = 11850
 	}
 
 	slaves = {
-		culture = afro_german
+		culture = afro_caribbean
 		religion = protestant
 		size = 25000
 	}
@@ -157,55 +157,55 @@
 #Camaguey (168000/42000 POPS)
 2211 = {
 	aristocrats = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 450
 	}
 
 	clergymen = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 400
 	}
 
 	artisans = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 3500
 	}
 
 	soldiers = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 150
 	}
 
 	farmers = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 8500
 	}
 
 	artisans = {
-		culture = afro_german
+		culture = afro_caribbean
 		religion = protestant
 		size = 1500
 	}
 
 	soldiers = {
-		culture = afro_german
+		culture = afro_caribbean
 		religion = protestant
 		size = 300
 	}
 
 	farmers = {
-		culture = afro_german
+		culture = afro_caribbean
 		religion = protestant
 		size = 2200
 	}
 
 	slaves = {
-		culture = afro_german
+		culture = afro_caribbean
 		religion = protestant
 		size = 25000
 	}
@@ -213,55 +213,55 @@
 #Santiago de Cuba (128000/32000 POPS)
 2212 = {
 	aristocrats = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 200
 	}
 
 	clergymen = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 175
 	}
 
 	artisans = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 3500
 	}
 
 	soldiers = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 150
 	}
 
 	farmers = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 8975
 	}
 
 	artisans = {
-		culture = afro_german
+		culture = afro_caribbean
 		religion = protestant
 		size = 1500
 	}
 
 	soldiers = {
-		culture = afro_german
+		culture = afro_caribbean
 		religion = protestant
 		size = 200
 	}
 
 	farmers = {
-		culture = afro_german
+		culture = afro_caribbean
 		religion = protestant
 		size = 3300
 	}
 
 	slaves = {
-		culture = afro_german
+		culture = afro_caribbean
 		religion = protestant
 		size = 14000
 	}
@@ -271,37 +271,37 @@
 #Baker/Repulse Bay/ Echo Bay - Now Guantanamo Bay (5036/1259 POPS)
 44 = {
 	aristocrats = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 5
 	}
 
 	clergymen = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 10
 	}
 
 	artisans = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 25
 	}
 
 	soldiers = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 100
 	}
 
 	farmers = {
-		culture = ragenian
+		culture = caribeno
 		religion = protestant
 		size = 240
 	}
 	
 	farmers = {
-		culture = afro_german
+		culture = afro_caribbean
 		religion = protestant
 		size = 879
 	}

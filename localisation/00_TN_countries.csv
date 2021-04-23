@@ -1,4 +1,83 @@
 ;;;;;;;;;;;;;;x,,,
+BTL;Bitlis;;;;;;;;;;;;;;;;;;x;;;;
+BTL_ADJ;Bitlisi;;;;;;;;;;;;;;;;;;x;;;;
+BZD;Beyazid;;;;;;;;;;;;x
+BZD_ADJ;Beyazidi;;;;;;;;;;;;x
+BZD_provisional_state;The Kurdish Free Army;;;;;;;;;;;;;x
+BZD_presidential_dictatorship;The Karsi Kurd Republic;;;;;;;;;;;;;x
+BZD_proletarian_dictatorship;The People's Frontier Republic;;;;;;;;;;;;;x
+BZD_fascist_dictatorship;The Kurdish Free State;;;;;;;;;;;;;x
+BZD_democracy;The Karsi Republic;;;;;;;;;;;;;x
+DZG_subject;The Prussian Confederation;;;;;;;;;;;;x
+DZG_subject_ADJ;Prussian;;;;;;;;;;;;x
+PRU_theocracy;The Teutonic Order;;;;;;;;;;;;x
+PRU_theocracy_ADJ;Teutonic;;;;;;;;;;;;x
+ADY;Adygea;;;;;;;;;;;;x
+ADY_ADJ;Adygean;;;;;;;;;;;;x
+ODS;Odessa;;;;;;;;;;;;x
+ODS_ADJ;Odessan;;;;;;;;;;;;x
+ODS_subject;The Voivodeship of Kociuba;;;;;;;;;;;;x
+ODS_subject_ADJ;Kociuban;;;;;;;;;;;;x
+ODS_proletarian_dictatorship;The Odessa Soviet Republic;;;;;;;;;;;;x
+ODS_fascist_dictatorship;New Odessos;;;;;;;;;;;;x
+ODS_elective_monarchy;The Voivodeship of Chadzybej;;;;;;;;;;;;x
+ODS_hms_government;The Kingdom of Chadzybej;;;;;;;;;;;;x
+ODS_hms_government_ADJ;Chadzybej;;;;;;;;;;;;x
+ODS_prussian_constitutionalism;The Kingdom of Chadzybej;;;;;;;;;;;;x
+ODS_prussian_constitutionalism_ADJ;Chadzybej;;;;;;;;;;;;x
+ODS_absolute_monarchy;The Kingdom of Chadzybej;;;;;;;;;;;;x
+ODS_absolute_monarchy_ADJ;Chadzybej;;;;;;;;;;;;x
+ODS_presidential_dictatorship;Chadzybej;;;;;;;;;;;;x
+ODS_presidential_dictatorship_ADJ;Chadzybej;;;;;;;;;;;;x
+ODS_democracy;The Chadzybej Republic;;;;;;;;;;;;x
+ODS_democracy_ADJ;Chadzybej;;;;;;;;;;;;x
+CMW;The Commonwealth;;;;;;;;;;;;x
+CMW_ADJ;Polish-Ruthenian;;;;;;;;;;;;x
+CMW_proletarian_dictatorship;The People's Union;;;;;;;;;;;;x
+CMW_fascist_dictatorship;The Polish-Ruthenian Empire;;;;;;;;;;;;x
+CMW_elective_monarchy;The Polish-Ruthenian Union;;;;;;;;;;;;x
+CMW_hms_government;The Polish-Ruthenian Commonwealth;;;;;;;;;;;;x
+CMW_prussian_constitutionalism;The Polish-Ruthenian Commonwealth;;;;;;;;;;;;x
+CMW_absolute_monarchy;The Polish-Ruthenian Commonwealth;;;;;;;;;;;;x
+CMW_presidential_dictatorship;The Intermarium Republic;;;;;;;;;;;;x
+CMW_presidential_dictatorship_ADJ;Intermarine;;;;;;;;;;;;x
+CMW_democracy;The Polish-Ruthenian Republic;;;;;;;;;;;;x
+RMZ;Yüregir;;;;;;;;;;;;x
+RMZ_ADJ;Yüregirli;;;;;;;;;;;;x
+RMZ_absolute_monarchy;The Ramadanid Emirate;;;;;;;;;;;;x
+RMZ_prussian_constitutionalism;The Ramadanid Emirate;;;;;;;;;;;;x
+RMZ_hms_government;The Ramadanid Emirate;;;;;;;;;;;;x
+RMZ_absolute_monarchy_ADJ;Ramadanid;;;;;;;;;;;;x
+RMZ_prussian_constitutionalism_ADJ;Ramadanid;;;;;;;;;;;;x
+RMZ_hms_government_ADJ;Ramadanid;;;;;;;;;;;;x
+TAB;Tabaristan;;;;;;;;;;;;x
+TAB_ADJ;Tabari;;;;;;;;;;;;x
+TAB_absolute_monarchy;Mazanderan;;;;;;;;;;;;x
+TAB_prussian_constitutionalism;Mazanderan;;;;;;;;;;;;x
+TAB_hms_government;Mazanderan;;;;;;;;;;;;x
+TAB_absolute_monarchy_ADJ;Mazanderani;;;;;;;;;;;;x
+TAB_prussian_constitutionalism_ADJ;Mazanderani;;;;;;;;;;;;x
+TAB_hms_government_ADJ;Mazanderani;;;;;;;;;;;;x
+TAB_fascist_dictatorship;Tapuria;;;;;;;;;;;;x
+TAB_fascist_dictatorship_ADJ;Tapurid;;;;;;;;;;;;x
+TAB_proletarian_dictatorship;The Gilan Soviet Republic;;;;;;;;;;;;x
+TAB_proletarian_dictatorship_ADJ;Gilanid;;;;;;;;;;;;x
+NAZ;Pashtunistan;;;;;;;;;;;;x
+NAZ_ADJ;Pashtun;;;;;;;;;;;;x
+NAZ_absolute_monarchy;The Nazirid Empire;;;;;;;;;;;;x
+NAZ_prussian_constitutionalism;The Nazirid Empire;;;;;;;;;;;;x
+NAZ_hms_government;The Nazirid Empire;;;;;;;;;;;;x
+NAZ_absolute_monarchy_ADJ;Nazirid;;;;;;;;;;;;x
+NAZ_prussian_constitutionalism_ADJ;Nazirid;;;;;;;;;;;;x
+NAZ_hms_government_ADJ;Nazirid;;;;;;;;;;;;x
+NAZ_fascist_dictatorship;The Nazirid Republic;;;;;;;;;;;;x
+NAZ_fascist_dictatorship_ADJ;Nazirid;;;;;;;;;;;;x
+NAZ_proletarian_dictatorship;The Afghani Soviet Republic;;;;;;;;;;;;x
+NAZ_proletarian_dictatorship_ADJ;Afghani;;;;;;;;;;;;x
+AFG_primitive_absolute_monarchy;The Nazirid Emirate;;;;;;;;;;;;x;;;
+AFG_primitive_absolute_monarchy_ADJ;Nazirid;;;;;;;;;;;;x;;;
+AFG_subject;Pashtunistan;;;;;;;;;;;;x;;;
+AFG_subject_ADJ;Pashtun;;;;;;;;;;;;x;;;
 OUA;Ouargla;;;;;;;;;;;;x;;;
 OUA_ADJ;Ouarglan;;;;;;;;;;;;x;;;
 OUA_absolute_monarchy;Banu Hilal;;;;;;;;;;;;x;;;
@@ -9,12 +88,38 @@ DAK_absolute_monarchy;The Sioux Empire;;;;;;;;;;;;x;
 DAK_prussian_constitutionalism;The Sioux Commonwealth;;;;;;;;;;;;x
 DAK_hms_government;The Sioux Commonwealth;;;;;;;;;;;;;x
 DAK_democracy;The Sioux Republic;;;;;;;;;;;;;x
+CDD;Caddo;;;;;;;;;;;;x;;;
+CDD_ADJ;Caddoan;;;;;;;;;;;;x;;;
+WIC;Wichita;;;;;;;;;;;;x;;;
+WIC_ADJ;Wichitan;;;;;;;;;;;;x;;;
+PUE;Pueblo;;;;;;;;;;;;x;;;
+PUE_ADJ;Puebloan;;;;;;;;;;;;x;;;
+PUE_absolute_monarchy;The Pueblo Kingdom;;;;;;;;;;;;x;
+PUE_prussian_constitutionalism;The Pueblo Kingdom;;;;;;;;;;;;x
+PUE_hms_government;The Pueblo Kingdom;;;;;;;;;;;;;x
+PUE_democracy;The Pueblo Republic;;;;;;;;;;;;;x
+PUE_fascist_dictatorship;The Anasazi State;;;;;;;;;;;;;x
+PUE_fascist_dictatorship_ADJ;Anasazi;;;;;;;;;;;;;x
+PUE_primitive_absolute_monarchy;The Navajo League;;;;;;;;;;;;x;
+PUE_primitive_absolute_monarchy_ADJ;Navajo;;;;;;;;;;;;x;
+PUE_proletarian_dictatorship;The People's Territory;;;;;;;;;;;;;x
+PUE_proletarian_dictatorship_ADJ;Territorial;;;;;;;;;;;;;x
+SHS;Shoshone;;;;;;;;;;;;x;;;
+SHS_ADJ;Shoshone;;;;;;;;;;;;x;;;
 FOU;The Oshta Union;;;;;;;;;;;;x;;;
 FOU_ADJ;Oshta;;;;;;;;;;;;x;;;
 FOU_absolute_monarchy;The Oshta Federation;;;;;;;;;;;;x;
 FOU_prussian_constitutionalism;The Oshta Federation;;;;;;;;;;;;x
 FOU_hms_government;The Oshta Federation;;;;;;;;;;;;;x
 FOU_democracy;The Oshta Republic;;;;;;;;;;;;;x
+CMC;Comancheria;;;;;;;;;;;;x;;;
+CMC_ADJ;Comanche;;;;;;;;;;;;x;;;
+CMC_absolute_monarchy;The Comanche Commonwealth;;;;;;;;;;;;x;
+CMC_prussian_constitutionalism;The Comanche Commonwealth;;;;;;;;;;;;x
+CMC_hms_government;The Comanche Commonwealth;;;;;;;;;;;;;x
+CMC_democracy;The Comanche Republic;;;;;;;;;;;;;x
+CMC_subject;The Comanche Territory;;;;;;;;;;;;;x
+CMC_proletarian_dictatorship;The Plains Union;;;;;;;;;;;;;x
 SIN_absolute_monarchy;The Tarkhan Sultanate;;;;;;;;;;;;;x
 SIN_absolute_monarchy_ADJ;Tarkhanid;;;;;;;;;;;;;x
 ORI_absolute_monarchy;The Bhoi Empire;;;;;;;;;;;;;x
@@ -143,12 +248,26 @@ SAX_subject;Upper Saxony;;;;;;;;;;;;;x
 SHA_ancient_regime;The Xing Empire;;;;;;;;;;;;;x
 SHA_subject;The Shan States;;;;;;;;;;;;;x
 MNP_subject;Manibuer;;;;;;;;;;;;;x
-PER_primitive_absolute_monarchy;The Afsharid Empire;;;;;;;;;;;;;x
-PER_primitive_absolute_monarchy_ADJ;Afsharid;;;;;;;;;;;;;x
+TKM_ancient_regime;The Afsharid Empire;;;;;;;;;;;;;x
+TKM_ancient_regime_ADJ;Afsharid;;;;;;;;;;;;;x
+TKM_primitive_absolute_monarchy;The Hajilarid Empire;;;;;;;;;;;;;x
+TKM_primitive_absolute_monarchy_ADJ;Hajilarid;;;;;;;;;;;;;x
+TKM;Turkmenistan;;;;;;;;;;;;;x
+TKM_ADJ;Turkmen;;;;;;;;;;;;;x
+PER_ancient_regime;Fars;;;;;;;;;;;;;x
+PER_ancient_regime_ADJ;Farsi;;;;;;;;;;;;;x
+PER_primitive_absolute_monarchy;The Persian Empire;;;;;;;;;;;;;x
+PER_primitive_absolute_monarchy_ADJ;Persian;;;;;;;;;;;;;x
+ARM_primitive_absolute_monarchy;Khachen;;;;;;;;;;;;;x
+ARM_primitive_absolute_monarchy_ADJ;Khachenid;;;;;;;;;;;;;x
+TAL_subject;Adaristan;;;;;;;;;;;;;x
+TAL_subject_ADJ;Adari;;;;;;;;;;;;;x
 TAL_primitive_absolute_monarchy;Tabriz;;;;;;;;;;;;;x
 TAL_primitive_absolute_monarchy_ADJ;Tabrizid;;;;;;;;;;;;;x
-AZB_primitive_absolute_monarchy;Baku;;;;;;;;;;;;;x
-AZB_primitive_absolute_monarchy_ADJ;Bakunid;;;;;;;;;;;;;x
+AZB_primitive_absolute_monarchy;The Shaki Khanate;;;;;;;;;;;;;x
+AZB_primitive_absolute_monarchy_ADJ;Shaki;;;;;;;;;;;;;x
+AZB_subject;Baku;;;;;;;;;;;;;x
+AZB_subject_ADJ;Bakunid;;;;;;;;;;;;;x
 BEL_subject;The Bavarian Netherlands;;;;;;;;;;;;;x
 BEL_subject_ADJ;Bavarian;;;;;;;;;;;;;x
 RUT_subject;The Polotsk March;;;;;;;;;;;;;x
@@ -261,14 +380,10 @@ AKU;Akura;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 AKU_ADJ;Akuran;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 LUR;Luristan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 LUR_ADJ;Lurish;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-AKU_absolute_monarchy;The Akura Kingdom;;;;;;;;;;;;;x,
-AKU_prussian_constitutionalism;The Akura Kingdom;;;;;;;;;;;;;x
-AKU_hms_government;The Akura Kingdom;;;;;;;;;;;;;x
 IDA;Idah;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 IDA_ADJ;Idahn;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-IDA_absolute_monarchy;The Idah Kingdom;;;;;;;;;;;;;x,
-IDA_prussian_constitutionalism;The Idah Kingdom;;;;;;;;;;;;;x
-IDA_hms_government;The Idah Kingdom;;;;;;;;;;;;;x
+OWO;Owo;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+OWO_ADJ;Owo;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 ADW;Adamawa;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 ADW_ADJ;Adamawan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 ADW_absolute_monarchy;The Adamawa Emirate;;;;;;;;;;;;;x,
@@ -598,8 +713,6 @@ AOS;Aosta;;;;;;;;;;;;;;;;;;x;;;;
 AOS_ADJ;Aostan;;;;;;;;;;;;;;;;;;x;;;;
 KHI;Khworazm;;;;;;;;;;;;;;;;;;x;;;;
 KHI_ADJ;Khworazm;;;;;;;;;;;;;;;;;;x;;;;
-AFG_absolute_monarchy;Pashtunistan;;;;;;;;;;;;;;x
-AFG_prussian_constitutionalism;Pashtunistan;;;;;;;;;;;;;;x
 RUS_proletarian_dictatorship;The RSFSR;;;;;;;;;;;;;;;;;;;x
 SOV;The Soviet Union;;;;;;;;;;;;;;;;;;x;;;;
 SOV_absolute_monarchy;The Eurasian Empire;;;;;;;;;;;;;;;;;;x;;;;
@@ -615,6 +728,7 @@ SOV_prussian_constitutionalism_ADJ;Eurasian;;;;;;;;;;;;;;;;;;x;;;;
 SOV_hms_government_ADJ;Eurasian;;;;;;;;;;;;;;;;;;x;;;;
 SOV_fascist_dictatorship_ADJ;Russian;;;;;;;;;;;;;;;;;;x;;;;
 BLK;Kabardino-Balkaria;;;;;;;;;;;;;;;;;;x;;;;
+BLK_primitive_absolute_monarchy;Kabarda;;;;;;;;;;;;;;;;;;x;;;;
 BLK_absolute_monarchy;Kabarda;;;;;;;;;;;;;;;;;;x;;;;
 BLK_ADJ;Kabardino-Balkar;;;;;;;;;;;;;;;;;;x;;;;
 BUL_absolute_monarchy;The Bulgarian Empire;;;;;;;;;;;;;;;;;;x;;;;
@@ -1145,15 +1259,17 @@ PIK_prussian_constitutionalism;Empire of Picchun;Empire of Picchun;Empire of Pic
 PIK_hms_government;Kingdom of Picchun;Kingdom of Picchun;Kingdom of Picchun;;;;;;;;;;;x;
 PIK_democracy;Republic of Picchun;;;;;;;;;;;;;x
 TRS;Tarasco;Tarasco;Tarasco;;;;;;;;;;;x;
-TRS_ADJ;Tarascanian;Tarascanian;Tarascanian;;;;;;;;;;;x;
-TRS_proletarian_dictatorship;Popular Union of Tarascan;Popular Union of Tarascan;Popular Union of Tarascan;;;;;;;;;;;x;
+TRS_ADJ;Tarascanian;Tarascan;Tarascan;;;;;;;;;;;x;
+TRS_proletarian_dictatorship;Popular Union of Tarasco;Popular Union of Tarasco;Popular Union of Tarasco;;;;;;;;;;;x;
 TRS_presidential_dictatorship;Tarasco;Tarasco;Tarasco;;;;;;;;;;;x;
-TRS_bourgeois_dictatorship;Tarascan Republic;Tarascan Republic;Tarascan Republic;;;;;;;;;;;x;
-TRS_fascist_dictatorship;Neo-Tarascan Empire;Neo-Tarascan Empire;Neo-Tarascan Empire;;;;;;;;;;;x;
-TRS_absolute_monarchy;Kingdom of Tarasco;Kingdom of Tarasco;Kingdom of Tarasco;;;;;;;;;;;x;
-TRS_prussian_constitutionalism;Kingdom of Tarasco;Kingdom of Tarasco;Kingdom of Tarasco;;;;;;;;;;;x;
-TRS_hms_government;Kingdom of Tarasco;Kingdom of Tarasco;Kingdom of Tarasco;;;;;;;;;;;x;
-TRS_democracy;Republic of Tarasco;;;;;;;;;;;;;x
+TRS_bourgeois_dictatorship;The Tarascan Republic;The Tarascan Republic;The Tarascan Republic;;;;;;;;;;;x;
+TRS_fascist_dictatorship;The Neo-Tarascan Empire;The Neo-Tarascan Empire;The Neo-Tarascan Empire;;;;;;;;;;;x;
+TRS_absolute_monarchy;The Kingdom of Tarasco;The Kingdom of Tarasco;The Kingdom of Tarasco;;;;;;;;;;;x;
+TRS_prussian_constitutionalism;The Kingdom of Tarasco;The Kingdom of Tarasco;The Kingdom of Tarasco;;;;;;;;;;;x;
+TRS_hms_government;The Kingdom of Tarasco;The Kingdom of Tarasco;The Kingdom of Tarasco;;;;;;;;;;;x;
+TRS_democracy;The Tarascan Republic;;;;;;;;;;;;;x
+TRS_provisional_state;Tarascania;;;;;;;;;;;;;x
+TRS_provisional_state_ADJ;Tarascanian;;;;;;;;;;;;;x
 TRS_colonial_company;Congress of Morelia;;;;;;;;;;;;;x
 TRS_colonial_company_ADJ;Morelian;;;;;;;;;;;;;x
 QUI;Quito;Quito;Quito;;;;;;;;;;;x;
@@ -1220,6 +1336,10 @@ RIO_prussian_constitutionalism;Royal Rioxa;Royal Rioxa;Royal Rioxa;;;;;;;;;;;x;
 RIO_hms_government;Royal Rioxa;Royal Rioxa;Royal Rioxa;;;;;;;;;;;x;
 RIO_democracy;Rioxa;;;;;;;;;;;;;x
 SMO_ADJ;Samoan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KHR_primitive_absolute_monarchy_ADJ;Bojnurdid;Bojnurdid;Bojnurdid;;;;;;;;;;;x;
+KHR_primitive_absolute_monarchy;The Bojnurdid Empire;The Bojnurdid Empire;The Bojnurdid Empire;;;;;;;;;;;x;
+KHR_subject_ADJ;Kurdi;Kurdi;Kurdi;;;;;;;;;;;x;
+KHR_subject;Shadlu-Zafaranlu;Shadlu-Zafaranlu;Shadlu-Zafaranlu;;;;;;;;;;;x;
 KHR_ADJ;Khorasani;Khorasani;Khorasani;;;;;;;;;;;x;
 KHR;Khorasan;Khorasan;Khorasan;;;;;;;;;;;x;
 KHR_proletarian_dictatorship;Khorasan Republic;Khorasan Republic;Khorasan Republic;;;;;;;;;;;x;
@@ -1269,10 +1389,12 @@ HZJ_communist;The Communist Faction;Faction communiste;Die kommunistische Frakti
 HZJ_fascist;The Fascist Faction;Faction fasciste;Die faschistische Fraktion;;;;;;;;;;;;x;;;;;;;;;;;;;;
 MAR_subject;Bombay;;;;;;;;;;;;x;;;
 MAR_subject_ADJ;Bombayi;;;;;;;;;;;;x;;;
+MAR_primitive_absolute_monarchy;The Maratha Confederacy;;;;;;;;;;;;x;;;
+MAR_primitive_absolute_monarchy_ADJ;Maratha;;;;;;;;;;;;x;;;
 MAR;Maratha;;;;;;;;;;;;x;;;
 MAR_ADJ;Marathi;;;;;;;;;;;;x;;;
 MAR_proletarian_dictatorship;The Maratha Council Republic;;;;;;;;;;;;x
-MAR_fascist_dictatorship;The Marathi Empire;;;;;;;;;;;;x
+MAR_fascist_dictatorship;The Neo-Maratha Empire;;;;;;;;;;;;x
 MAR_presidential_dictatorship;The State of Maratha;;;;;;;;;;;;x
 MAR_absolute_monarchy;The Maratha Empire;;;;;;;;;;;;x
 MAR_prussian_constitutionalism;The Maratha Empire;;;;;;;;;;;;x
