@@ -57,4 +57,31 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
+	#Rename Catalan
+	aragon_rename_catalan = {
+		picture = vegueries
+		potential = {
+			tag = AGN
+			NOT = { has_global_flag = catalan_renamed_aragon }
+			primary_culture = catalan
+		}		
+		
+		allow = {
+			war = no
+			AGN = { all_core = { owned_by = THIS } }
+		}
+		
+		effect = {
+			499 = { change_province_name = "Girona" }	
+			485 = { change_province_name = "Franja de Ponent" }					
+			496 = { change_province_name = "Osca" }		
+			495 = { change_province_name = "Saragossa" }				
+			504 = { change_province_name = "Castelló" }			
+			503 = { change_province_name = "València" }				
+			set_global_flag = catalan_renamed_catalonia
+		}
+
+		ai_will_do = { factor = 1 }
+	}	
+	
 }
