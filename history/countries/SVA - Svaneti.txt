@@ -1,5 +1,6 @@
 capital = 3274
-primary_culture = georgian
+primary_culture = svan
+culture = georgian
 religion = orthodox
 government = absolute_monarchy
 plurality = 0.0

@@ -1,6 +1,7 @@
 owner = IRQ
 controller = IRQ
 add_core = IRQ
+add_core = ANA
 add_core = KDS
 add_core = TKM
 trade_goods = grain

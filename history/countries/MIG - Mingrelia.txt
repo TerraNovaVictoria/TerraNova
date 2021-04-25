@@ -1,5 +1,6 @@
 capital = 1094
-primary_culture = georgian
+primary_culture = megrelian
+culture = georgian
 religion = orthodox
 government = absolute_monarchy
 plurality = 0.0

@@ -3,45 +3,63 @@
 #Nicosia (64000/16000 POPS)
 855 = {
 	aristocrats = {
-		culture = greek
-		religion = orthodox
+		culture = french
+		religion = catholic
 		size = 275
 	}
 
 	bureaucrats = {
-		culture = greek
-		religion = orthodox
+		culture = french
+		religion = catholic
 		size = 50
 	}
 
 	officers = {
-		culture = greek
-		religion = orthodox
+		culture = pan_italian
+		religion = catholic
 		size = 110
 	}
 
 	clergymen = {
-		culture = greek
-		religion = orthodox
+		culture = pan_italian
+		religion = catholic
 		size = 110
 	}
 
 	artisans = {
-		culture = greek
-		religion = orthodox
-		size = 500
+		culture = pan_italian
+		religion = catholic
+		size = 2500
+	}
+	
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 1750
 	}
 
 	soldiers = {
-		culture = greek
-		religion = orthodox
+		culture = pan_italian
+		religion = catholic
 		size = 175
 	}
 
 	farmers = {
-		culture = greek
-		religion = orthodox
-		size = 2875
+		culture = anatoli
+		religion = shiite
+		size = 875
+	}
+	
+	farmers = {
+		culture = french
+		religion = sunni
+		size = 700
+	}
+	
+	farmers = {
+		culture = pan_italian
+		religion = catholic
+		size = 1400
 	}
 	
 	aristocrats = {
@@ -71,20 +89,15 @@
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 750
+		size = 2750
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 10150
+		size = 17150
 	}
 
-	slaves = {
-		culture = greek
-		religion = orthodox
-		size = 1000
-	}
 }
 #Famagusta (44000/11000 POPS)
 857 = {

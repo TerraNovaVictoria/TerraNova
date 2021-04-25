@@ -2516,7 +2516,7 @@
 	}
 	
 	farmers = {
-		culture = tatar
+		culture = crimean
 		religion = sunni
 		size = 19000
 	}

@@ -1,3 +1,47 @@
+#Georgia
+vassal = {
+	first = GEO
+	second = SVA
+	start_date = 1815.1.1
+	end_date = 1838.1.1
+}
+
+vassal = {
+	first = GEO
+	second = MIG
+	start_date = 1815.1.1
+	end_date = 1838.1.1
+}
+
+#Urmia
+vassal = {
+	first = URM
+	second = AZB
+	start_date = 1815.1.1
+	end_date = 1838.1.1
+}
+
+vassal = {
+	first = URM
+	second = ARM
+	start_date = 1815.1.1
+	end_date = 1838.1.1
+}
+
+vassal = {
+	first = URM
+	second = BTL
+	start_date = 1815.1.1
+	end_date = 1838.1.1
+}
+
+vassal = {
+	first = URM
+	second = BZD
+	start_date = 1815.1.1
+	end_date = 1838.1.1
+}
+
 #Bijapur
 substate = {
 	first = BIJ

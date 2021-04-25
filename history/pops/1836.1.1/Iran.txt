@@ -1080,6 +1080,12 @@
 		size = 40125
 	}
 	
+	farmers = {
+		culture = turkmen
+		religion = shiite
+		size = 5125
+	}
+	
 	slaves = {
 		culture = forest_bantu #african_minor
 		religion = animist
@@ -1297,7 +1303,13 @@
 	farmers = {
 		culture = persian
 		religion = shiite
-		size = 10900
+		size = 8000
+	}
+	
+	farmers = {
+		culture = turkmen
+		religion = shiite
+		size = 2900
 	}
 }
 #Isfahan Region (700000)
@@ -1350,6 +1362,12 @@
 		culture = persian
 		religion = shiite
 		size = 73650
+	}
+	
+	farmers = {
+		culture = turkmen
+		religion = shiite
+		size = 10650
 	}
 
 	clergymen = {
@@ -1461,7 +1479,13 @@
 	farmers = {
 		culture = persian
 		religion = shiite
-		size = 24775
+		size = 20000
+	}
+	
+	farmers = {
+		culture = turkmen
+		religion = shiite
+		size = 4775
 	}
 
 	artisans = {
@@ -1901,7 +1925,13 @@
 	farmers = {
 		culture = persian
 		religion = shiite
-		size = 32150
+		size = 21000
+	}
+	
+	farmers = {
+		culture = turkmen
+		religion = shiite
+		size = 11150
 	}
 }
 #Kangan (48000/12000 POPS)
@@ -2592,7 +2622,13 @@
 	farmers = {
 		culture = persian
 		religion = shiite
-		size = 16400
+		size = 9400
+	}
+	
+	farmers = {
+		culture = turkmen
+		religion = shiite
+		size = 7000
 	}
 }
 #Bojnurd (56000/14000 POPS)

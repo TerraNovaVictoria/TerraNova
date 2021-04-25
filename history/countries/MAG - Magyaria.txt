@@ -1,4 +1,4 @@
-capital = 970
+capital = 973
 primary_culture = hungarian
 religion = orthodox
 government = ancient_regime

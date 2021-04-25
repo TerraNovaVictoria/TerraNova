@@ -93,26 +93,26 @@
 	}
 
 	clergymen = {
-		culture = gagauz
-		religion = orthodox
+		culture = crimean
+		religion = sunni
 		size = 75  
 	}
 
 	artisans = {
-		culture = gagauz
-		religion = orthodox
+		culture = crimean
+		religion = sunni
 		size = 250 
 	}
 
 	soldiers = {
-		culture = gagauz
-		religion = orthodox
+		culture = crimean
+		religion = sunni
 		size = 50
 	}
 
 	farmers = {
-		culture = gagauz
-		religion = orthodox
+		culture = crimean
+		religion = sunni
 		size = 8625  
 	}
 	
@@ -257,32 +257,32 @@
 	}
 
 	clergymen = {
-		culture = tatar
-		religion = orthodox
+		culture = crimean
+		religion = sunni
 		size = 50   
 	}
 
 	artisans = {
-		culture = tatar
-		religion = orthodox
+		culture = crimean
+		religion = sunni
 		size = 150  
 	}
 
 	soldiers = {
-		culture = tatar
-		religion = orthodox
+		culture = crimean
+		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = tatar
-		religion = orthodox
+		culture = crimean
+		religion = sunni
 		size = 6000 
 	}
 	
 	farmers = {
-		culture = tatar
-		religion = sunni
+		culture = crimean
+		religion = orthodox
 		size = 4775 
 	}
 	

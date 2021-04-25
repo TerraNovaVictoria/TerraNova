@@ -1,4 +1,5 @@
-color = { 128  170  63 }
+color = { 173 0 35}
+primitive_absolute_monarchy = { 114 137 155 }
 graphical_culture = MiddleEasternGC
 party = {
 	name = "ARM_conservative"

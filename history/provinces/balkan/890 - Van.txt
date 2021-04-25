@@ -2,6 +2,7 @@ owner = URM
 controller = URM
 add_core = URM
 add_core = KDS
+add_core = BTL
 add_core = TKM
 add_core = ARM
 add_core = IRQ

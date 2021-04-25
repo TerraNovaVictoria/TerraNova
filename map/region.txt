@@ -484,7 +484,7 @@ EGY_921 = { 917 921 919 916 } #Palestine
 
 TUR_923 = { 923 927 931 } #Mosul
 
-TUR_893 = { 908 924 925 } #Iraqi Kurdistan
+IRQ_893 = { 908 924 925 } #Iraqi Kurdistan
 
 TUR_931 = { 918 926 929 934 928 930 } #Baghdad
 

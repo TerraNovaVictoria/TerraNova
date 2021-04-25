@@ -1969,67 +1969,67 @@
 	aristocrats = {
 		culture = greek
 		religion = orthodox
-		size = 250
+		size = 450
 	}
 
 	clergymen = {
 		culture = greek
 		religion = orthodox
-		size = 75
+		size = 275
 	}
 
 	artisans = {
 		culture = greek
 		religion = orthodox
-		size = 550
+		size = 2550
 	}
 
 	soldiers = {
 		culture = greek
 		religion = orthodox
-		size = 175
+		size = 675
 	}
 
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 5850
+		size = 15850
 	}
 	
 	aristocrats = {
-		culture = greek
-		religion = orthodox
+		culture = pan_italian
+		religion = catholic
 		size = 100
 	}
 	
 	officers = {
-		culture = greek
-		religion = orthodox
+		culture = pan_italian
+		religion = catholic
 		size = 50
 	}
 	
 	soldiers = {
-		culture = greek
-		religion = orthodox
+		culture = pan_italian
+		religion = catholic
 		size = 200
 	}
 
 	clergymen = {
-		culture = greek
-		religion = orthodox
+		culture = pan_italian
+		religion = catholic
 		size = 100
 	}
 
 	artisans = {
-		culture = greek
-		religion = orthodox
-		size = 450
+		culture = pan_italian
+		religion = catholic
+		size = 2550
 	}
 
 	farmers = {
-		culture = greek
-		religion = orthodox
-		size = 9475
+		culture = pan_italian
+		religion = catholic
+		size = 2675
 	}
 
 }

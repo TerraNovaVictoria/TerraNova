@@ -2,6 +2,7 @@ owner = ANA
 controller = ANA
 add_core = ANA
 add_core = ARM
+add_core = URM
 add_core = TKM
 trade_goods = wool
 life_rating = 35

@@ -263,13 +263,13 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 80000
+		size = 65000
 	}
 
 	serfs = {
 		culture = ruthenian
 		religion = orthodox
-		size = 66975
+		size = 99975
 	}
 	
 	clergymen = {
@@ -595,7 +595,7 @@
 	farmers = {
 		culture = ruthenian
 		religion = orthodox
-		size = 19250
+		size = 32250
 	}
 
 	aristocrats = {
@@ -637,7 +637,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 21450
+		size = 14450
 	}
 
 	aristocrats = {

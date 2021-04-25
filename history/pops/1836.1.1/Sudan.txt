@@ -746,13 +746,13 @@
 	farmers = {
 		culture = sudanese
 		religion = sunni
-		size = 1600
+		size = 12600
 	}
 
 	farmers = {
 		culture = copt
 		religion = coptic
-		size = 1000
+		size = 500
 	}
 
 	aristocrats = {
@@ -782,7 +782,7 @@
 	farmers = {
 		culture = misri
 		religion = sunni
-		size = 12850
+		size = 2850
 	}
 
 	slaves = {
@@ -942,7 +942,7 @@
 	farmers = {
 		culture = sudanese
 		religion = sunni
-		size = 3500
+		size = 7100
 	}
 
 	aristocrats = {
@@ -972,7 +972,7 @@
 	farmers = {
 		culture = misri
 		religion = sunni
-		size = 3875
+		size = 275
 	}
 
 	aristocrats = {

@@ -49,6 +49,8 @@ political_decisions = {
 			effect = {
 				POL = { country_event = 151003 }
 				DON = { country_event = 151004 }
+				973 = { change_province_name = "Magyarváros" }
+				capital = 973
 				add_country_modifier = { name = solidify_new_homeland duration = -1 }
 			}
 

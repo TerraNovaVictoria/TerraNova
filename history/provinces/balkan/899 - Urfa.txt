@@ -4,6 +4,7 @@ add_core = IRQ
 add_core = ANA
 add_core = SYR
 add_core = KDS
+add_core = URM
 add_core = TKM
 trade_goods = grain
 life_rating = 35
