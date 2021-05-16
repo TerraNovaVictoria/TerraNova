@@ -1,6 +1,7 @@
 owner = STY
 controller = STY
 add_core = STY
+add_core = KRT
 add_core = GER
 trade_goods = iron
 life_rating = 35
