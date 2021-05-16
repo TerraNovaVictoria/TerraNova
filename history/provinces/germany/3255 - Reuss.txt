@@ -4,5 +4,6 @@ add_core = PAN
 add_core = GER
 add_core = AVR
 add_core = SLO
-trade_goods = coal
+trade_goods = cattle
+terrain = forest
 life_rating = 35

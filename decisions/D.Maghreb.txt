@@ -13,20 +13,70 @@ political_decisions = {
 		}
 		
 		allow = {
-			SMK = { all_core = { owned_by = THIS } }
-			BUK = { all_core = { owned_by = THIS } }
-			1191 = { owned_by = THIS }
-			1196 = { owned_by = THIS }
-			1210 = { owned_by = THIS }
+			TUN = { all_core = { owned_by = THIS } }
+			MOR = { all_core = { owned_by = THIS } }
+			OR = {
+				TRI = { all_core = { owned_by = THIS } }
+				LBY = { all_core = { owned_by = THIS } }
+			}
+			OR = {
+				AND = {
+					CHN = { all_core = { owned_by = THIS } }
+					OUA = { all_core = { owned_by = THIS } }
+				}
+				ATL = { all_core = { owned_by = THIS } }
+			}
 		}
 		
 		effect = {
 			prestige = 10
-			KHI = { all_core = { add_core = TAJ remove_core = KHI } }
-			SMK = { all_core = { add_core = TAJ remove_core = SMK } }
-			BUK = { all_core = { add_core = TAJ remove_core = BUK } }
-			BDK = { all_core = { add_core = TAJ remove_core = BDK } }
-			change_tag = TAJ
+			TUN = { all_core = { add_core = MGH remove_core = TUN } }
+			MOR = { all_core = { add_core = MGH remove_core = MOR } }
+			TRI = { all_core = { add_core = MGH remove_core = TRI } }
+			ATL = { all_core = { add_core = MGH remove_core = ATL } }
+			OUA = { all_core = { add_core = MGH remove_core = OUA } }
+			CHN = { all_core = { add_core = MGH remove_core = CHN } }
+			LBY = { all_core = { add_core = MGH remove_core = LBA } }
+			change_tag = MGH
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	reorganize_the_atlas_region = { 
+		picture = greater_iran
+		potential = {
+			any_owned = {
+				OR = {
+					is_core = TUN
+					is_core = CHN
+					is_core = OUA
+				}
+			}
+			is_civilized = yes
+			NOT = { 
+				primary_culture = maghrebi
+				primary_culture = berber
+				primary_culture = maures
+				primary_culture = tuareg
+			}
+			NOT = { exists = ATL }
+		}
+		
+		allow = {
+			TUN = { all_core = { owned_by = THIS } }
+			CHN = { all_core = { owned_by = THIS } }
+			OUA = { all_core = { owned_by = THIS } }
+			revolution_n_counterrevolution = 1
+		}
+		
+		effect = {
+			prestige = 2.5
+			TUN = { all_core = { add_core = ATL remove_core = TUN } }
+			OUA = { all_core = { add_core = ATL remove_core = OUA } }
+			CHN = { all_core = { add_core = ATL remove_core = CHN } }
 		}
 		
 		ai_will_do = {

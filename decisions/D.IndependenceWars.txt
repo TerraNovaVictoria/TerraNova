@@ -11,7 +11,7 @@ political_decisions = {
 				}	
 			}
 			NOT = { exists = BRZ }
-			NOT = { has_global_flag = brazil_is_free }
+			NOT = { has_global_flag = end_of_spanish_civil_war }
 		}
 		
 		allow = {
@@ -24,15 +24,6 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = brazil_is_free
-			random_owned = {
-				limit = {
-					owner = { civilized = no }
-				}
-				owner = {
-					military_reform = yes_foreign_officers
-				}
-			}
 			prestige = 15
 			random_country = {
 				limit = { 
@@ -49,14 +40,18 @@ political_decisions = {
 	kapuyan_war = {
 		picture = "preacher"
 		potential = {
-			tag = GCO
-			2247 = {
-				owned_by = GCO
-				owner = { 
-					war = yes
-				}	
+			OR = {
+				AND = {
+					tag = GCO
+					exists = PBC
+					PBC = { war_with = PIK }
+					PBC = { vassal_of = GCO }
+				}
+				AND = {
+					tag = PBC
+					war_with = PIK
+				}
 			}
-			NOT = { has_global_flag = kapuyan_victory }
 		}
 		
 		allow = {
@@ -69,61 +64,66 @@ political_decisions = {
 		}
 		
 		effect = {
-			set_global_flag = kapuyan_victory
 			prestige = 15
-			KAP = {
+			PIK = {
 				all_core = {
 					remove_core = PIK
 				}
 			}
-			GCO = {
-				all_core = {
-					remove_core = PIK
+			any_country = {
+				limit = {
+					war_with = PIK
 				}
+				end_war = THIS
 			}
-			KAP = { inherit = PIK }
+			PBC = { inherit = PIK }
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	
-	treaty_of_lima = {
+	kapuyan_war_reverse = {
 		picture = "preacher"
 		potential = {
 			tag = PIK
-			2295 = {
-				owned_by = PIK
-			}
-			KAP = {
-				all_core = {
-					OR = {
-						owned_by = THIS
-						owner = {
-							OR = {
-								in_sphere = THIS
-								vassal_of = THIS
-							}
-						}
-					}
-				}
-			}
-			NOT = { has_global_flag = treaty_of_lima }
+			has_country_modifier = unstable_government
 		}
 		
 		allow = {
-			war = no
-			year = 1840
+			OR = {
+				AND = {
+					NOT = { exists = PBC }
+					2291 = { owned_by = THIS }
+				}
+				AND = {
+					exists = PBC
+					2291 = { controlled_by = THIS }
+				}
+			}
 		}
 		
 		effect = {
-			set_global_flag = treaty_of_lima
+			remove_country_modifier = unstable_government
+			any_country = {
+				limit = {
+					war_with = PIK
+					OR = {
+						tag = GCO
+						tag = CHR
+						tag = QUI
+					}
+				}
+				end_war = THIS
+			}
 			prestige = 15
-			PIK = {
+			PBC = {
 				all_core = {
-					remove_core = KAP
+					remove_core = PBC
 				}
 			}
+			PIK = { inherit = PBC }
+			GCO = { country_event = 466766 }
 		}
 		ai_will_do = {
 			factor = 1

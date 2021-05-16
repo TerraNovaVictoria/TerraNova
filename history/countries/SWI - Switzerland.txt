@@ -1,4 +1,4 @@
-capital = 606
+capital = 605
 primary_culture = north_german
 religion = protestant
 government = democracy

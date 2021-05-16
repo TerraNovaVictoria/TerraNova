@@ -1,78 +1,9 @@
 #avariia Region (1588000) 
 #under the rule of Bohemia in 1836  
 #Bratislava (691060/172765 POPS)
-#Teschen (116000/29000 POPS)
-689 = {
-
-	farmers = {
-		culture = ashkenazi
-		religion = jewish
-		size = 150 
-	}
-	
-	farmers = {
-		culture = polish
-		religion = catholic
-		size = 550 
-	}
-
-	clergymen = {
-		culture = avari
-		religion = catholic
-		size = 25  
-	}
-
-	artisans = {
-		culture = avari
-		religion = catholic
-		size = 2100 
-	}
-
-	soldiers = {
-		culture = avari
-		religion = catholic
-		size = 550
-	}
-
-	farmers = {
-		culture = avari
-		religion = catholic
-		size = 8955  
-	}
-
-	aristocrats = {
-		culture = north_german
-		religion = protestant
-		size = 350  
-	}
-
-	clergymen = {
-		culture = north_german
-		religion = protestant
-		size = 150 
-	}
-
-	artisans = {
-		culture = north_german
-		religion = protestant
-		size = 6700
-	}
-
-	soldiers = {
-		culture = north_german
-		religion = protestant
-		size = 750
-	}
-
-	farmers = {
-		culture = north_german
-		religion = protestant
-		size = 12650 
-	}
-}
 633 = {
 	bureaucrats = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 125 
 	}
@@ -84,37 +15,37 @@
 	}
 	
 	officers = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 75 
 	}
 
 	clergymen = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 1200 
 	}
 
 	artisans = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 6200
 	}
 
 	soldiers = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 1250 
 	}
 
 	farmers = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 16150
 	}
 	
 	serfs = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 70000
 	}
@@ -266,31 +197,31 @@
 #Trencin (342540/85635 POPS)
 634 = {
 	clergymen = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 500 
 	}
 
 	artisans = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 2800
 	}
 
 	soldiers = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 500 
 	}
 
 	farmers = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 53400
 	}
 	
 	serfs = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 29000
 	}
@@ -365,26 +296,26 @@
 635 = {
 	clergymen = {
 		culture = avari
-		religion = catholic
+		religion = protestant
 		size = 850
 	}
 
 	artisans = {
 		culture = avari
-		religion = catholic
+		religion = protestant
 		size = 4400
 	}
 
 	soldiers = {
 		culture = avari
-		religion = catholic
+		religion = protestant
 		size = 650 
 	}
 
 	farmers = {
 		culture = avari
-		religion = catholic
-		size = 20300
+		religion = protestant
+		size = 23300
 	}
 	
 	serfs = {
@@ -394,75 +325,45 @@
 	}
 	
 	serfs = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
-		size = 32000
-	}
-
-	aristocrats = {
-		culture = avari
-		religion = protestant
-		size = 2712  
+		size = 35000
 	}
 	
 	bureaucrats = {
-		culture = avari
+		culture = north_german
 		religion = protestant
 		size = 300
 	}
 	
 	officers = {
-		culture = avari
+		culture = north_german
 		religion = protestant
-		size = 65
+		size = 80
 	}
 
 	clergymen = {
-		culture = avari
+		culture = north_german
 		religion = protestant
-		size = 140
+		size = 40
 	}
 
 	artisans = {
-		culture = avari
+		culture = north_german
 		religion = protestant
-		size = 1250
+		size = 1900
 	}
 
 	soldiers = {
-		culture = avari
+		culture = north_german
 		religion = protestant
-		size = 190 
+		size = 300
 	}
 
 	farmers = {
-		culture = avari
+		culture = north_german
 		religion = protestant
-		size = 16937 
-	}
-
-	clergymen = {
-		culture = avari
-		religion = protestant
-		size = 115  
-	}
-
-	artisans = {
-		culture = avari
-		religion = protestant
-		size = 950
-	}
-
-	soldiers = {
-		culture = avari
-		religion = protestant
-		size = 162  
-	}
-
-	farmers = {
-		culture = avari
-		religion = protestant
-		size = 17712    
+		size = 937 
 	}
 
 	clergymen = {
@@ -510,37 +411,37 @@
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 2750  
+		size = 9750  
 	}
 }
 #Banska Bystrica (340000/85000 POPS)
 636 = {
 	clergymen = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 475
 	}
 
 	artisans = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 2650
 	}
 
 	soldiers = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 500 
 	}
 
 	farmers = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 40375 
 	}
 	
 	serfs = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 26000 
 	}
@@ -634,87 +535,45 @@
 #Kosice (497628/124407POPS)
 637 = {
 	bureaucrats = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 75 
 	}
 
 	officers = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 75 
 	}
 
 	clergymen = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 975
 	}
 
 	artisans = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 900
 	}
 
 	soldiers = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 1100 
 	}
 	
 	serfs = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
-		size = 12000
+		size = 22000
 	}
 
 	farmers = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
-		size = 45875 
-	}
-
-	aristocrats = {
-		culture = avari
-		religion = protestant
-		size = 975  
-	}
-
-	bureaucrats = {
-		culture = avari
-		religion = protestant
-		size = 400 
-	}
-
-	officers = {
-		culture = avari
-		religion = protestant
-		size = 375 
-	}
-
-	clergymen = {
-		culture = avari
-		religion = protestant
-		size = 237  
-	}
-
-	artisans = {
-		culture = avari
-		religion = protestant
-		size = 1300
-	}
-
-	soldiers = {
-		culture = avari
-		religion = protestant
-		size = 300  
-	}
-
-	farmers = {
-		culture = avari
-		religion = protestant
-		size = 20166  
+		size = 5875 
 	}
 
 	clergymen = {
@@ -738,7 +597,7 @@
 	farmers = {
 		culture = avari
 		religion = protestant
-		size = 10762
+		size = 34762
 	}
 
 	clergymen = {
@@ -828,33 +687,39 @@
 #Roznava (160400/40100 POPS)
 638 = {
 	clergymen = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 175
 	}
 
 	artisans = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 2100
 	}
 
 	soldiers = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 200 
 	}
 
 	serfs = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 5625 
 	}
 	
 	farmers = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 13900    
+	}
+	
+	farmers = {
+		culture = avari
+		religion = protestant
+		size = 6900    
 	}
 	
 	aristocrats = {
@@ -878,7 +743,7 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 8900    
+		size = 2000    
 	}
 
 	clergymen = {
@@ -1055,25 +920,25 @@
 	}
 	
 	aristocrats = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 50 
 	}
 
 	bureaucrats = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 250 
 	}
 
 	clergymen = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 200
 	}
 
 	farmers = {
-		culture = avari
+		culture = slovenian
 		religion = catholic
 		size = 2350 
 	}

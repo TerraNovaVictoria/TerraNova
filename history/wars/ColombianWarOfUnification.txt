@@ -1,9 +1,10 @@
-name = "Gran Colombian War"
+name = "The Andean War"
 
 1835.11.4 = {
-	add_attacker = GCO
+	add_attacker = PBC
 	add_attacker = QUI
 	add_attacker = CHR
+	add_attacker = GCO
 	add_defender = PIK
 	
 	# actor
@@ -12,17 +13,15 @@ name = "Gran Colombian War"
 	# country - 3rd party
 	# state_province_id - target state capital
 	war_goal = {
-		casus_belli = liberate_country
-		actor = GCO
+		casus_belli = civil_war
+		actor = PBC
 		receiver = PIK
-		country = KAP
 	}
 	
 	war_goal = {
-		casus_belli = release_puppet
+		casus_belli = civil_war
 		actor = PIK
-		receiver = GCO
-		country = QUI
+		receiver = PBC
 	}
 
 }

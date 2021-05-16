@@ -487,6 +487,71 @@ political_decisions = {
 		}
 	}
 	
+	form_ezo = { 
+		picture = ezo_flag
+		potential = {
+			NOT = { exists = EZO }
+			OR = {
+				tag = AIN
+				AND = {
+					tag = EMI
+					has_country_flag = embraced_ainu_culture
+				}
+			}
+			NOT = { has_global_flag = japan_is_united }
+		}
+		
+		allow = {
+			war = no
+			NOT = { is_vassal = yes }
+			OR = {
+				AND = {
+					AIN = { all_core = { owned_by = THIS } }
+					EMI = { all_core = { owned_by = THIS } }
+				}
+				AND = {
+					tag = EMI
+					OR = {
+						AIN = { vassal_of = THIS }
+						AIN = { all_core = { owned_by = THIS } }
+					}
+				}
+				AND = {
+					tag = AIN
+					OR = {
+						EMI = { vassal_of = THIS }
+						EMI = { all_core = { owned_by = THIS } }
+					}
+				}
+			}
+		}
+		
+		effect = {
+			any_country = {
+				limit = {
+					primary_culture = ainu
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+						exists = no
+					}
+					NOT = {	tag = THIS }
+					NOT = { tag = EZO }
+				}
+				country_event = 145501
+			}
+			AIN = { all_core = { add_core = EZO remove_core = AIN } }
+			EMI = { all_core = { add_core = EZO remove_core = EMI } }
+			capital = 1668
+			prestige = 10
+			change_tag = EZO
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	form_cmw = { 
 		picture = cmw_flag
 		potential = {
@@ -499,35 +564,33 @@ political_decisions = {
 		
 		allow = {
 			war = no
-			AND = {
+			OR = {
+				tag = POL
+				AND = {
+					POL = { all_core = { owned_by = THIS } }
+					NOT = { exists = POL }
+				}
+				POL = { vassal_of = THIS }
+			}
+			OR = {
 				OR = {
-					tag = POL
+					tag = RUT
 					AND = {
-						POL = { all_core = { owned_by = THIS } }
-						NOT = { exists = POL }
+						RUT = { all_core = { owned_by = THIS } }
+						NOT = { exists = RUT }
 					}
-					POL = { vassal_of = THIS }
+					RUT = { vassal_of = THIS }
 				}
 				OR = {
-					OR = {
-						tag = RUT
-						AND = {
-							RUT = { all_core = { owned_by = THIS } }
-							NOT = { exists = RUT }
+					AND = {	
+						NOT = { exists = RUT } 
+						OR = {
+							UKR = { vassal_of = THIS }
+							UKR = { all_core = { owned_by = THIS } }
 						}
-						RUT = { vassal_of = THIS }
-					}
-					OR = {
-						AND = {	
-							NOT = { exists = RUT } 
-							OR = {
-								UKR = { vassal_of = THIS }
-								UKR = { all_core = { owned_by = THIS } }
-							}
-							OR = {
-								BYE = { vassal_of = THIS }
-								BYE = { all_core = { owned_by = THIS } }
-							}
+						OR = {
+							BYE = { vassal_of = THIS }
+							BYE = { all_core = { owned_by = THIS } }
 						}
 					}
 				}
@@ -552,6 +615,36 @@ political_decisions = {
 				country_event = 078501
 			}
 			prestige = 10
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_silesia = { 
+		picture = prussian_settlement_commission
+		potential = {
+			NOT = { exists = SLS }
+			tag = USL
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			SLS = { all_core = { owned_by = THIS } }
+		}
+		
+		effect = {
+			THIS = { all_core = { remove_core = THIS } }
+			any_owned = {
+				limit = {
+					region = PRU_682
+				}
+				add_core = SLS
+			}
+			prestige = 5
+			change_tag = SLS
 		}
 		
 		ai_will_do = {

@@ -1,7 +1,8 @@
-owner = AVR
-controller = AVR
-add_core = AVR
+owner = MNR
+controller = MNR
+add_core = MNR
 add_core = ROM
+add_core = ALA
 add_core = TRY
 trade_goods = fruit
 life_rating = 35

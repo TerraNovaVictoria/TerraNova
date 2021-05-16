@@ -2,7 +2,7 @@ capital = 703
 primary_culture = polish
 religion = catholic
 government = elective_monarchy
-plurality = 0.2
+plurality = 0.15
 nationalvalue = nv_order
 literacy = 0.16
 civilized = yes
@@ -10,13 +10,13 @@ prestige = 50
 
 # Political reforms
 slavery = no_slavery
-upper_house_composition = population_equal_weight
+upper_house_composition = appointed
 vote_franschise = landed_voting
 public_meetings = yes_meeting
 press_rights = state_press
 trade_unions = no_trade_unions
 voting_system = first_past_the_post
-political_parties = non_secret_ballots
+political_parties = underground_parties
 
 # Social Reforms
 wage_reform = no_minimum_wage
@@ -31,13 +31,13 @@ school_reforms = no_schools
 
 # New Reforms
 conscription = two_year_draft
-debt_law = peonage
+debt_law = serfdom
 penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
-border_policy = open_borders
-centralization = unitary
-colonial_policy = no_colonies 
+border_policy = closed_borders
+centralization = regionalism
+colonial_policy = settlement
 
 set_country_flag = catholic_country
 
@@ -50,11 +50,6 @@ upper_house = {
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
-}
-
-govt_flag = {
-	government = absolute_monarchy
-	flag = theocracy
 }
 
 oob = "POL_oob.txt"

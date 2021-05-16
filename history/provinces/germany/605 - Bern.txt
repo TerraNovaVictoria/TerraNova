@@ -1,5 +1,5 @@
-owner = BNE
-controller = BNE
+owner = SWI
+controller = SWI
 add_core = BNE
 add_core = SWI
 add_core = GER

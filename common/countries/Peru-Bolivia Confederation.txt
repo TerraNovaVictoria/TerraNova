@@ -1,4 +1,6 @@
 color = { 12 112 53 }
+provisional_state = { 255 220 115 }
+subject = { 255 220 115 }
 graphical_culture = SouthAmericanGC
 
 party = {

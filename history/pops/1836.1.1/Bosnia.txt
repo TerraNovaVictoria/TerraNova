@@ -3,9 +3,9 @@
 #Sarajevo (148000/37000 POPS)
 783 = {
 	artisans = {
-		culture = greek
-		religion = orthodox
-		size = 500
+		culture = north_german
+		religion = catholic
+		size = 1500
 	}
 
 	aristocrats = {
@@ -29,7 +29,7 @@
 	soldiers = {
 		culture = shtokavian
 		religion = catholic
-		size = 1200
+		size = 1500
 	}
 
 	clergymen = {
@@ -47,7 +47,7 @@
 	farmers = {
 		culture = shtokavian
 		religion = catholic
-		size = 34775
+		size = 21775
 	}
 	
 	aristocrats = {
@@ -77,55 +77,49 @@
 	artisans = {
 		culture = shtokavian
 		religion = orthodox
-		size = 4750
+		size = 1750
 	}
 
 	farmers = {
 		culture = shtokavian
 		religion = orthodox
-		size = 24000
+		size = 500
 	}
 	
 	aristocrats = {
 		culture = shtokavian
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 	
 	officers = {
 		culture = shtokavian
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 	
 	soldiers = {
 		culture = shtokavian
-		religion = catholic
+		religion = protestant
 		size = 200
 	}
 
 	clergymen = {
 		culture = shtokavian
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
 		culture = shtokavian
-		religion = catholic
-		size = 4750
+		religion = protestant
+		size = 750
 	}
 
 	farmers = {
 		culture = shtokavian
-		religion = catholic
-		size = 11450
-	}
-	
-	soldiers = {
-		culture = shtokavian
-		religion = catholic
-		size = 1250
+		religion = protestant
+		size = 1450
 	}
 	
 	clergymen = {
@@ -137,7 +131,7 @@
 	artisans = {
 		culture = sephardic
 		religion = jewish
-		size = 2000
+		size = 520
 	}
 }
 #Bihac (100000/25000 POPS)

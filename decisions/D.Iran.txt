@@ -267,6 +267,7 @@ political_decisions = {
 				tag = RDL
 				tag = TAL
 				tag = KHR
+			}
 		}
 		
 		allow = {

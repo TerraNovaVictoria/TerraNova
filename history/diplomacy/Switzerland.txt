@@ -26,13 +26,6 @@ vassal = {
 	start_date = 1836.1.1
 	end_date = 1938.1.1
 }
-#Bern
-vassal = {
-	first = SWI
-	second = BNE
-	start_date = 1836.1.1
-	end_date = 1938.1.1
-}
 #Biel-Jura
 vassal = {
 	first = SWI

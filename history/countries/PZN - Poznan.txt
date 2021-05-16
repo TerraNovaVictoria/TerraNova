@@ -1,6 +1,5 @@
 capital = 699
 primary_culture = polish
-culture = north_german
 religion = catholic
 government = subject
 plurality = 0.2

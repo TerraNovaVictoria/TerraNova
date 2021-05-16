@@ -28,3 +28,15 @@ substate = {
 	start_date = 1415.1.1
 	end_date = 1950.1.1
 }
+substate = {
+	first = BOH
+	second = MNR
+	start_date = 1415.1.1
+	end_date = 1950.1.1
+}
+substate = {
+	first = BOH
+	second = BAN
+	start_date = 1415.1.1
+	end_date = 1950.1.1
+}

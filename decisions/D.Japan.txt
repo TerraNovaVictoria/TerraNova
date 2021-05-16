@@ -1,0 +1,128 @@
+political_decisions = {
+
+	ainu_expansion = {
+		picture = map_of_ezo
+		potential = {
+			tag = AIN
+			year = 1839
+			NOT = { has_global_flag = ainu_expand }
+			1089 = { empty = yes }
+		}
+		
+		allow = {
+			war = no
+			NOT = { owns = 1089 }
+		}
+		
+		effect = {
+			set_global_flag = ainu_expand
+			1089 = { secede_province = THIS } 
+			1089 = { add_core = AIN }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	ainu_ultimatum = {
+		picture = map_of_ezo
+		potential = {
+			tag = EMI
+			exists = AIN
+			year = 1839
+			has_global_flag = ainu_expand
+			NOT = { has_country_flag = ainu_ultimatum_sent }
+		}
+		
+		allow = {
+			war = no
+			AIN = { civilized = no }
+		}
+		
+		effect = {
+			set_country_flag = ainu_ultimatum_sent
+			AIN = { country_event = 145502 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	kyo_centralize_government = {
+		picture = meiji_court
+		potential = {
+			tag = KYO
+			has_country_modifier = weak_central_government
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				KYO = { all_core = { owned_by = THIS } }
+				civilized = yes
+				has_global_flag = war_between_the_khan_n_shogun
+			}
+		}
+		
+		effect = {
+			remove_country_modifier = weak_central_government
+			KYO = { country_event = 145505 }
+			any_country = {
+				limit = {
+					primary_culture = mongol
+					OR = {
+						in_sphere = THIS
+						vassal_of = THIS
+						exists = no
+					}
+					OR = {	
+						tag = WUU
+						tag = CHO
+						tag = TOS
+					}
+				}
+				country_event = 145506
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	the_rise_of_hojo = {
+		picture = meiji_court
+		potential = {
+			tag = HOJ
+			has_country_flag = the_time_of_hojo
+			NOT = { has_global_flag = war_between_the_khan_n_shogun }
+		}
+		
+		allow = {
+			war = no
+			OR = {
+				HOJ = { all_core = { owned_by = THIS } }
+				civilized = yes
+				NOT = {
+					AND = { 
+						SEN = { exists = yes }
+						UES = { exists = yes }
+					}
+				}
+			}
+		}
+		
+		effect = {
+			clr_country_flag = the_time_of_hojo
+			set_global_flag = war_between_the_khan_n_shogun
+			KYO = { country_event = 145508 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

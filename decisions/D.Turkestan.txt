@@ -28,17 +28,15 @@ political_decisions = {
 		
 			effect = {
 				prestige = 25
-				KMK = { all_core = { add_core = THIS }
-				KML = { all_core = { add_core = THIS }
-				KYR = { all_core = { add_core = THIS }
-				KAZ = { all_core = { add_core = THIS }
-				KOK = { all_core = { add_core = THIS }
+				KMK = { all_core = { add_core = THIS } }
+				KML = { all_core = { add_core = THIS } }
+				KYR = { all_core = { add_core = THIS } }
+				KAZ = { all_core = { add_core = THIS } }
+				KOK = { all_core = { add_core = THIS } }
 				set_country_flag = claimed_oirat_empire
 			}
 
 		ai_will_do = { factor = 1 }
 	}
 
-}
-	
 }

@@ -4576,7 +4576,7 @@
 	artisans = {
 		culture = russian
 		religion = orthodox
-		size = 4250
+		size = 2250
 	}
 
 	soldiers = {
@@ -4588,7 +4588,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 9725
+		size = 2725
 	}
 	
 	clergymen = {
@@ -4630,7 +4630,7 @@
 	farmers = {
 		culture = kazak
 		religion = sunni
-		size = 8540
+		size = 7540
 	}
 	
 	soldiers = {
@@ -4648,7 +4648,7 @@
 	farmers = {
 		culture = volga_german
 		religion = catholic
-		size = 5500
+		size = 12500
 	}
 }
 #Tsaritsyn (1072000/268000 POPS)
@@ -5032,7 +5032,7 @@
 	farmers = {
 		culture = volga_german
 		religion = protestant
-		size = 6075
+		size = 7075
 	}
 	
 	farmers = {
@@ -5062,7 +5062,7 @@
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 6675
+		size = 4675
 	}
 }
 #Orenburg (124000/31000 POPS)

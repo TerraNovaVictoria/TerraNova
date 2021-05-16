@@ -29,6 +29,13 @@ vassal = {
 	end_date = 1936.1.1
 }
 
+vassal = {
+	first = DZG
+	second = PRU
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
 #Hansa - Baltic Governorate
 substate = {
 	first = HNL

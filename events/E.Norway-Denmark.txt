@@ -198,7 +198,7 @@ country_event = {
 		name = "EVTOPT11000A"
 		prestige = 5
 		set_country_flag = referendum_begins
-		remove_country_flag = referendum_preps
+		clr_country_flag = referendum_preps
 		
 		ai_chance = { factor = 100 }
 	}
@@ -424,7 +424,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPT11008A"
-		remove_country_flag = nor_rig_election
+		clr_country_flag = nor_rig_election
 		set_country_flag = nor_nationalists_will_win
 		
 		ai_chance = { factor = 100 }
@@ -455,7 +455,7 @@ country_event = {
 	option = {
 		name = "EVTOPT11009A"
 		prestige = -20
-		remove_country_flag = nor_rig_election
+		clr_country_flag = nor_rig_election
 		set_country_flag = nor_unionists_will_win
 		
 		ai_chance = { factor = 100 }
@@ -485,7 +485,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPT11010A"
-		remove_country_flag = nor_rig_election
+		clr_country_flag = nor_rig_election
 		set_country_flag = nor_final_steps
 		
 		ai_chance = { factor = 100 }
@@ -511,15 +511,15 @@ country_event = {
 	option = {
 		name = "EVTOPT11011A"
 		set_country_flag = nor_voted_for_independence
-		remove_country_flag = referendum_begins
-		remove_country_flag = nor_nationalists_will_win
-		remove_country_flag = nor_unionists_will_win
-		remove_country_flag = nor_pro_nationalist_parliament
-		remove_country_flag = nor_mixed_parliament
-		remove_country_flag = nor_encouraged_people
-		remove_country_flag = nor_discouraged_people
-		remove_country_flag = nor_against_union
-		remove_country_flag = nor_against_nationalists
+		clr_country_flag = referendum_begins
+		clr_country_flag = nor_nationalists_will_win
+		clr_country_flag = nor_unionists_will_win
+		clr_country_flag = nor_pro_nationalist_parliament
+		clr_country_flag = nor_mixed_parliament
+		clr_country_flag = nor_encouraged_people
+		clr_country_flag = nor_discouraged_people
+		clr_country_flag = nor_against_union
+		clr_country_flag = nor_against_nationalists
 		prestige = 20
 		DNN = { country_event = 11015 }
 		
@@ -545,15 +545,15 @@ country_event = {
 
 	option = {
 		name = "EVTOPT11012A"
-		remove_country_flag = referendum_begins
-		remove_country_flag = nor_nationalists_will_win
-		remove_country_flag = nor_unionists_will_win
-		remove_country_flag = nor_pro_nationalist_parliament
-		remove_country_flag = nor_mixed_parliament
-		remove_country_flag = nor_encouraged_people
-		remove_country_flag = nor_discouraged_people
-		remove_country_flag = nor_against_union
-		remove_country_flag = nor_against_nationalists
+		clr_country_flag = referendum_begins
+		clr_country_flag = nor_nationalists_will_win
+		clr_country_flag = nor_unionists_will_win
+		clr_country_flag = nor_pro_nationalist_parliament
+		clr_country_flag = nor_mixed_parliament
+		clr_country_flag = nor_encouraged_people
+		clr_country_flag = nor_discouraged_people
+		clr_country_flag = nor_against_union
+		clr_country_flag = nor_against_nationalists
 		prestige = 20
 		DNN = { country_event = 11017 }
 		
@@ -597,15 +597,15 @@ country_event = {
 	option = {
 		name = "EVTOPT11013A"
 		set_country_flag = nor_voted_for_independence
-		remove_country_flag = referendum_begins
-		remove_country_flag = nor_nationalists_will_win
-		remove_country_flag = nor_unionists_will_win
-		remove_country_flag = nor_pro_nationalist_parliament
-		remove_country_flag = nor_mixed_parliament
-		remove_country_flag = nor_encouraged_people
-		remove_country_flag = nor_discouraged_people
-		remove_country_flag = nor_against_union
-		remove_country_flag = nor_against_nationalists
+		clr_country_flag = referendum_begins
+		clr_country_flag = nor_nationalists_will_win
+		clr_country_flag = nor_unionists_will_win
+		clr_country_flag = nor_pro_nationalist_parliament
+		clr_country_flag = nor_mixed_parliament
+		clr_country_flag = nor_encouraged_people
+		clr_country_flag = nor_discouraged_people
+		clr_country_flag = nor_against_union
+		clr_country_flag = nor_against_nationalists
 		prestige = 20
 		DNN = { country_event = 11016 }
 		
@@ -648,16 +648,16 @@ country_event = {
 
 	option = {
 		name = "EVTOPT11014A"
-		remove_country_flag = referendum_begins
-		remove_country_flag = nor_final_steps
-		remove_country_flag = nor_nationalists_will_win
-		remove_country_flag = nor_unionists_will_win
-		remove_country_flag = nor_pro_nationalist_parliament
-		remove_country_flag = nor_mixed_parliament
-		remove_country_flag = nor_encouraged_people
-		remove_country_flag = nor_discouraged_people
-		remove_country_flag = nor_against_union
-		remove_country_flag = nor_against_nationalists
+		clr_country_flag = referendum_begins
+		clr_country_flag = nor_final_steps
+		clr_country_flag = nor_nationalists_will_win
+		clr_country_flag = nor_unionists_will_win
+		clr_country_flag = nor_pro_nationalist_parliament
+		clr_country_flag = nor_mixed_parliament
+		clr_country_flag = nor_encouraged_people
+		clr_country_flag = nor_discouraged_people
+		clr_country_flag = nor_against_union
+		clr_country_flag = nor_against_nationalists
 		badboy = -5
 		DNN = { country_event = 11017 }
 		
@@ -724,16 +724,16 @@ country_event = {
 	option = {
 		name = "EVTOPT110151A"
 		set_country_flag = nor_voted_for_independence
-		remove_country_flag = referendum_begins
-		remove_country_flag = nor_parliament_must_decide
-		remove_country_flag = nor_nationalists_will_win
-		remove_country_flag = nor_unionists_will_win
-		remove_country_flag = nor_pro_nationalist_parliament
-		remove_country_flag = nor_mixed_parliament
-		remove_country_flag = nor_encouraged_people
-		remove_country_flag = nor_discouraged_people
-		remove_country_flag = nor_against_union
-		remove_country_flag = nor_against_nationalists
+		clr_country_flag = referendum_begins
+		clr_country_flag = nor_parliament_must_decide
+		clr_country_flag = nor_nationalists_will_win
+		clr_country_flag = nor_unionists_will_win
+		clr_country_flag = nor_pro_nationalist_parliament
+		clr_country_flag = nor_mixed_parliament
+		clr_country_flag = nor_encouraged_people
+		clr_country_flag = nor_discouraged_people
+		clr_country_flag = nor_against_union
+		clr_country_flag = nor_against_nationalists
 		prestige = 20
 		DNN = { country_event = 11016 }
 		
@@ -760,16 +760,16 @@ country_event = {
 	
 	option = {
 		name = "EVTOPT110152A"
-		remove_country_flag = referendum_begins
-		remove_country_flag = nor_parliament_must_decide
-		remove_country_flag = nor_nationalists_will_win
-		remove_country_flag = nor_unionists_will_win
-		remove_country_flag = nor_pro_nationalist_parliament
-		remove_country_flag = nor_mixed_parliament
-		remove_country_flag = nor_encouraged_people
-		remove_country_flag = nor_discouraged_people
-		remove_country_flag = nor_against_union
-		remove_country_flag = nor_against_nationalists
+		clr_country_flag = referendum_begins
+		clr_country_flag = nor_parliament_must_decide
+		clr_country_flag = nor_nationalists_will_win
+		clr_country_flag = nor_unionists_will_win
+		clr_country_flag = nor_pro_nationalist_parliament
+		clr_country_flag = nor_mixed_parliament
+		clr_country_flag = nor_encouraged_people
+		clr_country_flag = nor_discouraged_people
+		clr_country_flag = nor_against_union
+		clr_country_flag = nor_against_nationalists
 		DNN = { country_event = 11017 }
 		
 		ai_chance = { factor = 100 }

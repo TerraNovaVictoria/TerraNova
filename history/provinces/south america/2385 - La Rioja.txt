@@ -3,4 +3,5 @@ controller = RIO
 add_core = RIO
 add_core = CHR
 trade_goods = wool
+terrain = rioxa
 life_rating = 35

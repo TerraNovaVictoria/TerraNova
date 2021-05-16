@@ -1408,7 +1408,7 @@
 	farmers = {
 		culture = sorbian
 		religion = protestant
-		size = 35000
+		size = 24000
 	}
 
 	clergymen = {
@@ -4750,7 +4750,7 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 33450
+		size = 25450
 	}
 
 	clergymen = {
@@ -4780,7 +4780,7 @@
 	farmers = {
 		culture = sorbian
 		religion = protestant
-		size = 14000
+		size = 22000
 	}
 	
 	farmers = {
@@ -5206,5 +5206,160 @@
 		culture = north_german
 		religion = catholic
 		size = 4006         
+	}
+}
+
+#Bautzen
+3277 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 150 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 100
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 500
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 1500
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 7000
+	}
+	
+	aristocrats = {
+		culture = sorbian
+		religion = protestant
+		size = 250 
+	}
+
+	clergymen = {
+		culture = sorbian
+		religion = protestant
+		size = 150
+	}
+
+	artisans = {
+		culture = sorbian
+		religion = protestant
+		size = 4000
+	}
+
+	soldiers = {
+		culture = sorbian
+		religion = protestant
+		size = 700
+	}
+	
+	farmers = {
+		culture = sorbian
+		religion = protestant
+		size = 37000
+	}
+	
+}
+
+#Zittau
+3279 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 50 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 25
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 3500
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 16500
+	}
+	
+	farmers = {
+		culture = sorbian
+		religion = protestant
+		size = 9250
+	}
+}
+
+#Wittenberg
+3281 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 50
+	}
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 25
+	}
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 3500
+	}
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 250
+	}
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 12050
+	}
+}
+
+#Potsdam
+3282 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 100
+	}
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 250
+	}
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 4000
+	}
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 500
+	}
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 49050
 	}
 }

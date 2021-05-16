@@ -120476,3 +120476,52 @@
     }
 
 }
+
+# Fraustadt
+3275 = {
+    text_position = {
+        x = 3050.908333
+        y = 1680.611667
+    }
+
+    text_rotation = 5.319834
+    text_scale = 1.25
+    unit = {
+        x = 3050.976667
+        y = 1680.543333
+    }
+
+    city = {
+        x = 3050.840000
+        y = 1680.543333
+    }
+
+    factory = {
+        x = 3062.798333
+        y = 1690.998333
+    }
+
+    building_construction = {
+        x = 3061.705000
+        y = 1667.218333
+    }
+
+    military_construction = {
+        x = 3055.623333
+        y = 1673.026667
+    }
+
+    building_position = {
+        fort = {
+            x = 3051.796667
+            y = 1683.413333
+        }
+
+        railroad = {
+            x = 3053.573333
+            y = 1676.580000
+        }
+
+    }
+
+}

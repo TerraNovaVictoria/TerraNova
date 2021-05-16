@@ -2,9 +2,9 @@ capital = 1041
 primary_culture = oirat
 religion = gelugpa
 government = primitive_absolute_monarchy
-plurality = 0.0
+plurality = 0.5
 nationalvalue = nv_tradition
-literacy = 0.28
+literacy = 0.18
 
 # Political reforms
 slavery = no_slavery
@@ -48,6 +48,14 @@ upper_house = {
 	socialist = 0
 	communist = 0
 }
+
+foreign_weapons = yes_foreign_weapons
+foreign_artillery = yes_foreign_artillery
+
+
+# Technologies
+flintlock_rifles = 1
+bronze_muzzle_loaded_artillery = 1
 
 # Inventions
 ##bottling_process = yes

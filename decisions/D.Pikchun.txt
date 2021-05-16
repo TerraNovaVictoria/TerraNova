@@ -137,21 +137,40 @@ political_decisions = {
 		}
 	}
 	
+	PIK_1836_setup = {
+	picture = form_USCA
+	
+		potential = {
+			tag = PIK
+			NOT = { has_country_modifier = unstable_government }
+			NOT = { year = 1835 }
+		} 
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			add_country_modifier = { name = unstable_government duration = -1 }
+		}
+		ai_will_do = { factor = 1 }
+		
+	}
+	
 	pikchunic_government_selection = {
 		picture = peru_bolivia
 		potential = {
 			tag = PIK
 			NOT = { exists = SPA }
-			NOT = { has_country_flag = pikchunic_government_selection_proclaimed }
 			government = colonial_company
 		}
 		
 		allow = {
 			government = colonial_company
 		}
+		
 		effect = {
 			PIK = { country_event = 21123333 }
-			set_country_flag = pikchunic_government_selection_proclaimed
 		}
 		ai_will_do = {
 			factor = 1

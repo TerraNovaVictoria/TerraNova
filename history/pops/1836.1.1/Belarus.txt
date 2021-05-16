@@ -359,13 +359,13 @@
 	farmers = {
 		culture = ruthenian
 		religion = orthodox
-		size = 43000
+		size = 44000
 	}
 
 	aristocrats = {
 		culture = polish
 		religion = catholic
-		size = 500
+		size = 1500
 	}
 	
 	officers = {
@@ -383,49 +383,55 @@
 	artisans = {
 		culture = polish
 		religion = catholic
-		size = 150
+		size = 2500
 	}
 
 	soldiers = {
 		culture = polish
 		religion = catholic
-		size = 100
+		size = 300
+	}
+	
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 11000
 	}
 	
 	aristocrats = {
-		culture = ruthenian
-		religion = orthodox
+		culture = north_german
+		religion = protestant
 		size = 100
 	}
 	
 	officers = {
-		culture = ruthenian
-		religion = orthodox
+		culture = north_german
+		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
-		culture = ruthenian
-		religion = orthodox
+		culture = north_german
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
-		culture = ruthenian
-		religion = orthodox
-		size = 400
+		culture = north_german
+		religion = protestant
+		size = 3400
 	}
 
 	soldiers = {
-		culture = ruthenian
-		religion = orthodox
+		culture = north_german
+		religion = protestant
 		size = 150
 	}
 
-	serfs = {
-		culture = ruthenian
-		religion = orthodox
-		size = 14300
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 4300
 	}
 	
 	aristocrats = {
@@ -787,7 +793,7 @@
 	farmers = {
 		culture = ruthenian
 		religion = orthodox
-		size = 42050
+		size = 41050
 	}
 
 	aristocrats = {
@@ -817,31 +823,31 @@
 	serfs = {
 		culture = polish
 		religion = catholic
-		size = 1475
+		size = 2475
 	}
 
 	clergymen = {
-		culture = ruthenian
-		religion = catholic
+		culture = north_german
+		religion = protestant
 		size = 100
 	}
 
 	artisans = {
-		culture = ruthenian
-		religion = catholic
-		size = 250
+		culture = north_german
+		religion = protestant
+		size = 3250
 	}
 
 	soldiers = {
-		culture = ruthenian
-		religion = catholic
+		culture = north_german
+		religion = protestant
 		size = 100
 	}
 
 	farmers = {
-		culture = ruthenian
-		religion = catholic
-		size = 4625
+		culture = north_german
+		religion = protestant
+		size = 625
 	}
 
 	clergymen = {

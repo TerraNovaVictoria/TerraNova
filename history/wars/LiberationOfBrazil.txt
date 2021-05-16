@@ -1,4 +1,4 @@
-name = "Expedicion Libertadora del Brazil"
+name = "Expedición Amazónica"
 
 1835.10.2 = {
 	add_attacker = GCO

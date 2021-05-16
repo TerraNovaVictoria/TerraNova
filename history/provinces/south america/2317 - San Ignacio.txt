@@ -1,5 +1,5 @@
 add_core = PIK
-add_core = KAP
+add_core = PBC
 add_core = CHR
 add_core = GRI
 trade_goods = tropical_wood

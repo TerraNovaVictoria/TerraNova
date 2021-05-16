@@ -1,13 +1,13 @@
-capital = 2310
+capital = 2295
 primary_culture = south_andean
 religion = catholic
-government = presidential_dictatorship
+government = provisional_state
 plurality = 25.0
 nationalvalue = nv_equality
 literacy = 0.22
-non_state_culture_literacy = 0.01
+non_state_culture_literacy = 0.03
 civilized = yes
-prestige = 3
+prestige = 5
 
 # Political reforms
 slavery = no_slavery
@@ -52,7 +52,7 @@ upper_house = {
 }
 
 govt_flag = {
-	government = presidential_dictatorship
+	government = provisional_state
 	flag = theocracy
 }
 

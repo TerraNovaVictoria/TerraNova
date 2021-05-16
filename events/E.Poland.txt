@@ -7,7 +7,7 @@ country_event = {
 	trigger = {
 		968 = { owned_by = THIS }
 		has_global_flag = odessa_founded
-		968 = { NOT = { has_province_modifier = founding_odessa }
+		968 = { NOT = { has_province_modifier = founding_odessa } }
 		968 = { NOT = { is_core = ODS } }
 	}
 
@@ -27,7 +27,6 @@ country_event = {
 		life_rating = -5
 		ai_chance = { factor = 100 }
 	}
-		
 }
 
 country_event = {

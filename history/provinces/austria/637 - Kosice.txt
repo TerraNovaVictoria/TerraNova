@@ -2,5 +2,6 @@ owner = BCR
 controller = BCR
 add_core = BCR
 add_core = SLV
+add_core = AVR
 trade_goods = coal
 life_rating = 35

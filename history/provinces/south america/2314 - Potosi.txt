@@ -1,7 +1,7 @@
 owner = PIK
 controller = PIK
 add_core = PIK
-add_core = KAP
+add_core = PBC
 add_core = CHR
 trade_goods = grain
 life_rating = 15

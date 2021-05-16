@@ -1,7 +1,6 @@
 owner = OSS
 controller = OSS
 add_core = OSS
-add_core = CHY
 trade_goods = wool
 life_rating = 35
 colonial = 2

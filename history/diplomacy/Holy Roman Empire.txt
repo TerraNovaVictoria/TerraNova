@@ -3,6 +3,14 @@
 #Palatinate
 vassal = {
 	first = BAV
+	second = OSN
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Palatinate
+vassal = {
+	first = BAV
 	second = PLT
 	start_date = 1815.1.1
 	end_date = 1936.1.1

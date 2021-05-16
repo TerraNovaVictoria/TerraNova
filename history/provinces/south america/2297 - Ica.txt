@@ -1,7 +1,7 @@
 owner = PIK
 controller = PIK
 add_core = PIK
-add_core = KAP
+add_core = PBC
 trade_goods = fish
 terrain = dryhills
 life_rating = 35

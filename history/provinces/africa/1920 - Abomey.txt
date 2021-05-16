@@ -1,5 +1,6 @@
 owner = DAH
 controller = DAH
 add_core = DAH
+add_core = BID
 trade_goods = grain
 life_rating = 35

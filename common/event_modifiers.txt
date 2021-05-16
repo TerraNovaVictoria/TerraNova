@@ -314,6 +314,18 @@ a_new_capitol_pry = {
 	icon = 19
 }
 
+a_new_capitol_gco = {
+	immigrant_attract = 2
+	population_growth = 0.004
+	assimilation_rate = 0.9
+	icon = 19
+}
+
+rising_knighthood = {
+	pop_militancy_modifier = 0.01
+	icon = 7
+}
+
 infrastructure_projects = {
 	immigrant_attract = 0.5
 	population_growth = 0.006

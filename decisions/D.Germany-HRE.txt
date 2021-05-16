@@ -21,7 +21,7 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
-	#Aachen restores Francia #loljkdontdothisplease
+	#Aachen restores Francia #dontdothisplease
 	aachen_reforms_francia = {
 		picture = francia_map
 		potential = {

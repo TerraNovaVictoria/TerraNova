@@ -1,6 +1,7 @@
 owner = EMI
 controller = EMI
 add_core = EMI
+add_core = HOJ
 add_core = JAP
 trade_goods = iron
 life_rating = 35

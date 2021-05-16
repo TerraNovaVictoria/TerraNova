@@ -39,6 +39,10 @@ border_policy = open_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
+govt_flag = {
+	government = absolute_monarchy
+	flag = theocracy
+}
 
 set_country_flag = orthodox_country
 

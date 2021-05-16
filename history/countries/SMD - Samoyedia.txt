@@ -1,7 +1,7 @@
 capital = 2682
 primary_culture = ugrian
-religion = animist
-government = absolute_monarchy
+religion = orthodox
+government = subject
 plurality = 10
 nationalvalue = nv_autocracy
 literacy = 0.01

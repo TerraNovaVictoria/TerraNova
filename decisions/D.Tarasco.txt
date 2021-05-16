@@ -120,7 +120,7 @@ political_decisions = {
 		
 		effect = {
 			2165 = { remove_core = YUC }
-			BLZ = { all_core = { remove_core = YUC }
+			BLZ = { all_core = { remove_core = YUC } }
 			TRS = { country_event = 290101 }
 		}
 		ai_will_do = {

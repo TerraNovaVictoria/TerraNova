@@ -1,4 +1,4 @@
-###NETHERLANDS###
+###NETHERLANDS EVENTS 100-199###########
 
 country_event = {
 	id = 6666100
@@ -138,6 +138,221 @@ country_event = {
 		name = "EVTOPT6666105A" #The Revolution is here
 		government = federal_democracy
 		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+######BRANDENBURG-PRUSSIA EVENTS 200-299########
+
+country_event = {
+	id = 6666200
+	title = "EVTNAME6666200" #Rising Power of the Knights
+	desc = "EVTDESC6666200"
+	picture = "konigsberg"
+	
+	trigger = {
+		tag = DZG 
+		AND = {
+			exists = LIV
+			LIV = { government = theocracy }
+		}
+		695 = { owned_by = THIS }
+		NOT = { has_country_flag = contained_the_teutonic_knighthood }
+	}
+		
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT6666200A" #We'll deal with em
+		695 = { add_province_modifier = { name = rising_knighthood duration = 3650 } }
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 6666201
+	title = "EVTNAME6666201" #The Knighthood contained
+	desc = "EVTDESC6666201"
+	picture = "prussian_constitution"
+	
+	trigger = {
+		tag = DZG 
+		695 = { 
+			owned_by = THIS
+			NOT = { has_province_modifier = rising_knighthood	}
+		}
+		has_country_flag = contained_the_teutonic_knighthood
+	}
+		
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT6666201A" #For the better
+		ai_chance = { factor = 95 }
+	}
+	
+	option = {
+		name = "EVTOPT6666201B" #We'll be free from the failing Hansa
+		HNL = { release_vassal = THIS }
+		HNL = { country_event = 6666204 }
+		government = democracy
+		prestige = 10
+		ai_chance = { factor = 5 }
+	}
+	
+}
+
+country_event = {
+	id = 6666202
+	title = "EVTNAME6666202" #The Knights Rise Up!
+	desc = "EVTDESC6666202"
+	picture = "teutonic_knights"
+	
+	trigger = {
+		tag = DZG 
+		year = 1840
+		NOT = { year = 1848 }
+		695 = { 
+			owned_by = THIS
+			has_province_modifier = rising_knighthood
+		}
+		NOT = { has_country_flag = contained_the_teutonic_knighthood }
+	}
+		
+	fire_only_once = yes
+	
+	immediate = { 
+		695 = { remove_province_modifier = rising_knighthood } 
+		695 = { secede_province = PRU }
+		698 = { secede_province = PRU }
+		696 = { secede_province = PRU }
+		693 = { secede_province = PRU }
+	}
+	
+	option = {
+		name = "EVTOPT6666202A" #We must submit
+		HNL = { release_vassal = THIS }
+		DZG = { release_vassal = PRU }
+		DZG = { all_core = { remove_core = DZG } }
+		government = democracy
+		690 = { add_core = DZG }
+		PRU = { inherit = DZG }
+		ai_chance = { factor = 30 }
+	}
+	
+	option = {
+		name = "EVTOPT6666202B" #We'll see where this goes
+		ai_chance = { factor = 70 }
+	}
+	
+}
+
+country_event = {
+	id = 6666203
+	title = "EVTNAME6666203" #Second Prussian War
+	desc = "EVTDESC6666203"
+	picture = "prussian_constitution"
+	
+	trigger = {
+		tag = DZG 
+		PRU = { 
+			exists = yes 
+			government = theocracy
+			vassal_of = THIS
+		}
+	}
+	
+	mean_time_to_happen = { months = 3 }
+		
+	fire_only_once = yes
+	
+	immediate = { 
+		HNL = { release_vassal = THIS }
+		DZG = { release_vassal = PRU }
+		government = federal_democracy
+		war = {
+			target = PRU
+			attacker_goal = { 
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = civil_war
+			}
+			call_ally = no
+		}
+	}
+	
+	option = {
+		name = "EVTOPT6666203A" #Restore Order!
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT6666203B" #Onwards as the Knights!
+		change_tag_no_core_switch = PRU
+		ai_chance = { factor = 0 }
+	}
+	
+}
+
+country_event = {
+	id = 6666204
+	title = "EVTNAME6666204" #The Prussians secede!
+	desc = "EVTDESC6666204"
+	picture = "prussian_constitution"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT6666204A" #let them go
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+		name = "EVTOPT6666204B" #we wont give up easily!
+		set_country_flag = holds_prussian_claims
+		ai_chance = { factor = 10 }
+	}
+	
+}
+
+country_event = {
+	id = 6666205
+	title = "EVTNAME6666205" #The Fate of Upper Silesia
+	desc = "EVTDESC6666205"
+	picture = "opole_painting"
+	
+	trigger = {
+		OR = {
+			year = 1848
+			AND = {
+				684 = { has_province_modifier = nationalist_agitation }
+				685 = { has_province_modifier = nationalist_agitation }
+			}
+		}
+		NOT = { year = 1858 }
+		684 = { 
+			owned_by = THIS 
+			NOT = { is_core = USL } 
+		}
+		685 = { 
+			owned_by = THIS 
+			NOT = { is_core = USL } 
+		}
+		NOT = { primary_culture = polish }
+		NOT = { tag  = SLS }
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT6666205A" #very well
+		SLS = { remove_accepted_culture = polish }
+		684 = { add_core = USL }
+		685 = { add_core = USL }
 		ai_chance = { factor = 100 }
 	}
 	

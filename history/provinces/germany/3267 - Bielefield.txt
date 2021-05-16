@@ -1,5 +1,6 @@
-owner = WES
-controller = WES
+owner = DUI
+controller = DUI
+add_core = DUI
 add_core = WES
 add_core = GER
 trade_goods = grain

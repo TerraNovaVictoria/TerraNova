@@ -1,0 +1,8 @@
+owner = BOH
+controller = BOH
+add_core = BOH
+add_core = LUZ
+add_core = BRN
+add_core = GER
+life_rating = 40
+trade_goods = grain

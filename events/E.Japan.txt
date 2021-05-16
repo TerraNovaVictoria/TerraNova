@@ -6,7 +6,16 @@ country_event = {
 	desc = "EVTDESC145500"
 	picture = "chinese_palace"
 	
-	is_triggered_only = yes
+	trigger = {
+		tag = KYO
+		year = 1839
+		NOT = { 
+			year = 1840
+			has_country_modifier = weak_central_governmen			
+		}
+	}
+	
+	fire_only_once = yes
 	
 	option = {
 		name = "EVTOPT145500A"
@@ -14,6 +23,180 @@ country_event = {
 		1676 = { remove_core = KYO secede_province = HOJ }
 		1639 = { secede_province = CHO }
 		1637 = { add_core = WUU secede_province = WUU }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 145501
+	title = "EVTNAME145501" #Unification of Ezo
+	desc = "EVTDESC145501"
+	picture = "chinese_palace"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT145501A"
+		THIS = { all_core = { add_core = EZO remove_core = THIS } }
+		EZO = { inherit = THIS }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 145505
+	title = "EVTNAME145505" #The Rise of the Khanate
+	desc = "EVTDESC145505"
+	picture = "ezo_end"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA145505"
+		JAP = { all_core = { add_core = KYO } }
+		prestige = 10
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 145506
+	title = "EVTNAME145506" #The Rise of the Khanate
+	desc = "EVTDESC145506"
+	picture = "ezo_end"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA145506"
+		THIS = {
+			all_core = {
+				add_core = KYO
+				remove_core = THIS
+			}
+		}
+		KYO = { inherit = THIS }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 145507
+	title = "EVTNAME145507" #The Rise of Hojo
+	desc = "EVTDESC145507"
+	picture = "meiji_parliament"
+	
+	trigger = {
+		tag = HOJ
+		year = 1836
+		NOT = { year = 1837 }
+		NOT = { has_country_flag = the_time_of_hojo }
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPTA145507"
+		prestige = 5
+		set_country_flag = the_time_of_hojo
+		ai_chance = { factor = 100 }
+	}
+}
+
+######EMISHI/AINU EVENTS######
+
+country_event = {
+	id = 145502
+	title = "EVTNAME145502" #Emishi demand Ainu annexation
+	desc = "EVTDESC145502"
+	picture = "ezo_end"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA145502"
+		any_owned = {
+			limit = { is_core = AIN }
+			add_core = EMI
+			add_core = HOJ
+			add_core = JAP
+		}
+		EMI = { inherit = AIN }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPTB145502"
+		prestige = 5
+		EMI = { country_event = 145503 }
+		ai_chance = { factor = 0 }
+	}
+}
+
+country_event = {
+	id = 145503
+	title = "EVTNAME145503" #Ainu refuse ultimatum
+	desc = "EVTDESC145503"
+	picture = "ezo_republic"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTA145503"
+		HOJ = {
+			war = {
+				target = AIN
+				attacker_goal = { 
+					casus_belli = conquest
+				}
+				defender_goal = {
+					casus_belli = status_quo
+				}
+				call_ally = no
+			}
+		}
+		set_global_flag = conquest_of_ainu
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPTB145503"
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = 145504
+	title = "EVTNAME145504" #Ezo becomes Emishi
+	desc = "EVTDESC145504"
+	picture = "ezo_end"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = HOJ
+		war = no
+		has_global_flag = conquest_of_ainu
+		EMI = { exists = yes }
+		NOT = { has_country_flag = ezo_transfer }
+		owns = 1644
+	}
+	
+	mean_time_to_happen = { days = 3 }
+	
+	immediate = {
+		clr_global_flag = conquest_of_ainu
+	}
+	
+	option = {
+		name = "EVTOPTA145504"
+		any_owned = {
+			limit = { is_core = AIN }
+			add_core = EMI
+			add_core = HOJ
+			add_core = JAP
+			secede_province = EMI
+		}
 		ai_chance = { factor = 100 }
 	}
 }

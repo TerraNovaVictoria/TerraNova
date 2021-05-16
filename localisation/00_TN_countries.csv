@@ -1,4 +1,30 @@
 ;;;;;;;;;;;;;;x,,,
+ATL;Atlas;;;;;;;;;;;;;;;;;;x;;;;
+ATL_ADJ;Atlasite;;;;;;;;;;;;;;;;;;x;;;;
+ATL_subject;Territoire d'Alger;;;;;;;;;;;;;;;;;;x;;;;
+ATL_subject_ADJ;Algerian;;;;;;;;;;;;;;;;;;x;;;;
+ATL_colonial_company;Territoire d'Alger;;;;;;;;;;;;;;;;;;x;;;;
+ATL_colonial_company_ADJ;Algerian;;;;;;;;;;;;;;;;;;x;;;;
+ATL_democracy;The Maghrebi Federation;;;;;;;;;;;;;x
+ATL_democracy_ADJ;Maghrebi;;;;;;;;;;;;;x
+ATL_hms_government;The Atlesian Kingdom;;;;;;;;;;;;x
+ATL_hms_government_ADJ;Atlesian;;;;;;;;;;;;x
+ATL_prussian_constitutionalism;The Atlesian Kingdom;;;;;;;;;;;;x
+ATL_prussian_constitutionalism_ADJ;Atlesian;;;;;;;;;;;;x
+ATL_absolute_monarchy;The Atlesian Kingdom;;;;;;;;;;;;x
+ATL_absolute_monarchy_ADJ;Atlesian;;;;;;;;;;;;x
+ATL_proletarian_dictatorship;The People's Republic of the Atlas Mountains;;;;;;;;;;;;;x
+ATL_fascist_dictatorship;The Arab Atlas Republic;;;;;;;;;;;;;x
+GCO_presidential_dictatorship;The Republic of Colombia;;;;;;;;;;;;;x
+VOJ;Vojvodina;;;;;;;;;;;;;;;;;;x;;;;
+VOJ_ADJ;Vojvodinan;;;;;;;;;;;;;;;;;;x;;;;
+MNR;Menumorut;;;;;;;;;;;;;;;;;;x;;;;
+MNR_ADJ;Menumorit;;;;;;;;;;;;;;;;;;x;;;;
+NOG;Nogaistan;;;;;;;;;;;;;;;;;;x;;;;
+NOG_absolute_monarchy;Nogai Khanate;;;;;;;;;;;;;;;;;;x;;;;
+NOG_ADJ;Nogai;;;;;;;;;;;;;;;;;;x;;;;
+USL;Upper Silesia;;;;;;;;;;;;;;;;;;x;;;;
+USL_ADJ;Upper Silesian;;;;;;;;;;;;;;;;;;x;;;;
 BTL;Bitlis;;;;;;;;;;;;;;;;;;x;;;;
 BTL_ADJ;Bitlisi;;;;;;;;;;;;;;;;;;x;;;;
 BZD;Beyazid;;;;;;;;;;;;x
@@ -9,7 +35,9 @@ BZD_proletarian_dictatorship;The People's Frontier Republic;;;;;;;;;;;;;x
 BZD_fascist_dictatorship;The Kurdish Free State;;;;;;;;;;;;;x
 BZD_democracy;The Karsi Republic;;;;;;;;;;;;;x
 DZG_subject;The Prussian Confederation;;;;;;;;;;;;x
+DZG_federal_democracy;The Prussian League;;;;;;;;;;;;x
 DZG_subject_ADJ;Prussian;;;;;;;;;;;;x
+DZG_federal_democracy_ADJ;Prussian;;;;;;;;;;;;x
 PRU_theocracy;The Teutonic Order;;;;;;;;;;;;x
 PRU_theocracy_ADJ;Teutonic;;;;;;;;;;;;x
 ADY;Adygea;;;;;;;;;;;;x
@@ -328,6 +356,12 @@ THR;The Three Leagues;;;;;;;;;;;;;x
 THR_ADJ;Federal;;;;;;;;;;;;;x
 BGY;Burgundy;;;;;;;;;;;;;x
 BGY_ADJ;Burgundian;;;;;;;;;;;;;x
+OSN;Osnabrück;;;;;;;;;;;;;x
+OSN_ADJ;Osnabrücker;;;;;;;;;;;;;x
+CZE;Czechia;;;;;;;;;;;;;x
+CZE_ADJ;Czechia;;;;;;;;;;;;;x
+SDT;Sudetenland;;;;;;;;;;;;;x
+SDT_ADJ;Sudetenländer;;;;;;;;;;;;;x
 MAZ;Mazovia;;;;;;;;;;;;;x
 MAZ_ADJ;Mazovian;;;;;;;;;;;;;x
 AUV;Auvergne;;;;;;;;;;;;;x
@@ -484,7 +518,6 @@ HRE_presidential_dictatorship;The Central European Republic;;;;;;;;;;;;;;;;;;;;;
 KOR;Korea;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 KOR_absolute_monarchy;The Korean Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 KOR_subject;Xinjin;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-PRU_subject;The Prussian Confederation;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 BLT;Baltia;;;;;;;;;;;;;x
 BLT_ADJ;Baltic;;;;;;;;;;;;;x
 NST;Nakhon Si Thammarat;;;;;;;;;;;;;x
@@ -558,21 +591,21 @@ AOM;Aromania;;;;;;;;;;;;x
 AOM_ADJ;Aromanian;;;;;;;;;;;;x
 ANA;Kirmanjka;;;;;;;;;;;;x
 ANA_ADJ;Kirmanjki;;;;;;;;;;;;x
-ANA_ancient_regime;The Shahdom of Rum;;;;;;;;;;;;x
-ANA_ancient_regime_ADJ;Ruman;;;;;;;;;;;;x
-ANA_absolute_monarchy;The Zaza Shahdom;;;;;;;;;;;;x
-ANA_absolute_monarchy_ADJ;Zaza;;;;;;;;;;;;x
-ANA_prussian_constitutionalism;The Zaza Shahdom;;;;;;;;;;;;x
-ANA_prussian_constitutionalism_ADJ;Zaza;;;;;;;;;;;;x
-ANA_hms_government;The Zaza Shahdom;;;;;;;;;;;;x
-ANA_hms_government_ADJ;Zaza;;;;;;;;;;;;x
+ANA_ancient_regime;The Nawid Shahdom;;;;;;;;;;;;x
+ANA_ancient_regime_ADJ;Nawid;;;;;;;;;;;;x
+ANA_absolute_monarchy;The Zazanid Shahdom;;;;;;;;;;;;x
+ANA_absolute_monarchy_ADJ;Zazanid;;;;;;;;;;;;x
+ANA_prussian_constitutionalism;The Zazanid Shahdom;;;;;;;;;;;;x
+ANA_prussian_constitutionalism_ADJ;Zazanid;;;;;;;;;;;;x
+ANA_hms_government;The Zazanid Shahdom;;;;;;;;;;;;x
+ANA_hms_government_ADJ;Zazanid;;;;;;;;;;;;x
 ANA_proletarian_dictatorship;The Anatolian Council Republic;The Anatolian Council Republic;The Anatolian Council Republic;;The Anatolian Council Republic;;;;;;;;;;;;x
 ANA_proletarian_dictatorship_ADJ;Anatolian;;;;;;;;;;;;x
-ANA_presidential_dictatorship;The Ancyran Republic;;;;;;;;;;;;;;;;x
-ANA_bourgeois_dictatorship;The Zaza Republic;;;;;;;;;;;;x
+ANA_presidential_dictatorship;The Askuzaid State;;;;;;;;;;;;;;;;x
+ANA_bourgeois_dictatorship;The Dimili Republic;;;;;;;;;;;;x
 ANA_fascist_dictatorship_ADJ;The Ilkhanate;;;;;;;;;;;;x
 ANA_fascist_dictatorship_ADJ;Ilkhanid;;;;;;;;;;;;x
-ANA_democracy;The Republic of Kirmanjka;;;;;;;;;;;;x
+ANA_democracy;Kirmania;;;;;;;;;;;;x
 URM_absolute_monarchy;The Urmian Khanate;;;;;;;;;;;;;x
 URM;Urmia;;;;;;;;;;;;;x
 URM_ADJ;Urmian;;;;;;;;;;;;;x
@@ -600,13 +633,17 @@ PBC;Peru-Bolivia;;;;;;;;;;;;;x
 PBC_ADJ;Peru-Bolivian;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 PBC_presidential_dictatorship;The Republic of Peru;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 PBC_presidential_dictatorship_ADJ;Peruvian;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-PBC_absolute_monarchy;Great Peru;;;;;;;;;;;;;x
-PBC_prussian_constitutionalism;Great Peru;;;;;;;;;;;;;x
-PBC_hms_government;Peru-Bolivia;;;;;;;;;;;;;x
+PBC_absolute_monarchy;The Kingdom of Andes;;;;;;;;;;;;;x
+PBC_prussian_constitutionalism;The Kingdom of Andes;;;;;;;;;;;;;x
+PBC_hms_government;The Kingdom of Andes;;;;;;;;;;;;;x
 PBC_proletarian_dictatorship;The People's Andine Republic;;;;;;;;;;;;;x
 PBC_proletarian_dictatorship_ADJ;Andine;;;;;;;;;;;;;
 PBC_democracy;Andine Federation;;;;;;;;;;;;;;;;;
 PBC_democracy_ADJ;Andine;;;;;;;;;;;;;
+PBC_provisional_state;The Kapuyan Republic;;;;;;;;;;;;;
+PBC_provisional_state_ADJ;Kapuyan;;;;;;;;;;;;;
+PBC_subject;Pikchun-Bolivaria;;;;;;;;;;;;;
+PBC_subject_ADJ;Bolivarian;;;;;;;;;;;;;
 MCK_absolute_monarchy;Dongbei;;;;;;;;;x;;;;;;;;
 MCK_prussian_constitutionalism;Dongbei;;;;;;;;;;;;;x
 MCK_hms_government;Dongbei;;;;;;;;;;;;;x,
@@ -1101,6 +1138,8 @@ STY;Styria;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 STY_ADJ;Styrian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 AVR;Avaria;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 AVR_ADJ;Avarian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AVR_subject;Višegrad;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AVR_subject_ADJ;Višegrader;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 AVR_proletarian_dictatorship;Avar Council;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 AVR_presidential_dictatorship;Republic of Avaria;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 AVR_bourgeois_dictatorship;Republic of Avaria;;;;;;;;;;;;;;;;;;;;;;;x;;;;

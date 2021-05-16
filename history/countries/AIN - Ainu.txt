@@ -1,7 +1,7 @@
 capital = 1644
 primary_culture = ainu
 religion = animist
-government = democracy
+government = primitive_absolute_monarchy
 plurality = 10
 nationalvalue = nv_autocracy
 literacy = 0.02

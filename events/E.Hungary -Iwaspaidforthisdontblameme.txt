@@ -6,10 +6,28 @@ country_event = {
 	desc = "EVTDESC151000"
 	picture = "graveyard_of_empires"
 	
-	is_triggered_only = yes
+	trigger = {
+		tag = HUN
+		government = ancient_regime
+	}
+	
+	mean_time_to_happen = { months = 1 }
+	
+	fire_only_once = yes
 	
 	immediate = {
 		government = absolute_monarchy
+		HUN = { all_core  = { remove_core = HUN  } }
+		HUN = { release_vassal = SMS }
+		SMS = { government = democracy }
+		2610 = { secede_province = THIS }
+		1182 = { secede_province = THIS }
+		1043 = { secede_province = THIS }
+		1038 = { secede_province = THIS }
+		973 = { secede_province = THIS }
+		965 = { secede_province = THIS }
+		KYR = { country_event = 151001 }
+		KMK = { country_event = 151002 }
 	}
 	
 	option = {
@@ -191,20 +209,11 @@ country_event = {
 		release_vassal = ORE
 		release_vassal = DAG
 		release_vassal = OSS
+		release_vassal = BLK
+		release_vassal = CHY
 		ORE = { government = democracy }
-		any_owned = {
-			limit = { is_core = BLK }
-			secede_province = BLK
-		}
-		any_owned = {
-			limit = { is_core = DAG }
-			secede_province = DAG
-		}
+		1057 = { secede_province = NOG }
 		1055 = { add_core = DAG }
-		CHY = {
-			limit = { vassal_of = KMK }
-			annex_to = DAG 
-		}
 		DAG = { all_core = { remove_core = KMK } }
 		BLK = { all_core = { remove_core = KMK } }
 		ADY = { all_core = { remove_core = KMK } }
@@ -219,20 +228,11 @@ country_event = {
 		release_vassal = ORE
 		release_vassal = DAG
 		release_vassal = OSS
+		release_vassal = BLK
+		release_vassal = CHY
 		ORE = { government = democracy }
-		any_owned = {
-			limit = { is_core = BLK }
-			secede_province = BLK
-		}
-		any_owned = {
-			limit = { is_core = DAG }
-			secede_province = DAG
-		}
+		1057 = { secede_province = NOG }
 		1055 = { add_core = DAG }
-		CHY = {
-			limit = { vassal_of = KMK }
-			annex_to = DAG 
-		}
 		DAG = { all_core = { add_core = KMK } }
 		BLK = { all_core = { add_core = KMK } }
 		HUN = { all_core = { remove_core = KMK } }
@@ -322,6 +322,121 @@ country_event = {
 		name = "EVTOPT151005A" 
 		add_country_modifier = international_zone_modifier
 		prestige = 10
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 151006
+	title = "EVTNAME151006" #Cossack-Magyar War
+	desc = "EVTDESC151006"
+	picture = "caucasian_war"
+	
+	is_triggered_only = yes
+	
+	immediate = { 
+		1038 = { secede_province = KOS remove_core = HUN }
+		1043 = { secede_province = KOS add_core = KOS remove_core = SMS remove_core = HUN }
+	}
+	
+	option = {
+		name = "EVTOPT151006A" 
+		prestige = -2.5
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT151006B" 
+		KOS = { all_core = { add_core = HUN } }
+		SMS = { all_core = { add_core = HUN } }
+		ORE = { all_core = { add_core = HUN } }
+		war = {
+			target = KOS
+			attacker_goal = { 
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = civil_war
+			}
+			call_ally = no
+		}
+		ai_chance = { factor = 0 }
+	}
+
+}
+
+country_event = {
+	id = 151007
+	title = "EVTNAME151007" #End the Kalmyk Threat
+	desc = "EVTDESC151007"
+	picture = "caucasian_war"
+	
+	trigger = {
+		OR = {
+			primary_culture = volga_german
+			primary_culture = russian
+		}
+		AND = {
+			1038 = { 
+				owned_by = THIS 
+				NOT = { is_core = HUN }
+			}
+			1043 = { 
+				owned_by = THIS 
+				NOT = { is_core = HUN }
+			}
+		}
+		NOT = { has_country_flag = oirat_genocide }
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT151007A" 
+		set_country_flag = oirat_genocide
+		any_pop = {
+			limit = { 
+				has_pop_culture = oirat
+				location = {
+					OR = {
+						province_id = 1038
+						province_id = 1043
+					}
+				}
+			}
+			reduce_pop = 0
+		}
+		any_pop = {
+			limit = { 
+				has_pop_culture = hungarian
+			}
+			reduce_pop = 0.1
+		}	
+		any_pop = {
+			limit = { 
+				has_pop_culture = tatar
+				location = {
+					OR = {
+						province_id = 1038
+						province_id = 1043
+					}
+				}
+			}
+			reduce_pop = 0.5
+		}
+		any_pop = {
+			limit = { 
+				has_pop_culture = kazak
+				location = {
+					OR = {
+						province_id = 1038
+						province_id = 1043
+					}
+				}
+			}
+			reduce_pop = 0.8
+		}
 		ai_chance = { factor = 100 }
 	}
 

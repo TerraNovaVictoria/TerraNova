@@ -1,7 +1,8 @@
-owner = TRY
-controller = TRY
+owner = MNR
+controller = MNR
+add_core = MNR
 add_core = ROM
 add_core = ALA
 add_core = TRY
-trade_goods = iron
+trade_goods = grain
 life_rating = 35

@@ -250,25 +250,13 @@
 		size = 46425
 	}
 
-	farmers = {
-		culture = polish
-		religion = protestant
-		size = 2500
-	}
-	
-	farmers = {
-		culture = polish
-		religion = catholic
-		size = 2500
-	}
-
 	artisans = {
 		culture = ashkenazi
 		religion = jewish
 		size = 200
 	}
 }
-#Silesia Region (2568000) #see avariia.txt and Germany.txt for balance of region
+#Silesia Region (2568000) #see czechia.txt and Germany.txt for balance of region
 #under the rule of Prussia in 1836  
 #Breslau (936000/234000 POPS) 
 682 = {
@@ -503,25 +491,25 @@
 	}
 
 	clergymen = {
-		culture = avari
+		culture = czech
 		religion = catholic
 		size = 15 
 	}
 
 	artisans = {
-		culture = avari
+		culture = czech
 		religion = catholic
 		size = 50
 	}
 
 	soldiers = {
-		culture = avari
+		culture = czech
 		religion = catholic
 		size = 10 
 	}
 
 	farmers = {
-		culture = avari
+		culture = czech
 		religion = catholic
 		size = 925 
 	}
@@ -631,25 +619,25 @@
 	}
 
 	clergymen = {
-		culture = avari
+		culture = czech
 		religion = catholic
 		size = 50 
 	}
 
 	artisans = {
-		culture = avari
+		culture = czech
 		religion = catholic
 		size = 200
 	}
 
 	soldiers = {
-		culture = avari
+		culture = czech
 		religion = catholic
 		size = 25 
 	}
 
 	farmers = {
-		culture = avari
+		culture = czech
 		religion = catholic
 		size = 3725 
 	}
@@ -741,25 +729,25 @@
 	}
 
 	clergymen = {
-		culture = avari
+		culture = czech
 		religion = catholic
 		size = 50 
 	}
 
 	artisans = {
-		culture = avari
+		culture = czech
 		religion = catholic
 		size = 500
 	}
 
 	soldiers = {
-		culture = avari
+		culture = czech
 		religion = catholic
 		size = 100 
 	}
 
 	farmers = {
-		culture = avari
+		culture = czech
 		religion = catholic
 		size = 9350
 	}
@@ -798,7 +786,7 @@
 	}
 
 	farmers = {
-		culture = avari
+		culture = czech
 		religion = catholic
 		size = 5715 
 	}
@@ -950,7 +938,7 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 14825
+		size = 11825
 	}
 
 	clergymen = {
@@ -1010,7 +998,13 @@
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 13425
+		size = 5425
+	}
+	
+	farmers = {
+		culture = polish
+		religion = protestant
+		size = 11425
 	}
 }
 #Deutsche Krone (128000/32000 POPS) 
@@ -1348,7 +1342,7 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 26825
+		size = 29825
 	}
 
 	clergymen = {
@@ -1414,7 +1408,7 @@
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 74800
+		size = 70800
 	}
 }
 #Bromberg (212000/53000 POPS) 
@@ -2023,11 +2017,23 @@
 		religion = catholic
 		size = 1150
 	}
+	
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 32000
+	}
 
 	farmers = {
-		culture = avari
+		culture = czech
 		religion = catholic
-		size = 43000
+		size = 2000
+	}
+	
+	farmers = {
+		culture = slovenian
+		religion = catholic
+		size = 7000
 	}
 	
 	serfs = {
@@ -2143,13 +2149,13 @@
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 40000
+		size = 47000
 	}
 	
 	farmers = {
-		culture = avari
-		religion = protestant
-		size = 20000
+		culture = slovenian
+		religion = catholic
+		size = 13000
 	}
 
 	serfs = {
@@ -2316,13 +2322,7 @@
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 56275
-	}
-	
-	serfs = {
-		culture = polish
-		religion = catholic
-		size = 20000
+		size = 49275
 	}
 	
 	aristocrats = {
@@ -2358,7 +2358,13 @@
 	farmers = {
 		culture = ruthenian
 		religion = orthodox
-		size = 20700
+		size = 27700
+	}
+	
+	serfs = {
+		culture = ruthenian
+		religion = orthodox
+		size = 20000
 	}
 	
 	aristocrats = {
@@ -2508,7 +2514,7 @@
 	serfs = {
 		culture = ruthenian
 		religion = orthodox
-		size = 17700
+		size = 25700
 	}
 
 	aristocrats = {
@@ -2538,13 +2544,13 @@
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 35000
+		size = 29000
 	}
 	
 	farmers = {
-		culture = avari
-		religion = protestant
-		size = 25000
+		culture = slovenian
+		religion = catholic
+		size = 3000
 	}
 	
 	serfs = {
@@ -3279,4 +3285,187 @@
 		size = 3400
 	}
 
+}
+
+#Fraustadt
+3275 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 1000 
+	}
+ 
+	bureaucrats = {
+		culture = north_german
+		religion = protestant
+		size = 350 
+	}
+
+	officers = {
+		culture = north_german
+		religion = protestant
+		size = 175   
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 160  
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 1825
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 500
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 15000
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = catholic
+		size = 85   
+	}
+
+	artisans = {
+		culture = north_german
+		religion = catholic
+		size = 375
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = catholic
+		size = 175    
+	}
+
+	farmers = {
+		culture = north_german
+		religion = catholic
+		size = 1200  
+	}
+
+	clergymen = {
+		culture = ashkenazi
+		religion = jewish
+		size = 5   
+	}
+
+	artisans = {
+		culture = ashkenazi
+		religion = jewish
+		size = 400
+	}
+
+	aristocrats = {
+		culture = polish
+		religion = catholic
+		size = 50 
+	}
+
+	clergymen = {
+		culture = polish
+		religion = catholic
+		size = 70 
+	}
+
+	artisans = {
+		culture = polish
+		religion = catholic
+		size = 400
+	}
+
+	soldiers = {
+		culture = polish
+		religion = catholic
+		size = 200
+	}
+
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 3000
+	}
+}
+
+#Butow
+3276 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 25
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 50 
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 1500
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 500
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 7500
+	}
+	
+	farmers = {
+		culture = western_slavic
+		religion = protestant
+		size = 9000
+	}
+}
+
+#Grunberg
+3278 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 25
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 50 
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 1400
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 500
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 17000
+	}
 }

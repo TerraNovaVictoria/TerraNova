@@ -6,6 +6,13 @@ PROV970;Tawan;;;;;;;;;;x;;;;
 PROV972;Kudak;;;;;;;;;;x;;;;
 PROV973;Nogajsk;;;;;;;;;;x;;;;
 PROV968;Moldovanka;;;;;;;;;;x;;;;
+PROV964;Eski Qirim;;;;;;;;;;x;;;;
+PROV967;Qale;;;;;;;;;;x;;;;
+PROV966;Keric;;;;;;;;;;x;;;;
+PROV976;Resatgrad;;;;;;;;;;x;;;;
+PROV975;Mocnygrod;;;;;;;;;;x;;;;
+PROV974;Walnic;;;;;;;;;;x;;;;
+PROV978;Charkow;;;;;;;;;;x;;;;
 PROV3274;Svaneti;;;;;;;;;;x;;;;
 PROV2095;Dithakong;;;;;;;;;;x;;;;
 RUS_994;Ingriya;;;;;;;;;;;;;;x
@@ -941,7 +948,6 @@ PROV606;Luzern;;;;;;;;;;;;;x
 PROV2627;Coudersport;;;;;;;;;;;;x
 PROV160;Superior;;;;;;;;;;;;x
 PROV3250;Fribourg;;;;;;;;;;;;;x
-PROV3251;Monaco;;;;;;;;;;;;;x
 PROV185;Pikeville;;;;;;;;;;;;x
 PROV186;Lexington;;;;;;;;;;;;x
 PROV196;Gadsden;;;;;;;;;;;;x
@@ -952,11 +958,7 @@ PROV3252;Andorra;;;;;;;;;;;;;x
 PROV42;Winnipeg;;;;;;;;;;;;x
 PROV36;Pinawa;;;;;;;;;;;;x
 PROV3253;Liechtenstein;;;;;;;;;;;;;x
-PROV3254;Bückeburg;;;;;;;;;;;;;x
-PROV3255;Reuss;;;;;;;;;;;;;x
-PROV3256;Sondershausen;;;;;;;;;;;;;x
 PROV3257;Waldeck;;;;;;;;;;;;;x
-PROV3258;Altona;;;;;;;;;;;;;x
 PROV60;Richmond;;;;;;;;;;;;x
 PROV211;Lynchburg;;;;;;;;;;;;x
 PROV2186;Guatemala City;;;;;;;;;;;;x

@@ -1,13 +1,13 @@
 country_event = {
-	id = 466766
-	title = "EVTNAME466766" #South Colombia becomes Charrua
-	desc = "EVTDESC466766"
+	id = 787800
+	title = "EVTNAME787800" #South Colombia becomes Charrua
+	desc = "EVTDESC787800"
 	picture = "spanish_glorious_revolution"
 
 	is_triggered_only = yes
 		
 	option = {
-		name = "EVTOPT466766A"
+		name = "EVTOPT787800A"
 		government = democracy
 		political_reform = wealth_voting
 		political_reform = yes_meeting
@@ -19,15 +19,15 @@ country_event = {
 }
 
 country_event = {
-	id = 566166
-	title = "EVTNAME566166" #Rioja joined Charrua
-	desc = "EVTDESC566166"
+	id = 787801
+	title = "EVTNAME787801" #Rioja joined Charrua
+	desc = "EVTDESC787801"
 	picture = "spanish_glorious_revolution"
 
 	is_triggered_only = yes
 		
 	option = {
-		name = "EVTOPT566166A"
+		name = "EVTOPT787801A"
 		inherit = RIO
 		RIO = {
 				all_core = {
@@ -38,7 +38,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPT566166B"
+		name = "EVTOPT787801B"
 		RIO = {
 			any_owned = {
 				limit = {
@@ -53,9 +53,9 @@ country_event = {
 }
 
 country_event = {
-	id = 566266
-	title = "EVTNAME566266" #Patagonian Question
-	desc = "EVTDESC566266"
+	id = 787802
+	title = "EVTNAME787802" #Patagonian Question
+	desc = "EVTDESC787802"
 	picture = "spanish_glorious_revolution"
 
 	trigger = {
@@ -69,7 +69,7 @@ country_event = {
 	fire_only_once = yes
 		
 	option = {
-		name = "EVTOPT566266A"
+		name = "EVTOPT787802A"
 		badboy = 5
 		any_pop = { militancy = 2 }
 		PTG = {
@@ -82,7 +82,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPT566266B"
+		name = "EVTOPT787802B"
 		relation = { who = PTG value = 5 }
 		any_pop = { militancy = -1 }
 		ai_chance = { factor = 5 }
@@ -91,9 +91,9 @@ country_event = {
 }
 
 country_event = {
-	id = 566366
-	title = "EVTNAME566366" #President seizes Power
-	desc = "EVTDESC566366"
+	id = 787803
+	title = "EVTNAME787803" #President seizes Power
+	desc = "EVTDESC787803"
 	picture = "spanish_glorious_revolution"
 
 	trigger = {
@@ -105,7 +105,7 @@ country_event = {
 	fire_only_once = yes
 		
 	option = {
-		name = "EVTOPT566366A"
+		name = "EVTOPT787803A"
 		reform = censored_press
 		any_pop = { militancy = 2 }
 		set_country_flag = charruan_president_seized_power
@@ -115,9 +115,9 @@ country_event = {
 }
 
 country_event = {
-	id = 566466
-	title = "EVTNAME566466" #Status of the constitution
-	desc = "EVTDESC566466"
+	id = 787804
+	title = "EVTNAME787804" #Status of the constitution
+	desc = "EVTDESC787804"
 	picture = "spanish_glorious_revolution"
 
 	trigger = {
@@ -129,7 +129,7 @@ country_event = {
 	fire_only_once = yes
 		
 	option = {
-		name = "EVTOPT566466A"
+		name = "EVTOPT787804A"
 		reform = no_voting
 		reform = underground_parties
 		government = absolute_monarchy
@@ -147,7 +147,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPT566466B"
+		name = "EVTOPT787804B"
 		any_pop = { militancy = -2 }
 		ai_chance = { factor = 0 }
 	}
@@ -155,9 +155,9 @@ country_event = {
 }
 
 country_event = {
-	id = 566566
-	title = "EVTNAME566566" #Provinces declare independence
-	desc = "EVTDESC566566"
+	id = 787805
+	title = "EVTNAME787805" #Provinces declare independence
+	desc = "EVTDESC787805"
 	picture = "spanish_glorious_revolution"
 
 	trigger = {
@@ -169,7 +169,7 @@ country_event = {
 	fire_only_once = yes
 		
 	option = {
-		name = "EVTOPT566566A"
+		name = "EVTOPT787805A"
 		2305 = { secede_province = PIK }
 		2315 = { secede_province = PIK }
 		2324 = { add_core = CHL }
@@ -196,9 +196,9 @@ country_event = {
 }
 
 country_event = {
-	id = 566666
-	title = "EVTNAME566666" #Platinean Civil War
-	desc = "EVTDESC566666"
+	id = 787806
+	title = "EVTNAME787806" #Platinean Civil War
+	desc = "EVTDESC787806"
 	picture = "spanish_glorious_revolution"
 
 	trigger = {
@@ -210,7 +210,7 @@ country_event = {
 	fire_only_once = yes
 		
 	option = {
-		name = "EVTOPT566666A"
+		name = "EVTOPT787806A"
 		2305 = { secede_province = PIK }
 		2315 = { secede_province = PIK }
 		2324 = { add_core = CHL }

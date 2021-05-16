@@ -1,12 +1,12 @@
 political_decisions = {
 
 
-
 	constitutional_assembly_gco = { 
 		picture = buenos_aires_capital
 		potential = {
 			tag = GCO
 			NOT = { has_country_flag = gco_constitution }
+			government = colonial_company
 		}
 		
 		allow = {
@@ -28,7 +28,7 @@ political_decisions = {
 		potential = {
 			tag = GCO
 			PIK = { exists = yes }
-			KAP = { exists = no }
+			PBC = { exists = no }
 			QUI = { exists = no }
 			NOT = { has_country_flag = gco_picked_capital }
 		}
@@ -73,7 +73,7 @@ political_decisions = {
 		}
 	}
 
-	integration_of_quito = { 
+	integration_of_quito = {
 		picture = quito_map
 		potential = {
 			tag = GCO
@@ -130,6 +130,7 @@ political_decisions = {
 		allow = {
 			war = no
 		}
+		
 		effect = {
 			set_country_flag = conquest_of_borba
 			prestige = 5
@@ -282,31 +283,20 @@ political_decisions = {
 		picture = "become_guatemala"
 		potential = {
 			tag = GCO
-			2295 = {
-				owned_by = KAP
-			}
-			2316 = {
-				owned_by = KAP
-			}
-			NOT = { has_global_flag = avalonia_begins_to_form }
-			NOT = { exists = QUI }
-			NOT = { exists = PIK }
-			CHR = { government = presidential_dictatorship }
+			exists = PBC
+			PBC = { vassal_of = GCO }
 		}
 		
 		allow = {
-			KAP = { vassal_of = THIS }
 			ideological_thought = 1
+			NOT = { exists = QUI }
+			NOT = { exists = PIK }
+			PBC = { all_core = { owned_by = PBC } }
 		}
 		
 		effect = {
-			set_global_flag = avalonia_begins_to_form
-			KAP = {
-				all_core = {
-					add_core = AVA
-				}
-			}
-			AVA = { inherit = KAP }
+			PBC = { all_core = { add_core = GCO } }
+			GCO = { inherit = PBC }
 		}
 		ai_will_do = {
 			factor = 1

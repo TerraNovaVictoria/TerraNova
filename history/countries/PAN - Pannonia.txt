@@ -1,6 +1,6 @@
 capital = 639
 primary_culture = avari
-culture = shtokavian
+culture = slovene
 religion = catholic
 government = subject
 plurality = 0.25

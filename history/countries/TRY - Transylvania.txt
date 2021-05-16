@@ -1,7 +1,5 @@
 capital = 657
 primary_culture = romanian
-culture = north_german
-culture = avari
 religion = catholic
 government = subject
 plurality = 0.0

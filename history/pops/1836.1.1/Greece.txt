@@ -373,7 +373,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 15000
+		size = 12000
 	}
 	
 	farmers = {
@@ -433,7 +433,7 @@
 	farmers = {
 		culture = aromanian
 		religion = orthodox
-		size = 12000
+		size = 15000
 	}
 }
 #Grevena (140000/35000 POPS) #now part of Greece
@@ -1390,7 +1390,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 9000
+		size = 8000
 	}
 	
 	farmers = {
@@ -1402,7 +1402,7 @@
 	farmers = {
 		culture = albanian
 		religion = orthodox
-		size = 5350
+		size = 7350
 	}
 	
 	farmers = {
@@ -1558,13 +1558,13 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 6150
+		size = 5650
 	}
 	
 	farmers = {
 		culture = albanian
 		religion = orthodox
-		size = 3680
+		size = 4280
 	}
 }
 #Peloponnese Region (220000)  

@@ -1,5 +1,7 @@
 capital = 1053 #Gunib(Mahachkala)
-primary_culture = dagestani
+primary_culture = avar
+culture = dagestani
+culture = lak
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0

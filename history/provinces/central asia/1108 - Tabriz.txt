@@ -4,4 +4,5 @@ add_core = TAL
 add_core = URM
 add_core = TKM
 trade_goods = coal
+terrain = tabriz
 life_rating = 35

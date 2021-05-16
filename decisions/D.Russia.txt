@@ -214,4 +214,29 @@ political_decisions = {
 		}
 	}
 	
+####COSSACK RELATED####
+	
+	end_the_kalmyk_threat = { 
+		picture = form_the_soviet_union
+		potential = {
+			tag = KOS
+			government = subject
+			NOT = { HUN = { government = ancient_regime } }
+		}
+		
+		allow = {
+			is_vassal = yes
+		}
+		
+		effect = {
+			government = democracy
+			RUS = { release_vassal = THIS }
+			HUN = { country_event = 151006 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 }

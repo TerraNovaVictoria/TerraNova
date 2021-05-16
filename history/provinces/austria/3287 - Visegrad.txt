@@ -1,0 +1,6 @@
+owner = AVR
+controller = AVR
+add_core = AVR
+trade_goods = fruit
+terrain = visegrad
+life_rating = 35

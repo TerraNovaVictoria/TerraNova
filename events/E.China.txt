@@ -24,7 +24,6 @@ country_event = {
 			release_vassal = YER
 			release_vassal = JIA
 		}
-		KYO = { country_event = 145500 }
 		prestige = -2.5
 		ai_chance = { factor = 100 }
 	}

@@ -42,7 +42,7 @@ country_event = {
 		name = "EVTOPT991199A"
 		prestige = 10
 		set_country_flag = mamluks_win
-		remove_country_flag = revolutionary_egyptian_populace
+		clr_country_flag = revolutionary_egyptian_populace
 		1745 = { any_pop = { reduce_pop = 0.95 } }
 		1751 = { any_pop = { reduce_pop = 0.95 } }
 		any_pop = {
@@ -57,7 +57,7 @@ country_event = {
 		government = prussian_constitutionalism
 		political_reform = landed_voting
 		political_reform = harassment
-		remove_country_flag = revolutionary_egyptian_populace
+		clr_country_flag = revolutionary_egyptian_populace
 		set_country_flag = mamluks_lost
 		any_pop = {
 			militancy = -1
@@ -193,7 +193,7 @@ country_event = {
 			militancy = -1
 			consciousness = -1
 		}
-		remove_country_flag = mamluks_make_concessions
+		clr_country_flag = mamluks_make_concessions
 		set_country_flag = mamluks_made_concessions
 		ai_chance = { factor = 30 }
 	}
@@ -212,7 +212,7 @@ country_event = {
 			consciousness = 3
 		}
 		set_country_flag = copts_will_rise
-		remove_country_flag = mamluks_make_concessions
+		clr_country_flag = mamluks_make_concessions
 		ai_chance = { factor = 30 }
 	}
 	
@@ -229,7 +229,7 @@ country_event = {
 			consciousness = 4
 		}
 		add_accepted_culture = copt
-		remove_country_flag = mamluks_make_concessions
+		clr_country_flag = mamluks_make_concessions
 		ai_chance = { factor = 40 }
 	}
 }
@@ -281,8 +281,8 @@ country_event = {
 			militancy = 6
 			consciousness = 6
 		}
-		remove_country_flag = copts_will_rise
-		remove_country_flag = mamluks_make_concessions
+		clr_country_flag = copts_will_rise
+		clr_country_flag = mamluks_make_concessions
 		ai_chance = { factor = 65 }
 	}
 }
@@ -311,7 +311,7 @@ country_event = {
 			militancy = -1
 			consciousness = -1
 		}
-		remove_country_flag = mamluks_made_concessions
+		clr_country_flag = mamluks_made_concessions
 		ai_chance = { factor = 100 }
 	}
 

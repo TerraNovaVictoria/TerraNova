@@ -3,4 +3,5 @@ controller = PAN
 add_core = AVR
 add_core = PAN
 trade_goods = cattle
+terrain = egersee
 life_rating = 35

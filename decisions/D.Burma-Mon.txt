@@ -12,7 +12,7 @@ political_decisions = {
 		
 			allow = {
 				war = no
-				subject = no
+				is_vassal = no
 				OR = {
 					ruling_party_ideology = reactionary
 					ruling_party_ideology = fascist
@@ -41,7 +41,7 @@ political_decisions = {
 		
 			allow = {
 				war = no
-				subject = no
+				is_vassal = no
 				OR = {
 					ruling_party_ideology = reactionary
 					ruling_party_ideology = fascist
@@ -70,7 +70,7 @@ political_decisions = {
 		
 			allow = {
 				war = no
-				subject = no
+				is_vassal = no
 				1333 = { owned_by = THIS }
 				1337 = { owned_by = THIS }
 				prestige = 5
@@ -108,7 +108,7 @@ political_decisions = {
 		
 			allow = {
 				war = no
-				subject = no
+				is_vassal = no
 				OR = {
 					AND = {
 						1332 = { owned_by = THIS }

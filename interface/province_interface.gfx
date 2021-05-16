@@ -831,6 +831,30 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\terrain_dortmund.tga"
 		norefcount = yes
 	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_egersee"
+		texturefile = "gfx\\interface\\terrain_egersee.tga"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_visegrad"
+		texturefile = "gfx\\interface\\terrain_visegrad.tga"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_rioxa"
+		texturefile = "gfx\\interface\\terrain_rioxa.tga"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_tabriz"
+		texturefile = "gfx\\interface\\terrain_tabriz.tga"
+		norefcount = yes
+	}
 
 	spriteType = {
 		name = "GFX_terrainimg_magdeburg"
@@ -1477,6 +1501,30 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_terrainimg_osaka"
 		texturefile = "gfx\\interface\\terrain_osaka.tga"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_san_salvador"
+		texturefile = "gfx\\interface\\terrain_san_salvador.tga"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_colombia"
+		texturefile = "gfx\\interface\\terrain_colombia.tga"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_piura"
+		texturefile = "gfx\\interface\\terrain_piura.tga"
+		norefcount = yes
+	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_lima"
+		texturefile = "gfx\\interface\\terrain_lima.tga"
 		norefcount = yes
 	}
 

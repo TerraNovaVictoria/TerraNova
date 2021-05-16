@@ -1,0 +1,6 @@
+owner = BRN
+controller = BRN
+add_core = BRN
+add_core = GER
+life_rating = 40
+trade_goods = grain
