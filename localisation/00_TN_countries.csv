@@ -1,4 +1,6 @@
 ;;;;;;;;;;;;;;x,,,
+KRP;Karakalpakstan;;;;;;;;;;;;;;;;;;x;;;;
+KRP_ADJ;Karakalpaki;;;;;;;;;;;;;;;;;;x;;;;
 ATL;Atlas;;;;;;;;;;;;;;;;;;x;;;;
 ATL_ADJ;Atlasite;;;;;;;;;;;;;;;;;;x;;;;
 ATL_subject;Territoire d'Alger;;;;;;;;;;;;;;;;;;x;;;;
@@ -360,6 +362,11 @@ OSN;Osnabrück;;;;;;;;;;;;;x
 OSN_ADJ;Osnabrücker;;;;;;;;;;;;;x
 CZE;Czechia;;;;;;;;;;;;;x
 CZE_ADJ;Czechia;;;;;;;;;;;;;x
+CZE_subject;The Kingdom of Bohemia;;;;;;;;;;;;;x
+CZE_subject_ADJ;Bohemia;;;;;;;;;;;;;x
+CZE_absolute_monarchy;Bohemia-Moravia;;;;;;;;;;;;;x,
+CZE_prussian_constitutionalism;Bohemia-Moravia;;;;;;;;;;;;;x
+CZE_hms_government;Bohemia-Moravia;;;;;;;;;;;;;x
 SDT;Sudetenland;;;;;;;;;;;;;x
 SDT_ADJ;Sudetenländer;;;;;;;;;;;;;x
 MAZ;Mazovia;;;;;;;;;;;;;x
@@ -1174,14 +1181,20 @@ BJK_subject;The Duisburger Crownlands;;;;;;;;;;;;;x,
 BJK_democracy;The United Republics;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 MUN;Munster;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 MUN_ADJ;Munster;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+STG;Sintang;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+STG_ADJ;Sintangid;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PTK;Pontianak;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+PTK_ADJ;Pontianakid;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 FRI;Frisia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 FRI_ADJ;Frisian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 HLL;Holland;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-HLL_ADJ;Dutch;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HLL_ADJ;Hollander;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 HOK;Hokoan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 HOK_ADJ;Hokoan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 HSH;Heshun;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 HSH_ADJ;Heshun;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HSH_primitive_absolute_monarchy;Sambas;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HSH_primitive_absolute_monarchy_ADJ;Sambasid;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 IOU;Iouhous;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 IOU_ADJ;Iouhous;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 IOU_proletarian_dictatorship;Iouhous Federation;;;;;;;;;;;;;;;;;;;;;;;x;;;;

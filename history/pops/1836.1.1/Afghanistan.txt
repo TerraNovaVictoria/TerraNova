@@ -281,9 +281,27 @@
 		religion = sunni
 		size = 1000
 	}
+	
+	aristocrats = {
+		culture = persian
+		religion = sunni
+		size = 225
+	}
+	
+	bureaucrats = {
+		culture = persian
+		religion = sunni
+		size = 175
+	}
+	
+	artisans = {
+		culture = persian
+		religion = sunni
+		size = 2050
+	}
 
 	farmers = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 30650
 	}
@@ -387,31 +405,31 @@
 	}
 
 	aristocrats = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 250
 	}
 
 	clergymen = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 138
 	}
 
 	artisans = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 700
 	}
 
 	soldiers = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 1000
 	}
 
 	farmers = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 11912
 	}
@@ -485,31 +503,31 @@
 #Farrah (464000/116000 POPS)
 1214 = {
 	aristocrats = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 550
 	}
 
 	clergymen = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 288
 	}
 
 	artisans = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 1400
 	}
 
 	soldiers = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 1000
 	}
 
 	farmers = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 20762
 	}

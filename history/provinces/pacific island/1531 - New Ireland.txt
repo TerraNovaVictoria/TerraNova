@@ -1,6 +1,5 @@
 owner = HSH
 controller = HSH
 add_core = HSH
-add_core = BRU
 trade_goods = coffee
 life_rating = 30

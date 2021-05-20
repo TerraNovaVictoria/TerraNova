@@ -1272,7 +1272,7 @@
 	farmers = {
 		culture = polish
 		religion = protestant
-		size = 32875  
+		size = 8875  
 	}
 
 	clergymen = {
@@ -1299,6 +1299,87 @@
 		size = 4625 
 	}
 }
+#Ortelsburg
+3290 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 2000 
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 550   
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 2900
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 2000
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 9550
+	}
+
+	clergymen = {
+		culture = polish
+		religion = protestant
+		size = 325 
+	}
+
+	artisans = {
+		culture = polish
+		religion = protestant
+		size = 2000
+	}
+
+	soldiers = {
+		culture = polish
+		religion = protestant
+		size = 1500
+	}
+
+	farmers = {
+		culture = polish
+		religion = protestant
+		size = 9875  
+	}
+
+	clergymen = {
+		culture = polish
+		religion = catholic
+		size = 125 
+	}
+
+	artisans = {
+		culture = polish
+		religion = catholic
+		size = 1250
+	}
+
+	soldiers = {
+		culture = polish
+		religion = catholic
+		size = 150 
+	}
+
+	farmers = {
+		culture = polish
+		religion = catholic
+		size = 1625 
+	}
+}
+
 #Posen-Wielkopolska Region (1704000)  
 #under the rule of Prussia in 1836  
 #Posen (540000/135000 POPS) 

@@ -1,6 +1,6 @@
-owner = BEL
-controller = BEL
-add_core = BEL
+owner = LUX
+controller = LUX
+add_core = BOH
 add_core = LUX
 add_core = BGY
 add_core = GER

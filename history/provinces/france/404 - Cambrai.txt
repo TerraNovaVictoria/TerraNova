@@ -1,6 +1,5 @@
-owner = LIG
-controller = LIG
-add_core = LIG
+owner = BEL
+controller = BEL
 add_core = BEL
 add_core = WLL
 add_core = BGY

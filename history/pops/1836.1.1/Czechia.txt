@@ -624,7 +624,7 @@
 	artisans = {
 		culture = north_german
 		religion = catholic
-		size = 11650
+		size = 4650
 	}
 
 	soldiers = {
@@ -684,7 +684,7 @@
 	farmers = {
 		culture = czech
 		religion = catholic
-		size = 61075 
+		size = 69075 
 	}
 
 	clergymen = {
@@ -802,7 +802,7 @@
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 22000 
+		size = 13000 
 	}
 
 	clergymen = {
@@ -1071,34 +1071,6 @@
 
 }
 
-#Krumau
-3285 = {
-	clergymen = {
-		culture = czech
-		religion = catholic
-		size = 75 
-	}
-	
-	artisans = {
-		culture = north_german
-		religion = catholic
-		size = 1450 
-	}
-
-	farmers = {
-		culture = north_german
-		religion = catholic
-		size =  10550
-	}
-	
-	farmers = {
-		culture = czech
-		religion = catholic
-		size =  1400
-	}
-
-}
-
 #Vsetin
 3286 = {
 	bureaucrats = {
@@ -1127,7 +1099,13 @@
 	farmers = {
 		culture = czech
 		religion = catholic
-		size =  63000
+		size =  60000
+	}
+	
+	farmers = {
+		culture = slovenian
+		religion = catholic
+		size =  6000
 	}
 	
 	serfs = {
@@ -1145,7 +1123,7 @@
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size =  11050
+		size =  8050
 	}
 
 }

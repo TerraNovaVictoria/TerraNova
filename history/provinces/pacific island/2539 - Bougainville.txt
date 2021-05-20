@@ -1,6 +1,5 @@
-owner = HSH
-controller = HSH
-add_core = HSH
-add_core = BRU
+owner = STG
+controller = STG
+add_core = STG
 trade_goods = tropical_wood
 life_rating = 30

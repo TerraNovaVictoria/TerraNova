@@ -1,4 +1,5 @@
-color = { 239 228 146 }
+color = { 211 50 50 }
+primitive_democracy = { 153 107 76 }
 graphical_culture = ChineseGC
 
 party = {

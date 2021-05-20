@@ -2,7 +2,6 @@ owner = DZG
 controller = DZG
 add_core = DZG
 add_core = PRU
-add_core = MAZ
 add_core = GER
 trade_goods = cattle
 life_rating = 40

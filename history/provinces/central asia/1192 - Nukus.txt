@@ -1,4 +1,7 @@
-add_core = KYR
+owner = KHI
+controller = KHI
 add_core = KHI
-trade_goods = opium
+add_core = KRP
+trade_goods = fish
 life_rating = 35
+terrain = farmlands

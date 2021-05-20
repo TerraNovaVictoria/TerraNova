@@ -1,4 +1,6 @@
 #Bohemian Flavor events
+
+########CZECHO-GERMAN CONFLICT EVENTS#########
 country_event = {
 	id = 191800
 	title = "EVTNAME191800" #Cultural rift between Czechs n Germans
@@ -9,8 +11,9 @@ country_event = {
 	
 	trigger = {
 		tag = BOH
-		year = 1838
-		BOH = { NOT = { vassal_of = BAV } }
+		year = 1837
+		NOT = { year = 1839 }
+		NOT = { has_country_flag = boh_cultural_divide }
 	}
 
 	mean_time_to_happen = {
@@ -19,15 +22,20 @@ country_event = {
 
 	immediate = {
 		set_country_flag = boh_cultural_divide
+		remove_accepted_culture = north_german
 	}
 	
 	option = {
 		name = "EVTOPT191800A"
-		remove_accepted_culture = north_german
 		any_pop = {
 			limit = { has_pop_culture = north_german }
 			militancy = 2
 			consciousness = 2
+		}
+		any_pop = {
+			limit = { has_pop_culture = czech }
+			militancy = 1
+			consciousness = 1
 		}
 		any_owned = { 
 			limit = {
@@ -35,7 +43,6 @@ country_event = {
 					province_id = 632
 					province_id = 628
 					province_id = 627
-					province_id = 630
 					province_id = 688
 					province_id = 3280
 					province_id = 3283
@@ -47,38 +54,14 @@ country_event = {
 			limit = {
 				OR = {
 					region = PRU_682 
-					province_id = 629
+					province_id = 3284
 				}
 				NOT = { province_id = 688 }
 			}
 			add_core = SLS
 		}
 		ai_chance = {
-			factor = 70
-		}
-	}
-	
-	option = {
-		name = "EVTOPT191800B"
-		primary_culture = north_german
-		any_pop = {
-			limit = { has_pop_culture = czech }
-			militancy = 2
-			consciousness = 2
-		}
-		any_owned = { 
-			limit = {
-				OR = {
-					region = AUS_625 
-					region = AUS_626
-					province_id = 688
-					province_id = 689
-				}
-			}
-			add_core = CZE
-		}
-		ai_chance = {
-			factor = 30
+			factor = 100
 		}
 	}
 	
@@ -94,13 +77,11 @@ country_event = {
 	
 	trigger = {
 		tag = BOH
-		primary_culture = north_german
-		NOT = { accepted_culture = czech }
 		has_country_flag = boh_cultural_divide
 	}
 	
 	option = {
-		name = "EVT191801OPTA"
+		name = "EVTEVTOPT191801A"
 		any_pop = {
 			limit = { has_pop_culture = czech }
 			militancy = 1
@@ -108,11 +89,16 @@ country_event = {
 		}
 		any_owned = {
 			limit = {
-				is_core = CZE
+				OR = {
+					region = AUS_625 
+					region = AUS_626
+					province_id = 688
+					province_id = 689
+				}
 			}
 			add_province_modifier = {
 				name = nationalist_agitation
-				duration = 1095
+				duration = 365
 			}
 		}
 		ai_chance = {
@@ -134,10 +120,11 @@ country_event = {
 		primary_culture = czech
 		NOT = { accepted_culture = north_german }
 		has_country_flag = boh_cultural_divide
+		BOH = { NOT = { vassal_of = BAV } }
 	}
 	
 	option = {
-		name = "EVT191802OPTA"
+		name = "EVTEVTOPT191802A"
 		any_pop = {
 			limit = { has_pop_culture = north_german }
 			militancy = 1
@@ -156,7 +143,60 @@ country_event = {
 			}
 		}
 		ai_chance = {
+			factor = 70
+		}
+	}
+	
+	option = {
+		name = "EVTEVTOPT191802B"
+		any_pop = {
+			limit = { has_pop_culture = north_german }
+			militancy = 1
+			consciousness = 1
+		}
+		any_owned = {
+			limit = {
+				OR = {
+					is_core = SLS
+					is_core = SDT
+				}
+			}
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 1095
+			}
+		}
+		set_country_flag = boh_to_adopt_german
+		ai_chance = {
+			factor = 30
+		}
+	}
+}
+
+
+########BOHEMIAN CROWN EVENTS#########
+country_event = {
+	id = 191810
+	title = "EVTNAME191810" #The Bohemian Crown
+	desc = "EVTDESC191810"
+	picture = "bohemia_map"
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT191810A"
+		BAV = { country_event = 191811 release_vassal = BOH }
+		ai_chance = {
 			factor = 100
+		}
+	}
+	
+	option = {
+		name = "EVTOPT191810B"
+		BAV = { inherit = BOH }
+		ai_chance = {
+			factor = 0
 		}
 	}
 }

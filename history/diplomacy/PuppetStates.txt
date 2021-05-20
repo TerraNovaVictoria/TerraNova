@@ -181,28 +181,10 @@ vassal = {
 	end_date = 1936.1.1
 }
 
-
-#Brunei
-#Brunei-Lanfang
-vassal = {
-	first = BRU
-	second = LAN
-	start_date = 1815.1.1
-	end_date = 1936.1.1
-}
-
 #Brunei-Hokoan
 vassal = {
 	first = BRU
 	second = HOK
-	start_date = 1815.1.1
-	end_date = 1936.1.1
-}
-
-#Brunei-Heshun
-vassal = {
-	first = BRU
-	second = HSH
 	start_date = 1815.1.1
 	end_date = 1936.1.1
 }

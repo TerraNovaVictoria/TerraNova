@@ -1,6 +1,5 @@
 capital = 387
 primary_culture = north_german
-culture = french
 religion = catholic
 government = subject
 plurality = 10.0

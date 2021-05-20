@@ -1,6 +1,6 @@
 #All HRE states are vassals of Bavaria at the start of the game/ HRE is a formable tag for the Bavarian Empire, cosmetically changed to the HRE
 
-#Palatinate
+#Osnabruck
 vassal = {
 	first = BAV
 	second = OSN
@@ -9,7 +9,7 @@ vassal = {
 }
 
 #Palatinate
-vassal = {
+substate = {
 	first = BAV
 	second = PLT
 	start_date = 1815.1.1
@@ -17,7 +17,7 @@ vassal = {
 }
 
 #Cologne
-vassal = {
+substate = {
 	first = BAV
 	second = CLG
 	start_date = 1715.1.1
@@ -81,7 +81,7 @@ vassal = {
 }
 
 #Brandenburg
-vassal = {
+substate = {
 	first = BAV
 	second = BRN
 	start_date = 1815.1.1
@@ -209,7 +209,7 @@ vassal = {
 }
 
 #Mainz
-vassal = {
+substate = {
 	first = BAV
 	second = MAI
 	start_date = 1815.1.1
@@ -217,7 +217,7 @@ vassal = {
 }
 
 #Trier
-vassal = {
+substate = {
 	first = BAV
 	second = TRR
 	start_date = 1815.1.1
@@ -225,7 +225,7 @@ vassal = {
 }
 
 #Frankfurt
-vassal = {
+substate = {
 	first = BAV
 	second = FRM
 	start_date = 1815.1.1
@@ -257,7 +257,7 @@ vassal = {
 }
 
 #Dortmund
-vassal = {
+substate = {
 	first = BAV
 	second = DOR
 	start_date = 1815.1.1
@@ -297,7 +297,7 @@ vassal = {
 }
 
 #Saxony
-vassal = {
+substate = {
 	first = BAV
 	second = SAX
 	start_date = 1815.1.1
@@ -305,7 +305,7 @@ vassal = {
 }
 
 #Braunschweig
-vassal = {
+substate = {
 	first = BAV
 	second = BRA
 	start_date = 1815.1.1
@@ -337,8 +337,8 @@ vassal = {
 }
 
 #Luxemburg
-vassal = {
-	first = BAV
+substate = {
+	first = BOH
 	second = LUX
 	start_date = 1815.1.1
 	end_date = 1936.1.1
@@ -417,7 +417,7 @@ vassal = {
 }
 
 #Bohemia
-vassal = {
+substate = {
 	first = BAV
 	second = BOH
 	start_date = 1815.1.1
