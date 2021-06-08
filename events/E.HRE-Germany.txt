@@ -40,9 +40,10 @@ country_event = {
 	option = {
 		name = "EVTOPT6666101A"
 		FLA = { country_event = 6666105 }
-		any_owned = {
-			limit = { is_core = LUX }
-			secede_province = LUX
+		BOH = {
+			country_event = 191810
+			release_vassal = LUX
+			LUX = { all_core = { remove_core = BOH } }
 		}
 		LUX = { government = federal_democracy }
 		any_owned = {
@@ -50,6 +51,7 @@ country_event = {
 			secede_province = WLL
 		}
 		WLL = { government = federal_democracy }
+		remove_accepted_culture = french
 		government = provisional_state
 		political_reform = landed_voting
 		political_reform = censored_press
@@ -58,7 +60,6 @@ country_event = {
 		set_country_flag = the_belgian_revolution
 		FLA = { all_core = { remove_core = BEL } }
 		WLL = { all_core = { remove_core = BEL } }
-		LUX = { all_core = { remove_core = BEL } }
 		401 = { remove_core = BEL }
 		prestige = 15
 		ai_chance = { factor = 100 }
@@ -228,7 +229,7 @@ country_event = {
 		695 = { secede_province = PRU }
 		698 = { secede_province = PRU }
 		696 = { secede_province = PRU }
-		693 = { secede_province = PRU }
+		3290 = { secede_province = PRU }
 	}
 	
 	option = {
@@ -327,22 +328,18 @@ country_event = {
 	
 	trigger = {
 		OR = {
-			year = 1848
-			AND = {
-				684 = { has_province_modifier = nationalist_agitation }
-				685 = { has_province_modifier = nationalist_agitation }
-			}
+			year = 1846
+			684 = { has_province_modifier = nationalist_agitation }
 		}
-		NOT = { year = 1858 }
+		NOT = { year = 1848 }
 		684 = { 
 			owned_by = THIS 
 			NOT = { is_core = USL } 
 		}
-		685 = { 
-			owned_by = THIS 
-			NOT = { is_core = USL } 
+		AND = {
+			NOT = { primary_culture = polish }
+			NOT = { accepted_culture = polish }
 		}
-		NOT = { primary_culture = polish }
 		NOT = { tag  = SLS }
 	}
 	
@@ -353,6 +350,8 @@ country_event = {
 		SLS = { remove_accepted_culture = polish }
 		684 = { add_core = USL }
 		685 = { add_core = USL }
+		689 = { add_core = USL }
+		2584 = { add_core = USL }
 		ai_chance = { factor = 100 }
 	}
 	
