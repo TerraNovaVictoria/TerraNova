@@ -98,25 +98,25 @@
 	}
 
 	clergymen = {
-		culture = persian
+		culture = tajik
 		religion = shiite
 		size = 25
 	}
 
 	artisans = {
-		culture = persian
+		culture = tajik
 		religion = shiite
 		size = 200
 	}
 
 	soldiers = {
-		culture = persian
+		culture = tajik
 		religion = shiite
 		size = 25
 	}
 
 	farmers = {
-		culture = persian
+		culture = tajik
 		religion = shiite
 		size = 3750
 	}
@@ -263,31 +263,31 @@
 	}
 	
 	aristocrats = {
-		culture = persian
+		culture = tajik
 		religion = shiite
 		size = 50
 	}
 
 	clergymen = {
-		culture = persian
+		culture = tajik
 		religion = shiite
 		size = 50
 	}
 
 	artisans = {
-		culture = persian
+		culture = tajik
 		religion = shiite
 		size = 400
 	}
 
 	soldiers = {
-		culture = persian
+		culture = tajik
 		religion = shiite
 		size = 75
 	}
 
 	farmers = {
-		culture = persian
+		culture = tajik
 		religion = shiite
 		size = 2925
 	}

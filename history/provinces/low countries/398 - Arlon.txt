@@ -1,7 +1,12 @@
-owner = LUX
-controller = LUX
-add_core = BOH
+owner = BEL
+controller = BEL
+add_core = BEL
 add_core = LUX
 add_core = BGY
 trade_goods = timber
 life_rating = 35
+1861.1.1 = {
+	railroad = 3
+	remove_core = LUX
+	remove_core = NET
+}

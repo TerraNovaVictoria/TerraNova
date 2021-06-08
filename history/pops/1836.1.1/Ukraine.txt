@@ -2478,45 +2478,51 @@
 968 = {
 
 	aristocrats = {
-		culture = romanian
+		culture = ruthenian
+		religion = orthodox
+		size = 150
+	}
+
+	bureaucrats = {
+		culture = ruthenian
 		religion = orthodox
 		size = 75
 	}
 
-	bureaucrats = {
-		culture = romanian
-		religion = orthodox
-		size = 50
-	}
-
 	officers = {
-		culture = romanian
+		culture = ruthenian
 		religion = orthodox
 		size = 200
 	}
 
 	clergymen = {
-		culture = romanian
+		culture = ruthenian
 		religion = orthodox
-		size = 125
+		size = 425
 	}
 
 	artisans = {
-		culture = romanian
+		culture = ruthenian
 		religion = orthodox
 		size = 250
 	}
 
 	soldiers = {
-		culture = romanian
+		culture = ruthenian
 		religion = orthodox
 		size = 600
+	}
+
+	farmers = {
+		culture = ruthenian
+		religion = orthodox
+		size = 5950
 	}
 	
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 7500
+		size = 6500
 	}
 	
 	farmers = {
@@ -2564,7 +2570,7 @@
 	farmers = {
 		culture = ruthenian
 		religion = orthodox
-		size = 9500
+		size = 1950
 	}
 
 	aristocrats = {
@@ -2586,6 +2592,18 @@
 	}
 
 	artisans = {
+		culture = polish
+		religion = catholic
+		size = 800
+	}
+
+	soldiers = {
+		culture = polish
+		religion = catholic
+		size = 300
+	}
+	
+	farmers = {
 		culture = polish
 		religion = catholic
 		size = 200
@@ -2669,13 +2687,43 @@
 	farmers = {
 		culture = ruthenian
 		religion = orthodox
-		size = 7500
+		size = 10500
 	}
 	
 	farmers = {
 		culture = crimean
 		religion = sunni
 		size = 3300
+	}
+	
+	aristocrats = {
+		culture = ruthenian
+		religion = orthodox
+		size = 200
+	}
+
+	clergymen = {
+		culture = ruthenian
+		religion = orthodox
+		size = 110
+	}
+
+	artisans = {
+		culture = ruthenian
+		religion = orthodox
+		size = 265
+	}
+
+	soldiers = {
+		culture = ruthenian
+		religion = orthodox
+		size = 610
+	}
+
+	farmers = {
+		culture = ruthenian
+		religion = orthodox
+		size = 12800
 	}
 
 	aristocrats = {
@@ -2723,7 +2771,7 @@
 	farmers = {
 		culture = ashkenazi
 		religion = jewish
-		size = 1725
+		size = 4725
 	}
 
 	clergymen = {
@@ -2747,7 +2795,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 14625
+		size = 16625
 	}
 }
 #Nikolaev (248000/62000 POPS)

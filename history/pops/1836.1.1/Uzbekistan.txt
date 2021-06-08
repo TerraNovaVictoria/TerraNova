@@ -725,24 +725,3 @@
 	}
 }
 
-#Jasliq
-3289 = {
-	
-	clergymen = {
-		culture = tajik
-		religion = sunni
-		size = 50
-	}
-
-	soldiers = {
-		culture = nogai
-		religion = sunni
-		size = 250
-	}
-
-	farmers = {
-		culture = kazak
-		religion = sunni
-		size = 3000
-	}
-}

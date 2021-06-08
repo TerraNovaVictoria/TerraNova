@@ -152,7 +152,7 @@ country_event = {
 	option = {
 		name = "EVTOPT712405A"
 		government = absolute_monarchy
-		950 = { add_core = AVR secede_province = AVR }
+		950 = { secede_province = AVR }
 		3258 = { remove_core = BCR secede_province = AVR }
 		637 = { remove_core = BCR }
 		638 = { remove_core = BCR }

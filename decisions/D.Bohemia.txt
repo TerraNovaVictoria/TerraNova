@@ -1,46 +1,4 @@
 political_decisions = {
 
-	#Option to become German
-	bohemia_becomes_german = {
-		picture = czech_autonomy
-		potential = {
-				tag = BOH
-				has_country_flag = boh_cultural_divide
-				has_country_flag = boh_to_adopt_german
-			}
-		
-			allow = {
-				war = no
-			}
-		
-			effect = {
-				primary_culture = north_german
-				any_pop = {
-					limit = { has_pop_culture = czech }
-					militancy = 2
-					consciousness = 2
-				}
-				any_pop = {
-					limit = { has_pop_culture = north_german }
-					militancy = -1
-					consciousness = -1
-				}
-				any_owned = { 
-					limit = {
-						OR = {
-							region = AUS_625 
-							region = AUS_626
-							province_id = 688
-							province_id = 689
-						}
-					}
-					add_core = CZE
-				}
-				SDT = { all_core = { remove_core = SDT } }
-				clr_country_flag = boh_to_adopt_german
-			}
-
-		ai_will_do = { factor = 1 }
-	}
 	
 }

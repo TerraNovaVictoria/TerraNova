@@ -17,9 +17,6 @@ VIC 	="countries/Nationalist France.txt"
 BOR		="countries/The Kingdom of France.txt"
 
 ##Terra Nova Nations
-STG 	= "countries/Sintang.txt"
-PTK 	= "countries/Pontianak.txt"
-KRP 	= "countries/Karakalpakstan.txt"
 ATL 	= "countries/Atlas.txt"
 CZE 	= "countries/Czechia.txt"
 OSN 	= "countries/Osnabruck.txt"

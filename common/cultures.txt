@@ -945,7 +945,7 @@ south_slavic = {
 		radicalism = 15
 	}
 	shtokavian = {
-		color = { 92 155 185 }
+		color = {100 123 153}
 		first_names = { Alaksandar Blagoje Bozidar Branko Danilo Dejan Djordje Dragan Dragisa Dragoljub
 		Dragutin Draza Dusan Gavrilo Goran Janko Jovan Koca Kosta Krsto
 		Ljubisa Mihailo Milan Miliutin Milivoje Milojko Milos Miodrag Mirko Miroslav
@@ -962,7 +962,7 @@ south_slavic = {
 		radicalism = 15
 	}
 	bulgarian = {
-		color = { 92 159 95 }#69 142 129
+		color = { 126 181 103 }#69 142 129
 		first_names = { Aleksandar Andrey Asen Atanas Atila Bogdan Boncho Boris Damyan Dimitar
 		Dobri Ferdinand Georgi Hristo Ilya Ivan Kalin Kardam Kimon Kiril
 		Kliment Konstantin Krastyu Leonid Mihail Nikifor Niloa Pencho Petar Petko
@@ -1062,7 +1062,7 @@ pan_romanian = {
 		radicalism = 10
 	}
 	aromanian = {
-		color = { 161 186 100 }
+		color = { 255 195 0 }
 		first_names = { Adrian Alexandru Andrei Anton Artur Bogdan Carol Cezar Constantin Constin
 		Cosmin Daniel Dumitru Emanuel Eremia Eugen Ferdinand Flaviu Florea Gheorghe
 		Grigore Henric Horatiu Iacob Ilie Ioan Ion "Ion Emanuel" Iosif Iulian

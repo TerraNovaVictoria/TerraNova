@@ -1,7 +1,8 @@
 capital = 1426
 primary_culture = hakka
+culture = cantonese
 religion = mahayana
-government = primitive_democracy
+government = democracy
 plurality = 0.5
 nationalvalue = nv_tradition
 literacy = 0.09
@@ -47,6 +48,17 @@ upper_house = {
 	anarcho_liberal = 0
 	socialist = 0
 	communist = 0
+}
+
+govt_flag = {
+	government = colonial_company
+	flag = democracy
+	
+	government = dominion
+	flag = democracy
+	
+	government = presidential_dictatorship
+	flag = theocracy
 }
 
 admin_reform = yes_admin_reform

@@ -3,9 +3,9 @@ primary_culture = czech
 culture = north_german
 religion = catholic
 government = absolute_monarchy
-plurality = 0.25
+plurality = 0.0
 nationalvalue = nv_order
-literacy = 0.59
+literacy = 0.7
 civilized = yes
 prestige = 0
 
@@ -104,15 +104,5 @@ paternalism = yes
 nonstate_consciousness = 1
 
 schools = commerce_tech_school
-
-govt_flag = {
-	government = absolute_monarchy
-	flag = theocracy
-}
-
-govt_flag = {
-	government = prussian_constitutionalism
-	flag = theocracy
-}
 
 oob = "BOH_oob.txt"

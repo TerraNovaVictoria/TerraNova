@@ -4938,13 +4938,13 @@
 	aristocrats = {
 		culture = north_german
 		religion = protestant
-		size = 110
+		size = 1100 
 	}
 
 	clergymen = {
 		culture = north_german
 		religion = protestant
-		size = 275   
+		size = 475   
 	}
 
 	artisans = {
@@ -4962,7 +4962,7 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 21275
+		size = 42275
 	}
 
 	clergymen = {
@@ -4986,7 +4986,7 @@
 	farmers = {
 		culture = polish
 		religion = protestant
-		size = 1850 
+		size = 3850 
 	}
 }
 

@@ -1,8 +1,0 @@
-owner = DZG
-controller = DZG
-add_core = DZG
-add_core = PRU
-add_core = MAZ
-add_core = GER
-life_rating = 35
-trade_goods = grain

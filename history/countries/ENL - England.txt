@@ -1,6 +1,6 @@
 capital = 280
-primary_culture = british
-culture = welsh
+primary_culture = welsh
+culture = british
 religion = protestant
 government = subject
 plurality = 5

@@ -1,5 +1,0 @@
-owner = LAN
-controller = LAN
-add_core = LAN
-life_rating = 35
-trade_goods = grain

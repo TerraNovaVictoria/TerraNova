@@ -562,7 +562,7 @@
 	}
 
 	artisans = {
-		culture = venetic
+		culture = north_italian
 		religion = catholic
 		size = 4000
 	}
@@ -576,13 +576,13 @@
 	farmers = {
 		culture = pan_italian
 		religion = catholic
-		size = 20925
+		size = 60925
 	}
 	
 	farmers = {
-		culture = venetic
+		culture = north_italian
 		religion = catholic
-		size = 42925
+		size = 2925
 	}
 
 	clergymen = {
@@ -2298,13 +2298,13 @@
 	farmers = {
 		culture = pan_italian
 		religion = catholic
-		size = 77000
+		size = 47000
 	}
 	
 	farmers = {
 		culture = south_italian
 		religion = catholic
-		size = 43325
+		size = 73325
 	}
 }
 #Sicily Region (1816000)

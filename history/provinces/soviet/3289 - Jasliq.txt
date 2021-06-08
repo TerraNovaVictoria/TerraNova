@@ -1,4 +1,0 @@
-add_core = KHI
-add_core = KRP
-trade_goods = opium
-life_rating = 35

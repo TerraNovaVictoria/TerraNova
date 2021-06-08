@@ -1,32 +1,5 @@
 #East Sumatra Region (1188400)
 #ruled by the Netherlands 1836
-#Lan Fang
-3285 = {
-	clergymen = {
-		culture = hakka
-		religion = mahayana
-		size = 75 
-	}
-	
-	artisans = {
-		culture = hakka
-		religion = mahayana
-		size = 1450 
-	}
-
-	farmers = {
-		culture = hakka
-		religion = mahayana
-		size =  10550
-	}
-	
-	farmers = {
-		culture = malay
-		religion = sunni
-		size =  1400
-	}
-
-}
 #Palembang (540400/135100 POPS)
 1399 = {
 	aristocrats = {

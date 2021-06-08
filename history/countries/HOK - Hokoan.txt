@@ -1,7 +1,8 @@
 capital = 1452
 primary_culture = hakka
+culture = cantonese
 religion = mahayana
-government = primitive_democracy
+government = democracy
 plurality = 0.5
 nationalvalue = nv_tradition
 literacy = 0.12

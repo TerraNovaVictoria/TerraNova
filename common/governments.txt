@@ -174,22 +174,6 @@ democracy = {
 	flagType = republic
 }
 
-primitive_democracy = {
-	liberal = yes
-	socialist = yes
-	conservative = yes
-	reactionary = yes
-	communist = yes
-	anarcho_liberal = yes
-	fascist = yes
-	
-	
-	election = yes
-	duration = 24
-	appoint_ruling_party = no
-	flagType = theocracy
-}
-
 communal_republic = {
 	liberal = yes
 	socialist = yes

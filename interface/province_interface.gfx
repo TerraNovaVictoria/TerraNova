@@ -381,12 +381,6 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\terrain_paris.tga"
 		norefcount = yes
 	}
-	
-	spriteType = {
-		name = "GFX_terrainimg_khiva"
-		texturefile = "gfx\\interface\\terrain_khiva.tga"
-		norefcount = yes
-	}
 
 	spriteType = {
 		name = "GFX_terrainimg_london"
@@ -493,12 +487,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_terrainimg_hanover"
 		texturefile = "gfx\\interface\\terrain_hanover.tga"
-		norefcount = yes
-	}
-	
-	spriteType = {
-		name = "GFX_terrainimg_aberlune"
-		texturefile = "gfx\\interface\\terrain_aberlune.tga"
 		norefcount = yes
 	}
 

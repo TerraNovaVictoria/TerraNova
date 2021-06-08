@@ -34,19 +34,19 @@
 	labourers = {
 		culture = gaelic
 		religion = protestant
-		size = 14000
+		size = 2000
 	}
 	
 	labourers = {
 		culture = welsh
 		religion = protestant
-		size = 9000
+		size = 28000
 	}
 	
 	farmers = {
 		culture = gaelic
 		religion = catholic
-		size = 9000
+		size = 2000
 	}
 	
 	farmers = {
@@ -90,13 +90,13 @@
 	farmers = {
 		culture = welsh
 		religion = protestant
-		size = 15090
+		size = 21090
 	}
 
 	farmers = {
 		culture = gaelic
 		religion = catholic
-		size = 31000
+		size = 25000
 	}
 }
 
@@ -188,19 +188,19 @@
 	farmers = {
 		culture = welsh
 		religion = protestant
-		size = 22200
+		size = 40200
 	}
 	
 	farmers = {
 		culture = gaelic
 		religion = catholic
-		size = 36000
+		size = 12200
 	}
 	
 	farmers = {
 		culture = welsh
 		religion = protestant
-		size = 1
+		size = 10000
 	}
 
 }
@@ -326,13 +326,13 @@
 	farmers = {
 		culture = gaelic
 		religion = catholic
-		size = 42100
+		size = 39100
 	}
 	
 	farmers = {
 		culture = welsh
 		religion = protestant
-		size = 37100
+		size = 40100
 	}
 
 	farmers = {
@@ -929,7 +929,13 @@
 	labourers = {
 		culture = welsh
 		religion = protestant
-		size = 30850
+		size = 44850
+	}
+	
+	labourers = {
+		culture = welsh
+		religion = protestant
+		size = 5225
 	}
 	
 	labourers = {
@@ -941,7 +947,7 @@
 	labourers = {
 		culture = british
 		religion = protestant
-		size = 67850
+		size = 48850
 	}
 	
 	craftsmen = {
@@ -987,7 +993,7 @@
 	labourers = {
 		culture = welsh
 		religion = protestant
-		size = 48000
+		size = 74000
 	}
 	
 	labourers = {
@@ -1005,7 +1011,7 @@
 	labourers = {
 		culture = british
 		religion = protestant
-		size = 45950
+		size = 19950
 	}
 
 	labourers = {
@@ -1204,13 +1210,13 @@
 	labourers = {
 		culture = welsh
 		religion = protestant
-		size = 59900
+		size = 140900
 	}
 	
 	labourers = {
 		culture = british
 		religion = protestant
-		size = 91300
+		size = 13900
 	}
 	
 	labourers = {
@@ -2336,13 +2342,13 @@
 	labourers = {
 		culture = welsh
 		religion = protestant
-		size = 40000
+		size = 45000
 	}
 
 	labourers = {
 		culture = british
 		religion = protestant
-		size = 35000
+		size = 30000
 	}
 	
 	labourers = {
