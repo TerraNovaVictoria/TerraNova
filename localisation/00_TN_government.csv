@@ -1,5 +1,6 @@
 ;;;;;;;;;;;;;;x,,,
 colonial_company;Colonial Company;;;;;;;;;x;;;;;;;;
+colonial_company_ruler;My Lord;;;;;;;;;;;;x
 subject;Autonomous Territory;;;;;;;;;x;;;;;;;;
 subject_ruler;My Lord;;;;;;;;;;;;x
 provisional_state;Republic;;;;;;;;;x;;;;;;;;
@@ -14,3 +15,7 @@ elective_monarchy;Elective Monarchy;;;;;;;;;;;;x
 elective_monarchy_ruler;My King;;;;;;;;;;;;x
 communal_republic;Canton;;;;;;;;;;;;x
 communal_republic_ruler;My Chancellor;;;;;;;;;;;;x
+federal_democracy;Regional Commitee;;;;;;;;;x;;;;;;;;
+federal_democracy_ruler;My Commissar;;;;;;;;;;;;x
+primitive_democracy;Republic;;;;;;;;;x;;;;;;;;
+primitive_democracy_ruler;My President;;;;;;;;;;;;x

@@ -349,6 +349,11 @@ founding_odessa = {
 	icon = 19
 }
 
+welsh_language_schooling = {
+	assimilation_rate = 3.5
+	icon = 19
+}
+
 the_conquest_of_siberia_m = {
 	assimilation_rate = 0.5
 	badboy = 0.01

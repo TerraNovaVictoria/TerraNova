@@ -8,6 +8,7 @@ political_decisions = {
 				tag = UPE
 			}
 			NOT = { has_country_flag = claimeded_brittany }
+			NOT = { exists = ENL }
 		}
 		
 		allow = {
@@ -61,6 +62,88 @@ political_decisions = {
 			}
 			THIS = { inherit = ENL country_event = 192203 }
 			prestige = 5		
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	welsh_schooling_act = { 
+		picture = assimilate_the_english
+		potential = {
+			OR = {	
+				tag = CYM
+				tag = UPE
+			}
+			NOT = { accepted_culture = british }
+			any_owned_province = {
+				NOT = { has_province_modifier = welsh_language_schooling }
+			}
+		}
+		
+		allow = {
+			nationalism_n_imperialism = 1
+		}
+		
+		effect = {
+			any_owned = { 
+				limit = {
+					OR = {
+						region = ENG_300
+						region = ENG_291
+					}
+				}
+				add_province_modifier = { name = welsh_language_schooling duration = -1 }
+				remove_core = ENG
+			}
+			any_pop = {
+				limit = { has_pop_culture = british }
+				militancy = 4
+				consciousness = 2
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	integrate_the_english = { 
+		picture = england
+		potential = {
+			OR = {	
+				tag = CYM
+				tag = UPE
+			}
+			NOT = { accepted_culture = british }
+			any_owned_province = {
+				NOT = { has_province_modifier = welsh_language_schooling }
+			}
+		}
+		
+		allow = {
+			social_science = 1
+		}
+		
+		effect = {
+			prestige = 20
+			badboy = -5
+			any_owned = { 
+				limit = {
+					OR = {
+						region = ENG_300
+						region = ENG_291
+					}
+				}
+				remove_core = ENG
+			}	
+			any_pop = {
+				limit = { has_pop_culture = british }
+				militancy = -2
+				consciousness = -2
+			}
+			add_accepted_culture = british
 		}
 		
 		ai_will_do = {
