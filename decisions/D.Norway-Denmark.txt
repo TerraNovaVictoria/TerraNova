@@ -4,10 +4,13 @@ political_decisions = {
 		picture = jemtland
 		potential = {
 			tag = SWE
-			owns = 319
-			OR = {
-				319 = { is_core = DNN }
-				319 = { is_core = NOR }
+			NOT = { owns = 319 }
+			AND = {
+				OR = {
+					319 = { is_core = DNN }
+					319 = { is_core = NOR }
+				}
+				319 = { is_core = SWE }
 			}
 			NOT = { has_country_flag = jamtland_border_treaty }
 		}
@@ -19,7 +22,7 @@ political_decisions = {
 		
 		effect = {
 			set_country_flag = jamtland_border_treaty
-			305 = { owner = { country_event = 110011 } }
+			DNN = { country_event = 110011 }
 		}
 
 		ai_will_do = {

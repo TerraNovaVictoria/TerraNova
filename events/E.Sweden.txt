@@ -1,0 +1,110 @@
+country_event = {
+	id = 161100
+	title = "EVTNAME161100" #Revolutionary Sentiment in Swedenn
+	desc = "EVTDESC161100"
+	picture = "swedish_unrest"
+	
+	trigger = {
+		tag = SWE
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+		has_global_flag = end_of_spanish_civil_war
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT161100A"
+		322 = {
+			add_province_modifier = { name = liberal_agitation duration = 3650 }
+			any_pop = {
+				scaled_militancy = {
+					ideology = liberal
+					factor = 0.5
+				}
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 161101
+	title = "EVTNAME161101" #The Stockholm Uprising
+	desc = "EVTDESC161101"
+	picture = "swedish_revolution"
+	
+	trigger = {
+		tag = SWE
+		year = 1842
+		NOT = { year = 1848 }
+		OR = {
+			government = absolute_monarchy
+			government = prussian_constitutionalism
+		}
+		322 = { has_province_modifier = liberal_agitation }
+	}
+	
+	fire_only_once = yes
+	
+	immediate = { 322 = { remove_province_modifier = liberal_agitation } }
+	
+	option = {
+		name = "EVTOPT161101A"
+		any_owned = {
+			add_province_modifier = { name = liberal_agitation duration = 365 }
+			any_pop = { militancy = 1 consciousness = 2 }
+			any_pop = {
+				scaled_consciousness = {
+					ideology = liberal
+					factor = 0.5
+				}
+			}
+		}
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPT161101B"
+		government = provisional_state
+		any_pop = { militancy = -2 }
+		any_owned = {
+			add_province_modifier = { name = nationalist_agitation duration = 365 }
+			any_pop = {
+				scaled_consciousness = {
+					ideology = conservative
+					factor = 0.5
+				}
+			}
+			any_pop = {
+				scaled_consciousness = {
+					ideology = reactionary
+					factor = 0.5
+				}
+			}
+		}
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = 161102
+	title = "EVTNAME161102" #The Formation of the Swedish Republic
+	desc = "EVTDESC161102"
+	picture = "spanish_glorious_revolution"
+	major = yes
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT161102A"
+		prestige = 10
+		ai_chance = { factor = 100 }
+	}
+	
+}

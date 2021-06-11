@@ -1,0 +1,25 @@
+political_decisions = {
+
+	swedish_republican_formation_decision = {
+		picture = names_of_the_rev
+		potential = {
+			tag = SWE
+			government = provisional_state
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			
+			government = democracy
+			SWE = { country_event = 161102 }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

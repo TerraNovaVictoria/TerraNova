@@ -7,26 +7,23 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPT110022A"
-		badboy = -2
-		prestige = 5
-		319 = { remove_core = NOR remove_core = DNN }
-		329 = { remove_core = SWE }
-		319 = { owner = { country_event = 111111 } }
+		name = "EVTOPT110011A"
+		319 = { remove_core = SWE }
+		SWE = { country_event = 111111 }
 		relation = { who = SWE value = 50 }
 		
-		ai_chance = { factor = 0.98 }
+		ai_chance = { factor = 100 }
 	}
 		
 	option = {
 		name = "EVTOPT110011B"
 		badboy = 5
-		319 = { owner = { country_event = 112211 } }
+		SWE = { country_event = 112211 }
 		relation = {
 			who = SWE
 			value = -200
 		}
-		ai_chance = { factor = 0.02 }
+		ai_chance = { factor = 0 }
 	}
 }
 
@@ -43,6 +40,7 @@ country_event = {
 		prestige = 5
 		relation = { who = DNN value = 50 }
 		relation = { who = NOR value = 50 }
+		clr_country_flag = jamtland_border_treaty
 		
 		ai_chance = { factor = 100 }
 	}
@@ -67,7 +65,11 @@ country_event = {
 	option = {
 		name = "EVTOPT112211B"
 		badboy = 5
-		305 = { add_core = SWE }
+		319 = { add_core = SWE }
+		329 = { add_core = SWE }
+		334 = { add_core = SWE }
+		335 = { add_core = SWE }
+		331 = { add_core = SWE }
 		relation = { who = NOR value = -400 }
 		relation = { who = DNN value = -400 }
 		
