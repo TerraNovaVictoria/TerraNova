@@ -1,4 +1,20 @@
 ;;;;;;;;;;;;;;x,,,
+TSH;Chokwe;;;;;;;;;;;;;;;;;;x;;;;
+TSH_primitive_absolute_monarchy;The Chokwe Empire;;;;;;;;;;;;;;;;;;x;;;;
+TSH_ADJ;Chokwe;;;;;;;;;;;;;;;;;;x;;;;
+LUN_primitive_absolute_monarchy;The Lunda Empire;;;;;;;;;;;;;;;;;;x;;;;
+BTS;Barotseland;;;;;;;;;;;;;;;;;;x;;;;
+BTS_primitive_absolute_monarchy;The Lozi Empire;;;;;;;;;;;;;;;;;;x;;;;
+BTS_ADJ;Barotse;;;;;;;;;;;;;;;;;;x;;;;
+BTS_primitive_absolute_monarchy_ADJ;Lozian;;;;;;;;;;;;;;;;;;x;;;;
+KUN;Kunduz;;;;;;;;;;;;;;;;;;x;;;;
+KUN_ADJ;Kunduzid;;;;;;;;;;;;;;;;;;x;;;;
+DNG;Dangola;;;;;;;;;;;;;;;;;;x;;;;
+DNG_ADJ;Dangolan;;;;;;;;;;;;;;;;;;x;;;;
+EIC;Hindustan;;;;;;;;;;;;;;;;;;x;;;;
+EIC_ADJ;Hindustani;;;;;;;;;;;;;;;;;;x;;;;
+EIC_colonial_company;East India Company;;;;;;;;;;;;;;;;;;x;;;;
+EIC_colonial_company_ADJ;East Indian;;;;;;;;;;;;;;;;;;x;;;;
 KRP;Karakalpakstan;;;;;;;;;;;;;;;;;;x;;;;
 KRP_ADJ;Karakalpaki;;;;;;;;;;;;;;;;;;x;;;;
 ATL;Atlas;;;;;;;;;;;;;;;;;;x;;;;

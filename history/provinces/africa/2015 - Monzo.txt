@@ -1,4 +1,4 @@
-add_core = LUN
+add_core = BTS
 trade_goods = grain
 terrain = savanna
 life_rating = 10

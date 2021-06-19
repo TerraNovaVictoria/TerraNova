@@ -1,6 +1,7 @@
-owner = KUB
-controller = KUB
+owner = KON
+controller = KON
 add_core = KUB
 add_core = KON
+add_core = TSH
 trade_goods = grain
 life_rating = 20

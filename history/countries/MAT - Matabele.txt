@@ -1,11 +1,7 @@
-capital = 2108
-primary_culture = nguni
-culture = tswana
-culture = shona
-culture = sotho
-culture = southern_bantu
+capital = 2071
+primary_culture = southern_bantu
 religion = animist
-government = absolute_monarchy
+government = primitive_absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.01

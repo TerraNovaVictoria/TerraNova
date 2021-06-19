@@ -1,5 +1,3 @@
-owner = MNG
-controller = MNG
 add_core = KUB
 add_core = MNG
 trade_goods = grain

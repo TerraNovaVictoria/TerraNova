@@ -1,6 +1,7 @@
-owner = BOH
-controller = BOH
-add_core = BOH
-add_core = GER
-life_rating = 35
-trade_goods = iron
+owner = LAN
+controller = LAN
+add_core = LAN
+add_core = PTK
+terrain = farmlands
+life_rating = 32
+trade_goods = grain

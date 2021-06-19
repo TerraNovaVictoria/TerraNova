@@ -1,6 +1,6 @@
-owner = BDK
-controller = BDK
-add_core = BDK
+owner = KUN
+controller = KUN
+add_core = KUN
 add_core = AFG
 trade_goods = wool
 life_rating = 35

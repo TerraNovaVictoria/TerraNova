@@ -1,6 +1,6 @@
-owner = KON
-controller = KON
-add_core = KON
+owner = DNG
+controller = DNG
+add_core = DNG
 trade_goods = coffee
 life_rating = 35
 colonial = 2

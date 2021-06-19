@@ -1,7 +1,7 @@
-owner = HRT
-controller = HRT
+owner = KUN
+controller = KUN
+add_core = KUN
 add_core = HRT
-add_core = BDK
 add_core = TKM
 terrain = dryhills
 trade_goods = grain

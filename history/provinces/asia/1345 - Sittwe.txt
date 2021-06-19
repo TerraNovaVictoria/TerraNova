@@ -1,5 +1,5 @@
-owner = CYM
-controller = CYM
+owner = EIC
+controller = EIC
 add_core = AVK
 trade_goods = grain
 life_rating = 35

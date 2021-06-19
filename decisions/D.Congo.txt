@@ -1,0 +1,69 @@
+political_decisions = {
+
+
+	unite_the_lunda = { 
+		picture = form_the_ikhwan
+		potential = {
+			OR = {
+				tag = TSH
+				tag = KZB
+			}
+			NOT = { exists = LUN }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					tag = TSH
+					OR = {
+						KZB = { vassal_of = THIS }
+						AND = {
+							KZB = { all_core = { owned_by = THIS } }
+							KZB = { exists = no }
+						}
+					}
+				}
+				AND = {
+					tag = KZB
+					OR = {
+						TSH = { vassal_of = THIS }
+						AND = {
+							TSH = { all_core = { owned_by = THIS } }
+							TSH = { exists = no }
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			THIS = {
+				all_core = { add_core = LUN remove_core = THIS }
+			}
+			change_tag = LUN
+			TSH = { 
+				all_core = {
+					add_core = LUN
+					remove_core = TSH
+				}
+				annex_to = LUN
+			}
+			KZB = { 
+				all_core = {
+					add_core = LUN
+					remove_core = KZB
+				}
+				annex_to = LUN
+			}
+			BTS = { 
+				all_core = { add_core = LUN }
+			}
+			prestige = 25
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

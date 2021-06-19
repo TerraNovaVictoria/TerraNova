@@ -1460,7 +1460,7 @@
 	farmers = {
 		culture = mongol
 		religion = shinto
-		size = 9275
+		size = 275
 	}
 	
 	farmers = {
@@ -1705,7 +1705,7 @@
 	farmers = {
 		culture = mongol
 		religion = shinto
-		size = 29950
+		size = 950
 	}
 
 	aristocrats = {
@@ -2904,7 +2904,7 @@
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 190000
+		size = 90000
 	}
 
 	aristocrats = {
@@ -2934,7 +2934,7 @@
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 40050
+		size = 19050
 	}
 }
 #Morioka (316000/79000 POPS)
@@ -2966,13 +2966,13 @@
 	farmers = {
 		culture = ainu
 		religion = shinto
-		size = 42975
+		size = 6975
 	}
 	
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 9975
+		size = 29975
 	}
 
 	aristocrats = {
@@ -3034,13 +3034,13 @@
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 12800
+		size = 22800
 	}
 	
 	farmers = {
 		culture = ainu
 		religion = shinto
-		size = 50800
+		size = 4800
 	}
 
 	aristocrats = {
@@ -3102,7 +3102,7 @@
 	farmers = {
 		culture = ainu
 		religion = shinto
-		size = 73400
+		size = 9400
 	}
 
 	aristocrats = {
@@ -3132,7 +3132,7 @@
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 11325
+		size = 9325
 	}
 }
 #Yamagata (512000/128000 POPS)
@@ -3170,13 +3170,13 @@
 	farmers = {
 		culture = japanese
 		religion = shinto
-		size = 29150
+		size = 25150
 	}
 	
 	farmers = {
 		culture = ainu
 		religion = shinto
-		size = 40150
+		size = 5150
 	}
 
 	aristocrats = {

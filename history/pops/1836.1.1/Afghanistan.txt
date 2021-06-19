@@ -186,32 +186,38 @@
 
 	aristocrats = {
 		culture = tajik
-		religion = sunni
+		religion = shiite
 		size = 750
 	}
 
 	clergymen = {
 		culture = tajik
-		religion = sunni
+		religion = shiite
 		size = 388
 	}
 
 	artisans = {
 		culture = tajik
-		religion = sunni
+		religion = shiite
 		size = 1900
 	}
 
 	soldiers = {
 		culture = tajik
-		religion = sunni
+		religion = shiite
 		size = 375
 	}
 
 	farmers = {
 		culture = turkmen
+		religion = shiite
+		size = 27587
+	}
+	
+	slaves = {
+		culture = uighur
 		religion = sunni
-		size = 34587
+		size = 4000
 	}
 
 	aristocrats = {
@@ -247,7 +253,13 @@
 	slaves = {
 		culture = turkmen
 		religion = sunni
-		size = 15000
+		size = 1000
+	}
+	
+	slaves = {
+		culture = uighur
+		religion = sunni
+		size = 7000
 	}
 }
 #Herat (324000/81000 POPS)

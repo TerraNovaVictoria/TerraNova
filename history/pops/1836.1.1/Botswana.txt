@@ -91,7 +91,13 @@
 	farmers = {
 		culture = herero
 		religion = animist
-		size = 1800
+		size = 300
+	}
+	
+	farmers = {
+		culture = barotze
+		religion = animist
+		size = 1500
 	}
 }
 #Tshabong (12000/3000 POPS) 
@@ -192,31 +198,31 @@
 #Serowe (16000/4000 POPS) 
 2075 = {
 	aristocrats = {
-		culture = nguni
+		culture = southern_bantu
 		religion = animist
 		size = 30
 	}
 
 	clergymen = {
-		culture = nguni
+		culture = southern_bantu
 		religion = animist
 		size = 30
 	}
 
 	artisans = {
-		culture = nguni
+		culture = southern_bantu
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = nguni
+		culture = southern_bantu
 		religion = animist
 		size = 40
 	}
 
 	farmers = {
-		culture = nguni
+		culture = southern_bantu
 		religion = animist
 		size = 1800
 	}

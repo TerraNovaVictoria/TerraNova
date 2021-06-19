@@ -283,43 +283,43 @@
 	}
 	
 	aristocrats = {
-		culture = nguni
+		culture = southern_bantu
 		religion = animist
 		size = 500
 	}
 
 	bureaucrats = {
-		culture = nguni
+		culture = southern_bantu
 		religion = animist
 		size = 10
 	}
 
 	officers = {
-		culture = nguni
+		culture = southern_bantu
 		religion = animist
 		size = 40
 	}
 
 	clergymen = {
-		culture = nguni
+		culture = southern_bantu
 		religion = animist
 		size = 300
 	}
 
 	artisans = {
-		culture = nguni
+		culture = southern_bantu
 		religion = animist
 		size = 1200
 	}
 
 	soldiers = {
-		culture = nguni
+		culture = southern_bantu
 		religion = animist
 		size = 8050
 	}
 
 	farmers = {
-		culture = nguni
+		culture = southern_bantu
 		religion = animist
 		size = 29000
 	}
@@ -447,31 +447,31 @@
 	}
 
 	aristocrats = {
-		culture = nguni
+		culture = barotze
 		religion = animist
 		size = 20
 	}
 
 	clergymen = {
-		culture = nguni
+		culture = barotze
 		religion = animist
 		size = 30
 	}
 
 	artisans = {
-		culture = nguni
+		culture = barotze
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = nguni
+		culture = barotze
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = nguni
+		culture = barotze
 		religion = animist
 		size = 2000
 	}

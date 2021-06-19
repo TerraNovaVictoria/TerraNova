@@ -1,7 +1,5 @@
 capital = 2070
 primary_culture = shona
-culture = sena
-culture = nyasa
 religion = animist
 government = primitive_absolute_monarchy
 plurality = 0.0

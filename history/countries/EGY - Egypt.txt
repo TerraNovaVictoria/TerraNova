@@ -6,7 +6,7 @@ religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
-literacy = 0.01
+literacy = 0.07
 non_state_culture_literacy = 0.01
 is_releasable_vassal = no
 
@@ -61,8 +61,18 @@ govt_flag = {
 
 set_country_flag = sunni_country
 
-foreign_artillery = yes_foreign_artillery
+foreign_officers = yes_foreign_officers 
 foreign_weapons = yes_foreign_weapons
+foreign_artillery = yes_foreign_artillery
+army_schools = yes_army_schools
+land_reform = yes_land_reform
+monetary_reform = yes_monetary_reform
+foreign_naval_officers = yes_foreign_naval_officers
+foreign_navies = yes_foreign_navies
+naval_schools = yes_naval_schools
+admin_reform = yes_admin_reform
+finance_reform = yes_finance_reform
+transport_improv = yes_transport_improv
 
 # Technologies
 flintlock_rifles = 1
@@ -76,31 +86,3 @@ consciousness = 0
 nonstate_consciousness = 0
 
 oob = "EGY_oob.txt"
-1861.1.1 = {
-	oob = "/1861/EGY_oob.txt"
-	prestige = 5
-	literacy = 0.10
-	non_state_culture_literacy = 0.05
-}
-1861.1.1 = {
-
-set_country_flag = fate_of_egypt
-set_global_flag = oriental_crisis
-set_global_flag = egypt_submitted_to_ottomans
-set_country_flag = muhammad_alis_reforms_enacted
-nationalvalue = nv_tradition
-
-foreign_training = yes_foreign_training
-foreign_weapons = yes_foreign_weapons
-foreign_officers = yes_foreign_officers
-finance_reform = finance_reform_two #International Debt
-education_reform = yes_education_reform
-
-# Technologies
-military_staff_system = 1
-flintlock_rifles = 1
-army_command_principle = 1
-
-# Inventions
-
-}

@@ -205,14 +205,9 @@
 	farmers = {
 		culture = manchu
 		religion = mahayana
-		size = 100000
+		size = 12000
 	}
 
-	slaves = {
-		culture = manchu
-		religion = mahayana
-		size = 17000
-	}
 }
 #Kimchaek (260000/65000 POPS)
 1623 = {
@@ -243,13 +238,13 @@
 	farmers = {
 		culture = korean
 		religion = mahayana
-		size = 90625
+		size = 115625
 	}
 	
 	farmers = {
 		culture = manchu
 		religion = mahayana
-		size = 60625
+		size = 4625
 	}
 
 	slaves = {

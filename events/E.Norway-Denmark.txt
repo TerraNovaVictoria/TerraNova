@@ -1,24 +1,26 @@
 country_event = {
-	id = 110011
-	title = "EVTNAME110011" #Jamtland Border Treaty
-	desc = "EVTDESC110011"
+	id = 121100
+	title = "EVTNAME121100" #Jamtland Border Treaty
+	desc = "EVTDESC121100"
 	picture = "swe_nor_border_treaty"
 	
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPT110011A"
+		name = "EVTOPT121100A"
 		319 = { remove_core = SWE }
-		SWE = { country_event = 111111 }
+		982 = { remove_core = NOR remove_core = THIS }
+		3289 = { remove_core = NOR remove_core = THIS }
+		SWE = { country_event = 121101 }
 		relation = { who = SWE value = 50 }
 		
 		ai_chance = { factor = 100 }
 	}
 		
 	option = {
-		name = "EVTOPT110011B"
-		badboy = 5
-		SWE = { country_event = 112211 }
+		name = "EVTOPT121100B"
+		badboy = 2
+		SWE = { country_event = 121102 }
 		relation = {
 			who = SWE
 			value = -200
@@ -28,18 +30,20 @@ country_event = {
 }
 
 country_event = {
-	id = 111111
-	title = "EVTNAME111111" #Jamtland Border Treaty - They Accepted
-	desc = "EVTDESC111111"
+	id = 121101
+	title = "EVTNAME121101" #Jamtland Border Treaty - They Accepted
+	desc = "EVTDESC121101"
 	picture = "swe_nor_border_treaty"
 	
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPT111111A"
+		name = "EVTOPT121101A"
 		prestige = 5
 		relation = { who = DNN value = 50 }
 		relation = { who = NOR value = 50 }
+		982 = { secede_province = SWE }
+		3289 = { secede_province = SWE }
 		clr_country_flag = jamtland_border_treaty
 		
 		ai_chance = { factor = 100 }
@@ -47,15 +51,15 @@ country_event = {
 }
 
 country_event = {
-	id = 112211
-	title = "EVTNAME112211" #Jamtland Border Treaty - They Refused
-	desc = "EVTDESC112211"
+	id = 121102
+	title = "EVTNAME121102" #Jamtland Border Treaty - They Refused
+	desc = "EVTDESC121102"
 	picture = "swe_nor_border_treaty"
 	
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPT112211A"
+		name = "EVTOPT121102A"
 		relation = { who = NOR value = -200 }
 		relation = { who = DNN value = -200 }
 		
@@ -63,7 +67,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPT112211B"
+		name = "EVTOPT121102B"
 		badboy = 5
 		319 = { add_core = SWE }
 		329 = { add_core = SWE }
@@ -78,15 +82,15 @@ country_event = {
 }
 
 country_event = {
-	id = 113311
-	title = "EVTNAME113311" #Norway wants to hold plebiscite
-	desc = "EVTDESC113311"
+	id = 121103
+	title = "EVTNAME121103" #Norway wants to hold plebiscite
+	desc = "EVTDESC121103"
 	picture = "norwegian_storting"
 	
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPT113311A"
+		name = "EVTOPT121103A"
 		relation = { who = NOR value = 200 }
 		NOR = { country_event = 114411 }
 		
@@ -94,7 +98,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPT113311B"
+		name = "EVTOPT121103B"
 		prestige = 5
 		badboy = 2
 		NOR = { country_event = 115511 }
@@ -104,15 +108,15 @@ country_event = {
 }
 
 country_event = {
-	id = 114411
-	title = "EVTNAME114411" #Denmark says yes
-	desc = "EVTDESC114411"
+	id = 121104
+	title = "EVTNAME121104" #Denmark says yes
+	desc = "EVTDESC121104"
 	picture = "norway_council"
 	
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPT114411A"
+		name = "EVTOPT121104A"
 		set_country_flag = referendum_preps
 		
 		ai_chance = { factor = 100 }
@@ -121,15 +125,15 @@ country_event = {
 }
 
 country_event = {
-	id = 115511
-	title = "EVTNAME115511" #Denmark says no
-	desc = "EVTDESC115511"
+	id = 121105
+	title = "EVTNAME121105" #Denmark says no
+	desc = "EVTDESC121105"
 	picture = "norwegian_storting"
 	
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPT115511A"
+		name = "EVTOPT121105A"
 		prestige = 10
 		relation = { who = DNN value = -200 }
 		set_country_flag = referendum_preps
@@ -138,7 +142,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPT115511B"
+		name = "EVTOPT121105B"
 		prestige = -5
 		relation = { who = DNN value = -100 }
 		
@@ -147,15 +151,15 @@ country_event = {
 }
 
 country_event = {
-	id = 116611
-	title = "EVTNAME116611" #Norway Declares Independence
-	desc = "EVTDESC116611"
+	id = 121106
+	title = "EVTNAME121106" #Norway Declares Independence
+	desc = "EVTDESC121106"
 	picture = "norwegian_storting"
 	
 	is_triggered_only = yes
 
 	option = {
-		name = "EVTOPT116611A"
+		name = "EVTOPT121106A"
 		prestige = -10
 		relation = { who = NOR value = 200 }
 		release_vassal = NOR
@@ -165,7 +169,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPT116611B"
+		name = "EVTOPT121106B"
 		badboy = 10
 		relation = { who = NOR value = -100 }
 		release_vassal = NOR
@@ -177,6 +181,60 @@ country_event = {
 		
 		ai_chance = { factor = 60 }
 	}
+}
+
+#####SCANDINAVIANIST EVENT#####
+
+country_event = {
+	id = 121107
+	title = "EVTNAME121107" #Pan-Nordic Sentiment, Malmö Meeting
+	desc = "EVTDESC121107"
+	picture = "scandinavianism"
+	
+	trigger = {
+		OR = {
+			tag = DEN
+			tag = SWE
+			tag = DNN
+			tag = NOR
+		}
+		year = 1844
+		334 = { owned_by = THIS }
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = "EVTOPT121107A"
+		334 = {
+			add_province_modifier = { name = liberal_agitation duration = 3650 }
+			add_province_modifier = { name = nationalist_agitation duration = 365 }
+			any_pop = {
+				scaled_militancy = {
+					ideology = liberal
+					factor = 0.8
+				}
+			}
+		}
+		335 = {
+			add_province_modifier = { name = liberal_agitation duration = 3650 }
+			add_province_modifier = { name = nationalist_agitation duration = 365 }
+			any_pop = {
+				scaled_militancy = {
+					ideology = liberal
+					factor = 0.8
+				}
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 0.4
+			}
+		}
+		ai_chance = { factor = 100 }
+	}
+	
 }
 
 #####NORWEGIAN REFERENDUM EVENTS#####

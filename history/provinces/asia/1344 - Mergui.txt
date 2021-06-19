@@ -1,5 +1,5 @@
-owner = SIA
-controller = SIA
+owner = EIC
+controller = EIC
 add_core = SIA
 add_core = PRM
 trade_goods = fish

@@ -107,31 +107,31 @@
 	}
 
 	aristocrats = {
-		culture = kavango
+		culture = ambo
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = kavango
+		culture = ambo
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = kavango
+		culture = ambo
 		religion = animist
 		size = 200
 	}
 
 	soldiers = {
-		culture = kavango
+		culture = ambo
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = kavango
+		culture = ambo
 		religion = animist
 		size = 3650
 	}
@@ -139,39 +139,39 @@
 #Tsumeb (24000/6000 POPS)
 2080 = {
 	aristocrats = {
-		culture = kavango
+		culture = ambo
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = kavango
+		culture = ambo
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = kavango
+		culture = ambo
 		religion = animist
 		size = 300
 	}
 
 	soldiers = {
-		culture = kavango
+		culture = ambo
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = kavango
+		culture = ambo
 		religion = animist
-		size = 5475
+		size = 6675
 	}
 
 	farmers = {
 		culture = herero
 		religion = animist
-		size = 8200
+		size = 6900
 	}
 }
 #Otjinene (44000/11000 POPS)
@@ -203,37 +203,37 @@
 	farmers = {
 		culture = herero
 		religion = animist
-		size = 5475
+		size = 8475
 	}
 
 	aristocrats = {
-		culture = kavango
+		culture = ambo
 		religion = animist
 		size = 75
 	}
 
 	clergymen = {
-		culture = kavango
+		culture = ambo
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = kavango
+		culture = ambo
 		religion = animist
 		size = 250
 	}
 
 	soldiers = {
-		culture = kavango
+		culture = ambo
 		religion = animist
 		size = 50
 	}
 
 	farmers = {
-		culture = kavango
+		culture = ambo
 		religion = animist
-		size = 4575
+		size = 575
 	}
 }
 #Kafue Region (16000) #see Zambia.txt for balance of region
@@ -241,61 +241,61 @@
 #Linyati (16000/4000 POPS)
 2081 = {
 	aristocrats = {
-		culture = kavango
+		culture = barotze
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = kavango
+		culture = barotze
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = kavango
+		culture = barotze
 		religion = animist
 		size = 150
 	}
 
 	soldiers = {
-		culture = kavango
+		culture = barotze
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = kavango
+		culture = barotze
 		religion = animist
 		size = 2700
 	}
 
 	aristocrats = {
-		culture = lunda
+		culture = herero
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = lunda
+		culture = herero
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = lunda
+		culture = herero
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = lunda
+		culture = herero
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = lunda
+		culture = herero
 		religion = animist
 		size = 900
 	}

@@ -1,4 +1,7 @@
 ;;;;;;;;;;;;;;x,,,
+EVTNAME121107;The Nordic Student Movement;;;;;;;;;;;;;;x,,,
+EVTDESC121107;Initiated by the students of Lund University in in Scania, the first Scandinavian Student Meeting was held in 1844 with the goal of developing and advancing Scandinavian Nationalism and Liberalism in the Nordic countries. It was attended by students from Uppsala University, Lund University, the University of Copenhagen, Helsinki University and the University of Christiana and was a relatively large success and is seen as a first step towards a united Scandinavia.;;;;;;;;;;;;;;x,,,
+EVTOPT121107A;Nothing but dreamers.;;;;;;;;;;;;;;x,,,
 EVTNAME161100;The 7 days of Stockholm;;;;;;;;;;;;;;x,,,
 EVTDESC161100;Sweden is usually seen as we wealthy and stable country, however, in recent years things took a drastic turn. In the aftermath of the Nordic War of 1829, Sweden was forced to recognize Danish control over Götenburg and secede large strips of land along the Swedish-Norwegian border. Furthermore, Danish and Norwegian armies spread havoc throughout Sweden, harming the economy and leaving behind a severely disenfranchised populace. In an attempt to restore order to the post-war country, Sweden has turned into an increasingly autocratic monarchy that sees itself unable to keep a firm grip over the nation. At last, popular discontent has reached an all-time high as liberal revolutionaries called for an armed uprising against the monarchy, resulting in 7 days of steet and barricade fighting in Stockholm that have finally concluded in favor of the government. However, this may very well only be the beginning of something more sinister to come.;;;;;;;;;;;;;;x,,,
 EVTOPT161100A;Sweden will prevail!;;;;;;;;;;;;;;x,,,
@@ -451,32 +454,32 @@ EVTOPT90040900B;Morelia, the capital of the old Purepecha Empire!;;;;;;;;;;;;;;;
 EVTOPT90040900C;Montevideo, the city of wealth and prosperity!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTOPT90040900D;Guatemala, the birthplace of the American revolution!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTOPT90040900E;Colombus, a new city for all Colombians!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTNAME110011;The Swedish-Danish Border Treaty;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTDESC110011;We received a proposal from the Swedish ambassador early this morning. Apparently the Swedish government is open to negotiate the border between the United Kingdom and Sweden. For the most part it the current border would remain in effect with only a few towns and villages being exchanged. Furthermore the Swedish embassy proposed that if we drop our claim on Øst-Trøndelag, the Swedish government in return would ratify our ownership over Göteborg. This would greatly boost our diplomatic relations in the future and open up further negotiations concerning Scandinavia, however, many in the world might see this as a weakness since we would give up a large chunk of land to the swedes.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT110011A;Let's sign the treaty;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT110011B;They can have Øst-Trøndelag over my dead body;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTNAME111111;Border treaty signed!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTDESC111111;The Dano-Norwegian ambassador informed us that the border treaty has been signed by a Danish-Norwegian delegation. This means the border is now finalized and that neither side claims the territory of the other anymore.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT111111A;Wonderful;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTNAME112211;Border treaty declined!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTDESC112211;The Dano-Norwegian ambassador informed us that the border treaty has been declined. Apparently the Norwegians are not willing to give up Øst-Trøndelag by any means. This is a clear sign that the Dano-Norwegians will indeed attack us at some point in order to take our rightful land. However, this might be beneficial for us since we now have a valid reason to claim the entirety of Trøndelag as rightful Swedish land.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT112211A;Let's not try to escalate this;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT112211B;Trøndelag shall be Swedish once more;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTNAME113311;Norwegian Independence Referendum;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTDESC113311;A Norwegian delegation has approached us and asked for the permission to hold a plebiscite within the Norwegian territories. Demands for independence have increased within Norway over the past few decades and holding this plebiscite can either firmly confirm our authority over Norway or lead to their actual independence. Either way, the referendum is also being called for by a large chunk of the Norwegian populace so refusing it could lead rebellious thought spreading across our northern territories.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT113311A;We support the plebiscite;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT113311B;How can anyone say Norway isn't Danish?;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTNAME114411;Denmark has agreed!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTDESC114411;The Danish parliament and king have both agreed to our request. We can now initiate the preperations for the referendum.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT114411A;Go ahead;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTNAME115511;Denmark has refused!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTDESC115511;The Danish parliament and king have both refused our request. They are not willing to grant us independence under any circumstances. We can submit to this dictate, however, we can just as well go on and hold the referendum anyway. Should it turn out in favour of independence we can legitimize our government and declare independence without Danish approval.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT115511A;Being preperations for the referendum;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT115511B;We should submit to the king's authority;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTNAME116611;Norway declares independence!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTDESC116611;The new regime in Norway has gathered in Trøndelag and decided to declare its independence from the our country! Should we acknowledge and recognize their independence or should we intervene military and reinstate our authority over the country?;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT116611A;Let them go;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT116611B;Restore order in Norway!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME121100;The Swedish-Danish Border Treaty;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC121100;We received a proposal from the Swedish ambassador early this morning. Apparently the Swedish government is open to negotiate the border between the United Kingdom and Sweden. For the most part it the current border would remain in effect with only a few towns and villages being exchanged. Furthermore the Swedish embassy proposed that if we drop our claim on Øst-Trøndelag, the Swedish government in return would ratify our ownership over Göteborg. This would greatly boost our diplomatic relations in the future and open up further negotiations concerning Scandinavia, however, many in the world might see this as a weakness since we would give up a large chunk of land to the swedes.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT121100A;Let's sign the treaty;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT121100B;They can have Øst-Trøndelag over my dead body;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME121101;Border treaty signed!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC121101;The Dano-Norwegian ambassador informed us that the border treaty has been signed by a Danish-Norwegian delegation. This means the border is now finalized and that neither side claims the territory of the other anymore.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT121101A;Wonderful;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME121102;Border treaty declined!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC121102;The Dano-Norwegian ambassador informed us that the border treaty has been declined. Apparently the Norwegians are not willing to give up Øst-Trøndelag by any means. This is a clear sign that the Dano-Norwegians will indeed attack us at some point in order to take our rightful land. However, this might be beneficial for us since we now have a valid reason to claim the entirety of Trøndelag as rightful Swedish land.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT121102A;Let's not try to escalate this;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT121102B;Trøndelag shall be Swedish once more;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME121103;Norwegian Independence Referendum;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC121103;A Norwegian delegation has approached us and asked for the permission to hold a plebiscite within the Norwegian territories. Demands for independence have increased within Norway over the past few decades and holding this plebiscite can either firmly confirm our authority over Norway or lead to their actual independence. Either way, the referendum is also being called for by a large chunk of the Norwegian populace so refusing it could lead rebellious thought spreading across our northern territories.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT121103A;We support the plebiscite;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT121103B;How can anyone say Norway isn't Danish?;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME121104;Denmark has agreed!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC121104;The Danish parliament and king have both agreed to our request. We can now initiate the preperations for the referendum.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT121104A;Go ahead;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME121105;Denmark has refused!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC121105;The Danish parliament and king have both refused our request. They are not willing to grant us independence under any circumstances. We can submit to this dictate, however, we can just as well go on and hold the referendum anyway. Should it turn out in favour of independence we can legitimize our government and declare independence without Danish approval.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT121105A;Begin preperations for the referendum;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT121105B;We should submit to the king's authority;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME121106;Norway declares independence!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC121106;The new regime in Norway has gathered in Trøndelag and decided to declare its independence from the our country! Should we acknowledge and recognize their independence or should we intervene military and reinstate our authority over the country?;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT121106A;Let them go;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT121106B;Restore order in Norway!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTNAME11000;The Referendum;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTDESC11000;The preperations for the upcoming referendum are complete. We are now ready to hold the vote.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTOPT11000A;Let the voting begin!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;

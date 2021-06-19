@@ -723,3 +723,38 @@
 		size = 242
 	}
 }
+
+#Umfors
+3289 = {
+	
+	aristocrats = {
+		culture = swedish
+		religion = protestant
+		size = 20
+	}
+	
+	clergymen = {
+		culture = swedish
+		religion = protestant
+		size = 50
+	}
+	
+	artisans = {
+		culture = swedish
+		religion = protestant
+		size = 100
+	}
+	
+	farmers = {
+		culture = swedish
+		religion = protestant
+		size = 4500
+	}
+	
+	farmers = {
+		culture = sami
+		religion = protestant
+		size = 950
+	}
+
+}

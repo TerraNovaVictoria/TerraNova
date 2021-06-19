@@ -3,127 +3,127 @@
 #Luanda (164000/41000 POPS)
 1999 = {
 	aristocrats = {
-		culture = portuguese
-		religion = catholic
+		culture = north_german
+		religion = protestant
 		size = 150
 	}
 
 	clergymen = {
-		culture = portuguese
-		religion = catholic
+		culture = north_german
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = portuguese
-		religion = catholic
+		culture = north_german
+		religion = protestant
 		size = 500
 	}
 
 	soldiers = {
-		culture = portuguese
-		religion = catholic
+		culture = north_german
+		religion = protestant
 		size = 100
 	}
 
 	aristocrats = {
-		culture = bakongo
-		religion = catholic
+		culture = kavango
+		religion = protestant
 		size = 50
 	}
 
 	clergymen = {
-		culture = bakongo
-		religion = catholic
+		culture = kavango
+		religion = protestant
 		size = 150
 	}
 
 	artisans = {
-		culture = bakongo
-		religion = catholic
+		culture = kavango
+		religion = protestant
 		size = 3000
 	}
 
 	soldiers = {
-		culture = bakongo
-		religion = catholic
+		culture = kavango
+		religion = protestant
 		size = 250
 	}
 
 	farmers = {
-		culture = bakongo
-		religion = catholic
+		culture = kavango
+		religion = protestant
 		size = 11550
 	}
 
 	aristocrats = {
-		culture = bakongo
+		culture = kavango
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = bakongo
+		culture = kavango
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = bakongo
+		culture = kavango
 		religion = animist
 		size = 500
 	}
 
 	soldiers = {
-		culture = bakongo
+		culture = kavango
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = bakongo
+		culture = kavango
 		religion = animist
 		size = 40200
 	}
 
 	slaves = {
-		culture = bakongo
+		culture = kavango
 		religion = animist
 		size = 2000
 	}
 
 	aristocrats = {
-		culture = kavango
+		culture = bakongo
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = kavango
+		culture = bakongo
 		religion = animist
 		size = 100
 	}
 
 	artisans = {
-		culture = kavango
+		culture = bakongo
 		religion = animist
 		size = 100
 	}
 
 	soldiers = {
-		culture = kavango
+		culture = bakongo
 		religion = animist
 		size = 100
 	}
 
 	farmers = {
-		culture = kavango
+		culture = bakongo
 		religion = animist
 		size = 8600
 	}
 
 	slaves = {
-		culture = kavango
+		culture = bakongo
 		religion = animist
 		size = 2000
 	}
@@ -133,31 +133,31 @@
 2001 = {
 	aristocrats = {
 		culture = bakongo
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
 		culture = bakongo
-		religion = catholic
+		religion = protestant
 		size = 50
 	}
 
 	artisans = {
 		culture = bakongo
-		religion = catholic
+		religion = protestant
 		size = 400
 	}
 
 	soldiers = {
 		culture = bakongo
-		religion = catholic
+		religion = protestant
 		size = 100
 	}
 
 	farmers = {
 		culture = bakongo
-		religion = catholic
+		religion = protestant
 		size = 7350
 	}
 
@@ -314,31 +314,31 @@
 
 	aristocrats = {
 		culture = bakongo
-		religion = catholic
+		religion = protestant
 		size = 425
 	}
 
 	clergymen = {
 		culture = bakongo
-		religion = catholic
+		religion = protestant
 		size = 225
 	}
 
 	artisans = {
 		culture = bakongo
-		religion = catholic
+		religion = protestant
 		size = 900
 	}
 
 	soldiers = {
 		culture = bakongo
-		religion = catholic
+		religion = protestant
 		size = 225
 	}
 
 	farmers = {
 		culture = bakongo
-		religion = catholic
+		religion = protestant
 		size = 15225
 	}
 
@@ -540,31 +540,31 @@
 	}
 
 	aristocrats = {
-		culture = kavango
+		culture = barotze
 		religion = animist
 		size = 175
 	}
 
 	clergymen = {
-		culture = kavango
+		culture = barotze
 		religion = animist
 		size = 175
 	}
 
 	artisans = {
-		culture = kavango
+		culture = barotze
 		religion = animist
 		size = 800
 	}
 
 	soldiers = {
-		culture = kavango
+		culture = barotze
 		religion = animist
 		size = 200
 	}
 
 	farmers = {
-		culture = kavango
+		culture = barotze
 		religion = animist
 		size = 11450
 	}
@@ -614,31 +614,31 @@
 	}
 
 	aristocrats = {
-		culture = kavango
+		culture = ambo
 		religion = animist
 		size = 50
 	}
 
 	clergymen = {
-		culture = kavango
+		culture = ambo
 		religion = animist
 		size = 75
 	}
 
 	artisans = {
-		culture = kavango
+		culture = ambo
 		religion = animist
 		size = 300
 	}
 
 	soldiers = {
-		culture = kavango
+		culture = ambo
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = kavango
+		culture = ambo
 		religion = animist
 		size = 4275
 	}
