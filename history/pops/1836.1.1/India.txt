@@ -41,7 +41,7 @@
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = theravada
 		size = 745
 	}
 	
@@ -1026,31 +1026,55 @@
 	aristocrats = {
 		culture = hindi
 		religion = hindu
-		size = 150
+		size = 50
 	}
 
 	clergymen = {
 		culture = hindi
 		religion = hindu
-		size = 125
+		size = 25
 	}
 
 	artisans = {
 		culture = hindi
 		religion = hindu
-		size = 1100
-	}
-
-	soldiers = {
-		culture = hindi
-		religion = hindu
-		size = 150
+		size = 400
 	}
 
 	farmers = {
 		culture = hindi
 		religion = hindu
-		size = 16575
+		size = 7575
+	}
+	
+	aristocrats = {
+		culture = pashtun
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = pashtun
+		religion = sunni
+		size = 125
+	}
+
+	artisans = {
+		culture = pashtun
+		religion = sunni
+		size = 100
+	}
+
+	soldiers = {
+		culture = pashtun
+		religion = sunni
+		size = 300
+	}
+
+	farmers = {
+		culture = pashtun
+		religion = sunni
+		size = 4575
 	}
 }
 #Shahpur (1132000/283000 POPS)
@@ -7917,19 +7941,19 @@
 
 	clergymen = {
 		culture = tamil
-		religion = catholic
+		religion = theravada
 		size = 125
 	}
 
 	artisans = {
 		culture = tamil
-		religion = catholic
+		religion = theravada
 		size = 1750
 	}
 
 	farmers = {
 		culture = tamil
-		religion = catholic
+		religion = theravada
 		size = 16125
 	}
 
@@ -8088,7 +8112,13 @@
 	farmers = {
 		culture = tamil
 		religion = hindu
-		size = 300350
+		size = 273350
+	}
+	
+	farmers = {
+		culture = tamil
+		religion = theravada
+		size = 40350
 	}
 	
 	farmers = {
@@ -8098,33 +8128,33 @@
 	}
 
 	aristocrats = {
-		culture = tamil
-		religion = sunni
+		culture = sinhala
+		religion = theravada
 		size = 100
 	}
 
 	clergymen = {
-		culture = tamil
-		religion = sunni
+		culture = sinhala
+		religion = theravada
 		size = 175
 	}
 
 	artisans = {
-		culture = tamil
-		religion = sunni
+		culture = sinhala
+		religion = theravada
 		size = 5000
 	}
 
 	soldiers = {
-		culture = tamil
-		religion = sunni
+		culture = sinhala
+		religion = theravada
 		size = 250
 	}
 
 	farmers = {
-		culture = tamil
-		religion = sunni
-		size = 19475
+		culture = sinhala
+		religion = theravada
+		size = 12475
 	}
 }
 #Madurai (1720000/430000 POPS)
@@ -8168,7 +8198,13 @@
 	farmers = {
 		culture = tamil
 		religion = hindu
-		size = 355250
+		size = 340250
+	}
+	
+	farmers = {
+		culture = tamil
+		religion = theravada
+		size = 15250
 	}
 	
 	farmers = {
@@ -8178,33 +8214,33 @@
 	}
 
 	aristocrats = {
-		culture = tamil
-		religion = sunni
+		culture = sinhala
+		religion = theravada
 		size = 100
 	}
 
 	clergymen = {
-		culture = tamil
-		religion = sunni
+		culture = sinhala
+		religion = theravada
 		size = 300
 	}
 
 	artisans = {
-		culture = tamil
-		religion = sunni
+		culture = sinhala
+		religion = theravada
 		size = 8000
 	}
 
 	soldiers = {
-		culture = tamil
-		religion = sunni
+		culture = sinhala
+		religion = theravada
 		size = 300
 	}
 
 	farmers = {
-		culture = tamil
-		religion = sunni
-		size = 19300
+		culture = sinhala
+		religion = theravada
+		size = 7300
 	}
 }
 #Coimbatore (2116000/529000 POPS)
@@ -8253,31 +8289,31 @@
 
 	aristocrats = {
 		culture = tamil
-		religion = sunni
+		religion = theravada
 		size = 250
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = sunni
+		religion = theravada
 		size = 500
 	}
 
 	artisans = {
 		culture = tamil
-		religion = sunni
+		religion = theravada
 		size = 7500
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = sunni
+		religion = theravada
 		size = 500
 	}
 
 	farmers = {
 		culture = tamil
-		religion = sunni
+		religion = theravada
 		size = 41250
 	}
 
@@ -8286,50 +8322,50 @@
 #Pondicherry (132000/33000 POPS)
 1312 = {
 	bureaucrats = {
-		culture = french
+		culture = pan_italian
 		religion = catholic
 		size = 10
 	}
 
 	clergymen = {
-		culture = french
+		culture = pan_italian
 		religion = catholic
 		size = 15
 	}
 
 	soldiers = {
-		culture = french
+		culture = pan_italian
 		religion = catholic
 		size = 25
 	}
 	
 	aristocrats = {
 		culture = tamil
-		religion = hindu
+		religion = theravada
 		size = 700
 	}
 
 	clergymen = {
 		culture = tamil
-		religion = hindu
+		religion = theravada
 		size = 250
 	}
 
 	artisans = {
 		culture = tamil
-		religion = hindu
+		religion = theravada
 		size = 1500
 	}
 
 	soldiers = {
 		culture = tamil
-		religion = hindu
+		religion = theravada
 		size = 300
 	}
 
 	farmers = {
 		culture = tamil
-		religion = hindu
+		religion = theravada
 		size = 22250
 	}
 

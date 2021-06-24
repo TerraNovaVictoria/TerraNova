@@ -1,5 +1,3 @@
-owner = BTS
-controller = BTS
 add_core = BTS
 terrain = savanna
 trade_goods = grain

@@ -18,6 +18,8 @@ political_decisions = {
 			968 = { add_province_modifier = { name = founding_odessa duration = 3650 } }
 			968 = { life_rating = 10 }
 			968 = { change_province_name = "Chadzybej" }
+			968 = { remove_core = MOL }
+			969 = { remove_core = MOL }
 			set_global_flag = odessa_founded
 		}
 		ai_will_do = {

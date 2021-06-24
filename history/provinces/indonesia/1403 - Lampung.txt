@@ -1,5 +1,5 @@
-owner = DJA
-controller = DJA
+owner = VEN
+controller = VEN
 add_core = DJA
 add_core = MLC
 trade_goods = timber

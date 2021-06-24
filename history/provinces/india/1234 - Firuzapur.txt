@@ -1,7 +1,7 @@
-owner = SHI
-controller = SHI
+owner = DLH
+controller = DLH
 add_core = SHI
-add_core = PNJ
+add_core = GAY
 add_core = DLH
 add_core = HND
 trade_goods = wool

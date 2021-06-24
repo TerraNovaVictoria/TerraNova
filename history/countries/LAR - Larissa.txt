@@ -1,5 +1,6 @@
 capital = 831
 primary_culture = greek
+culture = aromanian
 religion = orthodox
 government = subject
 plurality = 25.0

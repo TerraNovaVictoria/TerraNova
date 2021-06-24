@@ -1,5 +1,5 @@
-owner = MLC
-controller = MLC
+owner = SAK
+controller = SAK
 add_core = MLC
 add_core = SAK
 trade_goods = grain

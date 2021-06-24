@@ -1,6 +1,6 @@
 capital = 729
-primary_culture = pan_italian
-culture = venetic
+primary_culture = venetic
+culture = pan_italian
 religion = catholic
 government = democracy
 plurality = 0.1

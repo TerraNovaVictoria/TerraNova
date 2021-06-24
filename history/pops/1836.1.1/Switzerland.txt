@@ -476,13 +476,13 @@
 	farmers = {
 		culture = pan_italian
 		religion = catholic
-		size = 15400
+		size = 5400
 	}
 
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 15000
+		size = 25000
 	}
 
 }

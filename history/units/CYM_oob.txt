@@ -46,7 +46,37 @@ BUR = {
 	level = 5
 	influence_value = 0
 }
-BHP = {
+EIC = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
+AVA = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
+CAN = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
+UIL = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
+MIA = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
+BNG = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
+MAR = {
 	value = 100
 	level = 5
 	influence_value = 0

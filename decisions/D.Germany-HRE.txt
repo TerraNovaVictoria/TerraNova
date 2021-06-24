@@ -56,10 +56,10 @@ political_decisions = {
 				government = elective_monarchy
 				NOT = { has_global_flag = hre_dissolved }
 				NOT = { has_country_flag = reformed_landers }
+				has_global_flag = the_belgian_revolution
 			}
 		
 			allow = {
-				state_and_government = 1
 			}
 		
 			effect = {
@@ -205,6 +205,7 @@ political_decisions = {
 					LIP = { in_sphere = THIS vassal_of = THIS }
 					WLD = { in_sphere = THIS vassal_of = THIS }
 					OLD = { in_sphere = THIS vassal_of = THIS }
+					OSN = { in_sphere = THIS vassal_of = THIS }
 				}
 			}
 		
@@ -217,6 +218,7 @@ political_decisions = {
 				LIP = { all_core = { add_core = HAN remove_core = LIP } annex_to = HAN }
 				WLD = { all_core = { add_core = HAN remove_core = WLD } annex_to = HAN }
 				OLD = { all_core = { add_core = HAN remove_core = WLD } annex_to = HAN }
+				MSN = { all_core = { add_core = HAN remove_core = OSN } annex_to = HAN }
 				LAU = { all_core = { add_core = HAN remove_core = LAU add_core = SWH } }
 				BRE = { all_core = { add_core = HAN } }
 				HAM = { all_core = { add_core = HAN add_core = SWH } }

@@ -23,6 +23,38 @@ political_decisions = {
 		}
 	}
 	
+	adopt_standard_italian = { 
+		picture = italian_textbooks
+		potential = {
+			THIS = {
+				OR = { 
+					primary_culture = north_italian
+					primary_culture = south_italian
+					primary_culture = sardinian
+					primary_culture = venetic
+				}
+				NOT = { primary_culture = pan_italian }
+			}
+			NOT = { has_country_flag = picked_language_policy_ita }
+		}
+		
+		allow = {
+			OR = {
+				state_n_government = 1
+				year = 1848
+			}
+		}
+		
+		effect = {
+			country_event = 1001020
+			set_country_flag = picked_language_policy_ita
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	invite_sardinia_into_sicily = { 
 		picture = establish_panfrenchism
 		potential = {

@@ -61,7 +61,7 @@
 	farmers = {
 		culture = tswana
 		religion = animist
-		size = 900
+		size = 500
 	}
 
 	aristocrats = {
@@ -97,7 +97,13 @@
 	farmers = {
 		culture = barotze
 		religion = animist
-		size = 1500
+		size = 400
+	}
+	
+	farmers = {
+		culture = khoisan
+		religion = animist
+		size = 3400
 	}
 }
 #Tshabong (12000/3000 POPS) 

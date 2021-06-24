@@ -3582,13 +3582,13 @@
 	farmers = {
 		culture = pan_italian
 		religion = catholic
-		size = 10000
+		size = 1000
 	}
 	
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 7800
+		size = 17800
 	}
 	
     farmers = {
@@ -3639,32 +3639,21 @@
 	farmers = {
 		culture = pan_italian
 		religion = catholic
-		size = 16175
+		size = 2175
 	}
 	
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 8000
-	}
-	
-	clergymen = {
-		culture = french
-		religion = catholic
-		size = 275
+		size = 22000
 	}
     
 	farmers = {
 		culture = arpitan
 		religion = catholic
-		size = 18175
+		size = 28175
 	}
 
-	farmers = {
-		culture = french
-		religion = catholic
-		size = 10175
-	}
 }
 #Provence Region (1268400)
 #Marseilles (384800/96200 POPS)
@@ -3916,13 +3905,13 @@
 	farmers = {
 		culture = pan_italian
 		religion = catholic
-		size = 19025
+		size = 2025
 	}
 	
 	farmers = {
 		culture = north_italian
 		religion = catholic
-		size = 6000
+		size = 23000
 	}
 	
 	farmers = {

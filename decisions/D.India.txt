@@ -2,9 +2,63 @@
 
 political_decisions = {
 
+
+	#Unite the Sikhs, integrate vassals basically
+	pnj_unites_the_sikh = {
+		picture = pnj_map
+		potential = {
+				tag = PNJ
+				ATT = { exists = yes }
+			}
+		
+			allow = {
+				PNJ = {
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { vassal_of = THIS }
+						}
+					}
+				}
+				SHI = {
+					OR = {
+						all_core = {
+							owned_by = THIS
+						}
+						vassal_of = THIS
+					}
+				}
+				KAS = {
+					OR = {
+						all_core = {
+							owned_by = THIS
+						}
+						vassal_of = THIS
+					}
+				}
+			}
+		
+			effect = {
+				government = absolute_monarchy
+				PNJ = { inherit = ATT }
+				ATT = { all_core = { add_core = PNJ remove_core = ATT } }
+				PNJ = { inherit = SHI }
+				SHI = { all_core = { add_core = PNJ remove_core = SHI } }
+				PNJ = { inherit = KAS }
+				KAS = { all_core = { add_core = PNJ } }
+				KAS = { government = absolute_monarchy }
+				PNJ = { inherit = LHR }
+				LHR = { all_core = { add_core = PNJ remove_core = LHR } }
+				capital = 1227
+				prestige = 5
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+
 	#Punjab invades peshawar
 	pnj_invades_peshawar = {
-		picture = guangxi
+		picture = sikh_army
 		potential = {
 				tag = PNJ
 				NOT = { has_country_flag = intervened_in_afg }
@@ -17,7 +71,7 @@ political_decisions = {
 			}
 		
 			effect = {
-				1218 = { secede_province = THIS remove_core = TKM }  
+				1218 = { add_core = PNJ secede_province = THIS remove_core = TKM }
 				AFG = { country_event = 251703 }
 				set_country_flag = intervened_in_afg
 			}
@@ -25,24 +79,21 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 
-	#Punjab Occupies Ladakh
-	pnj_occupies_ladakh = {
-		picture = guangxi
+	#Punjab claims uyghur lands
+	pnj_claims_greater_ladakh = {
+		picture = sikh_army
 		potential = {
 				tag = PNJ
-				NOT = { has_country_flag = took_ladakh }
+				920 = { NOT = { is_core = HND } }
 				has_global_flag = trouble_in_china
-				1226 = { owned_by = TIB }
 			}
 		
 			allow = {
 				war = no
 			}
 		
-			effect = {
-				1226 = { secede_province = THIS add_core = THIS add_core = HND add_core = LAD remove_core = TIB remove_core = CHI }  
-				920 = { secede_province = THIS add_core = THIS add_core = HND add_core = LAD add_core = KML remove_core = TIB remove_core = CHI }
-				set_country_flag = took_ladakh
+			effect = { 
+				920 = { add_core = HND add_core = PNJ }
 			}
 
 		ai_will_do = { factor = 1 }
@@ -53,6 +104,9 @@ political_decisions = {
 		picture = sikh_symbol
 		potential = {
 				tag = PNJ
+				NOT = { government = primitive_absolute_monarchy }
+				NOT = { exists = ATT }
+				NOT = { exists = SHI }
 				NOT = { has_country_flag = save_the_burning_world }
 			}
 		
@@ -64,15 +118,30 @@ political_decisions = {
 		
 			effect = {
 				prestige = 5
-				SIN = { all_core = { add_core = THIS } }  
-				JAS = { all_core = { add_core = THIS } }  
-				MUG = { all_core = { add_core = THIS } }  
-				BNG = { all_core = { add_core = THIS } }  
-				NEP = { all_core = { add_core = THIS } }  
-				SIK = { all_core = { add_core = THIS } }  
-				1267 = { add_core = THIS }
+				DLH = { all_core = { add_core = THIS } }  
+				KLC = { all_core = { add_core = THIS } }   
 				add_accepted_culture = hindi
 				set_country_flag = save_the_burning_world
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Remove Bahawalpur cores
+	abolish_bahawalpur = {
+		picture = sikh_army
+		potential = {
+				1231 = { is_core = BHP owned_by = THIS }
+				NOT = { exists = BHP }
+			}
+		
+			allow = {
+				war = no
+			}
+		
+			effect = {
+				prestige = 2
+				1231 = { remove_core = BHP }
 			}
 
 		ai_will_do = { factor = 1 }

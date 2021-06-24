@@ -17,6 +17,8 @@ VIC 	="countries/Nationalist France.txt"
 BOR		="countries/The Kingdom of France.txt"
 
 ##Terra Nova Nations
+ATT 	= "countries/Attock.txt"
+ERI 	= "countries/Eritrea.txt"
 DNG 	= "countries/Dangola.txt"
 BTS 	= "countries/Barotseland.txt"
 TSH 	= "countries/Chokwe.txt"

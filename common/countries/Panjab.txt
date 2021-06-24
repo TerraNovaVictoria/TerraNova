@@ -1,4 +1,7 @@
-color = { 188 71 100 }
+color = { 14 55 89 }
+absolute_monarchy = { 223 64 2 }
+prussian_constitutionalism = { 223 64 2 }
+primitive_absolute_monarchy = { 180 69 150 }
 graphical_culture = IndianGC
 
 party = {

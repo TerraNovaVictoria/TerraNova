@@ -1,4 +1,15 @@
 ;;;;;;;;;;;;;;x,,,
+ATT;Attock;;;;;;;;;;;;;;;;;;x;;;;
+ATT_primitive_absolute_monarchy;The Attock Misl;;;;;;;;;;;;;;;;;;x;;;;
+ATT_ADJ;Attockan;;;;;;;;;;;;;;;;;;x;;;;
+KAS_primitive_absolute_monarchy;Gilgit;;;;;;;;;;;;;;;;;;x;;;;
+KAS_primitive_absolute_monarchy_ADJ;Gilgitid;;;;;;;;;;;;;;;;;;x;;;;
+SAF_ancient_regime;The Cabo Kingdom;;;;;;;;;;;;;;;;;;x;;;;
+SAF_ancient_regime_ADJ;Caboan;;;;;;;;;;;;;;;;;;x;;;;
+ERI;Eritrea;;;;;;;;;;;;;;;;;;x;;;;
+ERI_ADJ;Eritrean;;;;;;;;;;;;;;;;;;x;;;;
+ERI_primitive_absolute_monarchy;Medri Bahri;;;;;;;;;;;;;;;;;;x;;;;
+ERI_primitive_absolute_monarchy_ADJ;Tigrinya;;;;;;;;;;;;;;;;;;x;;;;
 TSH;Chokwe;;;;;;;;;;;;;;;;;;x;;;;
 TSH_primitive_absolute_monarchy;The Chokwe Empire;;;;;;;;;;;;;;;;;;x;;;;
 TSH_ADJ;Chokwe;;;;;;;;;;;;;;;;;;x;;;;
@@ -217,18 +228,20 @@ GLK_ADJ;Telugu;;;;;;;;;;;;;x
 GAY_ADJ;Bihari;;;;;;;;;;;;;x
 SHI_absolute_monarchy;Amritsar;;;;;;;;;;;;;x
 SHI_absolute_monarchy_ADJ;Amritsari;;;;;;;;;;;;;x
+SHI_primitive_absolute_monarchy;The Amritsar Misl;;;;;;;;;;;;;x
+SHI_primitive_absolute_monarchy_ADJ;Amritsari;;;;;;;;;;;;;x
 KLC;Kalachar;;;;;;;;;;;;;x
 KLC_ADJ;Kalachari;;;;;;;;;;;;;x
 BHO_absolute_monarchy;Khandesh;;;;;;;;;;;;;x
 BHO_absolute_monarchy_ADJ;Khandeshi;;;;;;;;;;;;;x
 REW_absolute_monarchy;Bandoga;;;;;;;;;;;;;x
 REW_absolute_monarchy_ADJ;Bandhogarhi;;;;;;;;;;;;;x
-SRI_absolute_monarchy;The Tanjorite Empire;;;;;;;;;;;;;x
-SRI_absolute_monarchy_ADJ;Tanjori;;;;;;;;;;;;;x
-SRI_prussian_constitutionalism;The Tanjorite Empire;;;;;;;;;;;;;x
-SRI_prussian_constitutionalism_ADJ;Tanjori;;;;;;;;;;;;;x
-SRI_hms_government;The Tanjorite Empire;;;;;;;;;;;;;x
-SRI_hms_government_ADJ;Tanjori;;;;;;;;;;;;;x
+SRI_absolute_monarchy;The Thanjavur Empire;;;;;;;;;;;;;x
+SRI_absolute_monarchy_ADJ;Thanjavur;;;;;;;;;;;;;x
+SRI_prussian_constitutionalism;The Thanjavur Empire;;;;;;;;;;;;;x
+SRI_prussian_constitutionalism_ADJ;Thanjavur;;;;;;;;;;;;;x
+SRI_hms_government;The Thanjavur Empire;;;;;;;;;;;;;x
+SRI_hms_government_ADJ;Thanjavur;;;;;;;;;;;;;x
 SRI;Sri Lanka;;;;;;;;;;;;;x
 SRI_ADJ;Sri Lankan;;;;;;;;;;;;;x
 BIJ;Bijapur;;;;;;;;;;;;x
@@ -515,7 +528,9 @@ KRN_bourgeois_dictatorship;Tamil Nadu;;;;;;;;;;;;x
 KRN_bourgeois_dictatorship_ADJ;Tamil;;;;;;;;;;;;x
 KRN_proletarian_dictatorship;Republic of the Carnatic;;;;;;;;;;;;x
 KRN_proletarian_dictatorship_ADJ;Carnatic;;;;;;;;;;;;x
-PNJ_primitive_absolute_monarchy;The Sikh Empire;;;;;;;;;;;;;x,
+PNJ_primitive_absolute_monarchy;The Sukerchakia Misl;;;;;;;;;;;;;x,
+PNJ_primitive_absolute_monarchy_ADJ;Sukerchaki;;;;;;;;;;;;;x,
+PNJ_absolute_monarchy;The Sikh Empire;;;;;;;;;;;;;x,
 BUR_primitive_absolute_monarchy;The Irrawaddy Empire;;;;;;;;;;;;;x,
 BUR_absolute_monarchy;The Irrawaddy Kingdom;;;;;;;;;;;;;x,
 BUR_prussian_constitutionalism;The Irrawaddy Kingdom;;;;;;;;;;;;;x

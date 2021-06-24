@@ -1,4 +1,19 @@
 #Sphere of Influence
+MYS = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
+BIJ = {
+	value = 100
+	level = 5
+	influence_value = 0
+}
+MAH = {
+	value = 75
+	level = 3
+	influence_value = 0
+}
 LUC = {
 	value = 75
 	level = 3

@@ -3,75 +3,63 @@
 #Windhoek (72000/18000 POPS)
 2078 = {
 	aristocrats = {
-		culture = herero
+		culture = khoisan
 		religion = animist
 		size = 100
 	}
 
 	clergymen = {
-		culture = herero
+		culture = khoisan
 		religion = animist
 		size = 50
 	}
 
 	artisans = {
-		culture = herero
+		culture = khoisan
 		religion = animist
 		size = 300
 	}
 
 	soldiers = {
-		culture = herero
+		culture = khoisan
 		religion = animist
 		size = 75
 	}
 
 	farmers = {
-		culture = herero
+		culture = khoisan
 		religion = animist
 		size = 5175
 	}
-	
-	farmers = {
-		culture = herero
-		religion = protestant
-		size = 300
-	}
 
 	aristocrats = {
-		culture = khoisan
+		culture = herero
 		religion = animist
 		size = 225
 	}
 
 	clergymen = {
-		culture = khoisan
+		culture = herero
 		religion = animist
 		size = 125
 	}
 
 	artisans = {
-		culture = khoisan
+		culture = herero
 		religion = animist
 		size = 600
 	}
 
 	soldiers = {
-		culture = khoisan
+		culture = herero
 		religion = animist
 		size = 125
 	}
 
 	farmers = {
-		culture = khoisan
+		culture = herero
 		religion = animist
-		size = 10725
-	}
-	
-	farmers = {
-		culture = khoisan
-		religion = protestant
-		size = 200
+		size = 11725
 	}
 }
 #Swakopmund (52000/13000 POPS)
@@ -267,7 +255,7 @@
 	farmers = {
 		culture = barotze
 		religion = animist
-		size = 2700
+		size = 500
 	}
 
 	aristocrats = {
@@ -298,6 +286,12 @@
 		culture = herero
 		religion = animist
 		size = 900
+	}
+	
+	farmers = {
+		culture = khoisan
+		religion = animist
+		size = 2500
 	}
 }
 #Namaqualand Region (64000) #see South Africa.txt for balance of region

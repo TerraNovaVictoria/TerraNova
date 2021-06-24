@@ -47,6 +47,52 @@ political_decisions = {
 		}
 	}
 	
+	republican_victory_backup = {
+		picture = "civil_war_in_spain"
+		potential = {
+			tag = SPC
+			487 = {
+				owned_by = SPC
+				owner = { 
+					war = no
+				}	
+			}
+			NOT = { exists = SPA }
+			NOT = { has_global_flag = end_of_spanish_civil_war }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					SPA = {
+						exists = no
+					}
+					487 = { owned_by = THIS }
+				}
+				AND = {
+					489 = { controlled_by = THIS }
+					503 = { controlled_by = THIS }
+					512 = { controlled_by = THIS }
+					516 = { controlled_by = THIS }
+				}
+			}
+		}
+		
+		effect = {
+			set_global_flag = end_of_spanish_civil_war
+			prestige = 35
+			SPA = {
+				all_core = {
+					remove_core = SPA
+				}
+			}
+			SPC = { inherit = SPA }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	royalist_victory = {
 		picture = "civil_war_in_spain"
 		potential = {
@@ -89,6 +135,86 @@ political_decisions = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+	}
+	
+	royalist_victory_backup = {
+		picture = "civil_war_in_spain"
+		potential = {
+			tag = SPA
+			487 = {
+				owned_by = SPA
+				owner = { 
+					war = no
+				}	
+			}
+			NOT = { exists = SPC }
+			NOT = { has_global_flag = end_of_spanish_civil_war }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					SPC = {
+						exists = no
+					}
+					489 = { owned_by = THIS }
+				}
+				AND = {
+					489 = { controlled_by = THIS }
+					503 = { controlled_by = THIS }
+					512 = { controlled_by = THIS }
+					516 = { controlled_by = THIS }
+				}
+			}
+		}
+		
+		effect = {
+			set_global_flag = end_of_spanish_civil_war
+			prestige = 35
+			SPC = {
+				all_core = {
+					remove_core = SPC
+				}
+			}
+			SPA = { inherit = SPC }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	royalists_escape_to_the_cape = {
+		picture = "civil_war_in_spain"
+		potential = {
+			tag = SPA
+			AND = {
+				exists = SPC
+				exists = BRZ
+			}
+			NOT = { exists = SAF }
+			NOT = { has_global_flag = end_of_spanish_civil_war }
+		}
+		
+		allow = {
+			2087 = { owned_by = THIS }
+			war_exhaustion = 25
+		}
+		
+		effect = {
+			any_owned = {
+				limit = {
+					is_core = SAF
+				}
+				secede_province = SAF
+			}
+			SAF = { 
+				government = ancient_regime 
+			}
+			change_tag_no_core_switch = SAF
+ 		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 	

@@ -1,6 +1,56 @@
 #####THE IONIAN REVOLUTION#####
 
 country_event = {
+	id = 005566
+	title = "EVTNAME005566" #Collapse of the Revolutionary Front
+	desc = "EVTDESC005566"
+	picture = "greek_revolution"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT005566A"
+		prestige = -5
+		any_pop = { militancy = 2 }
+		remove_accepted_culture = anatoli
+		847 = { secede_province = ANA }
+		872 = { secede_province = ANA }
+		863 = { secede_province = ANA }
+		862 = { secede_province = ANA }
+		865 = { secede_province = ANA }
+		861 = { secede_province = ANA }
+		831 = { secede_province = LAR }
+		833 = { secede_province = LAR }
+		832 = { secede_province = LAR }
+		836 = { secede_province = LAR }
+		837 = { secede_province = LAR }
+		MRE = { create_vassal = LAR }
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 005577
+	title = "EVTNAME005577" #The Moreans show solidarity
+	desc = "EVTDESC005577"
+	picture = "greek_revolution"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT005577A"
+		prestige = 5
+		remove_accepted_culture = anatoli
+		LAR = { government = presidential_dictatorship }
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
 	id = 015566
 	title = "EVTNAME015566" #The Revolution hits Morea
 	desc = "EVTDESC015566"
@@ -22,8 +72,9 @@ country_event = {
 		name = "EVTOPT015566A"
 		prestige = 5
 		any_pop = { militancy = 4 }
+		ANT = { country_event = 005566 }
 		set_country_flag = crushed_ionian_revolution
-		ai_chance = { factor = 40 }
+		ai_chance = { factor = 30 }
 	}
 	
 	option = {
@@ -35,8 +86,9 @@ country_event = {
 		political_reform = confederalism
 		political_reform = gerrymandering
 		any_pop = { militancy = 2 }
+		ANT = { country_event = 005566 }
 		set_country_flag = accepted_ionian_revolution
-		ai_chance = { factor = 30 }
+		ai_chance = { factor = 60 }
 	}
 	
 	option = {
@@ -47,8 +99,10 @@ country_event = {
 		political_reform = free_press
 		political_reform = federalism
 		political_reform = gerrymandering
+		ANT = { country_event = 005577 }
+		ATH = { government = presidential_dictatorship }
 		set_country_flag = embraced_ionian_revolution
-		ai_chance = { factor = 30 }
+		ai_chance = { factor = 10 }
 	}
 }
 

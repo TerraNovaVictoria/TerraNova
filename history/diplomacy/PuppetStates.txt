@@ -1,3 +1,23 @@
+#Punjab
+vassal = {
+	first = PNJ
+	second = SHI
+	start_date = 1815.1.1
+	end_date = 1838.1.1
+}
+substate = {
+	first = PNJ
+	second = ATT
+	start_date = 1815.1.1
+	end_date = 1838.1.1
+}
+vassal = {
+	first = PNJ
+	second = KAS
+	start_date = 1815.1.1
+	end_date = 1838.1.1
+}
+
 #Georgia
 vassal = {
 	first = GEO
@@ -90,6 +110,13 @@ vassal = {
 vassal = {
 	first = MLC
 	second = DJA
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+vassal = {
+	first = MLC
+	second = SAK
 	start_date = 1815.1.1
 	end_date = 1936.1.1
 }

@@ -1,5 +1,6 @@
 capital = 834
 primary_culture = greek
+culture = albanian
 religion = hellenic
 government = ancient_regime
 plurality = 25.0

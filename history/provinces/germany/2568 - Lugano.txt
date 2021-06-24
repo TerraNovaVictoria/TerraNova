@@ -2,5 +2,6 @@ owner = TIC
 controller = TIC
 add_core = TIC
 add_core = SWI
+add_core = ITA
 trade_goods = wool
 life_rating = 32

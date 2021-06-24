@@ -1,5 +1,6 @@
 capital = 2568
-primary_culture = pan_italian
+primary_culture = north_italian
+culture = pan_italian
 religion = catholic
 government = communal_republic
 plurality = 30.0

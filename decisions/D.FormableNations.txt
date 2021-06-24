@@ -622,6 +622,226 @@ political_decisions = {
 		}
 	}
 	
+	unite_the_rajputs = { 
+		picture = form_the_ikhwan
+		potential = {
+			OR = {
+				tag = MEW
+				tag = JOD
+				tag = BIK
+				tag = JAS
+			}
+			NOT = { exists = RAJ }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					tag = MEW
+					OR = {
+						JOD = { vassal_of = THIS }
+						AND = {
+							JOD = { all_core = { owned_by = THIS } }
+							JOD = { exists = no }
+						}
+					}
+					OR = {
+						BIK = { vassal_of = THIS }
+						AND = {
+							BIK = { all_core = { owned_by = THIS } }
+							BIK = { exists = no }
+						}
+					}
+					OR = {
+						JAS = { vassal_of = THIS }
+						AND = {
+							JAS = { all_core = { owned_by = THIS } }
+							JAS = { exists = no }
+						}
+					}
+				}
+				AND = {
+					tag = JOD
+					OR = {
+						MEW = { vassal_of = THIS }
+						AND = {
+							MEW = { all_core = { owned_by = THIS } }
+							MEW = { exists = no }
+						}
+					}
+					OR = {
+						BIK = { vassal_of = THIS }
+						AND = {
+							BIK = { all_core = { owned_by = THIS } }
+							BIK = { exists = no }
+						}
+					}
+					OR = {
+						JAS = { vassal_of = THIS }
+						AND = {
+							JAS = { all_core = { owned_by = THIS } }
+							JAS = { exists = no }
+						}
+					}
+				}
+				AND = {
+					tag = BIK
+					OR = {
+						MEW = { vassal_of = THIS }
+						AND = {
+							MEW = { all_core = { owned_by = THIS } }
+							MEW = { exists = no }
+						}
+					}
+					OR = {
+						JOD = { vassal_of = THIS }
+						AND = {
+							JOD = { all_core = { owned_by = THIS } }
+							JOD = { exists = no }
+						}
+					}
+					OR = {
+						JAS = { vassal_of = THIS }
+						AND = {
+							JAS = { all_core = { owned_by = THIS } }
+							JAS = { exists = no }
+						}
+					}
+				}
+				AND = {
+					tag = JAS
+					OR = {
+						MEW = { vassal_of = THIS }
+						AND = {
+							MEW = { all_core = { owned_by = THIS } }
+							MEW = { exists = no }
+						}
+					}
+					OR = {
+						JOD = { vassal_of = THIS }
+						AND = {
+							JOD = { all_core = { owned_by = THIS } }
+							JOD = { exists = no }
+						}
+					}
+					OR = {
+						BIK = { vassal_of = THIS }
+						AND = {
+							BIK = { all_core = { owned_by = THIS } }
+							BIK = { exists = no }
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			THIS = {
+				all_core = { add_core = RAJ remove_core = THIS }
+			}
+			change_tag = RAJ
+			MEW = { 
+				all_core = {
+					add_core = RAJ
+					remove_core = MEW
+				}
+				annex_to = RAJ
+			}
+			JOD = { 
+				all_core = {
+					add_core = RAJ
+					remove_core = JOD
+				}
+				annex_to = RAJ
+			}
+			BIK = { 
+				all_core = {
+					add_core = RAJ
+					remove_core = BIK
+				}
+				annex_to = RAJ
+			}
+			JAS = { 
+				all_core = {
+					add_core = RAJ
+					remove_core = JAS
+				}
+				annex_to = RAJ
+			}
+			capital = 1268
+			prestige = 15
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	unite_the_lunda = { 
+		picture = form_the_ikhwan
+		potential = {
+			OR = {
+				tag = TSH
+				tag = KZB
+			}
+			NOT = { exists = LUN }
+		}
+		
+		allow = {
+			OR = {
+				AND = {
+					tag = TSH
+					OR = {
+						KZB = { vassal_of = THIS }
+						AND = {
+							KZB = { all_core = { owned_by = THIS } }
+							KZB = { exists = no }
+						}
+					}
+				}
+				AND = {
+					tag = KZB
+					OR = {
+						TSH = { vassal_of = THIS }
+						AND = {
+							TSH = { all_core = { owned_by = THIS } }
+							TSH = { exists = no }
+						}
+					}
+				}
+			}
+		}
+		
+		effect = {
+			THIS = {
+				all_core = { add_core = LUN remove_core = THIS }
+			}
+			change_tag = LUN
+			TSH = { 
+				all_core = {
+					add_core = LUN
+					remove_core = TSH
+				}
+				annex_to = LUN
+			}
+			KZB = { 
+				all_core = {
+					add_core = LUN
+					remove_core = KZB
+				}
+				annex_to = LUN
+			}
+			BTS = { 
+				all_core = { add_core = LUN }
+			}
+			prestige = 25
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	form_silesia = { 
 		picture = prussian_settlement_commission
 		potential = {

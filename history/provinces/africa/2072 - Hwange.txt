@@ -1,4 +1,3 @@
-add_core = ZBW
 add_core = SHO
 add_core = BTS
 terrain = savanna

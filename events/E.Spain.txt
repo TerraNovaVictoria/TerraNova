@@ -287,6 +287,29 @@ country_event = {
 	
 }
 
+country_event = {
+	id = 777721
+	title = "EVTNAME777721" #The Fall of the Republic (Civil War Ending Backup)
+	desc = "EVTDESC777721"
+	picture = "spanish_civil_war_spa"
+	
+	trigger = {
+		tag = SPC
+		war = no
+		SPA = { exists = yes }
+		NOT = { has_global_flag = end_of_spanish_civil_war }
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT777721A" 
+		SPA = { inherit = SPC }
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
 ###NAPLES RELATED EVENTS###
 
 country_event = {

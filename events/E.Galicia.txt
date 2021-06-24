@@ -13,6 +13,8 @@ country_event = {
 		GLC = { all_core = { remove_core = SPC } }
 		3251 = { secede_province = SPC remove_core = GLC add_core = SPC }
 		494 = { secede_province = SPC remove_core = GLC add_core = SPC }
+		2135 = { secede_province = THIS remove_core = SPC add_core = GLC }
+		2134 = { secede_province = THIS remove_core = SPC add_core = GLC }
 		relations = { who = SPC value = 400 }
 		prestige = 5
 		SPC = { set_country_flag = galician_affairs_completed }
@@ -43,6 +45,8 @@ country_event = {
 		GLC = { all_core = { remove_core = SPA } }
 		3251 = { secede_province = SPC remove_core = GLC add_core = SPC }
 		494 = { secede_province = SPC remove_core = GLC add_core = SPC }
+		2135 = { secede_province = THIS remove_core = SPA add_core = GLC }
+		2134 = { secede_province = THIS remove_core = SPA add_core = GLC }
 		relations = { who = SPA value = 400 }
 		prestige = 5
 		SPA = { set_country_flag = galician_affairs_completed }

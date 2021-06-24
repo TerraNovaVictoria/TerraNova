@@ -23,6 +23,7 @@ country_event = {
 		political_reform = unitary
 		political_reform = gerrymandering
 		set_country_flag = the_second_ambrosian_republic
+		primary_culture = pan_italian
 		prestige = 5
 		ai_chance = { factor = 100 }
 	}
@@ -105,6 +106,9 @@ country_event = {
 		
 }
 
+
+#########################SAVOY FLAVOUR##################################
+
 country_event = {
 	id = 10010103
 	title = "EVTNAME10010103" #Aosta joins Savoy
@@ -135,6 +139,8 @@ country_event = {
 		
 }
 
+##########################SARDINIAN EVENTS############################
+
 country_event = {
 	id = 10010104
 	title = "EVTNAME10010104" #Sicily Invites Sardinia
@@ -156,6 +162,42 @@ country_event = {
 		relation = { who = SIC value = -25 }
 		SIC = { country_event = 10010105 }
 		government = democracy
+		ai_chance = { factor = 0 }
+	}
+		
+}
+
+
+##########################Italian EVENTS############################
+
+country_event = {
+	id = 1001020
+	title = "EVTNAME1001020" #Adopt Italian
+	desc = "EVTDESC1001020"
+	picture = "italian_text"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPT1001020A" #Adopt Italian
+		primary_culture = pan_italian
+		any_pop = {
+			limit = { has_pop_culture = pan_italian }
+			militancy = -1
+			consciousness = -1
+		}
+		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT1001020B" #We are destined to be independent
+		remove_accepted_culture = pan_italian
+		any_pop = {
+			limit = { has_pop_culture = pan_italian }
+			militancy = 4
+			consciousness = 4
+		}
 		ai_chance = { factor = 0 }
 	}
 		

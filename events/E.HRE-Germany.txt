@@ -57,7 +57,7 @@ country_event = {
 		political_reform = censored_press
 		political_reform = unitary
 		political_reform = gerrymandering
-		set_country_flag = the_belgian_revolution
+		set_global_flag = the_belgian_revolution
 		FLA = { all_core = { remove_core = BEL } }
 		WLL = { all_core = { remove_core = BEL } }
 		401 = { remove_core = BEL }
@@ -352,6 +352,85 @@ country_event = {
 		685 = { add_core = USL }
 		689 = { add_core = USL }
 		2584 = { add_core = USL }
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+
+######BAVARIA-HRE EVENTS 300-399########
+
+country_event = {
+	id = 6666300
+	title = "EVTNAME6666300" #The Reich in Chaos
+	desc = "EVTDESC6666300"
+	picture = "the_fall_of_the_empire"
+	
+	trigger = {
+		tag = BAV
+		OR = { 
+			NOT = { government = elective_monarchy }
+			AND = {
+				government = elective_monarchy
+				year = 1844
+			}
+		}
+		AND = {
+			has_global_flag = the_belgian_revolution
+			BOH = { NOT = { vassal_of = THIS } }
+			HNL = { NOT = { vassal_of = THIS } }
+		}
+		OR = {
+			NOT = { has_country_flag = the_swabian_duchy }
+			NOT = { has_country_flag = the_hessian_duchy }
+			NOT = { has_country_flag = the_upp_saxon_duchy }
+			NOT = { has_country_flag = the_low_saxon_duchy }
+			NOT = { has_country_flag = the_rhenish_duchy }
+			NOT = { has_country_flag = the_franconian_duchy }
+		}
+		NOT = { has_global_flag = hre_dissolved }
+	}
+	
+	mean_time_to_happen = { days = 28 }
+		
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT6666300A" #An Empire No More
+		any_country = {
+			limit = { vassal_of = THIS }
+			country_event = 6666301
+		}
+		STY = { government = absolute_monarchy }
+		government = absolute_monarchy
+		BAV = { inherit = FRK }
+		BAV = { inherit = SLZ }
+		BAV = { inherit = PLT }
+		prestige = -50
+		set_global_flag = hre_dissolved 
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 6666301
+	title = "EVTNAME6666301" #The Empire is no more
+	desc = "EVTDESC6666301"
+	picture = "the_fall_of_the_empire"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = { 
+		BAV = { release_vassal = THIS }
+	}
+	
+	option = {
+		name = "EVTOPT6666301A" #An Empire No More
+		any_pop = {
+			consciousness = 1
+		}
 		ai_chance = { factor = 100 }
 	}
 	

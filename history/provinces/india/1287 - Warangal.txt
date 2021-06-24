@@ -1,7 +1,6 @@
 owner = SRI
 controller = SRI
 add_core = SRI
-add_core = BIJ
 add_core = GLK
 add_core = HND
 trade_goods = cotton

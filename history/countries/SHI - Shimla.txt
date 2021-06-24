@@ -1,8 +1,8 @@
 capital = 1233
-primary_culture = nepali
-culture = panjabi
-religion = hindu
-government = absolute_monarchy
+primary_culture = panjabi
+culture = nepali
+religion = sikh
+government = primitive_absolute_monarchy
 plurality = 0.1
 nationalvalue = nv_tradition
 literacy = 0.02
@@ -46,9 +46,13 @@ border_policy = open_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
-set_country_flag = hindu_country
 foreign_weapons = yes_foreign_weapons
 
 # Inventions
 #bottling_process = yes
 modern_winemaking = yes
+
+govt_flag = {
+	government = absolute_monarchy
+	flag = fascist_dictatorship
+}

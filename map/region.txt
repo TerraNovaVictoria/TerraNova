@@ -680,7 +680,7 @@ RUS_2685 = { 1058 2685 1059 2614 2658 } #Ural
 
 KAL_1221 = { 1221 1222 1220 1146 1144 2640 } #Baluchistan
 
-PAN_1224 = { 920 1224 1225 1226 } #Kashmir
+PAN_1224 = { 1224 1225 1226 } #Kashmir
 
 PAN_1227 = { 1227 1228 1229 1231 1230 1232 1233 1234 1235 } #Punjab
 
@@ -861,7 +861,7 @@ CHI_1578 = { 1578 1580 1582 1584 1585 1586 } #West Sichuan
 
 CHI_1579 = { 1579 1577 1581 1583 } #East Sichuan
 
-CHI_1594 = { 1594 1597 1598 2607 } #Kashgar
+CHI_1594 = { 1594 1597 1598 2607 920 } #Kashgar
 
 CHI_1600 = { 1600 1595 1596 1599 } #Urumqui
 
@@ -1111,9 +1111,9 @@ ENG_2071 = { 2071 2072 2069 2073 } #Matabeleland - Rozwi until matabele moves th
 
 ENG_2074 = { 2074 2075 2076 2077 2574 } #Bechuanaland
 
-ENG_2078 = { 2078 2079 2080 2081 2082 } #Hereroland
+ENG_2078 = { 2082 2079 2080 2081 } #Hereroland
 
-ENG_2083 = { 2084 2085 2086 } #Namaqualand
+ENG_2083 = { 2084 2085 2078 2086 } #Namaqualand
 
 ENG_2087 = { 2087 2090 2089 2091 2092 } #Cape Colony
 

@@ -1,5 +1,6 @@
-owner = PNJ
-controller = PNJ
+owner = ATT
+controller = ATT
+add_core = ATT
 add_core = PNJ
 add_core = LHR
 add_core = DLH

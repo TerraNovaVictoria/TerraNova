@@ -7,7 +7,7 @@ political_decisions = {
 		picture = united_netherlands
 		potential = {
 				tag = BEL
-				has_country_flag = the_belgian_revolution
+				has_global_flag = the_belgian_revolution
 				NOT = { has_country_flag = formed_the_usn }
 			}
 		
