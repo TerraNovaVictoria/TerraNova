@@ -359,7 +359,13 @@
 	farmers = {
 		culture = avari
 		religion = protestant
-		size = 17000 
+		size = 8000 
+	}
+	
+	farmers = {
+		culture = cuman
+		religion = catholic
+		size = 9000 
 	}
 	
 	serfs = {
@@ -487,7 +493,13 @@
 	farmers = {
 		culture = avari
 		religion = protestant
-		size = 15810
+		size = 11500
+	}
+	
+	farmers = {
+		culture = cuman
+		religion = catholic
+		size = 12110
 	}
 	
 	farmers = {
@@ -499,7 +511,7 @@
 	farmers = {
 		culture = shtokavian
 		religion = orthodox
-		size = 12810
+		size = 4810
 	}
 }
 

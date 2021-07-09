@@ -1,7 +1,7 @@
 owner = KLC
 controller = KLC
-add_core = GAY
-add_core = DLH
+add_core = KLC
+add_core = RAI
 add_core = HND
 trade_goods = coal
 life_rating = 28

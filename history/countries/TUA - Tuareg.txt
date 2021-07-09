@@ -2,7 +2,7 @@ capital = 1719
 primary_culture = tuareg
 culture = berber
 religion = sunni
-government = democracy
+government = primitive_absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.01
@@ -11,7 +11,7 @@ non_state_culture_literacy = 0.01
 # Political reforms
 slavery = yes_slavery
 upper_house_composition = appointed
-vote_franschise = wealth_voting
+vote_franschise = no_voting
 public_meetings = no_meeting
 press_rights = state_press
 trade_unions = no_trade_unions

@@ -1,5 +1,6 @@
-owner = AOS
-controller = AOS
+owner = SVY
+controller = SVY
+add_core = SVY
 add_core = AOS
 add_core = ITA
 trade_goods = silk

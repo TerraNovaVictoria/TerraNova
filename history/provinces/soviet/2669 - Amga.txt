@@ -2,5 +2,6 @@ owner = RMD
 controller = RMD
 add_core = RMD
 add_core = SWI
+add_core = ITA
 trade_goods = iron
 life_rating = 35

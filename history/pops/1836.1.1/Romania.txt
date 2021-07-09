@@ -5,44 +5,38 @@
 1101 = {
 	aristocrats = {
 		culture = ossetian
-		religion = orthodox
+		religion = protestant
 		size = 125
 	}
 
 	clergymen = {
 		culture = ossetian
-		religion = orthodox
+		religion = protestant
 		size = 175
 	}
 
 	artisans = {
 		culture = ossetian
-		religion = orthodox
+		religion = protestant
 		size = 1450
 	}
 
 	soldiers = {
 		culture = ossetian
-		religion = orthodox
+		religion = protestant
 		size = 200
 	}
 
 	farmers = {
 		culture = ossetian
-		religion = orthodox
-		size = 11000
+		religion = protestant
+		size = 13000
 	}
 	
 	farmers = {
 		culture = avari
 		religion = catholic
-		size = 4000
-	}
-	
-	farmers = {
-		culture = ruthenian
-		religion = orthodox
-		size = 5250
+		size = 5000
 	}
 
 	aristocrats = {
@@ -82,15 +76,9 @@
 	}
 	
 	farmers = {
-		culture = tatar
-		religion = orthodox
-		size = 2025 
-	}
-	
-	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 1525 
+		size = 4525 
 	}
 
 }
@@ -341,7 +329,7 @@
 	
 	farmers = {
 		culture = ossetian
-		religion = orthodox
+		religion = protestant
 		size = 8000   
 	}
 
@@ -723,7 +711,7 @@
 	
 	serfs = {
 		culture = ossetian
-		religion = orthodox
+		religion = protestant
 		size = 4325 
 	}
 	
@@ -868,21 +856,9 @@
 	}
 	
 	farmers = {
-		culture = avari
-		religion = protestant
-		size = 6125 
-	}
-	
-	farmers = {
-		culture = tatar
-		religion = orthodox
-		size = 2125 
-	}
-	
-	farmers = {
 		culture = ossetian
-		religion = orthodox
-		size = 5000 
+		religion = protestant
+		size = 10000 
 	}
 	
 	serfs = {
@@ -984,7 +960,7 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 6175   
+		size = 9175   
 	}
 
 	clergymen = {
@@ -1428,13 +1404,7 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 11075   
-	}
-	
-	farmers = {
-		culture = avari
-		religion = protestant
-		size = 5075   
+		size = 16075   
 	}
 
 	clergymen = {
@@ -1484,7 +1454,7 @@
 	serfs = {
 		culture = romanian
 		religion = orthodox
-		size = 15450
+		size = 8450
 	}
 
 	serfs = {
@@ -1493,40 +1463,10 @@
 		size = 1500      
 	}
 	
-	aristocrats = {
-		culture = tatar
-		religion = orthodox
-		size = 300    
-	}
-
-	clergymen = {
-		culture = tatar
-		religion = orthodox
-		size = 150  
-	}
-
-	artisans = {
-		culture = tatar
-		religion = orthodox
-		size = 750  
-	}
-
-	soldiers = {
-		culture = tatar
-		religion = orthodox
-		size = 150
-	}
-
-	farmers = {
-		culture = tatar
-		religion = orthodox
-		size = 250   
-	}
-	
 	farmers = {
 		culture = ossetian
-		religion = orthodox
-		size = 13000
+		religion = protestant
+		size = 28000
 	}
 
 	clergymen = {
@@ -1556,7 +1496,7 @@
 	farmers = {
 		culture = avari
 		religion = protestant
-		size = 6775    
+		size = 775    
 	}
 
 	clergymen = {
@@ -1615,39 +1555,33 @@
 		size = 27000 
 	}
 	
-	farmers = {
-		culture = tatar
-		religion = orthodox
-		size = 2550   
-	}
-	
 	aristocrats = {
 		culture = ossetian
-		religion = orthodox
+		religion = protestant
 		size = 350   
 	}
 
 	clergymen = {
 		culture = ossetian
-		religion = orthodox
+		religion = protestant
 		size = 50  
 	}
 
 	artisans = {
 		culture = ossetian
-		religion = orthodox
+		religion = protestant
 		size = 200  
 	}
 
 	soldiers = {
 		culture = ossetian
-		religion = orthodox
+		religion = protestant
 		size = 50
 	}
 
 	farmers = {
 		culture = ossetian
-		religion = orthodox
+		religion = protestant
 		size = 10350   
 	}
 
@@ -1764,7 +1698,7 @@
 	serfs = {
 		culture = romanian
 		religion = orthodox
-		size = 34150 
+		size = 22150 
 	}
 	
 	farmers = {
@@ -1800,7 +1734,7 @@
 	farmers = {
 		culture = avari
 		religion = orthodox
-		size = 17175   
+		size = 1175   
 	}
 
 	aristocrats = {
@@ -1835,38 +1769,8 @@
 	
 	farmers = {
 		culture = ossetian
-		religion = orthodox
-		size = 5875      
-	}
-
-	aristocrats = {
-		culture = tatar
-		religion = orthodox
-		size = 200  
-	}
-
-	clergymen = {
-		culture = tatar
-		religion = orthodox
-		size = 50     
-	}
-
-	artisans = {
-		culture = tatar
-		religion = orthodox
-		size = 350   
-	}
-
-	soldiers = {
-		culture = tatar
-		religion = orthodox
-		size = 50
-	}
-
-	farmers = {
-		culture = tatar
-		religion = orthodox
-		size = 5350   
+		religion = protestant
+		size = 39875      
 	}
 
 	clergymen = {

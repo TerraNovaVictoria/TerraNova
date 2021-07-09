@@ -124,7 +124,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTEVTOPT191802A"
+		name = "EVTEVTOPT191802A" #Option to Stay Czech
 		any_pop = {
 			limit = { has_pop_culture = north_german }
 			militancy = 1
@@ -142,13 +142,14 @@ country_event = {
 				duration = 1095
 			}
 		}
+		set_country_flag = boh_to_stay_czech
 		ai_chance = {
 			factor = 70
 		}
 	}
 	
 	option = {
-		name = "EVTEVTOPT191802B"
+		name = "EVTEVTOPT191802B" #Option to adopt German
 		any_pop = {
 			limit = { has_pop_culture = north_german }
 			militancy = 1
@@ -173,6 +174,84 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = 191803
+	title = "EVTNAME191803" #Rise of Moravianism - BOH
+	desc = "EVTDESC191803"
+	picture = "moravian_castle"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BOH
+		OR = {
+			year = 1848
+			639 = { owned_by = AVR }
+		}
+		primary_culture = czech
+		has_country_flag = boh_to_stay_czech
+		NOT = { has_global_flag = moravianism }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	immediate = { BOH = { all_core = { remove_core = GER } } set_global_flag = moravianism }
+	
+	option = {
+		name = "EVTEVTOPT191803A" #Ye
+		BOH = { all_core = { add_core = MRV } }
+		SLV = { all_core = { add_core = MRV } }
+		AVR = { all_core = { add_core = MRV } }
+		LUZ = { all_core = { add_core = GER } }
+		3278 = { add_core = GER }
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+}
+
+country_event = {
+	id = 191804
+	title = "EVTNAME191804" #Rise of Moravianism - backup
+	desc = "EVTDESC191804"
+	picture = "moravian_castle"
+	major = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = SLV
+		OR = {
+			year = 1848
+			639 = { owned_by = AVR }
+		}
+		BOH = { NOT = { primary_culture = czech } }
+		BOH = { NOT = { has_country_flag = boh_to_stay_czech } }
+		NOT = { has_global_flag = moravianism }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	immediate = { BOH = { all_core = { remove_core = GER } } set_global_flag = moravianism }
+	
+	option = {
+		name = "EVTEVTOPT191804A" #Ye
+		BOH = { all_core = { add_core = MRV } }
+		SLV = { all_core = { add_core = MRV } }
+		AVR = { all_core = { add_core = MRV } }
+		LUZ = { all_core = { add_core = GER } }
+		3278 = { add_core = GER }
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+}
 
 ########BOHEMIAN CROWN EVENTS#########
 country_event = {

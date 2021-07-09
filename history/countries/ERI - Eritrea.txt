@@ -1,7 +1,7 @@
 capital = 1857
 primary_culture = tigray
 religion = coptic
-government = absolute_monarchy
+government = primitive_absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.01
@@ -38,6 +38,11 @@ centralization = unitary
 colonial_policy = no_colonies 
 
 set_country_flag = coptic_country
+
+govt_flag = {
+	government = primitive_absolute_monarchy
+	flag = absolute_monarchy
+}
 
 ruling_party = TIG_conservative
 upper_house = {

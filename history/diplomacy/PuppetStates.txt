@@ -157,6 +157,18 @@ vassal = {
 	start_date = 1815.1.1
 	end_date = 1936.1.1
 }
+vassal = {
+	first = EGY
+	second = ERI
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = EGY
+	second = AWS
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
 
 #Illyria
 #Ragusa

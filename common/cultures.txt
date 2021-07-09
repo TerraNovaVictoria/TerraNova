@@ -1539,6 +1539,16 @@ turko_semitic = {
 			Beg Khan
 		}
 	}
+	cuman = {
+		color = {116 85 164}
+		first_names = {
+			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
+		}
+		last_names = {
+			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
+		}
+		radicalism = 10
+	}	
 	tatar = {
 		color = {96 65 144}
 		first_names = {

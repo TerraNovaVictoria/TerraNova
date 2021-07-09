@@ -17,6 +17,10 @@ VIC 	="countries/Nationalist France.txt"
 BOR		="countries/The Kingdom of France.txt"
 
 ##Terra Nova Nations
+MIZ 	= "countries/Mizoram.txt"
+TRP 	= "countries/Tripura.txt"
+JAU 	= "countries/Jaunpur.txt"
+SUE 	= "countries/Suez.txt"
 ATT 	= "countries/Attock.txt"
 ERI 	= "countries/Eritrea.txt"
 DNG 	= "countries/Dangola.txt"
@@ -363,7 +367,7 @@ SVY		= "countries/Savoy.txt"
 SWH		= "countries/Schleswig-Holstein.txt"
 
 #Germany
-DNB		= "countries/Danubian Federation.txt"
+MRV		= "countries/Moravia.txt"
 LUZ		= "countries/Luzica.txt"
 RHI		= "countries/Rhineland.txt"
 PML		= "countries/Pomerelia.txt"

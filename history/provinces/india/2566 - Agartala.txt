@@ -1,7 +1,6 @@
-owner = ASM
-controller = ASM
-add_core = ASM
-add_core = BNG
+owner = MIZ
+controller = MIZ
+add_core = MIZ
 add_core = HND
 trade_goods = grain
 life_rating = 35

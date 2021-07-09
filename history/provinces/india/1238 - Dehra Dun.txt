@@ -1,7 +1,7 @@
 owner = NEP
 controller = NEP
 add_core = DLH
-add_core = GAY
+add_core = JAU
 add_core = NEP
 add_core = HND
 trade_goods = wool

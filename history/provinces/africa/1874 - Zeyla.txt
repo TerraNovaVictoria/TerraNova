@@ -1,5 +1,5 @@
-owner = VEN
-controller = VEN
+owner = WRL
+controller = WRL
 add_core = WRL
 trade_goods = grain
 terrain = semidesert

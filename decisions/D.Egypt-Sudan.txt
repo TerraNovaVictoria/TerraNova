@@ -24,10 +24,31 @@ political_decisions = {
 		
 		effect = {
 			prestige = 5
-			1843 = { secede_province = FUR add_core = SUD }
-			1844 = { secede_province = THIS add_core = SUD add_core = FNJ }
-			1846 = { secede_province = THIS add_core = SUD add_core = FNJ }
-			1847 = { secede_province = THIS add_core = SUD add_core = FNJ }
+			1844 = { secede_province = THIS }
+			1846 = { secede_province = THIS }
+			1847 = { secede_province = THIS }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	conquer_sudd_fur_exp = { 
+		picture = military_aid
+		potential = {
+			tag = DAR
+			1844 = { empty = no }
+			1843 = { empty = yes }
+		}
+		
+		allow = {
+			war = no
+		}
+		
+		effect = {
+			prestige = 5
+			1843 = { secede_province = THIS }
 		}
 		
 		ai_will_do = {

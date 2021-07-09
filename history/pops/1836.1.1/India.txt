@@ -1534,6 +1534,12 @@
 		religion = hindu
 		size = 1100
 	}
+	
+	aristocrats = {
+		culture = pashtun
+		religion = sunni
+		size = 500
+	}
 
 	bureaucrats = {
 		culture = hindi
@@ -1596,15 +1602,21 @@
 	}
 	
 	artisans = {
-		culture = hindi
+		culture = pashtun
 		religion = sunni
 		size = 2000
 	}
 
 	soldiers = {
-		culture = hindi
+		culture = pashtun
 		religion = sunni
-		size = 2500
+		size = 3000
+	}
+	
+	soldiers = {
+		culture = pashtun
+		religion = sunni
+		size = 3000
 	}
 
 	farmers = {
@@ -2087,16 +2099,29 @@
 }
 #Allahabad (3008000/752000 POPS)
 1243 = {
+
+	aristocrats = {
+		culture = pashtun
+		religion = shiite
+		size = 6000
+	}
+	
 	aristocrats = {
 		culture = hindi
 		religion = hindu
-		size = 26000
+		size = 20000
 	}
 
 	clergymen = {
 		culture = hindi
 		religion = hindu
-		size = 6500
+		size = 3000
+	}
+	
+	clergymen = {
+		culture = pashtun
+		religion = shiite
+		size = 3500
 	}
 
 	artisans = {
@@ -2124,14 +2149,14 @@
 	}
 
 	soldiers = {
-		culture = hindi
-		religion = hindu
+		culture = pashtun
+		religion = shiite
 		size = 3000
 	}
 
 	soldiers = {
-		culture = hindi
-		religion = hindu
+		culture = pashtun
+		religion = shiite
 		size = 3000
 	}
 
@@ -2168,7 +2193,13 @@
 	farmers = {
 		culture = hindi
 		religion = sunni
-		size = 158500
+		size = 150500
+	}
+	
+	farmers = {
+		culture = pashtun
+		religion = shiite
+		size = 8500
 	}
 	
 	farmers = {
@@ -2336,25 +2367,25 @@
 #Lucknow (2756000/689000 POPS)
 1242 = {
 	aristocrats = {
-		culture = hindi
+		culture = pashtun
 		religion = sunni
 		size = 1250
 	}
 
 	bureaucrats = {
-		culture = hindi
+		culture = pashtun
 		religion = sunni
 		size = 500
 	}
 
 	officers = {
-		culture = hindi
+		culture = pashtun
 		religion = sunni
 		size = 500
 	}
 
 	clergymen = {
-		culture = hindi
+		culture = pashtun
 		religion = sunni
 		size = 1125
 	}
@@ -2372,9 +2403,9 @@
 	}
 
 	soldiers = {
-		culture = hindi
+		culture = pashtun
 		religion = sunni
-		size = 1500
+		size = 3000
 	}
 
 	farmers = {
@@ -3970,26 +4001,26 @@
 
 	artisans = {
 		culture = mizo
-		religion = sunni
+		religion = animist
 		size = 5000
 	}
 
 	soldiers = {
 		culture = mizo
-		religion = sunni
+		religion = animist
 		size = 1100
 	}
 
 	farmers = {
 		culture = mizo
-		religion = sunni
-		size = 74125
+		religion = animist
+		size = 44125
 	}
 	
 	farmers = {
 		culture = tripuri
-		religion = protestant
-		size = 15000
+		religion = animist
+		size = 9000
 	}
 
 
@@ -4014,7 +4045,7 @@
 	farmers = {
 		culture = bengali
 		religion = sunni
-		size = 51125
+		size = 1125
 	}
 
 }
@@ -9248,4 +9279,61 @@
 		religion = hindu
 		size = 300
 	}
+}
+
+3291 = {
+	aristocrats = {
+		culture = tripuri
+		religion = sunni
+		size = 500
+	}
+
+	bureaucrats = {
+		culture = tripuri
+		religion = sunni
+		size = 250
+	}
+
+	officers = {
+		culture = tripuri
+		religion = sunni
+		size = 150
+	}
+
+	clergymen = {
+		culture = tripuri
+		religion = sunni
+		size = 20
+	}
+
+	artisans = {
+		culture = tripuri
+		religion = sunni
+		size = 2800
+	}
+
+	soldiers = {
+		culture = tripuri
+		religion = sunni
+		size = 1300
+	}
+
+	farmers = {
+		culture = tripuri
+		religion = sunni
+		size = 24095
+	}
+	
+	farmers = {
+		culture = bengali
+		religion = sunni
+		size = 1100
+	}
+	
+	farmers = {
+		culture = mizo
+		religion = animist
+		size = 1500
+	}
+	
 }

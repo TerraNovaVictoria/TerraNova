@@ -19,7 +19,9 @@ country_event = {
 	option = {
 		name = "EVTOPT712400A" #Pannonian Inheritance
 		AVR = { country_event = 712401 }
+		MNR = { country_event = 712403 }
 		BCR = { country_event = 712405 }
+		PAN = { all_core = { remove_core = PAN } }
 		ai_chance = { factor = 70 }
 	}
 		
@@ -29,6 +31,7 @@ country_event = {
 		government = democracy
 		BOH = { release_vassal = PAN }
 		BOH = { country_event = 712402 }
+		MNR = { country_event = 712403 }
 		BCR = { country_event = 712405 }
 		ai_chance = { factor = 30 }
 	}
@@ -46,7 +49,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPT712401A"
-		PAN = { all_core = { remove_core = PAN } }
 		AVR = { inherit = PAN }
 		ai_chance = { factor = 100 }
 	}
@@ -64,7 +66,11 @@ country_event = {
 	
 	option = {
 		name = "EVTOPT712402A" #Declare War
-		BAV = { country_event = 712403 }
+		war = {
+			target = PAN
+			attacker_goal = { casus_belli = conquest }
+		}
+		set_country_flag = pannonian_war
 		ai_chance = { factor = 100 }
 	}
 	
@@ -76,7 +82,7 @@ country_event = {
 
 country_event = {
 	id = 712403
-	title = "EVTNAME712403" #Pannonia Secedes - Bavarian Event
+	title = "EVTNAME712403" #Pannonian Inheritance - Menomorut - Also part of Pannonia
 	desc = "EVTDESC712403"
 	picture = "irish_flag"
 	
@@ -84,34 +90,27 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "EVTOPT712403A" #Let the Bohemians Pass
-		war = {
-			target = PAN
-			attacker_goal = { casus_belli = conquest }
-		}
-		BOH = { 
-			war = {
-				target = PAN
-			}
-		}
-		set_country_flag = pannonian_war
+		name = "EVTOPT712403A" #The end
+		government = absolute_monarchy
+		MNR = { all_core = { remove_core = MNR } }
+		647 = { add_core = AVR }
+		651 = { add_core = AVR }
+		654 = { add_core = AVR }
+		1101 = { add_core = AVR }
+		AVR = { inherit = MNR }
 		ai_chance = { factor = 100 }
 	}
 	
-	option = {
-		name = "EVTOPT712403B" #Let them be
-		ai_chance = { factor = 0 }
-	}
 }
 
 country_event = {
 	id = 712404
-	title = "EVTNAME712404" #Pannonian Province Transfer and Redrawel
+	title = "EVTNAME712404" #Pannonian Province Transfer
 	desc = "EVTDESC712404"
 	picture = "irish_flag"
 	
 	trigger = {
-		tag = BAV
+		tag = BOH
 		AND = {
 			644 = { owned_by = THIS }
 			3255 = { owned_by = THIS }
@@ -123,19 +122,31 @@ country_event = {
 	mean_time_to_happen = { days = 1 }
 	fire_only_once = yes
 	
+	immediate = { clr_country_flag = pannonian_war }
+	
 	option = {
 		name = "EVTOPT712404A"
 		PAN = { all_core = { remove_core = PAN } }
-		624 = { remove_core = AVR add_core = STY secede_province = STY }
-		3255 = { remove_core = AVR add_core = STY secede_province = STY }
 		any_owned = {
 			limit = {
 				is_core = AVR
 			}
 			secede_province = AVR
 		}
-		clr_country_flag = pannonian_war
 		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT712404A"
+		PAN = { all_core = { remove_core = PAN } }
+		badboy = 5
+		prestige = -5
+		any_pop = {
+			limit = { has_pop_culture = avari }
+			militancy = 2
+			consciousness = 4
+		}
+		ai_chance = { factor = 0 }
 	}
 
 }
@@ -152,11 +163,11 @@ country_event = {
 	option = {
 		name = "EVTOPT712405A"
 		government = absolute_monarchy
-		950 = { add_core = AVR secede_province = AVR }
-		3258 = { remove_core = BCR secede_province = AVR }
+		950 = { add_core = SLV }
+		3258 = { remove_core = BCR }
 		637 = { remove_core = BCR }
 		638 = { remove_core = BCR }
-		SLV = { inherit = BCR }
+		AVR = { inherit = BCR }
 		ai_chance = { factor = 100 }
 	}
 

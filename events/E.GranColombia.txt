@@ -206,7 +206,7 @@ country_event = {
 	picture = "storming_palace_communists"
 
 	trigger = {
-		has_country_flag = colombia_has_failed 
+		has_global_flag = colombia_has_failed 
 		tag = GCO
 	}
 	

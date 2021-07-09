@@ -1015,31 +1015,31 @@
 	farmers = {
 		culture = shtokavian
 		religion = orthodox
-		size = 2550     
+		size = 550     
 	}
 
 	clergymen = {
-		culture = slovenian
+		culture = cuman
 		religion = catholic
 		size = 50  
 	}
 
 	artisans = {
-		culture = slovenian
+		culture = cuman
 		religion = catholic
 		size = 1650 
 	}
 
 	soldiers = {
-		culture = slovenian
+		culture = cuman
 		religion = catholic
 		size = 25
 	}
 
 	farmers = {
-		culture = slovenian
+		culture = cuman
 		religion = catholic
-		size = 7275   
+		size = 12275   
 	}
 
 	clergymen = {
@@ -1063,7 +1063,7 @@
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 6800 
+		size = 3800 
 	}
 }
 #Felvidek Region (320000) #see avariia.txt and Ukraine.txt for balance of Region
@@ -1347,33 +1347,39 @@
 	}
 
 	aristocrats = {
-		culture = slovenian
+		culture = cuman
 		religion = catholic
-		size = 2500
+		size = 250
 	}
 
 	clergymen = {
-		culture = slovenian
+		culture = cuman
 		religion = catholic
 		size = 850   
 	}
 
 	artisans = {
-		culture = slovenian
+		culture = cuman
 		religion = catholic
 		size = 3900   
 	}
 
 	soldiers = {
-		culture = slovenian
+		culture = cuman
 		religion = catholic
 		size = 900
 	}
 
 	farmers = {
-		culture = slovenian
+		culture = cuman
 		religion = catholic
-		size = 11850    
+		size = 4850    
+	}
+	
+	farmers = {
+		culture = romanian
+		religion = orthodox
+		size = 5000  
 	}
 
 	clergymen = {
@@ -1466,30 +1472,6 @@
 		culture = avari
 		religion = protestant
 		size = 62925    
-	}
-
-	clergymen = {
-		culture = tatar
-		religion = orthodox
-		size = 50 
-	}
-
-	artisans = {
-		culture = tatar
-		religion = orthodox
-		size = 1100 
-	}
-
-	soldiers = {
-		culture = tatar
-		religion = orthodox
-		size = 25
-	}
-
-	farmers = {
-		culture = tatar
-		religion = orthodox
-		size = 825     
 	}
 
 	clergymen = {

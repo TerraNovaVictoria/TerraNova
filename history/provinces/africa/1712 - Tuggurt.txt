@@ -2,7 +2,6 @@ owner = TUN
 controller = TUN
 add_core = TUN
 add_core = OUA
-add_core = TUA
 trade_goods = wool
 life_rating = 10
 1861.1.1 = {

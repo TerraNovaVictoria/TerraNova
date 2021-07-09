@@ -1,3 +1,5 @@
+owner = KUB
+controller = KUB
 add_core = KUB
 add_core = MNG
 trade_goods = grain

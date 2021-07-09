@@ -1,8 +1,8 @@
 capital = 1930
-primary_culture = ibo
-culture = fulbe
+primary_culture = fulbe
+culture = yoruba
 religion = sunni
-government = absolute_monarchy
+government = primitive_absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.02

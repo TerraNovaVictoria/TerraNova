@@ -227,3 +227,124 @@ country_event = {
 	}
 
 }
+
+country_event = {
+	id = 787807
+	title = "EVTNAME787807" #Paraguay invades the Guarani Confederacy
+	desc = "EVTDESC787807"
+	picture = "guarani_war"
+
+	trigger = {
+		tag = PRG
+		war = no
+		year = 1837
+		AND = {
+			GRI = { exists = yes }
+			GRI = { war = no }
+		}
+		NOT = { 2343 = { owned_by = THIS } }
+	}
+	
+	mean_time_to_happen = { days = 31 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT787807A"
+		war = {
+			target = GRI
+			attacker_goal = {
+				casus_belli = conquest
+			}
+		}
+		prestige = 2
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 787808
+	title = "EVTNAME787808" #Paraguay invades the Chaco
+	desc = "EVTDESC787808"
+	picture = "spanish_glorious_revolution"
+
+	trigger = {
+		tag = PRG
+		war = no
+		GRI = { exists = no }
+		2343 = { owned_by = THIS }
+		OR = {
+			2366 = { empty = yes }
+			2367 = { empty = yes }
+			2336 = { empty = yes }
+			2338 = { empty = yes }
+		}
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT787808A"
+		2366 = {
+			add_core = PRG
+			secede_province = THIS
+			life_rating = 20
+			any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+		}
+		2367 = {
+			add_core = PRG
+			secede_province = THIS
+			life_rating = 20
+			any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+		}
+		2337 = {
+			add_core = PRG
+			secede_province = THIS
+			life_rating = 20
+			any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+		}
+		2338 = {
+			add_core = PRG
+			secede_province = THIS
+			life_rating = 20
+			any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+		}
+		government = presidential_dictatorship
+		prestige = 5
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPT787808B"
+		2366 = {
+			add_core = PRG
+			secede_province = THIS
+			life_rating = 20
+			any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+		}
+		2367 = {
+			add_core = PRG
+			secede_province = THIS
+			life_rating = 20
+			any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+		}
+		2337 = {
+			add_core = PRG
+			secede_province = THIS
+			life_rating = 20
+			any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+		}
+		2338 = {
+			add_core = PRG
+			secede_province = THIS
+			life_rating = 20
+			any_pop = { limit = { is_primary_culture = no } literacy = -0.99 }
+		}
+		government = presidential_dictatorship
+		add_accepted_culture = guarani
+		prestige = 5
+		ai_chance = { factor = 50 }
+	}
+
+}

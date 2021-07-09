@@ -3,7 +3,7 @@ primary_culture = misri
 culture = mashriqi
 culture = bedouin
 religion = sunni
-government = absolute_monarchy
+government = primitive_absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.07
@@ -56,7 +56,7 @@ decision = LEB_1836_setup
 
 govt_flag = {
 	government = absolute_monarchy
-	flag = theocracy
+	flag = fascist_dictatorship
 }
 
 set_country_flag = sunni_country

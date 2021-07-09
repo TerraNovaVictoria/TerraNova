@@ -1,4 +1,24 @@
 ;;;;;;;;;;;;;;x,,,
+MRV;Moravia;;;;;;;;;;;;;;;;;;x;;;;
+MRV_ADJ;Moravian;;;;;;;;;;;;;;;;;;x;;;;
+MRV_democracy;Czechovaria;;;;;;;;;;;;;x
+MRV_democracy_ADJ;Czechovarian;;;;;;;;;;;;;x
+MRV_hms_government;Slovincia;;;;;;;;;;;;x
+MRV_hms_government_ADJ;Slovincian;;;;;;;;;;;;x
+MRV_prussian_constitutionalism;The Slovincian Kingdom;;;;;;;;;;;;x
+MRV_prussian_constitutionalism_ADJ;Slonvincian;;;;;;;;;;;;x
+MRV_absolute_monarchy;Great Moravia;;;;;;;;;;;;x
+MRV_proletarian_dictatorship;The Council Republic of Pannonia;;;;;;;;;;;;;x
+MRV_proletarian_dictatorship_ADJ;Pannonian;;;;;;;;;;;;;x
+MRV_fascist_dictatorship;The Czecho-Avar State;;;;;;;;;;;;;x
+MRV_fascist_dictatorship_ADJ;Czecho-Avar;;;;;;;;;;;;;x
+TRP;Tripura;;;;;;;;;;;;;;;;;;x;;;;
+TRP_ADJ;Tripuri;;;;;;;;;;;;;;;;;;x;;;;
+MIZ;Mizoram;;;;;;;;;;;;;;;;;;x;;;;
+MIZ_ADJ;Mizo;;;;;;;;;;;;;;;;;;x;;;;
+JAU;Jaunpur;;;;;;;;;;;;;;;;;;x;;;;
+JAU_primitive_absolute_monarchy;The Shinwari Sultanate;;;;;;;;;;;;;;;;;;x;;;;
+JAU_ADJ;Jaunpuri;;;;;;;;;;;;;;;;;;x;;;;
 ATT;Attock;;;;;;;;;;;;;;;;;;x;;;;
 ATT_primitive_absolute_monarchy;The Attock Misl;;;;;;;;;;;;;;;;;;x;;;;
 ATT_ADJ;Attockan;;;;;;;;;;;;;;;;;;x;;;;
@@ -446,12 +466,14 @@ LIV_theocracy;The Livonian Order;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 LIV_ADJ;Livonian;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TST;Tyrol;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TST_ADJ;Tyrolean;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+AKU_primitive_absolute_monarchy;Akure;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 AKU;Akura;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 AKU_ADJ;Akuran;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 LUR;Luristan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 LUR_ADJ;Lurish;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-IDA;Idah;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
-IDA_ADJ;Idahn;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+IDA_primitive_absolute_monarchy;The Igala Emirate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+IDA;Igala;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+IDA_ADJ;Igalan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 OWO;Owo;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 OWO_ADJ;Owo;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 ADW;Adamawa;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
@@ -862,6 +884,9 @@ ILL;Illyria;;;;;;;;;;;;;;;;;;x;;;;
 ILL_ADJ;Illyrian;;;;;;;;;;;;;;;;;;x;;;;
 YOR;Yoruba;;;;;;;;;;;;;;;;;;x;;;;
 YOR_ADJ;Yoruba;;;;;;;;;;;;;;;;;;x;;;;
+SUE;Suez;;;;;;;;;;;;;;;;;;x;;;;
+SUE_colonial_company;The Veneto-Egyptian Suez Canal Company;;;;;;;;;;;;;;;;;;x;;;;
+SUE_ADJ;Suezid;;;;;;;;;;;;;;;;;;x;;;;
 SLZ;Salzburg;;;;;;;;;;;;;;;;;;x;;;;
 SLZ_ADJ;Salzburger;;;;;;;;;;;;;;;;;;x;;;;
 TYR;Tyrol;;;;;;;;;;;;;;;;;;x;;;;
@@ -872,11 +897,13 @@ ARW_absolute_monarchy;The Arawak Confederacy;;;;;;;;;;;;;;x
 ARW_prussian_constitutionalism;The Arawak Confederacy;;;;;;;;;;;;;x
 ARW_democracy;The Amazon Republic;;;;;;;;;;;;;x
 ARW_proletarian_dictatorship;The Amazon Commune;;;;;;;;;;;;;x
-EGY_absolute_monarchy;The Mamluk Sultanate;;;;;;;;;;;;;;x
+EGY_primitive_absolute_monarchy;The Mamluk Sultanate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+EGY_absolute_monarchy;The Egyptian Sultanate;;;;;;;;;;;;;;x
 EGY_prussian_constitutionalism;The Egyptian Sultanate;;;;;;;;;;;;;x
 EGY_democracy;The Republic of Egypt;;;;;;;;;;;;;x
 EGY_proletarian_dictatorship;The Nile Commune;;;;;;;;;;;;;x
-EGY_hms_government;The Egyptian Kingdom;;;;;;;;;;;;;x,
+EGY_fascist_dictatorship;The Mamluk Caliphate;;;;;;;;;;;;;x
+EGY_hms_government;The Kingdom of Egypt;;;;;;;;;;;;;x,
 EGY_colonial_company;Egypt;;;;;;;;;;;;;;x
 EGY_subject;The Khedivate of Egypt;;;;;;;;;;;;;;x
 ALP_absolute_monarchy;The Alpine Empire;;;;;;;;;x;;;;;;;;
@@ -962,6 +989,8 @@ CHN_absolute_monarchy_ADJ;Tlemceni;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 TUN;Tunisia;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;
 TUN_absolute_monarchy;The Hafsid Empire;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;
 TUN_absolute_monarchy_ADJ;Hafsidi;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;
+TUA_primitive_absolute_monarchy;Fezzan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+TUA_primitive_absolute_monarchy_ADJ;Fezzani;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TUA;Tuareg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 TUA_ADJ;Tuareg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 AIN;Ainu;;;;;;;;;;;;;;;;;;;;;;;x;;;;

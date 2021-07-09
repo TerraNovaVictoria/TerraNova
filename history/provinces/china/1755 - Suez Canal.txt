@@ -1,6 +1,6 @@
 owner = VEN
 controller = VEN
-add_core = VEN
+add_core = SUE
 trade_goods = precious_goods
 life_rating = 35
 terrain = suez

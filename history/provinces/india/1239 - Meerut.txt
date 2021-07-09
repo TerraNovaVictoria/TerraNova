@@ -1,7 +1,7 @@
 owner = DLH
-controller = DLH
+controller = JAU
 add_core = DLH
-add_core = GAY
+add_core = JAU
 add_core = HND
 trade_goods = grain
 life_rating = 32

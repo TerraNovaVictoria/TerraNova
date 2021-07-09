@@ -1,5 +1,5 @@
-owner = TUA
-controller = TUA
+owner = OUA
+controller = OUA
 add_core = TUA
 add_core = OUA
 trade_goods = wool

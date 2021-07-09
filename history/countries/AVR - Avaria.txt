@@ -1,4 +1,4 @@
-capital = 643
+capital = 3287
 primary_culture = avari
 religion = protestant
 government = subject
