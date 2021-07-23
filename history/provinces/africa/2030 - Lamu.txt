@@ -1,6 +1,5 @@
 owner = OMA
 controller = OMA
-add_core = OMA
 add_core = GEL
 add_core = MOM
 trade_goods = cattle

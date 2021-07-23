@@ -1,3 +1,3 @@
-owner = MIDcontroller = MIDadd_core = MID
+owner = IROcontroller = IROadd_core = IROadd_core = MID
 trade_goods = grain
 life_rating = 35

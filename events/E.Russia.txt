@@ -91,7 +91,14 @@ country_event = {
 			move_pop = 1042
 		}
 		1059 = { remove_core = BSK }
-		1042 = { add_province_modifier = { name = repopulating_the_wastes duration = 3650 } remove_core = SIB }
+		1059 = { add_province_modifier = { name = repopulating_the_wastes duration = 3650 } remove_core = SIB }
+		2658 = { add_province_modifier = { name = repopulating_the_wastes duration = 3650 } remove_core = SIB }
+		1019 = { 	
+			any_pop = {
+				limit = { has_pop_culture = ruthenian }
+				move_pop = 1064
+			}
+		}
 		any_pop = {
 			limit = {
 				OR = {
@@ -100,7 +107,7 @@ country_event = {
 				}
 			}
 			reduce_pop = 0.1
-			move_pop = 1045
+			move_pop = 1039
 		}
 		any_pop = {
 			limit = { 

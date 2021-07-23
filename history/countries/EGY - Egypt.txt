@@ -4,11 +4,12 @@ culture = mashriqi
 culture = bedouin
 religion = sunni
 government = primitive_absolute_monarchy
-plurality = 0.0
+plurality = 0.2
 nationalvalue = nv_tradition
-literacy = 0.07
+literacy = 0.21
 non_state_culture_literacy = 0.01
 is_releasable_vassal = no
+prestige = 15
 
 # Political reforms
 slavery = yes_slavery
@@ -55,7 +56,7 @@ decision = EGY_1836_setup
 decision = LEB_1836_setup
 
 govt_flag = {
-	government = absolute_monarchy
+	government = theocracy
 	flag = fascist_dictatorship
 }
 
@@ -63,20 +64,15 @@ set_country_flag = sunni_country
 
 foreign_officers = yes_foreign_officers 
 foreign_weapons = yes_foreign_weapons
-foreign_artillery = yes_foreign_artillery
 army_schools = yes_army_schools
-land_reform = yes_land_reform
 monetary_reform = yes_monetary_reform
 foreign_naval_officers = yes_foreign_naval_officers
 foreign_navies = yes_foreign_navies
 naval_schools = yes_naval_schools
-admin_reform = yes_admin_reform
 finance_reform = yes_finance_reform
-transport_improv = yes_transport_improv
 
 # Technologies
 flintlock_rifles = 1
-bronze_muzzle_loaded_artillery = 1
 
 # Inventions
 

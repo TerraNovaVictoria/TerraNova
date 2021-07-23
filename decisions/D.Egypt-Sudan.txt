@@ -56,4 +56,28 @@ political_decisions = {
 		}
 	}
 	
+	become_egypt = { 
+		picture = military_aid
+		potential = {
+			tag = EGY
+			government = primitive_absolute_monarchy
+		}
+		
+		allow = {
+			OR = {
+				admin_reform = yes_admin_reform
+				civilized = yes
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			government = absolute_monarchy
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 }

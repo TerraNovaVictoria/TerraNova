@@ -1,6 +1,5 @@
-owner = OMA
-controller = OMA
-add_core = OMA
+owner = EGY
+controller = EGY
 add_core = ZAN
 trade_goods = precious_goods
 life_rating = 40

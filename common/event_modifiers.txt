@@ -335,7 +335,7 @@ infrastructure_projects = {
 
 repopulating_the_wastes = {
 	immigrant_attract = 5
-	population_growth = 0.005
+	population_growth = 0.01
 	assimilation_rate = 0.75
 	farm_rgo_size = 0.75
 	mine_RGO_size = 0.75
@@ -1323,6 +1323,19 @@ educational_reform = {
 legation_quarter = {
 	pop_militancy_modifier = 0.03
 	research_points_modifier = 0.05
+	icon = 8
+}
+
+alexandrian_port = {
+	pop_consciousness_modifier = 0.01
+	research_points_modifier = 0.05
+	icon = 6
+}
+
+golden_century_mam = {
+	prestige = 0.01
+	farm_rgo_eff = 0.05
+	mine_rgo_eff = 0.05
 	icon = 8
 }
 

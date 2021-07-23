@@ -17,6 +17,10 @@ VIC 	="countries/Nationalist France.txt"
 BOR		="countries/The Kingdom of France.txt"
 
 ##Terra Nova Nations
+KTU 	= "countries/Katua.txt"
+HMO 	= "countries/Hmong.txt"
+STF 	= "countries/Setif.txt"
+IRO 	= "countries/Iroquois.txt"
 MIZ 	= "countries/Mizoram.txt"
 TRP 	= "countries/Tripura.txt"
 JAU 	= "countries/Jaunpur.txt"

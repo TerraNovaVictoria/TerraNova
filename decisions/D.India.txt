@@ -245,11 +245,100 @@ political_decisions = {
 		
 			effect = {
 				MAR = { all_core = { add_core = BIJ } }
+				BIJ = { all_core = { add_core = MAR } }
+				BHO = { all_core = { add_core = MAR } }
 				BIJ = { country_event = 152605 }
 				BIJ = { release_vassal = THIS }
 				prestige = 5
 				government = absolute_monarchy
 				clr_country_flag = occupation_of_bombay_attempt
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Claim the Bahmanid Legacy
+	claim_bahmanid_legacy = {
+		picture = sikh_symbol
+		potential = {
+				tag = BIJ
+				NOT = { has_country_flag = new_bahmanid_empire }
+			}
+		
+			allow = {
+				war = no
+				BIJ = { all_core = { owned_by = THIS } }
+			}
+		
+			effect = {
+				BHO = { all_core = { add_core = BIJ } }
+				1283 = { add_core = BIJ }
+				1287 = { add_core = BIJ }
+				1279 = { add_core = BIJ }
+				1280 = { add_core = BIJ }
+				set_country_flag = new_bahmanid_empire
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#A legacy for the Faruqi
+	faruqi_empire = {
+		picture = khandesh_fort
+		potential = {
+				tag = BHO
+				government = primitive_absolute_monarchy
+				year = 1837
+			}
+		
+			allow = {
+				war = no
+			}
+		
+			effect = {
+				government = absolute_monarchy
+				primary_culture = marathi
+				add_accepted_culture = hindi
+				GWA = { all_core = { add_core = BHO } }
+				REW = { all_core = { add_core = BHO } }
+			}
+
+		ai_will_do = { factor = 1 }
+	}
+	
+	#Abolish the minor princes in Khandesh
+	faruqia = {
+		picture = gwalior_fort
+		potential = {
+			OR = {
+				AND = {
+					tag = BHO
+					1270 = { is_core = GWA }
+					1274 = { is_core = REW }
+				}
+				AND = {
+					1270 = { is_core = GWA }
+					1270 = { owned_by = THIS }
+					1274 = { is_core = REW }
+					1274 = { owned_by = THIS }
+					1273 = { is_core = REW }
+					1273 = { owned_by = THIS }
+					THIS = { civilized = yes }
+				}
+			}
+		
+			allow = {
+				war = no
+				GWA = { all_core = { owned_by = THIS } }
+				GWA = { exists = no }
+				REW = { all_core = { owned_by = THIS } }
+				REW = { exists = no }
+			}
+		
+			effect = {
+				GWA = { all_core = { remove_core = GWA } }
+				REW = { all_core = { remove_core = REW } }
+				prestige = 2.5
 			}
 
 		ai_will_do = { factor = 1 }

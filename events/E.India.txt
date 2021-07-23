@@ -38,7 +38,7 @@ country_event = {
 	option = {
 		name = "EVTOPT152601A"
 		BIJ = { country_event = 152602 }
-		MAH = { annex_to = MAR }
+		MAR = { inherit = MAH }
 		ai_chance = { factor = 70 }
 	}
 	

@@ -1,4 +1,6 @@
-color = { 255  205  155 }
+color = { 255 185 95 }
+theocracy = { 75 145 50 }
+primitive_absolute_monarchy = { 255  205  155 }
 graphical_culture = MiddleEasternGC
 
 party = {

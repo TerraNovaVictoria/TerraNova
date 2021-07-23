@@ -1,0 +1,65 @@
+political_decisions = {
+
+	EGY_1836_setup = {
+		picture = constantinople
+		potential = {
+			tag = EGY
+			always = no
+		}
+		
+		allow = {
+			tag = EGY
+		}
+		
+		effect = {
+			any_pop = {
+				limit = { OR = { has_pop_culture = venetic has_pop_culture = circassian has_pop_culture = chechen } }
+				literacy = 0.02
+			}
+			
+			any_pop = {
+				limit = { 
+					NOT = { has_pop_religion = sunni } 
+					OR = { has_pop_culture = ashkenazi has_pop_culture = sephardic }
+				}
+			literacy = 0.2
+			}
+			
+			1751 = { add_province_modifier = { name = alexandrian_port duration = -1 } }
+			add_country_modifier = { name = golden_century_mam duration = -1 }
+			
+			any_pop = { limit = { has_pop_religion = catholic NOT = { has_pop_culture = assyrian} } literacy = 0.01 }
+			any_pop = { limit = { OR = { has_pop_culture = greek has_pop_culture = armenian } } literacy = 0.05 }
+		}
+	}
+	
+	LEB_1836_setup = {
+		picture = constantinople
+		potential = {
+			tag = EGY
+			always = no
+		}
+		
+		allow = {
+			tag = EGY
+		}
+		
+		effect = {
+			913 = { #Beirut
+				any_pop = {
+					limit = { 
+						NOT = { has_pop_culture = armenian } 
+						OR = {
+							has_pop_religion = catholic
+							has_pop_religion = orthodox
+						} 
+					}
+					literacy = 0.15 
+				} 
+			}
+			912 = { any_pop = { limit = { has_pop_religion = shiite } militancy = 5 } } #Baalbeck
+			915 = { any_pop = { limit = { has_pop_religion = shiite } militancy = 5 } } #Sidon
+		}
+	}
+	
+}

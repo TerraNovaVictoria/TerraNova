@@ -1,4 +1,12 @@
 ;;;;;;;;;;;;;;x,,,
+KTU;Katua;;;;;;;;;;;;;;;;;;x;;;;
+KTU_ADJ;Katu;;;;;;;;;;;;;;;;;;x;;;;
+STF;Setif;;;;;;;;;;;;;;;;;;x;;;;
+STF_ADJ;Setifid;;;;;;;;;;;;;;;;;;x;;;;
+IRO;Iroquois;;;;;;;;;;;;;;;;;;x;;;;
+IRO_ADJ;Iroquois;;;;;;;;;;;;;;;;;;x;;;;
+IRO_subject;The Iroquois Territory;;;;;;;;;;;;;;;;;;x;;;;
+IRO_democracy;The Iroquois Republic;;;;;;;;;;;;;;;;;;x;;;;
 MRV;Moravia;;;;;;;;;;;;;;;;;;x;;;;
 MRV_ADJ;Moravian;;;;;;;;;;;;;;;;;;x;;;;
 MRV_democracy;Czechovaria;;;;;;;;;;;;;x
@@ -252,8 +260,10 @@ SHI_primitive_absolute_monarchy;The Amritsar Misl;;;;;;;;;;;;;x
 SHI_primitive_absolute_monarchy_ADJ;Amritsari;;;;;;;;;;;;;x
 KLC;Kalachar;;;;;;;;;;;;;x
 KLC_ADJ;Kalachari;;;;;;;;;;;;;x
-BHO_absolute_monarchy;Khandesh;;;;;;;;;;;;;x
-BHO_absolute_monarchy_ADJ;Khandeshi;;;;;;;;;;;;;x
+BHO_primitive_absolute_monarchy;Khandesh;;;;;;;;;;;;;x
+BHO_primitive_absolute_monarchy_ADJ;Khandeshi;;;;;;;;;;;;;x
+BHO_absolute_monarchy;The Faruqi Sultanate;;;;;;;;;;;;;x
+BHO_absolute_monarchy_ADJ;Faruqid;;;;;;;;;;;;;x
 REW_absolute_monarchy;Bandoga;;;;;;;;;;;;;x
 REW_absolute_monarchy_ADJ;Bandhogarhi;;;;;;;;;;;;;x
 SRI_absolute_monarchy;The Thanjavur Empire;;;;;;;;;;;;;x
@@ -898,14 +908,17 @@ ARW_prussian_constitutionalism;The Arawak Confederacy;;;;;;;;;;;;;x
 ARW_democracy;The Amazon Republic;;;;;;;;;;;;;x
 ARW_proletarian_dictatorship;The Amazon Commune;;;;;;;;;;;;;x
 EGY_primitive_absolute_monarchy;The Mamluk Sultanate;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
+EGY_primitive_absolute_monarchy_ADJ;Mamlukean;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 EGY_absolute_monarchy;The Egyptian Sultanate;;;;;;;;;;;;;;x
 EGY_prussian_constitutionalism;The Egyptian Sultanate;;;;;;;;;;;;;x
+EGY_hms_government;The Egyptian Sultanate;;;;;;;;;;;;;x,
 EGY_democracy;The Republic of Egypt;;;;;;;;;;;;;x
 EGY_proletarian_dictatorship;The Nile Commune;;;;;;;;;;;;;x
-EGY_fascist_dictatorship;The Mamluk Caliphate;;;;;;;;;;;;;x
-EGY_hms_government;The Kingdom of Egypt;;;;;;;;;;;;;x,
+EGY_fascist_dictatorship;The Egyptian Empire;;;;;;;;;;;;;x
 EGY_colonial_company;Egypt;;;;;;;;;;;;;;x
 EGY_subject;The Khedivate of Egypt;;;;;;;;;;;;;;x
+EGY_theocracy;The Abbasid Caliphate;;;;;;;;;;;;;;x
+EGY_theocracy_ADJ;Abbasid;;;;;;;;;;;;;;x
 ALP_absolute_monarchy;The Alpine Empire;;;;;;;;;x;;;;;;;;
 ALP_prussian_constitutionalism;The Alpine Federation;;;;;;;;;;;;;x
 ALP_hms_government;The Alpine Federation;;;;;;;;;;;;;x,
@@ -921,8 +934,10 @@ BUK_absolute_monarchy_ADJ;Bukhanti;;;;;;;;;;;;;;;;x;;;;
 KOK_absolute_monarchy;Kokand;;;;;;;;;;;;;;;;;;x;;;;
 BDK;Badakhshan;;;;;;;;;;;;;;;;;;;;;;;;x
 BDK_ADJ;Badakhshani;;;;;;;;;;;;;;;;;;;;;;;;x
-COP;Kaami;;;;;;;;;;;;;;;;;;;;;;;;x
-COP_ADJ;Kaami;;;;;;;;;;;;;;;;;;;;;;;;x
+COP;Khemi;;;;;;;;;;;;;;;;;;;;;;;;x
+COP_ADJ;Khemid;;;;;;;;;;;;;;;;;;;;;;;;x
+COP_primitive_absolute_monarchy;Alexandria;;;;;;;;;;;;;;;;;;;;;;;;x
+COP_primitive_absolute_monarchy_ADJ;Alexandrian;;;;;;;;;;;;;;;;;;;;;;;;x
 ASI;Asir;;;;;;;;;;;;;;;;;;;;;;;;x
 ASI_ADJ;Asir;;;;;;;;;;;;;;;;;;;;;;;;x
 AGN;Aragon;;;;;;;;;;;;;;;;;;;;;;;;x
@@ -1109,8 +1124,8 @@ DAN_proletarian_dictatorship;The SR Vietnam;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 DAN_democracy;The Republic of Vietnam;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 KHM;Khmur;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 KHM_ADJ;Khmu;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-KHM_primitive_absolute_monarchy;Vientiane;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
-KHM_primitive_absolute_monarchy_ADJ;Vientiane;;;;;;;;;;;;;;;;;;;;;;x;;;;;;
+HMO;Hmongphidin;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HMO_ADJ;Hmong;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 FNJ;Funjistan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 FNJ_ADJ;Funj;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 FNJ_primitive_absolute_monarchy;Sennar Sultanate;;;;;;;;;;;;;;;;;;;;;;x;;;;;;

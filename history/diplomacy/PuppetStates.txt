@@ -1,3 +1,10 @@
+#Setif
+vassal = {
+	first = TUN
+	second = STF
+	start_date = 1815.1.1
+	end_date = 1838.1.1
+}
 #Punjab
 vassal = {
 	first = PNJ
@@ -520,18 +527,6 @@ vassal = {
 	end_date = 1936.1.1
 }
 
-#######################
-#        INDIA        #
-#######################
-
-# Maratha - Mughals/Delhi
-vassal = {
-	first = MAR
-	second = MUG
-	start_date = 1807.1.1
-	end_date = 1863.1.1
-}
-
 ##########################Colonies - Substates - France
 vassal = {
 	first = FRA
@@ -642,6 +637,14 @@ substate = {
 vassal = {
 	first = SIA
 	second = CHK
+	start_date = 1815.1.1
+	end_date = 1975.1.1
+}
+
+# Siam - Vientiane
+vassal = {
+	first = SIA
+	second = WIA
 	start_date = 1815.1.1
 	end_date = 1975.1.1
 }

@@ -115,7 +115,7 @@
 	farmers = {
 		culture = lao
 		religion = theravada
-		size = 7200
+		size = 14200
 	}
 	
 	farmers = {
@@ -151,7 +151,7 @@
 	farmers = {
 		culture = khmu
 		religion = theravada
-		size = 8875
+		size = 1875
 	}
 
 	farmers = {
@@ -243,7 +243,7 @@
 	farmers = {
 		culture = katuic
 		religion = theravada
-		size = 8600
+		size = 7600
 	}
 }
 #Salavan (168000/42000 POPS)   
@@ -350,7 +350,7 @@
 	farmers = {
 		culture = lao
 		religion = theravada
-		size = 1300
+		size = 5300
 	}
 
 	aristocrats = {
@@ -380,13 +380,13 @@
 	farmers = {
 		culture = yuan
 		religion = theravada
-		size = 5075
+		size = 4075
 	}
 	
 	farmers = {
 		culture = khmu
 		religion = theravada
-		size = 7275
+		size = 4275
 	}
 	
 	farmers = {
@@ -457,4 +457,124 @@
 		size = 6100
 	}
 
+}
+
+#Xiangkhoang (60000/15000 POPS)   
+3292 = {
+	aristocrats = {
+		culture = lao
+		religion = theravada
+		size = 200
+	}
+
+	clergymen = {
+		culture = lao
+		religion = theravada
+		size = 25
+	}
+
+	artisans = {
+		culture = lao
+		religion = theravada
+		size = 750
+	}
+
+	soldiers = {
+		culture = lao
+		religion = theravada
+		size = 125
+	}
+
+	farmers = {
+		culture = lao
+		religion = theravada
+		size = 2200
+	}
+	
+	aristocrats = {
+		culture = khmu
+		religion = theravada
+		size = 75
+	}
+
+	clergymen = {
+		culture = khmu
+		religion = theravada
+		size = 250
+	}
+	
+	artisans = {
+		culture = khmu
+		religion = theravada
+		size = 350
+	}
+
+	soldiers = {
+		culture = khmu
+		religion = theravada
+		size = 3000
+	}
+	
+	farmers = {
+		culture = khmu
+		religion = theravada
+		size = 9500
+	}
+}
+
+#Ban Nape (60000/15000 POPS)   
+3293 = {
+	aristocrats = {
+		culture = lao
+		religion = theravada
+		size = 75
+	}
+
+	clergymen = {
+		culture = lao
+		religion = theravada
+		size = 50
+	}
+
+	artisans = {
+		culture = lao
+		religion = theravada
+		size = 50
+	}
+
+	soldiers = {
+		culture = lao
+		religion = theravada
+		size = 125
+	}
+
+	farmers = {
+		culture = lao
+		religion = theravada
+		size = 600
+	}
+	
+	aristocrats = {
+		culture = miao
+		religion = theravada
+		size = 275
+	}
+
+	clergymen = {
+		culture = miao
+		religion = theravada
+		size = 150
+	}
+	
+	farmers = {
+		culture = miao
+		religion = theravada
+		size = 5400
+	}
+	
+	farmers = {
+		culture = katuic
+		religion = theravada
+		size = 4100
+	}
 }

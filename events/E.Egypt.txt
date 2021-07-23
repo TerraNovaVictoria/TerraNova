@@ -1,28 +1,273 @@
 country_event = {
 	id = 990000
-	title = "EVTNAME990000" #The Stagnation of Egypt
+	title = "EVTNAME990000" #The Golden Era of the Mamluks
 	desc = "EVTDESC990000"
-	picture = "arab_revolt"
+	picture = "evening_on_the_nile"
 	
 	trigger = {
 		tag = EGY
 		year = 1836
-		AND = {
-			EPI = { exists = yes }
-			EPI = { war_with = VEN }
-		}
 	}
 	
-	mean_time_to_happen = { days = 3 }
+	mean_time_to_happen = { days = 30 }
 	fire_only_once = yes
 		
 	option = {
 		name = "EVTOPT990000A"
 		any_pop = {
-			militancy = 2
-			consciousness = 2
+			scaled_consciousness = {
+				ideology = liberal
+				factor = 1
+			}
 		}
 		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 990001
+	title = "EVTNAME990001" #The Foreign Quarters
+	desc = "EVTDESC990001"
+	picture = "alexandria_foreign_quarters"
+	
+	trigger = {
+		tag = EGY
+		OR = {
+			year = 1840
+			western_shipyards = yes_western_shipyards
+		}
+		EGY = { civilized = no }
+		1751 = { NOT = { has_province_modifier = alexandrian_quarter } }
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT990001A"
+		1751 = { add_province_modifier = { name = legation_quarter duration = -1 } }
+		any_pop = {
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 2
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = 2
+			}
+		}
+		prestige = 5
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+		name = "EVTOPT990001B"
+		any_pop = {
+			scaled_consciousness = {
+				ideology = liberal
+				factor = 1
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = conservative
+				factor = -1
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = -1
+			}
+		}
+		prestige = -5
+		set_country_flag = no_quarters_mam
+		ai_chance = { factor = 10 }
+	}
+
+}
+
+country_event = {
+	id = 990002
+	title = "EVTNAME990002" #The Issue of Slavery
+	desc = "EVTDESC990002"
+	picture = "interview_with_the_sultan"
+	
+	trigger = {
+		tag = EGY
+		OR = {
+			admin_reform = yes_admin_reform
+			civilization_progress = 0.90
+		}
+		EGY = { civilized = no }
+		OR = {
+			slavery = yes_slavery
+			slavery = freedom_of_womb
+		}
+	}
+	
+	mean_time_to_happen = { days = 30 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT990002A"
+		political_reform = no_slavery
+		any_pop = {
+			scaled_consciousness = {
+				ideology = liberal
+				factor = -2
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 0.5
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = 0.5
+			}
+		}
+		prestige = 5
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+		name = "EVTOPT990002B"
+		any_pop = {
+			scaled_consciousness = {
+				ideology = liberal
+				factor = 2
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 2
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = conservative
+				factor = -0.5
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = -0.5
+			}
+		}
+		any_pop = {
+			limit = { culture = copt }
+			militancy = 4
+			consciousness = 4
+		}
+		set_country_flag = kept_slavery_mam
+		ai_chance = { factor = 10 }
+	}
+
+}
+
+country_event = {
+	id = 990003
+	title = "EVTNAME990003" #The Abbasid Coup
+	desc = "EVTDESC990003"
+	picture = "mamluk_massacre"
+	
+	trigger = {
+		tag = EGY
+		AND = {
+			has_country_flag = kept_slavery_mam
+			has_country_flag = no_quarters_mam
+		}
+	}
+	
+	mean_time_to_happen = { months = 3 }
+	fire_only_once = yes
+	
+	immediate = {
+		clr_country_flag = kept_slavery_mam
+		clr_country_flag = no_quarters_mam
+		government = theocracy
+	}
+	
+	option = {
+		name = "EVTOPT990003A"
+		1751 = { add_core = COP secede_province = COP }
+		1751 = { add_province_modifier = { name = alexandrian_port duration = -1 } }
+		any_pop = {
+			scaled_consciousness = {
+				ideology = liberal
+				factor = 4
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 4
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 2
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = -2
+			}
+		}
+		any_pop = {
+			limit = { culture = copt }
+			militancy = 8
+			consciousness = 8
+		}
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT990003B"
+		1751 = { add_core = COP secede_province = COP }
+		1751 = { add_province_modifier = { name = alexandrian_port duration = -1 } }
+		any_pop = {
+			scaled_consciousness = {
+				ideology = liberal
+				factor = 4
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = 4
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 2
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = -2
+			}
+		}
+		any_pop = {
+			limit = { culture = copt }
+			militancy = 8
+			consciousness = 8
+		}
+		change_tag_no_core_switch = COP
+		ai_chance = { factor = 0 }
 	}
 
 }

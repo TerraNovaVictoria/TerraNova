@@ -903,13 +903,13 @@
 	soldiers = {
 		culture = swahili
 		religion = sunni
-		size = 100
+		size = 3000
 	}
 
 	farmers = {
 		culture = swahili
 		religion = sunni
-		size = 5000
+		size = 14000
 	}
 }
 #Mossurize (136000/34000 POPS)

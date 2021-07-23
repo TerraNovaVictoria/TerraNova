@@ -1,5 +1,5 @@
-owner = ATJ
-controller = ATJ
+owner = EGY
+controller = EGY
 add_core = ATJ
 add_core = MLC
 trade_goods = fish

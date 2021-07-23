@@ -1,8 +1,8 @@
-owner = SIA
-controller = SIA
-add_core = SIA
+owner = KTU
+controller = KTU
+add_core = KTU
 add_core = CHK
-add_core = KHM
+add_core = WIA
 add_core = LUA
 trade_goods = tobacco
 life_rating = 32

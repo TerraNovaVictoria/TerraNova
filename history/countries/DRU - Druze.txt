@@ -1,10 +1,11 @@
 capital = 906
-primary_culture = druze
+primary_culture = bedouin
 religion = druze
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.08
+is_releasable_vassal = no
 
 # Political reforms
 slavery = no_slavery
