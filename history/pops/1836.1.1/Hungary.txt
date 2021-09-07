@@ -481,7 +481,13 @@
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 4545
+		size = 16545
+	}
+	
+	farmers = {
+		culture = slovene
+		religion = catholic
+		size = 5835 
 	}
 
 	officers = {
@@ -514,11 +520,6 @@
 		size = 200 
 	}
 	
-	farmers = {
-		culture = slovene
-		religion = catholic
-		size = 16835 
-	}
 }
 #Dunautul Region (1892000)  
 #under the rule of Austria in 1836  

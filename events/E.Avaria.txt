@@ -172,3 +172,28 @@ country_event = {
 	}
 
 }
+
+country_event = {
+	id = 712406
+	title = "EVTNAME712406" #The Avarian Duchy
+	desc = "EVTDESC712406"
+	picture = "warkin_city"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = { government = subject_cosmetic }
+	
+	option = {
+		name = "EVTOPT712406A"
+		capital = 641
+		641 = { add_province_modifier = { name = founding_a_new_city duration = 1095 } }
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT712406B"
+		ai_chance = { factor = 0 }
+	}
+
+}

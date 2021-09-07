@@ -1,5 +1,6 @@
 color = { 215 20 26 }
 subject = { 181  159  60 }
+subject_cosmetic = { 181  159  60 }
 graphical_culture = EuropeanGC
 
 party = {

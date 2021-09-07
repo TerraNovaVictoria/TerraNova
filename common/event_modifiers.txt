@@ -321,6 +321,12 @@ a_new_capitol_gco = {
 	icon = 19
 }
 
+founding_a_new_city = {
+	immigrant_attract = 2
+	population_growth = 0.004
+	icon = 19
+}
+
 rising_knighthood = {
 	pop_militancy_modifier = 0.01
 	icon = 7

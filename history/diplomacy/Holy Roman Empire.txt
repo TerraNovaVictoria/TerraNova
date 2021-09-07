@@ -187,7 +187,7 @@ vassal = {
 #Limburg
 vassal = {
 	first = BAV
-	second = LBG
+	second = GLD
 	start_date = 1815.1.1
 	end_date = 1936.1.1
 }

@@ -1,4 +1,6 @@
 ;;;;;;;;;;;;;;x,,,
+GLD;Gelre;;;;;;;;;;;;;;;;;;x;;;;
+GLD_ADJ;Gelren;;;;;;;;;;;;;;;;;;x;;;;
 KTU;Katua;;;;;;;;;;;;;;;;;;x;;;;
 KTU_ADJ;Katu;;;;;;;;;;;;;;;;;;x;;;;
 STF;Setif;;;;;;;;;;;;;;;;;;x;;;;
@@ -1222,6 +1224,8 @@ AVR;Avaria;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 AVR_ADJ;Avarian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 AVR_subject;Višegrad;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 AVR_subject_ADJ;Višegrader;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AVR_subject_comsmetic;Pannonia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+AVR_subject_comsmetic_ADJ;Pannonian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 AVR_proletarian_dictatorship;Avar Council;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 AVR_presidential_dictatorship;Republic of Avaria;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 AVR_bourgeois_dictatorship;Republic of Avaria;;;;;;;;;;;;;;;;;;;;;;;x;;;;

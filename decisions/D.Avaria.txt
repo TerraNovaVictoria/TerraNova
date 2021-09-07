@@ -32,6 +32,27 @@ political_decisions = {
 		ai_will_do = { factor = 1 }
 	}
 	
+	#The Pannonian Duchy
+	avaria_claims_pannonian_duchy = {
+		picture = avar_coa
+		potential = {
+			tag = AVR
+			government = subject
+			639 = { owned_by = THIS }
+		}
+		
+		allow = {
+			war = no
+			641 = { owned_by = THIS }
+		}
+		
+		effect = {
+			THIS = { country_event = 712406 }
+		}
+
+		ai_will_do = { factor = 1 }
+	}
+	
 	#Claim greater Slovenia
 	claim_greater_slovenia = {
 		picture = avar_propaganda

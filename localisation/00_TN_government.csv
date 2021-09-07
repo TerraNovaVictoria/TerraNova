@@ -3,6 +3,8 @@ colonial_company;Colonial Company;;;;;;;;;x;;;;;;;;
 colonial_company_ruler;My Lord;;;;;;;;;;;;x
 subject;Autonomous Territory;;;;;;;;;x;;;;;;;;
 subject_ruler;My Lord;;;;;;;;;;;;x
+subject_cosmetic;Autonomous Territory;;;;;;;;;x;;;;;;;;
+subject_cosmetic_ruler;My Lord;;;;;;;;;;;;x
 provisional_state;Republic;;;;;;;;;x;;;;;;;;
 provisional_state_ruler;My President;;;;;;;;;;;;x
 ancient_regime;Absolute Monarchy;;;;;;;;;x;;;;;;;;

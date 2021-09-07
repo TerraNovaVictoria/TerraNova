@@ -53,41 +53,70 @@ political_decisions = {
 		}
 	}
 	
+	end_the_ionian_revolt = { 
+		picture = claim_pontus
+		potential = {
+			tag = ANA
+			ANT = { NOT = { number_of_states = 6 } }
+			OR = {
+				882 = { owned_by = THIS }
+				882 = { controlled_by = THIS }
+			}
+		}
+		
+		allow = {
+			OR = {
+				ANT = { war_exhaustion = 40 }
+				860 = { controlled_by = THIS }
+			}
+		}
+		
+		effect = {
+			prestige = 5
+			ANT = { annex_to = ANA }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	ana_sultan_reforms = {
 			picture = abdulmejid_i
 			potential = {
 				tag = ANA
 				NOT = { exists = ANT }
 				government = ancient_regime
-				war = no
 			}
 		
 			allow = {
 				capital = 860
+				war = no
 			}
 		
 			effect = {
-				SER = {
-					limit = { vassal_of = ANA } 
-					annex_to = ANA 
+				if = {
+					limit = { SER = { vassal_of = ANA }  }
+					SER = { annex_to = ANA }
 				}
-				HER = {
-					limit = { vassal_of = ANA } 
-					annex_to = ANA 
+				if = {
+					limit = { HER = { vassal_of = ANA }  }
+					HER = { annex_to = ANA }
 				}
-				IRQ = {
-					limit = { vassal_of = ANA }
-					annex_to = ANA 
-					all_core = { add_core = ANA }	
-					SYR = { all_core = { remove_core = IRQ } }	
-					ARM = { all_core = { remove_core = IRQ } }
-					2414 = { remove_core = IRQ }
-					892 = { remove_core = IRQ }
-					1110 = { remove_core = IRQ }					
+				if = {
+					limit = { IRQ = { vassal_of = ANA }  }
+					IRQ = { annex_to = ANA }
+					IRQ = { all_core = { add_core = ANA } }
+					SYR = { all_core = { remove_core = IRQ } }					
 				}
-				WAL =  { government = ancient_regime }
+				ANT = { all_core = { remove_core = ANT } }
+				if = {
+					limit = { WAL = { vassal_of = ANA }  }
+					WAL =  { government = ancient_regime }
+				}
 				government = absolute_monarchy
 				primary_culture = anatoli
+				remove_accepted_culture = uighur
 				prestige = 15
 			}
 			ai_will_do = { factor = 1 }

@@ -1,6 +1,7 @@
 owner = DUI
 controller = DUI
 add_core = DUI
+add_core = GLD
 add_core = NET
 add_core = GER
 trade_goods = cattle

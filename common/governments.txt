@@ -49,6 +49,16 @@ subject = {
 	appoint_ruling_party = yes
 }
 
+subject_cosmetic = {
+	#which ideology of parties.
+	liberal = yes
+	conservative = yes
+	
+	election = no
+	appoint_ruling_party = yes
+	flagType = republic
+}
+
 colonial_company = {
 	#which ideology of parties.
 	liberal = yes
