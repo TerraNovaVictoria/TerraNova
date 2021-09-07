@@ -47,25 +47,25 @@
 	artisans = {
 		culture = welsh
 		religion = protestant
-		size = 500
+		size = 5500
 	}
 
 	soldiers = {
 		culture = welsh
 		religion = protestant
-		size = 50
+		size = 3050
 	}
 	
 	farmers = {
 		culture = welsh
 		religion = protestant
-		size = 20375
+		size = 38375
 	}
 
 	farmers = {
 		culture = british
 		religion = catholic
-		size = 35350
+		size = 15350
 	}
 }
 #La Vega (56000/15000 POPS) #now part of Dominican Republic
@@ -97,7 +97,7 @@
 	farmers = {
 		culture = british
 		religion = catholic
-		size = 30175
+		size = 18175
 	}
 
 	clergymen = {
@@ -109,7 +109,7 @@
 	artisans = {
 		culture = welsh
 		religion = protestant
-		size = 300
+		size = 5300
 	}
 
 	soldiers = {
@@ -117,11 +117,17 @@
 		religion = protestant
 		size = 75
 	}
+	
+	farmers = {
+		culture = british
+		religion = catholic
+		size = 8175
+	}
 
 	slaves = {
 		culture = afro_celtic
 		religion = protestant
-		size = 19575
+		size = 22575
 	}
 
 }

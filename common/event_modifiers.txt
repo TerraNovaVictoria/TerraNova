@@ -103,6 +103,12 @@ anti_colonial_sentiment = {
 	icon = 16
 }
 
+increased_ethnic_violence = {
+	non_accepted_pop_consciousness_modifier = 0.2
+	non_accepted_pop_militancy_modifier = 0.2
+	icon = 16
+}
+
 exile_brc_government = {
 	prestige = -1
 	global_pop_consciousness_modifier = 0.01

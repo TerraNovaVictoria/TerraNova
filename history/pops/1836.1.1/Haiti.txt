@@ -34,32 +34,26 @@
 	
 	farmers = {
 		culture = welsh
-		religion = catholic
+		religion = protestant
 		size = 5300
 	}
 	
 	slaves = {
 		culture = afro_celtic
 		religion = protestant
-		size = 8300
+		size = 32300
 	}
 	
 	farmers = {
 		culture = anglander
 		religion = catholic
-		size = 8800
-	}
-	
-	farmers = {
-		culture = gaelic
-		religion = protestant
-		size = 15300
+		size = 1800
 	}
 
 	farmers = {
 		culture = british
 		religion = catholic
-		size = 35000
+		size = 33000
 	}
 }
 #Cap Haitien (204000/51000 POPS)

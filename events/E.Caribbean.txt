@@ -1,0 +1,147 @@
+country_event = {
+	id = 179200
+	title = "EVTNAME179200" #A "White Man's Paradise"
+	desc = "EVTDESC179200"
+	picture = "tainodyn"
+	
+	trigger = {
+		tag = TDY
+		year = 1836
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT179200A"
+		set_country_flag = setup_done_tdy
+		badboy = 10
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 179201
+	title = "EVTNAME179201" #Status of the Welsh
+	desc = "EVTDESC179201"
+	picture = "white_mob"
+	
+	trigger = {
+		tag = TDY
+		NOT = { accepted_culture = welsh }
+		has_country_flag = setup_done_tdy
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	fire_only_once = yes
+	
+	immediate = { clr_country_flag = setup_done_tdy }
+	
+	option = {
+		name = "EVTOPT179201A"
+		add_accepted_culture = welsh
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPT179201B"
+		any_pop = {
+			limit = { has_pop_culture = welsh }
+			militancy = 6
+			consciousness = 6
+		}
+		2213 = {
+			add_province_modifier = { name = increased_ethnic_violence duration = -1 }
+		}
+		2214 = {
+			add_province_modifier = { name = increased_ethnic_violence duration = -1 }
+		}
+		2215 = {
+			add_province_modifier = { name = increased_ethnic_violence duration = -1 }
+		}
+		2216 = {
+			add_province_modifier = { name = increased_ethnic_violence duration = -1 }
+		}
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = {
+	id = 179202
+	title = "EVTNAME179202" #Violence in Whalesten
+	desc = "EVTDESC179202"
+	picture = "white_mob"
+	
+	trigger = {
+		tag = TDY
+		NOT = { accepted_culture = welsh }
+		2214 = {
+			has_province_modifier = increased_ethnic_violence
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	fire_only_once = yes
+	
+	immediate = { 
+		any_owned = {
+			limit = { has_province_modifier = increased_ethnic_violence }
+			remove_province_modifier = increased_ethnic_violence
+		}
+	}
+		
+	
+	option = {
+		name = "EVTOPT179202A"
+		any_pop = {
+			limit = {
+				has_pop_culture = welsh
+				location = {
+					OR = {
+						province_id = 2214
+						province_id = 2216
+						province_id = 2213
+						province_id = 2215
+					}
+				}
+			}
+			reduce_pop = 0.1
+		}
+		remove_accepted_culture = anglander
+		badboy = 15
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPT179202B"
+		any_pop = {
+			limit = {
+				has_pop_culture = welsh
+				location = {
+					province_id = 2214
+				}
+			}
+			reduce_pop = 0.8
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = british
+				location = {
+					province_id = 2214
+				}
+			}
+			reduce_pop = 0.8
+		}
+		primary_culture = anglander
+		ai_chance = { factor = 50 }
+	}
+}
