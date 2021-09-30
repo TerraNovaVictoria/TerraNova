@@ -573,7 +573,7 @@
 	farmers = {
 		culture = slovenian
 		religion = catholic
-		size = 5875 
+		size = 15875 
 	}
 
 	clergymen = {
@@ -597,7 +597,7 @@
 	farmers = {
 		culture = avari
 		religion = protestant
-		size = 34762
+		size = 24762
 	}
 
 	clergymen = {

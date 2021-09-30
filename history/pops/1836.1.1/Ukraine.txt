@@ -1227,7 +1227,7 @@
 	farmers = {
 		culture = ruthenian
 		religion = orthodox
-		size = 43775
+		size = 23775
 	}
 	
 	serfs = {
@@ -1263,7 +1263,7 @@
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 10375
+		size = 34375
 	}
 
 	clergymen = {
@@ -1503,7 +1503,7 @@
 	farmers = {
 		culture = ruthenian
 		religion = orthodox
-		size = 34900
+		size = 20900
 	}
 	
 	serfs = {
@@ -1539,7 +1539,7 @@
 	farmers = {
 		culture = polish
 		religion = catholic
-		size = 150
+		size = 20150
 	}
 	
 	aristocrats = {

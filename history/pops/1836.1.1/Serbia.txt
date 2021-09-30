@@ -493,13 +493,13 @@
 	farmers = {
 		culture = avari
 		religion = protestant
-		size = 11500
+		size = 14500
 	}
 	
 	farmers = {
 		culture = cuman
 		religion = catholic
-		size = 12110
+		size = 3110
 	}
 	
 	farmers = {

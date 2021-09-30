@@ -1,6 +1,5 @@
 capital = 644
 primary_culture = ruthenian
-culture = avari
 religion = catholic
 government = subject
 plurality = 0.1

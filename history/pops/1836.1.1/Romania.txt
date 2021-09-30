@@ -36,7 +36,7 @@
 	farmers = {
 		culture = avari
 		religion = catholic
-		size = 5000
+		size = 500
 	}
 
 	aristocrats = {
@@ -66,13 +66,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 10500
-	}
-	
-	farmers = {
-		culture = avari
-		religion = protestant
-		size = 3000
+		size = 17900
 	}
 	
 	farmers = {
@@ -258,7 +252,7 @@
 	serfs = {
 		culture = romanian
 		religion = orthodox
-		size = 32450  
+		size = 52450  
 	}
 	
 	serfs = {
@@ -294,7 +288,7 @@
 	farmers = {
 		culture = avari
 		religion = protestant
-		size = 35475 
+		size = 15475 
 	}
 
 	aristocrats = {
