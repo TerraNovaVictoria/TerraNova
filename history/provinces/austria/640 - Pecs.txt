@@ -1,6 +1,6 @@
 owner = PAN
 controller = PAN
-add_core = AVR
 add_core = PAN
+add_core = FNS
 trade_goods = cattle
 life_rating = 35

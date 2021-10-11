@@ -39,25 +39,25 @@
 	}
 
 	clergymen = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 450
 	}
 
 	artisans = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 1600
 	}
 
 	soldiers = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 450 
 	}
 
 	farmers = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 15500
 	}
@@ -69,7 +69,7 @@
 	}
 	
 	serfs = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 20000
 	}
@@ -110,19 +110,19 @@
 	}
 
 	soldiers = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 1100
 	}
 
 	farmers = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 53150
 	}
 	
 	serfs = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 20000
 	}
@@ -149,13 +149,13 @@
 	}
 
 	soldiers = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 425
 	}
 
 	farmers = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 39075
 	}
@@ -183,44 +183,44 @@
 #Greiz (208000/52000 POPS)
 3255 = {
 	aristocrats = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 600 
 	}
 
 	bureaucrats = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 145
 	}
 
 	officers = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 25 
 	}
 
 	clergymen = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 350 
 	}
 
 	artisans = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 1000
 	}
 
 	soldiers = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 500
 
 	}
 
 	farmers = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 13350
 	}

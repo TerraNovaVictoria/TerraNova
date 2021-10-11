@@ -1,6 +1,7 @@
 owner = AVR
 controller = AVR
 add_core = AVR
+add_core = PAN
 add_core = VOJ
 trade_goods = wool
 life_rating = 35

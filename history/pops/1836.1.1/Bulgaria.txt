@@ -300,7 +300,13 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 16125
+		size = 6125
+	}
+	
+	farmers = {
+		culture = turkmen
+		religion = shiite
+		size = 4000
 	}
 
 	soldiers = {
@@ -324,7 +330,7 @@
 	farmers = {
 		culture = bulgarian
 		religion = orthodox
-		size = 21150
+		size = 24150
 	}
 	
 	soldiers = {
@@ -428,33 +434,39 @@
 #Shumen (144000/36000 POPS)
 813 = {
 	aristocrats = {
-		culture = bulgarian
-		religion = orthodox
+		culture = anatoli
+		religion = shiite
 		size = 650
 	}
 
 	clergymen = {
-		culture = bulgarian
-		religion = orthodox
+		culture = anatoli
+		religion = shiite
 		size = 125
 	}
 
 	artisans = {
-		culture = bulgarian
-		religion = orthodox
+		culture = anatoli
+		religion = shiite
 		size = 950
 	}
 
 	soldiers = {
-		culture = bulgarian
-		religion = orthodox
+		culture = anatoli
+		religion = shiite
 		size = 1100
+	}
+	
+	farmers = {
+		culture = anatoli
+		religion = shiite
+		size = 1500
 	}
 
 	farmers = {
-		culture = bulgarian
-		religion = orthodox
-		size = 5275
+		culture = turkmen
+		religion = shiite
+		size = 3275
 	}
 
 	farmers = {

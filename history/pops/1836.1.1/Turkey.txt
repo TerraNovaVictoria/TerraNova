@@ -733,7 +733,13 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 60250
+		size = 37000
+	}
+	
+	farmers = {
+		culture = turkmen
+		religion = shiite
+		size = 25250
 	}
 	
 	soldiers = {
@@ -781,7 +787,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 6375
+		size = 1375
 	}
 
 	slaves = {
@@ -1241,7 +1247,13 @@
 	farmers = {
 		culture = turkmen
 		religion = shiite
-		size = 10725
+		size = 6000
+	}
+	
+	farmers = {
+		culture = uighur
+		religion = shiite
+		size = 4725
 	}
 	
 	soldiers = {
@@ -1309,13 +1321,13 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 15550
+		size = 11550
 	}
 	
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 14550
+		size = 18550
 	}
 	
 	soldiers = {
@@ -2051,7 +2063,7 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 25500
+		size = 35500
 	}
 	
 	farmers = {
@@ -2069,7 +2081,7 @@
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 18125
+		size = 8125
 	}
 	
 	farmers = {
@@ -2283,7 +2295,7 @@
 	farmers = {
 		culture = greek
 		religion = orthodox
-		size = 34225
+		size = 24225
 	}
 	
 	farmers = {
@@ -2295,7 +2307,7 @@
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 6000
+		size = 16000
 	}
 	
 	soldiers = {

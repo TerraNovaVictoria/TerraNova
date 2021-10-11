@@ -30,19 +30,13 @@
 	farmers = {
 		culture = avari
 		religion = protestant
-		size = 6100
-	}
-	
-	farmers = {
-		culture = shtokavian
-		religion = catholic
-		size = 6100
+		size = 4100
 	}
 	
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 5000
+		size = 11500
 	}
 
 	aristocrats = {

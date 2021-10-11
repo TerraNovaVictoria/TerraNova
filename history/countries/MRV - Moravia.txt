@@ -2,7 +2,6 @@ capital = 619
 primary_culture = czech
 culture = slovenian
 culture = avari
-culture = slovene
 religion = catholic
 government = ancient_regime
 plurality = 0.0

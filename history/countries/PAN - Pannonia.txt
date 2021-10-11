@@ -1,6 +1,5 @@
 capital = 639
-primary_culture = avari
-culture = north_german
+primary_culture = shtokavian
 religion = catholic
 government = subject
 plurality = 0.25

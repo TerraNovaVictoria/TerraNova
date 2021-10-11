@@ -347,7 +347,13 @@
 	farmers = {
 		culture = shtokavian
 		religion = orthodox
-		size = 19125
+		size = 13125
+	}
+	
+	farmers = {
+		culture = avari
+		religion = protestant
+		size = 4200
 	}
 	
 	soldiers = {
@@ -357,19 +363,19 @@
 	}
 
 	clergymen = {
-		culture = shtokavian
+		culture = north_german
 		religion = catholic
 		size = 100
 	}
 
 	artisans = {
-		culture = shtokavian
+		culture = north_german
 		religion = catholic
 		size = 250
 	}
 
 	farmers = {
-		culture = shtokavian
+		culture = north_german
 		religion = catholic
 		size = 5675
 	}

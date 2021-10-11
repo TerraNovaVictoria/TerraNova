@@ -1,5 +1,5 @@
 capital = 768
-primary_culture = slovene
+primary_culture = shtokavian
 religion = catholic
 government = subject
 plurality = 0.05

@@ -263,25 +263,25 @@
 	}
 
 	clergymen = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 175 
 	}
 
 	artisans = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 950
 	}
 
 	soldiers = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 1200
 	}
 
 	farmers = {
-		culture = slovene
+		culture = shtokavian
 		religion = catholic
 		size = 6675 
 	}

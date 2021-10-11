@@ -1,5 +1,6 @@
-owner = BRN
-controller = BRN
+owner = HNL
+controller = HNL
+add_core = HNL
 add_core = BRN
 add_core = POM
 add_core = PML

@@ -185,7 +185,7 @@ DEN_372 = { 372 373 } #Sjaelland
 
 NET_375 = { 376 377 375 378 } #Holland
 
-NET_376 = { 381 391 } #Limburg
+NET_376 = { 381 391 577 } #Limburg
 
 NET_377 = { 397 398 } #Luxembourg
 
@@ -240,7 +240,7 @@ FRA_458 = { 458 459 460 } #Aquitaine
 
 FRA_461 = { 461 463 464 449 } #Languedoc
 
-SAR_466 = { 465 466 472} #Savoie
+SAR_466 = { } #Savoie
 
 FRA_467 = { 467 468 469 470 471 } #Provence
 
@@ -304,7 +304,7 @@ HES_2560 = { 564 565 566 567 568 2560 3257 3270 } #Hessen
 
 PRU_570 = { 570 573 574 571 } #Palatinate
 
-PRU_575 = { 575 576 577 572 396 } #Rheinland
+PRU_575 = { 575 576 572 396 } #Rheinland
 
 PRU_578 = { 578 579 2561 3265 } #Eastern Rheinland
 
@@ -343,7 +343,7 @@ AUS_613 = { 616 617 618 } #Kärnten-Steiermark
 
 AUS_619 = { 619 620 621 622 624 } #Österreich
 
-AUS_623 = { 623 639 640 642 643 644 971 } #Transdanubia
+AUS_623 = { 623 639 640 642 643 644 971 3255 } #Transdanubia
 
 AUS_625 = { 625 626 627 628 629 630 3280 3284 3285 } #Bohemia
 
@@ -381,9 +381,9 @@ AUS_734 = { 734 735 } #South Tirol
 
 AUS_736 = { 769 770 778 736 737 } #Istria
 
-AUS_768 = { 767 768 3255 3288 } #Slovenia
+AUS_768 = { 767 768 } #Slovenia
 
-AUS_771 = { 771 772 775 776 } #Croatia
+AUS_771 = { 771 772 775 776 3288 } #Croatia
 
 AUS_777 = { 779 793 777 791 } #Slavonia
 
@@ -394,7 +394,9 @@ AUS_2538 = { 648 649 650 } #Vojvodina
 
 ### Italy
 
-SAR_720 = { 720 721 722 723 724 725 } #Piemonte
+SAR_720 = { 720 721 722 723 466 465 } #Piemonte
+
+LIG_721 = { 472 724 725 } #Liguria
 
 #MOD_739 = { 739 738 740 } #Emilia
 

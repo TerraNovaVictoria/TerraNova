@@ -40,14 +40,6 @@ colonial_policy = no_colonies
 
 set_country_flag = catholic_country
 
-decision = AUS_setup_1836
-decision = slovene_rename_aus
-decision = banat_rename_aus
-decision = sudetes_rename_aus
-decision = east_galicia_rename_german
-decision = silesia_rename_german
-decision = german_tyrol
-
 ruling_party = AUS_conservative
 upper_house = {
 	fascist = 0

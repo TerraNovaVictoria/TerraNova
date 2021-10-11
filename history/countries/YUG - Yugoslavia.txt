@@ -1,7 +1,6 @@
 capital = 794
 primary_culture = shtokavian
-culture = slovene
-religion = orthodox
+religion = catholic
 government = hms_government
 plurality = 25.0
 nationalvalue = nv_autocracy

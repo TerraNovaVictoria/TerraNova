@@ -1,5 +1,5 @@
 capital = 654
-primary_culture = avari
+primary_culture = romanian
 culture = ossetian
 religion = catholic
 government = subject
