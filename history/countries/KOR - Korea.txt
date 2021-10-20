@@ -1,8 +1,7 @@
 capital = 1624
-primary_culture = beifaren
-culture = korean
+primary_culture = korean
 religion = mahayana
-government = subject
+government = dominion
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.03

@@ -3680,6 +3680,12 @@ china_acquire_state = {
 		}
 		THIS = {
 			NOT = { tag = LAN }
+			NOT = { tag = ZHO }
+			NOT = { tag = YUE }
+			NOT = { tag = QNG }
+			NOT = { tag = KOR }
+			NOT = { tag = HUI }
+			NOT = { tag = MIN }
 			is_culture_group = east_asian
 			NOT = {
 				has_country_modifier = neutrality

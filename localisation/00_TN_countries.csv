@@ -591,7 +591,8 @@ HRE_democracy;The Central European Republic;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 HRE_presidential_dictatorship;The Central European Republic;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 KOR;Korea;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 KOR_absolute_monarchy;The Korean Empire;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
-KOR_subject;Xinjin;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+KOR_primitive_absolute_monarchy;The Joseon Dynasty;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
+KOR_dominion;The Joseon Dynasty;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;x
 BLT;Baltia;;;;;;;;;;;;;x
 BLT_ADJ;Baltic;;;;;;;;;;;;;x
 NST;Nakhon Si Thammarat;;;;;;;;;;;;;x

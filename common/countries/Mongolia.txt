@@ -1,4 +1,5 @@
 color = { 106 163 198 }
+subject = { 163 99 99 }
 graphical_culture = AsianGC
 
 party = {

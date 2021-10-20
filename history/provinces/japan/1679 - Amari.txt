@@ -2,6 +2,7 @@ owner = HNL
 controller = HNL
 add_core = RYU
 add_core = JAP
+add_core = TAI
 trade_goods = iron
 life_rating = 35
 terrain = small_island
