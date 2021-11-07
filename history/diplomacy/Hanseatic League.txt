@@ -13,6 +13,14 @@ vassal = {
 	end_date = 1936.1.1
 }
 
+#Mecklenburg
+vassal = {
+	first = HNL
+	second = MEC
+	start_date = 1715.1.1
+	end_date = 1936.1.1
+}
+
 #Clevia
 vassal = {
 	first = HNL

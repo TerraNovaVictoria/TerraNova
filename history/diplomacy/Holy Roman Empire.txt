@@ -24,10 +24,10 @@ vassal = {
 	end_date = 1936.1.1
 }
 
-#Mecklenburg
+#Saarland
 vassal = {
 	first = BAV
-	second = MEC
+	second = SAA
 	start_date = 1715.1.1
 	end_date = 1936.1.1
 }
@@ -244,14 +244,6 @@ vassal = {
 vassal = {
 	first = BAV
 	second = WES
-	start_date = 1815.1.1
-	end_date = 1936.1.1
-}
-
-#Dortmund
-vassal = {
-	first = BAV
-	second = DOR
 	start_date = 1815.1.1
 	end_date = 1936.1.1
 }

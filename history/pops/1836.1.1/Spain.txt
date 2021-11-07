@@ -224,13 +224,13 @@
 	farmers = {
 		culture = leonese
 		religion = catholic
-		size = 13700
+		size = 3700
 	}
 	
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 22900
+		size = 32900
 		militancy = 4
 	}
 
@@ -284,13 +284,13 @@
 	farmers = {
 		culture = leonese
 		religion = catholic
-		size = 25000
+		size = 17000
 	}
 	
 	farmers = {
 		culture = spanish
 		religion = catholic
-		size = 24675
+		size = 32675
 	}
 
 	clergymen = {
@@ -1078,13 +1078,13 @@
 	farmers = {
 		culture = leonese
 		religion = catholic
-		size = 17000
+		size = 29000
 	}
 
 	farmers = {
 		culture = aragonese
 		religion = catholic
-		size = 39100
+		size = 27100
 	}
 
 	clergymen = {
@@ -1734,7 +1734,7 @@
 	farmers = {
 		culture = leonese
 		religion = catholic
-		size = 21650
+		size = 11650
 	}
 
 	aristocrats = {
@@ -1764,7 +1764,7 @@
 	farmers = {
 		culture = catalan
 		religion = catholic
-		size = 26275
+		size = 36275
 	}
 }
 #Alicante (384000/96000 POPS)

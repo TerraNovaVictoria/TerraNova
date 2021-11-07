@@ -1,12 +1,13 @@
 capital = 530
 primary_culture = north_german
 religion = protestant
-government = democracy
+government = provisional_state
 plurality = 25.0
-nationalvalue = nv_order
-literacy = 0.92
+nationalvalue = nv_liberty
+literacy = 0.89
+non_state_culture_literacy = 0.05
 civilized = yes
-prestige = 0
+prestige = 5
 
 
 # Political reforms
@@ -40,6 +41,11 @@ colonial_policy = no_colonies
 
 set_country_flag = protestant_country
 
+govt_flag = {
+	government = presidential_dictatorship
+	flag = theocracy
+}
+
 ruling_party = HAM_conservative_2
 upper_house = {
 	fascist = 0
@@ -54,9 +60,12 @@ upper_house = {
 foreign_investment = {
 	OLD = 20000
 	SAX = 7500
-	HAN = 15000
-	UBD = 10000
+	UBD = 15000
+	PRU = 15000
+	BRN = 10000
 }
+
+decision = HNL_1836_setup
 
 oob = "HNL_oob.txt"
 

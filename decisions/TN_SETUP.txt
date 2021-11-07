@@ -62,4 +62,45 @@ political_decisions = {
 		}
 	}
 	
+	TUN_1836_setup = {
+		picture = constantinople
+		potential = {
+			tag = TUN
+			always = no
+		}
+		
+		allow = {
+			tag = TUN
+		}
+		
+		effect = {
+			add_country_modifier = { name = golden_century_tun duration = -1 }
+		}
+	}
+	
+	HNL_1836_setup = {
+		picture = constantinople
+		potential = {
+			tag = HNL
+			always = no
+		}
+		
+		allow = {
+			tag = HNL
+		}
+		
+		effect = {
+			add_country_modifier = { name = kontor_wealth duration = -1 }
+			388 = { add_province_modifier = { name = hanseatic_kontor duration = -1 } }
+			300 = { add_province_modifier = { name = hanseatic_kontor duration = -1 } }
+			1003 = { add_province_modifier = { name = hanseatic_kontor duration = -1 } }
+			309 = { add_province_modifier = { name = hanseatic_kontor duration = -1 } }
+			2213 = { add_province_modifier = { name = hanseatic_kontor duration = -1 } }
+			2087 = { add_province_modifier = { name = hanseatic_kontor duration = -1 } }
+			1496 = { add_province_modifier = { name = hanseatic_kontor duration = -1 } }
+			1538 = { add_province_modifier = { name = hanseatic_kontor duration = -1 } }
+			1661 = { add_province_modifier = { name = hanseatic_kontor duration = -1 } }
+		}
+	}
+	
 }

@@ -1,11 +1,12 @@
-capital = 60
-primary_culture = midgard
+capital = 232
+primary_culture = colonial_german
+culture = german_american
 religion = protestant
 government = colonial_company
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.70
-non_state_culture_literacy = 0.05
+non_state_culture_literacy = 0.33
 civilized = yes
 is_releasable_vassal = no
 

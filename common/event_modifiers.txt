@@ -140,6 +140,34 @@ weak_central_government = {
 	icon = 16
 }
 
+golden_century_tun = {
+	global_pop_consciousness_modifier = 0.05
+	prestige = 0.05
+	tax_efficiency = 0.1
+	icon = 9
+}
+
+golden_century_egy = {
+	prestige = 0.05
+	icon = 9
+}
+
+hanseatic_kontor = {
+	pop_consciousness_modifier = 0.05
+	local_artisan_output = 0.1
+	local_artisan_input = 0.1
+	local_factory_output = 0.1
+	local_factory_input = 0.1
+	tax_efficiency = -0.05
+	icon = 9
+}
+
+kontor_wealth = {
+	prestige = 0.05
+	tax_efficiency = 0.15
+	icon = 9
+}
+
 ##Disasters
 earthquake_devastation = {
 	local_artisan_output = -0.5

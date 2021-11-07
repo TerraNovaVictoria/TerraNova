@@ -83,7 +83,7 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 20375
+		size = 14375
 	}
 
 }

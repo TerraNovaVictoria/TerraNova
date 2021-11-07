@@ -1,7 +1,7 @@
 capital = 2128
-primary_culture = british
+primary_culture = pan_italian
 culture = kreol
-religion = protestant
+religion = catholic
 government = colonial_company
 plurality = 0.0
 nationalvalue = nv_order

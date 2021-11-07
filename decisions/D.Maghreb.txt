@@ -1,7 +1,7 @@
 political_decisions = {
 
 	form_maghreb = { 
-		picture = greater_iran
+		picture = hafsid_flag
 		potential = {
 			NOT = { exists = MGH }
 			OR = {

@@ -17,6 +17,8 @@ VIC 	="countries/Nationalist France.txt"
 BOR		="countries/The Kingdom of France.txt"
 
 ##Terra Nova Nations
+LON 	= "countries/Leon.txt"
+CAS 	= "countries/Castile.txt"
 FNS 	= "countries/Funfstadte.txt"
 KTU 	= "countries/Katua.txt"
 HMO 	= "countries/Hmong.txt"

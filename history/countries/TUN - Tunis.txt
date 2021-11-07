@@ -1,14 +1,14 @@
 capital = 1725
 primary_culture = maghrebi
 religion = sunni
-government = absolute_monarchy
-plurality = 0.0
+government = primitive_absolute_monarchy
+plurality = 0.15
 nationalvalue = nv_tradition
-literacy = 0.01
+literacy = 0.04
 non_state_culture_literacy = 0.01
 
 # Political reforms
-slavery = yes_slavery
+slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = none_voting
 public_meetings = no_meeting
@@ -33,7 +33,7 @@ penal_system = capital_punishment
 child_labor = child_labor_legal
 citizens_rights = primary_culture_only
 border_policy = open_borders
-centralization = unitary
+centralization = regionalism
 colonial_policy = no_colonies 
 
 
@@ -48,6 +48,7 @@ upper_house = {
 	communist = 0
 }
 
+decision = TUN_1836_setup
 set_country_flag = sunni_country
 
 # Technologies
@@ -74,23 +75,3 @@ modern_winemaking = yes
 consciousness = 0
 
 oob = "TUN_oob.txt"
-1861.1.1 = {
-	oob = "/1861/TUN_oob.txt"
-}
-1861.1.1 = {
-
-# Political reforms
-slavery = no_slavery
-
-foreign_training = yes_foreign_training
-foreign_weapons = yes_foreign_weapons
-foreign_officers = yes_foreign_officers
-finance_reform = yes_finance_reform
-
-# Technologies
-military_staff_system = 1
-flintlock_rifles = 1
-
-# Inventions
-
-}

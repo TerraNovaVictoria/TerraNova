@@ -3445,6 +3445,16 @@ native_american = {
 		Huanitzin Itzel Ixtlilxochitl Jiménez Matlacuahuac Mayahuel Moxo Muñoz Nahui Ocelotl
 		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicoténcatl Xochitl Zapata Zapotitla }
 	}
+	iroquoisian = {
+		color = { 120 96 96 }
+		first_names = { Antonio Carlos Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando
+		Hilario Ignacio Isaac Jacinto Jesús José Juan Julio Lorenzo Manuel
+		Marcial Mario Martín Natalio Oliverio Pedro Roberto Rodolfo Santiago Víctor }
+
+		last_names = { Ahuactzin Altamirano Atlanteco Badiano Bernardino Coaguila Coyotl Cuautlaxahue Gutiérrez Hernández
+		Huanitzin Itzel Ixtlilxochitl Jiménez Matlacuahuac Mayahuel Moxo Muñoz Nahui Ocelotl
+		Panecatl Tlaxca Tletla Tzehe Valeriano Xaxalpa Zicoténcatl Xochitl Zapata Zapotitla }
+	}
 	wichitan = {
 		color = { 255 245 180 }
 		first_names = { Antonio Carlos Diego Emiliano Emilio Felipe Fernando Francisco Gaspar Hernando

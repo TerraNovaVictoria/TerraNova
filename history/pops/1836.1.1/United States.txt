@@ -8759,43 +8759,43 @@
 #Dover (76000/19000 POPS)
 222 = {
 	aristocrats = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 75
 	}
 
 	bureaucrats = {
-		culture = gwladychwr
+		culture = german_american
 		religion = protestant
 		size = 25
 	}
 
 	officers = {
-		culture = gwladychwr
+		culture = german_american
 		religion = protestant
 		size = 10
 	}
 
 	clergymen = {
-		culture = gwladychwr
+		culture = german_american
 		religion = protestant
 		size = 100
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 650
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 125
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = new_swedish
 		religion = protestant
 		size = 12015
 	}
@@ -8807,25 +8807,25 @@
 	}
 	
 	clergymen = {
-		culture = afro_celtic
+		culture = afro_german
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_celtic
+		culture = afro_german
 		religion = protestant
 		size = 300
 	}
 
 	farmers = {
-		culture = afro_celtic
+		culture = afro_german
 		religion = protestant
 		size = 5150
 	}
 
 	slaves = {
-		culture = afro_celtic
+		culture = afro_german
 		religion = protestant
 		size = 500
 	}
@@ -8835,61 +8835,67 @@
 #Philadelphia (468000/117000 POPS)
 223 = {
 	bureaucrats = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 1800
 	}
 
 	officers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 300
 	}
 
 	capitalists = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 550
 	}
 
 	clerks = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 60
 	}
 
 	craftsmen = {
-		culture = avalonian
+		culture = colonial_german
 		religion = protestant
 		size = 1200
 	}
 
 	artisans = {
-		culture = gwladychwr
+		culture = colonial_german
 		religion = protestant
 		size = 30000
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = colonial_german
 		religion = protestant
 		size = 740
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = colonial_german
 		religion = protestant
 		size = 2000
 	}
+	
+	farmers = {
+		culture = colonial_german
+		religion = protestant
+		size = 15000
+	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = new_swedish
 		religion = protestant
 		size = 46950
 	}
@@ -8936,82 +8942,64 @@
 		size = 175
 	}
 
-	farmers = {
-		culture = gwladychwr
-		religion = catholic
-		size = 15400
-	}
-
 	clergymen = {
-		culture = gaelic
-		religion = catholic
-		size = 50
-	}
-
-	artisans = {
-		culture = gaelic
-		religion = catholic
-		size = 5000
-	}
-
-	farmers = {
-		culture = gaelic
-		religion = catholic
-		size = 2950
-	}
-
-	clergymen = {
-		culture = afro_celtic
+		culture = afro_german
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_celtic
+		culture = afro_german
 		religion = protestant
 		size = 2000
 	}
 
 	farmers = {
-		culture = afro_celtic
+		culture = afro_german
 		religion = protestant
 		size = 5950
 	}
 
 	clergymen = {
-		culture = avalonian
+		culture = ashkenazi
 		religion = jewish
-		size = 10
+		size = 150
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = ashkenazi
 		religion = jewish
-		size = 490
+		size = 3490
+	}
+	
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 1550
 	}
 }
 #Coudersport - Formerly Fort Chimo (2400/600 POPS)
 2627 = {
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 100
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 500
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 150
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = colonial_german
 		religion = protestant
 		size = 14000
 	}
@@ -9037,103 +9025,121 @@
 	farmers = {
 		culture = gwladychwr
 		religion = catholic
-		size = 6225
+		size = 1225
 	}
 
 	clergymen = {
-		culture = gaelic
-		religion = catholic
+		culture = iroquoisian
+		religion = protestant
 		size = 15
 	}
 
 	artisans = {
-		culture = gaelic
-		religion = catholic
+		culture = iroquoisian
+		religion = protestant
 		size = 75
 	}
 
 	farmers = {
-		culture = gaelic
-		religion = catholic
+		culture = iroquoisian
+		religion = protestant
 		size = 1000
 	}
 }
 #Scranton (164000/41000 POPS)
 224 = {
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 300
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 2050
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 425
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = colonial_german
 		religion = protestant
-		size = 38225
+		size = 32225
+	}
+	
+	farmers = {
+		culture = iroquoisian
+		religion = protestant
+		size = 1225
 	}
 }
 #Williamsport (172000/43000 POPS)
 225 = {
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 325
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
-		size = 2150
+		size = 1150
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 425
 	}
 
 	farmers = {
+		culture = colonial_german
+		religion = protestant
+		size = 9100
+	}
+	
+	farmers = {
 		culture = gwladychwr
 		religion = protestant
-		size = 40100
+		size = 1100
 	}
 }
 #Harrisburg (292000/73000 POPS)
 226 = {
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 550
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = colonial_german
 		religion = protestant
 		size = 3650
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = colonial_german
 		religion = protestant
 		size = 2000
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = colonial_german
 		religion = protestant
-		size = 66800
+		size = 30800
+	}
+	
+	farmers = {
+		culture = new_swedish
+		religion = protestant
+		size = 26800
 	}
 }
 #Pittsburgh (332000/83000 POPS)
@@ -9187,19 +9193,19 @@
 	}
 
 	clergymen = {
-		culture = gaelic
+		culture = colonial_german
 		religion = catholic
 		size = 60
 	}
 
 	artisans = {
-		culture = gaelic
+		culture = colonial_german
 		religion = catholic
 		size = 275
 	}
 
 	farmers = {
-		culture = gaelic
+		culture = colonial_german
 		religion = catholic
 		size = 5525
 	}
@@ -9253,147 +9259,135 @@
 #Newark (156000/39000 POPS)
 229 = {
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 200
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 1550
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 325
 	}
 	
 	craftsmen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 1000
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = colonial_german
 		religion = protestant
 		size = 27925
 	}
 
 	clergymen = {
-		culture = avalonian
+		culture = new_swedish
 		religion = catholic
 		size = 50
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = new_swedish
 		religion = catholic
 		size = 200
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = new_swedish
 		religion = catholic
 		size = 50
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = new_swedish
 		religion = catholic
-		size = 3700
+		size = 700
 	}
 
 	clergymen = {
-		culture = afro_celtic
+		culture = afro_german
 		religion = protestant
 		size = 50
 	}
 
 	artisans = {
-		culture = afro_celtic
+		culture = afro_german
 		religion = protestant
 		size = 200
 	}
 
 	farmers = {
-		culture = afro_celtic
+		culture = afro_german
 		religion = protestant
-		size = 3750
+		size = 4750
 	}
 }
 #Trenton (96000/24000 POPS)
 230 = {
 	bureaucrats = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 125
 	}
 
 	officers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 70
 	}
 
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 150
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 1050
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 225
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = colonial_german
 		religion = protestant
-		size = 21105
+		size = 13105
+	}
+	
+	farmers = {
+		culture = new_swedish
+		religion = protestant
+		size = 9005
 	}
 
 	bureaucrats = {
-		culture = avalonian
+		culture = new_swedish
 		religion = catholic
 		size = 25
 	}
 
 	officers = {
-		culture = avalonian
+		culture = german_american
 		religion = catholic
 		size = 15
 	}
 
-	clergymen = {
-		culture = avalonian
-		religion = catholic
-		size = 50
-	}
-
-	artisans = {
-		culture = avalonian
-		religion = catholic
-		size = 150
-	}
-
-	soldiers = {
-		culture = avalonian
-		religion = catholic
-		size = 25
-	}
-
 	farmers = {
-		culture = gwladychwr
+		culture = german_american
 		religion = catholic
 		size = 2735
 	}
@@ -9401,27 +9395,33 @@
 #Atlantic City (88000/22000 POPS)
 231 = {
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 150
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
-		size = 1100
+		size = 500
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 225
 	}
+	
+	farmers = {
+		culture = colonial_german
+		religion = protestant
+		size = 8925
+	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = new_swedish
 		religion = protestant
-		size = 20525
+		size = 10525
 	}
 }
 #New York Region (2140000)  
@@ -9429,279 +9429,315 @@
 #New York (440000/110000 POPS)
 232 = {
 	capitalists = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 125
 	}
 
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 675
 	}
 
 	clerks = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 125
 	}
 	
 	craftsmen = {
-		culture = gwladychwr
+		culture = german_american
 		religion = protestant
 		size = 20500
 	}
 
 	craftsmen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 6500
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 1000
 	}
 	
 	artisans = {
-		culture = gwladychwr
+		culture = german_american
 		religion = protestant
 		size = 10000
 	}
 
 	artisans = {
-		culture = gwladychwr
+		culture = german_american
 		religion = protestant
 		size = 10000
 	}
 
 	artisans = {
-		culture = gwladychwr
+		culture = german_american
 		religion = protestant
 		size = 10000
 	}
 
 	artisans = {
-		culture = gwladychwr
+		culture = german_american
 		religion = protestant
 		size = 8375
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 2000
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = german_american
 		religion = protestant
-		size = 95125
+		size = 70125
+	}
+	
+	farmers = {
+		culture = colonial_german
+		religion = protestant
+		size = 25125
 	}
 
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = catholic
 		size = 75
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = catholic
 		size = 4000
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = catholic
 		size = 50
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = german_american
 		religion = catholic
 		size = 875
 	}
 
 	clergymen = {
-		culture = afro_celtic
+		culture = afro_german
 		religion = protestant
 		size = 75
 	}
 
 	artisans = {
-		culture = afro_celtic
+		culture = afro_german
 		religion = protestant
 		size = 4925
 	}
 
 	clergymen = {
-		culture = gaelic
-		religion = catholic
-		size = 50
-	}
-
-	artisans = {
-		culture = gaelic
-		religion = catholic
-		size = 3950
-	}
-
-	clergymen = {
-		culture = avalonian
+		culture = ashkenazi
 		religion = jewish
 		size = 10
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = ashkenazi
 		religion = jewish
-		size = 490
+		size = 2490
+	}
+	
+	farmers = {
+		culture = ashkenazi
+		religion = jewish
+		size = 4490
 	}
 }
 #Islip (100000/25000 POPS)
 233 = {
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 175
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 1250
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 250
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = german_american
 		religion = protestant
-		size = 23325
+		size = 12325
+	}
+	
+	farmers = {
+		culture = colonial_german
+		religion = protestant
+		size = 7325
 	}
 }
 #Albany (332000/83000 POPS)
 234 = {
 	bureaucrats = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 975
 	}
 
 	officers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 500
 	}
 
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 625
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 3125
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 2000
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = german_american
 		religion = protestant
-		size = 70775
+		size = 50775
+	}
+	
+	farmers = {
+		culture = colonial_german
+		religion = protestant
+		size = 19775
 	}
 
 	bureaucrats = {
-		culture = avalonian
+		culture = frisian
 		religion = catholic
 		size = 100
 	}
 
 	officers = {
-		culture = avalonian
+		culture = frisian
 		religion = catholic
 		size = 50
 	}
 
 	clergymen = {
-		culture = avalonian
+		culture = frisian
 		religion = catholic
 		size = 75
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = frisian
 		religion = catholic
 		size = 250
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = frisian
 		religion = catholic
 		size = 50
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = frisian
 		religion = catholic
-		size = 4475
+		size = 1475
 	}
 }
 #Binghamton (352000/88000 POPS)
 235 = {
 	clergymen = {
-		culture = avalonian
+		culture = iroquoisian
 		religion = protestant
-		size = 625
+		size = 125
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = iroquoisian
 		religion = protestant
-		size = 4400
+		size = 1400
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = iroquoisian
 		religion = protestant
-		size = 2000
+		size = 3000
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = iroquoisian
 		religion = protestant
-		size = 80975
+		size = 10975
 	}
 }
 #Buffalo (244000/61000 POPS)
 236 = {
 	clergymen = {
-		culture = avalonian
+		culture = iroquoisian
 		religion = protestant
-		size = 450
+		size = 250
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = iroquoisian
 		religion = protestant
-		size = 3050
+		size = 1050
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = iroquoisian
+		religion = protestant
+		size = 625
+	}
+
+	farmers = {
+		culture = iroquoisian
+		religion = protestant
+		size = 5687
+	}
+	
+	clergymen = {
+		culture = iroquoisian
+		religion = protestant
+		size = 250
+	}
+
+	artisans = {
+		culture = iroquoisian
+		religion = protestant
+		size = 1050
+	}
+
+	soldiers = {
+		culture = iroquoisian
 		religion = protestant
 		size = 625
 	}
@@ -9709,59 +9745,59 @@
 	farmers = {
 		culture = gwladychwr
 		religion = protestant
-		size = 56875
+		size = 9687
 	}
 }
 #Rochester (176000/44000 POPS)
 237 = {
 	clergymen = {
-		culture = avalonian
+		culture = iroquoisian
 		religion = protestant
 		size = 325
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = iroquoisian
 		religion = protestant
 		size = 2200
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = iroquoisian
 		religion = protestant
 		size = 450
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = iroquoisian
 		religion = protestant
-		size = 41025
+		size = 11025
 	}
 }
 #Syracuse (304000/76000 POPS)
 238 = {
 	clergymen = {
-		culture = avalonian
+		culture = iroquoisian
 		religion = protestant
-		size = 525
+		size = 125
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = iroquoisian
 		religion = protestant
 		size = 3800
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = iroquoisian
 		religion = protestant
 		size = 2000
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = iroquoisian
 		religion = protestant
-		size = 69675
+		size = 9675
 	}
 }
 #Watertown (116000/29000 POPS)
@@ -9787,33 +9823,45 @@
 	farmers = {
 		culture = gwladychwr
 		religion = protestant
-		size = 27025
+		size = 7025
+	}
+	
+	farmers = {
+		culture = iroquoisian
+		religion = protestant
+		size = 18000
 	}
 }
 #Plattsburgh (76000/19000 POPS)
 240 = {
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 125
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 950
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 200
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = colonial_german
 		religion = protestant
-		size = 17725
+		size = 5000
+	}
+	
+	farmers = {
+		culture = iroquoisian
+		religion = protestant
+		size = 14725
 	}
 }
 #Connecticut Region (304000)  
@@ -9821,73 +9869,79 @@
 #Hartford (304000/76000 POPS)
 241 = {
 	bureaucrats = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 150
 	}
 
 	officers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 75
 	}
 
 	capitalists = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 15
 	}
 
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 550
 	}
 
 	clerks = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 50
 	}
 
 	craftsmen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 550
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 3050
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 2000
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = german_american
 		religion = protestant
-		size = 66560
+		size = 16560
+	}
+	
+	farmers = {
+		culture = colonial_german
+		religion = protestant
+		size = 50560
 	}
 
 	clergymen = {
-		culture = afro_celtic
+		culture = afro_german
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = afro_celtic
+		culture = afro_german
 		religion = protestant
 		size = 500
 	}
 
 	farmers = {
-		culture = afro_celtic
+		culture = afro_german
 		religion = protestant
 		size = 1475
 	}
@@ -9897,81 +9951,81 @@
 #Providence (104000/26000 POPS)
 242 = {
 	bureaucrats = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 50
 	}
 
 	officers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 25
 	}
 
 	capitalists = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 175
 	}
 
 	clerks = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 75
 	}
 
 	craftsmen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 750
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 4175
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 250
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = colonial_german
 		religion = protestant
 		size = 9000
 	}
 	
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = catholic
 		size = 25
 	}
 	
 	
 	farmers = {
-		culture = gwladychwr
+		culture = german_american
 		religion = catholic
 		size = 5000
 	}
 	
 	farmers = {
-		culture = gaelic
-		religion = catholic
-		size = 3000
+		culture = ashkenazi
+		religion = jewish
+		size = 1000
 	}
 	
 	clergymen = {
-		culture = gaelic
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 25
 	}
 	
@@ -9989,19 +10043,19 @@
 
 
 	clergymen = {
-		culture = afro_celtic
+		culture = afro_german
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = afro_celtic
+		culture = afro_german
 		religion = protestant
 		size = 500
 	}
 
 	farmers = {
-		culture = afro_celtic
+		culture = afro_german
 		religion = protestant
 		size = 475
 	}
@@ -10011,215 +10065,221 @@
 #Boston (444000/111000 POPS)
 243 = {
 	bureaucrats = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 300
 	}
 
 	officers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 150
 	}
 
 	capitalists = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 350
 	}
 
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 675
 	}
 
 	clerks = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 825
 	}
 
 	craftsmen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 16250
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 10000
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 10000
 	}
 	
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 10000
 	}
 	
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 10000
 	}
 	
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 7925
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 2000
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = colonial_german
 		religion = protestant
 		size = 22145
 	}
 
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = catholic
 		size = 50
 	}
 
 	clerks = {
-		culture = avalonian
+		culture = german_american
 		religion = catholic
 		size = 50
 	}
 
 	craftsmen = {
-		culture = avalonian
+		culture = german_american
 		religion = catholic
 		size = 1100
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = catholic
 		size = 2950
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = catholic
 		size = 75
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = colonial_german
 		religion = catholic
 		size = 2875
 	}
 
 	clergymen = {
-		culture = gaelic
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 75
 	}
 
 	artisans = {
-		culture = gaelic
-		religion = catholic
-		size = 7000
+		culture = ashkenazi
+		religion = jewish
+		size = 2000
 	}
 
 	farmers = {
-		culture = gaelic
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 925
 	}
 }
 #New Bedford (132000/33000 POPS)
 244 = {
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 225
 	}
 
 	clerks = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 25
 	}
 
 	craftsmen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 300
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 1125
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 300
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = german_american
 		religion = protestant
-		size = 27025
+		size = 17025
+	}
+	
+	farmers = {
+		culture = colonial_german
+		religion = protestant
+		size = 9025
 	}
 
 	clergymen = {
-		culture = gaelic
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 50
 	}
 
 	artisans = {
-		culture = gaelic
-		religion = catholic
+		culture = ashkenazi
+		religion = jewish
 		size = 1100
 	}
 
 	farmers = {
-		culture = gaelic
-		religion = catholic
-		size = 3950
+		culture = ashkenazi
+		religion = jewish
+		size = 950
 	}
 }
 #Pittsfield (84000/21000 POPS)
 245 = {
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 150
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 1050
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 225
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = colonial_german
 		religion = protestant
 		size = 19575
 	}
@@ -10229,37 +10289,37 @@
 #Montpelier (284000/71000 POPS)
 246 = {
 	bureaucrats = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 125
 	}
 
 	officers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 75
 	}
 
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 500
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 3150
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 650
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = colonial_german
 		religion = protestant
 		size = 50200
 	}
@@ -10285,7 +10345,13 @@
 	farmers = {
 		culture = acadian
 		religion = catholic
-		size = 15475
+		size = 11475
+	}
+	
+	farmers = {
+		culture = frisian
+		religion = catholic
+		size = 5475
 	}
 }
 #New Hampshire Region (276000)  
@@ -10293,57 +10359,63 @@
 #Concord (POPS)
 247 = {
 	bureaucrats = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 150
 	}
 
 	capitalists = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 100
 	}
 
 	officers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 75
 	}
 
 	clerks = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 25
 	}
 
 	craftsmen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 3000
 	}
 
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 2150
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 2925
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 2000
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = colonial_german
 		religion = protestant
-		size = 55700
+		size = 5000
+	}
+	
+	farmers = {
+		culture = frisian
+		religion = protestant
+		size = 45700
 	}
 	
 	clergymen = {
@@ -10375,37 +10447,37 @@
 #Lewiston (240000/60000 POPS)
 248 = {
 	bureaucrats = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 175
 	}
 
 	officers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 100
 	}
 
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 450
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 3000
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 600
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = colonial_german
 		religion = protestant
 		size = 35675
 	}
@@ -10419,25 +10491,25 @@
 #Bangor (156000/44000 POPS)
 249 = {
 	clergymen = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 250
 	}
 
 	artisans = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 1900
 	}
 
 	soldiers = {
-		culture = avalonian
+		culture = german_american
 		religion = protestant
 		size = 375
 	}
 
 	farmers = {
-		culture = gwladychwr
+		culture = colonial_german
 		religion = protestant
 		size = 20475
 	}
@@ -10491,6 +10563,12 @@
 		culture = avalonian
 		religion = protestant
 		size = 50
+	}
+	
+	soldiers = {
+		culture = german_american
+		religion = protestant
+		size = 550
 	}
 
 	farmers = {

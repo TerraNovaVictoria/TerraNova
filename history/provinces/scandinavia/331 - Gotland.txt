@@ -1,6 +1,6 @@
-owner = DZG
-controller = DZG
-add_core = DZG
+owner = HNL
+controller = HNL
+add_core = HNL
 add_core = DNN
 trade_goods = grain
 life_rating = 35

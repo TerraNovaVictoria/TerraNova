@@ -19,3 +19,40 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}
 }
+
+country_event = {
+	id = 136001
+	title = "EVTNAME136001" #Hanseatic Council Seizes Power
+	desc = "EVTDESC136001"
+	picture = "hanserat"
+	
+	trigger = {
+		tag = HNL
+		has_country_flag = hanseatic_factionalism
+	}
+	
+	mean_time_to_happen = { days = 90 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT136001A"
+		government = presidential_dictatorship
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 136002
+	title = "EVTNAME136002" #For Peace and Prosperity
+	desc = "EVTDESC136002"
+	picture = "vreede_en_velvaart"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT136002A"
+		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+}

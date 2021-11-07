@@ -1,4 +1,9 @@
 ;;;;;;;;;;;;;;x,,,
+CAS;Castile;;;;;;;;;;;;;;;;;;x;;;;
+CAS_ADJ;Castilian;;;;;;;;;;;;;;;;;;x;;;;
+LON;Llíon;;;;;;;;;;;;;;;;;;x;;;;
+LON_ADJ;Llíonese;;;;;;;;;;;;;;;;;;x;;;;
+SAA_absolute_monarchy;Saarbrücken;;;;;;;;;;;;;;;;;;x;;;;
 FNS;Fünfstädte;;;;;;;;;;;;;;;;;;x;;;;
 FNS_ADJ;Fünfstädter;;;;;;;;;;;;;;;;;;x;;;;
 GLD;Gelre;;;;;;;;;;;;;;;;;;x;;;;
@@ -686,7 +691,16 @@ URM;Urmia;;;;;;;;;;;;;x
 URM_ADJ;Urmian;;;;;;;;;;;;;x
 TAL;Talysh;;;;;;;;;;;;;x
 TAL_ADJ;Talysh;;;;;;;;;;;;;x
-TUN_absolute_monarchy;The Hafsid Empire;;;;;;;;;;;;;x
+TUN_primitive_absolute_monarchy;The Hafsid Sultanate;;;;;;;;;;;;;x
+TUN_primitive_absolute_monarchy_ADJ;Hafsid;;;;;;;;;;;;;x
+TUN_absolute_monarchy;The Hafsid Sultanate;;;;;;;;;;;;;x
+TUN_absolute_monarchy_ADJ;Hafsid;;;;;;;;;;;;;x
+TUN_prussian_constitutionalism;The Hafsid Sultanate;;;;;;;;;;;;x
+TUN_prussian_constitutionalism_ADJ;Hafsid;;;;;;;;;;;;x
+TUN_hms_government;The Hafsid Kingdom;;;;;;;;;;;;x
+TUN_hms_government_ADJ;Hafsid;;;;;;;;;;;;x
+BAN;Temesvaria;;;;;;;;;;;;x
+BAN_ADJ;Temesvarian;;;;;;;;;;;;x
 HUN_ancient_regime;Magyaria;;;;;;;;;;;;;x
 HUN_ADJ;Magyarian;;;;;;;;;;;;x
 MAG_ancient_regime;The Zöld Khanate;;;;;;;;;;;;;x
@@ -746,12 +760,19 @@ KGS_ADJ;Kongsi;;;;;;;;;;;;x
 JAV_absolute_monarchy;The Mataram Sultanate;;;;;;;;;;;;;x
 SPA_democracy;The Spanish Republic;;;;;;;;;;;;;x,
 SPA_absolute_monarchy;The Kingdom of Spain;;;;;;;;;;;;;x
-SPA_proletarian_dictatorship;The Spanish Republic;;;;;;;;;;;;;x,
-SPA_presidential_dictatorship;The Spanish State;;;;;;;;;;;;;x,
+SPA_prussian_constitutionalism;The Kingdom of Spain;;;;;;;;;;;;;x
+SPA_hms_government;The Kingdom of Spain;;;;;;;;;;;;;x
+SPA_proletarian_dictatorship;The Spanish People's Republic;;;;;;;;;;;;;x,
+SPA_presidential_dictatorship;The Iberian Government;;;;;;;;;;;;;x,
+SPA_presidential_dictatorship_ADJ;Iberian;;;;;;;;;;;;;x,
 SPA_fascist_dictatorship;The Spanish State;;;;;;;;;;;;;x,
 SPC;Spain;;;;;;;;;;;;;x
 SPC_democracy;The Spanish Republic;;;;;;;;;;;;;x
-SPC_presidential_dictatorship;The Spanish Republic;;;;;;;;;;;;;x
+SPC_provisional_state;The Spanish State;;;;;;;;;;;;;x
+SPC_fascist_dictatorship;Hispania;;;;;;;;;;;;;x
+SPC_fascist_dictatorship_ADJ;Hispanian;;;;;;;;;;;;;x
+SPC_proletarian_dictatorship;The Spanish Union;;;;;;;;;;;;;x,
+SPC_presidential_dictatorship;The Spanish Empire;;;;;;;;;;;;;x
 SPC_absolute_monarchy;The Kingdom of Spain;;;;;;;;;;;;;x
 SPC_prussian_constitutionalism;The Kingdom of Spain;;;;;;;;;;;;;x
 SPC_hms_government;The Kingdom of Spain;;;;;;;;;;;;;x
@@ -1007,8 +1028,6 @@ CHN_ADJ;Chenouan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 CHN_absolute_monarchy;Tlemcen;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 CHN_absolute_monarchy_ADJ;Tlemceni;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 TUN;Tunisia;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;
-TUN_absolute_monarchy;The Hafsid Empire;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;
-TUN_absolute_monarchy_ADJ;Hafsidi;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;x;;;;
 TUA_primitive_absolute_monarchy;Fezzan;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TUA_primitive_absolute_monarchy_ADJ;Fezzani;;;;;;;;;;;;;;x;;;;;;;;;;;;;;
 TUA;Tuareg;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -1060,10 +1079,12 @@ SEL;Selonia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 SEL_ADJ;Selonian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 HNL;Hansa;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 HNL_ADJ;Hanseatic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-HNL_democracy;Hanseatic League;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-HNL_fascist_dictatorship;Hanseatic Free State;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-HNL_proletarian_dictatorship;North German Communal League;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-HNL_monarchy;Hanseatic Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HNL_provisional_state;The Hanseatic League;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HNL_presidential_dictatorship;The Hansaraad Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HNL_democracy;The Hanseatic Republic;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HNL_fascist_dictatorship;The Hanseatic Union;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HNL_proletarian_dictatorship;The North German Communal League;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+HNL_monarchy;The Hanseatic Empire;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 YER;Yeren;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 YER_ADJ;Yereni;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVE;Evenkia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -1115,7 +1136,7 @@ KLE_colonial_company_ADJ;Clevian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 MID;Hanseatia;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 MID_ADJ;Hanseatian;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 MID_colonial_company;New Netherlands;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-MID_colonial_company_ADJ;New Netherlander;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+MID_colonial_company_ADJ;Hansa;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 ANN;Yuenan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 ANN_subject;Jiaozhi;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 ANN_ADJ;Yue;;;;;;;;;;;;;;;;;;;;;;;x;;;;

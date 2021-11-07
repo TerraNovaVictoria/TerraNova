@@ -1,6 +1,5 @@
 capital = 654
 primary_culture = romanian
-culture = ossetian
 religion = catholic
 government = subject
 plurality = 15.0

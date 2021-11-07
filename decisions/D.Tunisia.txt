@@ -1,0 +1,48 @@
+political_decisions = {
+	
+	integrate_setif = {
+		picture = gwadar_pakistan
+		potential = {
+			tag = TUN
+			AND = {
+				STF = { exists = yes }
+				STF = { vassal_of = THIS }
+				1702 = { is_core = TUN }
+			}
+		}
+		
+		allow = {
+			civilized = yes
+		}
+		
+		effect = {
+			1702 = { remove_core = STF }
+			inherit = STF
+		}
+	}
+	
+	intervene_in_spa = {
+		picture = civil_war_in_spain
+		potential = {
+			tag = TUN
+			AND = {
+				SPA = { exists = yes }
+				SPC = { exists = yes }
+				SPA = { war_with = SPC }
+			}
+			NOT = { has_country_flag = tunisian_intervention }
+		}
+		
+		allow = {
+			war = no
+			is_subject = no
+			money = 5000
+		}
+		
+		effect = {
+			country_event = 145002
+			set_country_flag = tunisian_intervention
+		}
+	}
+	
+}

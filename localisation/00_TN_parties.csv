@@ -1,4 +1,11 @@
 ;;;;;;;;;;;;;;x,,,
+KLE_liberal;De Marktpartee;;;;;;;;;;;;;x
+KLE_conservative;De Hansepartee;;;;;;;;;;;;;x
+KLE_reactionary;De Volkspartee;;;;;;;;;;;;;x
+KLE_anarcho_liberal;De Freeie Marktpartee;;;;;;;;;;;;;x
+KLE_communist;KPvdA;;;;;;;;;;;;;x
+KLE_socialist;Soziaaldemokratishe;;;;;;;;;;;;;x
+KLE_fascist;De Dütske Bund;;;;;;;;;;;;;x
 NYS_reactionary;Svenska Nationspartiet;;;;;;;;;;;;;x
 NYS_conservative;Nysvenska Lantmannapartiet;;;;;;;;;;;;;x
 NYS_liberal;Liberala Unionspartiet;;;;;;;;;;;;;x

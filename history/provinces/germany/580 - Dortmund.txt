@@ -1,5 +1,6 @@
-owner = DOR
-controller = DOR
+owner = HNL
+controller = HNL
+add_core = HNL
 add_core = DOR
 add_core = WES
 add_core = GER

@@ -1,0 +1,93 @@
+country_event = {
+	id = 145000
+	title = "EVTNAME145000" #Hafsid Introduction
+	desc = "EVTDESC145000"
+	picture = "arab_street"
+	
+	trigger = {
+		tag = TUN
+		year = 1836
+		has_country_modifier = golden_century_tun
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT145000A"
+		prestige = 2.5
+		remove_country_modifier = golden_century_tun
+		ai_chance = { factor = 100 }
+	}
+		
+}
+
+country_event = {
+	id = 145001
+	title = "EVTNAME145001" #The Kingdom of the Maghreb
+	desc = "EVTDESC145001"
+	picture = "hafsid_map"
+	
+	trigger = {
+		tag = TUN
+		NOT = { has_country_modifier = golden_century_tun }
+		THIS = {
+			civilized = no
+		}
+	}
+	
+	mean_time_to_happen = { months = 1 }
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT145001A"
+		prestige = 2.5
+		government = absolute_monarchy
+		add_country_modifier = { name = western_presence duration = -1 }
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPT145001B"
+		prestige = 2.5
+		add_country_modifier = { name = western_presence duration = -1 }
+		ai_chance = { factor = 50 }
+	}
+		
+}
+
+country_event = {
+	id = 145002
+	title = "EVTNAME145002" #The Tunisian Intervention
+	desc = "EVTDESC145002"
+	picture = "spanish_civil_war_spc"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT145002A"
+		SPA = { country_event = 145003 }
+		ai_chance = { factor = 20 }
+	}
+	
+	option = {
+		name = "EVTOPT145002B"
+		SPC = { country_event = 145003 }
+		ai_chance = { factor = 20 }
+	}
+		
+	option = {
+		name = "EVTOPT145002C"
+		prestige = 2.5
+		add_country_modifier = { name = western_presence duration = -1 }
+		ai_chance = { factor = 0 }
+	}
+	
+	option = {
+		name = "EVTOPT145002D"
+		ai_chance = { factor = 60 }
+	}
+}

@@ -743,9 +743,6 @@ BAH_anarcho_liberal;Partido Radical;Partido Radical;Partido Radical;;;;;;;;;;;;x
 BAH_socialist;Partido Socialist;Partido socialiste;Partido Socialist;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BAH_communist;Partido Communist;Partido communiste;Partido Communist;;;;;;;;;;;;x;;;;;;;;;;;;;;
 BAH_fascist;Partido Fascist;Partido fasciste;Partido Fascist;;;;;;;;;;;;x;;;;;;;;;;;;;;
-BAN;Banat;;;;;;;;;;;;x
-BAN_democracy;Banat Republic;;;;;;;;;;;;x
-BAN_ADJ;Banati;;;;;;;;;;;;x
 BAN_conservative;The Conservatives;Faction royale;Königsfraktion;;;;;;;;;;;x
 BAN_liberal;The Liberals;Faction libérale;Die liberale Fraktion;;;;;;;;;;;x
 BAN_reactionary;The Royalist Faction;Faction nationaliste;Die nationalistische Fraktion;;;;;;;;;;;x
