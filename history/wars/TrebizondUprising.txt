@@ -1,0 +1,28 @@
+name = "The Komnenoi Restoration"
+
+1835.1.1 = {
+	add_attacker = PNT
+	add_defender = ANA
+	
+	# actor
+	# receiver
+	# casus_belli - cb type
+	# country - 3rd party
+	# state_province_id - target state capital
+	war_goal = {
+		casus_belli = status_quo
+		actor = PNT
+		receiver = ANA
+	}
+	war_goal = {
+		casus_belli = conquest
+		actor = ANA
+		receiver = PNT
+	}
+
+}
+
+1836.6.6 = {
+	rem_attacker = PNT
+	rem_attacker = ANA
+}

@@ -1,4 +1,5 @@
 color = { 27 130 137 }
+theocracy = { 255 165 75 }
 graphical_culture = MiddleEasternGC
 party = {
 	name = "ARM_conservative"

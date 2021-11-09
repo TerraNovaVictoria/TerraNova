@@ -1,4 +1,4 @@
-capital = 876
+capital = 860
 primary_culture = persian
 culture = anatoli
 culture = uighur

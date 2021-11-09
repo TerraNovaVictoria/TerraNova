@@ -1,7 +1,7 @@
 capital = 924
 primary_culture = kurdish
 religion = sunni
-government = absolute_monarchy
+government = subject
 plurality = 0
 nationalvalue = nv_tradition
 literacy = 0.01
@@ -36,6 +36,10 @@ border_policy = open_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
+govt_flag = {
+	government = subject_cosmetic
+	flag = theocracy
+}
 
 ruling_party = KDS_conservative
 upper_house = {

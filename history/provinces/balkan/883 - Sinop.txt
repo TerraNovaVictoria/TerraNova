@@ -1,4 +1,4 @@
-owner = ANT
+owner = PNT
 controller = ANA
 add_core = ANA
 add_core = PNT

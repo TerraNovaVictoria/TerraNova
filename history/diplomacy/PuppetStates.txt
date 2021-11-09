@@ -283,6 +283,30 @@ vassal = {
 	end_date = 1936.1.1
 }
 
+#Assyria (Tur Abdin)
+vassal = {
+	first = ANA
+	second = ASY
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Soran
+vassal = {
+	first = ANA
+	second = SRN
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Baban
+vassal = {
+	first = ANA
+	second = BBN
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
 #Wallachia
 vassal = {
 	first = ANA

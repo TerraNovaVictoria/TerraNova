@@ -1,79 +1,36 @@
 political_decisions = {
-
-
-	relocate_back_to_conpol = {
-			picture = constantinople
-			potential = {
-				tag = ANA
-				NOT = {
-					capital = 860
-				}
-			}
-		
-			allow = {
-				860 = { owned_by = THIS }
-				NOT = { exists = ANT }
-			}
-		
-			effect = {
-				capital = 860
-				prestige = 2.5
-			}
-			ai_will_do = { factor = 1 }
-	}
 	
 	end_trebizond_revolt = { 
 		picture = claim_pontus
 		potential = {
-			OR = {
-				AND = {
-					882 = { owned_by = ANT }
-					THIS = { war_with = ANT }
-				}
-				AND = {
-					882 = { owned_by = GRE }
-					THIS = { war_with = GRE }
-					has_global_flag = rome_has_prevailed
-				}
-			}
 			tag = ANA
+			NOT = { exists = PNT }
+			877 = { is_core = PNT }
 		}
 		
 		allow = {
-			882 = { controlled_by = THIS }
+			882 = { owned_by = ANA }
 		}
 		
 		effect = {
 			prestige = 5
-			PNT = { all_core = { secede_province = THIS } }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	end_the_ionian_revolt = { 
-		picture = claim_pontus
-		potential = {
-			tag = ANA
-			ANT = { NOT = { number_of_states = 6 } }
-			OR = {
-				882 = { owned_by = THIS }
-				882 = { controlled_by = THIS }
+			877 = { remove_core = PNT }
+			any_pop = {
+				limit = { 
+					has_pop_culture = greek
+					location = {
+						OR = {
+							province_id = 877
+							province_id = 883
+							province_id = 884
+							province_id = 882
+						}
+					}				
+				}
+				militancy = -8
+				consciousness = -8
 			}
-		}
-		
-		allow = {
-			OR = {
-				ANT = { war_exhaustion = 40 }
-				860 = { controlled_by = THIS }
-			}
-		}
-		
-		effect = {
-			prestige = 5
-			ANT = { annex_to = ANA }
+			PNT = { government = democracy }
 		}
 		
 		ai_will_do = {
@@ -95,29 +52,61 @@ political_decisions = {
 			}
 		
 			effect = {
-				if = {
-					limit = { SER = { vassal_of = ANA }  }
-					SER = { annex_to = ANA }
+				SER = { annex_to = ANA }
+				HER = { annex_to = ANA }
+				IRQ = { annex_to = ANA }
+				IRQ = { all_core = { add_core = ANA } }
+				SYR = { all_core = { remove_core = IRQ } }					
+				ANT = { 
+					all_core = {
+						limit = {
+							NOT = { 
+								province_id = 869
+								province_id = 870
+							}
+						}
+						remove_core = ANT
+					}
 				}
-				if = {
-					limit = { HER = { vassal_of = ANA }  }
-					HER = { annex_to = ANA }
-				}
-				if = {
-					limit = { IRQ = { vassal_of = ANA }  }
-					IRQ = { annex_to = ANA }
-					IRQ = { all_core = { add_core = ANA } }
-					SYR = { all_core = { remove_core = IRQ } }					
-				}
-				ANT = { all_core = { remove_core = ANT } }
-				if = {
-					limit = { WAL = { vassal_of = ANA }  }
-					WAL =  { government = ancient_regime }
-				}
+				WAL =  { government = subject_cosmetic }
+				SRN =  { government = subject_cosmetic }
+				BBN =  { government = subject_cosmetic }
 				government = absolute_monarchy
 				primary_culture = anatoli
 				remove_accepted_culture = uighur
-				prestige = 15
+				prestige = 7.5
+			}
+			ai_will_do = { factor = 1 }
+	}
+	
+	the_hotca_agreement = {
+			picture = greater_iran
+			potential = {
+				tag = ANA
+				787 = { is_core = CRO owned_by = THIS }
+				784 = { NOT = { owned_by = THIS } }
+				CRO = { exists = yes }
+				NOT = { exists = SER }
+				NOT = { exists = HER }
+				NOT = { has_country_flag = hotca_agreement_proposal }
+			}
+		
+			allow = {
+				war = no
+				any_owned_province = {
+					is_core = HER
+				}
+			}
+		
+			effect = {
+				HER = { all_core = { remove_core = HER } }
+				800 = { add_core = SER }
+				2569 = { add_core = SER }
+				2583 = { add_core = SER }
+				2582 = { add_core = SER }
+				prestige = 2.5
+				CRO = { country_event = 194501 }
+				set_country_flag = hotca_agreement_proposal
 			}
 			ai_will_do = { factor = 1 }
 	}
@@ -126,35 +115,28 @@ political_decisions = {
 			picture = greater_iran
 			potential = {
 				tag = ANA
+				1131 = { owned_by = LUR }
 				NOT = { has_country_flag = ana_persian_border_treaty }
 			}
 		
 			allow = {
 				war = no
-				926 = { owned_by = THIS }
+				NOT = { exists = URM }
+				OR = {
+					AND = {
+						892 = { owned_by = THIS }
+						890 = { owned_by = THIS }
+					}
+					AND = {
+						892 = { owned_by = BTL }
+						890 = { owned_by = BTL }
+					}
+				}
 			}
 		
 			effect = {
-				SER = {
-					limit = { vassal_of = ANA } 
-					annex_to = ANA 
-				}
-				HER = {
-					limit = { vassal_of = ANA } 
-					annex_to = ANA 
-				}
-				IRQ = {
-					limit = { vassal_of = ANA }
-					annex_to = ANA 
-					all_core = { add_core = ANA }	
-					SYR = { all_core = { remove_core = IRQ } }	
-					ARM = { all_core = { remove_core = IRQ } }
-					2414 = { remove_core = IRQ }
-					892 = { remove_core = IRQ }
-					1110 = { remove_core = IRQ }					
-				}
+				TKM = { country_event = 121203 }
 				set_country_flag = ana_persian_border_treaty
-				prestige = 5
 			}
 			ai_will_do = { factor = 1 }
 	}

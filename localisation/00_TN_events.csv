@@ -1,4 +1,14 @@
 ;;;;;;;;;;;;;;x,,,
+EVTNAME183300;The Cham Jihad;;;;;;;;;;;;;;x,,,
+EVTDESC183300;The Cham people have inhabited what is now southern Vietnam for at least a millenia, founding their own city states along the south-eastern coast of Indochina. While never a truly unified state, periods of politanian hegemony have temporarily united the many cham states against foreign threats throughout history until the final conquest of Panduranga by the Vietnamese in the early 19th century. Long dissatisfied with Viet rule and weakened by the continued Chinese occupation of the north, a man called Katip Sumat, with support of the old royal family, has proclaimed a Jihad in 1833 and waged a guerilla war ever since.;;;;;;;;;;;;;;x,,,
+EVTOPT183300A;We will subdue them eventually;;;;;;;;;;;;;;x,,,
+EVTNAME183301;The Great Cham Revolt;;;;;;;;;;;;;;x,,,
+EVTDESC183301;With our inability to subdue the Jihadist, the Cham have finally managed to retake Panduranga, reforming their old Kingdom in the process. Following their victory, the many Cham along the coastline have joined this revolt.;;;;;;;;;;;;;;x,,,
+EVTOPT183301A;We will deal with them once and for all!;;;;;;;;;;;;;;x,,,
+EVTOPT183301B;Onwards as Champa!;;;;;;;;;;;;;;x,,,
+EVTNAME183302;The Cham Exodus;;;;;;;;;;;;;;x,,,
+EVTDESC183302;With the south secured, many Cham have given up on the idea of statehood and have begun to leave their traditional homeland due to our efforts to assimilate the area. ;;;;;;;;;;;;;;x,,,
+EVTOPT183302A;Peace at last;;;;;;;;;;;;;;x,,,
 EVTNAME777721;The Land of Castles;;;;;;;;;;;;;;x,,,
 EVTDESC777721;The region of Castiella, locally known as Castilla, has a rich history reaching all the way back to the middle ages. Having emerged from the fortified marches of Bardulia, Castile rose to become one of the major kingdoms of Iberia, forging its own culture and literary standard. Since the rule of Ferdinand II, the Kingdom has remained an integral part of Llíon until officially being abolished in 1466. Under Llíonese rule, the Castilian language was gradually pushed back into Cantabria and eastern Castiella with much of the region becoming culturally Llíonese. With the recent rise of nationalism across europe however, the castilians have begun to found their own associations to preserve their culture and language.;;;;;;;;;;;;;;x,,,
 EVTOPT777721A;Good for them;;;;;;;;;;;;;;x,,,
@@ -407,16 +417,12 @@ EVTNAME10010101;The Ambrosian invasion of Montferrat;;;;;;;;;;;;;x
 EVTDESC10010101;After the Ambrosian Revolution, the captains of the new republic sought to incorporate the Duchy of Montferrat. This has however sparked a massive wave of nationalist sentiment across the small nation, with people openly calling for resistance to the invader. While war seems to be the only way to retain independence, the unequal balance of strength makes it look like a pointless wast of human lives, which could be avoided with a painful but necessary capitulation.;;;;;;;;;;;;;x
 EVTOPT10010101A;There is no way we can prevail.;;;;;;;;;;;;;x
 EVTOPT10010101B;War it is, then!;;;;;;;;;;;;;x
-EVTNAME121220;The Sofian Council;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTDESC121220;As the recently ignited Ionian Revolution ravages through our coastal lands, it effectively leavt our european possession in anarchy. This led to a provisional government being proclaimed in Sofia - while still unorganized, if we don't crush the Ionian Revolt soon, this may very well escalate into yet another conflict and a possible civil war within our realm.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPTA121220;Ji bo împaratorî!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTNAME121221;The Bulgarian Secession;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTDESC121221;As anarchy reigns supreme in the balkans, the bulgars have now managed to gain full control of our european possessions. With our administration gone, the only way to regain control is through military means. Already are the bulgars assembling an army, preparing to fiercly resist and defend their newly won independence!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPTA121221;The Empire is indivisable!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPTB121221;Towards the glory of Bulgaria!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTNAME121224;The Ionian Revolution!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTDESC121224;These are dire times for the Roman Sultanate. As nationalist and liberal agitation divides europe, our empire too suffers from internal divisions. What started as a minor uprising in Ionia against the Sultan's autocratic rule quickly escalated into a republican and anit-roman revolution. While the region of Pontus has been pacified, our divided attention left much of Rum proper to the revolutionaries. It is uncertain how the Venetians or the Moreans will react to this recent development, but one thing is certain: If we fail to contain this revolt, this uprising could quickly spiral out of control and bring about the end of the Roman Sultanate.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPTA121224;Allah is with us!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME121200;The Ionian Revolt;;;;;;;;;;;;;x
+EVTDESC121200;In 1801, the Nawids invaded the Hajilarid Empire and successfully seized the entirety of Iraq and eastern Anatolia; But this war left much of the conquered territory in ruins. Especially Pontus has been devasted by two Hajilarid invasions, laying the foundation for the later War of the Komnenoi Restoration. Following a popular uprising in 1831, the Komnenoi have returned from a 150 year long Venetian exile and managed to restore their former principality. Following these news, a Morean-supported revolt has erupted in Ionia in early 1832, putting us in a two front war. By now, both revolts have lost much of their fighting strength and should be easily subdued. Should these revolts drag on for too long however, we might face a foreign intervention in support of either revolt.;;;;;;;;;;;;;x
+EVTOPT121200A;The Shahdom will prevail.;;;;;;;;;;;;;x
+EVTNAME121201;The Invasion of Urmia;;;;;;;;;;;;;x
+EVTDESC121201;The Khanate of Urmia was founded two decades ago in the aftermath of the Nawid-Hajilarid War. Established by a rogue Hajilarid general, the Urmian Khanate managed to thrive in the remote and devastated lands west of the Zagros Mountains, quickly subduing the many other warlords and principalities in the area. With the recent integration of Iraq however, the time has come to finally subdue the Urmians and to restore peace in the east.;;;;;;;;;;;;;x
+EVTOPT121201A;To War!;;;;;;;;;;;;;x
 EVTNAME131140;Aromanian Schooling Proposal;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTDESC131140;The Romanian government came forth with a proposal to establish schools in our territory for the local Aromanian minority. While accepting the proposal would give us the chance to increase the literacy of our subjects, this could just as well lead to the development of a sense of nationality that could have unforeseen consequences on our national integrity. Refusing the proposal however would severely hurt our relations with Romania.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTOPT131140A;Give it a go.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -428,26 +434,17 @@ EVTNAME194500;The Illyrian Spring;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;
 EVTDESC194500;The Illyrian Movement is a pan-slavic movement that emerged in the early 19th century spearheaded by the intellectual elite of Zagreb. While initially just a minor academic circle, it has gained widespread support amongst leading Croats, Serbs and Slovenes following the Spanish Revolution. Leading Illyricists argue for the unification of Croatia and Serbia to secure our future, however, there is also a smaller fringe of Illyricists who argue that in fact, all south slavs count as one nation and must be united under a single yugoslav state.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTOPT194500A;We shall be the vanguard of the Illyrians!.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTOPT194500B;We shall be the vanguard of the Yugoslavs!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTNAME194501;The Illyrian Revolution;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTDESC194501;The disintegration of Anatolian authority in the balkans has led to widespread revolutionary activity in the region. Within the Belgrade Governate, various nationalist figureheads have called for open revolt against the Shah and demand the immediate unification of Serbia with Croatia to form a united Illyrian Kingdom. It remains to be the seen how the Croatian King will react to these developments.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT194501A;Towards Illyria!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT194501B;We cannot risk a war with the Shahdom!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTNAME194502;The Unification of Illyria;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTDESC194502;The Illyrian government has sent us a proposal that would merge Serbia and Illyria into a single Illyrian Kingdom. While this country would give is a better chance of survival we would effectively give up our national sovereignty.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT194502A;At last we are one!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT194502B;To hell with Illyria, Serbia shall remain free!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTNAME194503;The Serbians Refuse!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTDESC194503;The Serbian government has refused our generous proposal of unification. While they are clearly deluded, bringing them into the fold by force could lead to unforseen consequences.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT194503A;Let them be.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT194503B;We will not back down now!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTNAME194504;The Unification of Illyria;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTDESC194504;The Illyrian government has sent us a proposal that would merge Hercegovina and Illyria into a single Illyrian Kingdom. While this country would give is a better chance of survival we would effectively give up our national sovereignty.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT194504A;At last we are one!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT194504B;To hell with Illyria, Hercegovina shall remain free!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTNAME194505;The Hercegovinans Refuse!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTDESC194505;The Hercegovinan government has refused our generous proposal of unification. While they are clearly deluded, bringing them into the fold by force could lead to unforseen consequences.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT194505A;Let them be.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT194505B;We will not back down now!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME194501;The Hotca Treaty;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC194501;The Zazanids have sent us a proposal to demarcate the Bosnian frontier between our states - In this proposed treaty, we would gain the lands of Hercegovina proper and our claims west of Serbia would be finally recognized as legitimate by the Shah. However, in return we would have to abandon our claim on the coal producing area of Hotca which would permanently be separated from the Duchy of Bosnia and instead become a part of the Belgrade Governate.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT194501A;We shall recognize these new borders for now;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT194501B;We won't give up an inch of Croatian land!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME194502;The Hotca Treaty Signed;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC194502;The Croats have accepted our proposal - Hotca from now on shall be a permanent and integral part of the Shahdom.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT194502A;Very well;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME194503;The Hotca Treaty Declined;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC194503;The Croats have declined our proposal. In an outrageous response, the Croats have even laid claim to the entirety of Hercegovina and made clear that the whole frontier shall be theirs!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT194503A;Outrageous indeed!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT194503B;Then we will teach them a lesson they won't forget;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTNAME192201;The Great Fire of Caerloyw!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTDESC192201;What started as a minor fire in Aled's Bakery near Ysfael street at around 9 pm on sunday has quickly spread throughout much of the city, engulfing much of Rhun district by 9 pm on monday. From there, the fire managed to cross the Hafren, engulfing the districts of Ceri and Dafydd and forcing the government to relocate to Bryste. By Thursday, the fire has largely run its course, leaving over 80% of the city in ruins. A bigger disaster than the Great Fire of Lerpwl in the year of 1624, the remaining administration of Caerloyw requires immediate assistance to help manage the flood of refugees and rebuild the city as fast as possible.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTOPT192201A;A tragedy! They will have our aid.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
@@ -495,10 +492,10 @@ EVTNAME055566;Reform the Themes?;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;
 EVTDESC055566;The morean authorities has proposed a reform of the theme system. Said proposal would put all themes under direct control of the government and officials would from now on be appointed directly by the emperor, effectively removing us from governing ourselves.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTOPT055566A;For the Empire and Hellas, we accept.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTOPT055566B;We are better off on our own!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTNAME065566;The Cult of Athena;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTDESC065566;These are hard times for Greece. The once great empire is no more, reduced to a decentralized rump state centered in Mystras. Poverty, war and revolutionary unrest left many people disillusioned. In these harsh times people abandon God or even worse: adopt heretical beliefs. Many think that our current situation is a punishment by the old Gods for following a false faith. While just a minor cult as of right now, it has found widespread support amongst the aristocrats and higher ups of our theme. If we don't act soon, this blatant heresy could spread across the entirety of greece...;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT065566A;There is only one God!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-EVTOPT065566B;Maybe the old Gods will help us...;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTNAME165566;The Cult of Athena;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTDESC165566;These are hard times for Greece. The once great empire is no more, reduced to a decentralized rump state centered in Mystras. Poverty, war and revolutionary unrest left many people disillusioned. In these harsh times people abandon God or even worse: adopt heretical beliefs. Many think that our current situation is a punishment by the old Gods for following a false faith. While just a minor cult as of right now, it has found widespread support amongst the aristocrats and higher ups of our theme. If we don't act soon, this blatant heresy could spread across the entirety of greece...;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT165566A;There is only one God!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+EVTOPT165566B;Maybe the old Gods will help us...;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTNAME21123333;Fate of the Andes;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTDESC21123333;With the Kingdom of Spain being no more, the authority of the empire has effectively ceased to exist. While we do not recognize the authority of the new Spanish Republic, the absence of a king seriously undermines our legitimacy as a nation. Monarchist have proposed to crown the current viceroy to reign as emperor over the andes. Alternatively, republicans within our nation urged us to recognize the Spanish Republic and to embrace the Pan-Colombian ideals in hope of ending the current war.;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 EVTOPT21123333A;Proclaim the Picchunic Empire!;;;;;;;;;;;;;;;;;;;;;;;x;;;;;;;;;;;;;;;;;;;;;;;;;;;x;;;;

@@ -1,5 +1,5 @@
-owner = ANT
-controller = ANT
+owner = PNT
+controller = PNT
 add_core = ANA
 add_core = PNT
 trade_goods = cattle

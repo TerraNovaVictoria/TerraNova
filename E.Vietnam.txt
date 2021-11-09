@@ -1,0 +1,139 @@
+#####SOUTH VIET EVENTS#####
+
+country_event = {
+	id = 183300
+	title = "EVTNAME183300" #The Cham Jihad
+	desc = "EVTDESC183300"
+	picture = "PER_allahdad"
+	
+	trigger = {
+		tag = DAN
+		year = 1836
+		has_country_modifier = cham_jihad
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT183300A"
+		any_pop = {
+			limit = { has_pop_culture = cham }
+			militancy = 2
+			consciousness = 2
+		}
+		set_country_flag = chamic_jihad
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 183301
+	title = "EVTNAME183301" #The Cham Revolt
+	desc = "EVTDESC183301"
+	picture = "demolished_budha"
+	
+	trigger = {
+		tag = DAN
+		year = 1843
+		has_country_modifier = cham_jihad
+		has_country_flag = chamic_jihad
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT183301A"
+		remove_country_modifier = cham_jihad
+		clr_country_flag = chamic_jihad
+		1381 = { secede_province = CHA }
+		1379 = { secede_province = CHA }
+		1377 = { secede_province = CHA }
+		war = {
+			target = CHA
+			attacker_goal = { 
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = civil_war
+			}
+			call_ally = no
+		}
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT183301B"
+		remove_country_modifier = cham_jihad
+		clr_country_flag = chamic_jihad
+		1381 = { secede_province = CHA }
+		1379 = { secede_province = CHA }
+		1377 = { secede_province = CHA }
+		war = {
+			target = CHA
+			attacker_goal = { 
+				casus_belli = civil_war
+			}
+			defender_goal = {
+				casus_belli = civil_war
+			}
+			call_ally = no
+		}
+		change_tag_no_core_switch = CHA
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 183302
+	title = "EVTNAME183302" #The Cham Exodus
+	desc = "EVTDESC183302"
+	picture = "vladivostok_manchu"
+	
+	trigger = {
+		tag = DAN
+		year = 1844
+		NOT = { has_country_modifier = cham_jihad }
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT183302A"
+		any_pop = {
+			limit = {
+				has_pop_culture = cham
+				OR = {
+					location = {
+						province_id = 1379
+					}
+					location = {
+						province_id = 1380
+					}
+					location = {
+						province_id = 1381
+					}
+				}
+			}
+			reduce_pop = 0.7
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = cham
+				location = {
+					province_id = 1375
+				}
+			}
+			move_pop = 1364
+		}
+		any_pop = {
+			limit = {
+				has_pop_culture = cham
+				location = {
+					province_id = 1377
+				}
+			}
+			move_pop = 1368
+		}
+		ai_chance = { factor = 100 }
+	}
+}

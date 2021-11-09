@@ -1,6 +1,6 @@
 country_event = {
 	id = 194500
-	title = "EVTNAME194500" #The Illyrian Spring - Both paths lead towards Yugoslavia, yugoslavism however will include Bulgars
+	title = "EVTNAME194500" #The Illyrian Spring
 	desc = "EVTDESC194500"
 	picture = "free_staters"
 
@@ -12,7 +12,7 @@ country_event = {
 		}
 	}
 	
-	mean_time_to_happen = { months = 1 }
+	mean_time_to_happen = { days = 14 }
 	fire_only_once = yes
 	
 	option = {
@@ -20,8 +20,7 @@ country_event = {
 		prestige = 5
 		relations = { who = SER value = 50 }
 		relations = { who = HER value = 25 }
-		set_country_flag = illyrianism
-		ai_chance = { factor = 15 }
+		ai_chance = { factor = 50 }
 	}
 	
 	option = {
@@ -29,66 +28,45 @@ country_event = {
 		prestige = 5
 		relations = { who = SER value = 25 }
 		relations = { who = HER value = 50 }
-		set_country_flag = yugoslavism
-		ai_chance = { factor = 85 }
+		ai_chance = { factor = 50 }
 	}
 
 }
 
 country_event = {
 	id = 194501
-	title = "EVTNAME194501" #The Illyrian Revolution
+	title = "EVTNAME194501" #The Hotca Proposal
 	desc = "EVTDESC194501"
-	major = yes
 
-	trigger = {
-		tag = CRO
-		NOT = { exists = ILL }
-		has_country_flag = illyrianism
-		AND = {
-			ANT = { exists = yes }
-			year = 1837
-		}
-	}
-	
-	mean_time_to_happen = {
-		months = 1
-	}
-
+	is_triggered_only = yes
 	fire_only_once = yes
 	
 	option = {
-		name = "EVTOPT194501A"
-		prestige = 10
-		badboy = 2.5
-		any_pop = {
-			dominant_issue = {
-				value = jingoism
-				factor = 0.1
-			}
-		}
-		CRO = { all_core = { add_core = ILL } }
-		BOS = { all_core = { add_core = ILL remove_core = CRO } }
-		HER = { all_core = { add_core = ILL } }
-		SER = { all_core = { add_core = ILL } }
-		government = absolute_monarchy
-		change_tag = ILL
-		set_global_flag = illyrian_revolution
-		ai_chance = { factor = 100 }
+		name = "EVTOPT194501A" #Accept
+		ANA = { country_event = 194502 }
+		788 = { secede_province = CRO add_core = CRO add_core = BOS remove_core = SER remove_core = ANA remove_core = HER }
+		787 = { remove_core = CRO remove_core = BOS add_core = SER }
+		relations = { who = ANA value = 50 }
+		prestige = 2.5
+		ai_chance = { factor = 95 }
 	}
 	
 	option = {
-		name = "EVTOPT194501B"
-		government = absolute_monarchy
-		prestige = -5
-		ai_chance = { factor = 100 }
+		name = "EVTOPT194501B" #Decline
+		ANA = { country_event = 194503 }
+		788 = { add_core = CRO add_core = BOS }
+		2569 = { add_core = CRO add_core = BOS }
+		2583 = { add_core = CRO add_core = BOS }
+		800 = { add_core = CRO add_core = BOS }
+		relations = { who = ANA value = -200 }
+		ai_chance = { factor = 5 }
 	}
 	
 }
 
 country_event = {
 	id = 194502
-	title = "EVTNAME194502" #Illyrian Unification with Serbia
+	title = "EVTNAME194502" #Hotca Agreement Signed
 	desc = "EVTDESC194502"
 	picture = "serbo_croatia_map"
 
@@ -96,117 +74,50 @@ country_event = {
 	
 	option = {
 		name = "EVTOPT194502A"
-		any_pop = {
-			limit = { has_pop_culture = shtokavian }
-			militancy = 0.5
-		}
-		ILL = { inherit = SER }
+		prestige = 2.5
+		relations = { who = CRO value = 50 }
+		clr_country_flag = hotca_agreement_proposal
 		ai_chance = { factor = 100 }
-	}
-	
-	option = {
-		name = "EVTOPT194502B"
-		prestige = 15
-		set_country_flag = serbia_declares_independence
-		ILL = { country_event = 194503 }
-		ai_chance = { factor = 0 }
 	}
 	
 }
 
 country_event = {
 	id = 194503
-	title = "EVTNAME194503" #Serbia Refused
+	title = "EVTNAME194503" #Hotca Agreement Declined
 	desc = "EVTDESC194503"
-	picture = "storming_palace"
-
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPT194503A"
-		prestige = -15
-		any_pop = {
-			limit = { has_pop_culture = shtokavian }
-			militancy = 2
-			consciousness = 2
-		}
-		SER = {
-			all_core = { remove_core = ILL }
-		}
-		ai_chance = { factor = 30 }
-	}
-	
-	option = {
-		name = "EVTOPT194503B"
-		prestige = 15
-		badboy = 2.5
-		war = {
-			target = SER
-			attacker_goal = { casus_belli = conquest }
-		}
-		ai_chance = { factor = 70 }
-	}
-	
-}
-
-country_event = {
-	id = 194504
-	title = "EVTNAME194504" #Illyrian Unification with Hercegovina
-	desc = "EVTDESC194504"
 	picture = "serbo_croatia_map"
 
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPT194504A"
-		any_pop = {
-			limit = { has_pop_culture = shtokavian }
-			militancy = 0.5
-		}
-		ILL = { inherit = HER }
-		ai_chance = { factor = 100 }
+		name = "EVTOPT194503A"
+		prestige = -5
+		relations = { who = CRO value = -200 }
+		clr_country_flag = hotca_agreement_proposal
+		ai_chance = { factor = 10 }
 	}
 	
 	option = {
-		name = "EVTOPT194504B"
-		prestige = 15
-		ILL = { country_event = 194505 }
-		ai_chance = { factor = 0 }
-	}
-	
-}
-
-country_event = {
-	id = 194505
-	title = "EVTNAME194505" #Hercegovina Refused
-	desc = "EVTDESC194505"
-	picture = "storming_palace"
-
-	is_triggered_only = yes
-	
-	option = {
-		name = "EVTOPT194505A"
-		prestige = -15
-		any_pop = {
-			limit = { has_pop_culture = shtokavian }
-			militancy = 2
-			consciousness = 2
-		}
-		HER = {
-			all_core = { remove_core = ILL }
-		}
-		ai_chance = { factor = 30 }
-	}
-	
-	option = {
-		name = "EVTOPT194505B"
-		prestige = 15
+		name = "EVTOPT194503B"
+		prestige = 5
+		BOS = { all_core = { add_core = ANA } }
 		badboy = 2.5
+		relations = { who = CRO value = -400 }
 		war = {
-			target = HER
-			attacker_goal = { casus_belli = conquest }
+			target = CRO
+			attacker_goal = { 
+				casus_belli = acquire_core_state
+				state_province_id = 787
+			}
+			defender_goal = {
+				casus_belli = acquire_core_state
+				state_province_id = 787
+			}
+			call_ally = no
 		}
-		ai_chance = { factor = 70 }
+		clr_country_flag = hotca_agreement_proposal
+		ai_chance = { factor = 90 }
 	}
 	
 }

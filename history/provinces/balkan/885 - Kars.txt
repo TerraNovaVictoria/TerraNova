@@ -2,7 +2,6 @@ owner = BZD
 controller = BZD
 add_core = BZD
 add_core = URM
-add_core = BTL
 add_core = ARM
 add_core = TKM
 trade_goods = iron

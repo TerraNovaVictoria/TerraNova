@@ -1,5 +1,5 @@
 owner = MSK
-controller = UCA
+controller = MSK
 add_core = UCA
 add_core = MSK
 trade_goods = fruit

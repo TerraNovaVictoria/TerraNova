@@ -1,275 +1,167 @@
-#Bohemian Flavor events
-country_event = {
-	id = 121220
-	title = "EVTNAME121220" #The Sofian Council
-	desc = "EVTDESC121220"
-	picture = "sofian_council"
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = ANA
-		year = 1836
-		primary_culture = persian
-		NOT = { has_country_flag = the_sofian_council }
-	}
-
-	mean_time_to_happen = {
-		months = 1
-	}
-
-	immediate = {
-		set_country_flag = the_sofian_council
-	}
-	
-	option = {
-		name = "EVTOPTA121220"
-		prestige = -5
-		any_pop = {
-			limit = { has_pop_culture = greek }
-			militancy = 2
-			consciousness = 2
-		}
-		any_pop = {
-			limit = { has_pop_culture = bulgarian }
-			militancy = 4
-			consciousness = 4
-		}
-		ai_chance = {
-			factor = 100
-		}
-	}
-	
-}
+###NAWIDIAN EVENTS###
 
 country_event = {
-	id = 121221
-	title = "EVTNAME121221" #Bulgarian Revolution of $YEAR$
-	desc = "EVTDESC121221"
-	news = yes
-	news_desc_long = "EVTDESC121221_NEWS_LONG"
-	news_desc_medium = "EVTDESC121221_NEWS_MEDIUM"
-	news_desc_short = "EVTDESC121221_NEWS_SHORT"
-	picture = "bulgarian_secession"
-	
-	fire_only_once = yes
-
-	trigger = {
-		tag = ANA
-		year = 1837
-		NOT = { 860 = { owned_by = ANA } }
-		OR = {
-			OR = {
-				860 = { controlled_by = ANT }
-				860 = { controlled_by = GRE }
-				860 = { controlled_by = REB }
-			}
-			OR = {
-				861 = { controlled_by = ANT }
-				860 = { controlled_by = GRE }
-				861 = { controlled_by = REB }
-			}
-		}
-		has_country_flag = the_sofian_council
-		NOT = {
-			BUL = { involved_in_crisis = yes }
-			BUL = { exists = yes }
-			has_global_flag = bulgaria_seceded
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 1
-	}
-
-	immediate = {
-		ANA = { release_vassal = WAL }
-		WAL = { country_event = 121223 }
-		set_global_flag = bulgaria_seceded
-	}
-
-	option = {
-		name = "EVTOPTA121221"
-		any_owned = {
-			limit = {
-				is_core = BUL
-			}
-			secede_province = BUL
-		}
-		795 = { secede_province = BUL }
-		relation = { who = BUL value = -100 }
-		any_pop = {
-			limit = { is_primary_culture = yes }
-			militancy = 3
-		}
-		BUL = {
-			capital = 809
-		}
-		war = {
-			target = BUL
-			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
-			defender_goal = { casus_belli = status_quo }
-		}
-		ai_chance = {
-			factor = 100
-		}
-	}
-
-	option = {
-		name = "EVTOPTB121221"
-		any_owned = {
-			limit = {
-				is_core = BUL
-			}
-			secede_province = BUL
-		}
-		relation = { who = BUL value = -100 }
-		any_pop = {
-			limit = { is_primary_culture = yes }
-			militancy = 3
-		}
-		BUL = {
-			capital = 809
-		}
-		war = {
-			target = BUL
-			attacker_goal = { casus_belli = establish_protectorate_casus_belli }
-			defender_goal = { casus_belli = status_quo }
-		}
-		change_tag_no_core_switch = BUL
-		ai_chance = {
-			factor = 0
-		}
-	}
-}
-
-country_event = {
-	id = 121222
-	title = "EVTNAME121222" #Anarchy in the Balkans - Vassals gain independence
-	desc = "EVTDESC121222"
-	picture = "kurdish_soldiers"
-	
-	fire_only_once = yes
-
-	trigger = {
-		tag = ANA
-		has_global_flag = bulgaria_seceded
-		NOT = { has_global_flag = anarchy_in_the_balkans }
-		OR = {
-			AND = {
-				exists = BUL
-				NOT = { war_with = BUL }
-			}
-			AND = {
-				exists = BUL
-				war_with = BUL
-				NOT = { 809 = { controlled_by = ANA } }
-			}
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 7
-	}
-
-	immediate = {
-		set_global_flag = anarchy_in_the_balkans
-		895 = { secede_province = RMZ }
-		787 = { remove_core = ANA }
-		SER = { all_core = { remove_core = ANA } }
-		ALB = { all_core = { remove_core = ANA } }
-		HER = { all_core = { remove_core = ANA } }
-		KSV = { all_core = { remove_core = ANA } }
-	}
-
-	option = {
-		name = "EVTOPTA121222"
-		any_owned = {
-			limit = {
-				is_core = KSV
-			}
-			secede_province = KSV
-		}
-		787 = { secede_province = SER }
-		any_owned = {
-			limit = {
-				is_core = HER
-			}
-			secede_province = HER
-			remove_core = ANA
-		}
-		any_owned = {
-			limit = {
-				is_core = ALB
-			}
-			secede_province = ALB
-			remove_core = ANA
-		}
-		any_owned = {
-			limit = {
-				is_core = SER
-			}
-			secede_province = SER
-		}
-		ANA = { release_vassal = SER }
-		SER = { country_event = 121223 }
-		ANA = { release_vassal = HER }
-		HER = { country_event = 121223 }
-		relation = { who = WAL value = -50 }
-		relation = { who = SER value = -50 }
-		relation = { who = HER value = -50 }
-		any_pop = {
-			limit = { NOT = { is_primary_culture = yes } }
-			militancy = -1
-		}
-		ai_chance = {
-			factor = 100
-		}
-	}
-
-}
-
-country_event = {
-	id = 121223
-	title = "EVTNAME121223" #Notification of independence
-	desc = "EVTDESC121223"
-	picture = "kurdish_soldiers"
-	
-	is_triggered_only = yes
-	fire_only_once = yes
-
-	option = {
-		name = "EVTOPTA121223"
-		government = absolute_monarchy
-		ai_chance = {
-			factor = 100
-		}
-	}
-}
-
-country_event = {
-	id = 121224
-	title = "EVTNAME121224" #Ionian Revolution Story
-	desc = "EVTDESC121224"
+	id = 121200
+	title = "EVTNAME121200" #The Ionian Revolt
+	desc = "EVTDESC121200"
 	picture = "ionian_revolution"
 	
 	trigger = {
 		tag = ANA
-		year = 1836
+		exists = ANT
 	}
 	
-	mean_time_to_happen = { days = 7 }
+	mean_time_to_happen = {
+		days = 14
+	}
+	
 	fire_only_once = yes
-
+	
 	option = {
-		name = "EVTOPTA121224"
-		any_owned = {
-			limit = { is_core = LAR }
-			secede_province = ANT 
+		name = "EVTOPT121200A"
+		any_pop = {
+			limit = { 
+				has_pop_culture = greek				
+			}
+			militancy = 2
+			consciousness = 2
 		}
-		837 = { secede_province = ANT }
-		ai_chance = {
-			factor = 100
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 121201
+	title = "EVTNAME121201" #The Invasion of Urmia
+	desc = "EVTDESC121201"
+	picture = "kurdish_soldiers"
+	
+	trigger = {
+		tag = ANA
+		NOT = { IRQ = { exists = yes } }
+		URM = { exists = yes }
+		OR = {
+			AND = {
+				BTL = { exists = yes }
+				BTL = { vassal_of = URM }
+				892 = { NOT = { owned_by = THIS } }
+				890 = { NOT = { owned_by = THIS } }
+			}
+			AND = {
+				BTL = { exists = no }
+				892 = { NOT = { owned_by = THIS } }
+				891 = { NOT = { owned_by = THIS } }
+				890 = { NOT = { owned_by = THIS } }
+			}
 		}
 	}
+	
+	mean_time_to_happen = {
+		days = 14
+	}
+	
+	fire_only_once = yes
+	
+	immediate = {
+		URM = { release_vassal = BTL }
+		create_vassal = BTL
+		BTL = { all_core = { add_core = ANA } }
+		BTL = { government = subject }
+		2414 = { secede_province = THIS }
+	}
+	
+	option = {
+		name = "EVTOPT121201A"
+		war = {
+			target = URM
+			attacker_goal = { 
+				casus_belli = acquire_core_state
+				state_province_id = 890
+			}
+			defender_goal = {
+				casus_belli = acquire_core_state
+				state_province_id = 2414
+			}
+			call_ally = no
+		}
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 121202
+	title = "EVTNAME121202" #The Collapse of Urmia
+	desc = "EVTDESC121202"
+	picture = "kurdish_soldiers"
+	
+	trigger = {
+		tag = URM
+		OR = {
+			AND = {
+				BTL = { exists = yes }
+				BTL = { vassal_of = ANA }
+				892 = { NOT = { owned_by = THIS } }
+				890 = { NOT = { owned_by = THIS } }
+			}
+			AND = {
+				BTL = { exists = no }
+				892 = { NOT = { owned_by = THIS } }
+				891 = { NOT = { owned_by = THIS } }
+				890 = { NOT = { owned_by = THIS } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT121202A"
+		1100 = { add_core = BZD secede_province = ARM }
+		1105 = { add_core = BZD }
+		ARM = { government = absolute_monarchy }
+		1106 = { add_core = AZB secede_province = AZB }
+		1102 = { add_core = AZB }
+		1103 = { add_core = AZB }
+		AZB = { government = absolute_monarchy }
+		release_vassal = AZB
+		release_vassal = ARM
+		release_vassal = BZD
+		URM = { all_core = { remove_core = URM } annex_to = TAL }
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 121203
+	title = "EVTNAME121203" #The Zazanid-Persian Border Treaty
+	desc = "EVTDESC121203"
+	picture = "kurdish_soldiers"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT121203A"
+		ANA = { all_core = { remove_core = TKM } }
+		relations = { who = ANA value = 50 }
+		prestige = -2.5
+		ANA = { country_event = 121204 }
+		ai_chance = { factor = 90 }
+	}
+	
+	option = {
+		name = "EVTOPT121203A"
+		relations = { who = ANA value = -50 }
+		prestige = 2.5
+		ANA = { country_event = 121205 }
+		ai_chance = { factor = 10 }
+	}
+	
 }

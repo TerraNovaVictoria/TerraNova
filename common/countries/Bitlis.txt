@@ -1,4 +1,5 @@
 color = { 219  182  182 } 
+subject = { 255 165 75 }
 graphical_culture = MiddleEasternGC
 
 party = {

@@ -655,6 +655,8 @@ HUN;Magyarstan;;;;;;;;;;;;x
 HUN_ADJ;Kishini;;;;;;;;;;;;x
 HUN_fascist_dictatorship;The Magyar Khanate;;;;;;;;;;;;x
 HUN_proletarian_dictatorship;The Magyar ASSR;;;;;;;;;;;;x
+BBN;Baban;;;;;;;;;;;;x
+BBN_ADJ;Babani;;;;;;;;;;;;x
 MRL;Mari El;;;;;;;;;;;;x
 MRL_ADJ;Mari El;;;;;;;;;;;;x
 MRL_proletarian_dictatorship;The Mari El ASSR;;;;;;;;;;;;x
@@ -669,23 +671,34 @@ CHV_ADJ;Chuvash;;;;;;;;;;;;x
 CHV_proletarian_dictatorship;The Chuvash ASSR;;;;;;;;;;;;x
 AOM;Aromania;;;;;;;;;;;;x
 AOM_ADJ;Aromanian;;;;;;;;;;;;x
+ASY_theocracy;Tur Abdin;;;;;;;;;x;;;;;;;;
+ASY_theocracy_ADJ;Tur Abdinid;;;;;;;;;x;;;;;;;;
+MSK_ADJ;Miskito;;;;;;;;;x;;;;;;;;
+MSK;Miskito;;;;;;;;;x;;;;;;;;
+MSK_absolute_monarchy;The Mosquito Kingdom;;;;;;;;;x;;;;;;;;
+MSK_prussian_constitutionalism;The Mosquito Kingdom;;;;;;;;;;;;;x
+MSK_hms_government;The Mosquito Kingdom;;;;;;;;;;;;;x,
+MSK_colonial_company;Reserva Mosquitia;;;;;;;;;;;;;x,
+MSK_dominion;Reserva Mosquitia;;;;;;;;;;;;;x,
 ANA;Kirmanjka;;;;;;;;;;;;x
 ANA_ADJ;Kirmanjki;;;;;;;;;;;;x
 ANA_ancient_regime;The Nawid Shahdom;;;;;;;;;;;;x
 ANA_ancient_regime_ADJ;Nawid;;;;;;;;;;;;x
-ANA_absolute_monarchy;The Zazanid Shahdom;;;;;;;;;;;;x
-ANA_absolute_monarchy_ADJ;Zazanid;;;;;;;;;;;;x
-ANA_prussian_constitutionalism;The Zazanid Shahdom;;;;;;;;;;;;x
-ANA_prussian_constitutionalism_ADJ;Zazanid;;;;;;;;;;;;x
-ANA_hms_government;The Zazanid Shahdom;;;;;;;;;;;;x
-ANA_hms_government_ADJ;Zazanid;;;;;;;;;;;;x
+ANA_absolute_monarchy;The Nawid Empire;;;;;;;;;;;;x
+ANA_absolute_monarchy_ADJ;Nawid;;;;;;;;;;;;x
+ANA_prussian_constitutionalism;The Nawid Empire;;;;;;;;;;;;x
+ANA_prussian_constitutionalism_ADJ;Nawid;;;;;;;;;;;;x
+ANA_hms_government;The Nawid Empire;;;;;;;;;;;;x
+ANA_hms_government_ADJ;Nawid;;;;;;;;;;;;x
 ANA_proletarian_dictatorship;The Anatolian Council Republic;The Anatolian Council Republic;The Anatolian Council Republic;;The Anatolian Council Republic;;;;;;;;;;;;x
 ANA_proletarian_dictatorship_ADJ;Anatolian;;;;;;;;;;;;x
 ANA_presidential_dictatorship;The Askuzaid State;;;;;;;;;;;;;;;;x
-ANA_bourgeois_dictatorship;The Dimili Republic;;;;;;;;;;;;x
+ANA_bourgeois_dictatorship;The Dimilid Republic;;;;;;;;;;;;x
+ANA_bourgeois_dictatorship_ADJ;Dimilid;;;;;;;;;;;;x
 ANA_fascist_dictatorship_ADJ;The Ilkhanate;;;;;;;;;;;;x
 ANA_fascist_dictatorship_ADJ;Ilkhanid;;;;;;;;;;;;x
-ANA_democracy;Kirmania;;;;;;;;;;;;x
+ANA_democracy;Zazastan;;;;;;;;;;;;x
+ANA_democracy_ADJ;Zazastani;;;;;;;;;;;;x
 URM_absolute_monarchy;The Urmian Khanate;;;;;;;;;;;;;x
 URM;Urmia;;;;;;;;;;;;;x
 URM_ADJ;Urmian;;;;;;;;;;;;;x

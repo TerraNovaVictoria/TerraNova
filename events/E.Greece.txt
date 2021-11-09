@@ -250,9 +250,9 @@ country_event = {
 #####ATHENIAN FLAVOR#####
 
 country_event = {
-	id = 065566
-	title = "EVTNAME065566" #The Cult of Athena
-	desc = "EVTDESC065566"
+	id = 165566
+	title = "EVTNAME165566" #The Cult of Athena
+	desc = "EVTDESC165566"
 	picture = "cult_of_athena"
 	
 	trigger = {
@@ -269,7 +269,7 @@ country_event = {
 	}
 		
 	option = {
-		name = "EVTOPT065566A"
+		name = "EVTOPT165566A"
 		any_pop = { militancy = 1 }
 		add_country_modifier = {
 			name = athenian_cult
@@ -280,7 +280,7 @@ country_event = {
 	}
 	
 	option = {
-		name = "EVTOPT065566B"
+		name = "EVTOPT165566B"
 		any_pop = { militancy = 1 }
 		add_country_modifier = {
 			name = athenian_cult_extreme
