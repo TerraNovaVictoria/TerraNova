@@ -1,6 +1,6 @@
 owner = SPA
 controller = SPA
-add_core = SPA
+add_core = NCA
 trade_goods = grain
 terrain = semidesert
 life_rating = 20

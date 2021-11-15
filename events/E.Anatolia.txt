@@ -68,7 +68,7 @@ country_event = {
 		create_vassal = BTL
 		BTL = { all_core = { add_core = ANA } }
 		BTL = { government = subject }
-		2414 = { secede_province = THIS }
+		2414 = { secede_province = THIS remove_core = BTL }
 	}
 	
 	option = {
@@ -162,6 +162,44 @@ country_event = {
 		prestige = 2.5
 		ANA = { country_event = 121205 }
 		ai_chance = { factor = 10 }
+	}
+	
+}
+
+country_event = {
+	id = 121204
+	title = "EVTNAME121204" #The Zazanid-Persian Border Treaty Accepted Response
+	desc = "EVTDESC121204"
+	picture = "kurdish_soldiers"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT121204A"
+		relations = { who = TKM value = 50 }
+		prestige = 2.5
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 121205
+	title = "EVTNAME121205" #The Zazanid-Persian Border Treaty Refused Response
+	desc = "EVTDESC121205"
+	picture = "kurdish_soldiers"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT121205A"
+		1131 = { add_core = ANA add_core = IRQ }
+		885 = { add_core = ANA }
+		relations = { who = TKM value = -50 }
+		prestige = -2.5
+		ai_chance = { factor = 100 }
 	}
 	
 }

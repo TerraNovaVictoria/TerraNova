@@ -1,0 +1,33 @@
+army = {
+	name = "Karsid Army"
+	location = 885
+	regiment = {
+		name = "Kurdish Volunteers"
+		type = irregular
+		home = 1098
+	}
+	regiment = {
+		name = "Shah-Armensids"
+		type = irregular
+		home = 1098
+	}
+	regiment = {
+		name = "Hajilarids"
+		type = irregular
+		home = 1099
+	}
+	regiment = {
+		name = "Dimilids"
+		type = cavalry
+		home = 1099
+	}
+}
+
+leader = {
+	name = "Mohammad Beyazid Beg"
+	type = land
+	date = 1828.8.20
+	background = aristocrat
+	personality = merciless
+}
+
