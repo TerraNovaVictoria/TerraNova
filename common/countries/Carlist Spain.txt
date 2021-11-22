@@ -1,4 +1,5 @@
-color = { 164 48 198 }
+color = { 99  14  87 }
+provisional_state = { 164 48 198 }
 graphical_culture = SpanishGC
 
 party = {

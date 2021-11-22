@@ -1,0 +1,73 @@
+###SPANISH REVOLUTIONARY WAR###
+
+country_event = {
+	id = 777200
+	title = "EVTNAME777200" #The King's Abdication
+	desc = "EVTDESC777200"
+	picture = "nationalists_alt"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT777200A"
+		prestige = -5
+		any_pop = { militancy = -0.5 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 777201
+	title = "EVTNAME777201" #The Spanish Monarchy Triumphant
+	desc = "EVTDESC777201"
+	picture = "spanish_mon_victory"
+	major = yes
+	
+	trigger = {
+		tag = SPA
+		NOT = { exists = SPC }
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT777201A"
+		prestige = 5
+		any_pop = { militancy = -2 }
+		SPA = { war_exhaustion = -40 }
+		SPC = { all_core = { remove_core = SPC } }
+		SPC = { annex_to = SPA }
+		set_global_flag = end_of_spanish_civil_war
+		ai_chance = { factor = 100 }
+	}
+}
+
+
+country_event = {
+	id = 777202
+	title = "EVTNAME777202" #The Collapse of the Monarchy
+	desc = "EVTDESC777202"
+	picture = "spanish_mon_victory"
+	
+	trigger = {
+		tag = SPA
+		war = no
+		SPC = { exists = yes }
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT777202A"
+		SAF = { all_core = { secede_province = SAF } }
+		SAF = { government = absolute_monarchy }
+		change_tag_no_core_switch = SAF
+		SPC = { country_event = 777101 }
+		set_global_flag = end_of_spanish_civil_war
+		ai_chance = { factor = 100 }
+	}
+}
+

@@ -184,37 +184,25 @@ political_decisions = {
 		}
 	}
 	
-	royalists_escape_to_the_cape = {
-		picture = "civil_war_in_spain"
+	the_kings_abdication_spa = {
+		picture = "codificazione_estense"
 		potential = {
 			tag = SPA
-			AND = {
-				exists = SPC
-				exists = BRZ
-			}
-			NOT = { exists = SAF }
-			NOT = { has_global_flag = end_of_spanish_civil_war }
+			exists = GLC
+			NOT = { has_global_flag = fernando_abdicated }
 		}
 		
 		allow = {
-			2087 = { owned_by = THIS }
-			war_exhaustion = 25
+			war_with = SPC
 		}
 		
 		effect = {
-			any_owned = {
-				limit = {
-					is_core = SAF
-				}
-				secede_province = SAF
-			}
-			SAF = { 
-				government = ancient_regime 
-			}
-			change_tag_no_core_switch = SAF
- 		}
+			country_event = 777200
+			SPC = { war_exhaustion = -5 }
+			set_global_flag = fernando_abdicated
+		}
 		ai_will_do = {
-			factor = 0
+			factor = 1
 		}
 	}
 	

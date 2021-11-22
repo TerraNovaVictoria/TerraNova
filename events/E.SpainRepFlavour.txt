@@ -1,0 +1,52 @@
+###SPANISH REVOLUTIONARY WAR###
+
+country_event = {
+	id = 777100
+	title = "EVTNAME777100" #The Charter of Liberty
+	desc = "EVTDESC777100"
+	picture = "nationalists_alt"
+	
+	trigger = {
+		tag = SPC
+		has_global_flag = fernando_abdicated
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT777100A"
+		prestige = 2.5
+		any_pop = { militancy = -0.5 }
+		SPC = { war_exhaustion = -5 }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = 777101
+	title = "EVTNAME777101" #The Spanish State Triumphant
+	desc = "EVTDESC777101"
+	picture = "spanish_rep_victory"
+	major = yes
+	
+	trigger = {
+		tag = SPC
+		NOT = { exists = SPA }
+		NOT = { has_global_flag = end_of_spanish_civil_war }
+	}
+	
+	mean_time_to_happen = { days = 7 }
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT777101A"
+		prestige = 5
+		any_pop = { militancy = -2 }
+		SPC = { war_exhaustion = -40 }
+		SPA = { all_core = { remove_core = SPA } }
+		SPA = { annex_to = SPC }
+		set_global_flag = end_of_spanish_civil_war
+		ai_chance = { factor = 100 }
+	}
+}
