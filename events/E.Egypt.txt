@@ -185,6 +185,7 @@ country_event = {
 		AND = {
 			has_country_flag = kept_slavery_mam
 			has_country_flag = no_quarters_mam
+			has_country_flag = caliphate_reinforced
 		}
 	}
 	
@@ -194,6 +195,7 @@ country_event = {
 	immediate = {
 		clr_country_flag = kept_slavery_mam
 		clr_country_flag = no_quarters_mam
+		clr_country_flag = caliphate_reinforced
 		government = theocracy
 	}
 	
@@ -268,6 +270,146 @@ country_event = {
 		}
 		change_tag_no_core_switch = COP
 		ai_chance = { factor = 0 }
+	}
+
+}
+
+country_event = {
+	id = 990004
+	title = "EVTNAME990004" #The Piracy in the Horn
+	desc = "EVTDESC990004"
+	picture = "mamluk_massacre"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT990004A"
+		1849 = { add_province_modifier = horn_african_piracy }
+		1851 = { add_province_modifier = horn_african_piracy }
+		1875 = { add_province_modifier = horn_african_piracy }
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 990005
+	title = "EVTNAME990005" #The Absence of Mamlukean Order in Eritrea
+	desc = "EVTDESC990005"
+	picture = "mamluk_massacre"
+	
+	trigger = {
+		tag = EGY
+		year = 1844
+		OR = {
+			AND = {
+				1851 = { owned_by = THIS has_province_modifier = horn_africa_piracy }
+				AWS = { exists = yes }
+				1849 = { owned_by = THIS has_province_modifier = horn_africa_piracy }
+				ERI = { exists = yes }
+			}
+			AND = {
+				1851 = { owned_by = THIS has_province_modifier = horn_africa_piracy }
+				AWS = { exists = no }
+				1858 = { owned_by = THIS }
+				1849 = { owned_by = THIS has_province_modifier = horn_africa_piracy }
+				ERI = { exists = no }
+				1848 = { owned_by = THIS }
+				1850 = { owned_by = THIS }
+			}
+		}
+	}
+	
+	mean_time_to_happen = { months = 12 }
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT990005A"
+		1849 = { secede_province = ERI }
+		1850 = { secede_province = ERI }
+		1848 = { secede_province = ERI }
+		1858 = { secede_province = AWS }
+		1851 = { secede_province = AWS }
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 990006
+	title = "EVTNAME990006" #The Matter of Secularisation
+	desc = "EVTDESC990006"
+	picture = "interview_with_the_sultan"
+	
+	trigger = {
+		tag = EGY
+		EGY = { civilized = yes }
+		has_country_flag = abbasids_in_cairo
+	}
+	
+	mean_time_to_happen = { days = 30 }
+	fire_only_once = yes
+	
+	immediate = { clr_country_flag = abbasids_in_cairo }
+		
+	option = {
+		name = "EVTOPT990006A"
+		any_pop = {
+			scaled_consciousness = {
+				ideology = liberal
+				factor = 2
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = conservative
+				factor = -0.5
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = -0.5
+			}
+		}
+		set_country_flag = caliphate_reinforced
+		prestige = 2.5
+		ai_chance = { factor = 50 }
+	}
+	
+	option = {
+		name = "EVTOPT990006B"
+		any_pop = {
+			scaled_consciousness = {
+				ideology = liberal
+				factor = -0.5
+			}
+		}
+		any_pop = {
+			scaled_militancy = {
+				ideology = liberal
+				factor = -0.5
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = conservative
+				factor = 0.5
+			}
+		}
+		any_pop = {
+			scaled_consciousness = {
+				ideology = reactionary
+				factor = 0.5
+			}
+		}
+		any_pop = {
+			limit = { culture = copt }
+			militancy = -2
+			consciousness = -2
+		}
+		ai_chance = { factor = 50 }
 	}
 
 }

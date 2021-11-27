@@ -80,4 +80,92 @@ political_decisions = {
 		}
 	}
 	
+	eritrea_coast_cores = { 
+		picture = military_aid
+		potential = {
+			tag = EGY
+			1849 = { owned_by = THIS has_province_modifier = horn_africa_piracy }
+			1851 = { owned_by = THIS has_province_modifier = horn_africa_piracy }
+		}
+		
+		allow = {
+			civilized = yes
+		}
+		
+		effect = {
+			prestige = 2.5
+			ERI = { all_core = { add_core = EGY } }
+			1849 = { remove_province_modifier = horn_africa_piracy }
+			1851 = { remove_province_modifier = horn_africa_piracy }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	egy_pacify_asir = { 
+		picture = military_aid
+		potential = {
+			tag = EGY
+			NYE = { exists = yes }
+			OR = {
+				AND = {
+					1155 = { owned_by = THIS NOT = { is_core = THIS } }
+					1179 = { owned_by = THIS NOT = { is_core = THIS } }
+				}
+				AND = {
+					1155 = { owned_by = THIS NOT = { is_core = THIS } }
+					OR = {
+						1179 = { owned_by = NYE }
+						1179 = { owned_by = YEM }
+					}
+				}
+			}
+		}
+		
+		allow = {
+			civilized = yes
+		}
+		
+		effect = {
+			prestige = 1.5
+			1155 = { remove_core = ASI add_core = EGY }
+			1179 = { remove_core = ASI remove_core = HDJ secede_province = NYE }
+			relation = { WHO = NYE value = 200 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	egy_pacify_asir_no_nye = { 
+		picture = military_aid
+		potential = {
+			tag = EGY
+			NYE = { exists = no }
+			AND = {
+				1155 = { owned_by = THIS NOT = { is_core = THIS } }
+				1179 = { owned_by = THIS NOT = { is_core = THIS } }
+			}
+		}
+		
+		allow = {
+			civilized = yes
+		}
+		
+		effect = {
+			prestige = 1.5
+			1155 = { remove_core = ASI add_core = EGY }
+			1179 = { remove_core = ASI remove_core = HDJ secede_province = NYE }
+			create_vassal = NYE
+			relation = { WHO = NYE value = 400 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 }

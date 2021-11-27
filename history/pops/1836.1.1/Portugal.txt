@@ -152,13 +152,13 @@
 	farmers = {
 		culture = leonese
 		religion = catholic
-		size = 21500
+		size = 11500
 	}
 
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 60500
+		size = 66500
 	}
 
 }
@@ -286,13 +286,13 @@
 	farmers = {
 		culture = leonese
 		religion = catholic
-		size = 22550
+		size = 2550
 	}
 	
 	farmers = {
 		culture = portuguese
 		religion = catholic
-		size = 20550
+		size = 40550
 	}
 }
 #Setubal (112000/28000 POPS)
@@ -370,7 +370,13 @@
 	farmers = {
 		culture = leonese
 		religion = catholic
-		size = 13250
+		size = 11250
+	}
+	
+	farmers = {
+		culture = andalusian
+		religion = catholic
+		size = 1500
 	}
 
 	farmers = {
@@ -396,7 +402,7 @@
 	artisans = {
 		culture = leonese
 		religion = catholic
-		size = 1250
+		size = 250
 	}
 
 	soldiers = {
@@ -408,7 +414,13 @@
 	farmers = {
 		culture = leonese
 		religion = catholic
-		size = 6000
+		size = 1000
+	}
+	
+	farmers = {
+		culture = andalusian
+		religion = catholic
+		size = 7000
 	}
 	
 	farmers = {
@@ -446,13 +458,19 @@
 	farmers = {
 		culture = leonese
 		religion = catholic
-		size = 17025
+		size = 8025
 	}
 	
 	farmers = {
 		culture = portuguese
 		religion = catholic
 		size = 24025
+	}
+	
+	farmers = {
+		culture = andalusian
+		religion = catholic
+		size = 9000
 	}
 
 }

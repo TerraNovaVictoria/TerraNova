@@ -28,6 +28,8 @@ political_decisions = {
 			1751 = { add_province_modifier = { name = alexandrian_port duration = -1 } }
 			add_country_modifier = { name = golden_century_mam duration = -1 }
 			
+			set_country_flag = abbasids_in_cairo
+			
 			any_pop = { limit = { has_pop_religion = catholic NOT = { has_pop_culture = assyrian} } literacy = 0.01 }
 			any_pop = { limit = { OR = { has_pop_culture = greek has_pop_culture = armenian } } literacy = 0.05 }
 		}

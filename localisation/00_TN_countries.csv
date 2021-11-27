@@ -1,4 +1,13 @@
 ;;;;;;;;;;;;;;x,,,
+JIM;Jimma;;;;;;;;;;;;;;;;;;x;;;;
+JIM_ADJ;Jimman;;;;;;;;;;;;;;;;;;x;;;;
+JIM_primitive_absolute_monarchy;The Jimma Emirate;;;;;;;;;;;;;;;;;;x;;;;
+AWS_primitive_absolute_monarchy;The Awsa Emirate;;;;;;;;;;;;;;;;;;x;;;;
+HAR_primitive_absolute_monarchy;The Harar Sultanate;;;;;;;;;;;;;;;;;;x;;;;
+BLE;Oromoa;;;;;;;;;;;;;;;;;;x;;;;
+BLE_ADJ;Oromo;;;;;;;;;;;;;;;;;;x;;;;
+BLE_primitive_absolute_monarchy;Bale;;;;;;;;;;;;;;;;;;x;;;;
+BLE_primitive_absolute_monarchy_ADJ;Balid;;;;;;;;;;;;;;;;;;x;;;;
 CAS;Castile;;;;;;;;;;;;;;;;;;x;;;;
 CAS_ADJ;Castilian;;;;;;;;;;;;;;;;;;x;;;;
 LON;Llíon;;;;;;;;;;;;;;;;;;x;;;;
@@ -776,8 +785,8 @@ SPA_absolute_monarchy;The Kingdom of Spain;;;;;;;;;;;;;x
 SPA_prussian_constitutionalism;The Kingdom of Spain;;;;;;;;;;;;;x
 SPA_hms_government;The Kingdom of Spain;;;;;;;;;;;;;x
 SPA_proletarian_dictatorship;The Spanish People's Republic;;;;;;;;;;;;;x,
-SPA_presidential_dictatorship;The Iberian Government;;;;;;;;;;;;;x,
-SPA_presidential_dictatorship_ADJ;Iberian;;;;;;;;;;;;;x,
+SPA_presidential_dictatorship;Spain;;;;;;;;;;;;;x,
+SPA_presidential_dictatorship_ADJ;Spanish;;;;;;;;;;;;;x,
 SPA_fascist_dictatorship;The Spanish State;;;;;;;;;;;;;x,
 SPC;Spain;;;;;;;;;;;;;x
 SPC_democracy;The Spanish Republic;;;;;;;;;;;;;x

@@ -165,14 +165,20 @@ vassal = {
 	end_date = 1936.1.1
 }
 vassal = {
-	first = EGY
+	first = TIG
 	second = ERI
 	start_date = 1815.1.1
 	end_date = 1936.1.1
 }
 vassal = {
-	first = EGY
+	first = HAR
 	second = AWS
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+vassal = {
+	first = HAR
+	second = JIM
 	start_date = 1815.1.1
 	end_date = 1936.1.1
 }

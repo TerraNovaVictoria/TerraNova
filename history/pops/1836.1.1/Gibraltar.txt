@@ -33,9 +33,9 @@
 	}
 	
 	artisans = {
-		culture = maghrebi
-		religion = jewish
-		size = 117
+		culture = andalusian
+		religion = catholic
+		size = 1117
 	}
 	
 	farmers = {
@@ -45,26 +45,8 @@
 	}
 	
 	farmers = {
-		culture = portuguese
+		culture = catalan
 		religion = catholic
 		size = 169
-	}
-
-	clergymen = {
-		culture = pan_italian
-		religion = catholic
-		size = 5
-	}
-	
-	farmers = {
-		culture = pan_italian
-		religion = catholic
-		size = 1302
-	}
-	
-	farmers = {
-		culture = pan_italian
-		religion = catholic
-		size = 35
 	}
 }

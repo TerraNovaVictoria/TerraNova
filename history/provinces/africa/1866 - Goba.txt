@@ -1,3 +1,6 @@
+owner = BLE
+controller = BLE
+add_core = BLE
 add_core = HBY
 add_core = ETH
 terrain = dryhills

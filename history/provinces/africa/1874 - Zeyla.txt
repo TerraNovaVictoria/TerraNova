@@ -1,5 +1,6 @@
-owner = WRL
-controller = WRL
+owner = HAR
+controller = HAR
+add_core = HAR
 add_core = WRL
 trade_goods = grain
 terrain = semidesert
