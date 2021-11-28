@@ -156,10 +156,8 @@ political_decisions = {
 			prestige = 10
 			1208 = { add_core = AFG }
 			1211 = { add_core = AFG }
-			1212 = { add_core = AFG }
 			government = primitive_absolute_monarchy
 			TKM = { country_event = 251701 }
-			HRT = { country_event = 251704 }
 		}
 		
 		ai_will_do = {
@@ -293,8 +291,10 @@ political_decisions = {
 		effect = {
 			prestige = 5
 			AFG = { all_core = { add_core = NAZ } }
-			BDK = { all_core = { add_core = NAZ } }
-			BLC = { all_core = { add_core = NAZ } }
+			1208 = { add_core = NAZ }
+			1220 = { add_core = NAZ }
+			1207 = { add_core = NAZ }
+			HRT = { all_core = { add_core = NAZ } }
 			government = absolute_monarchy
 			change_tag = NAZ
 		}

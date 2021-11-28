@@ -17,6 +17,9 @@ VIC 	="countries/Nationalist France.txt"
 BOR		="countries/The Kingdom of France.txt"
 
 ##Terra Nova Nations
+AJM		= "countries/Ajam.txt"
+FRS		= "countries/Fars.txt"
+ADU 	= "countries/Andalusia.txt"
 JIM		= "countries/Jimma.txt"
 BLE 	= "countries/Bale.txt"
 NCA 	= "countries/New Catalonia.txt"

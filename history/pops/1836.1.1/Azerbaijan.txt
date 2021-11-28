@@ -58,20 +58,20 @@
 	}
 
 	artisans = {
-		culture = talysh
-		religion = sunni
+		culture = persian
+		religion = shiite
 		size = 600
 	}
 
 	soldiers = {
-		culture = talysh
-		religion = sunni
+		culture = persian
+		religion = shiite
 		size = 125
 	}
 
 	farmers = {
-		culture = talysh
-		religion = sunni
+		culture = persian
+		religion = shiite
 		size = 7985
 	}
 
@@ -132,32 +132,32 @@
 	}
 
 	aristocrats = {
-		culture = talysh
-		religion = sunni
+		culture = persian
+		religion = shiite
 		size = 125
 	}
 
 	clergymen = {
-		culture = talysh
-		religion = sunni
+		culture = persian
+		religion = shiite
 		size = 75
 	}
 
 	artisans = {
-		culture = talysh
-		religion = sunni
+		culture = persian
+		religion = shiite
 		size = 350
 	}
 
 	soldiers = {
-		culture = talysh
-		religion = sunni
+		culture = persian
+		religion = shiite
 		size = 75
 	}
 
 	farmers = {
-		culture = talysh
-		religion = sunni
+		culture = persian
+		religion = shiite
 		size = 5400
 	}
 	
@@ -372,20 +372,20 @@
 	}
 
 	artisans = {
-		culture = talysh
-		religion = sunni
+		culture = persian
+		religion = shiite
 		size = 450
 	}
 
 	soldiers = {
-		culture = talysh
-		religion = sunni
+		culture = persian
+		religion = shiite
 		size = 100
 	}
 	
 	farmers = {
-		culture = talysh
-		religion = sunni
+		culture = persian
+		religion = shiite
 		size = 225
 	}
 

@@ -185,19 +185,15 @@ country_event = {
 	
 	mean_time_to_happen = { months = 3 }
 	
-	immediate = { 
-		TKM = { all_core = { remove_core = TKM } }	
-		government = absolute_monarchy
-		primary_culture = turkmen
-		1205 = { add_core = TKM secede_province = THIS }
-		1206 = { add_core = TKM }
-		1196 = { add_core = TKM }
-	}
-	
 	fire_only_once = yes
 	
 	option = { #Continue as Turkmenistan
 		name = "EVTOPT251706A"
+		TKM = { all_core = { remove_core = TKM } government = ancient_regime primary_culture = turkmen }	
+		1205 = { add_core = TKM secede_province = THIS }
+		1206 = { add_core = TKM }
+		1196 = { add_core = TKM }
+		KHR = { primary_culture = persian }
 		any_pop = { militancy = 1 }
 		prestige = -10
 		TKM = { all_core = { remove_core = TKM } }
@@ -207,29 +203,24 @@ country_event = {
 			}
 			add_core = TKM
 		}
+		1116 = { add_core = TKM }
 		any_owned = {
 			limit = {
-				OR = {
-					region = PER_1136
-					region = PER_1140
-				}
+				region = PER_1140
 			}
-			add_core = PER
-			secede_province = PER
+			add_core = FRS
+			secede_province = FRS
 		}
-		1130 = { add_core = PER secede_province = PER }
-		1127 = { add_core = PER secede_province = PER }
 		any_owned = {
 			limit = {
-				OR = {
-					region = PER_1148
-					region = PER_1121
-				}
+				region = PER_1148
 			}
 			add_core = KHR
 			secede_province = KHR
 		}
-		1129 = { add_core = KHR secede_province = KHR }
+		1212 = { add_core = KHR secede_province = KHR }
+		1204 = { add_core = KHR secede_province = KHR }
+		1116 = { add_core = KHR secede_province = KHR }
 		any_owned = {
 			limit = {
 				region = PER_1116
@@ -244,18 +235,39 @@ country_event = {
 			add_core = TAL
 			secede_province = TAL
 		}
+		any_owned = {
+			limit = {
+				OR = {
+					region = PER_1127
+					region = PER_1121
+				}
+			}
+			add_core = AJM
+			secede_province = AJM
+		}
+		HRT = { all_core = { add_core = AFG remove_core = HRT } }
 		release_vassal = BLC
 		release_vassal = LUR
 		release_vassal = TAL
 		release_vassal = KHR
 		release_vassal = RDL
 		release_vassal = AFG
+		release_vassal = FRS
 		set_global_flag = collapse_of_persia
+		capital = 686
+		KHR = { country_event = 251707 }
+		RDL = { country_event = 251707 }
+		FRS = { country_event = 251707 }
 		ai_chance = { factor = 100 }
 	}
 	
 	option = { #Continue as Tabaristan
 		name = "EVTOPT251706B"
+		TKM = { all_core = { remove_core = TKM } government = ancient_regime primary_culture = turkmen }	
+		1205 = { add_core = TKM secede_province = THIS }
+		1206 = { add_core = TKM }
+		1196 = { add_core = TKM }
+		KHR = { primary_culture = persian }
 		any_pop = { militancy = 1 }
 		prestige = -10
 		TKM = { all_core = { remove_core = TKM } }
@@ -268,27 +280,21 @@ country_event = {
 		1116 = { add_core = TKM }
 		any_owned = {
 			limit = {
-				OR = {
-					region = PER_1136
-					region = PER_1140
-				}
+				region = PER_1140
 			}
-			add_core = PER
-			secede_province = PER
+			add_core = FRS
+			secede_province = FRS
 		}
-		1130 = { add_core = PER secede_province = PER }
-		1127 = { add_core = PER secede_province = PER }
 		any_owned = {
 			limit = {
-				OR = {
-					region = PER_1148
-					region = PER_1121
-				}
+				region = PER_1148
 			}
 			add_core = KHR
 			secede_province = KHR
 		}
-		1129 = { add_core = KHR secede_province = KHR }
+		1212 = { add_core = KHR secede_province = KHR }
+		1204 = { add_core = KHR secede_province = KHR }
+		1116 = { add_core = KHR secede_province = KHR }
 		any_owned = {
 			limit = {
 				region = PER_1116
@@ -303,19 +309,40 @@ country_event = {
 			add_core = TAL
 			secede_province = TAL
 		}
+		any_owned = {
+			limit = {
+				OR = {
+					region = PER_1127
+					region = PER_1121
+				}
+			}
+			add_core = AJM
+			secede_province = AJM
+		}
+		HRT = { all_core = { add_core = AFG remove_core = HRT } }
 		release_vassal = BLC
 		release_vassal = LUR
 		release_vassal = TAL
 		release_vassal = KHR
 		release_vassal = RDL
 		release_vassal = AFG
+		release_vassal = FRS
 		set_global_flag = collapse_of_persia
+		capital = 686
+		KHR = { country_event = 251707 }
+		RDL = { country_event = 251707 }
+		FRS = { country_event = 251707 }
 		change_tag_no_core_switch = TAB
 		ai_chance = { factor = 100 }
 	}
 	
-	option = { #Continue as Persia
+	option = { #Continue as Ajam
 		name = "EVTOPT251706C"
+		TKM = { all_core = { remove_core = TKM } government = ancient_regime primary_culture = turkmen }	
+		1205 = { add_core = TKM secede_province = THIS }
+		1206 = { add_core = TKM }
+		1196 = { add_core = TKM }
+		KHR = { primary_culture = persian }
 		any_pop = { militancy = 1 }
 		prestige = -10
 		TKM = { all_core = { remove_core = TKM } }
@@ -328,27 +355,21 @@ country_event = {
 		1116 = { add_core = TKM }
 		any_owned = {
 			limit = {
-				OR = {
-					region = PER_1136
-					region = PER_1140
-				}
+				region = PER_1140
 			}
-			add_core = PER
-			secede_province = PER
+			add_core = FRS
+			secede_province = FRS
 		}
-		1130 = { add_core = PER secede_province = PER }
-		1127 = { add_core = PER secede_province = PER }
 		any_owned = {
 			limit = {
-				OR = {
-					region = PER_1148
-					region = PER_1121
-				}
+				region = PER_1148
 			}
 			add_core = KHR
 			secede_province = KHR
 		}
-		1129 = { add_core = KHR secede_province = KHR }
+		1212 = { add_core = KHR secede_province = KHR }
+		1204 = { add_core = KHR secede_province = KHR }
+		1116 = { add_core = KHR secede_province = KHR }
 		any_owned = {
 			limit = {
 				region = PER_1116
@@ -363,14 +384,82 @@ country_event = {
 			add_core = TAL
 			secede_province = TAL
 		}
+		any_owned = {
+			limit = {
+				OR = {
+					region = PER_1127
+					region = PER_1121
+				}
+			}
+			add_core = AJM
+			secede_province = AJM
+		}
+		HRT = { all_core = { add_core = AFG remove_core = HRT } }
 		release_vassal = BLC
 		release_vassal = LUR
 		release_vassal = TAL
 		release_vassal = KHR
 		release_vassal = RDL
 		release_vassal = AFG
+		release_vassal = FRS
 		set_global_flag = collapse_of_persia
-		change_tag_no_core_switch = PER
+		capital = 686
+		KHR = { country_event = 251707 }
+		RDL = { country_event = 251707 }
+		FRS = { country_event = 251707 }
+		change_tag_no_core_switch = AJM
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 251707
+	title = "EVTNAME251707" #Rise of a local Dynasty
+	desc = "EVTDESC251707"
+	picture = "graveyard_of_empires"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT251707A"
+		government = primitive_absolute_monarchy
+		prestige = 2.5
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 251708
+	title = "EVTNAME251708" #Collapse of Baluchistan
+	desc = "EVTDESC251708"
+	picture = "graveyard_of_empires"
+	
+	trigger = {
+		tag = BLC
+		has_global_flag = collapse_of_persia
+	}
+		
+	mean_time_to_happen = { days = 7 }
+		
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT251708A"
+		BLC = { all_core = { remove_core = BLC } }
+		1221 = { add_core = KAL secede_province = KAL }
+		1222 = { add_core = KAL secede_province = KAL }
+		2640 = { add_core = KAL }
+		1146 = { add_core = MAK secede_province = MAK }
+		1144 = { add_core = MAK secede_province = MAK }
+		1220 = { add_core = KDH add_core = AFG }
+		1215 = { add_core = KDH secede_province = THIS }
+		1214 = { add_core = KDH secede_province = THIS }
+		KAL = { create_vassal = MAK }
+		change_tag = KDH
+		AFG = { create_vassal = KDH }
 		ai_chance = { factor = 100 }
 	}
 

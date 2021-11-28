@@ -2,6 +2,7 @@ owner = SPC
 controller = SPC
 add_core = SPC
 add_core = SPA
+add_core = ADU
 trade_goods = coal
 life_rating = 35
 1861.1.1 = { railroad = 3 }

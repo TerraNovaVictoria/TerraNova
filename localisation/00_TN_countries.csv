@@ -1,4 +1,20 @@
 ;;;;;;;;;;;;;;x,,,
+FRS;Fars;;;;;;;;;;;;;;;;;;x;;;;
+FRS_ADJ;Farsi;;;;;;;;;;;;;;;;;;x;;;;
+TKM_ancient_regime;The Hajilarid Dynasty;;;;;;;;;;;;;;;;;;x;;;;
+TKM_ancient_regime_ADJ;Hajilarid;;;;;;;;;;;;;;;;;;x;;;;
+FRS_ancient_regime;The Askuzarid Emirate;;;;;;;;;;;;;;;;;;x;;;;
+FRS_ancient_regime_ADJ;Askuzarid;;;;;;;;;;;;;;;;;;x;;;;
+FRS_primitive_absolute_monarchy;The Askuzarid Dynasty;;;;;;;;;;;;;;;;;;x;;;;
+FRS_primitive_absolute_monarchy_ADJ;Askuzarid;;;;;;;;;;;;;;;;;;x;;;;
+AJM_primitive_absolute_monarchy;The Zanid Dynasty;;;;;;;;;;;;;;;;;;x;;;;
+AJM_primitive_absolute_monarchy_ADJ;Zanid;;;;;;;;;;;;;;;;;;x;;;;
+AJM_;Esfahan;;;;;;;;;;;;;;;;;;x;;;;
+AJM_ADJ;Esfahanid;;;;;;;;;;;;;;;;;;x;;;;
+ADU;Andalusia;;;;;;;;;;;;;;;;;;x;;;;
+ADU_ADJ;Andalusian;;;;;;;;;;;;;;;;;;x;;;;
+ADU_subject;The Taifa of Malaqa;;;;;;;;;;;;;;;;;;x;;;;
+ADU_subject_ADJ;Malaqan;;;;;;;;;;;;;;;;;;x;;;;
 JIM;Jimma;;;;;;;;;;;;;;;;;;x;;;;
 JIM_ADJ;Jimman;;;;;;;;;;;;;;;;;;x;;;;
 JIM_primitive_absolute_monarchy;The Jimma Emirate;;;;;;;;;;;;;;;;;;x;;;;
@@ -1516,8 +1532,10 @@ RIO_prussian_constitutionalism;Royal Rioxa;Royal Rioxa;Royal Rioxa;;;;;;;;;;;x;
 RIO_hms_government;Royal Rioxa;Royal Rioxa;Royal Rioxa;;;;;;;;;;;x;
 RIO_democracy;Rioxa;;;;;;;;;;;;;x
 SMO_ADJ;Samoan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+RDL_primitive_absolute_monarchy_ADJ;Bozorgid;;;;;;;;;;;;;x;
+RDL_primitive_absolute_monarchy;The Bozorgid Dynasty;;;;;;;;;;;;;x;
 KHR_primitive_absolute_monarchy_ADJ;Bojnurdid;Bojnurdid;Bojnurdid;;;;;;;;;;;x;
-KHR_primitive_absolute_monarchy;The Bojnurdid Empire;The Bojnurdid Empire;The Bojnurdid Empire;;;;;;;;;;;x;
+KHR_primitive_absolute_monarchy;The Bojnurdid Dynasty;The Bojnurdid Dynasty;The Bojnurdid Dynasty;;;;;;;;;;;x;
 KHR_subject_ADJ;Kurdi;Kurdi;Kurdi;;;;;;;;;;;x;
 KHR_subject;Shadlu-Zafaranlu;Shadlu-Zafaranlu;Shadlu-Zafaranlu;;;;;;;;;;;x;
 KHR_ADJ;Khorasani;Khorasani;Khorasani;;;;;;;;;;;x;

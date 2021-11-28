@@ -1,5 +1,6 @@
-owner = TKM
-controller = TKM
+owner = FRS
+controller = FRS
+add_core = FRS
 add_core = TKM
 trade_goods = fish
 life_rating = 35

@@ -48,7 +48,7 @@
 	farmers = {
 		culture = talysh
 		religion = sunni
-		size = 14850
+		size = 64850
 	}
 
 	farmers = {
@@ -84,7 +84,7 @@
 	farmers = {
 		culture = persian
 		religion = shiite
-		size = 67175
+		size = 17175
 	}
 
 	farmers = {
@@ -1881,13 +1881,19 @@
 	farmers = {
 		culture = persian
 		religion = shiite
-		size = 10000
+		size = 11000
 	}
 	
 	farmers = {
 		culture = turkmen
 		religion = shiite
-		size = 12800
+		size = 5000
+	}
+	
+	farmers = {
+		culture = bedouin
+		religion = sunni
+		size = 6000
 	}
 
 	artisans = {
@@ -2141,7 +2147,7 @@
 	farmers = {
 		culture = persian
 		religion = shiite
-		size = 12650
+		size = 9650
 	}
 
 	aristocrats = {
@@ -2159,7 +2165,7 @@
 	artisans = {
 		culture = mashriqi
 		religion = shiite
-		size = 350
+		size = 50
 	}
 
 	soldiers = {
@@ -2171,13 +2177,13 @@
 	farmers = {
 		culture = mashriqi
 		religion = shiite
-		size = 6400
+		size = 11400
 	}
 
 	slaves = {
 		culture = forest_bantu #african_minor
 		religion = animist
-		size = 2500
+		size = 1500
 	}
 
 	slaves = {
@@ -2348,6 +2354,12 @@
 		culture = persian
 		religion = shiite
 		size = 11700
+	}
+	
+	farmers = {
+		culture = bedouin
+		religion = shiite
+		size = 2000
 	}
 
 	aristocrats = {
@@ -2724,13 +2736,13 @@
 	farmers = {
 		culture = persian
 		religion = shiite
-		size = 1025
+		size = 125
 	}
 	
 	farmers = {
 		culture = bedouin
 		religion = sunni
-		size = 225
+		size = 1225
 	}
 }
 

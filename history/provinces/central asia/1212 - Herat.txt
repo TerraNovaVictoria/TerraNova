@@ -1,5 +1,5 @@
-owner = HRT
-controller = HRT
+owner = TKM
+controller = TKM
 add_core = HRT
 add_core = TKM
 trade_goods = fruit

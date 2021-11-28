@@ -2,6 +2,7 @@ owner = SPC
 controller = SPC
 add_core = SPC
 add_core = SPA
+add_core = ADU
 #terrain = urban
 trade_goods = fish
 life_rating = 35

@@ -3,7 +3,6 @@
 #========================= H E A D E R =========================
 
 color = { 78  133  119 }
-primitive_absolute_monarchy = { 255 185 40 }
 subject = { 215 155 35 }
 graphical_culture = MiddleEasternGC
 
