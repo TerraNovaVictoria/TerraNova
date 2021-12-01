@@ -1,9 +1,7 @@
 capital = 894
 primary_culture = turkmen
-culture = mashriqi
-culture = armenian
 religion = sunni
-government = absolute_monarchy
+government = ancient_regime
 plurality = 0.10
 nationalvalue = nv_tradition
 literacy = 0.04

@@ -1,6 +1,6 @@
 color = { 174  186  160 } 
-subject = { 220 20 35 }
-subject_cosmetic = { 255 165 75 }
+primitive_absolute_monarchy = { 255 150 81 }
+subject = { 255 150 81 }
 graphical_culture = MiddleEasternGC
 
 party = {

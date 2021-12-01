@@ -1,6 +1,7 @@
-owner = BDK
-controller = BDK
+owner = KUL
+controller = KUL
+add_core = KUL
+add_core = KUN
 add_core = BDK
-add_core = SMK
 trade_goods = grain
 life_rating = 35

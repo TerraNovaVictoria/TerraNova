@@ -3,7 +3,7 @@
 #========================= H E A D E R =========================
 
 color = { 78  133  119 }
-subject = { 215 155 35 }
+subject = { 139 174 191 } #215 155 35
 graphical_culture = MiddleEasternGC
 
 

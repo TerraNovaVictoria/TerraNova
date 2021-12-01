@@ -2,5 +2,6 @@ owner = KUN
 controller = KUN
 add_core = KUN
 add_core = AFG
+add_core = BDK
 trade_goods = wool
 life_rating = 35

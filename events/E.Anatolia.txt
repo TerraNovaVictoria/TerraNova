@@ -67,7 +67,7 @@ country_event = {
 		URM = { release_vassal = BTL }
 		create_vassal = BTL
 		BTL = { all_core = { add_core = ANA } }
-		BTL = { government = subject }
+		BTL = { government = subject primary_culture = kurdish }
 		2414 = { secede_province = THIS remove_core = BTL }
 	}
 	

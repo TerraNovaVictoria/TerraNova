@@ -1,7 +1,6 @@
 owner = SMK
 controller = SMK
 add_core = SMK
-add_core = BDK
 add_core = BUK
 trade_goods = wool
 life_rating = 35

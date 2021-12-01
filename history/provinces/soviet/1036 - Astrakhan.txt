@@ -1,6 +1,6 @@
 owner = KMK
 controller = KMK
-add_core = AKH
+add_core = UZB
 add_core = KMK
 trade_goods = wool
 life_rating = 35

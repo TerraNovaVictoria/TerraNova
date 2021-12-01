@@ -1,6 +1,5 @@
-owner = EGY
-controller = EGY
-add_core = SIN
+owner = GUJ
+controller = GUJ
 add_core = GUJ
 add_core = HND
 trade_goods = cotton

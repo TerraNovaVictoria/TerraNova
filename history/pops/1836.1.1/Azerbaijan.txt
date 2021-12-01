@@ -72,7 +72,13 @@
 	farmers = {
 		culture = persian
 		religion = shiite
-		size = 7985
+		size = 3985
+	}
+	
+	farmers = {
+		culture = talysh
+		religion = shiite
+		size = 4000
 	}
 
 	clergymen = {

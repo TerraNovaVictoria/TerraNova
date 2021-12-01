@@ -1,0 +1,8 @@
+owner = SMK
+controller = SMK
+add_core = SMK
+add_core = BUK
+add_core = KHI
+trade_goods = wool
+life_rating = 35
+terrain = semidesert

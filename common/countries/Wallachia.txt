@@ -1,6 +1,6 @@
 color = { 161  126  128 }
-subject = { 220 20 35 }
-subject_cosmetic = { 255 165 75 }
+ancient_regime = { 255 150 81 }
+subject = { 255 150 81 }
 graphical_culture = EuropeanGC
 
 party = {

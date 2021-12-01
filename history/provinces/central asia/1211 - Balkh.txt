@@ -1,5 +1,5 @@
-owner = KUN
-controller = KUN
+owner = TKM
+controller = TKM
 add_core = KUN
 add_core = HRT
 add_core = TKM

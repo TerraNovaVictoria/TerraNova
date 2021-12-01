@@ -1,4 +1,6 @@
 color = { 118 242 242 }
+primitive_absolute_monarchy = { 206 101 62 }
+subject = { 255 150 81 }
 graphical_culture = RussianGC
 
 party = {

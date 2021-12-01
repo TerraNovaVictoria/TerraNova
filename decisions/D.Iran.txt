@@ -62,6 +62,59 @@ political_decisions = {
 			factor = 1
 		}
 	}
+	
+	expand_zeravshan_irrigation = { 
+		picture = irrigation_tajikistan
+		potential = {
+			OR = {
+				1191 = { owned_by = THIS }
+				3297 = { owned_by = THIS }
+			}
+			3296 = { empty = yes }
+			NOT = { has_global_flag = the_zeravshan_irrigation }
+		}
+		
+		allow = {
+			money = 50000
+		}
+		
+		effect = {
+			prestige = 2.5
+			money = -50000
+			set_global_flag = the_zeravshan_irrigation
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	form_amudarjabad = { 
+		picture = amudarjabad
+		potential = {
+			OR = {
+				1191 = { owned_by = THIS }
+				3297 = { owned_by = THIS }
+			}
+			3296 = { empty = yes }
+			has_global_flag = the_zeravshan_irrigation
+		}
+		
+		allow = {
+			money = 75000
+		}
+		
+		effect = {
+			prestige = 2.5
+			money = -75000
+			3296 = { secede_province = THIS change_province_name = "Amudarjabad" life_rating = 20 }
+			clr_global_flag = the_zeravshan_irrigation
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 	al_biruni_university_unciv = { 
 		picture = al_biruni
@@ -282,19 +335,35 @@ political_decisions = {
 			government = primitive_absolute_monarchy
 			has_country_flag = won_over_persia
 			has_global_flag = collapse_of_persia
+			1220 = { 
+				OR = {
+					owned_by = THIS
+					owned_by = KDH
+				}
+			}
 		}
 		
 		allow = {
 			war = no
+			AFG = { 
+				all_core = {
+					OR = {
+						owned_by = THIS
+						owner = { vassal_of = THIS }
+					}
+				}
+			}
 		}
 		
 		effect = {
 			prestige = 5
 			AFG = { all_core = { add_core = NAZ } }
-			1208 = { add_core = NAZ }
-			1220 = { add_core = NAZ }
-			1207 = { add_core = NAZ }
-			HRT = { all_core = { add_core = NAZ } }
+			1214 = { add_core = NAZ }
+			1116 = { add_core = NAZ }
+			1147 = { add_core = NAZ }
+			1150 = { add_core = NAZ }
+			1149 = { add_core = NAZ }
+			1148 = { add_core = NAZ }
 			government = absolute_monarchy
 			change_tag = NAZ
 		}

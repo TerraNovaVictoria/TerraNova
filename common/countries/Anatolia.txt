@@ -1,5 +1,4 @@
-color = { 235 135 45 }
-ancient_regime = { 200 10 35 }
+color = { 255 137 58 }
 democracy = { 155 216 150 }
 graphical_culture = OttomanGC
 

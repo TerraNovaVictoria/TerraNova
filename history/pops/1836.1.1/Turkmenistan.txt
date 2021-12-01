@@ -195,7 +195,7 @@
 	farmers = {
 		culture = tajik
 		religion = sunni
-		size = 8825
+		size = 4825
 	}
 
 	aristocrats = {
@@ -225,7 +225,7 @@
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 13025
+		size = 17025
 	}
 
 }
@@ -259,7 +259,7 @@
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 4500
+		size = 6500
 	}
 	
 	aristocrats = {
@@ -289,7 +289,7 @@
 	farmers = {
 		culture = tajik
 		religion = shiite
-		size = 2925
+		size = 925
 	}
 }
 

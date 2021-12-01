@@ -1,5 +1,5 @@
 color = { 81  100  245 }
-subject = { 215 155 35 }
+subject = { 139 174 191 } #215 155 35
 primitive_absolute_monarchy = { 119  130  145 }
 graphical_culture = MiddleEasternGC
 

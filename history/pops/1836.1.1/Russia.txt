@@ -4396,31 +4396,31 @@
 	}
 
 	aristocrats = {
-		culture = astrakhani
+		culture = kazak
 		religion = sunni
 		size = 250
 	}
 
 	clergymen = {
-		culture = astrakhani
+		culture = kazak
 		religion = sunni
 		size = 125
 	}
 
 	artisans = {
-		culture = astrakhani
+		culture = kazak
 		religion = sunni
 		size = 5500
 	}
 
 	soldiers = {
-		culture = astrakhani
+		culture = kazak
 		religion = sunni
 		size = 125
 	}
 
 	farmers = {
-		culture = astrakhani
+		culture = kazak
 		religion = sunni
 		size = 9000
 	}
@@ -4564,7 +4564,7 @@
 	aristocrats = {
 		culture = russian
 		religion = orthodox
-		size = 1350
+		size = 350
 	}
 
 	clergymen = {
@@ -4576,61 +4576,49 @@
 	artisans = {
 		culture = russian
 		religion = orthodox
-		size = 2250
+		size = 250
 	}
 
 	soldiers = {
 		culture = russian
 		religion = orthodox
-		size = 850
+		size = 150
 	}
 
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 2725
+		size = 725
 	}
 	
 	clergymen = {
-		culture = oirat
-		religion = gelugpa
+		culture = kazak
+		religion = sunni
 		size = 150
-	}
-	
-	bureaucrats = {
-		culture = volga_german
-		religion = catholic
-		size = 25
 	}
 
 	artisans = {
-		culture = oirat
-		religion = gelugpa
-		size = 4250
+		culture = kazak
+		religion = sunni
+		size = 250
 	}
 
 	farmers = {
-		culture = oirat
-		religion = gelugpa
-		size = 32540
+		culture = kazak
+		religion = sunni
+		size = 2940
 	}
 	
 	farmers = {
 		culture = tatar
 		religion = sunni
-		size = 14540
+		size = 540
 	}
 	
 	farmers = {
-		culture = nogai
-		religion = sunni
-		size = 500
-	}
-	
-	farmers = {
-		culture = kazak
-		religion = sunni
-		size = 7540
+		culture = oirat
+		religion = gelugpa
+		size = 6540
 	}
 	
 	soldiers = {
@@ -4648,7 +4636,7 @@
 	farmers = {
 		culture = volga_german
 		religion = catholic
-		size = 12500
+		size = 500
 	}
 }
 #Tsaritsyn (1072000/268000 POPS)
@@ -4764,31 +4752,31 @@
 	}
 
 	aristocrats = {
-		culture = astrakhani
+		culture = kazak
 		religion = sunni
 		size = 100
 	}
 
 	clergymen = {
-		culture = astrakhani
+		culture = kazak
 		religion = sunni
 		size = 50
 	}
 
 	artisans = {
-		culture = astrakhani
+		culture = kazak
 		religion = sunni
 		size = 2250
 	}
 
 	soldiers = {
-		culture = astrakhani
+		culture = kazak
 		religion = sunni
 		size = 50
 	}
 
 	farmers = {
-		culture = astrakhani
+		culture = kazak
 		religion = sunni
 		size = 6550
 	}
@@ -4874,7 +4862,7 @@
 	}
 	
 	farmers = {
-		culture = astrakhani
+		culture = kazak
 		religion = orthodox
 		size = 6325
 	}
@@ -5020,7 +5008,7 @@
 	artisans = {
 		culture = volga_german
 		religion = protestant
-		size = 2000
+		size = 500
 	}
 
 	soldiers = {
@@ -5032,37 +5020,31 @@
 	farmers = {
 		culture = volga_german
 		religion = protestant
-		size = 7075
-	}
-	
-	farmers = {
-		culture = nogai
-		religion = sunni
 		size = 1075
 	}
 	
 	farmers = {
 		culture = tatar
 		religion = sunni
-		size = 10500
-	}
-	
-	farmers = {
-		culture = oirat
-		religion = gelugpa
-		size = 15055
+		size = 500
 	}
 	
 	farmers = {
 		culture = kazak
 		religion = sunni
-		size = 2075
+		size = 3055
+	}
+	
+	farmers = {
+		culture = oirat
+		religion = gelugpa
+		size = 8075
 	}
 
 	farmers = {
 		culture = russian
 		religion = orthodox
-		size = 4675
+		size = 675
 	}
 }
 #Orenburg (124000/31000 POPS)
@@ -5379,21 +5361,21 @@
 	}
 
 	artisans = {
-		culture = kabardine
-		religion = orthodox
+		culture = kazak
+		religion = sunni
 		size = 1100
 	}
 
 	soldiers = {
-		culture = kabardine
-		religion = orthodox
+		culture = kazak
+		religion = sunni
 		size = 2000
 	}
 
 	farmers = {
-		culture = kabardine
-		religion = orthodox
-		size = 9075
+		culture = kazak
+		religion = sunni
+		size = 19075
 	}
 
 	aristocrats = {
@@ -5427,7 +5409,7 @@
 	farmers = {
 		culture = kabardine
 		religion = sunni
-		size = 11650
+		size = 5650
 		militancy = 3
 	}
 
@@ -6185,12 +6167,6 @@
 		culture = kazak
 		religion = sunni
 		size = 23850
-	}
-	
-	farmers = {
-		culture = nogai
-		religion = sunni
-		size = 2850
 	}
 	
 	farmers = {

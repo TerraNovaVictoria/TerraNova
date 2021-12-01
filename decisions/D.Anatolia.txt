@@ -55,6 +55,7 @@ political_decisions = {
 				SER = { annex_to = ANA }
 				HER = { annex_to = ANA }
 				IRQ = { annex_to = ANA }
+				ALB = { annex_to = ANA }
 				IRQ = { all_core = { add_core = ANA } }
 				SYR = { all_core = { remove_core = IRQ } }					
 				ANT = { 
@@ -68,11 +69,12 @@ political_decisions = {
 						remove_core = ANT
 					}
 				}
-				WAL =  { government = subject_cosmetic }
-				SRN =  { government = subject_cosmetic }
-				BBN =  { government = subject_cosmetic }
+				ASY =  { government = subject }
+				SRN =  { government = subject }
+				BBN =  { government = subject }
+				RMZ =  { government = subject }
+				WAL =  { government = subject }
 				government = absolute_monarchy
-				primary_culture = anatoli
 				remove_accepted_culture = uighur
 				prestige = 7.5
 			}

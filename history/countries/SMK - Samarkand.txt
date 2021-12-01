@@ -1,6 +1,7 @@
 capital = 1199
-primary_culture = persian
-culture = tajik
+primary_culture = tajik
+culture = persian
+culture = uighur
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0

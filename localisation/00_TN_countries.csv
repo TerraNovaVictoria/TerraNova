@@ -1,4 +1,10 @@
 ;;;;;;;;;;;;;;x,,,
+KRP;Karapalkstan;;;;;;;;;;;;;;;;;;x;;;;
+KRP_primitive_absolute_monarchy;The Karapalk Khanate;;;;;;;;;;;;;;;;;;x;;;;
+KRP_ADJ;Karapalk;;;;;;;;;;;;;;;;;;x;;;;
+UZB_primitive_absolute_monarchy;The Özbeg Khanate;;;;;;;;;;;;;;;;;;x;;;;
+KUL;Kulob;;;;;;;;;;;;;;;;;;x;;;;
+KUL_ADJ;Kulobid;;;;;;;;;;;;;;;;;;x;;;;
 FRS;Fars;;;;;;;;;;;;;;;;;;x;;;;
 FRS_ADJ;Farsi;;;;;;;;;;;;;;;;;;x;;;;
 TKM_ancient_regime;The Hajilarid Dynasty;;;;;;;;;;;;;;;;;;x;;;;
@@ -117,9 +123,13 @@ NOG_ADJ;Nogai;;;;;;;;;;;;;;;;;;x;;;;
 USL;Upper Silesia;;;;;;;;;;;;;;;;;;x;;;;
 USL_ADJ;Upper Silesian;;;;;;;;;;;;;;;;;;x;;;;
 BTL;Bitlis;;;;;;;;;;;;;;;;;;x;;;;
-BTL_ADJ;Bitlisi;;;;;;;;;;;;;;;;;;x;;;;
+BTL_ADJ;Bitlisid;;;;;;;;;;;;;;;;;;x;;;;
+BTL_subject;Van;;;;;;;;;;;;;;;;;;x;;;;
+BTL_subject_ADJ;Vanid;;;;;;;;;;;;;;;;;;x;;;;
 BZD;Beyazid;;;;;;;;;;;;x
 BZD_ADJ;Beyazidi;;;;;;;;;;;;x
+BZD_primitive_absolute_monarchy;Armens;;;;;;;;;;;;x
+BZD_primitive_absolute_monarchy_ADJ;Armensid;;;;;;;;;;;;x
 BZD_provisional_state;The Kurdish Free Army;;;;;;;;;;;;;x
 BZD_presidential_dictatorship;The Karsi Kurd Republic;;;;;;;;;;;;;x
 BZD_proletarian_dictatorship;The People's Frontier Republic;;;;;;;;;;;;;x
@@ -163,6 +173,10 @@ CMW_presidential_dictatorship_ADJ;Intermarine;;;;;;;;;;;;x
 CMW_democracy;The Polish-Ruthenian Republic;;;;;;;;;;;;x
 RMZ;Yüregir;;;;;;;;;;;;x
 RMZ_ADJ;Yüregirli;;;;;;;;;;;;x
+RMZ_primitive_absolute_monarchy;The Ramadanid Emirate;;;;;;;;;;;;x
+RMZ_primitive_absolute_monarchy_ADJ;Ramadanid;;;;;;;;;;;;x
+RMZ_ancient_regime;The Ramadanid Emirate;;;;;;;;;;;;x
+RMZ_ancient_regime_ADJ;Ramadanid;;;;;;;;;;;;x
 RMZ_absolute_monarchy;The Ramadanid Emirate;;;;;;;;;;;;x
 RMZ_prussian_constitutionalism;The Ramadanid Emirate;;;;;;;;;;;;x
 RMZ_hms_government;The Ramadanid Emirate;;;;;;;;;;;;x
@@ -698,6 +712,8 @@ AOM;Aromania;;;;;;;;;;;;x
 AOM_ADJ;Aromanian;;;;;;;;;;;;x
 ASY_theocracy;Tur Abdin;;;;;;;;;x;;;;;;;;
 ASY_theocracy_ADJ;Tur Abdinid;;;;;;;;;x;;;;;;;;
+ASY_subject;Tur Abdin Autonomy;;;;;;;;;x;;;;;;;;
+ASY_subject_ADJ;Tur Abdinid;;;;;;;;;x;;;;;;;;
 MSK_ADJ;Miskito;;;;;;;;;x;;;;;;;;
 MSK;Miskito;;;;;;;;;x;;;;;;;;
 MSK_absolute_monarchy;The Mosquito Kingdom;;;;;;;;;x;;;;;;;;
@@ -1512,6 +1528,8 @@ CHR_absolute_monarchy;Kingdom of Charrua;Kingdom of Charrua;Kingdom of Charrua;;
 CHR_prussian_constitutionalism;Kingdom of Charrua;Kingdom of Charrua;Kingdom of Charrua;;;;;;;;;;;x;
 CHR_hms_government;Kingdom of Charrua;Kingdom of Charrua;Kingdom of Charrua;;;;;;;;;;;x;
 CHR_democracy;The Republic of Charrua;;;;;;;;;;;;;x
+LAS;Bela;;;;;;;;;;;;;x;
+LAS_ADJ;Belasid;;;;;;;;;;;;;x;
 GRI;Guarany;;;;;;;;;;;;;x;
 GRI_ADJ;Guarani;;;;;;;;;;;;;x;
 GRI_proletarian_dictatorship;Parany;;;;;;;;;;;;;x;
@@ -1532,6 +1550,8 @@ RIO_prussian_constitutionalism;Royal Rioxa;Royal Rioxa;Royal Rioxa;;;;;;;;;;;x;
 RIO_hms_government;Royal Rioxa;Royal Rioxa;Royal Rioxa;;;;;;;;;;;x;
 RIO_democracy;Rioxa;;;;;;;;;;;;;x
 SMO_ADJ;Samoan;;;;;;;;;;;;;;;;;;;;;;;x;;;;
+KDH_primitive_absolute_monarchy_ADJ;Hajarid;;;;;;;;;;;;;x;
+KDH_primitive_absolute_monarchy;The Hajarid Emirate;;;;;;;;;;;;;x;
 RDL_primitive_absolute_monarchy_ADJ;Bozorgid;;;;;;;;;;;;;x;
 RDL_primitive_absolute_monarchy;The Bozorgid Dynasty;;;;;;;;;;;;;x;
 KHR_primitive_absolute_monarchy_ADJ;Bojnurdid;Bojnurdid;Bojnurdid;;;;;;;;;;;x;

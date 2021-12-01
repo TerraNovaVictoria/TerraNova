@@ -3,6 +3,7 @@ controller = KMK
 add_core = KMK
 add_core = KYR
 add_core = HUN
+add_core = UZB
 trade_goods = cattle
 life_rating = 35
 colonial = 2

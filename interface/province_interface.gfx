@@ -662,6 +662,12 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\terrain_chicago.tga"
 		norefcount = yes
 	}
+	
+	spriteType = {
+		name = "GFX_terrainimg_khiva"
+		texturefile = "gfx\\interface\\terrain_khiva.tga"
+		norefcount = yes
+	}
 
 	spriteType = {
 		name = "GFX_terrainimg_sanfrancisco"

@@ -32,7 +32,7 @@ country_event = {
 	id = 251701
 	title = "EVTNAME251701" #Pashtun Revolt
 	desc = "EVTDESC251701"
-	picture = "graveyard_of_empires"
+	picture = "persian_horseman"
 	major = yes
 	
 	is_triggered_only = yes
@@ -163,7 +163,7 @@ country_event = {
 	id = 251706
 	title = "EVTNAME251706" #Fall of the Hajilarids
 	desc = "EVTDESC251706"
-	picture = "graveyard_of_empires"
+	picture = "mosque_painting"
 	major = yes
 	
 	trigger = {
@@ -206,7 +206,10 @@ country_event = {
 		1116 = { add_core = TKM }
 		any_owned = {
 			limit = {
-				region = PER_1140
+				OR = {
+					region = PER_1136
+					region = PER_1140
+				}
 			}
 			add_core = FRS
 			secede_province = FRS
@@ -221,6 +224,7 @@ country_event = {
 		1212 = { add_core = KHR secede_province = KHR }
 		1204 = { add_core = KHR secede_province = KHR }
 		1116 = { add_core = KHR secede_province = KHR }
+		1211 = { secede_province = AFG }
 		any_owned = {
 			limit = {
 				region = PER_1116
@@ -258,6 +262,7 @@ country_event = {
 		KHR = { country_event = 251707 }
 		RDL = { country_event = 251707 }
 		FRS = { country_event = 251707 }
+		BLC = { country_event = 251708 }
 		ai_chance = { factor = 100 }
 	}
 	
@@ -280,7 +285,10 @@ country_event = {
 		1116 = { add_core = TKM }
 		any_owned = {
 			limit = {
-				region = PER_1140
+				OR = {
+					region = PER_1136
+					region = PER_1140
+				}
 			}
 			add_core = FRS
 			secede_province = FRS
@@ -295,6 +303,7 @@ country_event = {
 		1212 = { add_core = KHR secede_province = KHR }
 		1204 = { add_core = KHR secede_province = KHR }
 		1116 = { add_core = KHR secede_province = KHR }
+		1211 = { secede_province = AFG }
 		any_owned = {
 			limit = {
 				region = PER_1116
@@ -332,6 +341,7 @@ country_event = {
 		KHR = { country_event = 251707 }
 		RDL = { country_event = 251707 }
 		FRS = { country_event = 251707 }
+		BLC = { country_event = 251708 }
 		change_tag_no_core_switch = TAB
 		ai_chance = { factor = 100 }
 	}
@@ -355,7 +365,10 @@ country_event = {
 		1116 = { add_core = TKM }
 		any_owned = {
 			limit = {
-				region = PER_1140
+				OR = {
+					region = PER_1136
+					region = PER_1140
+				}
 			}
 			add_core = FRS
 			secede_province = FRS
@@ -370,6 +383,7 @@ country_event = {
 		1212 = { add_core = KHR secede_province = KHR }
 		1204 = { add_core = KHR secede_province = KHR }
 		1116 = { add_core = KHR secede_province = KHR }
+		1211 = { secede_province = AFG }
 		any_owned = {
 			limit = {
 				region = PER_1116
@@ -407,6 +421,7 @@ country_event = {
 		KHR = { country_event = 251707 }
 		RDL = { country_event = 251707 }
 		FRS = { country_event = 251707 }
+		BLC = { country_event = 251708 }
 		change_tag_no_core_switch = AJM
 		ai_chance = { factor = 100 }
 	}
@@ -417,7 +432,7 @@ country_event = {
 	id = 251707
 	title = "EVTNAME251707" #Rise of a local Dynasty
 	desc = "EVTDESC251707"
-	picture = "graveyard_of_empires"
+	picture = "persian_horseman"
 	
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -437,9 +452,59 @@ country_event = {
 	desc = "EVTDESC251708"
 	picture = "graveyard_of_empires"
 	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT251708A"
+		BLC = { all_core = { remove_core = BLC } }
+		KDH = { government = primitive_absolute_monarchy }
+		1221 = { add_core = KAL }
+		1219 = { add_core = KAL }
+		1222 = { add_core = LAS secede_province = LAS }
+		2640 = { add_core = LAS }
+		1146 = { add_core = LAS add_core = MAK secede_province = MAK }
+		1144 = { add_core = MAK secede_province = MAK }
+		1220 = { add_core = KDH secede_province = KDH }
+		1215 = { add_core = KDH }
+		1214 = { add_core = KDH }
+		KDH = { country_event = 251711 }
+		change_tag = KAL
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 251709
+	title = "EVTNAME251709" #The Kedah Emirate
+	desc = "EVTDESC251709"
+	picture = "mosque_painting"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT251709A"
+		prestige = 2.5
+		KDH = { government = primitive_absolute_monarchy }
+		1220 = { add_core = AFG }
+		1215 = { secede_province = KDH }
+		1214 = { secede_province = KDH }
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 251710
+	title = "EVTNAME251710" #The Askuzarids
+	desc = "EVTDESC251710"
+	picture = "horsemen_in_shiraz"
+	
 	trigger = {
-		tag = BLC
-		has_global_flag = collapse_of_persia
+		tag = FRS
+		FRS = { vassal_of = TKM }
 	}
 		
 	mean_time_to_happen = { days = 7 }
@@ -447,19 +512,28 @@ country_event = {
 	fire_only_once = yes
 	
 	option = {
-		name = "EVTOPT251708A"
-		BLC = { all_core = { remove_core = BLC } }
-		1221 = { add_core = KAL secede_province = KAL }
-		1222 = { add_core = KAL secede_province = KAL }
-		2640 = { add_core = KAL }
-		1146 = { add_core = MAK secede_province = MAK }
-		1144 = { add_core = MAK secede_province = MAK }
-		1220 = { add_core = KDH add_core = AFG }
-		1215 = { add_core = KDH secede_province = THIS }
-		1214 = { add_core = KDH secede_province = THIS }
-		KAL = { create_vassal = MAK }
-		change_tag = KDH
-		AFG = { create_vassal = KDH }
+		name = "EVTOPT251710A"
+		ai_chance = { factor = 100 }
+	}
+
+}
+
+country_event = {
+	id = 251711
+	title = "EVTNAME251711" #The Kedah Emirate BS EVENT GRR
+	desc = "EVTDESC251711"
+	picture = "mosque_painting"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT251711A"
+		KDH = { government = primitive_absolute_monarchy }
+		1215 = { secede_province = KDH }
+		1214 = { secede_province = KDH }
+		AFG = { create_vassal = THIS }
+		AFG = { country_event = 251709 }
 		ai_chance = { factor = 100 }
 	}
 

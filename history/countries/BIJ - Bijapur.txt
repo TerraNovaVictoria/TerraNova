@@ -1,7 +1,7 @@
 capital = 1300
 primary_culture = kannada
 culture = hindi
-religion = sunni
+religion = shiite
 government = absolute_monarchy
 plurality = 5.0
 nationalvalue = nv_tradition

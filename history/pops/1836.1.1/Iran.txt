@@ -2634,13 +2634,13 @@
 	farmers = {
 		culture = persian
 		religion = shiite
-		size = 9400
+		size = 13400
 	}
 	
 	farmers = {
 		culture = turkmen
 		religion = shiite
-		size = 7000
+		size = 3000
 	}
 }
 #Bojnurd (56000/14000 POPS)
@@ -2672,7 +2672,7 @@
 	farmers = {
 		culture = persian
 		religion = shiite
-		size = 4550
+		size = 7550
 	}
 
 	aristocrats = {
@@ -2702,7 +2702,7 @@
 	farmers = {
 		culture = turkmen
 		religion = shiite
-		size = 6225
+		size = 3225
 	}
 	
 	farmers = {

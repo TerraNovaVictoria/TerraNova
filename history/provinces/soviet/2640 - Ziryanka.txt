@@ -1,7 +1,6 @@
-owner = EIC
-controller = EIC
+owner = EGY
+controller = EGY
 add_core = BLC
-add_core = TKM
 trade_goods = fish
 terrain = mountain
 life_rating = 31

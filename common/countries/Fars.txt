@@ -1,6 +1,6 @@
 color = { 140 201 125 }
-subject = { 215 155 35 }
-ancient_regime = { 215 155 35 }
+subject = { 139 174 191 }#215 155 35
+ancient_regime = { 139 174 191 }
 graphical_culture = MiddleEasternGC
 
 party = {

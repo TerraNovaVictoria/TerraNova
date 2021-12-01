@@ -1,5 +1,6 @@
 color = { 122 132 110}
-subject = { 220 20 35 }
+primitive_absolute_monarchy = { 255 150 81 }
+subject = { 255 150 81 }
 graphical_culture = Generic
 
 party = {

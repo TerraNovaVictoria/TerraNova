@@ -1,4 +1,4 @@
-capital = 1204
+capital = 1127
 primary_culture = persian
 culture = turkmen
 religion = sunni

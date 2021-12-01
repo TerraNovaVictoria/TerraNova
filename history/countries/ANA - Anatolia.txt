@@ -1,6 +1,5 @@
 capital = 860
-primary_culture = persian
-culture = anatoli
+primary_culture = anatoli
 culture = uighur
 religion = shiite
 government = ancient_regime

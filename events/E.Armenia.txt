@@ -1,0 +1,33 @@
+country_event = {
+	id = 606700
+	title = "EVTNAME606700" #The War of Shah-Armens
+	desc = "EVTDESC606700"
+	picture = "kurdish_soldiers"
+	
+	trigger = {
+		tag = BZD
+		NOT = { exists = URM }
+	}
+	
+	mean_time_to_happen = { days = 7 }
+
+	fire_only_once = yes
+		
+	option = {
+		name = "EVTOPT606700A"
+		add_accepted_culture = armenian
+		government = primitive_absolute_monarchy
+		war = {
+			target = ARM
+			attacker_goal = { 
+				casus_belli = conquest
+			}
+			defender_goal = {
+				casus_belli = conquest
+			}
+			call_ally = no
+		}
+		ai_chance = { factor = 100 }
+	}
+	
+}

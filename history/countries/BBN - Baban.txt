@@ -1,7 +1,7 @@
 capital = 924
 primary_culture = kurdish
 religion = sunni
-government = subject
+government = primitive_absolute_monarchy
 plurality = 0
 nationalvalue = nv_tradition
 literacy = 0.01

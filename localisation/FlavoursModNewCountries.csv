@@ -98,12 +98,12 @@ VTU_colonial_company;New Hebrides;;;;;;;;;;;;x
 VTU_dominion;New Hebrides;;;;;;;;;;;;x
 SER_colonial_company;The Principality of Serbia;;;;;;;;;;;;x
 SER_dominion;The Principality of Serbia;;;;;;;;;;;;x
-IOT_absolute_monarchy;British Indian Ocean Territory;;;;;;;;;;;;x
-IOT_prussian_constitutionalism;British Indian Ocean Territory;;;;;;;;;;;;x
-IOT_dominion;British Indian Ocean Territory;;;;;;;;;;;;x
-IOT_colonial_company;British Indian Ocean Territory;;;;;;;;;;;;;x,
-IOT_hms_government;British Indian Ocean Territory;;;;;;;;;;;;;x,
-IOT_ADJ;British;;;;;;;;;;;;x
+IOT_absolute_monarchy;Venetian Indian Ocean Territory;;;;;;;;;;;;x
+IOT_prussian_constitutionalism;Venetian Indian Ocean Territory;;;;;;;;;;;;x
+IOT_dominion;Venetian Indian Ocean Territory;;;;;;;;;;;;x
+IOT_colonial_company;Venetian Indian Ocean Territory;;;;;;;;;;;;;x,
+IOT_hms_government;Venetian Indian Ocean Territory;;;;;;;;;;;;;x,
+IOT_ADJ;Venetian;;;;;;;;;;;;x
 IOT;Chagos Islands;;;;;;;;;;;;x
 IOT_democracy_ADJ;Chagossian;;;;;;;;;;;;x
 MAU;Mauritius;;;;;;;;;;;;x
