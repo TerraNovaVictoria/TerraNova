@@ -398,7 +398,7 @@
 	farmers = {
 		culture = turkmen
 		religion = shiite
-		size = 8000
+		size = 11000
 	}
 
 	aristocrats = {
@@ -428,7 +428,7 @@
 	farmers = {
 		culture = armenian
 		religion = orthodox
-		size = 5475
+		size = 2475
 	}
 }
 #Lankaran (56000/14000 POPS)

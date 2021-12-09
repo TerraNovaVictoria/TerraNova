@@ -1,5 +1,6 @@
-owner = FRS
-controller = FRS
+owner = OMA
+controller = OMA
+add_core = OMA
 add_core = FRS
 add_core = TKM
 trade_goods = fruit

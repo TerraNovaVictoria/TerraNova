@@ -1,5 +1,6 @@
 add_core = KHI
 add_core = KRP
+add_core = UZB
 trade_goods = opium
 life_rating = 25
 terrain = semidesert

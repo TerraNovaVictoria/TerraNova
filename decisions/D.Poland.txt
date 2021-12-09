@@ -50,7 +50,111 @@ political_decisions = {
 		effect = {
 			money = -2000
 			UBD = { country_event = 135004 }
-			badboy = 2.5
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	integrate_lithuania_pol = {
+		picture = old_vilnius
+		potential = {
+			OR = {
+				tag = POL
+				tag = CMW
+			}
+			LIT = { exists = yes }
+			NOT = { has_country_flag = pol_integrated_lit }
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			LIT = { 
+				war = no
+				is_vassal = no
+			}
+		}
+		
+		effect = {
+			LIT = { country_event = 078506 }
+			set_country_flag = pol_integrated_lit
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	integrate_teutons_pol = {
+		picture = old_vilnius
+		potential = {
+			OR = {
+				tag = POL
+				tag = CMW
+			}
+			DZG = { exists = no }
+			PRU = { exists = yes }
+			PRU = { government = theocracy }
+			NOT = { has_country_flag = pol_integrated_teu }
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			PRU = { 
+				war = no
+				OR = {
+					is_vassal = no
+					AND = {
+						is_vassal = yes
+						vassal_of = THIS
+					}
+				}
+			}
+		}
+		
+		effect = {
+			DZG = { all_core = { remove_core = DZG } }
+			DZG = { government = democracy }
+			PZN = { all_core = { add_core = POL } }
+			PRU = { country_event = 078508 }
+			set_country_flag = pol_integrated_teu
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	integrate_teutons_pol_gov_dec = {
+		picture = old_vilnius
+		potential = {
+			OR = {
+				tag = POL
+				tag = CMW
+			}
+			PRU = { exists = yes }
+			PRU = { government = theocracy }
+			PRU = { vassal_of = THIS }
+			has_country_flag = pol_integrated_teu
+		}
+		
+		allow = {
+			war = no
+			is_vassal = no
+			PRU = { 
+				war = no
+				vassal_of = THIS
+			}
+		}
+		
+		effect = {
+			PRU = { government = subject }
+			PRU = { 
+				any_owned = {
+					limit = { is_core = POL }
+					secede_province = POL
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1

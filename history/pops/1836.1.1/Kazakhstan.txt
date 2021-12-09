@@ -653,7 +653,7 @@
 		size = 3000
 	}
 }
-#Khwarazm Region (168000) #see tajikistan.txt and Turkmenistan.txt for balance of region 
+#Khwarazm Region (168000) #see persianistan.txt and Turkmenistan.txt for balance of region 
 #under the rule of Khiva in 1836
 #Kyzylorda (108000/27000 POPS)
 1193 = {
@@ -793,7 +793,7 @@
 		size = 525
 	}
 }
-#Mawarannahr Region (180000) #see tajikistan.txt, tajikistan.txt, Kirghizstan.txt for balance of region 
+#Mawarannahr Region (180000) #see persianistan.txt, persianistan.txt, Kirghizstan.txt for balance of region 
 #under the rule of Bukhara in 1836
 #Shymkent (180000/45000 POPS) #now part of Kazakhstan   
 1197 = {
@@ -828,7 +828,7 @@
 	}
 
 	farmers = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 600
 	}

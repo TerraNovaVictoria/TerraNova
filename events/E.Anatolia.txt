@@ -1,3 +1,57 @@
+###URMIAN EVENTS###
+
+country_event = {
+	id = 121202
+	title = "EVTNAME121202" #The Collapse of Urmia
+	desc = "EVTDESC121202"
+	picture = "kurdish_soldiers"
+	
+	trigger = {
+		tag = URM
+		OR = {
+			AND = {
+				BTL = { exists = yes }
+				BTL = { vassal_of = ANA }
+				892 = { NOT = { owned_by = THIS } }
+				890 = { NOT = { owned_by = THIS } }
+			}
+			AND = {
+				BTL = { exists = no }
+				892 = { NOT = { owned_by = THIS } }
+				891 = { NOT = { owned_by = THIS } }
+				890 = { NOT = { owned_by = THIS } }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	fire_only_once = yes
+	
+	immediate = { 
+		release_vassal = AZB 
+		release_vassal = ARM
+		release_vassal = BZD
+	}
+	
+	option = {
+		name = "EVTOPT121202A"
+		1100 = { add_core = BZD secede_province = ARM }
+		1105 = { add_core = BZD }
+		ARM = { government = absolute_monarchy }
+		1106 = { add_core = AZB }
+		1102 = { add_core = AZB }
+		1103 = { add_core = AZB }
+		AZB = { government = ancient_regime }
+		TKM = { create_vassal = AZB }
+		URM = { all_core = { remove_core = URM } annex_to = TAL }
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
 ###NAWIDIAN EVENTS###
 
 country_event = {
@@ -91,54 +145,6 @@ country_event = {
 }
 
 country_event = {
-	id = 121202
-	title = "EVTNAME121202" #The Collapse of Urmia
-	desc = "EVTDESC121202"
-	picture = "kurdish_soldiers"
-	
-	trigger = {
-		tag = URM
-		OR = {
-			AND = {
-				BTL = { exists = yes }
-				BTL = { vassal_of = ANA }
-				892 = { NOT = { owned_by = THIS } }
-				890 = { NOT = { owned_by = THIS } }
-			}
-			AND = {
-				BTL = { exists = no }
-				892 = { NOT = { owned_by = THIS } }
-				891 = { NOT = { owned_by = THIS } }
-				890 = { NOT = { owned_by = THIS } }
-			}
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 7
-	}
-	
-	fire_only_once = yes
-	
-	option = {
-		name = "EVTOPT121202A"
-		1100 = { add_core = BZD secede_province = ARM }
-		1105 = { add_core = BZD }
-		ARM = { government = absolute_monarchy }
-		1106 = { add_core = AZB secede_province = AZB }
-		1102 = { add_core = AZB }
-		1103 = { add_core = AZB }
-		AZB = { government = absolute_monarchy }
-		release_vassal = AZB
-		release_vassal = ARM
-		release_vassal = BZD
-		URM = { all_core = { remove_core = URM } annex_to = TAL }
-		ai_chance = { factor = 100 }
-	}
-	
-}
-
-country_event = {
 	id = 121203
 	title = "EVTNAME121203" #The Zazanid-Persian Border Treaty
 	desc = "EVTDESC121203"
@@ -199,6 +205,80 @@ country_event = {
 		885 = { add_core = ANA }
 		relations = { who = TKM value = -50 }
 		prestige = -2.5
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 121206
+	title = "EVTNAME121206" #Welcome Home - Reconquest of Bitlis
+	desc = "EVTDESC121206"
+	picture = "back_home_in_bitlis"
+	
+	trigger = {
+		tag = ANA
+		OR = {
+			AND = {
+				NOT = { exists = BTL }
+				BTL = { all_core = { owned_by = THIS } }
+			}
+			BTL = { vassal_of = THIS }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT121206A"
+		BTL = { all_core = { remove_core = BTL } }
+		BTL = { annex_to = ANA }
+		prestige = 5
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 121207
+	title = "EVTNAME121207" #Detribalize the Nomads
+	desc = "EVTDESC121207"
+	picture = "yoruks"
+	
+	trigger = {
+		tag = ANA
+		year = 1840
+	}
+	
+	mean_time_to_happen = {
+		days = 21
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = "EVTOPT121207A"
+		any_pop = {
+			limit = { 
+				has_pop_culture = turkmen
+			}
+			reduce_pop = 0.90
+		}
+		873 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
+		878 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
+		1077 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
+		876 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
+		877 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
+		866 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
+		868 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
+		879 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
+		895 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
+		874 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
+		badboy = 2.5
 		ai_chance = { factor = 100 }
 	}
 	

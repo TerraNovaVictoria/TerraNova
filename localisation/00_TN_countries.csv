@@ -1,8 +1,15 @@
 ;;;;;;;;;;;;;;x,,,
+BIE_theocracy;The Bishopric of Basel;;;;;;;;;;;;;;;;;;x;;;;
+BIE_theocracy_ADJ;Baselite;;;;;;;;;;;;;;;;;;x;;;;
+BIE_subject;The Bishopric of Basel;;;;;;;;;;;;;;;;;;x;;;;
+BIE_subject_ADJ;Baselite;;;;;;;;;;;;;;;;;;x;;;;
 KRP;Karapalkstan;;;;;;;;;;;;;;;;;;x;;;;
 KRP_primitive_absolute_monarchy;The Karapalk Khanate;;;;;;;;;;;;;;;;;;x;;;;
 KRP_ADJ;Karapalk;;;;;;;;;;;;;;;;;;x;;;;
-UZB_primitive_absolute_monarchy;The Özbeg Khanate;;;;;;;;;;;;;;;;;;x;;;;
+ALT_primitive_absolute_monarchy;The Altaj Zhuz;;;;;;;;;;;;;;;;;;x;;;;
+UZB_primitive_absolute_monarchy;The Kisi Zhuz;;;;;;;;;;;;;;;;;;x;;;;
+UZB_primitive_absolute_monarchy_ADJ;Kirgiz;;;;;;;;;;;;;;;;;;x;;;;
+UZB_absolute_monarchy;The Özbeg Khanate;;;;;;;;;;;;;;;;;;x;;;;
 KUL;Kulob;;;;;;;;;;;;;;;;;;x;;;;
 KUL_ADJ;Kulobid;;;;;;;;;;;;;;;;;;x;;;;
 FRS;Fars;;;;;;;;;;;;;;;;;;x;;;;
@@ -1227,9 +1234,9 @@ KOS;Kosakenstadt;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 KOS_ADJ;Volga German;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 KZM;Kazakmark;;;;;;;;;;;;;;;;;;;;;;;x;;;;
 KZM_ADJ;Kazakmarker;;;;;;;;;;;;;;;;;;;;;;;x;;;;
-KYR_primitive_absolute_monarchy;Orta Zhuz;;;;;;;;;;;;;x
+KYR_primitive_absolute_monarchy;The Orta Zhuz;;;;;;;;;;;;;x
 KYR_ancient_regime;The Kirgiz Khanate;;;;;;;;;;;;;x
-KAZ_primitive_absolute_monarchy;Uly Zhuz;;;;;;;;;;;;;x
+KAZ_primitive_absolute_monarchy;The Uly Zhuz;;;;;;;;;;;;;x
 KAZ_ancient_regime;The Kazakh Khanate;;;;;;;;;;;;;x
 KAZ;Kazakhstan;;;;;;;;;;;;;x
 KAZ_ADJ;Kazakh;;;;;;;;;;;;;x

@@ -1,4 +1,5 @@
 ;;;;;;;;;;;;;;x,,,
+PER_1137;Hormuz;;;;;;;;;;;;;;x
 HNL_2477;Adrianland;;;;;;;;;;;;;;x
 HNL_2478;New Catalonia;;;;;;;;;;;;;;x
 USA_223;Weestmark;;;;;;;;;;;;;;x
@@ -64,6 +65,12 @@ PROV3294;Tur Abdin;;;;;;;;;;;;;;x
 PROV3295;Khalkobad;;;;;;;;;;;;;;x
 PROV3296;Amu Darya;;;;;;;;;;;;;;x
 PROV3297;Alat;;;;;;;;;;;;;;x
+PROV3298;East Kyzylkum;;;;;;;;;;;;;;x
+PROV3299;EShiraz;;;;;;;;;;;;;;x
+PROV3300;Banuland;;;;;;;;;;;;;;x
+PROV3301;SShiraz;;;;;;;;;;;;;;x
+PROV3302;ETabriz;;;;;;;;;;;;;;x
+PROV3303;St. Gallen;;;;;;;;;;;;;;x
 PROV696;Marienwerder;;;;;;;;;;;;;;x
 PROV697;Allenstein;;;;;;;;;;;;;;x
 PROV627;Eger;;;;;;;;;;;;;;x
@@ -139,7 +146,7 @@ PROV895;Gazid;;;;;;;;;;x;;;;
 PROV898;Hatab;;;;;;;;;;x;;;;
 PROV899;Adsadan;;;;;;;;;;x;;;;
 PROV900;Antake;;;;;;;;;;x;;;;
-PROV1077;Gualatashir;;;;;;;;;;x;;;;
+PROV1077;Eretnabad;;;;;;;;;;x;;;;
 PROV89;Los Anxeles;;;;;;;;;;x;;;;
 PROV254;Din Padraig;;;;;;;;;;x;;;;
 PROV255;Dindoire;;;;;;;;;;x;;;;

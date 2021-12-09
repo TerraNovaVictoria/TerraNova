@@ -1,5 +1,5 @@
-owner = ZUR
-controller = ZUR
+owner = SWI
+controller = SWI
 add_core = ZUR
 add_core = SWI
 add_core = GER

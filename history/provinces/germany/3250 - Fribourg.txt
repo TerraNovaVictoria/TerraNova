@@ -1,5 +1,5 @@
-owner = FRB
-controller = FRB
+owner = SWI
+controller = SWI
 add_core = FRB
 add_core = SWI
 trade_goods = cattle

@@ -1,5 +1,5 @@
-owner = GNV
-controller = GNV
+owner = SWI
+controller = SWI
 add_core = GNV
 add_core = SWI
 trade_goods = grain

@@ -1,5 +1,5 @@
-owner = BSL
-controller = BSL
+owner = SWI
+controller = SWI
 add_core = BSL
 add_core = SWI
 add_core = GER

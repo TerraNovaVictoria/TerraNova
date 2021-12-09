@@ -382,6 +382,15 @@ repopulating_the_wastes = {
 	icon = 19
 }
 
+detribalize_the_nomads = {
+	immigrant_push = 0.75
+	population_growth = 0.001
+	assimilation_rate = 0.005
+	farm_rgo_size = 0.25
+	mine_RGO_size = 0.25
+	icon = 19
+}
+
 founding_odessa = {
 	immigrant_attract = 2
 	population_growth = 0.008

@@ -1,6 +1,7 @@
 color = { 0 49 83 } #244  232  109
-colonial_company = { 112 136 147 }
-subject = { 112 136 147 }
+subject = { 217  112  126 }
+elective_monarchy = { 217  112  126 }
+colonial_company = { 217  112  126 }
 graphical_culture = PrussianGC
 
 party = {

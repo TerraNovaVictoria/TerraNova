@@ -1,5 +1,6 @@
 color = { 170 55 93 }
 communal_republic = { 170  13  13 }
+subject = { 170  13  13 }
 graphical_culture = EuropeanGC
 
 party = {

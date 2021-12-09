@@ -1,7 +1,8 @@
 capital = 1068
 primary_culture = altai
-religion = orthodox
-government = absolute_monarchy
+culture = kazak
+religion = sunni
+government = primitive_absolute_monarchy
 plurality = 0.02
 nationalvalue = nv_order
 literacy = 0.01

@@ -1,5 +1,5 @@
-owner = TIC
-controller = TIC
+owner = SWI
+controller = SWI
 add_core = TIC
 add_core = SWI
 add_core = ITA

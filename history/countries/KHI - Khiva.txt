@@ -1,6 +1,5 @@
 capital = 1191
-primary_culture = tajik
-culture = persian
+primary_culture = persian
 culture = kazak
 religion = sunni
 government = absolute_monarchy

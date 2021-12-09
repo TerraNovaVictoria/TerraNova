@@ -52,7 +52,7 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 67890
+		size = 47890
 	}
 
 	aristocrats = {
@@ -94,7 +94,45 @@
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 49020
+		size = 29020
+	}
+}
+#StGallen
+3303 = {
+	aristocrats = {
+		culture = north_german
+		religion = protestant
+		size = 50
+	}
+
+	clergymen = {
+		culture = north_german
+		religion = protestant
+		size = 300
+	}
+
+	artisans = {
+		culture = north_german
+		religion = protestant
+		size = 1150
+	}
+
+	soldiers = {
+		culture = north_german
+		religion = protestant
+		size = 1100
+	}
+
+	farmers = {
+		culture = north_german
+		religion = protestant
+		size = 5890
+	}
+
+	farmers = {
+		culture = north_german
+		religion = catholic
+		size = 30000
 	}
 }
 #Basel (272000/68000 POPS)

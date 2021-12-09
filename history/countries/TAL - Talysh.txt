@@ -1,6 +1,5 @@
 capital = 1108
 primary_culture = persian
-culture = talysh
 religion = shiite
 government = subject
 plurality = 0.0

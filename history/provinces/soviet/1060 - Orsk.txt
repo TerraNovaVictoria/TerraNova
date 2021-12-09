@@ -1,6 +1,6 @@
-owner = KYR
-controller = KYR
-add_core = KYR
+owner = UZB
+controller = UZB
+add_core = UZB
 add_core = ORE
 trade_goods = iron
 life_rating = 35

@@ -1,7 +1,7 @@
 owner = KML
 controller = KML
 add_core = KML
-add_core = KAZ
+add_core = KYR
 add_core = CHI
 trade_goods = grain
 life_rating = 30

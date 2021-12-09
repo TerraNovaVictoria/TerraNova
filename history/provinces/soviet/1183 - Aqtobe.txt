@@ -1,6 +1,6 @@
-owner = KYR
-controller = KYR
-add_core = KYR
+owner = UZB
+controller = UZB
+add_core = UZB
 trade_goods = wool
 life_rating = 35
 colonial = 2 

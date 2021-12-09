@@ -1,5 +1,6 @@
 color = { 56 32 172 }
 primitive_absolute_monarchy = { 102 140 168 }
+ancient_regime = { 139 174 191 }
 graphical_culture = Generic
 
 party = {

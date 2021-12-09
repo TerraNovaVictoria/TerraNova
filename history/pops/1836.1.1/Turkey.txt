@@ -1105,7 +1105,13 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 10100
+		size = 7000
+	}
+	
+	farmers = {
+		culture = kurdish
+		religion = shiite
+		size = 5100
 	}
 	
 	soldiers = {
@@ -1135,7 +1141,7 @@
 	farmers = {
 		culture = turkmen
 		religion = sunni
-		size = 8930
+		size = 6930
 	}
 }
 #Hania or CHANIA (72000/18000 POPS)
@@ -1241,19 +1247,19 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 14725
+		size = 11725
 	}
 	
 	farmers = {
 		culture = turkmen
 		religion = shiite
-		size = 6000
+		size = 4000
 	}
 	
 	farmers = {
-		culture = uighur
+		culture = kurdish
 		religion = shiite
-		size = 4725
+		size = 9725
 	}
 	
 	soldiers = {
@@ -1761,7 +1767,13 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 38475
+		size = 28475
+	}
+	
+	farmers = {
+		culture = kurdish
+		religion = shiite
+		size = 10000
 	}
 	
 	farmers = {
@@ -2393,7 +2405,13 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 23000
+		size = 18000
+	}
+	
+	farmers = {
+		culture = kurdish
+		religion = shiite
+		size = 5000
 	}
 	
 	farmers = {

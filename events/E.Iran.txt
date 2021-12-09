@@ -190,7 +190,7 @@ country_event = {
 	option = { #Continue as Turkmenistan
 		name = "EVTOPT251706A"
 		TKM = { all_core = { remove_core = TKM } government = ancient_regime primary_culture = turkmen }	
-		1205 = { add_core = TKM secede_province = THIS }
+		1205 = { add_core = TKM }
 		1206 = { add_core = TKM }
 		1196 = { add_core = TKM }
 		KHR = { primary_culture = persian }
@@ -203,12 +203,14 @@ country_event = {
 			}
 			add_core = TKM
 		}
-		1116 = { add_core = TKM }
+		1196 = { add_core = TKM }
+		1206 = { add_core = TKM }
 		any_owned = {
 			limit = {
 				OR = {
 					region = PER_1136
 					region = PER_1140
+					region = PER_1137
 				}
 			}
 			add_core = FRS
@@ -222,8 +224,6 @@ country_event = {
 			secede_province = KHR
 		}
 		1212 = { add_core = KHR secede_province = KHR }
-		1204 = { add_core = KHR secede_province = KHR }
-		1116 = { add_core = KHR secede_province = KHR }
 		1211 = { secede_province = AFG }
 		any_owned = {
 			limit = {
@@ -269,7 +269,7 @@ country_event = {
 	option = { #Continue as Tabaristan
 		name = "EVTOPT251706B"
 		TKM = { all_core = { remove_core = TKM } government = ancient_regime primary_culture = turkmen }	
-		1205 = { add_core = TKM secede_province = THIS }
+		1205 = { add_core = TKM }
 		1206 = { add_core = TKM }
 		1196 = { add_core = TKM }
 		KHR = { primary_culture = persian }
@@ -282,12 +282,14 @@ country_event = {
 			}
 			add_core = TKM
 		}
-		1116 = { add_core = TKM }
+		1196 = { add_core = TKM }
+		1206 = { add_core = TKM }
 		any_owned = {
 			limit = {
 				OR = {
 					region = PER_1136
 					region = PER_1140
+					region = PER_1137
 				}
 			}
 			add_core = FRS
@@ -301,8 +303,6 @@ country_event = {
 			secede_province = KHR
 		}
 		1212 = { add_core = KHR secede_province = KHR }
-		1204 = { add_core = KHR secede_province = KHR }
-		1116 = { add_core = KHR secede_province = KHR }
 		1211 = { secede_province = AFG }
 		any_owned = {
 			limit = {
@@ -349,7 +349,7 @@ country_event = {
 	option = { #Continue as Ajam
 		name = "EVTOPT251706C"
 		TKM = { all_core = { remove_core = TKM } government = ancient_regime primary_culture = turkmen }	
-		1205 = { add_core = TKM secede_province = THIS }
+		1205 = { add_core = TKM }
 		1206 = { add_core = TKM }
 		1196 = { add_core = TKM }
 		KHR = { primary_culture = persian }
@@ -362,12 +362,14 @@ country_event = {
 			}
 			add_core = TKM
 		}
-		1116 = { add_core = TKM }
+		1196 = { add_core = TKM }
+		1206 = { add_core = TKM }
 		any_owned = {
 			limit = {
 				OR = {
 					region = PER_1136
 					region = PER_1140
+					region = PER_1137
 				}
 			}
 			add_core = FRS
@@ -381,8 +383,6 @@ country_event = {
 			secede_province = KHR
 		}
 		1212 = { add_core = KHR secede_province = KHR }
-		1204 = { add_core = KHR secede_province = KHR }
-		1116 = { add_core = KHR secede_province = KHR }
 		1211 = { secede_province = AFG }
 		any_owned = {
 			limit = {

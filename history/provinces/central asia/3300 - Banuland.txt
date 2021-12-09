@@ -1,0 +1,6 @@
+owner = FRS
+controller = FRS
+add_core = FRS
+add_core = TKM
+trade_goods = opium
+life_rating = 35

@@ -1,4 +1,4 @@
-#Khwarazm Region (40000) #see tajikistan.txt and Kazakhstan.txt for balance of region 
+#Khwarazm Region (40000) #see persianistan.txt and Kazakhstan.txt for balance of region 
 #under the rule of Khiva in 1836  
 #Dashhowuz (40000/10000 POPS) #now part of Turkmenistan  
 1196 = {
@@ -33,31 +33,31 @@
 	}
 	
 	aristocrats = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 1825
 	}
@@ -98,25 +98,25 @@
 	}
 
 	clergymen = {
-		culture = tajik
+		culture = persian
 		religion = shiite
 		size = 25
 	}
 
 	artisans = {
-		culture = tajik
+		culture = persian
 		religion = shiite
 		size = 200
 	}
 
 	soldiers = {
-		culture = tajik
+		culture = persian
 		religion = shiite
 		size = 25
 	}
 
 	farmers = {
-		culture = tajik
+		culture = persian
 		religion = shiite
 		size = 3750
 	}
@@ -154,13 +154,13 @@
 	}
 
 	artisans = {
-		culture = tajik
+		culture = persian
 		religion = shiite
 		size = 200
 	}
 
 	farmers = {
-		culture = tajik
+		culture = persian
 		religion = shiite
 		size = 700
 	}
@@ -169,31 +169,31 @@
 #Chardzhou (132000/33000 POPS)   
 1206 = {
 	aristocrats = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 25
 	}
 
 	clergymen = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 25
 	}
 
 	artisans = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 100
 	}
 
 	soldiers = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 25
 	}
 
 	farmers = {
-		culture = tajik
+		culture = persian
 		religion = sunni
 		size = 4825
 	}
@@ -263,31 +263,31 @@
 	}
 	
 	aristocrats = {
-		culture = tajik
+		culture = persian
 		religion = shiite
 		size = 50
 	}
 
 	clergymen = {
-		culture = tajik
+		culture = persian
 		religion = shiite
 		size = 50
 	}
 
 	artisans = {
-		culture = tajik
+		culture = persian
 		religion = shiite
 		size = 400
 	}
 
 	soldiers = {
-		culture = tajik
+		culture = persian
 		religion = shiite
 		size = 75
 	}
 
 	farmers = {
-		culture = tajik
+		culture = persian
 		religion = shiite
 		size = 925
 	}

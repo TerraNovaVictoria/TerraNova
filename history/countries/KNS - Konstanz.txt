@@ -1,7 +1,7 @@
 capital = 588
 primary_culture = north_german
 religion = catholic
-government = communal_republic
+government = subject
 plurality = 25.0
 nationalvalue = nv_order
 literacy = 0.8

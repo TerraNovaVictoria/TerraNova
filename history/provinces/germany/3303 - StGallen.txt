@@ -1,0 +1,8 @@
+owner = KNS
+controller = KNS
+add_core = KNS
+add_core = ZUR
+add_core = SWI
+add_core = GER
+trade_goods = grain
+life_rating = 34
