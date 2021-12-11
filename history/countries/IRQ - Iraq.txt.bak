@@ -36,10 +36,6 @@ border_policy = open_borders
 centralization = unitary
 colonial_policy = no_colonies 
 
-govt_flag = {
-	government = presidential_dictatorship
-	flag = fascist_dictatorship
-}
 
 ruling_party = IRQ_conservative
 last_election = 1834.1.1
