@@ -108,10 +108,17 @@ foreign_investment = {
 	DNN = 2000
 	IRE = 20000
 }
+
+govt_flag = {
+
+	government = absolute_monarchy
+	flag = theocracy
+	
+}
 	
 govt_flag = {
 
-	government = hms_government
+	government = prussian_constitutionalism
 	flag = theocracy
 
 }
