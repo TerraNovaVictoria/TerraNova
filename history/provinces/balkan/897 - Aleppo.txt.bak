@@ -1,12 +1,10 @@
-owner = SYR
-controller = SYR
+owner = EGY
+controller = EGY
 add_core = EGY
 add_core = SYR
-add_core = LBN
-trade_goods = iron
+trade_goods = grain
 life_rating = 35
-terrain = hills
-
+terrain = semidesert
 1861.1.1 = {
 	controller = ANA 
 	owner = ANA

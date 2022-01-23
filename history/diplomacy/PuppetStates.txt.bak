@@ -181,12 +181,6 @@ vassal = {
 }
 vassal = {
 	first = EGY
-	second = SYR
-	start_date = 1815.1.1
-	end_date = 1936.1.1
-}
-vassal = {
-	first = EGY
 	second = PAL
 	start_date = 1815.1.1
 	end_date = 1936.1.1

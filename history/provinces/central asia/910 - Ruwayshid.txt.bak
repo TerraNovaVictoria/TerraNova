@@ -1,7 +1,6 @@
 owner = PAL
 controller = PAL
 add_core = PAL
-add_core = SYR
 trade_goods = grain
 life_rating = 10
 

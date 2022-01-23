@@ -1,7 +1,6 @@
 owner = PAL
 controller = PAL
 add_core = PAL
-add_core = IRQ
 trade_goods = wool
 life_rating = 10
 terrain = desert

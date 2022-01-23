@@ -1,7 +1,8 @@
-owner = PAL
-controller = PAL
-add_core = PAL
+owner = EGY
+controller = EGY
+add_core = EGY
 add_core = SYR
+add_core = DRU
 trade_goods = grain
 life_rating = 10
 
