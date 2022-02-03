@@ -385,9 +385,17 @@ vassal = {
 }
 
 #Burgundy
-vassal = {
-	first = BAV
+substate = {
+	first = CYM
 	second = BGY
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
+
+#Flanders
+vassal = {
+	first = CYM
+	second = FLA
 	start_date = 1815.1.1
 	end_date = 1936.1.1
 }

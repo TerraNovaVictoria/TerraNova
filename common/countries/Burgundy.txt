@@ -1,6 +1,7 @@
 color = { 159 29 53 }
 absolute_monarchy = { 128 128 128 }
 subject = { 80 105 210 }
+dominion = { 210 16 52 }
 graphical_culture = FrenchGC
 
 party = {
