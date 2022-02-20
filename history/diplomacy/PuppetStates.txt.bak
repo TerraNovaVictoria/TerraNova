@@ -365,7 +365,13 @@ substate = {
 	start_date = 1815.1.1
 	end_date = 1936.1.1
 }
-
+#Kuwait/Anatolia
+substate = {
+	first = ANA
+	second = KWT
+	start_date = 1815.1.1
+	end_date = 1936.1.1
+}
 #AOG
 substate = {
 	first = GER

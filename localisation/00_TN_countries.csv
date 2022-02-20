@@ -3,6 +3,16 @@ BIE_theocracy;The Bishopric of Basel;;;;;;;;;;;;;;;;;;x;;;;
 BIE_theocracy_ADJ;Baselite;;;;;;;;;;;;;;;;;;x;;;;
 BIE_subject;The Bishopric of Basel;;;;;;;;;;;;;;;;;;x;;;;
 BIE_subject_ADJ;Baselite;;;;;;;;;;;;;;;;;;x;;;;
+KVE;Venedken;;;;;;;;;;;;;;;;;;x;;;;
+KVE_ADJ;Venedkens;;;;;;;;;;;;;;;;;;x;;;;
+KVE_subject;Nieuw-Augsburg;;;;;;;;;;;;;;;;;;x;;;;
+KVE_subject_ADJ;Nieuw-Augsburger;;;;;;;;;;;;;;;;;;x;;;;
+KVE_colonial_company;Nieuw-Augsburg;;;;;;;;;;;;;;;;;;x;;;;
+KVE_colonial_company_ADJ;Nieuw-Augsburger;;;;;;;;;;;;;;;;;;x;;;;
+KWT_primitive_absolute_monarchy;The Mutayr Sheikhdom;;;;;;;;;;;x
+KWT_primitive_absolute_monarchy_ADJ;Mutayr;;;;;;;;;;;x
+KWT;Kuwait;;;;;;;;;;;x
+KWT_ADJ;Kuwaiti;;;;;;;;;;;x
 KRP;Karapalkstan;;;;;;;;;;;;;;;;;;x;;;;
 KRP_primitive_absolute_monarchy;The Karapalk Khanate;;;;;;;;;;;;;;;;;;x;;;;
 KRP_ADJ;Karapalk;;;;;;;;;;;;;;;;;;x;;;;

@@ -1,7 +1,7 @@
 capital = 935
 primary_culture = bedouin
 religion = sunni
-government = absolute_monarchy
+government = primitive_absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.28

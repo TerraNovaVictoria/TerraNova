@@ -268,16 +268,84 @@ country_event = {
 			}
 			reduce_pop = 0.90
 		}
-		873 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
-		878 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
-		1077 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
-		876 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
-		877 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
-		866 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
-		868 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
-		879 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
-		895 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
-		874 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } 
+		873 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } }
+		878 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } }
+		1077 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } }
+		876 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } }
+		877 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } }
+		866 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } }
+		868 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } }
+		879 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } }
+		895 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } }
+		874 = { add_province_modifier = { name = detribalize_the_nomads duration = 3650 } }
+		badboy = 2.5
+		ai_chance = { factor = 100 }
+	}
+	
+}
+
+country_event = {
+	id = 121208
+	title = "EVTNAME121208" #The Mutayr Invasion
+	desc = "EVTDESC121208"
+	picture = "yoruks"
+	
+	trigger = {
+		tag = ANA
+		NOT = { exists = IRQ }
+		NOT = { exists = KWT }
+		932 = { 
+			owned_by = THIS 
+			NOT = { is_core = KWT }
+		}
+		OR = {
+			AND = {
+				ALH = { exists = yes }
+				1167 = { NOT = { owned_by = ALH } }
+			}
+			ALH = { exists = no }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	fire_only_once = yes
+	
+	immediate = {
+		935 = { add_core = KWT secede_province = KWT }
+		932 = { add_core = KWT secede_province = KWT }
+		933 = { add_core = KWT secede_province = KWT }
+		1132 = { add_core = KWT secede_province = KWT }
+		1131 = { add_core = KWT secede_province = KWT }
+	}
+	
+	option = {
+		name = "EVTOPT121208A"
+		935 = { any_pop = { militancy = 2 } }
+		932 = { any_pop = { militancy = 2 } }
+		933 = { any_pop = { militancy = 2 } }
+		1132 = { any_pop = { militancy = 2 } }
+		1131 = { any_pop = { militancy = 2 } }
+		badboy = -2.5
+		ai_chance = { factor = 100 }
+	}
+	
+	option = {
+		name = "EVTOPT121208B"
+		ANA = { release_vassal = KWT }
+		935 = { any_pop = { militancy = 4 } }
+		932 = { any_pop = { militancy = 4 } }
+		933 = { any_pop = { militancy = 4 } }
+		1132 = { any_pop = { militancy = 4 } }
+		1131 = { any_pop = { militancy = 4 } }
+		war = {
+			target = KWT
+			attacker_goal = {
+				casus_belli = conquest
+			}
+		}
 		badboy = 2.5
 		ai_chance = { factor = 100 }
 	}

@@ -17,6 +17,7 @@ VIC 	="countries/Nationalist France.txt"
 BOR		="countries/The Kingdom of France.txt"
 
 ##Terra Nova Nations
+KVE		= "countries/KleinVenedig.txt"
 KRP		= "countries/Karapalk.txt"
 KUL		= "countries/Kulob.txt"
 LAS		= "countries/Bela.txt"
