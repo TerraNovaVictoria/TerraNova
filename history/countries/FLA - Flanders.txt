@@ -1,7 +1,7 @@
 capital = 387
 primary_culture = north_german
 religion = catholic
-government = dominion
+government = absolute_monarchy
 plurality = 0.05
 nationalvalue = nv_liberty
 literacy = 0.28
@@ -67,11 +67,6 @@ basic_chemistry = 1
 experimental_railroad = 1
 high_pressure_steam_engine = 1
 interchangeable_parts = 1
-
-govt_flag = {
-	government = federal_democracy
-	flag = fascist_dictatorship
-}
 
 #Inventions
 

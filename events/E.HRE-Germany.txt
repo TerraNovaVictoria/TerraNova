@@ -39,7 +39,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPT6666101A"
-		CYM = { release_vassal = FLA }
 		FLA = { country_event = 6666105 }
 		BOH = {
 			country_event = 191810

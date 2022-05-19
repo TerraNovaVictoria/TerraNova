@@ -605,6 +605,12 @@ substate = {
 }
 substate = {
 	first = FRA
+	second = BRT
+	start_date = 1636.1.1
+	end_date = 1937.1.1
+}
+substate = {
+	first = FRA
 	second = PRO
 	start_date = 1636.1.1
 	end_date = 1937.1.1
