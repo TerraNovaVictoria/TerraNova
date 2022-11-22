@@ -1928,13 +1928,13 @@
 	aristocrats = {
 		culture = romanian
 		religion = orthodox
-		size = 4100 
+		size = 4500 
 	}
 
 	bureaucrats = {
 		culture = romanian
 		religion = orthodox
-		size = 350 
+		size = 250 
 	}
 
 	officers = {
@@ -1946,7 +1946,7 @@
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 600 
+		size = 400 
 	}
 
 	artisans = {
@@ -1964,19 +1964,25 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 81650
+		size = 59650
+	}
+	
+	farmers = {
+		culture = pecheneg
+		religion = orthodox
+		size = 3000
 	}
 	
 	slaves = {
 		culture = gypsy
 		religion = orthodox
-		size = 6967
+		size = 4967
 	}
 	
 	farmers = {
 		culture = sephardic
 		religion = jewish
-		size = 3300
+		size = 3000
 	}
 }
 #Tirgu Jiu (172000/43000 POPS)  
@@ -2170,7 +2176,13 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 62075
+		size = 52075
+	}
+	
+	farmers = {
+		culture = pecheneg
+		religion = orthodox
+		size = 4000
 	}
 	
 	clergymen = {
@@ -2182,52 +2194,71 @@
 	slaves = {
 		culture = gypsy
 		religion = orthodox
-		size = 6000
+		size = 2000
 	}
 }
 #Calarasi (140000/35000 POPS)  
 669 = {
 	aristocrats = {
+		culture = pecheneg
+		religion = orthodox
+		size = 750 
+	}
+
+	clergymen = {
+		culture = pecheneg
+		religion = orthodox
+		size = 225 
+	}
+
+	artisans = {
+		culture = pecheneg
+		religion = orthodox
+		size = 2000
+	}
+
+	soldiers = {
+		culture = pecheneg
+		religion = orthodox
+		size = 3000
+	}
+	
+	farmers = {
+		culture = pecheneg
+		religion = orthodox
+		size = 8500
+	}
+	
+	aristocrats = {
 		culture = romanian
 		religion = orthodox
-		size = 650 
+		size = 50 
 	}
 
 	clergymen = {
 		culture = romanian
 		religion = orthodox
-		size = 325 
+		size = 125 
 	}
 
 	artisans = {
 		culture = romanian
 		religion = orthodox
-		size = 1600
+		size = 600
 	}
 
 	soldiers = {
 		culture = romanian
 		religion = orthodox
-		size = 1100
+		size = 3000
 	}
-
-	artisans = {
-		culture = armenian
-		religion = coptic
-		size = 500
-	}	
 	
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 50425
+		size = 6425
 	}
 
-	slaves = {
-		culture = gypsy
-		religion = orthodox
-		size = 3000
-	}
 }
 #Moldavia Region (1356000)   
 #under the rule of Moldavia in 1836 
@@ -2278,7 +2309,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 98625
+		size = 48625
 	}
 
 	farmers = {
@@ -2294,15 +2325,15 @@
 	}
 
 	farmers = {
-		culture = romanian
+		culture = pecheneg
 		religion = orthodox
-		size = 5000
+		size = 2000
 	}
 	
 	slaves = {
 		culture = gypsy
 		religion = orthodox
-		size = 14750
+		size = 5750
 	}
 }
 #Botosani (176000/44000 POPS)  
@@ -2440,7 +2471,13 @@
 	slaves = {
 		culture = gypsy
 		religion = orthodox
-		size = 6000
+		size = 4000
+	}
+	
+	slaves = {
+		culture = pecheneg
+		religion = orthodox
+		size = 2000
 	}
 }
 #Dobruja Region (168000) #see Bulgaria.txt for balance of Region  
@@ -2628,7 +2665,7 @@
 	farmers = {
 		culture = romanian
 		religion = orthodox
-		size = 5600 
+		size = 4600 
 	}
 	
 	slaves = {
@@ -2664,7 +2701,7 @@
 	farmers = {
 		culture = anatoli
 		religion = shiite
-		size = 3500 
+		size = 500 
 	}
 	
 	farmers = {
@@ -2701,5 +2738,11 @@
 		culture = ruthenian
 		religion = orthodox
 		size = 2225
+	}
+	
+	farmers = {
+		culture = pecheneg
+		religion = orthodox
+		size = 3500
 	}
 }

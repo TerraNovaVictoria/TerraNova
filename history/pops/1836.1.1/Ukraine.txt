@@ -277,27 +277,27 @@
 	}
 
 	clergymen = {
-		culture = tatar
+		culture = pecheneg
 		religion = orthodox
 		size = 50   
 	}
 
 	artisans = {
-		culture = tatar
+		culture = pecheneg
 		religion = orthodox
 		size = 150  
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = pecheneg
 		religion = orthodox
 		size = 25
 	}
 
 	farmers = {
-		culture = tatar
+		culture = pecheneg
 		religion = orthodox
-		size = 1775 
+		size = 2775 
 	}
 	bureaucrats = {
 		culture = north_german

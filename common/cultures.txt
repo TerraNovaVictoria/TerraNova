@@ -1569,6 +1569,16 @@ turko_semitic = {
 		}
 		radicalism = 10
 	}
+	pecheneg = {
+		color = { 60 50 80}
+		first_names = {
+			Asaf Baqi Galiaskar Ismail Makhmut  Musa Rustam Yusuf
+		}
+		last_names = {
+			Amirkhanov Faysi Gizzat Ibragimov Kamal Khusainov Tinchurin Tukay Yanbayev
+		}
+		radicalism = 10
+	}
 	crimean = {
 		color = { 70 60 90}
 		first_names = {
