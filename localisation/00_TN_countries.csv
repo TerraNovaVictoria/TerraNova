@@ -913,8 +913,8 @@ KRT;Kärnten;;;;;;;;;;;;;;;;;;x;;;;
 KRT_ADJ;Kärntener;;;;;;;;;;;;;;;;;;x;;;;
 AOS;Aosta;;;;;;;;;;;;;;;;;;x;;;;
 AOS_ADJ;Aostan;;;;;;;;;;;;;;;;;;x;;;;
-KHI;Khworazm;;;;;;;;;;;;;;;;;;x;;;;
-KHI_ADJ;Khworazm;;;;;;;;;;;;;;;;;;x;;;;
+KHI;Khwarazm;;;;;;;;;;;;;;;;;;x;;;;
+KHI_ADJ;Khwarazmian;;;;;;;;;;;;;;;;;;x;;;;
 RUS_proletarian_dictatorship;The RSFSR;;;;;;;;;;;;;;;;;;;x
 SOV;The Soviet Union;;;;;;;;;;;;;;;;;;x;;;;
 SOV_absolute_monarchy;The Eurasian Empire;;;;;;;;;;;;;;;;;;x;;;;
@@ -1026,7 +1026,7 @@ BUK_absolute_monarchy;Tashkent;;;;;;;;;;;;;;;;x;;;;
 BUK;Bukhant;;;;;;;;;;;;;;;;x;;;;
 BUK_ADJ;Tashkenti;;;;;;;;;;;;;;;;x;;;;
 BUK_absolute_monarchy_ADJ;Bukhanti;;;;;;;;;;;;;;;;x;;;;
-KOK_absolute_monarchy;Kokand;;;;;;;;;;;;;;;;;;x;;;;
+KOK_absolute_monarchy;Bishkek;;;;;;;;;;;;;;;;;;x;;;;
 BDK;Badakhshan;;;;;;;;;;;;;;;;;;;;;;;;x
 BDK_ADJ;Badakhshani;;;;;;;;;;;;;;;;;;;;;;;;x
 COP;Khemi;;;;;;;;;;;;;;;;;;;;;;;;x
