@@ -1,5 +1,5 @@
-owner = GAY
-controller = GAY
+owner = JAU
+controller = JAU
 add_core = GAY
 add_core = JAU
 add_core = NEP

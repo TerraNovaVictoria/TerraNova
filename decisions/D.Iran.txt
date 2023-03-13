@@ -5,7 +5,6 @@ political_decisions = {
 		potential = {
 			NOT = { exists = TAJ }
 			OR = {
-				tag = KHI
 				tag = SMK
 				tag = BUK
 				tag = BDK
@@ -109,6 +108,32 @@ political_decisions = {
 			money = -75000
 			3296 = { secede_province = THIS change_province_name = "Amudarjabad" life_rating = 20 }
 			clr_global_flag = the_zeravshan_irrigation
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	restore_khwarazmshahdom = { 
+		picture = greater_iran
+		potential = {
+			tag = KHI
+			NOT = { has_global_flag = khwarazm_restored }
+		}
+		
+		allow = {
+			1127 = { owned_by = THIS }
+			1108 = { owned_by = THIS }
+			1199 = { owned_by = THIS }
+			1212 = { owned_by = THIS }
+			926 = { owned_by = THIS }
+		}
+		
+		effect = {
+			prestige = 50
+			government = ancient_regime
+			set_global_flag = khwarazm_restored
 		}
 		
 		ai_will_do = {

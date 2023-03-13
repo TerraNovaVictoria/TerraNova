@@ -1,11 +1,12 @@
-capital = 1202
+capital = 1189
 primary_culture = kazak
+culture = persian
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0
 nationalvalue = nv_tradition
 literacy = 0.01
-non_state_culture_literacy = 0.01
+non_state_culture_literacy = 0.07
 
 # Political reforms
 slavery = yes_slavery

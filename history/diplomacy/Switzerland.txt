@@ -1,3 +1,10 @@
+#Shinwari Empire
+vassal = {
+	first = JAU
+	second = GAY
+	start_date = 1815.1.1
+	end_date = 1838.1.1
+}
 #Zurich
 vassal = {
 	first = SWI
